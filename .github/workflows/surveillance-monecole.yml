@@ -1,0 +1,117 @@
+name: Surveillance de MonEcole
+
+on:
+  schedule:
+    # Toutes les 30 minutes.
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: surveillance-monecole
+  cancel-in-progress: true
+
+jobs:
+  verifier:
+    name: Vérifier le site et Supabase
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    env:
+      SITE_URL: https://monecoleapp.com
+      SUPABASE_URL: https://durbgghxbbhqtxncpdcq.supabase.co
+
+    steps:
+      - name: Vérifier la page d’accueil
+        shell: bash
+        run: |
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --location \
+            --retry 3 \
+            --retry-all-errors \
+            --connect-timeout 10 \
+            --max-time 30 \
+            --output /tmp/monecole-index.html \
+            "$SITE_URL/"
+
+          grep -q 'id="root"' /tmp/monecole-index.html
+          grep -q 'MonEcole' /tmp/monecole-index.html
+
+      - name: Vérifier les fichiers de l’application
+        shell: bash
+        run: |
+          mapfile -t ASSETS < <(
+            grep -oE "/[^\"']+\.(js|css)" /tmp/monecole-index.html |
+            sort -u
+          )
+
+          test "${#ASSETS[@]}" -gt 0
+
+          for asset in "${ASSETS[@]}"; do
+            echo "Vérification : $asset"
+            curl \
+              --fail \
+              --silent \
+              --show-error \
+              --location \
+              --retry 2 \
+              --connect-timeout 10 \
+              --max-time 30 \
+              --output /dev/null \
+              "$SITE_URL$asset"
+          done
+
+      - name: Vérifier l’installation de l’application
+        shell: bash
+        run: |
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --location \
+            --retry 2 \
+            --connect-timeout 10 \
+            --max-time 30 \
+            --output /tmp/manifest.webmanifest \
+            "$SITE_URL/manifest.webmanifest"
+
+          python3 - <<'PY'
+          import json
+
+          with open("/tmp/manifest.webmanifest", encoding="utf-8") as fichier:
+              manifeste = json.load(fichier)
+
+          assert manifeste.get("name") == "MonEcole"
+          assert manifeste.get("display") == "standalone"
+          assert len(manifeste.get("icons", [])) >= 2
+          PY
+
+      - name: Vérifier Supabase
+        shell: bash
+        run: |
+          curl \
+            --fail \
+            --silent \
+            --show-error \
+            --retry 3 \
+            --retry-all-errors \
+            --connect-timeout 10 \
+            --max-time 30 \
+            "$SUPABASE_URL/auth/v1/health"
+
+      - name: Résumé
+        shell: bash
+        run: |
+          {
+            echo "## ✅ MonEcole fonctionne"
+            echo ""
+            echo "- Site : $SITE_URL"
+            echo "- Application installable : disponible"
+            echo "- Supabase : disponible"
+            echo "- Vérification UTC : $(date -u +'%Y-%m-%d %H:%M:%S')"
+          } >> "$GITHUB_STEP_SUMMARY"
