@@ -94,15 +94,28 @@ jobs:
       - name: Vérifier Supabase
         shell: bash
         run: |
-          curl \
-            --fail \
+          STATUS="$(
+            curl \
             --silent \
             --show-error \
             --retry 3 \
             --retry-all-errors \
             --connect-timeout 10 \
             --max-time 30 \
+            --output /tmp/supabase-health.txt \
+            --write-out "%{http_code}" \
             "$SUPABASE_URL/auth/v1/health"
+          )"
+
+          echo "Réponse Supabase : HTTP $STATUS"
+
+          # 200 = santé publique disponible.
+          # 401 = service disponible mais endpoint protégé par une clé API.
+          if [ "$STATUS" != "200" ] && [ "$STATUS" != "401" ]; then
+            echo "Supabase ne répond pas normalement."
+            cat /tmp/supabase-health.txt
+            exit 1
+          fi
 
       - name: Résumé
         shell: bash
