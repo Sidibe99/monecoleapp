@@ -1,0 +1,75 @@
+name: Sauvegarde hebdomadaire Supabase
+
+on:
+  schedule:
+    # Chaque dimanche à 02:00 UTC.
+    - cron: "0 2 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sauvegarde-supabase
+  cancel-in-progress: false
+
+jobs:
+  sauvegarder:
+    name: Sauvegarder la base MonEcole
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+      PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+
+    steps:
+      - name: Installer l’outil Supabase
+        uses: supabase/setup-cli@v2
+        with:
+          version: 2.84.2
+          github-token: ${{ github.token }}
+
+      - name: Préparer la connexion
+        shell: bash
+        run: |
+          test -n "$SUPABASE_ACCESS_TOKEN"
+          test -n "$SUPABASE_DB_PASSWORD"
+          test -n "$PROJECT_REF"
+          supabase init --force
+          supabase link --project-ref "$PROJECT_REF"
+
+      - name: Créer la sauvegarde
+        shell: bash
+        run: |
+          DATE="$(date -u +'%Y-%m-%d_%H-%M-%S_UTC')"
+          mkdir -p sauvegardes
+
+          supabase db dump \
+            --linked \
+            --file "sauvegardes/monecole_schema_${DATE}.sql"
+
+          supabase db dump \
+            --linked \
+            --data-only \
+            --use-copy \
+            --file "sauvegardes/monecole_donnees_${DATE}.sql"
+
+          test -s "sauvegardes/monecole_schema_${DATE}.sql"
+          test -s "sauvegardes/monecole_donnees_${DATE}.sql"
+
+          {
+            echo "Projet : ${PROJECT_REF}"
+            echo "Date UTC : ${DATE}"
+            echo "Contenu : structure et données du schéma applicatif"
+            echo "Important : les fichiers Supabase Storage doivent être sauvegardés séparément."
+          } > "sauvegardes/LISEZ-MOI_${DATE}.txt"
+
+      - name: Conserver la sauvegarde pendant 30 jours
+        uses: actions/upload-artifact@v4
+        with:
+          name: monecole-sauvegarde-${{ github.run_id }}
+          path: sauvegardes/
+          if-no-files-found: error
+          retention-days: 30
