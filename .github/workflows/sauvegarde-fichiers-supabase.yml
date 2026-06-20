@@ -1,0 +1,54 @@
+name: Sauvegarde hebdomadaire des fichiers Supabase
+
+on:
+  schedule:
+    # Chaque dimanche à 03:00 UTC, après la sauvegarde de la base.
+    - cron: "0 3 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sauvegarde-fichiers-supabase
+  cancel-in-progress: false
+
+jobs:
+  sauvegarder:
+    name: Sauvegarder les photos et documents MonEcole
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+      SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+      SUPABASE_BUCKET: fichiers
+
+    steps:
+      - name: Récupérer le programme
+        uses: actions/checkout@v4
+
+      - name: Préparer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Installer la bibliothèque Supabase
+        run: npm install --no-save --no-package-lock @supabase/supabase-js@2
+
+      - name: Vérifier les secrets
+        shell: bash
+        run: |
+          test -n "$SUPABASE_PROJECT_REF"
+          test -n "$SUPABASE_SECRET_KEY"
+
+      - name: Télécharger tous les fichiers
+        run: node .github/scripts/sauvegarde-storage.mjs
+
+      - name: Conserver la sauvegarde pendant 30 jours
+        uses: actions/upload-artifact@v4
+        with:
+          name: monecole-fichiers-${{ github.run_id }}
+          path: sauvegarde-storage/
+          if-no-files-found: error
+          retention-days: 30
