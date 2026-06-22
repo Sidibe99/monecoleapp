@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v4";
+const CACHE_NAME = "monecole-vite-v5";
 const APP_SHELL = [
   "/",
   "/index.html",
@@ -8,12 +8,22 @@ const APP_SHELL = [
   "/apple-touch-icon.png"
 ];
 
+const cacheCompiledAssets = async cache => {
+  const response = await fetch("/index.html", { cache: "no-store" });
+  if (!response.ok) throw new Error("index.html indisponible");
+  const html = await response.text();
+  const assets = [...html.matchAll(/(?:src|href)="\.\/(assets\/[^"]+)"/g)]
+    .map(match => `/${match[1]}`);
+  if (assets.length) await cache.addAll([...new Set(assets)]);
+};
+
 self.addEventListener("install", event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(APP_SHELL))
-      .then(() => self.skipWaiting())
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.addAll(APP_SHELL);
+    await cacheCompiledAssets(cache);
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener("activate", event => {
