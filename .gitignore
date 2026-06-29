@@ -1,0 +1,38 @@
+# MonEcole — garder les données privées hors GitHub
+
+# Dossier de travail Codex : versions, zips, scripts SQL, rapports, outils
+outputs/
+work/
+
+# Sauvegardes et exports de base de données
+*.sql
+*.dump
+*.backup
+*.bak
+*.sqlite
+*.db
+
+# Archives générées
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Secrets et configurations locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dépendances et fichiers de build locaux
+node_modules/
+dist/
+.vite/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
