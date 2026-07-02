@@ -1,8 +1,9 @@
-const CACHE_NAME = "monecole-vite-v10";
+const CACHE_NAME = "monecole-vite-v12";
 const APP_SHELL = [
   "/",
   "/index.html",
   "/manifest.webmanifest",
+  "/version.json",
   "/icon-192.png",
   "/icon-512.png",
   "/apple-touch-icon.png"
@@ -41,6 +42,10 @@ self.addEventListener("fetch", event => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.startsWith("/rest/") || url.pathname.startsWith("/auth/") || url.pathname.startsWith("/storage/")) return;
+  if (url.pathname.endsWith("/version.json")) {
+    event.respondWith(fetch(request, { cache: "no-store" }).catch(() => caches.match("/version.json")));
+    return;
+  }
 
   if (request.mode === "navigate") {
     event.respondWith(
