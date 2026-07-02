@@ -1,4 +1,4 @@
 {
-  "version": "2026-07-02-1315-ia-formules-alertes",
-  "label": "IA et Formules : explications par abonnement, bouton vocal dégagé, alertes MonEcole au centre de l’écran"
+  "version": "2026-07-02-1455-sync-notice",
+  "label": "Synchronisation : suppression du message rouge répétitif à l’ouverture de l’app"
 }
