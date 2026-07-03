@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-03-1555-admin-essai-7-jours",
-  "label": "Correction durée essai 7 jours dans l’espace admin create",
-  "scope": "admin_create",
-  "client": false
+  "version": "2026-07-03-1610-bande-annonce-tableau",
+  "label": "Ajout d’un texte défilant sur le tableau de bord",
+  "scope": "client",
+  "client": true
 }
