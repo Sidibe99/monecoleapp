@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-02-2105-modeles-messages-documents",
-  "label": "Modèles complets pour messages parents et documents",
-  "scope": "client",
-  "client": true
+  "version": "2026-07-03-1555-admin-essai-7-jours",
+  "label": "Correction durée essai 7 jours dans l’espace admin create",
+  "scope": "admin_create",
+  "client": false
 }
