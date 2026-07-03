@@ -1,4 +1,6 @@
 {
-  "version": "2026-07-02-2035-formules-annuel-limites",
-  "label": "Formules : mensuel, annuel, réductions et limites configurables"
+  "version": "2026-07-02-2105-modeles-messages-documents",
+  "label": "Modèles complets pour messages parents et documents",
+  "scope": "client",
+  "client": true
 }
