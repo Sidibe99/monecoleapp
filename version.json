@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-03-1610-bande-annonce-tableau",
-  "label": "Ajout d’un texte défilant sur le tableau de bord",
+  "version": "2026-07-04-texte-defilant-par-role-bilingue",
+  "label": "Texte défilant adapté au rôle et à la langue",
   "scope": "client",
   "client": true
 }
