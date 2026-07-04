@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-04-texte-defilant-par-role-bilingue",
-  "label": "Texte défilant adapté au rôle et à la langue",
+  "version": "2026-07-04-texte-defilant-ralenti",
+  "label": "Texte défilant ralenti et lisible",
   "scope": "client",
   "client": true
 }
