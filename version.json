@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-04-texte-defilant-ralenti",
-  "label": "Texte défilant ralenti et lisible",
+  "version": "2026-07-04-defilement-intelligent",
+  "label": "Texte défilant intelligent par rôle",
   "scope": "client",
   "client": true
 }
