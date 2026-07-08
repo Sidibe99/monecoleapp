@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-04-defilement-activite-claire",
-  "label": "Texte défilant avec activité claire",
+  "version": "2026-07-08-dictionnaire-google",
+  "label": "Dictionnaire relié à Google",
   "scope": "client",
   "client": true
 }
