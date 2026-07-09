@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-maj-cache-fiable",
-  "label": "Mise à jour cache fiable",
+  "version": "2026-07-09-js-v34-cache-bust",
+  "label": "Correction écran blanc mise à jour",
   "scope": "client",
   "client": true
 }
