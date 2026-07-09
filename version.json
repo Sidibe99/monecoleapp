@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-reduction-decimale",
-  "label": "Réduction décimale acceptée",
+  "version": "2026-07-09-dictionnaire-global-ia",
+  "label": "Dictionnaire global et choix IA",
   "scope": "client",
   "client": true
 }

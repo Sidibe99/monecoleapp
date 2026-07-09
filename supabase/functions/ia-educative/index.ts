@@ -1,5 +1,5 @@
 type IaRequest = {
-  mode?: "exercices" | "assistant";
+  mode?: "dictionnaire" | "exercices" | "assistant";
   niveau?: string;
   matiere?: string;
   type?: "exercice" | "quiz" | "devoir";
@@ -21,6 +21,19 @@ const localFallback = (body: IaRequest) => {
   const niveau = clean(body.niveau, "Primaire");
   const matiere = clean(body.matiere, "Francais");
   const type = clean(body.type, "exercice");
+
+  if (body.mode === "dictionnaire") {
+    return `Definition IA - ${sujet}
+
+Definition simple :
+${sujet} est un mot important du vocabulaire scolaire. Il doit etre explique avec des mots simples et un exemple concret.
+
+Exemple scolaire :
+Le professeur utilise "${sujet}" dans une phrase pour aider les eleves a comprendre le sens du mot.
+
+Mots proches :
+mot lie, notion proche, vocabulaire du cours.`;
+  }
 
   if (body.mode === "assistant") {
     return `Preparation rapide de cours - ${matiere} (${niveau})
@@ -87,6 +100,10 @@ const buildPrompt = (body: IaRequest) => {
 
   if (body.mode === "assistant") {
     return `Tu aides un professeur de ${ecole}. Prepare une fiche de cours en francais pour ${niveau}, matiere ${matiere}, sujet "${sujet}". Structure la reponse avec : objectif, introduction, explication, activite en classe, evaluation rapide, devoir. Reste concret, scolaire et directement utilisable.`;
+  }
+
+  if (body.mode === "dictionnaire") {
+    return `Tu enrichis le dictionnaire scolaire global MonEcole. Pour le mot "${sujet}", donne une reponse en francais simple avec exactement ces rubriques : Definition simple, Exemple scolaire, Synonymes ou mots proches, Traduction arabe si possible, Niveau conseille, Matiere conseillee. Le texte doit etre fiable, court, clair et adapte a une ecole.`;
   }
 
   return `Tu aides un professeur de ${ecole}. Cree un ${clean(body.type, "exercice")} en francais pour ${niveau}, matiere ${matiere}, sujet "${sujet}". Donne un titre, un objectif, 5 questions adaptees au niveau et une correction indicative courte.`;
