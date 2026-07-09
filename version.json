@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-boot-diagnostic-v37",
-  "label": "Correction du chargement",
+  "version": "2026-07-09-save-etablissement-v38",
+  "label": "Correction enregistrement établissement",
   "scope": "client",
   "client": true
 }
