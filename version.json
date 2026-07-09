@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-reset-cache-page",
-  "label": "Page de nettoyage cache",
+  "version": "2026-07-09-boot-diagnostic-v37",
+  "label": "Correction du chargement",
   "scope": "client",
   "client": true
 }

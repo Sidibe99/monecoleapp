@@ -22,7 +22,35 @@
     />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Sora:wght@600;700;800&display=swap" /></noscript>
     <title>MonEcole — Gestion scolaire</title>
-    <script type="module" crossorigin src="./assets/index-monecole-v34.js"></script>
+    <script>
+      window.__ME_BOOT_ERROR__ = function(message) {
+        try {
+          var existing = document.getElementById("me-boot-error");
+          if (existing) existing.remove();
+          var box = document.createElement("div");
+          box.id = "me-boot-error";
+          box.style.cssText = "position:fixed;left:16px;right:16px;bottom:16px;z-index:99999;background:#fff1f2;border:1px solid #fecaca;color:#991b1b;border-radius:12px;padding:12px 14px;font-family:Arial,sans-serif;font-size:12px;line-height:1.45;box-shadow:0 12px 40px rgba(0,0,0,.18);white-space:pre-wrap";
+          box.textContent = "Erreur de démarrage MonEcole :\n" + message;
+          document.body.appendChild(box);
+        } catch (error) {}
+      };
+      window.addEventListener("error", function(event) {
+        window.__ME_BOOT_ERROR__((event.message || "Erreur inconnue") + "\n" + (event.filename || "") + ":" + (event.lineno || ""));
+      });
+      window.addEventListener("unhandledrejection", function(event) {
+        var reason = event.reason;
+        window.__ME_BOOT_ERROR__((reason && (reason.stack || reason.message)) || String(reason || "Promesse rejetée"));
+      });
+      window.addEventListener("load", function() {
+        setTimeout(function() {
+          var root = document.getElementById("root");
+          if (root && root.textContent && root.textContent.indexOf("Chargement de MonEcole") !== -1) {
+            window.__ME_BOOT_ERROR__("Le fichier de l'application ne s'est pas lancé. Vérifiez que assets/index-monecole-v37.js est bien publié avec index.html.");
+          }
+        }, 8000);
+      });
+    </script>
+    <script type="module" crossorigin src="./assets/index-monecole-v37.js?v=20260709-1738"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-DrXaMgYu.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-Buf76L6m.js">
     <link rel="stylesheet" crossorigin href="./assets/index-DHhu19Sh.css">
