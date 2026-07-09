@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MonEcole — Nettoyage</title>
+    <style>
+      body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:linear-gradient(135deg,#eef2f7,#dbeafe);font-family:Arial,sans-serif;color:#0f172a}
+      section{width:min(480px,100%);background:#fff;border:1px solid #bfdbfe;border-radius:20px;padding:28px;text-align:center;box-shadow:0 24px 70px rgba(15,23,42,.18)}
+      h1{font-size:22px;margin:12px 0 8px}
+      p{font-size:14px;line-height:1.6;color:#64748b}
+      button,a{display:inline-block;border:0;border-radius:11px;padding:12px 16px;background:#1a56db;color:#fff;font-weight:800;font-size:14px;text-decoration:none;cursor:pointer}
+      .secondary{background:#f1f5f9;color:#334155;margin-left:8px}
+      #status{margin-top:14px;font-size:12px;color:#64748b}
+    </style>
+  </head>
+  <body>
+    <section>
+      <div style="font-size:42px">🛠️</div>
+      <h1>Nettoyer l’ancienne version</h1>
+      <p>Cette page supprime le cache MonEcole et relance l’application proprement. Les données Supabase ne sont pas supprimées.</p>
+      <button id="clean">Nettoyer et relancer</button>
+      <a class="secondary" href="./">Retour</a>
+      <div id="status"></div>
+    </section>
+    <script>
+      async function cleanAndGo() {
+        const status = document.getElementById("status");
+        status.textContent = "Nettoyage en cours…";
+        try {
+          if ("serviceWorker" in navigator) {
+            const regs = await navigator.serviceWorker.getRegistrations();
+            await Promise.all(regs.map(reg => reg.unregister()));
+          }
+          if ("caches" in window) {
+            const keys = await caches.keys();
+            await Promise.all(keys.filter(key => key.startsWith("monecole-")).map(key => caches.delete(key)));
+          }
+          try {
+            localStorage.removeItem("monecole_pending_version");
+            localStorage.removeItem("monecole_pending_label");
+            localStorage.removeItem("monecole_pending_client_update");
+            localStorage.removeItem("monecole_app_version");
+          } catch {}
+          status.textContent = "Terminé. Relance…";
+          location.replace("./?clean=" + Date.now());
+        } catch (error) {
+          status.textContent = "Nettoyage partiel. Rechargez la page.";
+          setTimeout(() => location.replace("./?clean=" + Date.now()), 1200);
+        }
+      }
+      document.getElementById("clean").addEventListener("click", cleanAndGo);
+      setTimeout(cleanAndGo, 600);
+    </script>
+  </body>
+</html>

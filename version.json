@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-js-v34-cache-bust",
-  "label": "Correction écran blanc mise à jour",
+  "version": "2026-07-09-reset-cache-page",
+  "label": "Page de nettoyage cache",
   "scope": "client",
   "client": true
 }

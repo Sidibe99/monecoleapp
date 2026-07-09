@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v35";
+const CACHE_NAME = "monecole-vite-v36";
 const APP_SHELL = [
   "/",
   "/index.html",
@@ -49,7 +49,7 @@ self.addEventListener("fetch", event => {
 
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request)
+      fetch(request, { cache: "no-store" })
         .then(response => {
           const copy = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put("/index.html", copy));
