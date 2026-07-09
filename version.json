@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-save-etablissement-v38",
-  "label": "Correction enregistrement établissement",
+  "version": "2026-07-09-notes-professeur-v40",
+  "label": "Verrou professeur pour les notes",
   "scope": "client",
   "client": true
 }
