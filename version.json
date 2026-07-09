@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-notes-professeur-v40",
-  "label": "Verrou professeur pour les notes",
+  "version": "2026-07-09-fiche-notes-dialog-v41",
+  "label": "Fenetre centrale pour imprimer les fiches de notes",
   "scope": "client",
   "client": true
 }
