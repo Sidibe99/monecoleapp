@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-mode-calcul-visible",
-  "label": "Mode de calcul annuel visible",
+  "version": "2026-07-09-maj-cache-fiable",
+  "label": "Mise à jour cache fiable",
   "scope": "client",
   "client": true
 }
