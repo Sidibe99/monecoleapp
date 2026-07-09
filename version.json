@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-fiche-notes-dialog-v41",
-  "label": "Fenetre centrale pour imprimer les fiches de notes",
+  "version": "2026-07-09-fiche-notes-titre-v42",
+  "label": "Titre propre pour fiche de notes toutes matieres",
   "scope": "client",
   "client": true
 }
