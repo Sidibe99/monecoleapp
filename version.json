@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-08-dictionnaire-google",
-  "label": "Dictionnaire relié à Google",
+  "version": "2026-07-09-reduction-decimale",
+  "label": "Réduction décimale acceptée",
   "scope": "client",
   "client": true
 }
