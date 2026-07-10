@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-09-fiche-notes-titre-v42",
-  "label": "Titre propre pour fiche de notes toutes matieres",
+  "version": "2026-07-10-dictionnaire-import-generation-v43",
+  "label": "Import dictionnaire et generation de definitions",
   "scope": "client",
   "client": true
 }
