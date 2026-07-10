@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-10-dictionnaire-import-generation-v43",
-  "label": "Import dictionnaire et generation de definitions",
+  "version": "2026-07-10-reinscription-classe-precedente-v44",
+  "label": "Reinscription avec classe precedente et recherche automatique",
   "scope": "client",
   "client": true
 }
