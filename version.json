@@ -1,6 +1,6 @@
 {
-  "version": "2026-07-10-reinscription-classe-precedente-v44",
-  "label": "Reinscription avec classe precedente et recherche automatique",
+  "version": "2026-07-10-rls-phase2-editeur-securise-v46",
+  "label": "Phase 2 RLS avec espace editeur securise",
   "scope": "client",
   "client": true
 }
