@@ -88,10 +88,8 @@ as $$
   select coalesce(to_jsonb(c.langues), '["fr"]'::jsonb)
   from public.codes_activation c
   where c.code = upper(trim(p_code))
-    and coalesce(c.utilise, false) = false
   limit 1
 $$;
 
 revoke all on function public.get_activation_code_langues(text) from public;
 grant execute on function public.get_activation_code_langues(text) to anon, authenticated;
-
