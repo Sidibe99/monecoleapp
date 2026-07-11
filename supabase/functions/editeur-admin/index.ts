@@ -168,10 +168,13 @@ Deno.serve(async (req) => {
         // La table sessions est optionnelle pour les anciennes bases.
       }
 
+      const nowIso = new Date().toISOString();
       const enriched = (ecoles || []).map((ecole) => {
         const schoolId = Number(ecole.id);
-        const lastSeen = lastSeenBySchool.get(schoolId) || null;
-        const inactiveDays = daysSince(lastSeen);
+        const activeSessions = activeSessionsBySchool.get(schoolId) || 0;
+        const rawLastSeen = lastSeenBySchool.get(schoolId) || null;
+        const lastSeen = activeSessions > 0 ? nowIso : rawLastSeen;
+        const inactiveDays = activeSessions > 0 ? 0 : daysSince(lastSeen);
         const expiresIn = ecole.abonnement_expire_le ? -daysSince(ecole.abonnement_expire_le) : null;
         const eleves = elevesBySchool.get(schoolId) || 0;
         const classes = classesBySchool.get(schoolId) || 0;
@@ -188,6 +191,9 @@ Deno.serve(async (req) => {
           status = "blocked";
           label = "Abonnement expiré";
           alerts.push("Abonnement expiré");
+        } else if (activeSessions > 0) {
+          status = "ok";
+          label = "Connectée maintenant";
         } else if (inactiveDays === null) {
           status = "watch";
           label = "Aucune connexion suivie";
@@ -213,7 +219,7 @@ Deno.serve(async (req) => {
             label,
             last_seen_at: lastSeen,
             inactive_days: inactiveDays,
-            active_sessions: activeSessionsBySchool.get(schoolId) || 0,
+            active_sessions: activeSessions,
             eleves,
             classes,
             utilisateurs,
