@@ -1,7 +1,7 @@
 {
-  "version": "v56",
+  "version": "v57",
   "date": "2026-07-12",
-  "note": "Fiche vierge visible dans la barre latérale, même sans option Documents.",
-  "label": "Fiche vierge restaurée",
-  "updated_at": "2026-07-12T11:25:00.000Z"
+  "note": "Aperçu des documents affiché devant la fiche élève dans le centre de documents.",
+  "label": "Aperçu document au premier plan",
+  "updated_at": "2026-07-12T14:03:00.000Z"
 }
