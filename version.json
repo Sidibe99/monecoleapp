@@ -1,7 +1,7 @@
 {
-  "version": "v59",
+  "version": "v60",
   "date": "2026-07-12",
-  "note": "Définitions IA améliorées pour les mots hors dictionnaire et bouton de génération unique.",
-  "label": "Définitions IA améliorées",
-  "updated_at": "2026-07-12T18:23:00.000Z"
+  "note": "Thèmes enrichis, plus lisibles et plus adaptables aux écrans et au mode clair/sombre.",
+  "label": "Thèmes améliorés",
+  "updated_at": "2026-07-12T18:38:00.000Z"
 }
