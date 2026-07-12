@@ -1,7 +1,7 @@
 {
-  "version": "v57",
+  "version": "v58",
   "date": "2026-07-12",
-  "note": "Aperçu des documents affiché devant la fiche élève dans le centre de documents.",
-  "label": "Aperçu document au premier plan",
-  "updated_at": "2026-07-12T14:03:00.000Z"
+  "note": "Dictionnaire IA nettoyé : une seule zone de définition générée et liste des mots plus lisible.",
+  "label": "Dictionnaire IA simplifié",
+  "updated_at": "2026-07-12T15:48:00.000Z"
 }
