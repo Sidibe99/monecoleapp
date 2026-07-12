@@ -1,7 +1,7 @@
 {
-  "version": "v55",
+  "version": "v56",
   "date": "2026-07-12",
-  "note": "Connexion hors ligne sécurisée après une première connexion réussie sur l'appareil.",
-  "label": "Accès hors connexion sécurisé",
-  "updated_at": "2026-07-12T11:06:00.000Z"
+  "note": "Fiche vierge visible dans la barre latérale, même sans option Documents.",
+  "label": "Fiche vierge restaurée",
+  "updated_at": "2026-07-12T11:25:00.000Z"
 }
