@@ -1,7 +1,7 @@
 {
-  "version": "v58",
+  "version": "v59",
   "date": "2026-07-12",
-  "note": "Dictionnaire IA nettoyé : une seule zone de définition générée et liste des mots plus lisible.",
-  "label": "Dictionnaire IA simplifié",
-  "updated_at": "2026-07-12T15:48:00.000Z"
+  "note": "Définitions IA améliorées pour les mots hors dictionnaire et bouton de génération unique.",
+  "label": "Définitions IA améliorées",
+  "updated_at": "2026-07-12T18:23:00.000Z"
 }
