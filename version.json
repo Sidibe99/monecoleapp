@@ -1,7 +1,7 @@
 {
-  "version": "v54",
+  "version": "v55",
   "date": "2026-07-12",
-  "note": "Dictionnaire IA: vraie définition affichée avant l'explication simple.",
-  "label": "Définitions IA améliorées",
-  "updated_at": "2026-07-12T00:08:00.000Z"
+  "note": "Connexion hors ligne sécurisée après une première connexion réussie sur l'appareil.",
+  "label": "Accès hors connexion sécurisé",
+  "updated_at": "2026-07-12T11:06:00.000Z"
 }
