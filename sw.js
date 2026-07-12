@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v53";
+const CACHE_NAME = "monecole-vite-v54";
 const APP_SHELL = [
   "/",
   "/index.html",

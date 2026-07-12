@@ -1,7 +1,7 @@
 {
-  "version": "v53",
-  "date": "2026-07-11",
-  "note": "Suivi des écoles: connexion affichée en temps quasi réel.",
-  "label": "Définition IA visible dans le dictionnaire",
-  "updated_at": "2026-07-11T23:39:35.221Z"
+  "version": "v54",
+  "date": "2026-07-12",
+  "note": "Dictionnaire IA: vraie définition affichée avant l'explication simple.",
+  "label": "Définitions IA améliorées",
+  "updated_at": "2026-07-12T00:08:00.000Z"
 }
