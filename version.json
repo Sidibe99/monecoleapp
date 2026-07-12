@@ -1,7 +1,7 @@
 {
-  "version": "v60",
+  "version": "v61",
   "date": "2026-07-12",
-  "note": "Thèmes enrichis, plus lisibles et plus adaptables aux écrans et au mode clair/sombre.",
-  "label": "Thèmes améliorés",
-  "updated_at": "2026-07-12T18:38:00.000Z"
+  "note": "Polissage visuel global : fond plus sobre, cartes allégées, barre latérale et modales plus professionnelles.",
+  "label": "Interface polie",
+  "updated_at": "2026-07-12T19:42:00.000Z"
 }
