@@ -5,6 +5,7 @@ type IaRequest = {
   type?: "exercice" | "quiz" | "devoir";
   sujet?: string;
   ecole?: string;
+  langue?: "fr" | "ar";
 };
 
 const corsHeaders = {
@@ -153,13 +154,40 @@ const buildPrompt = (body: IaRequest) => {
   const niveau = clean(body.niveau, "Primaire");
   const matiere = clean(body.matiere, "Francais");
   const ecole = clean(body.ecole, "l'ecole");
+  const langue = clean(body.langue, "fr");
 
   if (body.mode === "assistant") {
     return `Tu aides un professeur de ${ecole}. Prepare une fiche de cours en francais pour ${niveau}, matiere ${matiere}, sujet "${sujet}". Structure la reponse avec : objectif, introduction, explication, activite en classe, evaluation rapide, devoir. Reste concret, scolaire et directement utilisable.`;
   }
 
   if (body.mode === "dictionnaire") {
-    return `Tu enrichis le dictionnaire scolaire global MonEcole. Pour le mot "${sujet}", donne une vraie definition en francais simple, fiable et scolaire. Commence toujours par la rubrique "Definition :" avec une definition de dictionnaire, pas une phrase vague. Puis ajoute exactement : "Explication simple :", "Exemple scolaire :", "Synonymes ou mots proches :", "Traduction arabe si possible :", "Niveau conseille :", "Matiere conseillee :". Si le mot est une forme conjuguee, explique le verbe de base et le temps. Si le sens depend du contexte, indique le sens scolaire le plus courant et precise qu il peut varier.`;
+    return `Tu es la vraie IA dictionnaire de MonEcole, utilisee par des ecoles.
+
+Objectif : definir correctement n'importe quel mot ou expression, meme si ce mot n'existe pas dans la base locale de l'application.
+
+Mot ou expression a definir : "${sujet}"
+Niveau scolaire : ${niveau}
+Matiere probable : ${matiere}
+Langue de reponse : ${langue === "ar" ? "arabe simple" : "francais simple"}
+
+Regles obligatoires :
+- Commence toujours par "Definition :" avec une vraie definition de dictionnaire.
+- Ne reponds jamais avec une phrase vague du type "mot important", "mot a expliquer selon le contexte", "notion a completer".
+- Si le mot a plusieurs sens, donne le sens scolaire le plus courant puis indique "Autre sens possible".
+- Si c'est une forme conjuguee, indique le verbe de base, le temps, la personne, puis le sens.
+- Si c'est une expression, explique son sens global, pas seulement chaque mot separement.
+- Si c'est un nom propre ou un terme peu connu, reponds prudemment et dis clairement ce qui est certain.
+- Reste court, fiable, pedagogique, adapte aux eleves et utilisable dans un dictionnaire scolaire.
+
+Format exact a respecter :
+Definition :
+Explication simple :
+Exemple scolaire :
+Synonymes ou mots proches :
+Nature du mot :
+Traduction arabe si possible :
+Niveau conseille :
+Matiere conseillee :`;
   }
 
   return `Tu aides un professeur de ${ecole}. Cree un ${clean(body.type, "exercice")} en francais pour ${niveau}, matiere ${matiere}, sujet "${sujet}". Donne un titre, un objectif, 5 questions adaptees au niveau et une correction indicative courte.`;
@@ -187,6 +215,16 @@ Deno.serve(async (req) => {
 
   const apiKey = Deno.env.get("OPENAI_API_KEY");
   if (!apiKey) {
+    if (body.mode === "dictionnaire") {
+      return Response.json(
+        {
+          error: "IA connectee non configuree. Ajoutez le secret OPENAI_API_KEY dans Supabase pour generer n'importe quel mot.",
+          texte: "",
+          source: "missing_openai_key",
+        },
+        { status: 503, headers: corsHeaders },
+      );
+    }
     return Response.json({ texte: localFallback(body), source: "fallback" }, { headers: corsHeaders });
   }
 
@@ -198,16 +236,27 @@ Deno.serve(async (req) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: Deno.env.get("OPENAI_MODEL") || "gpt-4.1-mini",
+        model: Deno.env.get("OPENAI_MODEL") || "gpt-5.6-terra",
         input: buildPrompt(body),
-        temperature: 0.4,
-        max_output_tokens: 900,
+        temperature: body.mode === "dictionnaire" ? 0.15 : 0.4,
+        max_output_tokens: body.mode === "dictionnaire" ? 1200 : 900,
       }),
     });
 
     const result = await response.json();
     if (!response.ok) {
       console.error("OpenAI error", result);
+      if (body.mode === "dictionnaire") {
+        return Response.json(
+          {
+            error: "La vraie IA dictionnaire n'a pas pu repondre.",
+            details: result?.error?.message || "Erreur OpenAI",
+            texte: "",
+            source: "openai_error",
+          },
+          { status: 502, headers: corsHeaders },
+        );
+      }
       return Response.json({ texte: localFallback(body), source: "fallback" }, { headers: corsHeaders });
     }
 
@@ -218,9 +267,26 @@ Deno.serve(async (req) => {
         ?.join("\n")
         ?.trim();
 
+    if (body.mode === "dictionnaire" && !texte) {
+      return Response.json(
+        { error: "Reponse IA vide.", texte: "", source: "empty_openai_response" },
+        { status: 502, headers: corsHeaders },
+      );
+    }
+
     return Response.json({ texte: texte || localFallback(body), source: texte ? "openai" : "fallback" }, { headers: corsHeaders });
   } catch (error) {
     console.error("ia-educative failed", error);
+    if (body.mode === "dictionnaire") {
+      return Response.json(
+        {
+          error: "La vraie IA dictionnaire est momentanement indisponible.",
+          texte: "",
+          source: "function_error",
+        },
+        { status: 502, headers: corsHeaders },
+      );
+    }
     return Response.json({ texte: localFallback(body), source: "fallback" }, { headers: corsHeaders });
   }
 });
