@@ -1,9 +1,9 @@
 {
-  "version": "v69",
+  "version": "v70",
   "date": "2026-07-13",
-  "note": "Conditions d'utilisation complétées avec un engagement de confiance et de protection des données.",
-  "label": "Conditions d'utilisation renforcées",
+  "note": "Lisibilité améliorée pour le thème Graphite et les cartes du tableau de bord en affichage sombre.",
+  "label": "Lisibilité des thèmes sombres",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-13T10:05:00.000Z"
+  "updated_at": "2026-07-13T11:30:00.000Z"
 }
