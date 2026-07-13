@@ -193,6 +193,84 @@ Matiere conseillee :`;
   return `Tu aides un professeur de ${ecole}. Cree un ${clean(body.type, "exercice")} en francais pour ${niveau}, matiere ${matiere}, sujet "${sujet}". Donne un titre, un objectif, 5 questions adaptees au niveau et une correction indicative courte.`;
 };
 
+const extractOpenAiText = (result: any) =>
+  result.output_text ||
+  result.output?.flatMap((item: any) => item.content || [])
+    ?.map((part: any) => part.text || "")
+    ?.join("\n")
+    ?.trim();
+
+const extractGeminiText = (result: any) =>
+  result.output_text ||
+  result.steps?.flatMap((step: any) => step.content || [])
+    ?.map((part: any) => part.text || part.content || "")
+    ?.join("\n")
+    ?.trim() ||
+  result.candidates?.[0]?.content?.parts
+    ?.map((part: any) => part.text || "")
+    ?.join("\n")
+    ?.trim();
+
+const callGemini = async (body: IaRequest) => {
+  const apiKey = Deno.env.get("GEMINI_API_KEY");
+  if (!apiKey) return null;
+
+  const model = clean(Deno.env.get("GEMINI_MODEL"), "gemini-2.5-flash").replace(/^models\//, "");
+  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      contents: [
+        {
+          role: "user",
+          parts: [{ text: buildPrompt(body) }],
+        },
+      ],
+      generationConfig: {
+        temperature: body.mode === "dictionnaire" ? 0.15 : 0.4,
+        maxOutputTokens: body.mode === "dictionnaire" ? 1200 : 900,
+      },
+    }),
+  });
+
+  const result = await response.json();
+  if (!response.ok) {
+    console.error("Gemini error", result);
+    throw new Error(result?.error?.message || "Erreur Gemini");
+  }
+
+  return extractGeminiText(result);
+};
+
+const callOpenAi = async (body: IaRequest) => {
+  const apiKey = Deno.env.get("OPENAI_API_KEY");
+  if (!apiKey) return null;
+
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: Deno.env.get("OPENAI_MODEL") || "gpt-4.1",
+      input: buildPrompt(body),
+      temperature: body.mode === "dictionnaire" ? 0.15 : 0.4,
+      max_output_tokens: body.mode === "dictionnaire" ? 1200 : 900,
+    }),
+  });
+
+  const result = await response.json();
+  if (!response.ok) {
+    console.error("OpenAI error", result);
+    throw new Error(result?.error?.message || "Erreur OpenAI");
+  }
+
+  return extractOpenAiText(result);
+};
+
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
@@ -213,14 +291,15 @@ Deno.serve(async (req) => {
     return Response.json({ error: "Sujet obligatoire." }, { status: 400, headers: corsHeaders });
   }
 
-  const apiKey = Deno.env.get("OPENAI_API_KEY");
-  if (!apiKey) {
+  const hasGemini = !!Deno.env.get("GEMINI_API_KEY");
+  const hasOpenAi = !!Deno.env.get("OPENAI_API_KEY");
+  if (!hasGemini && !hasOpenAi) {
     if (body.mode === "dictionnaire") {
       return Response.json(
         {
-          error: "IA connectee non configuree. Ajoutez le secret OPENAI_API_KEY dans Supabase pour generer n'importe quel mot.",
+          error: "IA connectee non configuree. Ajoutez le secret GEMINI_API_KEY dans Supabase pour generer n'importe quel mot.",
           texte: "",
-          source: "missing_openai_key",
+          source: "missing_ai_key",
         },
         { status: 503, headers: corsHeaders },
       );
@@ -229,52 +308,48 @@ Deno.serve(async (req) => {
   }
 
   try {
-    const response = await fetch("https://api.openai.com/v1/responses", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: Deno.env.get("OPENAI_MODEL") || "gpt-4.1",
-        input: buildPrompt(body),
-        temperature: body.mode === "dictionnaire" ? 0.15 : 0.4,
-        max_output_tokens: body.mode === "dictionnaire" ? 1200 : 900,
-      }),
-    });
+    let texte = "";
+    let source = "";
+    let lastError = "";
 
-    const result = await response.json();
-    if (!response.ok) {
-      console.error("OpenAI error", result);
-      if (body.mode === "dictionnaire") {
-        return Response.json(
-          {
-            error: "La vraie IA dictionnaire n'a pas pu repondre.",
-            details: result?.error?.message || "Erreur OpenAI",
-            texte: "",
-            source: "openai_error",
-          },
-          { status: 502, headers: corsHeaders },
-        );
+    if (hasGemini) {
+      try {
+        texte = (await callGemini(body)) || "";
+        source = "gemini";
+      } catch (error) {
+        lastError = error instanceof Error ? error.message : "Erreur Gemini";
       }
-      return Response.json({ texte: localFallback(body), source: "fallback" }, { headers: corsHeaders });
     }
 
-    const texte =
-      result.output_text ||
-      result.output?.flatMap((item: any) => item.content || [])
-        ?.map((part: any) => part.text || "")
-        ?.join("\n")
-        ?.trim();
+    if (!texte && hasOpenAi) {
+      try {
+        texte = (await callOpenAi(body)) || "";
+        source = "openai";
+      } catch (error) {
+        lastError = error instanceof Error ? error.message : lastError || "Erreur IA";
+      }
+    }
 
-    if (body.mode === "dictionnaire" && !texte) {
+    if (!texte && body.mode === "dictionnaire") {
       return Response.json(
-        { error: "Reponse IA vide.", texte: "", source: "empty_openai_response" },
+        {
+          error: "La vraie IA dictionnaire n'a pas pu repondre.",
+          details: lastError || "Reponse IA vide",
+          texte: "",
+          source: hasGemini ? "gemini_error" : "openai_error",
+        },
         { status: 502, headers: corsHeaders },
       );
     }
 
-    return Response.json({ texte: texte || localFallback(body), source: texte ? "openai" : "fallback" }, { headers: corsHeaders });
+    if (body.mode === "dictionnaire" && !texte) {
+      return Response.json(
+        { error: "Reponse IA vide.", texte: "", source: "empty_ai_response" },
+        { status: 502, headers: corsHeaders },
+      );
+    }
+
+    return Response.json({ texte: texte || localFallback(body), source: texte ? source : "fallback" }, { headers: corsHeaders });
   } catch (error) {
     console.error("ia-educative failed", error);
     if (body.mode === "dictionnaire") {
