@@ -16,6 +16,42 @@ const corsHeaders = {
 const clean = (value: unknown, fallback = "") =>
   String(value || fallback).trim().slice(0, 220);
 
+const normalizeWord = (value: string) =>
+  value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+const dictionaryFallbacks: Record<string, { def: string; exp: string; ex: string; syn: string }> = {
+  va: {
+    def: '"Va" est une forme conjuguee du verbe "aller", a la troisieme personne du singulier du present de l indicatif.',
+    exp: "On l utilise pour dire qu une personne se deplace, se rend quelque part, ou qu une situation se passe d une certaine maniere.",
+    ex: "Il va a l ecole chaque matin.",
+    syn: "se rend, part, marche",
+  },
+  aller: {
+    def: "Aller signifie se deplacer vers un lieu ou se rendre quelque part.",
+    exp: "On l utilise aussi pour parler de l etat d une personne ou du deroulement d une situation.",
+    ex: "Les eleves vont en classe.",
+    syn: "se rendre, partir, marcher",
+  },
+  manger: {
+    def: "Manger signifie prendre des aliments par la bouche pour se nourrir.",
+    exp: "C est une action necessaire pour donner de l energie au corps.",
+    ex: "L eleve mange du riz a midi.",
+    syn: "se nourrir, consommer",
+  },
+  eau: {
+    def: "L eau est un liquide naturel, transparent et indispensable a la vie.",
+    exp: "Les etres humains, les animaux et les plantes ont besoin d eau pour vivre.",
+    ex: "Il faut boire de l eau propre.",
+    syn: "liquide, eau potable",
+  },
+  ecole: {
+    def: "Une ecole est un etablissement ou les eleves apprennent avec des enseignants.",
+    exp: "On y etudie des matieres comme le francais, les mathematiques et les sciences.",
+    ex: "Mon ecole ouvre le matin.",
+    syn: "etablissement scolaire",
+  },
+};
+
 const localFallback = (body: IaRequest) => {
   const sujet = clean(body.sujet, "la lecon");
   const niveau = clean(body.niveau, "Primaire");
@@ -23,16 +59,36 @@ const localFallback = (body: IaRequest) => {
   const type = clean(body.type, "exercice");
 
   if (body.mode === "dictionnaire") {
-    return `Definition IA - ${sujet}
+    const known = dictionaryFallbacks[normalizeWord(sujet)];
+    if (known) {
+      return `Definition IA - ${sujet}
 
-Definition simple :
-${sujet} est un mot important du vocabulaire scolaire. Il doit etre explique avec des mots simples et un exemple concret.
+Definition :
+${known.def}
+
+Explication simple :
+${known.exp}
 
 Exemple scolaire :
-Le professeur utilise "${sujet}" dans une phrase pour aider les eleves a comprendre le sens du mot.
+${known.ex}
 
-Mots proches :
-mot lie, notion proche, vocabulaire du cours.`;
+Synonymes ou mots proches :
+${known.syn}`;
+    }
+
+    return `Definition IA - ${sujet}
+
+Definition :
+Le mot "${sujet}" n est pas encore suffisamment documente dans le dictionnaire MonEcole pour proposer une definition fiable sans verification.
+
+Explication simple :
+Pour eviter une definition approximative, ajoutez ce mot depuis l espace createur ou utilisez une vraie fonction IA connectee avec une cle securisee.
+
+Exemple scolaire :
+Le professeur verifie le sens exact de "${sujet}" avant de l utiliser dans une lecon.
+
+Synonymes ou mots proches :
+a verifier`;
   }
 
   if (body.mode === "assistant") {
@@ -103,7 +159,7 @@ const buildPrompt = (body: IaRequest) => {
   }
 
   if (body.mode === "dictionnaire") {
-    return `Tu enrichis le dictionnaire scolaire global MonEcole. Pour le mot "${sujet}", donne une reponse en francais simple avec exactement ces rubriques : Definition simple, Exemple scolaire, Synonymes ou mots proches, Traduction arabe si possible, Niveau conseille, Matiere conseillee. Le texte doit etre fiable, court, clair et adapte a une ecole.`;
+    return `Tu enrichis le dictionnaire scolaire global MonEcole. Pour le mot "${sujet}", donne une vraie definition en francais simple, fiable et scolaire. Commence toujours par la rubrique "Definition :" avec une definition de dictionnaire, pas une phrase vague. Puis ajoute exactement : "Explication simple :", "Exemple scolaire :", "Synonymes ou mots proches :", "Traduction arabe si possible :", "Niveau conseille :", "Matiere conseillee :". Si le mot est une forme conjuguee, explique le verbe de base et le temps. Si le sens depend du contexte, indique le sens scolaire le plus courant et precise qu il peut varier.`;
   }
 
   return `Tu aides un professeur de ${ecole}. Cree un ${clean(body.type, "exercice")} en francais pour ${niveau}, matiere ${matiere}, sujet "${sujet}". Donne un titre, un objectif, 5 questions adaptees au niveau et une correction indicative courte.`;

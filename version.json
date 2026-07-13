@@ -1,9 +1,9 @@
 {
-  "version": "v70",
+  "version": "v71",
   "date": "2026-07-13",
-  "note": "Lisibilité améliorée pour le thème Graphite et les cartes du tableau de bord en affichage sombre.",
-  "label": "Lisibilité des thèmes sombres",
+  "note": "Définitions IA plus fiables dans le dictionnaire et lecture complète du résultat généré avec défilement interne.",
+  "label": "Définitions IA améliorées",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-13T11:30:00.000Z"
+  "updated_at": "2026-07-13T12:15:00.000Z"
 }
