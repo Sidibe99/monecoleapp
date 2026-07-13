@@ -17,6 +17,19 @@ const corsHeaders = {
 const clean = (value: unknown, fallback = "") =>
   String(value || fallback).trim().slice(0, 220);
 
+const GEMINI_DEFAULT_MODEL = "gemini-3.1-flash-lite";
+const IA_TIMEOUT_MS = 12000;
+
+const withTimeout = async (url: string, options: RequestInit, timeoutMs = IA_TIMEOUT_MS) => {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timeout);
+  }
+};
+
 const normalizeWord = (value: string) =>
   value.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
@@ -215,20 +228,17 @@ const callGemini = async (body: IaRequest) => {
   const apiKey = Deno.env.get("GEMINI_API_KEY");
   if (!apiKey) return null;
 
-  const model = clean(Deno.env.get("GEMINI_MODEL"), "gemini-3.5-flash").replace(/^models\//, "");
-  const response = await fetch("https://generativelanguage.googleapis.com/v1beta/interactions", {
+  const model = clean(Deno.env.get("GEMINI_MODEL"), GEMINI_DEFAULT_MODEL).replace(/^models\//, "");
+  const response = await withTimeout(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(apiKey)}`, {
     method: "POST",
     headers: {
-      "x-goog-api-key": apiKey,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model,
-      input: buildPrompt(body),
-      store: false,
-      generation_config: {
-        temperature: body.mode === "dictionnaire" ? 0.15 : 0.4,
-        max_output_tokens: body.mode === "dictionnaire" ? 1200 : 900,
+      contents: [{ role: "user", parts: [{ text: buildPrompt(body) }] }],
+      generationConfig: {
+        temperature: body.mode === "dictionnaire" ? 0.1 : 0.35,
+        maxOutputTokens: body.mode === "dictionnaire" ? 650 : 850,
       },
     }),
   });
@@ -236,7 +246,7 @@ const callGemini = async (body: IaRequest) => {
   const result = await response.json();
   if (!response.ok) {
     console.error("Gemini error", result);
-    throw new Error(result?.error?.message || "Erreur Gemini");
+    throw new Error(result?.error?.message || `Erreur Gemini avec le modele ${model}`);
   }
 
   return extractGeminiText(result);
