@@ -1,7 +1,7 @@
 {
-  "version": "v66",
+  "version": "v67",
   "date": "2026-07-13",
-  "note": "Espace créateur renforcé : suivi privé des écoles, connexion récente plus fiable et réactivation sécurisée.",
-  "label": "Suivi créateur renforcé",
-  "updated_at": "2026-07-13T00:10:00.000Z"
+  "note": "Correction de la numérotation dans l'espace créateur.",
+  "label": "Numérotation espace créateur corrigée",
+  "updated_at": "2026-07-13T09:05:00.000Z"
 }
