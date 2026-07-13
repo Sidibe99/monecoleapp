@@ -1,9 +1,9 @@
 {
-  "version": "v68",
+  "version": "v69",
   "date": "2026-07-13",
-  "note": "Session plus stable, notification client filtrée et acceptation des conditions d'utilisation.",
-  "label": "Stabilité de session et conditions d'utilisation",
+  "note": "Conditions d'utilisation complétées avec un engagement de confiance et de protection des données.",
+  "label": "Conditions d'utilisation renforcées",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-13T09:45:00.000Z"
+  "updated_at": "2026-07-13T10:05:00.000Z"
 }
