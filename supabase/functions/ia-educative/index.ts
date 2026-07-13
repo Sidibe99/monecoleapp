@@ -236,7 +236,7 @@ Deno.serve(async (req) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: Deno.env.get("OPENAI_MODEL") || "gpt-5.6-terra",
+        model: Deno.env.get("OPENAI_MODEL") || "gpt-4.1",
         input: buildPrompt(body),
         temperature: body.mode === "dictionnaire" ? 0.15 : 0.4,
         max_output_tokens: body.mode === "dictionnaire" ? 1200 : 900,
