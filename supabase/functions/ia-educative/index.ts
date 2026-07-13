@@ -215,22 +215,20 @@ const callGemini = async (body: IaRequest) => {
   const apiKey = Deno.env.get("GEMINI_API_KEY");
   if (!apiKey) return null;
 
-  const model = clean(Deno.env.get("GEMINI_MODEL"), "gemini-2.5-flash").replace(/^models\//, "");
-  const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`, {
+  const model = clean(Deno.env.get("GEMINI_MODEL"), "gemini-3.5-flash").replace(/^models\//, "");
+  const response = await fetch("https://generativelanguage.googleapis.com/v1beta/interactions", {
     method: "POST",
     headers: {
+      "x-goog-api-key": apiKey,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      contents: [
-        {
-          role: "user",
-          parts: [{ text: buildPrompt(body) }],
-        },
-      ],
-      generationConfig: {
+      model,
+      input: buildPrompt(body),
+      store: false,
+      generation_config: {
         temperature: body.mode === "dictionnaire" ? 0.15 : 0.4,
-        maxOutputTokens: body.mode === "dictionnaire" ? 1200 : 900,
+        max_output_tokens: body.mode === "dictionnaire" ? 1200 : 900,
       },
     }),
   });

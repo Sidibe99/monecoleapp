@@ -12,10 +12,10 @@ supabase functions deploy ia-educative
 
 ```bash
 supabase secrets set GEMINI_API_KEY=ta_cle_gemini
-supabase secrets set GEMINI_MODEL=gemini-2.5-flash
+supabase secrets set GEMINI_MODEL=gemini-3.5-flash
 ```
 
-`GEMINI_MODEL` est optionnel. `gemini-2.5-flash` est le modele recommande pour commencer avec Gemini.
+`GEMINI_MODEL` est optionnel. `gemini-3.5-flash` est le modele recommande pour les nouveaux comptes Gemini.
 
 OpenAI reste possible en secours si vous configurez aussi `OPENAI_API_KEY`, mais Gemini est prioritaire.
 
