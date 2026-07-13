@@ -293,6 +293,7 @@ with expected(table_schema, table_name, protection) as (
     ('public','audit_logs','ecole'),
     ('public','password_reset_requests','ecole'),
     ('public','fichiers','ecole'),
+    ('public','createur_ecoles_suivi','service_role'),
     ('public','etablissements','fiche_ecole'),
     ('public','codes_activation','service_role'),
     ('public','sessions','auth_uid')

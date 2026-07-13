@@ -1,7 +1,7 @@
 {
-  "version": "v65",
-  "date": "2026-07-12",
-  "note": "Correctif RLS : suppression automatique des anciennes règles directes sur codes_activation.",
-  "label": "RLS codes corrigés",
-  "updated_at": "2026-07-12T23:15:00.000Z"
+  "version": "v66",
+  "date": "2026-07-13",
+  "note": "Espace créateur renforcé : suivi privé des écoles, connexion récente plus fiable et réactivation sécurisée.",
+  "label": "Suivi créateur renforcé",
+  "updated_at": "2026-07-13T00:10:00.000Z"
 }
