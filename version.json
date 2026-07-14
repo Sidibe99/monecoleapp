@@ -1,9 +1,9 @@
 {
-  "version": "v76",
-  "date": "2026-07-13",
-  "note": "L'IA educative repond plus vite et les themes conservent mieux les fonds, cartes, lignes et textes lisibles.",
-  "label": "IA et themes stabilises",
+  "version": "v78",
+  "date": "2026-07-14",
+  "note": "Stabilisation generale : IA plus robuste, messages plus clairs, lisibilite des themes et cache v78.",
+  "label": "Stabilisation generale",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-13T22:55:00.000Z"
+  "updated_at": "2026-07-14T00:20:00.000Z"
 }

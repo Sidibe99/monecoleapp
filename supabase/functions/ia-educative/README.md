@@ -15,7 +15,15 @@ supabase secrets set GEMINI_API_KEY=ta_cle_gemini
 supabase secrets set GEMINI_MODEL=gemini-3.1-flash-lite
 ```
 
-`GEMINI_MODEL` est optionnel. `gemini-3.1-flash-lite` est recommande pour le dictionnaire, car il repond plus vite et reste adapte aux definitions scolaires.
+`GEMINI_MODEL` est optionnel. Dans Supabase Studio, le nom du secret doit etre `GEMINI_MODEL` et la valeur doit etre seulement le modele, par exemple :
+
+```text
+gemini-3.1-flash-lite
+```
+
+Ne mettez pas `GEMINI_MODEL = gemini-3.1-flash-lite` dans la valeur.
+
+La fonction essaie maintenant plusieurs modeles automatiquement si le modele configure n'est plus disponible.
 
 OpenAI reste possible en secours si vous configurez aussi `OPENAI_API_KEY`, mais Gemini est prioritaire.
 

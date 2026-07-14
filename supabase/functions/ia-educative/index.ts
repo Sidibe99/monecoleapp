@@ -18,7 +18,14 @@ const clean = (value: unknown, fallback = "") =>
   String(value || fallback).trim().slice(0, 220);
 
 const GEMINI_DEFAULT_MODEL = "gemini-3.1-flash-lite";
-const IA_TIMEOUT_MS = 12000;
+const GEMINI_FALLBACK_MODELS = [
+  GEMINI_DEFAULT_MODEL,
+  "gemini-3.1-flash",
+  "gemini-2.5-flash-lite",
+  "gemini-2.0-flash-lite",
+  "gemini-1.5-flash",
+];
+const IA_TIMEOUT_MS = 10000;
 
 const withTimeout = async (url: string, options: RequestInit, timeoutMs = IA_TIMEOUT_MS) => {
   const controller = new AbortController();
@@ -198,7 +205,7 @@ Explication simple :
 Exemple scolaire :
 Synonymes ou mots proches :
 Nature du mot :
-Traduction arabe si possible :
+Traduction arabe :
 Niveau conseille :
 Matiere conseillee :`;
   }
@@ -224,32 +231,63 @@ const extractGeminiText = (result: any) =>
     ?.join("\n")
     ?.trim();
 
+const normalizeIaText = (text: string) =>
+  String(text || "")
+    .replace(/Traduction arabe\s+si possible\s*:/gi, "Traduction arabe :")
+    .trim();
+
+const normalizeGeminiModel = (value: unknown) =>
+  clean(value, GEMINI_DEFAULT_MODEL)
+    .replace(/^GEMINI_MODEL\s*=\s*/i, "")
+    .replace(/^models\//, "")
+    .trim();
+
 const callGemini = async (body: IaRequest) => {
   const apiKey = Deno.env.get("GEMINI_API_KEY");
   if (!apiKey) return null;
 
-  const model = clean(Deno.env.get("GEMINI_MODEL"), GEMINI_DEFAULT_MODEL).replace(/^models\//, "");
-  const response = await withTimeout(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(apiKey)}`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      contents: [{ role: "user", parts: [{ text: buildPrompt(body) }] }],
-      generationConfig: {
-        temperature: body.mode === "dictionnaire" ? 0.1 : 0.35,
-        maxOutputTokens: body.mode === "dictionnaire" ? 650 : 850,
-      },
-    }),
-  });
+  const configuredModel = normalizeGeminiModel(Deno.env.get("GEMINI_MODEL"));
+  const models = [...new Set([configuredModel, ...GEMINI_FALLBACK_MODELS].filter(Boolean))];
+  let lastError = "";
 
-  const result = await response.json();
-  if (!response.ok) {
-    console.error("Gemini error", result);
-    throw new Error(result?.error?.message || `Erreur Gemini avec le modele ${model}`);
+  for (const model of models) {
+    try {
+      const response = await withTimeout(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(apiKey)}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          contents: [{ role: "user", parts: [{ text: buildPrompt(body) }] }],
+          generationConfig: {
+            temperature: body.mode === "dictionnaire" ? 0.08 : 0.3,
+            maxOutputTokens: body.mode === "dictionnaire" ? 520 : 760,
+          },
+        }),
+      });
+
+      const result = await response.json();
+      if (!response.ok) {
+        lastError = result?.error?.message || `Modele ${model} indisponible`;
+        console.error("Gemini error", { model, message: lastError });
+        continue;
+      }
+
+      const text = extractGeminiText(result);
+      if (text) return text;
+      lastError = `Reponse vide avec ${model}`;
+    } catch (error) {
+      lastError = error instanceof Error ? error.message : "Erreur Gemini";
+      console.error("Gemini request failed", { model, message: lastError });
+      continue;
+    }
   }
 
-  return extractGeminiText(result);
+  throw new Error(
+    lastError && /quota|billing|limit/i.test(lastError)
+      ? "Quota Gemini atteint. Verifiez le forfait gratuit ou la facturation Google AI Studio."
+      : "Gemini n'a pas pu repondre. Verifiez la cle, le quota gratuit ou le modele disponible.",
+  );
 };
 
 const callOpenAi = async (body: IaRequest) => {
@@ -322,7 +360,7 @@ Deno.serve(async (req) => {
 
     if (hasGemini) {
       try {
-        texte = (await callGemini(body)) || "";
+        texte = normalizeIaText((await callGemini(body)) || "");
         source = "gemini";
       } catch (error) {
         lastError = error instanceof Error ? error.message : "Erreur Gemini";
@@ -331,7 +369,7 @@ Deno.serve(async (req) => {
 
     if (!texte && hasOpenAi) {
       try {
-        texte = (await callOpenAi(body)) || "";
+        texte = normalizeIaText((await callOpenAi(body)) || "");
         source = "openai";
       } catch (error) {
         lastError = error instanceof Error ? error.message : lastError || "Erreur IA";
