@@ -32,6 +32,25 @@ abc123/documents/acte-naissance.pdf
 5. Aller dans Policies.
 6. Verifier que les regles limitent lecture, ajout, modification et suppression a l'ecole connectee.
 
+## Script pret a utiliser
+
+Le script dedie est ici :
+
+```text
+supabase/migrations/20260714_storage_bucket_fichiers_policies.sql
+```
+
+Il cree 4 policies sur le bucket `fichiers` :
+
+- lecture ;
+- ajout ;
+- modification ;
+- suppression.
+
+La regle commune est simple : l'utilisateur connecte ne peut agir que sur les fichiers dont le chemin commence par l'identifiant de son ecole.
+
+Si Supabase refuse le script SQL sur `storage.objects`, ne forcez pas avec `alter table`. Il faut alors creer les memes regles depuis **Storage > fichiers > Policies**.
+
 ## Points a surveiller
 
 - Un bucket public rend les fichiers consultables par lien direct.
@@ -49,5 +68,4 @@ abc123/documents/acte-naissance.pdf
 
 ## Statut
 
-A faire dans Supabase : verification des buckets et policies Storage.
-
+Bucket `fichiers` vu en prive. A faire dans Supabase : appliquer/verifier les policies Storage.

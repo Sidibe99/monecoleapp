@@ -26,6 +26,27 @@ const cleanTarifs = (value) => {
 
 const cleanText = (value, max = 500) => String(value || "").trim().slice(0, max);
 
+const activationFormules = new Set(["essai", "basique", "standard", "premium"]);
+
+const makeActivationCode = () => {
+  const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+  const part = (length = 5) =>
+    Array.from({ length }, () => alphabet[Math.floor(Math.random() * alphabet.length)]).join("");
+  return `ME-${part()}-${part()}`;
+};
+
+const addDaysIso = (days) => {
+  const date = new Date();
+  date.setDate(date.getDate() + Number(days || 0));
+  return date.toISOString().slice(0, 10);
+};
+
+const addMonthsIso = (months) => {
+  const date = new Date();
+  date.setMonth(date.getMonth() + Number(months || 1));
+  return date.toISOString().slice(0, 10);
+};
+
 const daysSince = (value) => {
   if (!value) return null;
   const date = new Date(String(value));
@@ -90,6 +111,64 @@ Deno.serve(async (req) => {
   const action = String(body.action || "");
 
   try {
+    if (action === "generer_code_activation") {
+      const formule = String(body.formule || "").trim().toLowerCase();
+      if (!activationFormules.has(formule)) {
+        return json({ ok: false, error: "Formule invalide." }, 400);
+      }
+
+      const isTrial = formule === "essai";
+      const dureeMois = Math.max(1, Number(body.dureeMois || 1));
+      const expireLe = isTrial ? addDaysIso(7) : addMonthsIso(dureeMois);
+      let lastError = null;
+
+      for (let attempt = 0; attempt < 8; attempt += 1) {
+        const code = makeActivationCode();
+        const payloads = [
+          {
+            code,
+            formule,
+            utilise: false,
+            expire_le: expireLe,
+            essai_jours: isTrial ? 7 : null,
+            created_at: new Date().toISOString(),
+          },
+          {
+            code,
+            formule,
+            utilise: false,
+            expire_le: expireLe,
+            created_at: new Date().toISOString(),
+          },
+          {
+            code,
+            formule,
+            utilise: false,
+            expire_le: expireLe,
+          },
+          {
+            code,
+            formule,
+            utilise: false,
+          },
+          {
+            code,
+            formule,
+          },
+        ];
+
+        for (const payload of payloads) {
+          const { error } = await admin.from("codes_activation").insert(payload);
+          if (!error) return json({ ok: true, code, formule, expire_le: expireLe });
+          lastError = error;
+          const message = String(error.message || "").toLowerCase();
+          if (message.includes("duplicate") || message.includes("unique")) break;
+        }
+      }
+
+      throw lastError || new Error("Generation du code impossible.");
+    }
+
     if (action === "list_codes") {
       const { data: codes, error: codesError } = await admin
         .from("codes_activation")

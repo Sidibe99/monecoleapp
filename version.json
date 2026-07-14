@@ -1,9 +1,9 @@
 {
-  "version": "v78",
+  "version": "v79",
   "date": "2026-07-14",
-  "note": "Stabilisation generale : IA plus robuste, messages plus clairs, lisibilite des themes et cache v78.",
-  "label": "Stabilisation generale",
+  "note": "Correction visible : IA educative mieux separee par onglet, essai 7 jours corrige et confirmations integrees a MonEcole.",
+  "label": "Correctifs IA et espace createur",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T00:20:00.000Z"
+  "updated_at": "2026-07-14T08:50:00.000Z"
 }
