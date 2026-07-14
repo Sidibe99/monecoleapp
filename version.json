@@ -1,9 +1,9 @@
 {
-  "version": "v79",
+  "version": "v80",
   "date": "2026-07-14",
-  "note": "Correction visible : IA educative mieux separee par onglet, essai 7 jours corrige et confirmations integrees a MonEcole.",
-  "label": "Correctifs IA et espace createur",
+  "note": "Correction visible : tableaux, lignes et bordures harmonises pour une meilleure lisibilite sur ordinateur et telephone.",
+  "label": "Finition interface et tableaux",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T08:50:00.000Z"
+  "updated_at": "2026-07-14T09:55:00.000Z"
 }
