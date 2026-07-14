@@ -1,9 +1,9 @@
 {
-  "version": "v80",
+  "version": "v82",
   "date": "2026-07-14",
-  "note": "Correction visible : tableaux, lignes et bordures harmonises pour une meilleure lisibilite sur ordinateur et telephone.",
-  "label": "Finition interface et tableaux",
+  "note": "Correction visible : ticket de paiement adaptable automatiquement au papier choisi dans l'impression.",
+  "label": "Ticket paiement adaptable",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T09:55:00.000Z"
+  "updated_at": "2026-07-14T12:20:00.000Z"
 }
