@@ -1,9 +1,9 @@
 {
-  "version": "v85",
+  "version": "v86",
   "date": "2026-07-14",
-  "note": "Cahier de texte renforce, bouton Modifier, liste de balayage et preparation des sujets professeurs.",
-  "label": "Outils pedagogiques securises",
+  "note": "Finition professionnelle des lignes, tableaux, cartes et emploi du temps.",
+  "label": "Affichage pro des lignes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T16:55:00.000Z"
+  "updated_at": "2026-07-14T17:10:00.000Z"
 }
