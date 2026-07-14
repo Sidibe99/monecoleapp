@@ -1,9 +1,9 @@
 {
-  "version": "v82",
+  "version": "v83",
   "date": "2026-07-14",
-  "note": "Correction visible : ticket de paiement adaptable automatiquement au papier choisi dans l'impression.",
-  "label": "Ticket paiement adaptable",
+  "note": "Correction visible : emploi du temps plus lisible, lignes de cours harmonisees et impression plus propre.",
+  "label": "Emploi du temps lisible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T12:20:00.000Z"
+  "updated_at": "2026-07-14T14:45:00.000Z"
 }
