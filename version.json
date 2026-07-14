@@ -1,9 +1,9 @@
 {
-  "version": "v83",
+  "version": "v84",
   "date": "2026-07-14",
-  "note": "Correction visible : emploi du temps plus lisible, lignes de cours harmonisees et impression plus propre.",
-  "label": "Emploi du temps lisible",
+  "note": "Correction visible : emploi du temps lisible sans blocs imbriques, lignes de cours plus propres et boutons conserves.",
+  "label": "Emploi du temps corrige",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T14:45:00.000Z"
+  "updated_at": "2026-07-14T15:55:00.000Z"
 }
