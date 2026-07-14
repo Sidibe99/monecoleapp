@@ -1,9 +1,9 @@
 {
-  "version": "v84",
+  "version": "v85",
   "date": "2026-07-14",
-  "note": "Correction visible : emploi du temps lisible sans blocs imbriques, lignes de cours plus propres et boutons conserves.",
-  "label": "Emploi du temps corrige",
+  "note": "Cahier de texte renforce, bouton Modifier, liste de balayage et preparation des sujets professeurs.",
+  "label": "Outils pedagogiques securises",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T15:55:00.000Z"
+  "updated_at": "2026-07-14T16:55:00.000Z"
 }
