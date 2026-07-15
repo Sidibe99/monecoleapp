@@ -1,8 +1,8 @@
 {
-  "version": "v87",
+  "version": "v88",
   "date": "2026-07-15",
-  "note": "Correction mobile des zones tactiles sur l'écran de connexion et conservation de l'affichage pro des lignes.",
-  "label": "Mobile plus confortable",
+  "note": "Préparation des sujets en interface professionnelle avec accès limité par professeur et matières attribuées.",
+  "label": "Sujets professeurs sécurisés",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
