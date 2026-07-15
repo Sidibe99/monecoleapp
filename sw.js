@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v97";
+const CACHE_NAME = "monecole-vite-v98";
 const APP_SHELL = [
   "/",
   "/index.html",
@@ -61,15 +61,14 @@ self.addEventListener("fetch", event => {
   }
 
   event.respondWith(
-    caches.match(request).then(cached => {
-      const network = fetch(request).then(response => {
+    fetch(request, { cache: "no-store" })
+      .then(response => {
         if (response && response.ok) {
           const copy = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
         }
         return response;
-      });
-      return cached || network;
-    })
+      })
+      .catch(() => caches.match(request))
   );
 });
