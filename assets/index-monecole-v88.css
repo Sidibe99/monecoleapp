@@ -1343,6 +1343,191 @@ button{
   text-align:left;
 }
 
+.me-pedago-tools{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  gap:14px!important;
+  align-items:center!important;
+  margin:22px 0 12px!important;
+  padding:16px!important;
+  border:1px solid #bfdbfe!important;
+  border-radius:18px!important;
+  background:linear-gradient(135deg,#ffffff,#eff6ff)!important;
+  box-shadow:0 12px 28px rgba(15,23,42,.08)!important;
+}
+
+.me-pedago-tools strong{
+  display:block!important;
+  color:#0f172a!important;
+  font-size:18px!important;
+  font-weight:950!important;
+}
+
+.me-pedago-tools span{
+  display:block!important;
+  color:#64748b!important;
+  font-weight:750!important;
+  margin-top:3px!important;
+}
+
+.me-pedago-tool-buttons{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  gap:8px!important;
+  justify-content:flex-end!important;
+}
+
+.me-pedago-tool-buttons button{
+  border:1px solid #cbd5e1!important;
+  border-radius:999px!important;
+  background:#fff!important;
+  color:#475569!important;
+  min-height:42px!important;
+  padding:0 14px!important;
+  font-weight:900!important;
+  box-shadow:0 4px 12px rgba(15,23,42,.06)!important;
+}
+
+.me-pedago-tool-buttons button.is-active{
+  border-color:#1d4ed8!important;
+  background:#1d4ed8!important;
+  color:#fff!important;
+}
+
+.me-v89-sweep-panel.is-hidden,
+.me-sujet-pro-panel.is-hidden{
+  display:none!important;
+}
+
+.me-sweep-status{
+  border:1px solid #bbf7d0!important;
+  border-radius:14px!important;
+  background:#f0fdf4!important;
+  padding:10px 12px!important;
+}
+
+.me-sweep-status strong,
+.me-sweep-status span{
+  display:block!important;
+}
+
+.me-sweep-status strong{
+  color:#065f46!important;
+  font-weight:950!important;
+}
+
+.me-sweep-status span{
+  color:#047857!important;
+  font-weight:750!important;
+  font-size:13px!important;
+  margin-top:2px!important;
+}
+
+.me-sweep-annual-summary{
+  border-color:#bbf7d0!important;
+  background:#f8fffb!important;
+}
+
+.me-sweep-annual-summary > div:first-child{
+  display:grid!important;
+  gap:3px!important;
+}
+
+.me-sweep-annual-summary small{
+  color:#64748b!important;
+  font-weight:750!important;
+}
+
+.me-sweep-annual-summary ul{
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:8px!important;
+  padding:0!important;
+  margin:12px 0!important;
+  list-style:none!important;
+}
+
+.me-sweep-annual-summary li{
+  display:grid!important;
+  grid-template-columns:96px minmax(0,1fr)!important;
+  gap:8px!important;
+  align-items:start!important;
+  border:1px solid #e2e8f0!important;
+  border-radius:12px!important;
+  background:#fff!important;
+  padding:9px 10px!important;
+}
+
+.me-sweep-annual-summary li b{
+  color:#1d4ed8!important;
+}
+
+.me-sweep-annual-summary li span{
+  color:#334155!important;
+  font-weight:800!important;
+}
+
+.me-print-doc{
+  font-family:Inter,Arial,sans-serif;
+  color:#0f172a;
+}
+
+.me-print-header{
+  display:grid;
+  grid-template-columns:1fr 1.3fr 1fr;
+  gap:16px;
+  align-items:center;
+  border:2px solid #bfdbfe;
+  border-radius:14px;
+  padding:14px 16px;
+  margin-bottom:16px;
+  background:#f8fbff;
+}
+
+.me-print-header strong,
+.me-print-header span{
+  display:block;
+}
+
+.me-print-header strong{
+  font-size:18px;
+}
+
+.me-print-header span,
+.me-print-header p{
+  margin:4px 0 0;
+  color:#475569;
+  font-weight:700;
+}
+
+.me-print-header h2{
+  margin:0;
+  color:#1d4ed8;
+  font-size:24px;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+.me-print-header > div:last-child{
+  text-align:right;
+}
+
+.me-print-note{
+  border:1px solid #fde68a;
+  background:#fffbeb;
+  border-radius:10px;
+  color:#92400e;
+  font-weight:700;
+  padding:10px 12px;
+  margin-top:14px;
+}
+
+.me-sweep-print-table th{
+  width:28%;
+  background:#eff6ff;
+  color:#1d4ed8;
+}
+
 @media(max-width:1180px){
   .me-sweep-grid{
     grid-template-columns:repeat(2,minmax(0,1fr))!important;
@@ -1369,5 +1554,24 @@ button{
     min-width:0!important;
     justify-content:flex-start!important;
     flex-wrap:wrap!important;
+  }
+  .me-pedago-tools,
+  .me-sweep-annual-summary ul{
+    grid-template-columns:1fr!important;
+  }
+  .me-pedago-tool-buttons{
+    justify-content:stretch!important;
+  }
+  .me-pedago-tool-buttons button{
+    flex:1 1 100%!important;
+  }
+}
+
+@media print{
+  .me-print-header{
+    break-inside:avoid;
+  }
+  .me-print-header h2{
+    font-size:20px;
   }
 }

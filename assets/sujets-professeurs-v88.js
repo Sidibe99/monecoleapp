@@ -144,11 +144,19 @@
 
     const buildPrint = (item, className, user) => `
       <div class="me-sujet-print">
-        <div class="me-sujet-print-top">
-          <div><strong>MonEcole</strong><br>${escapeHtml(schoolName())}</div>
-          <div><strong>${escapeHtml(item.type)}</strong><br>${escapeHtml(item.date || "")}</div>
+        <div class="me-sujet-print-top me-print-header">
+          <div>
+            <strong>MonEcole</strong>
+            <span>${escapeHtml(schoolName())}</span>
+          </div>
+          <div>
+            <h2>${escapeHtml(item.type || "Évaluation")}</h2>
+            <p>${escapeHtml(item.titre || "Sujet")}</p>
+          </div>
+          <div>
+            <span>${escapeHtml(item.date || new Date().toLocaleDateString("fr-FR"))}</span>
+          </div>
         </div>
-        <h1>${escapeHtml(item.titre || item.type)}</h1>
         <div class="me-sujet-print-meta">
           <span>Classe : <b>${escapeHtml(className)}</b></span>
           <span>Matière : <b>${escapeHtml(item.matiere)}</b></span>
