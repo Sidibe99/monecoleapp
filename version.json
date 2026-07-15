@@ -1,8 +1,8 @@
 {
-  "version": "v98",
+  "version": "v100",
   "date": "2026-07-15",
-  "note": "Correctif cache et contrôleur stable : empêche le retour d'une ancienne version au rafraîchissement et réapplique les onglets Planning & outils après chaque rendu.",
-  "label": "Planning & outils cache et contrôleur stable",
+  "note": "Correctif de détection d'onglet : les outils Planning ne s'affichent plus sur le Tableau de bord et restent attachés uniquement à l'onglet Planning & outils.",
+  "label": "Planning & outils détection stricte",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
