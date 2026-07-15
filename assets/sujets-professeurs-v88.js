@@ -306,6 +306,7 @@
             </div>
             <div class="me-pedago-field me-sujet-full">
               <label>Corrigé / barème privé</label>
+              <span class="me-field-help">Le corrigé/barème sert à garder les réponses attendues, la répartition des points et les remarques de correction. Il reste réservé au professeur et n'est pas imprimé avec le sujet élève.</span>
               <textarea data-pro-correction ${locked || noSubject ? "disabled" : ""} placeholder="Facultatif : corrigé, barème, réponses attendues..."></textarea>
             </div>
           </div>

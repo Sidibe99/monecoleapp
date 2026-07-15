@@ -1,8 +1,8 @@
 {
-  "version": "v88",
+  "version": "v89",
   "date": "2026-07-15",
-  "note": "Préparation des sujets en interface professionnelle avec accès limité par professeur et matières attribuées.",
-  "label": "Sujets professeurs sécurisés",
+  "note": "Balayage par jour, saisie guidée des élèves de la classe, droits de modification de l'emploi du temps et aide corrigé/barème.",
+  "label": "Pédagogie quotidienne renforcée",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
