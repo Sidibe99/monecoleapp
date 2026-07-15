@@ -1,9 +1,9 @@
 {
-  "version": "v86",
-  "date": "2026-07-14",
-  "note": "Finition professionnelle des lignes, tableaux, cartes et emploi du temps.",
-  "label": "Affichage pro des lignes",
+  "version": "v87",
+  "date": "2026-07-15",
+  "note": "Correction mobile des zones tactiles sur l'écran de connexion et conservation de l'affichage pro des lignes.",
+  "label": "Mobile plus confortable",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-14T17:10:00.000Z"
+  "updated_at": "2026-07-15T00:00:00.000Z"
 }
