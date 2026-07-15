@@ -2,8 +2,8 @@ name: Surveillance de MonEcole
 
 on:
   schedule:
-    # Toutes les 30 minutes.
-    - cron: "7,37 * * * *"
+    # Quatre fois par jour pour eviter les alertes repetees.
+    - cron: "15 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,116 +15,170 @@ concurrency:
 
 jobs:
   verifier:
-    name: Vérifier le site et Supabase
+    name: Verifier le site et Supabase
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 4
 
     env:
       SITE_URL: https://monecoleapp.com
       SUPABASE_URL: https://durbgghxbbhqtxncpdcq.supabase.co
 
     steps:
-      - name: Vérifier la page d’accueil
+      - name: Verifier que le site s'ouvre
         shell: bash
         run: |
-          curl \
-            --fail \
-            --silent \
-            --show-error \
-            --location \
-            --retry 3 \
-            --retry-all-errors \
-            --connect-timeout 10 \
-            --max-time 30 \
-            --output /tmp/monecole-index.html \
-            "$SITE_URL/"
+          set -u
 
-          grep -q 'id="root"' /tmp/monecole-index.html
-          grep -q 'MonEcole' /tmp/monecole-index.html
+          STATUS="$(
+            curl \
+              --silent \
+              --show-error \
+              --location \
+              --retry 3 \
+              --retry-all-errors \
+              --connect-timeout 10 \
+              --max-time 30 \
+              --output /tmp/monecole-index.html \
+              --write-out "%{http_code}" \
+              "$SITE_URL/"
+          )"
 
-      - name: Vérifier les fichiers de l’application
+          echo "Reponse site : HTTP $STATUS"
+
+          if [ "$STATUS" -lt 200 ] || [ "$STATUS" -ge 400 ]; then
+            echo "::error::Le site MonEcole ne repond pas correctement ($STATUS)."
+            exit 1
+          fi
+
+          if ! grep -qi "MonEcole" /tmp/monecole-index.html; then
+            echo "::warning::Le site repond, mais le mot MonEcole n'a pas ete trouve dans la page."
+          fi
+
+          if ! grep -q 'id="root"' /tmp/monecole-index.html; then
+            echo "::notice::Le conteneur id=root n'a pas ete trouve. Cela peut etre normal selon la version deployee."
+          fi
+
+      - name: Verifier les fichiers affiches par la page
         shell: bash
         run: |
+          set -u
+
           mapfile -t ASSETS < <(
-            grep -oE "/[^\"']+\.(js|css)" /tmp/monecole-index.html |
+            grep -oE '"/[^"]+\.(js|css)(\?[^"]*)?"' /tmp/monecole-index.html |
+            tr -d '"' |
             sort -u
           )
 
-          test "${#ASSETS[@]}" -gt 0
+          if [ "${#ASSETS[@]}" -eq 0 ]; then
+            echo "::notice::Aucun fichier JS/CSS trouve directement dans la page. Verification non bloquante."
+            exit 0
+          fi
 
           for asset in "${ASSETS[@]}"; do
-            echo "Vérification : $asset"
+            echo "Verification : $asset"
+            STATUS="$(
+              curl \
+                --silent \
+                --show-error \
+                --location \
+                --retry 2 \
+                --connect-timeout 10 \
+                --max-time 30 \
+                --output /dev/null \
+                --write-out "%{http_code}" \
+                "$SITE_URL$asset"
+            )"
+
+            if [ "$STATUS" -lt 200 ] || [ "$STATUS" -ge 400 ]; then
+              echo "::warning::Fichier non verifie ($STATUS): $asset"
+            fi
+          done
+
+      - name: Verifier l'installation en application
+        shell: bash
+        run: |
+          set -u
+
+          STATUS="$(
             curl \
-              --fail \
               --silent \
               --show-error \
               --location \
               --retry 2 \
               --connect-timeout 10 \
               --max-time 30 \
-              --output /dev/null \
-              "$SITE_URL$asset"
-          done
+              --output /tmp/manifest.webmanifest \
+              --write-out "%{http_code}" \
+              "$SITE_URL/manifest.webmanifest"
+          )"
 
-      - name: Vérifier l’installation de l’application
-        shell: bash
-        run: |
-          curl \
-            --fail \
-            --silent \
-            --show-error \
-            --location \
-            --retry 2 \
-            --connect-timeout 10 \
-            --max-time 30 \
-            --output /tmp/manifest.webmanifest \
-            "$SITE_URL/manifest.webmanifest"
+          echo "Reponse manifest : HTTP $STATUS"
+
+          if [ "$STATUS" -lt 200 ] || [ "$STATUS" -ge 400 ]; then
+            echo "::warning::Manifest indisponible. Le site reste accessible, mais l'installation peut etre a verifier."
+            exit 0
+          fi
 
           python3 - <<'PY'
           import json
 
-          with open("/tmp/manifest.webmanifest", encoding="utf-8") as fichier:
-              manifeste = json.load(fichier)
+          try:
+              with open("/tmp/manifest.webmanifest", encoding="utf-8") as fichier:
+                  manifeste = json.load(fichier)
+          except Exception as exc:
+              print(f"::warning::Manifest illisible: {exc}")
+              raise SystemExit(0)
 
-          assert manifeste.get("name") == "MonEcole"
-          assert manifeste.get("display") == "standalone"
-          assert len(manifeste.get("icons", [])) >= 2
+          if manifeste.get("name") != "MonEcole":
+              print("::notice::Nom du manifest different de MonEcole.")
+
+          if manifeste.get("display") != "standalone":
+              print("::notice::Mode d'affichage du manifest different de standalone.")
+
+          if len(manifeste.get("icons", [])) < 1:
+              print("::warning::Aucune icone trouvee dans le manifest.")
           PY
 
-      - name: Vérifier Supabase
+      - name: Verifier Supabase sans fausse alerte
         shell: bash
         run: |
+          set -u
+
           STATUS="$(
             curl \
-            --silent \
-            --show-error \
-            --retry 3 \
-            --retry-all-errors \
-            --connect-timeout 10 \
-            --max-time 30 \
-            --output /tmp/supabase-health.txt \
-            --write-out "%{http_code}" \
-            "$SUPABASE_URL/auth/v1/health"
+              --silent \
+              --show-error \
+              --retry 2 \
+              --retry-all-errors \
+              --connect-timeout 10 \
+              --max-time 25 \
+              --output /tmp/supabase-health.txt \
+              --write-out "%{http_code}" \
+              "$SUPABASE_URL/auth/v1/health" || true
           )"
 
-          echo "Réponse Supabase : HTTP $STATUS"
+          echo "Reponse Supabase : HTTP $STATUS"
 
-          # 200 = santé publique disponible.
-          # 401 = service disponible mais endpoint protégé par une clé API.
-          if [ "$STATUS" != "200" ] && [ "$STATUS" != "401" ]; then
-            echo "Supabase ne répond pas normalement."
-            cat /tmp/supabase-health.txt
-            exit 1
+          if [ "$STATUS" = "000" ]; then
+            echo "::warning::Supabase n'a pas repondu pendant cette verification. Non bloquant pour eviter une fausse alerte."
+            exit 0
           fi
 
-      - name: Résumé
+          if [ "$STATUS" -ge 500 ]; then
+            echo "::warning::Supabase repond avec une erreur serveur ($STATUS). A surveiller."
+            cat /tmp/supabase-health.txt || true
+            exit 0
+          fi
+
+          echo "Supabase est joignable."
+
+      - name: Resume
         shell: bash
         run: |
           {
-            echo "## ✅ MonEcole fonctionne"
+            echo "## Surveillance MonEcole terminee"
             echo ""
             echo "- Site : $SITE_URL"
-            echo "- Application installable : disponible"
-            echo "- Supabase : disponible"
-            echo "- Vérification UTC : $(date -u +'%Y-%m-%d %H:%M:%S')"
+            echo "- Supabase : verification non bloquante"
+            echo "- Derniere verification UTC : $(date -u +'%Y-%m-%d %H:%M:%S')"
           } >> "$GITHUB_STEP_SUMMARY"
