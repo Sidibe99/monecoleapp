@@ -1,8 +1,8 @@
 {
-  "version": "v95",
+  "version": "v96",
   "date": "2026-07-15",
-  "note": "Navigation haute corrigée : boutons Emploi du temps, Cahier de texte, Liste de balayage et Préparer un sujet séparés en haut. Autorisation déplacée vers Établissement pour la direction.",
-  "label": "Planning & outils navigation haute",
+  "note": "Barre Planning & outils persistante : les boutons restent visibles après rafraîchissement et ne disparaissent plus lors du rendu de la page.",
+  "label": "Planning & outils barre persistante",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
