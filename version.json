@@ -1,8 +1,8 @@
 {
-  "version": "v93",
+  "version": "v94",
   "date": "2026-07-15",
-  "note": "Planning et outils pédagogiques séparés avec affichage exclusif par bouton et grille professionnelle du planning en 3/2/1 colonnes.",
-  "label": "Planning & outils grille professionnelle",
+  "note": "Correctif page blanche : les outils Planning, Cahier, Balayage et Sujet restent visibles même si la vue emploi du temps n'affiche pas de titre h1/h2.",
+  "label": "Planning & outils page blanche corrigée",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
