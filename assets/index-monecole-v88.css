@@ -1394,6 +1394,7 @@ button{
   color:#fff!important;
 }
 
+.me-timetable-page .me-timetable-cahier.is-hidden,
 .me-v89-sweep-panel.is-hidden,
 .me-sujet-pro-panel.is-hidden{
   display:none!important;

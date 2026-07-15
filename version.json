@@ -1,8 +1,8 @@
 {
-  "version": "v90",
+  "version": "v91",
   "date": "2026-07-15",
-  "note": "Balayage annuel par jour, accès clair aux outils pédagogiques, en-têtes d'impression améliorés et restrictions conservées.",
-  "label": "Balayage annuel et outils pédagogiques",
+  "note": "Outils pédagogiques séparés en vraies parties : cahier de texte, balayage annuel et préparation de sujet.",
+  "label": "Outils pédagogiques séparés",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
