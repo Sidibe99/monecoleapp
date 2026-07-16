@@ -1,8 +1,8 @@
 {
-  "version": "v101",
+  "version": "v102",
   "date": "2026-07-15",
-  "note": "Recréation complète de l'onglet Planning & outils : l'ancien rendu est remplacé par une page professionnelle autonome avec emploi du temps, cahier de texte, balayage annuel et préparation de sujet.",
-  "label": "Planning & outils recréé proprement",
+  "note": "Amélioration professionnelle de Planning & outils : suggestions automatiques de classes, matières, professeurs et élèves, sujets modifiables, libellés simplifiés et en-têtes plus propres.",
+  "label": "Planning & outils pro automatique",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
