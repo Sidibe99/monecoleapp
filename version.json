@@ -1,8 +1,8 @@
 {
-  "version": "v104",
+  "version": "v105",
   "date": "2026-07-16",
-  "note": "Correction des classes valides : les identifiants numériques ne sont plus proposés comme classes et le choix de classe devient une liste déroulante propre.",
-  "label": "Planning classes valides",
+  "note": "Ajout des impressions professionnelles avec en-tête pour emploi du temps, liste de balayage et sujets, amélioration du design et filtre professeur Mes cours / Tout afficher.",
+  "label": "Planning impressions et filtre professeur",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
