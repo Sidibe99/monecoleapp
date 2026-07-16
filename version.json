@@ -1,8 +1,8 @@
 {
-  "version": "v102",
-  "date": "2026-07-15",
-  "note": "Amélioration professionnelle de Planning & outils : suggestions automatiques de classes, matières, professeurs et élèves, sujets modifiables, libellés simplifiés et en-têtes plus propres.",
-  "label": "Planning & outils pro automatique",
+  "version": "v103",
+  "date": "2026-07-16",
+  "note": "Correction classe unique : les classes enregistrées sont mieux détectées, le choix de classe est centralisé et le formulaire d'emploi du temps n'affiche plus un deuxième champ classe.",
+  "label": "Planning classe unique automatique",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
