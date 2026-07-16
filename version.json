@@ -1,8 +1,8 @@
 {
-  "version": "v108",
+  "version": "v109",
   "date": "2026-07-16",
-  "note": "Le menu Cours du cahier de texte affiche les cours programmés disponibles et propose de programmer un cours si la liste est vide.",
-  "label": "Cahier de texte cours programmés",
+  "note": "La liste de balayage propose uniquement les élèves de la classe affichée dans le champ Nom.",
+  "label": "Balayage élèves par classe",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-16T00:00:00.000Z"
