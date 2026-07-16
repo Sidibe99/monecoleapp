@@ -1,8 +1,8 @@
 {
-  "version": "v109",
+  "version": "v110",
   "date": "2026-07-16",
-  "note": "La liste de balayage propose uniquement les élèves de la classe affichée dans le champ Nom.",
-  "label": "Balayage élèves par classe",
+  "note": "Le cahier de texte ne propose plus de cours d'une autre classe et affiche Programmer un cours quand la classe n'a aucun cours.",
+  "label": "Cahier de texte classe cohérente",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-16T00:00:00.000Z"
