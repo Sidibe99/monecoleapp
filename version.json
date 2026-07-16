@@ -1,9 +1,9 @@
 {
-  "version": "v105",
+  "version": "v106",
   "date": "2026-07-16",
-  "note": "Ajout des impressions professionnelles avec en-tête pour emploi du temps, liste de balayage et sujets, amélioration du design et filtre professeur Mes cours / Tout afficher.",
-  "label": "Planning impressions et filtre professeur",
+  "note": "Année scolaire modifiable, saisie de date simplifiée et affichage plus sobre dans Planning & outils.",
+  "label": "Planning dates et affichage sobre",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-15T00:00:00.000Z"
+  "updated_at": "2026-07-16T00:00:00.000Z"
 }
