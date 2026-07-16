@@ -1,9 +1,9 @@
 {
-  "version": "v99",
-  "date": "2026-07-15",
-  "note": "Correctif Planning & outils intégré : neutralise les anciens correctifs concurrents qui faisaient disparaître les boutons après rafraîchissement, puis garde un seul contrôleur pour les quatre outils.",
-  "label": "Planning & outils intégré stable",
+  "version": "v102",
+  "date": "2026-07-16",
+  "note": "Cahier de texte sécurisé : au primaire, seul le professeur programmé du jour peut écrire ; au collège et au lycée, seul le professeur de la séance choisie peut enregistrer.",
+  "label": "Cahier sécurisé par professeur et séance",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-15T00:00:00.000Z"
+  "updated_at": "2026-07-16T00:00:00.000Z"
 }
