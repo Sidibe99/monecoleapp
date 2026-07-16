@@ -1,8 +1,8 @@
 {
-  "version": "v103",
+  "version": "v104",
   "date": "2026-07-16",
-  "note": "Correction classe unique : les classes enregistrées sont mieux détectées, le choix de classe est centralisé et le formulaire d'emploi du temps n'affiche plus un deuxième champ classe.",
-  "label": "Planning classe unique automatique",
+  "note": "Correction des classes valides : les identifiants numériques ne sont plus proposés comme classes et le choix de classe devient une liste déroulante propre.",
+  "label": "Planning classes valides",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-15T00:00:00.000Z"
