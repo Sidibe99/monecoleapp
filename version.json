@@ -1,9 +1,9 @@
 {
-  "version": "v110",
-  "date": "2026-07-16",
-  "note": "Le cahier de texte ne propose plus de cours d'une autre classe et affiche Programmer un cours quand la classe n'a aucun cours.",
-  "label": "Cahier de texte classe cohérente",
+  "version": "v99",
+  "date": "2026-07-15",
+  "note": "Correctif Planning & outils intégré : neutralise les anciens correctifs concurrents qui faisaient disparaître les boutons après rafraîchissement, puis garde un seul contrôleur pour les quatre outils.",
+  "label": "Planning & outils intégré stable",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-16T00:00:00.000Z"
+  "updated_at": "2026-07-15T00:00:00.000Z"
 }

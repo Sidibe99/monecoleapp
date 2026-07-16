@@ -45,19 +45,19 @@
         setTimeout(function() {
           var root = document.getElementById("root");
           if (root && root.textContent && root.textContent.indexOf("Chargement de MonEcole") !== -1) {
-            window.__ME_BOOT_ERROR__("Le fichier de l'application ne s'est pas lancé. Vérifiez que assets/index-monecole-v88.js et assets/pedagogie-pro-v110.js sont bien publiés avec index.html.");
+            window.__ME_BOOT_ERROR__("Le fichier de l'application ne s'est pas lancé. Vérifiez que assets/index-monecole-v88.js et assets/pedagogie-pro-v99.js sont bien publiés avec index.html.");
           }
         }, 8000);
       });
       (function() {
-        var version = "v110";
+        var version = "v100";
         try {
           window.__MONECOLE_VERSION__ = version;
           var key = "monecole_last_loaded_version";
           if (localStorage.getItem(key) !== version && window.caches) {
             caches.keys().then(function(keys) {
               return Promise.all(keys.filter(function(name) {
-                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v110";
+                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v100";
               }).map(function(name) { return caches.delete(name); }));
             }).then(function() {
               localStorage.setItem(key, version);
@@ -71,12 +71,13 @@
         } catch (error) {}
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-monecole-v88.js?v=20260716-0110"></script>
-    <script type="module" crossorigin src="./assets/sujets-professeurs-v88.js?v=20260716-0110"></script>
-    <script type="module" crossorigin src="./assets/pedagogie-pro-v110.js?v=20260716-0110"></script>
+    <script type="module" crossorigin src="./assets/index-monecole-v88.js?v=20260716-0100"></script>
+    <script type="module" crossorigin src="./assets/sujets-professeurs-v88.js?v=20260716-0100"></script>
+    <script type="module" crossorigin src="./assets/pedagogie-pro-v99.js?v=20260716-0100"></script>
+    <script type="module" crossorigin src="./assets/planning-cahier-simple-v100.js?v=20260716-0100"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-DrXaMgYu.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-Buf76L6m.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-monecole-v88.css?v=20260716-0110">
+    <link rel="stylesheet" crossorigin href="./assets/index-monecole-v88.css?v=20260716-0100">
   </head>
   <body>
     <div id="root">
