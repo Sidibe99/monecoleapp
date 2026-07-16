@@ -1,8 +1,8 @@
 {
-  "version": "v107",
+  "version": "v108",
   "date": "2026-07-16",
-  "note": "Le cahier de texte synchronise maintenant les cours avec le professeur programmé et reprend les données v106.",
-  "label": "Cahier de texte par professeur",
+  "note": "Le menu Cours du cahier de texte affiche les cours programmés disponibles et propose de programmer un cours si la liste est vide.",
+  "label": "Cahier de texte cours programmés",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-16T00:00:00.000Z"
