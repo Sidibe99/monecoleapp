@@ -19,9 +19,9 @@
       <div style="font-size:42px">🛠️</div>
       <h1>Nettoyer l’ancienne version</h1>
       <p>Cette page supprime le cache MonEcole et relance l’application proprement. Les données Supabase ne sont pas supprimées.</p>
-      <button id="clean">Nettoyer et relancer</button>
+      <button id="clean" type="button">Nettoyer et relancer</button>
       <a class="secondary" href="./">Retour</a>
-      <div id="status"></div>
+      <div id="status" role="status" aria-live="polite"></div>
     </section>
     <script>
       async function cleanAndGo() {
@@ -41,6 +41,7 @@
             localStorage.removeItem("monecole_pending_label");
             localStorage.removeItem("monecole_pending_client_update");
             localStorage.removeItem("monecole_app_version");
+            localStorage.removeItem("monecole_last_loaded_version");
           } catch {}
           status.textContent = "Terminé. Relance…";
           location.replace("./?clean=" + Date.now());

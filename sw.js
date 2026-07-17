@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v105";
+const CACHE_NAME = "monecole-vite-v107";
 const APP_SHELL = [
   "/",
   "/index.html",
@@ -30,7 +30,7 @@ self.addEventListener("install", event => {
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key)))
+      Promise.all(keys.filter(key => key.startsWith("monecole-") && key !== CACHE_NAME).map(key => caches.delete(key)))
     ).then(() => self.clients.claim())
   );
 });

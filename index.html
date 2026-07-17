@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#1a56db" />
     <meta name="description" content="MonEcole — gestion scolaire, pédagogique et financière." />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -45,19 +47,19 @@
         setTimeout(function() {
           var root = document.getElementById("root");
           if (root && root.textContent && root.textContent.indexOf("Chargement de MonEcole") !== -1) {
-            window.__ME_BOOT_ERROR__("Le fichier de l'application ne s'est pas lancé. Vérifiez que assets/index-monecole-v88.js est bien publié avec index.html.");
+            window.__ME_BOOT_ERROR__("Le fichier de l'application ne s'est pas lancé. Vérifiez que assets/index-monecole-v107.js est bien publié avec index.html.");
           }
         }, 8000);
       });
       (function() {
-        var version = "v105";
+        var version = "v107";
         try {
           window.__MONECOLE_VERSION__ = version;
           var key = "monecole_last_loaded_version";
           if (localStorage.getItem(key) !== version && window.caches) {
             caches.keys().then(function(keys) {
               return Promise.all(keys.filter(function(name) {
-                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v105";
+                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v107";
               }).map(function(name) { return caches.delete(name); }));
             }).then(function() {
               localStorage.setItem(key, version);
@@ -71,15 +73,23 @@
         } catch (error) {}
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-monecole-v88.js?v=20260717-0105"></script>
-    <script type="module" crossorigin src="./assets/emploi-de-temps-v101.js?v=20260717-0105"></script>
-    <script type="module" crossorigin src="./assets/cahier-prof-seance-v102.js?v=20260717-0105"></script>
-    <script type="module" crossorigin src="./assets/print-mode-v105.js?v=20260717-0105"></script>
+    <script type="module" crossorigin src="./assets/index-monecole-v107.js?v=20260717-0107"></script>
+    <script type="module" crossorigin src="./assets/cahier-prof-seance-v107.js?v=20260717-0107"></script>
+    <script type="module" crossorigin src="./assets/print-mode-v107.js?v=20260717-0107"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-DrXaMgYu.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-Buf76L6m.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-monecole-v88.css?v=20260717-0105">
+    <link rel="stylesheet" crossorigin href="./assets/index-monecole-v107.css?v=20260717-0107">
   </head>
   <body>
+    <noscript>
+      <style>#root{display:none!important}</style>
+      <main style="min-height:100vh;display:grid;place-items:center;padding:24px;background:#eef2f7;font-family:Arial,sans-serif;color:#0f172a">
+        <section role="alert" style="width:min(500px,100%);background:#fff;border:1px solid #fecaca;border-radius:18px;padding:26px;text-align:center;box-shadow:0 18px 55px rgba(15,23,42,.14)">
+          <h1 style="font-size:20px;margin:0 0 8px">JavaScript est désactivé</h1>
+          <p style="font-size:13px;line-height:1.6;color:#64748b;margin:0">Activez JavaScript dans votre navigateur pour utiliser MonEcole.</p>
+        </section>
+      </main>
+    </noscript>
     <div id="root">
       <main style="min-height:100vh;display:grid;place-items:center;padding:24px;background:#eef2f7;font-family:Arial,sans-serif;color:#0f172a">
         <section style="width:min(460px,100%);background:#fff;border:1px solid #dbeafe;border-radius:18px;padding:26px;text-align:center;box-shadow:0 18px 55px rgba(15,23,42,.14)">

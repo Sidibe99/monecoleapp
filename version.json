@@ -1,9 +1,9 @@
 {
-  "version": "v105",
+  "version": "v107",
   "date": "2026-07-17",
-  "note": "Stabilise l'impression : choix couleur ou noir et blanc une seule fois, impression systeme directe depuis l'apercu et lignes de tableaux renforcees.",
-  "label": "Impression stable et lignes renforcees",
+  "note": "Nouvelle finition visuelle professionnelle : couleurs apaisees, fonds harmonises, cartes et boutons uniformes, tableaux plus lisibles et meilleure adaptation mobile.",
+  "label": "Design professionnel et interface harmonisee",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-17T18:00:00.000Z"
+  "updated_at": "2026-07-17T20:30:00.000Z"
 }
