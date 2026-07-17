@@ -1,9 +1,9 @@
 {
-  "version": "v104",
+  "version": "v105",
   "date": "2026-07-17",
-  "note": "Corrige le choix d'impression couleur/noir et blanc pour les apercus et les fenetres d'impression.",
-  "label": "Choix d'impression corrige",
+  "note": "Stabilise l'impression : choix couleur ou noir et blanc une seule fois, impression systeme directe depuis l'apercu et lignes de tableaux renforcees.",
+  "label": "Impression stable et lignes renforcees",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-17T00:00:00.000Z"
+  "updated_at": "2026-07-17T18:00:00.000Z"
 }
