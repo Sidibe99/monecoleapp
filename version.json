@@ -1,9 +1,9 @@
 {
-  "version": "v103",
-  "date": "2026-07-16",
-  "note": "Ajoute un choix avant impression pour imprimer les fiches en couleur ou en noir et blanc.",
-  "label": "Impression couleur ou noir et blanc",
+  "version": "v104",
+  "date": "2026-07-17",
+  "note": "Corrige le choix d'impression couleur/noir et blanc pour les apercus et les fenetres d'impression.",
+  "label": "Choix d'impression corrige",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-16T00:00:00.000Z"
+  "updated_at": "2026-07-17T00:00:00.000Z"
 }
