@@ -1,8 +1,8 @@
 {
-  "version": "v102",
+  "version": "v103",
   "date": "2026-07-16",
-  "note": "Cahier de texte sécurisé : au primaire, seul le professeur programmé du jour peut écrire ; au collège et au lycée, seul le professeur de la séance choisie peut enregistrer.",
-  "label": "Cahier sécurisé par professeur et séance",
+  "note": "Ajoute un choix avant impression pour imprimer les fiches en couleur ou en noir et blanc.",
+  "label": "Impression couleur ou noir et blanc",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-07-16T00:00:00.000Z"
