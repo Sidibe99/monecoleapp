@@ -61,6 +61,25 @@ const minutesSince = (value) => {
   return Math.floor((Date.now() - date.getTime()) / 60000);
 };
 
+const getClientKey = (req) => {
+  const forwarded = req.headers.get("x-forwarded-for");
+  if (forwarded) return forwarded.split(",")[0].trim();
+  return req.headers.get("cf-connecting-ip") || "inconnu";
+};
+
+const timingSafeEqual = async (a, b) => {
+  const encoder = new TextEncoder();
+  const [hashA, hashB] = await Promise.all([
+    crypto.subtle.digest("SHA-256", encoder.encode(a)),
+    crypto.subtle.digest("SHA-256", encoder.encode(b)),
+  ]);
+  const bytesA = new Uint8Array(hashA);
+  const bytesB = new Uint8Array(hashB);
+  let diff = 0;
+  for (let i = 0; i < bytesA.length; i += 1) diff |= bytesA[i] ^ bytesB[i];
+  return diff === 0;
+};
+
 const countByEtablissement = async (admin, table) => {
   const counts = new Map();
   try {
@@ -101,13 +120,23 @@ Deno.serve(async (req) => {
     return json({ ok: false, error: "Requete invalide." }, 400);
   }
 
-  if (String(body.motDePasse || "") !== masterPassword) {
-    return json({ ok: false, error: "Mot de passe maitre incorrect." }, 401);
-  }
-
   const admin = createClient(supabaseUrl, serviceRoleKey, {
     auth: { persistSession: false, autoRefreshToken: false },
   });
+
+  const clientKey = getClientKey(req);
+  const { data: verrouille } = await admin.rpc("editeur_admin_est_verrouille", { p_cle: clientKey });
+  if (verrouille) {
+    return json({ ok: false, error: "Trop de tentatives. Reessayez dans quelques minutes." }, 429);
+  }
+
+  const motDePasseValide = await timingSafeEqual(String(body.motDePasse || ""), masterPassword);
+  if (!motDePasseValide) {
+    await admin.rpc("editeur_admin_enregistrer_echec", { p_cle: clientKey });
+    return json({ ok: false, error: "Mot de passe maitre incorrect." }, 401);
+  }
+  await admin.rpc("editeur_admin_reinitialiser", { p_cle: clientKey });
+
   const action = String(body.action || "");
 
   try {
