@@ -1,9 +1,9 @@
 {
-  "version": "v107",
-  "date": "2026-07-17",
-  "note": "Nouvelle finition visuelle professionnelle : couleurs apaisees, fonds harmonises, cartes et boutons uniformes, tableaux plus lisibles et meilleure adaptation mobile.",
-  "label": "Design professionnel et interface harmonisee",
+  "version": "v108",
+  "date": "2026-07-18",
+  "note": "Les classes de maternelle proposent maintenant deux modes distincts : notes chiffrees sur 10 ou appreciations Acquis, En cours d'acquisition et Non acquis.",
+  "label": "Deux modes d'evaluation pour la maternelle",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-17T20:30:00.000Z"
+  "updated_at": "2026-07-18T21:00:00.000Z"
 }
