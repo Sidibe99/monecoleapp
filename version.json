@@ -1,9 +1,9 @@
 {
-  "version": "v108",
+  "version": "v109",
   "date": "2026-07-18",
-  "note": "Les classes de maternelle proposent maintenant deux modes distincts : notes chiffrees sur 10 ou appreciations Acquis, En cours d'acquisition et Non acquis.",
-  "label": "Deux modes d'evaluation pour la maternelle",
+  "note": "Interface plus classique et professionnelle : emojis decoratifs retires, pictogrammes uniformises et boutons clarifies. Les deux modes d'evaluation de la maternelle sont conserves.",
+  "label": "Interface scolaire classique",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-18T21:00:00.000Z"
+  "updated_at": "2026-07-18T23:00:00.000Z"
 }
