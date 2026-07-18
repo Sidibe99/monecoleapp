@@ -31,6 +31,7 @@
           if (existing) existing.remove();
           var box = document.createElement("div");
           box.id = "me-boot-error";
+          box.setAttribute("role", "alert");
           box.style.cssText = "position:fixed;left:16px;right:16px;bottom:16px;z-index:99999;background:#fff1f2;border:1px solid #fecaca;color:#991b1b;border-radius:12px;padding:12px 14px;font-family:Arial,sans-serif;font-size:12px;line-height:1.45;box-shadow:0 12px 40px rgba(0,0,0,.18);white-space:pre-wrap";
           box.textContent = "Erreur de démarrage MonEcole :\n" + message;
           document.body.appendChild(box);
@@ -47,7 +48,7 @@
         setTimeout(function() {
           var root = document.getElementById("root");
           if (root && root.textContent && root.textContent.indexOf("Chargement de MonEcole") !== -1) {
-            window.__ME_BOOT_ERROR__("Le fichier de l'application ne s'est pas lancé. Vérifiez que assets/index-monecole-v107.js est bien publié avec index.html.");
+            window.__ME_BOOT_ERROR__("Le fichier de l'application ne s'est pas lancé. Ouvrez la page de nettoyage puis relancez MonEcole.");
           }
         }, 8000);
       });
@@ -64,8 +65,8 @@
             }).then(function() {
               localStorage.setItem(key, version);
               if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
-                navigator.serviceWorker.getRegistration().then(function(reg) {
-                  if (reg && reg.update) reg.update();
+                navigator.serviceWorker.getRegistration().then(function(registration) {
+                  if (registration && registration.update) registration.update();
                 });
               }
             });
@@ -73,12 +74,10 @@
         } catch (error) {}
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-monecole-v107.js?v=20260717-0107"></script>
-    <script type="module" crossorigin src="./assets/cahier-prof-seance-v107.js?v=20260717-0107"></script>
-    <script type="module" crossorigin src="./assets/print-mode-v107.js?v=20260717-0107"></script>
+    <script type="module" crossorigin src="./assets/index-DjKF5y6J.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-DrXaMgYu.js">
-    <link rel="modulepreload" crossorigin href="./assets/supabase-Buf76L6m.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-monecole-v107.css?v=20260717-0107">
+    <link rel="modulepreload" crossorigin href="./assets/supabase-kic3bLQH.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BjkOXP7f.css">
   </head>
   <body>
     <noscript>
