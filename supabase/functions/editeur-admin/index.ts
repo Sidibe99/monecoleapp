@@ -30,8 +30,11 @@ const activationFormules = new Set(["essai", "basique", "standard", "premium"]);
 
 const makeActivationCode = () => {
   const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
-  const part = (length = 5) =>
-    Array.from({ length }, () => alphabet[Math.floor(Math.random() * alphabet.length)]).join("");
+  const part = (length = 5) => {
+    const buf = new Uint32Array(length);
+    crypto.getRandomValues(buf);
+    return Array.from(buf, (n) => alphabet[n % alphabet.length]).join("");
+  };
   return `ME-${part()}-${part()}`;
 };
 
@@ -125,17 +128,26 @@ Deno.serve(async (req) => {
   });
 
   const clientKey = getClientKey(req);
-  const { data: verrouille } = await admin.rpc("editeur_admin_est_verrouille", { p_cle: clientKey });
+  const { data: verrouille, error: verrouilleError } = await admin.rpc("monecole_admin_est_verrouille", { p_cle: clientKey });
+  if (verrouilleError) {
+    console.error("monecole_admin_est_verrouille failed", { message: verrouilleError.message, details: verrouilleError.details, hint: verrouilleError.hint, code: verrouilleError.code });
+  }
   if (verrouille) {
     return json({ ok: false, error: "Trop de tentatives. Reessayez dans quelques minutes." }, 429);
   }
 
   const motDePasseValide = await timingSafeEqual(String(body.motDePasse || ""), masterPassword);
   if (!motDePasseValide) {
-    await admin.rpc("editeur_admin_enregistrer_echec", { p_cle: clientKey });
+    const { error: echecError } = await admin.rpc("monecole_admin_enregistrer_echec", { p_cle: clientKey });
+    if (echecError) {
+      console.error("monecole_admin_enregistrer_echec failed", { message: echecError.message, details: echecError.details, hint: echecError.hint, code: echecError.code });
+    }
     return json({ ok: false, error: "Mot de passe maitre incorrect." }, 401);
   }
-  await admin.rpc("editeur_admin_reinitialiser", { p_cle: clientKey });
+  const { error: resetError } = await admin.rpc("monecole_admin_reinitialiser", { p_cle: clientKey });
+  if (resetError) {
+    console.error("monecole_admin_reinitialiser failed", { message: resetError.message, details: resetError.details, hint: resetError.hint, code: resetError.code });
+  }
 
   const action = String(body.action || "");
 
