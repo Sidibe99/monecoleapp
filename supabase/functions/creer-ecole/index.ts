@@ -76,7 +76,13 @@ Deno.serve(async (req: Request) => {
         .eq("code", codeUp);
 
     // 3) Créer l'établissement (formule imposée par le code)
-    const { formule: _ignore, ...ecoleClean } = ecole; // on ignore toute formule envoyée par le client
+    const { formule: _ignore, ...ecoleRest } = ecole; // on ignore toute formule envoyée par le client
+    // Les champs numériques laissés vides arrivent en chaîne vide "" depuis le
+    // formulaire ; Postgres refuse "" pour une colonne numérique. On les
+    // convertit en null (= non defini) plutôt que de faire échouer la création.
+    const ecoleClean = Object.fromEntries(
+      Object.entries(ecoleRest).map(([key, value]) => [key, value === "" ? null : value]),
+    );
     const { data: etab, error: etabErr } = await admin
       .from("etablissements")
       .insert({ ...ecoleClean, formule, code_activation: codeUp, created_at: new Date().toISOString() })
