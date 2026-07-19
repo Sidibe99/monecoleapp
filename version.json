@@ -1,9 +1,9 @@
 {
-  "version": "v118",
+  "version": "v120",
   "date": "2026-07-19",
-  "note": "Le grand badge de synchronisation est remplace par un voyant lumineux discret devant le nom de l'utilisateur. Sa couleur indique l'etat de la connexion.",
-  "label": "Voyant de synchronisation discret",
+  "note": "Les boutons superieurs des pages Notes et Bulletins sont reorganises dans des barres d'actions compactes, avec les filtres, exports et actions clairement separes.",
+  "label": "Barres d'actions reorganisees",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-19T01:18:00.000Z"
+  "updated_at": "2026-07-19T01:34:00.000Z"
 }
