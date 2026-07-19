@@ -1,9 +1,9 @@
 {
-  "version": "v122",
+  "version": "v123",
   "date": "2026-07-19",
-  "note": "Les en-tetes sont harmonises dans toute l'application : titres plus lisibles, boutons regroupes, couleurs sobres et actions principales mieux mises en valeur.",
-  "label": "En-tetes harmonises",
+  "note": "Le compteur de mots hors connexion est retire du dictionnaire. Les en-tetes utilisent maintenant une couleur legere, elegante et adaptee a la couleur principale choisie.",
+  "label": "En-tetes colores et dictionnaire epure",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-19T02:05:00.000Z"
+  "updated_at": "2026-07-19T02:18:00.000Z"
 }
