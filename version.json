@@ -1,9 +1,9 @@
 {
-  "version": "v115",
+  "version": "v118",
   "date": "2026-07-19",
-  "note": "La barre de titre de l'application suit maintenant la couleur principale choisie et conserve cette couleur apres reouverture.",
-  "label": "Barre de titre liee a la couleur principale",
+  "note": "Le grand badge de synchronisation est remplace par un voyant lumineux discret devant le nom de l'utilisateur. Sa couleur indique l'etat de la connexion.",
+  "label": "Voyant de synchronisation discret",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-19T00:38:00.000Z"
+  "updated_at": "2026-07-19T01:18:00.000Z"
 }
