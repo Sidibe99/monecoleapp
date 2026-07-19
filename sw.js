@@ -1,4 +1,5 @@
-const CACHE_NAME = "monecole-vite-v130";
+const CACHE_NAME = "monecole-vite-v131";
+const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
 const APP_SHELL = [
   "/",
   "/index.html",
@@ -40,7 +41,21 @@ self.addEventListener("fetch", event => {
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
+  if (url.origin !== self.location.origin) {
+    if (!TRUSTED_RUNTIME_HOSTS.has(url.hostname)) return;
+    event.respondWith(
+      caches.open(CACHE_NAME).then(async cache => {
+        const cached = await cache.match(request);
+        if (cached) return cached;
+        const response = await fetch(request);
+        if (response && (response.ok || response.type === "opaque")) {
+          await cache.put(request, response.clone());
+        }
+        return response;
+      })
+    );
+    return;
+  }
   if (url.pathname.startsWith("/rest/") || url.pathname.startsWith("/auth/") || url.pathname.startsWith("/storage/")) return;
   if (url.pathname.endsWith("/version.json")) {
     event.respondWith(fetch(request, { cache: "no-store" }).catch(() => caches.match("/version.json")));

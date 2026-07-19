@@ -1,9 +1,9 @@
 {
-  "version": "v130",
+  "version": "v131",
   "date": "2026-07-19",
-  "note": "Les portraits d'eleves affiches dans les barres de titre changent maintenant de facon aleatoire toutes les quinze secondes, avec une transition douce.",
-  "label": "Rotation aleatoire des portraits",
+  "note": "Version stabilisee apres audit complet : securite par role, codes et renouvellement atomiques, IA protegee, notes et finances controlees, suppressions fiables et cache corrige.",
+  "label": "Audit complet et stabilisation",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-19T10:55:00.000Z"
+  "updated_at": "2026-07-19T15:00:00.000Z"
 }
