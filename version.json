@@ -1,9 +1,9 @@
 {
-  "version": "v110",
-  "date": "2026-07-18",
-  "note": "Les cartes de classes s'adaptent maintenant aux ecrans etroits : les boutons Modifier et Supprimer restent dans leur carte sans chevauchement.",
-  "label": "Cartes de classes adaptatives",
+  "version": "v115",
+  "date": "2026-07-19",
+  "note": "La barre de titre de l'application suit maintenant la couleur principale choisie et conserve cette couleur apres reouverture.",
+  "label": "Barre de titre liee a la couleur principale",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-18T23:45:00.000Z"
+  "updated_at": "2026-07-19T00:38:00.000Z"
 }
