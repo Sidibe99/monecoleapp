@@ -1,9 +1,9 @@
 {
-  "version": "v133",
-  "date": "2026-07-19",
-  "note": "Alerte de nouvelle connexion avec installation guidee de l'application sur le nouvel appareil.",
-  "label": "Installation proposee sur le nouvel appareil",
+  "version": "v135",
+  "date": "2026-07-20",
+  "note": "Le tableau de bord affiche maintenant des graphiques adaptatifs pour la repartition des eleves par sexe et par cycle.",
+  "label": "Graphiques des effectifs",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-19T23:39:20.000Z"
+  "updated_at": "2026-07-20T08:44:00.000Z"
 }
