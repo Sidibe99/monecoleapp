@@ -1,9 +1,9 @@
 {
-  "version": "v131",
+  "version": "v133",
   "date": "2026-07-19",
-  "note": "Version stabilisee apres audit complet : securite par role, codes et renouvellement atomiques, IA protegee, notes et finances controlees, suppressions fiables et cache corrige.",
-  "label": "Audit complet et stabilisation",
+  "note": "Alerte de nouvelle connexion avec installation guidee de l'application sur le nouvel appareil.",
+  "label": "Installation proposee sur le nouvel appareil",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-19T15:00:00.000Z"
+  "updated_at": "2026-07-19T23:39:20.000Z"
 }
