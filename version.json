@@ -1,9 +1,9 @@
 {
-  "version": "v135",
-  "date": "2026-07-20",
-  "note": "Le tableau de bord affiche maintenant des graphiques adaptatifs pour la repartition des eleves par sexe et par cycle.",
-  "label": "Graphiques des effectifs",
+  "version": "v138",
+  "date": "2026-07-28",
+  "note": "Les actions des fiches et de la saisie des notes sont regroupees dans un en-tete clair et adaptatif.",
+  "label": "Entete des fiches de notes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-20T08:44:00.000Z"
+  "updated_at": "2026-07-28T11:18:37.000Z"
 }
