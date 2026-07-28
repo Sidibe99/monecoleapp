@@ -1,9 +1,9 @@
 {
-  "version": "v140",
+  "version": "v142",
   "date": "2026-07-28",
-  "note": "Les actions Relances, Rapport financier et Export sont maintenant hierarchisees et adaptees au mobile.",
-  "label": "Actions des paiements",
+  "note": "Le dictionnaire est simplifie : l'utilisateur saisit un mot ou une expression et genere directement sa definition avec l'IA, sans listes locales ni mots proposes.",
+  "label": "Definitions uniquement par IA",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-28T12:40:31.000Z"
+  "updated_at": "2026-07-28T20:30:00.000Z"
 }
