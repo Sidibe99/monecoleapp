@@ -1,9 +1,9 @@
 {
-  "version": "v139",
+  "version": "v140",
   "date": "2026-07-28",
-  "note": "Le raccourci clavier est maintenant range avec la calculatrice dans une zone d'outils compacte.",
-  "label": "Outils du tableau de bord",
+  "note": "Les actions Relances, Rapport financier et Export sont maintenant hierarchisees et adaptees au mobile.",
+  "label": "Actions des paiements",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-28T12:09:59.000Z"
+  "updated_at": "2026-07-28T12:40:31.000Z"
 }
