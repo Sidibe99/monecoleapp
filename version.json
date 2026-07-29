@@ -1,9 +1,9 @@
 {
-  "version": "v146",
+  "version": "v148",
   "date": "2026-07-29",
-  "note": "La generation arabe est maintenant controlee et relancee automatiquement si le service IA renvoie une reponse en francais.",
-  "label": "Generation arabe forcee et verifiee",
-  "scope": "client+supabase",
+  "note": "L'apparence generale de MonEcole est harmonisee avec des cartes, formulaires, boutons, tableaux et menus plus soignes.",
+  "label": "Finition visuelle generale",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-29T00:55:00.000Z"
+  "updated_at": "2026-07-29T03:05:00.000Z"
 }
