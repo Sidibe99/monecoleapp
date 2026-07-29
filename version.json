@@ -1,9 +1,9 @@
 {
-  "version": "v143",
+  "version": "v145",
   "date": "2026-07-28",
-  "note": "L'interface IA educative est plus compacte : la formule rejoint les onglets et les blocs descriptifs repetitifs sont supprimes.",
-  "label": "Interface IA plus compacte",
-  "scope": "client",
+  "note": "Les ecoles franco-arabes peuvent maintenant generer les definitions, exercices et fiches professeur en francais ou en arabe.",
+  "label": "Generation IA en francais ou en arabe",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-07-28T22:30:00.000Z"
+  "updated_at": "2026-07-28T23:50:00.000Z"
 }
