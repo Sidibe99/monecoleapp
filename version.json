@@ -1,9 +1,9 @@
 {
-  "version": "v148",
+  "version": "v149",
   "date": "2026-07-29",
-  "note": "L'apparence generale de MonEcole est harmonisee avec des cartes, formulaires, boutons, tableaux et menus plus soignes.",
-  "label": "Finition visuelle generale",
+  "note": "Chaque theme utilise maintenant sa propre police et des couleurs de texte renforcees pour rester lisible sur ordinateur, tablette et telephone.",
+  "label": "Polices et lisibilite des themes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-29T03:05:00.000Z"
+  "updated_at": "2026-07-29T09:25:46.000Z"
 }
