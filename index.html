@@ -53,14 +53,14 @@
         }, 8000);
       });
       (function() {
-        var version = "v149";
+        var version = "v150";
         try {
           window.__MONECOLE_VERSION__ = version;
           var key = "monecole_last_loaded_version";
           if (localStorage.getItem(key) !== version && window.caches) {
             caches.keys().then(function(keys) {
               return Promise.all(keys.filter(function(name) {
-                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v149";
+                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v150";
               }).map(function(name) { return caches.delete(name); }));
             }).then(function() {
               localStorage.setItem(key, version);
@@ -80,7 +80,7 @@
         } catch (error) {}
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-rfziacyN.js"></script>
+    <script type="module" crossorigin src="./assets/index-CS4IMxcU.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-DrXaMgYu.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-Buf76L6m.js">
     <link rel="stylesheet" crossorigin href="./assets/index-CqNy1NJG.css">

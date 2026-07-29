@@ -1,9 +1,9 @@
 {
-  "version": "v149",
+  "version": "v150",
   "date": "2026-07-29",
-  "note": "Chaque theme utilise maintenant sa propre police et des couleurs de texte renforcees pour rester lisible sur ordinateur, tablette et telephone.",
-  "label": "Polices et lisibilite des themes",
+  "note": "Le mode confidentialite accepte maintenant une photo de fond privee, lisible et synchronisee entre les appareils du compte.",
+  "label": "Photo du fond de verrouillage",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-29T09:25:46.000Z"
+  "updated_at": "2026-07-29T11:20:00.000Z"
 }
