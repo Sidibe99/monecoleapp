@@ -1,9 +1,9 @@
 {
-  "version": "v150",
+  "version": "v151",
   "date": "2026-07-29",
-  "note": "Le mode confidentialite accepte maintenant une photo de fond privee, lisible et synchronisee entre les appareils du compte.",
-  "label": "Photo du fond de verrouillage",
+  "note": "La photo du fond de verrouillage s'affiche maintenant de facon fiable, meme dans l'app installee ou temporairement hors connexion.",
+  "label": "Fond de verrouillage fiable",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-29T11:20:00.000Z"
+  "updated_at": "2026-07-29T18:10:00.000Z"
 }
