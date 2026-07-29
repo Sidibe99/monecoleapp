@@ -1,9 +1,9 @@
 {
-  "version": "v145",
-  "date": "2026-07-28",
-  "note": "Les ecoles franco-arabes peuvent maintenant generer les definitions, exercices et fiches professeur en francais ou en arabe.",
-  "label": "Generation IA en francais ou en arabe",
+  "version": "v146",
+  "date": "2026-07-29",
+  "note": "La generation arabe est maintenant controlee et relancee automatiquement si le service IA renvoie une reponse en francais.",
+  "label": "Generation arabe forcee et verifiee",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-07-28T23:50:00.000Z"
+  "updated_at": "2026-07-29T00:55:00.000Z"
 }
