@@ -1,9 +1,9 @@
 {
-  "version": "v151",
-  "date": "2026-07-29",
-  "note": "La photo du fond de verrouillage s'affiche maintenant de facon fiable, meme dans l'app installee ou temporairement hors connexion.",
-  "label": "Fond de verrouillage fiable",
+  "version": "v152",
+  "date": "2026-07-30",
+  "note": "La copie locale de la photo est maintenant prioritaire pour garantir son affichage sur l'ecran de verrouillage.",
+  "label": "Fond de verrouillage local prioritaire",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-29T18:10:00.000Z"
+  "updated_at": "2026-07-30T01:30:00.000Z"
 }
