@@ -1,9 +1,9 @@
 {
-  "version": "v153",
+  "version": "v154",
   "date": "2026-07-30",
-  "note": "La photo visible dans les reglages reste maintenant figee pendant tout le verrouillage.",
-  "label": "Photo conservee au verrouillage",
+  "note": "Une copie locale compacte garantit maintenant la photo de verrouillage des le demarrage.",
+  "label": "Copie locale de secours",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-30T17:50:00.000Z"
+  "updated_at": "2026-07-30T18:55:00.000Z"
 }
