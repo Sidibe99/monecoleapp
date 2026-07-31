@@ -1,9 +1,9 @@
 {
-  "version": "v154",
+  "version": "v155",
   "date": "2026-07-30",
-  "note": "Une copie locale compacte garantit maintenant la photo de verrouillage des le demarrage.",
-  "label": "Copie locale de secours",
+  "note": "Le fond de verrouillage a ete recree avec un stockage local simple et direct.",
+  "label": "Nouveau fond de verrouillage",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-30T18:55:00.000Z"
+  "updated_at": "2026-07-30T19:30:00.000Z"
 }
