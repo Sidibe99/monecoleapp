@@ -1,9 +1,9 @@
 {
-  "version": "v157",
+  "version": "v158",
   "date": "2026-07-31",
-  "note": "La photo est maintenant affichee par une vraie image plein ecran au lieu d'un fond CSS.",
-  "label": "Image plein ecran",
+  "note": "Les photos HEIC et HEIF sont maintenant converties localement en JPEG avant leur utilisation.",
+  "label": "Photos HEIC compatibles",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-31T23:10:00.000Z"
+  "updated_at": "2026-07-31T23:45:00.000Z"
 }
