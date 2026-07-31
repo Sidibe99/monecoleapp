@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v158";
+const CACHE_NAME = "monecole-vite-v159";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
 const APP_SHELL = [
   "/",
@@ -10,22 +10,48 @@ const APP_SHELL = [
   "/apple-touch-icon.png"
 ];
 
-const cacheCompiledAssets = async cache => {
-  const response = await fetch("/index.html", { cache: "no-store" });
-  if (!response.ok) throw new Error("index.html indisponible");
-  const html = await response.text();
-  const assets = [...html.matchAll(/(?:src|href)="\.\/(assets\/[^"]+)"/g)]
-    .map(match => `/${match[1]}`);
-  if (assets.length) await cache.addAll([...new Set(assets)]);
+const extractAssetPaths = (text, expression) => {
+  const paths = [];
+  let match;
+  while ((match = expression.exec(text)) !== null) paths.push(match[1]);
+  return paths;
+};
+
+const cacheCompiledAssets = cache => {
+  const visited = new Set();
+  const cacheAsset = path => {
+    if (visited.has(path) || path.includes("heic-to")) return Promise.resolve();
+    visited.add(path);
+    return fetch(path, { cache: "no-store" }).then(response => {
+      if (!response.ok) throw new Error(`${path} indisponible`);
+      const stored = cache.put(path, response.clone());
+      if (!/\.js(?:[?#]|$)/.test(path)) return stored;
+      return response.text().then(code => {
+        const imports = extractAssetPaths(code, /["']\.\/([^"'?]+\.js)["']/g)
+          .map(name => new URL(name, new URL(path, self.location.origin)).pathname)
+          .filter(name => name.startsWith("/assets/") && !name.includes("heic-to"));
+        return stored.then(() => Promise.all(imports.map(cacheAsset)));
+      });
+    });
+  };
+  return fetch("/index.html", { cache: "no-store" })
+    .then(response => {
+      if (!response.ok) throw new Error("index.html indisponible");
+      return response.text();
+    })
+    .then(html => {
+      const assets = extractAssetPaths(html, /(?:src|href|data-src)="\.\/(assets\/[^"]+)"/g)
+        .map(name => `/${name}`);
+      return Promise.all(Array.from(new Set(assets)).map(cacheAsset));
+    });
 };
 
 self.addEventListener("install", event => {
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE_NAME);
-    await cache.addAll(APP_SHELL);
-    await cacheCompiledAssets(cache);
-    await self.skipWaiting();
-  })());
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(APP_SHELL).then(() => cacheCompiledAssets(cache)))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener("activate", event => {
@@ -44,15 +70,17 @@ self.addEventListener("fetch", event => {
   if (url.origin !== self.location.origin) {
     if (!TRUSTED_RUNTIME_HOSTS.has(url.hostname)) return;
     event.respondWith(
-      caches.open(CACHE_NAME).then(async cache => {
-        const cached = await cache.match(request);
-        if (cached) return cached;
-        const response = await fetch(request);
-        if (response && (response.ok || response.type === "opaque")) {
-          await cache.put(request, response.clone());
-        }
-        return response;
-      })
+      caches.open(CACHE_NAME).then(cache =>
+        cache.match(request).then(cached => {
+          if (cached) return cached;
+          return fetch(request).then(response => {
+            if (response && (response.ok || response.type === "opaque")) {
+              return cache.put(request, response.clone()).then(() => response);
+            }
+            return response;
+          });
+        })
+      )
     );
     return;
   }

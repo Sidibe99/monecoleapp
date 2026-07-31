@@ -1,9 +1,9 @@
 {
-  "version": "v158",
+  "version": "v159",
   "date": "2026-07-31",
-  "note": "Les photos HEIC et HEIF sont maintenant converties localement en JPEG avant leur utilisation.",
-  "label": "Photos HEIC compatibles",
+  "note": "Compatibilite renforcee pour Android, iPhone, iPad, tablettes et ordinateurs, y compris les navigateurs moins recents.",
+  "label": "Compatibilite tous appareils",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-31T23:45:00.000Z"
+  "updated_at": "2026-07-31T23:58:00.000Z"
 }
