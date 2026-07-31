@@ -1,9 +1,9 @@
 {
-  "version": "v155",
-  "date": "2026-07-30",
-  "note": "Le fond de verrouillage a ete recree avec un stockage local simple et direct.",
-  "label": "Nouveau fond de verrouillage",
+  "version": "v156",
+  "date": "2026-07-31",
+  "note": "La photo de verrouillage utilise maintenant un cache prive separe du stockage des donnees.",
+  "label": "Cache photo prive",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-30T19:30:00.000Z"
+  "updated_at": "2026-07-31T22:30:00.000Z"
 }
