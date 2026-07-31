@@ -1,9 +1,9 @@
 {
-  "version": "v156",
+  "version": "v157",
   "date": "2026-07-31",
-  "note": "La photo de verrouillage utilise maintenant un cache prive separe du stockage des donnees.",
-  "label": "Cache photo prive",
+  "note": "La photo est maintenant affichee par une vraie image plein ecran au lieu d'un fond CSS.",
+  "label": "Image plein ecran",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-31T22:30:00.000Z"
+  "updated_at": "2026-07-31T23:10:00.000Z"
 }
