@@ -1,9 +1,9 @@
 {
-  "version": "v161",
+  "version": "v162",
   "date": "2026-08-01",
-  "note": "Le dictionnaire IA verifie l'orthographe et refuse toute definition qui n'est pas confirmee par un second controle.",
-  "label": "Dictionnaire IA robuste",
+  "note": "Le dictionnaire IA corrige automatiquement un mot proche lorsque deux controles confirment la meme correction et sa definition.",
+  "label": "Correction IA vérifiée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T09:40:00.000Z"
+  "updated_at": "2026-08-01T12:55:00.000Z"
 }
