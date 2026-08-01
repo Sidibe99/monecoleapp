@@ -1,9 +1,9 @@
 {
-  "version": "v168",
+  "version": "v169",
   "date": "2026-08-01",
-  "note": "Un mot atteste ne peut plus etre presente comme inconnu si la premiere preparation de ses differents sens echoue.",
-  "label": "Reprise fiable des sens attestés",
+  "note": "L'IA adapte maintenant ses definitions, exercices et fiches a la matiere selectionnee, avec une recherche lexicale parallele plus rapide.",
+  "label": "IA adaptée à la matière",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T20:20:00.000Z"
+  "updated_at": "2026-08-01T20:45:00.000Z"
 }
