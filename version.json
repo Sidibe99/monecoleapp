@@ -1,9 +1,9 @@
 {
-  "version": "v170",
+  "version": "v171",
   "date": "2026-08-01",
-  "note": "Les actions de la page Eleves sont mieux organisees et les salaires du Personnel sont presentes dans des cartes lisibles avec des milliers espaces.",
-  "label": "Actions et salaires mieux présentés",
+  "note": "Le personnel est maintenant affiche selon la hierarchie de l'etablissement, avec la direction en premier.",
+  "label": "Personnel classé par hiérarchie",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T22:20:00.000Z"
+  "updated_at": "2026-08-01T22:55:00.000Z"
 }
