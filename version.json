@@ -1,9 +1,9 @@
 {
-  "version": "v163",
+  "version": "v164",
   "date": "2026-08-01",
-  "note": "Le dictionnaire IA retente en JSON simple lorsqu'un fournisseur refuse le format structure et affiche un diagnostic exploitable en cas d'echec.",
-  "label": "Compatibilité IA renforcée",
+  "note": "La correction orthographique reste visible dans l'entete sans etre repetee dans le texte de la definition.",
+  "label": "Définition IA allégée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T13:35:00.000Z"
+  "updated_at": "2026-08-01T14:10:00.000Z"
 }
