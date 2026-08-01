@@ -1,9 +1,9 @@
 {
-  "version": "v160",
-  "date": "2026-07-31",
-  "note": "Le style Classique moderne unifie la navigation, les cartes, les boutons, les tableaux, les formulaires et les fenetres.",
-  "label": "Style Classique moderne",
+  "version": "v161",
+  "date": "2026-08-01",
+  "note": "Le dictionnaire IA verifie l'orthographe et refuse toute definition qui n'est pas confirmee par un second controle.",
+  "label": "Dictionnaire IA robuste",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-31T23:59:30.000Z"
+  "updated_at": "2026-08-01T09:40:00.000Z"
 }
