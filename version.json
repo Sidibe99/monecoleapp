@@ -1,9 +1,9 @@
 {
-  "version": "v165",
+  "version": "v166",
   "date": "2026-08-01",
-  "note": "Les mots mal orthographies affichent plusieurs corrections confirmees avec leurs details, et le choix genere directement la definition.",
-  "label": "Choix de corrections IA",
+  "note": "Les corrections proposees sont attestees dans le Wiktionnaire et apparaissent comme des choix sous la recherche avant toute definition.",
+  "label": "Recherche lexicale vérifiée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T16:40:00.000Z"
+  "updated_at": "2026-08-01T17:25:00.000Z"
 }
