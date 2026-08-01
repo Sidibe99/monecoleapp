@@ -1,9 +1,9 @@
 {
-  "version": "v159",
+  "version": "v160",
   "date": "2026-07-31",
-  "note": "Compatibilite renforcee pour Android, iPhone, iPad, tablettes et ordinateurs, y compris les navigateurs moins recents.",
-  "label": "Compatibilite tous appareils",
+  "note": "Le style Classique moderne unifie la navigation, les cartes, les boutons, les tableaux, les formulaires et les fenetres.",
+  "label": "Style Classique moderne",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-07-31T23:58:00.000Z"
+  "updated_at": "2026-07-31T23:59:30.000Z"
 }
