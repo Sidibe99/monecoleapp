@@ -1,9 +1,9 @@
 {
-  "version": "v166",
+  "version": "v167",
   "date": "2026-08-01",
-  "note": "Les corrections proposees sont attestees dans le Wiktionnaire et apparaissent comme des choix sous la recherche avant toute definition.",
-  "label": "Recherche lexicale vérifiée",
+  "note": "Un mot correctement ecrit affiche maintenant tous ses sens principaux attestes, y compris les sens distincts entre nom commun et nom propre.",
+  "label": "Définitions à plusieurs sens",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T17:25:00.000Z"
+  "updated_at": "2026-08-01T18:35:00.000Z"
 }
