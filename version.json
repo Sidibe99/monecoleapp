@@ -1,9 +1,9 @@
 {
-  "version": "v169",
+  "version": "v170",
   "date": "2026-08-01",
-  "note": "L'IA adapte maintenant ses definitions, exercices et fiches a la matiere selectionnee, avec une recherche lexicale parallele plus rapide.",
-  "label": "IA adaptée à la matière",
+  "note": "Les actions de la page Eleves sont mieux organisees et les salaires du Personnel sont presentes dans des cartes lisibles avec des milliers espaces.",
+  "label": "Actions et salaires mieux présentés",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T20:45:00.000Z"
+  "updated_at": "2026-08-01T22:20:00.000Z"
 }
