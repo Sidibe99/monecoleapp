@@ -1,9 +1,9 @@
 {
-  "version": "v164",
+  "version": "v165",
   "date": "2026-08-01",
-  "note": "La correction orthographique reste visible dans l'entete sans etre repetee dans le texte de la definition.",
-  "label": "Définition IA allégée",
+  "note": "Les mots mal orthographies affichent plusieurs corrections confirmees avec leurs details, et le choix genere directement la definition.",
+  "label": "Choix de corrections IA",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T14:10:00.000Z"
+  "updated_at": "2026-08-01T16:40:00.000Z"
 }
