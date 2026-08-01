@@ -1,9 +1,9 @@
 {
-  "version": "v171",
+  "version": "v173",
   "date": "2026-08-01",
-  "note": "Le personnel est maintenant affiche selon la hierarchie de l'etablissement, avec la direction en premier.",
-  "label": "Personnel classé par hiérarchie",
+  "note": "Le bilan des inscriptions affiche maintenant un graphique en anneau et des barres par classe, avec le tableau detaille repliable.",
+  "label": "Bilan des inscriptions graphique",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T22:55:00.000Z"
+  "updated_at": "2026-08-01T23:50:00.000Z"
 }
