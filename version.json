@@ -1,9 +1,9 @@
 {
-  "version": "v162",
+  "version": "v163",
   "date": "2026-08-01",
-  "note": "Le dictionnaire IA corrige automatiquement un mot proche lorsque deux controles confirment la meme correction et sa definition.",
-  "label": "Correction IA vérifiée",
+  "note": "Le dictionnaire IA retente en JSON simple lorsqu'un fournisseur refuse le format structure et affiche un diagnostic exploitable en cas d'echec.",
+  "label": "Compatibilité IA renforcée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T12:55:00.000Z"
+  "updated_at": "2026-08-01T13:35:00.000Z"
 }
