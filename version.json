@@ -1,9 +1,9 @@
 {
-  "version": "v167",
+  "version": "v168",
   "date": "2026-08-01",
-  "note": "Un mot correctement ecrit affiche maintenant tous ses sens principaux attestes, y compris les sens distincts entre nom commun et nom propre.",
-  "label": "Définitions à plusieurs sens",
+  "note": "Un mot atteste ne peut plus etre presente comme inconnu si la premiere preparation de ses differents sens echoue.",
+  "label": "Reprise fiable des sens attestés",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T18:35:00.000Z"
+  "updated_at": "2026-08-01T20:20:00.000Z"
 }
