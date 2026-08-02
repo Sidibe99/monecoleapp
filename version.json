@@ -1,9 +1,9 @@
 {
-  "version": "v174",
-  "date": "2026-08-01",
-  "note": "Les cartes scolaires adoptent une presentation plus professionnelle avec une photo agrandie, une identite hierarchisee, des badges et un QR clairement identifie.",
-  "label": "Cartes scolaires modernisees",
+  "version": "v175",
+  "date": "2026-08-02",
+  "note": "Le matricule apparait maintenant une seule fois, a droite du nom de l'ecole dans la bande coloree des cartes scolaires et du comite.",
+  "label": "Matricule unique sur les cartes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T23:59:00.000Z"
+  "updated_at": "2026-08-02T00:48:00.000Z"
 }
