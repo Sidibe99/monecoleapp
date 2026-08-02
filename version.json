@@ -1,9 +1,9 @@
 {
-  "version": "v173",
+  "version": "v174",
   "date": "2026-08-01",
-  "note": "Le bilan des inscriptions affiche maintenant un graphique en anneau et des barres par classe, avec le tableau detaille repliable.",
-  "label": "Bilan des inscriptions graphique",
+  "note": "Les cartes scolaires adoptent une presentation plus professionnelle avec une photo agrandie, une identite hierarchisee, des badges et un QR clairement identifie.",
+  "label": "Cartes scolaires modernisees",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-01T23:50:00.000Z"
+  "updated_at": "2026-08-01T23:59:00.000Z"
 }
