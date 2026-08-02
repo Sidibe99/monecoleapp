@@ -1,9 +1,9 @@
 {
-  "version": "v184",
+  "version": "v185",
   "date": "2026-08-02",
-  "note": "Les barres d'actions, statistiques et graphiques restent entierement visibles quel que soit le niveau de zoom ou la largeur de l'appareil.",
-  "label": "Largeur et zoom sans debordement",
+  "note": "L'emploi du temps presente maintenant une semaine reguliere, un resume des heures, des cours plus lisibles et les chevauchements horaires.",
+  "label": "Emploi du temps hebdomadaire ameliore",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-02T23:30:00.000Z"
+  "updated_at": "2026-08-02T17:30:00.000Z"
 }
