@@ -1,9 +1,9 @@
 {
-  "version": "v183",
+  "version": "v184",
   "date": "2026-08-02",
-  "note": "La navigation par role, les zones tactiles, le focus clavier et l'affichage adaptatif sont renforces sur mobile, tablette et ordinateur.",
-  "label": "Compatibilite appareils et accessibilite",
+  "note": "Les barres d'actions, statistiques et graphiques restent entierement visibles quel que soit le niveau de zoom ou la largeur de l'appareil.",
+  "label": "Largeur et zoom sans debordement",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-02T23:00:00.000Z"
+  "updated_at": "2026-08-02T23:30:00.000Z"
 }
