@@ -1,9 +1,9 @@
 {
-  "version": "v176",
+  "version": "v183",
   "date": "2026-08-02",
-  "note": "Le message de mise a jour est maintenant place plus haut pour rester entierement visible sur ordinateur, tablette et mobile.",
-  "label": "Message de mise a jour mieux positionne",
+  "note": "La navigation par role, les zones tactiles, le focus clavier et l'affichage adaptatif sont renforces sur mobile, tablette et ordinateur.",
+  "label": "Compatibilite appareils et accessibilite",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-02T11:10:00.000Z"
+  "updated_at": "2026-08-02T23:00:00.000Z"
 }
