@@ -1,9 +1,9 @@
 {
-  "version": "v185",
+  "version": "v186",
   "date": "2026-08-02",
-  "note": "L'emploi du temps presente maintenant une semaine reguliere, un resume des heures, des cours plus lisibles et les chevauchements horaires.",
-  "label": "Emploi du temps hebdomadaire ameliore",
+  "note": "Les horaires et les matieres ne se chevauchent plus, et la barre de defilement principale reste visible sur ordinateur.",
+  "label": "Emploi du temps lisible et defilement visible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-02T17:30:00.000Z"
+  "updated_at": "2026-08-02T21:30:00.000Z"
 }
