@@ -1,9 +1,9 @@
 {
-  "version": "v187",
+  "version": "v188",
   "date": "2026-08-02",
-  "note": "Une barre de defilement MonEcole reste visible sur ordinateur, meme lorsque macOS ou Chrome masque la barre native.",
-  "label": "Barre de defilement toujours visible",
+  "note": "La methode de calcul reste appliquee en interne mais ne figure plus sur les bulletins imprimes.",
+  "label": "Bulletin sans methode de calcul",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-02T22:05:00.000Z"
+  "updated_at": "2026-08-02T22:50:00.000Z"
 }
