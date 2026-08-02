@@ -1,9 +1,9 @@
 {
-  "version": "v186",
+  "version": "v187",
   "date": "2026-08-02",
-  "note": "Les horaires et les matieres ne se chevauchent plus, et la barre de defilement principale reste visible sur ordinateur.",
-  "label": "Emploi du temps lisible et defilement visible",
+  "note": "Une barre de defilement MonEcole reste visible sur ordinateur, meme lorsque macOS ou Chrome masque la barre native.",
+  "label": "Barre de defilement toujours visible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-02T21:30:00.000Z"
+  "updated_at": "2026-08-02T22:05:00.000Z"
 }
