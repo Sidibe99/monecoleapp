@@ -1,9 +1,9 @@
 {
-  "version": "v175",
+  "version": "v176",
   "date": "2026-08-02",
-  "note": "Le matricule apparait maintenant une seule fois, a droite du nom de l'ecole dans la bande coloree des cartes scolaires et du comite.",
-  "label": "Matricule unique sur les cartes",
+  "note": "Le message de mise a jour est maintenant place plus haut pour rester entierement visible sur ordinateur, tablette et mobile.",
+  "label": "Message de mise a jour mieux positionne",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-02T00:48:00.000Z"
+  "updated_at": "2026-08-02T11:10:00.000Z"
 }
