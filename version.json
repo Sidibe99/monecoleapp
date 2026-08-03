@@ -1,9 +1,9 @@
 {
-  "version": "v190",
+  "version": "v191",
   "date": "2026-08-03",
-  "note": "La synchronisation des conversations est retablie tout en conservant la confidentialite des groupes et le voyant precise le type d'erreur Supabase.",
-  "label": "Conversations Supabase corrigees",
+  "note": "La langue des documents reste enregistree et la messagerie confirme les textes, vocaux et photos avant de vider le composeur. La camera directe et les images HEIC sont prises en charge.",
+  "label": "Documents et messagerie fiables",
   "scope": "client+database",
   "client_visible": true,
-  "updated_at": "2026-08-03T08:36:17.000Z"
+  "updated_at": "2026-08-03T11:03:59.000Z"
 }
