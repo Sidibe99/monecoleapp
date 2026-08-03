@@ -1,9 +1,9 @@
 {
-  "version": "v191",
+  "version": "v192",
   "date": "2026-08-03",
-  "note": "La langue des documents reste enregistree et la messagerie confirme les textes, vocaux et photos avant de vider le composeur. La camera directe et les images HEIC sont prises en charge.",
-  "label": "Documents et messagerie fiables",
+  "note": "Les messages texte, vocaux et photos sont maintenant autorises par les regles Supabase sans exposer les informations sensibles du compte.",
+  "label": "Envoi des messages retabli",
   "scope": "client+database",
   "client_visible": true,
-  "updated_at": "2026-08-03T11:03:59.000Z"
+  "updated_at": "2026-08-03T12:28:49.000Z"
 }
