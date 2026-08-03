@@ -1,9 +1,9 @@
 {
-  "version": "v194",
+  "version": "v195",
   "date": "2026-08-03",
-  "note": "Les messages vocaux utilisent maintenant une bulle plus petite et mieux proportionnee sur ordinateur, tablette et telephone.",
-  "label": "Bulles vocales compactes",
+  "note": "La messagerie adopte des bulles texte et vocales modernes avec lecteur personnalise, onde sonore, duree, heure et etat de lecture.",
+  "label": "Messagerie vocale moderne",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-03T16:20:00.000Z"
+  "updated_at": "2026-08-03T19:05:00.000Z"
 }
