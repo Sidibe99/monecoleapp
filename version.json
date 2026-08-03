@@ -1,9 +1,9 @@
 {
-  "version": "v195",
+  "version": "v196",
   "date": "2026-08-03",
-  "note": "La messagerie adopte des bulles texte et vocales modernes avec lecteur personnalise, onde sonore, duree, heure et etat de lecture.",
-  "label": "Messagerie vocale moderne",
+  "note": "La zone de saisie reste maintenant fixee en bas de la conversation pendant le defilement, y compris avec le clavier mobile.",
+  "label": "Saisie de message toujours visible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-03T19:05:00.000Z"
+  "updated_at": "2026-08-03T20:15:00.000Z"
 }
