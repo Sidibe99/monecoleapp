@@ -1,9 +1,9 @@
 {
-  "version": "v189",
-  "date": "2026-08-02",
-  "note": "Le voyant de synchronisation identifie maintenant la source en erreur et la permission des demandes de reinitialisation est corrigee.",
-  "label": "Synchronisation Supabase corrigee",
+  "version": "v190",
+  "date": "2026-08-03",
+  "note": "La synchronisation des conversations est retablie tout en conservant la confidentialite des groupes et le voyant precise le type d'erreur Supabase.",
+  "label": "Conversations Supabase corrigees",
   "scope": "client+database",
   "client_visible": true,
-  "updated_at": "2026-08-02T23:40:00.000Z"
+  "updated_at": "2026-08-03T08:36:17.000Z"
 }
