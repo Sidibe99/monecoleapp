@@ -1,9 +1,9 @@
 {
-  "version": "v192",
+  "version": "v193",
   "date": "2026-08-03",
-  "note": "Les messages texte, vocaux et photos sont maintenant autorises par les regles Supabase sans exposer les informations sensibles du compte.",
-  "label": "Envoi des messages retabli",
-  "scope": "client+database",
+  "note": "La messagerie adopte une presentation moderne : discussions lisibles, bulles regroupees, recherche, apercus, pieces jointes et composeur fixe sur ordinateur et mobile.",
+  "label": "Messagerie moderne et responsive",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-03T12:28:49.000Z"
+  "updated_at": "2026-08-03T14:09:43.000Z"
 }
