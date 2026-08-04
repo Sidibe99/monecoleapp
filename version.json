@@ -1,9 +1,9 @@
 {
-  "version": "v197",
-  "date": "2026-08-03",
-  "note": "Dans la messagerie, la page reste maintenant immobile et seule la conversation defile, avec une barre dediee aux messages.",
-  "label": "Defilement reserve a la conversation",
+  "version": "v198",
+  "date": "2026-08-04",
+  "note": "Le bouton d'actualisation des donnees devient compact et s'integre a la carte du profil dans la barre laterale.",
+  "label": "Synchronisation compacte dans le profil",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-03T23:30:00.000Z"
+  "updated_at": "2026-08-04T08:44:40.000Z"
 }
