@@ -1,9 +1,9 @@
 {
-  "version": "v199",
+  "version": "v200",
   "date": "2026-08-04",
-  "note": "La repartition des classes est modernisee pour rendre les cycles, le nombre de classes et les effectifs plus faciles a comparer sur tous les appareils.",
-  "label": "Repartition des classes modernisee",
+  "note": "Les photos des en-tetes sont remplacees par les actions utiles d'export, d'import, d'impression et de creation, avec une disposition adaptee a chaque appareil.",
+  "label": "Actions utiles dans les en-tetes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-04T10:58:05.000Z"
+  "updated_at": "2026-08-04T14:30:00.000Z"
 }
