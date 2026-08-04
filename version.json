@@ -1,9 +1,9 @@
 {
-  "version": "v198",
+  "version": "v199",
   "date": "2026-08-04",
-  "note": "Le bouton d'actualisation des donnees devient compact et s'integre a la carte du profil dans la barre laterale.",
-  "label": "Synchronisation compacte dans le profil",
+  "note": "La repartition des classes est modernisee pour rendre les cycles, le nombre de classes et les effectifs plus faciles a comparer sur tous les appareils.",
+  "label": "Repartition des classes modernisee",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-04T08:44:40.000Z"
+  "updated_at": "2026-08-04T10:58:05.000Z"
 }
