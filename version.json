@@ -1,9 +1,9 @@
 {
-  "version": "v200",
+  "version": "v201",
   "date": "2026-08-04",
-  "note": "Les photos des en-tetes sont remplacees par les actions utiles d'export, d'import, d'impression et de creation, avec une disposition adaptee a chaque appareil.",
-  "label": "Actions utiles dans les en-tetes",
+  "note": "Les exports de Presences incluent desormais le resume, les statistiques mensuelles, le detail par eleve, l'appel du jour et les absences. Les actions Exporter et Importer sont regroupees de facon uniforme.",
+  "label": "Exports de presence et actions de fichiers",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-04T14:30:00.000Z"
+  "updated_at": "2026-08-04T17:00:00.000Z"
 }
