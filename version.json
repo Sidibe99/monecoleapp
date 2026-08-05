@@ -1,9 +1,9 @@
 {
-  "version": "v201",
+  "version": "v202",
   "date": "2026-08-04",
-  "note": "Les exports de Presences incluent desormais le resume, les statistiques mensuelles, le detail par eleve, l'appel du jour et les absences. Les actions Exporter et Importer sont regroupees de facon uniforme.",
-  "label": "Exports de presence et actions de fichiers",
+  "note": "Les photos et documents d'inscription sont verifies, les images HEIC sont converties et compressees, et les envois Storage sont retentes sans afficher l'erreur technique Failed to fetch.",
+  "label": "Fichiers d'inscription fiables",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-04T17:00:00.000Z"
+  "updated_at": "2026-08-04T20:15:00.000Z"
 }
