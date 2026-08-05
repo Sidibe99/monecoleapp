@@ -1,9 +1,9 @@
 {
-  "version": "v202",
-  "date": "2026-08-04",
-  "note": "Les photos et documents d'inscription sont verifies, les images HEIC sont converties et compressees, et les envois Storage sont retentes sans afficher l'erreur technique Failed to fetch.",
-  "label": "Fichiers d'inscription fiables",
+  "version": "v204",
+  "date": "2026-08-05",
+  "note": "L'interface est maintenant plus accessible au clavier, plus lisible et plus stable sur ordinateur, tablette et mobile, avec formulaires adaptatifs, contrastes renforcés et chargement optimisé.",
+  "label": "Compatibilité et accessibilité renforcées",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-04T20:15:00.000Z"
+  "updated_at": "2026-08-05T16:20:00.000Z"
 }
