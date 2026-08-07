@@ -1,9 +1,9 @@
 {
-  "version": "v204",
+  "version": "v205",
   "date": "2026-08-05",
-  "note": "L'interface est maintenant plus accessible au clavier, plus lisible et plus stable sur ordinateur, tablette et mobile, avec formulaires adaptatifs, contrastes renforcés et chargement optimisé.",
-  "label": "Compatibilité et accessibilité renforcées",
+  "note": "Le réglage de taille reste actif sur iPhone, iPad et Android. Les présences, utilisateurs, paiements, détails du personnel et aperçus d'impression sont désormais lisibles sur les petits écrans.",
+  "label": "Responsive mobile et taille du texte",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-05T16:20:00.000Z"
+  "updated_at": "2026-08-05T00:00:00.000Z"
 }
