@@ -1,9 +1,9 @@
 {
-  "version": "v235",
+  "version": "v236",
   "date": "2026-08-16",
-  "note": "La corbeille couvre aussi les documents, le dépôt est nettoyé et la publication est bloquée tant que les contrôles critiques ou la version publique ne sont pas validés.",
-  "label": "Finalisation des 17 axes",
+  "note": "Le nettoyage du cache ne peut plus rester bloqué et les appareils déjà ouverts conservent les fichiers nécessaires pendant une mise à jour.",
+  "label": "Récupération fiable après mise à jour",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T03:45:00.000Z"
+  "updated_at": "2026-08-17T04:12:00.000Z"
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v235";
+const CACHE_NAME = "monecole-vite-v236";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
 const APP_SHELL = [
   "/",
@@ -58,9 +58,12 @@ self.addEventListener("install", event => {
 
 self.addEventListener("activate", event => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(key => key.startsWith("monecole-") && key !== CACHE_NAME).map(key => caches.delete(key)))
-    ).then(() => self.clients.claim())
+    caches.keys().then(keys => {
+      const previousCaches = keys
+        .filter(key => /^monecole-vite-v\d+$/.test(key) && key !== CACHE_NAME)
+        .sort((a, b) => Number(b.match(/\d+$/)?.[0] || 0) - Number(a.match(/\d+$/)?.[0] || 0));
+      return Promise.all(previousCaches.slice(1).map(key => caches.delete(key)));
+    }).then(() => self.clients.claim())
   );
 });
 

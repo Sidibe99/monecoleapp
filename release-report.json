@@ -1,10 +1,10 @@
 {
-  "version": "v235",
-  "package_version": "1.0.235",
-  "label": "Finalisation des 17 axes",
-  "created_at": "2026-08-16T21:43:08.605Z",
+  "version": "v236",
+  "package_version": "1.0.236",
+  "label": "Récupération fiable après mise à jour",
+  "created_at": "2026-08-16T22:07:06.597Z",
   "files": 38,
-  "total_bytes": 9798041,
+  "total_bytes": 9804515,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -47,14 +47,14 @@
       "sha256": "e7bdc743521adbb87e5d149a1ab717b750c1b1c743a9136d92c549f1c7dec1c3"
     },
     {
-      "file": "assets/index-D4DWhWFH.js",
+      "file": "assets/index-EdGfcak5.js",
       "bytes": 989996,
-      "sha256": "6b54358879048fc5a6b7053f553bfbc942607f953c19cdbaac293aba12dcd464"
+      "sha256": "36938ff690b1bb121ae5ed872124c5aafac17c2cea6e95d62c077e1a34fadbb0"
     },
     {
-      "file": "assets/index-legacy-BA7J6kdG.js",
+      "file": "assets/index-legacy-CpdLHzFx.js",
       "bytes": 1301782,
-      "sha256": "702ee55bbdd78711de4fc7c7f3f7f3764f8544bb53a40cbbfba7071feae62472"
+      "sha256": "2e9741d91717ab780621be3b124eeea32b87db339fd56bf94c2b93fa68fe4d52"
     },
     {
       "file": "assets/monecole-administration-CuKhmR9f.js",
@@ -117,19 +117,19 @@
       "sha256": "5f859c6c1879f8ff2212c2bb3dcd0f8fe2bc53d831e564e9758f248978f8a6f4"
     },
     {
-      "file": "assets/monecole-system-DmKRPilF.js",
-      "bytes": 2945,
-      "sha256": "4b71c963fe03880b379424d33c4695a1b4dded51003efd36fcfd5545d64b2d80"
+      "file": "assets/monecole-system-D47OBH5e.js",
+      "bytes": 4231,
+      "sha256": "be54d1b0c30a94966257ea98ae2ef3dde0ca7f0e66d672fdffb8ad52f0d5ddd9"
     },
     {
-      "file": "assets/monecole-system-legacy-v440bsD5.js",
-      "bytes": 5877,
-      "sha256": "749938825e8f6f97fe107fd251e9152ac6d95f0587a2644003a99bf8dcfcd6f2"
+      "file": "assets/monecole-system-legacy-D8QeEMjo.js",
+      "bytes": 9974,
+      "sha256": "aebc6870d61d227561f81330b3d19d1df961895bbcac24b6692d76536afb257f"
     },
     {
-      "file": "assets/polyfills-legacy-DMTLgawC.js",
-      "bytes": 169127,
-      "sha256": "c45caa31bfab19077332369c1671ff8d7d5fee886fcb6faaf754e1cf8893e0fd"
+      "file": "assets/polyfills-legacy-eJ52PQHr.js",
+      "bytes": 169614,
+      "sha256": "6bfa70f3c416da0b0e441c6d7fe1ca738195af705ff0e4ee27501bfea392f9af"
     },
     {
       "file": "assets/react-DrzIhho1.js",
@@ -173,8 +173,8 @@
     },
     {
       "file": "index.html",
-      "bytes": 8968,
-      "sha256": "9763523c2c2aa0f757984410f6c00a94094d93aa33e5ebd5ca6b6af31b21c021"
+      "bytes": 8610,
+      "sha256": "3e4ce45a2158bd29ace28e58be9815a69362f03314f154f18c134e00b83a169b"
     },
     {
       "file": "manifest.webmanifest",
@@ -183,18 +183,18 @@
     },
     {
       "file": "reset-cache.html",
-      "bytes": 3293,
-      "sha256": "ce6a6f4120c714ef48fb978ec5cf9b2a66d1f50c19acc89a5f0a9dab42d254af"
+      "bytes": 4094,
+      "sha256": "c629d255526e23ee525d551657b44befb5781b7f572fbc34990981e614cc17df"
     },
     {
       "file": "sw.js",
-      "bytes": 3964,
-      "sha256": "a641ecf41f2dd7af0fc8ecc684794c3a6ec29ed330cac7a2b2d15c16de0fa3e5"
+      "bytes": 4138,
+      "sha256": "a4da5175cc7262f3c1f01f5790be40ad007b7759256c8e44ce33afcfb7769e31"
     },
     {
       "file": "version.json",
-      "bytes": 366,
-      "sha256": "b8272aa8d72aec9e6eae8263f9a80123b678d1bdfef6a152a1d8af450cf3fa66"
+      "bytes": 353,
+      "sha256": "639d070b530a35c426edd7d4fbfb0363a39fd2e2ab7734995e042ea1430bc7de"
     }
   ]
 }

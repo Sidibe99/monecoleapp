@@ -55,34 +55,28 @@
         }, 8000);
       });
       (function() {
-        var version = "v235";
+        var version = "v236";
         try {
           window.__MONECOLE_VERSION__ = version;
           var key = "monecole_last_loaded_version";
-          if (localStorage.getItem(key) !== version && window.caches) {
-            caches.keys().then(function(keys) {
-              return Promise.all(keys.filter(function(name) {
-                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v235";
-              }).map(function(name) { return caches.delete(name); }));
-            }).then(function() {
-              localStorage.setItem(key, version);
-              if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
-                navigator.serviceWorker.getRegistration().then(function(registration) {
-                  if (!registration) return;
-                  var worker = registration.active || registration.waiting || registration.installing;
-                  var script = worker && worker.scriptURL ? worker.scriptURL : "";
-                  if (script && !/\/sw\.js(?:[?#]|$)/.test(script)) {
-                    return registration.unregister();
-                  }
-                  if (registration.update) return registration.update();
-                }).catch(function() {});
-              }
-            });
+          if (localStorage.getItem(key) !== version) {
+            localStorage.setItem(key, version);
+            if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) {
+              navigator.serviceWorker.getRegistration().then(function(registration) {
+                if (!registration) return;
+                var worker = registration.active || registration.waiting || registration.installing;
+                var script = worker && worker.scriptURL ? worker.scriptURL : "";
+                if (script && !/\/sw\.js(?:[?#]|$)/.test(script)) {
+                  return registration.unregister();
+                }
+                if (registration.update) return registration.update();
+              }).catch(function() {});
+            }
           }
         } catch (error) {}
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-D4DWhWFH.js"></script>
+    <script type="module" crossorigin src="./assets/index-EdGfcak5.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-DrzIhho1.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-Dm2Aj8qM.js">
     <link rel="modulepreload" crossorigin href="./assets/monecole-core-DL0g1Pku.js">
@@ -90,7 +84,7 @@
     <link rel="modulepreload" crossorigin href="./assets/monecole-offline-DXVkjBgU.js">
     <link rel="modulepreload" crossorigin href="./assets/monecole-administration-CuKhmR9f.js">
     <link rel="modulepreload" crossorigin href="./assets/monecole-notifications-Bgkbf2Yx.js">
-    <link rel="modulepreload" crossorigin href="./assets/monecole-system-DmKRPilF.js">
+    <link rel="modulepreload" crossorigin href="./assets/monecole-system-D47OBH5e.js">
     <link rel="modulepreload" crossorigin href="./assets/monecole-monitoring-wOg9q_g7.js">
     <link rel="stylesheet" crossorigin href="./assets/index-BZ111YUy.css">
     <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
@@ -117,7 +111,7 @@
       </main>
     </div>
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-    <script nomodule crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-DMTLgawC.js"></script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/index-legacy-BA7J6kdG.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-eJ52PQHr.js"></script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/index-legacy-CpdLHzFx.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
 </html>
