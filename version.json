@@ -1,9 +1,9 @@
 {
-  "version": "v238",
+  "version": "v239",
   "date": "2026-08-16",
-  "note": "Le passage de la connexion à l’application conserve désormais exactement le même ordre de hooks React.",
-  "label": "Connexion réparée",
+  "note": "La synchronisation des bulletins archivés utilise désormais la date Supabase correcte et ne bloque plus l’état sur Partielle.",
+  "label": "Synchronisation complète",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T04:38:00.000Z"
+  "updated_at": "2026-08-17T05:10:00.000Z"
 }
