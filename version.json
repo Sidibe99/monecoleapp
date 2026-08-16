@@ -1,9 +1,9 @@
 {
-  "version": "v239",
+  "version": "v240",
   "date": "2026-08-16",
-  "note": "La synchronisation des bulletins archivés utilise désormais la date Supabase correcte et ne bloque plus l’état sur Partielle.",
-  "label": "Synchronisation complète",
+  "note": "Les lignes des bulletins restent lisibles au passage du curseur, y compris lorsque l’application utilise le mode sombre.",
+  "label": "Bulletins lisibles",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T05:10:00.000Z"
+  "updated_at": "2026-08-17T05:35:00.000Z"
 }
