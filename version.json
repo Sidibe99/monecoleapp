@@ -1,9 +1,9 @@
 {
-  "version": "v208",
-  "date": "2026-08-15",
-  "note": "L’IA éducative est maintenant entièrement traduite en arabe, utilise une typographie arabe adaptée à chaque thème et prépare des définitions ajustées au niveau scolaire avec un texte arabe vocalisé.",
-  "label": "IA arabe adaptée au niveau",
+  "version": "v209",
+  "date": "2026-08-16",
+  "note": "La restauration de session ne reste plus bloquée sur Reconnexion lorsque Internet est absent ou que Safari iOS laisse une requête réseau en attente. Un appareil déjà reconnu ouvre son profil hors ligne, sinon l’écran de connexion apparaît.",
+  "label": "Reconnexion hors ligne fiable sur iPhone",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-15T12:00:00.000Z"
+  "updated_at": "2026-08-16T23:45:00.000Z"
 }
