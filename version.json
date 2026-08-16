@@ -1,9 +1,9 @@
 {
-  "version": "v209",
+  "version": "v210",
   "date": "2026-08-16",
-  "note": "La restauration de session ne reste plus bloquée sur Reconnexion lorsque Internet est absent ou que Safari iOS laisse une requête réseau en attente. Un appareil déjà reconnu ouvre son profil hors ligne, sinon l’écran de connexion apparaît.",
-  "label": "Reconnexion hors ligne fiable sur iPhone",
+  "note": "Le bulletin reste lisible dans le thème sombre et la reprise hors connexion utilise le même mécanisme protégé sur ordinateur, tablette, Android et iPhone, avec des délais maximums pour toutes les vérifications locales et réseau.",
+  "label": "Mode sombre lisible et hors connexion multi-support",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-16T23:45:00.000Z"
+  "updated_at": "2026-08-16T10:20:00.000Z"
 }
