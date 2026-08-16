@@ -1,9 +1,9 @@
 {
-  "version": "v236",
+  "version": "v237",
   "date": "2026-08-16",
-  "note": "Le nettoyage du cache ne peut plus rester bloqué et les appareils déjà ouverts conservent les fichiers nécessaires pendant une mise à jour.",
-  "label": "Récupération fiable après mise à jour",
+  "note": "L’écran d’erreur affiche un diagnostic nettoyé et permet de revenir sûrement à la connexion sans toucher aux données Supabase.",
+  "label": "Diagnostic et retour à la connexion",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T04:12:00.000Z"
+  "updated_at": "2026-08-17T04:28:00.000Z"
 }
