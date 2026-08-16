@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v216";
+const CACHE_NAME = "monecole-vite-v235";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
 const APP_SHELL = [
   "/",
@@ -7,7 +7,9 @@ const APP_SHELL = [
   "/version.json",
   "/icon-192.png",
   "/icon-512.png",
-  "/apple-touch-icon.png"
+  "/apple-touch-icon.png",
+  "/assets/ia-educative-fallback.js",
+  "/assets/ia-educative-fallback-legacy.js"
 ];
 
 const extractAssetPaths = (text, expression) => {

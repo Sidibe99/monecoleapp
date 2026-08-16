@@ -1,9 +1,9 @@
 {
-  "version": "v216",
+  "version": "v235",
   "date": "2026-08-16",
-  "note": "Le bulletin affiche désormais le rang sur l’effectif total, le nombre d’élèves de la classe, la meilleure moyenne et la plus faible moyenne lorsque les bulletins de la classe sont complets.",
-  "label": "Classement et statistiques de classe enrichis",
+  "note": "La corbeille couvre aussi les documents, le dépôt est nettoyé et la publication est bloquée tant que les contrôles critiques ou la version publique ne sont pas validés.",
+  "label": "Finalisation des 17 axes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-16T18:00:00.000Z"
+  "updated_at": "2026-08-17T03:45:00.000Z"
 }
