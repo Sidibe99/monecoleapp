@@ -1,9 +1,9 @@
 {
-  "version": "v215",
+  "version": "v216",
   "date": "2026-08-16",
-  "note": "Les moyennes affichées dans la rubrique Points à améliorer utilisent désormais la virgule décimale française, comme les autres résultats du bulletin.",
-  "label": "Virgules harmonisées dans les bulletins",
+  "note": "Le bulletin affiche désormais le rang sur l’effectif total, le nombre d’élèves de la classe, la meilleure moyenne et la plus faible moyenne lorsque les bulletins de la classe sont complets.",
+  "label": "Classement et statistiques de classe enrichis",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-16T17:45:00.000Z"
+  "updated_at": "2026-08-16T18:00:00.000Z"
 }
