@@ -1,10 +1,10 @@
 {
-  "version": "v237",
-  "package_version": "1.0.237",
-  "label": "Diagnostic et retour à la connexion",
-  "created_at": "2026-08-16T22:18:02.252Z",
+  "version": "v238",
+  "package_version": "1.0.238",
+  "label": "Connexion réparée",
+  "created_at": "2026-08-16T22:25:44.666Z",
   "files": 38,
-  "total_bytes": 9809208,
+  "total_bytes": 9809086,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -47,14 +47,14 @@
       "sha256": "e7bdc743521adbb87e5d149a1ab717b750c1b1c743a9136d92c549f1c7dec1c3"
     },
     {
-      "file": "assets/index-Bapr10lN.js",
-      "bytes": 989996,
-      "sha256": "caa1ac8d639e3fd9338e481745241964e10f647d041c6ac1be23a21c8c6c87cf"
+      "file": "assets/index-K6U4tsgK.js",
+      "bytes": 989965,
+      "sha256": "2eaaa01f615c429b7ba863b57c2271adfe07321bc6274523fe9d9c905d8b2d15"
     },
     {
-      "file": "assets/index-legacy-B1yZm8j2.js",
-      "bytes": 1301782,
-      "sha256": "9a2c9601cb4238abff9d137bc001702e176823f2fd7f8ca167028e73d17a74e7"
+      "file": "assets/index-legacy-vjGyu6pB.js",
+      "bytes": 1301736,
+      "sha256": "a6b382473ea65ef459a9f21bf8224e81a2843e65fb3d683998e869628a1e7f8f"
     },
     {
       "file": "assets/monecole-administration-CuKhmR9f.js",
@@ -174,7 +174,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "9d9b1d89d4316a9961f2252d1a078c79e8db3b252abddd0f44af84b73add43be"
+      "sha256": "93bb4099cecffb5ccdce57b383ef971abddfdd24ce65d31c597723978e8c27c8"
     },
     {
       "file": "manifest.webmanifest",
@@ -189,12 +189,12 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "71d253e2f131c32fef333af5868c99d1c06dfef9b36d254a0edb5993c917fae4"
+      "sha256": "6f57073618419aaec368533b8c0fcbd516259e02dd503b9fef23ab4e4819804d"
     },
     {
       "file": "version.json",
-      "bytes": 339,
-      "sha256": "b55ed07f8c077ba93ddcd3065aa685aa32b37a71463e4e496b3e1b327cec51b6"
+      "bytes": 294,
+      "sha256": "9132a654b851674315ff84231fff8a8506df48633e472135fdf6d27d9aacd7d1"
     }
   ]
 }

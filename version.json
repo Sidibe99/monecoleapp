@@ -1,9 +1,9 @@
 {
-  "version": "v237",
+  "version": "v238",
   "date": "2026-08-16",
-  "note": "L’écran d’erreur affiche un diagnostic nettoyé et permet de revenir sûrement à la connexion sans toucher aux données Supabase.",
-  "label": "Diagnostic et retour à la connexion",
+  "note": "Le passage de la connexion à l’application conserve désormais exactement le même ordre de hooks React.",
+  "label": "Connexion réparée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T04:28:00.000Z"
+  "updated_at": "2026-08-17T04:38:00.000Z"
 }
