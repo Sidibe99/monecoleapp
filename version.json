@@ -1,9 +1,9 @@
 {
-  "version": "v210",
+  "version": "v211",
   "date": "2026-08-16",
-  "note": "Le bulletin reste lisible dans le thème sombre et la reprise hors connexion utilise le même mécanisme protégé sur ordinateur, tablette, Android et iPhone, avec des délais maximums pour toutes les vérifications locales et réseau.",
-  "label": "Mode sombre lisible et hors connexion multi-support",
+  "note": "Toutes les informations du bulletin restent lisibles en mode sombre, notamment les valeurs de l’élève, les coordonnées françaises et arabes de l’établissement, les signatures et le pied du document.",
+  "label": "Bulletin entièrement lisible en mode sombre",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-16T10:20:00.000Z"
+  "updated_at": "2026-08-16T11:00:00.000Z"
 }
