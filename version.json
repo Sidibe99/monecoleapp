@@ -1,9 +1,9 @@
 {
-  "version": "v214",
+  "version": "v215",
   "date": "2026-08-16",
-  "note": "Les bulletins incomplets sont désormais signalés comme provisoires : rang, moyenne de classe et décision restent indisponibles jusqu’à la saisie complète. La lisibilité, l’impression, les ex æquo et le bilan pédagogique sont renforcés.",
-  "label": "Bulletins fiables, pédagogiques et multi-supports",
+  "note": "Les moyennes affichées dans la rubrique Points à améliorer utilisent désormais la virgule décimale française, comme les autres résultats du bulletin.",
+  "label": "Virgules harmonisées dans les bulletins",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-16T17:30:00.000Z"
+  "updated_at": "2026-08-16T17:45:00.000Z"
 }
