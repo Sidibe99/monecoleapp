@@ -1,9 +1,9 @@
 {
-  "version": "v205",
-  "date": "2026-08-05",
-  "note": "Le réglage de taille reste actif sur iPhone, iPad et Android. Les présences, utilisateurs, paiements, détails du personnel et aperçus d'impression sont désormais lisibles sur les petits écrans.",
-  "label": "Responsive mobile et taille du texte",
+  "version": "v208",
+  "date": "2026-08-15",
+  "note": "L’IA éducative est maintenant entièrement traduite en arabe, utilise une typographie arabe adaptée à chaque thème et prépare des définitions ajustées au niveau scolaire avec un texte arabe vocalisé.",
+  "label": "IA arabe adaptée au niveau",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-05T00:00:00.000Z"
+  "updated_at": "2026-08-15T12:00:00.000Z"
 }
