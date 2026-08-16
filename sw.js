@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v211";
+const CACHE_NAME = "monecole-vite-v212";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
 const APP_SHELL = [
   "/",

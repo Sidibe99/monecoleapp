@@ -55,14 +55,14 @@
         }, 8000);
       });
       (function() {
-        var version = "v211";
+        var version = "v212";
         try {
           window.__MONECOLE_VERSION__ = version;
           var key = "monecole_last_loaded_version";
           if (localStorage.getItem(key) !== version && window.caches) {
             caches.keys().then(function(keys) {
               return Promise.all(keys.filter(function(name) {
-                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v211";
+                return /^monecole-vite-v/.test(name) && name !== "monecole-vite-v212";
               }).map(function(name) { return caches.delete(name); }));
             }).then(function() {
               localStorage.setItem(key, version);
@@ -82,7 +82,7 @@
         } catch (error) {}
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-BSJtkboB.js"></script>
+    <script type="module" crossorigin src="./assets/index-DyedNgXQ.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/react-DrzIhho1.js">
     <link rel="modulepreload" crossorigin href="./assets/supabase-Dm2Aj8qM.js">
     <link rel="modulepreload" crossorigin href="./assets/monecole-core-DnyJdv_j.js">
@@ -112,6 +112,6 @@
     </div>
     <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
     <script nomodule crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-BYbJEweM.js"></script>
-    <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/index-legacy-jm5kggsk.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/index-legacy-DAlF5V36.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
   </body>
 </html>

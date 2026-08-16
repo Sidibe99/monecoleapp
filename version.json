@@ -1,9 +1,9 @@
 {
-  "version": "v211",
+  "version": "v212",
   "date": "2026-08-16",
-  "note": "Toutes les informations du bulletin restent lisibles en mode sombre, notamment les valeurs de l’élève, les coordonnées françaises et arabes de l’établissement, les signatures et le pied du document.",
-  "label": "Bulletin entièrement lisible en mode sombre",
+  "note": "La rubrique Points à améliorer affiche maintenant la moyenne réelle de chaque matière faible et la recommandation À renforcer, au lieu d’une ancienne appréciation potentiellement contradictoire.",
+  "label": "Points à améliorer cohérents avec les notes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-16T11:00:00.000Z"
+  "updated_at": "2026-08-16T11:30:00.000Z"
 }
