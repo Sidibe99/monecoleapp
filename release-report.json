@@ -1,10 +1,10 @@
 {
-  "version": "v245",
-  "package_version": "1.0.245",
-  "label": "Aperçu couleur corrigé",
-  "created_at": "2026-08-17T00:41:51.316Z",
+  "version": "v246",
+  "package_version": "1.0.246",
+  "label": "Impression et lignes visibles",
+  "created_at": "2026-08-17T07:05:23.887Z",
   "files": 38,
-  "total_bytes": 9824416,
+  "total_bytes": 9823709,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,19 +42,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-BQ-N3L5I.css",
-      "bytes": 210623,
-      "sha256": "52859289fb3ca383c0ea28a77eae1f81a78eefe0febf864c09ed853d7c6a4d14"
+      "file": "assets/index-DXCytvWh.js",
+      "bytes": 988751,
+      "sha256": "7f679c326aaa11eaf6007d97ef970c6f07751b7b43f747c1cecd0b57d3045e3f"
     },
     {
-      "file": "assets/index-C4wu2xu9.js",
-      "bytes": 989954,
-      "sha256": "cc9b44694b9635616d8136a984a9fef7acbf6ce9e53815520080ca0e47b1f89b"
+      "file": "assets/index-JZ66OH6c.css",
+      "bytes": 211403,
+      "sha256": "1c9b6e56f9718ac8f45c8c07125c5b553b2da9ea1ea7e585ed4d8491679709cc"
     },
     {
-      "file": "assets/index-legacy-B4gQD_Jy.js",
-      "bytes": 1308711,
-      "sha256": "05983dbf0f5301ae94d2ae1327e2c030cd3fa1436b352f09a6e71b314ec83d8f"
+      "file": "assets/index-legacy-DFAsR2vj.js",
+      "bytes": 1308443,
+      "sha256": "00079e5520b2178a20c16bdc2e1ac3bb1e515733ac52924aecbbe045edd44786"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -174,7 +174,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "1da860e1a3907727822491cf073c62b222878bb0d0f48f39217e57cb2081f6e6"
+      "sha256": "d88fd3a930de2f800436816aabb2a0599c0b598521f4c8230131d6b2fd308636"
     },
     {
       "file": "manifest.webmanifest",
@@ -189,12 +189,12 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "99d25bb863fd4ed8e4bd76683c29fc41881d0f05bd119ed2092c9578593ee558"
+      "sha256": "398a46f9646e44805decf6ff80fbd1e901217deae0fa26737c0a5a0b1ae91bde"
     },
     {
       "file": "version.json",
-      "bytes": 358,
-      "sha256": "adf11065291cbe99e01f3bddc07f97d29ed615780ee7d5aeaee1793c4221e465"
+      "bytes": 342,
+      "sha256": "0e3de9c5bb641d1c74010367f38ac334881605aebf5efbae2186dcee62781d78"
     }
   ]
 }

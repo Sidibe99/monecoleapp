@@ -1,9 +1,9 @@
 {
-  "version": "v245",
+  "version": "v246",
   "date": "2026-08-17",
-  "note": "L’aperçu de la fiche vierge applique maintenant la couleur choisie à chaque colonne, y compris en mode sombre, et l’impression couleur est activée par défaut.",
-  "label": "Aperçu couleur corrigé",
+  "note": "Le bouton d’impression de la fiche vierge reste visible pour tous les identifiants de classe et l’aperçu montre les lignes vides demandées.",
+  "label": "Impression et lignes visibles",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T00:55:00.000Z"
+  "updated_at": "2026-08-17T01:10:00.000Z"
 }
