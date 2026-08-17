@@ -1,9 +1,9 @@
 {
-  "version": "v240",
-  "date": "2026-08-16",
-  "note": "Les lignes des bulletins restent lisibles au passage du curseur, y compris lorsque l’application utilise le mode sombre.",
-  "label": "Bulletins lisibles",
+  "version": "v245",
+  "date": "2026-08-17",
+  "note": "L’aperçu de la fiche vierge applique maintenant la couleur choisie à chaque colonne, y compris en mode sombre, et l’impression couleur est activée par défaut.",
+  "label": "Aperçu couleur corrigé",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T05:35:00.000Z"
+  "updated_at": "2026-08-17T00:55:00.000Z"
 }
