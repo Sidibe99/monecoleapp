@@ -1,9 +1,9 @@
 {
-  "version": "v246",
+  "version": "v247",
   "date": "2026-08-17",
-  "note": "Le bouton d’impression de la fiche vierge reste visible pour tous les identifiants de classe et l’aperçu montre les lignes vides demandées.",
-  "label": "Impression et lignes visibles",
+  "note": "La reconnexion reprend immédiatement la dernière session sécurisée de l’appareil et les attentes Supabase sont désormais courtes et bornées.",
+  "label": "Connexion plus rapide",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T01:10:00.000Z"
+  "updated_at": "2026-08-17T07:35:00.000Z"
 }
