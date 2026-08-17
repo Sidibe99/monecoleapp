@@ -1,9 +1,9 @@
 {
-  "version": "v252",
+  "version": "v254",
   "date": "2026-08-17",
-  "note": "Les relances vocales WhatsApp utilisent désormais un lien MonEcole court, privé et valable sept jours.",
-  "label": "Lien vocal court",
+  "note": "Le portail Parent affiche, en lecture seule, les paiements des enfants liés. Les fiches de notes publiées sont filtrables par classe et recherchables par prénom, nom ou matricule.",
+  "label": "Paiements et recherche Parent",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T12:55:00.000Z"
+  "updated_at": "2026-08-17T18:00:00.000Z"
 }

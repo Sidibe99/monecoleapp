@@ -1,10 +1,10 @@
 {
-  "version": "v252",
-  "package_version": "1.0.252",
-  "label": "Lien vocal court",
-  "created_at": "2026-08-17T13:41:43.322Z",
-  "files": 41,
-  "total_bytes": 9838288,
+  "version": "v254",
+  "package_version": "1.0.254",
+  "label": "Paiements et recherche Parent",
+  "created_at": "2026-08-17T19:53:31.634Z",
+  "files": 43,
+  "total_bytes": 9890897,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -20,6 +20,16 @@
       "file": "apple-touch-icon.png",
       "bytes": 14108,
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
+    },
+    {
+      "file": "assets/ParentPortalViews-BLBN5idq.js",
+      "bytes": 13949,
+      "sha256": "551414cb1d1105963bcff13b002ce88bdf5a441ccf92fd75f27df91991e7eb9c"
+    },
+    {
+      "file": "assets/ParentPortalViews-legacy-DelZByQ_.js",
+      "bytes": 17489,
+      "sha256": "a0865276f4033ee803bed9de40a0564b9fe615a11096ea8556398ca4d38006ab"
     },
     {
       "file": "assets/heic-to-lXPrQE7P.js",
@@ -42,19 +52,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-DR85bTj9.js",
-      "bytes": 989945,
-      "sha256": "0a6624aad48d09032afd155b3f8321f381da2782ffb422b20df80c3d601c68f1"
-    },
-    {
       "file": "assets/index-JZ66OH6c.css",
       "bytes": 211403,
       "sha256": "1c9b6e56f9718ac8f45c8c07125c5b553b2da9ea1ea7e585ed4d8491679709cc"
     },
     {
-      "file": "assets/index-legacy-DZ4lPyHU.js",
-      "bytes": 1309554,
-      "sha256": "b805e4eb8f6207eba53c0a8d560d04b43519c5cc456db78e020ab172e638f19d"
+      "file": "assets/index-T2sZLvgp.js",
+      "bytes": 1000055,
+      "sha256": "4f97cdcfe07b2df7aeda24e0e16dea2c288e45f43f9d7c33a43c149eb64697e4"
+    },
+    {
+      "file": "assets/index-legacy-BT-uC7qZ.js",
+      "bytes": 1320319,
+      "sha256": "1bde571210aee47a2ef9b04d026d84dcff398a0d8f970ead982c08ba16ccd5dc"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -67,14 +77,14 @@
       "sha256": "e21cdb64ac3de326190eb5f23a62572197c8549967259123714f110f99df40c7"
     },
     {
-      "file": "assets/monecole-core-DL0g1Pku.js",
-      "bytes": 31595,
-      "sha256": "2ac1de89a77b86844f311d89bb6fc440f904eae73a921a894d83f5e1527b9b0c"
+      "file": "assets/monecole-core-CXTa-LPq.js",
+      "bytes": 31697,
+      "sha256": "34c038d39d9ed7ca5fb837dcdb15f3bce43123e67d53fc3803246c4fc4c54eb9"
     },
     {
-      "file": "assets/monecole-core-legacy-OOUQ4ov2.js",
-      "bytes": 43949,
-      "sha256": "89c5086dee3285249b7e3e653600e8360b1c9239343eb52549dff8b2337d58d8"
+      "file": "assets/monecole-core-legacy-bfLsubqD.js",
+      "bytes": 44052,
+      "sha256": "6cfd212f8841cefb40ab94facb293aed2af92199b0cb6365d409e53be0d7365a"
     },
     {
       "file": "assets/monecole-monitoring-BC2ZQj_-.js",
@@ -184,7 +194,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "57a7862df91da1bba1e8c2cd37fbf2f9d9016dd29175cc920bf830ffa6c6f46f"
+      "sha256": "b73e4d702ed603eb7a190c2fe78f4c99ac70324fc52955585d74191403a18151"
     },
     {
       "file": "manifest.webmanifest",
@@ -199,7 +209,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "2d8d646458343c745c78e650c09ce208ba9bc110d240c67fd56a5344801b39e2"
+      "sha256": "ff8d0dd4e71a96c80978cbad51b3520c6c0ee5e694ce4a58973bc8c560922954"
     },
     {
       "file": "v.html",
@@ -208,8 +218,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 288,
-      "sha256": "3d799df4d8b068275a406df49490b1675c94a49b4da4a417320c28a3ba207cc6"
+      "bytes": 379,
+      "sha256": "7e65f48b567784294f3591d77de66c5f36b37713e1ba227012f22a09e0ea0a52"
     }
   ]
 }
