@@ -1,10 +1,10 @@
 {
-  "version": "v251",
-  "package_version": "1.0.251",
-  "label": "Texte et vocal réunis",
-  "created_at": "2026-08-17T12:44:53.805Z",
-  "files": 40,
-  "total_bytes": 9834057,
+  "version": "v252",
+  "package_version": "1.0.252",
+  "label": "Lien vocal court",
+  "created_at": "2026-08-17T13:41:43.322Z",
+  "files": 41,
+  "total_bytes": 9838288,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,9 +42,9 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-C0eS23VI.js",
-      "bytes": 989822,
-      "sha256": "3e01fc885fed09ce64074a146f0bd3c69626dbc5dce6c53d6bb733b51f947173"
+      "file": "assets/index-DR85bTj9.js",
+      "bytes": 989945,
+      "sha256": "0a6624aad48d09032afd155b3f8321f381da2782ffb422b20df80c3d601c68f1"
     },
     {
       "file": "assets/index-JZ66OH6c.css",
@@ -52,9 +52,9 @@
       "sha256": "1c9b6e56f9718ac8f45c8c07125c5b553b2da9ea1ea7e585ed4d8491679709cc"
     },
     {
-      "file": "assets/index-legacy-BWigO72u.js",
-      "bytes": 1309357,
-      "sha256": "eff1612ac0b7185675f1449bb1c2500a0592c70bcec7180525e0386ab607836e"
+      "file": "assets/index-legacy-DZ4lPyHU.js",
+      "bytes": 1309554,
+      "sha256": "b805e4eb8f6207eba53c0a8d560d04b43519c5cc456db78e020ab172e638f19d"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -184,7 +184,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "ae3f6480e910e5176b24f9fda8a945b5211e7f7097ba6c7a3629fb7e4f6a5c38"
+      "sha256": "57a7862df91da1bba1e8c2cd37fbf2f9d9016dd29175cc920bf830ffa6c6f46f"
     },
     {
       "file": "manifest.webmanifest",
@@ -199,12 +199,17 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "a0f7db781f0f37598f2882ea54433e810efcb21ae204c58c20c4e18606a6f555"
+      "sha256": "2d8d646458343c745c78e650c09ce208ba9bc110d240c67fd56a5344801b39e2"
+    },
+    {
+      "file": "v.html",
+      "bytes": 3931,
+      "sha256": "439a2a60bc345d87fe731b05e5f5bd8177c61e8abcb9cb0a9b31bb78d2bd77ae"
     },
     {
       "file": "version.json",
-      "bytes": 308,
-      "sha256": "1415f6fece3e46f253b8295ea00dd7a30ee2b14f59db5514e7249a243acdca62"
+      "bytes": 288,
+      "sha256": "3d799df4d8b068275a406df49490b1675c94a49b4da4a417320c28a3ba207cc6"
     }
   ]
 }

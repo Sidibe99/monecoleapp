@@ -1,9 +1,9 @@
 {
-  "version": "v251",
+  "version": "v252",
   "date": "2026-08-17",
-  "note": "Les relances WhatsApp regroupent désormais le texte et un lien d’écoute sécurisé du vocal dans le même message.",
-  "label": "Texte et vocal réunis",
+  "note": "Les relances vocales WhatsApp utilisent désormais un lien MonEcole court, privé et valable sept jours.",
+  "label": "Lien vocal court",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T10:05:00.000Z"
+  "updated_at": "2026-08-17T12:55:00.000Z"
 }

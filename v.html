@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; connect-src https://*.supabase.co; media-src https://*.supabase.co; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self';" />
+  <title>Message vocal · MonEcole</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;min-height:100dvh;display:grid;place-items:center;padding:20px;background:linear-gradient(145deg,#102952,#1d4ed8);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#10203d}.card{width:min(460px,100%);background:#fff;border-radius:24px;padding:28px;box-shadow:0 30px 80px #06142e66;text-align:center}.logo{width:58px;height:58px;margin:0 auto 14px;border-radius:17px;display:grid;place-items:center;background:#2457dc;color:#fff;font-weight:900;font-size:18px}h1{font-size:23px;margin:0 0 8px}p{color:#64748b;line-height:1.55;margin:0 0 20px}.status{padding:12px;border-radius:12px;background:#f1f5f9;color:#475569;font-weight:700}.error{background:#fef2f2;color:#b91c1c}audio{display:none;width:100%;margin-top:18px}.ready audio{display:block}.note{font-size:12px;margin-top:16px;color:#64748b}.retry{display:none;margin:16px auto 0;border:0;border-radius:11px;padding:11px 16px;background:#2457dc;color:#fff;font-weight:800;cursor:pointer}.failed .retry{display:block}
+  </style>
+</head>
+<body>
+  <main class="card" id="card">
+    <div class="logo">ME</div>
+    <h1 id="title">Message vocal MonEcole</h1>
+    <p id="intro">Écoutez le message transmis par votre établissement.</p>
+    <div class="status" id="status">Préparation du vocal…</div>
+    <audio id="audio" controls preload="metadata"></audio>
+    <button class="retry" id="retry" type="button">Réessayer</button>
+    <div class="note" id="note">Lien privé · disponible pendant 7 jours</div>
+  </main>
+  <script>
+    (()=>{
+      const card=document.getElementById("card"),title=document.getElementById("title"),intro=document.getElementById("intro"),status=document.getElementById("status"),audio=document.getElementById("audio"),retry=document.getElementById("retry"),note=document.getElementById("note");
+      const ar=(navigator.language||"").toLowerCase().startsWith("ar");
+      if(ar){document.documentElement.lang="ar";document.documentElement.dir="rtl";title.textContent="رسالة صوتية من MonEcole";intro.textContent="استمع إلى الرسالة المرسلة من مؤسستك.";status.textContent="جارٍ تحضير المقطع…";retry.textContent="إعادة المحاولة";note.textContent="رابط خاص · متاح لمدة 7 أيام";}
+      const load=async()=>{
+        card.classList.remove("ready","failed");status.classList.remove("error");status.textContent=ar?"جارٍ تحضير المقطع…":"Préparation du vocal…";
+        const c=new URLSearchParams(location.search).get("c")||"";
+        if(!/^[A-Za-z0-9_-]{12}$/.test(c))return fail(ar?"الرابط غير صالح.":"Ce lien vocal est invalide.");
+        try{
+          const response=await fetch(`https://durbgghxbbhqtxncpdcq.supabase.co/functions/v1/vocal-relance?c=${encodeURIComponent(c)}`,{cache:"no-store"});
+          const data=await response.json();if(!response.ok||!data.url)throw new Error(data.error||"");
+          audio.src=data.url;status.textContent=ar?"المقطع جاهز للاستماع.":"Le vocal est prêt à être écouté.";card.classList.add("ready");
+        }catch(error){fail(error.message||(ar?"تعذّر فتح المقطع.":"Impossible d’ouvrir ce vocal."));}
+      };
+      const fail=message=>{status.textContent=message;status.classList.add("error");card.classList.add("failed");};
+      retry.addEventListener("click",load);load();
+    })();
+  </script>
+</body>
+</html>
