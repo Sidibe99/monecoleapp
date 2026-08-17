@@ -1,10 +1,10 @@
 {
-  "version": "v247",
-  "package_version": "1.0.247",
-  "label": "Connexion plus rapide",
-  "created_at": "2026-08-17T08:01:30.660Z",
-  "files": 38,
-  "total_bytes": 9824487,
+  "version": "v248",
+  "package_version": "1.0.248",
+  "label": "Relances WhatsApp corrigées",
+  "created_at": "2026-08-17T08:54:00.644Z",
+  "files": 40,
+  "total_bytes": 9830498,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,9 +42,9 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-D-FwUx04.js",
-      "bytes": 989137,
-      "sha256": "877e46ce9b7aea854b24227f5355d8ca64eaa1423ec99e88672a37abbab61b41"
+      "file": "assets/index-CGeVzHhl.js",
+      "bytes": 988175,
+      "sha256": "d500defe183249d20dc985b9a37006240043e1d032dcc7539e643223c4435466"
     },
     {
       "file": "assets/index-JZ66OH6c.css",
@@ -52,9 +52,9 @@
       "sha256": "1c9b6e56f9718ac8f45c8c07125c5b553b2da9ea1ea7e585ed4d8491679709cc"
     },
     {
-      "file": "assets/index-legacy-CE9mrhsU.js",
-      "bytes": 1308840,
-      "sha256": "d0d0f1f1b7d0c4b1761ca423a586500a6a04c1c1bc90fc79246c5c70b9e4054d"
+      "file": "assets/index-legacy-HSs8l7tE.js",
+      "bytes": 1307606,
+      "sha256": "829c4e3f5c7b21660c2f2359e7b184f062abb63415b195f18335f9e9b2ae2e1c"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -152,6 +152,16 @@
       "sha256": "a5f31fc5813293591e876c9b9bd41f1627944aeabcb57e1b9f5c3df97ab29ab0"
     },
     {
+      "file": "assets/voice-reminder-tools-CC3wQZpT.js",
+      "bytes": 2331,
+      "sha256": "742982529f0663b9d95fd8bceaf6b3baf286b3ea55220b743cf2312d0ad052b9"
+    },
+    {
+      "file": "assets/voice-reminder-tools-legacy-B0zfwT-g.js",
+      "bytes": 5868,
+      "sha256": "463684e0a6e29f5fb1d02262c5a70b88006cc300da8fe401af8fc90b3cffbd1b"
+    },
+    {
       "file": "icon-192.png",
       "bytes": 15143,
       "sha256": "b655c8f7667b8bafa42d67b1ae46a25ed650521590c01a0f81dda2d780fdc15b"
@@ -174,7 +184,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "ffcee5ae014fd01472e2b786f185307d7309449b15126042a5004755c80a640f"
+      "sha256": "5f5225e7175d72b9a2bfd25d610cbcfaef84782077caaa40dd254d781b3ffaa5"
     },
     {
       "file": "manifest.webmanifest",
@@ -189,12 +199,12 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "ef5950187882f54f9c341982eba668d899b48202204831762574a1a922d0d48e"
+      "sha256": "4b6ce6c83a994161e23c4baa2f9c5cf0c57634bbba3fe5b8f1d987ff35d8b95f"
     },
     {
       "file": "version.json",
-      "bytes": 337,
-      "sha256": "410dfbe249f8b0a64ec4b6c5dcfa0f624d3200b653efdab9a637913c839b5fad"
+      "bytes": 345,
+      "sha256": "148e3e855758e339cd28638c2b65b39d681dfa86d9a6b8e35367c500767fe2bd"
     }
   ]
 }

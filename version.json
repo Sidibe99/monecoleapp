@@ -1,9 +1,9 @@
 {
-  "version": "v247",
+  "version": "v248",
   "date": "2026-08-17",
-  "note": "La reconnexion reprend immédiatement la dernière session sécurisée de l’appareil et les attentes Supabase sont désormais courtes et bornées.",
-  "label": "Connexion plus rapide",
+  "note": "Les relances collectives sont simplifiées et le partage vocal conserve désormais le texte grâce à une copie automatique compatible avec WhatsApp.",
+  "label": "Relances WhatsApp corrigées",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T07:35:00.000Z"
+  "updated_at": "2026-08-17T08:55:00.000Z"
 }
