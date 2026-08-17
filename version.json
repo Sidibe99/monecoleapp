@@ -1,9 +1,9 @@
 {
-  "version": "v248",
+  "version": "v250",
   "date": "2026-08-17",
-  "note": "Les relances collectives sont simplifiées et le partage vocal conserve désormais le texte grâce à une copie automatique compatible avec WhatsApp.",
-  "label": "Relances WhatsApp corrigées",
+  "note": "Le partage d’une relance vocale télécharge le fichier puis ouvre directement WhatsApp, avec un repli automatique vers WhatsApp Web.",
+  "label": "Ouverture directe de WhatsApp",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T08:55:00.000Z"
+  "updated_at": "2026-08-17T09:23:33.000Z"
 }
