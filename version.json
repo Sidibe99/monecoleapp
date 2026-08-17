@@ -1,9 +1,9 @@
 {
-  "version": "v250",
+  "version": "v251",
   "date": "2026-08-17",
-  "note": "Le partage d’une relance vocale télécharge le fichier puis ouvre directement WhatsApp, avec un repli automatique vers WhatsApp Web.",
-  "label": "Ouverture directe de WhatsApp",
+  "note": "Les relances WhatsApp regroupent désormais le texte et un lien d’écoute sécurisé du vocal dans le même message.",
+  "label": "Texte et vocal réunis",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T09:23:33.000Z"
+  "updated_at": "2026-08-17T10:05:00.000Z"
 }

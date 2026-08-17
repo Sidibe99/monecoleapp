@@ -1,10 +1,10 @@
 {
-  "version": "v250",
-  "package_version": "1.0.250",
-  "label": "Ouverture directe de WhatsApp",
-  "created_at": "2026-08-17T09:39:28.622Z",
+  "version": "v251",
+  "package_version": "1.0.251",
+  "label": "Texte et vocal réunis",
+  "created_at": "2026-08-17T12:44:53.805Z",
   "files": 40,
-  "total_bytes": 9833358,
+  "total_bytes": 9834057,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,19 +42,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
+      "file": "assets/index-C0eS23VI.js",
+      "bytes": 989822,
+      "sha256": "3e01fc885fed09ce64074a146f0bd3c69626dbc5dce6c53d6bb733b51f947173"
+    },
+    {
       "file": "assets/index-JZ66OH6c.css",
       "bytes": 211403,
       "sha256": "1c9b6e56f9718ac8f45c8c07125c5b553b2da9ea1ea7e585ed4d8491679709cc"
     },
     {
-      "file": "assets/index-aZcWuAha.js",
-      "bytes": 989364,
-      "sha256": "e5fb36b32febc591e4e4b4fd316e8455d70c98ce1bd16c1c5c59b4f407711f41"
-    },
-    {
-      "file": "assets/index-legacy-B8KfMwEV.js",
-      "bytes": 1308796,
-      "sha256": "f27a701dac2039cac3e428057896d9461dd3d52b834c9fc708a8a1ded6675ecd"
+      "file": "assets/index-legacy-BWigO72u.js",
+      "bytes": 1309357,
+      "sha256": "eff1612ac0b7185675f1449bb1c2500a0592c70bcec7180525e0386ab607836e"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -152,14 +152,14 @@
       "sha256": "a5f31fc5813293591e876c9b9bd41f1627944aeabcb57e1b9f5c3df97ab29ab0"
     },
     {
-      "file": "assets/voice-reminder-tools-3m_X3-0f.js",
-      "bytes": 2637,
-      "sha256": "733f452525cff69c87cc7f2376ea7e0e578f8d681c5d519e98c36b2b1e5550c5"
+      "file": "assets/voice-reminder-tools-DzOLcft-.js",
+      "bytes": 2495,
+      "sha256": "db5c40fe9edd4019f325d78fbd4a7b1e93efd478e55d5751307cb7c235bc33b0"
     },
     {
-      "file": "assets/voice-reminder-tools-legacy-D_5ZXMFS.js",
-      "bytes": 6056,
-      "sha256": "a830aa2eae264d635d7df8fb4670fd23746d3f772f2969bafd3caa4849a197ce"
+      "file": "assets/voice-reminder-tools-legacy-CHT8YniP.js",
+      "bytes": 5902,
+      "sha256": "5e6f7ebe009165592b944d19659cfc1680a48a305ffb91cb09c2f96e82bf25f3"
     },
     {
       "file": "icon-192.png",
@@ -184,7 +184,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "7a022ce220c37373aacf4f1fda12d421825e8cad6f36c2985ca4f3fba3d4cbf8"
+      "sha256": "ae3f6480e910e5176b24f9fda8a945b5211e7f7097ba6c7a3629fb7e4f6a5c38"
     },
     {
       "file": "manifest.webmanifest",
@@ -199,12 +199,12 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "c21cc1a644c48477c1a052fcdc296c0462dfce1e1cec6544868a40973c42f6cd"
+      "sha256": "a0f7db781f0f37598f2882ea54433e810efcb21ae204c58c20c4e18606a6f555"
     },
     {
       "file": "version.json",
-      "bytes": 332,
-      "sha256": "ba3f39463a7f6c8cd0a33dd210bd3ca0fa3543ba1728abd4b89764be2f63c549"
+      "bytes": 308,
+      "sha256": "1415f6fece3e46f253b8295ea00dd7a30ee2b14f59db5514e7249a243acdca62"
     }
   ]
 }
