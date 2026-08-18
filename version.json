@@ -1,9 +1,9 @@
 {
-  "version": "v258",
+  "version": "v260",
   "date": "2026-08-18",
-  "note": "La messagerie Parent enregistre la lecture sans alerte, retire le préfixe des réponses et permet de supprimer un message uniquement pour soi.",
-  "label": "Messagerie Parent corrigée",
+  "note": "Le centre, le tableau de bord et la bulle de messagerie comptent uniquement les messages réellement visibles. Ouvrir Messagerie les marque immédiatement comme lus.",
+  "label": "Notifications de messagerie fiables",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-18T15:55:00.000Z"
+  "updated_at": "2026-08-18T17:10:00.000Z"
 }

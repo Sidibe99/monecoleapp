@@ -1,10 +1,10 @@
 {
-  "version": "v258",
-  "package_version": "1.0.258",
-  "label": "Messagerie Parent corrigée",
-  "created_at": "2026-08-18T16:19:50.641Z",
+  "version": "v260",
+  "package_version": "1.0.260",
+  "label": "Notifications de messagerie fiables",
+  "created_at": "2026-08-18T18:21:12.673Z",
   "files": 43,
-  "total_bytes": 9893730,
+  "total_bytes": 9906707,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,19 +52,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-37TnMJ-A.js",
-      "bytes": 1001256,
-      "sha256": "d7d1ab8cbfe3ad2194226be83538b8d4246e48c2dcf0c87da02ffe33d23cb97f"
+      "file": "assets/index-BiAYXC8z.css",
+      "bytes": 213471,
+      "sha256": "57638f4928523b842aa8b122c8a05a6cad45c73f854da6a6f732adac8059a024"
     },
     {
-      "file": "assets/index-JZ66OH6c.css",
-      "bytes": 211403,
-      "sha256": "1c9b6e56f9718ac8f45c8c07125c5b553b2da9ea1ea7e585ed4d8491679709cc"
+      "file": "assets/index-LoHPkpzf.js",
+      "bytes": 1004355,
+      "sha256": "370c071e6eae23511388a7fdc5d12df15bf7933d8b343b862a45b8333dac4d00"
     },
     {
-      "file": "assets/index-legacy--0uMTD9K.js",
-      "bytes": 1321902,
-      "sha256": "258ea18f92889e5a3b939deb8b82a70a8d57643bc394065095ee5867b61cff21"
+      "file": "assets/index-legacy-CSDSggke.js",
+      "bytes": 1327799,
+      "sha256": "5b71bb2f212a7274e1e69ddebec84bc64d4d001f8840f0d5ab7d02f27aba6fa5"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -97,14 +97,14 @@
       "sha256": "27d184ea2cb9f2f74c30e0e31ec1972d609e4062df4082df712a7d6c807c9ec8"
     },
     {
-      "file": "assets/monecole-notifications-Bgkbf2Yx.js",
-      "bytes": 7642,
-      "sha256": "a26bf935813c5d8ae4738c55ceeb9f80e7865468c7240b5892e076be134b275d"
+      "file": "assets/monecole-notifications-C7AxbXuU.js",
+      "bytes": 8441,
+      "sha256": "8e36e056de4723b14ed95842bd212d5b4528beb27f4c3020448e9eca130e4826"
     },
     {
-      "file": "assets/monecole-notifications-legacy-D7WWZuYg.js",
-      "bytes": 9389,
-      "sha256": "00a532f7ebae240989a93fd78dd7f2ae5c1a287dc3c80653bba6cf91188dd0ea"
+      "file": "assets/monecole-notifications-legacy-DfDhr8DT.js",
+      "bytes": 10473,
+      "sha256": "6c8b1b45e7e15bb6abd712e8f198bcaba19bf87b1f6e0e46a8f58c1ed8ed7bea"
     },
     {
       "file": "assets/monecole-offline-DXVkjBgU.js",
@@ -194,7 +194,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "fc4afd7fe59c8ffd93eb176043644f7b16080bf9d3e362ed687be9b5233809a9"
+      "sha256": "291640563d5fd604d75b20daefd8408c184498b68e881521687872cbd04ee36b"
     },
     {
       "file": "manifest.webmanifest",
@@ -209,7 +209,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "5c00a18ba216cc206e3b315a1bccf25c54d57d3590aa902d598b570765aeb313"
+      "sha256": "dc1c64bbb68cd00683099f7bc414b177d3cf91ccab5a28feb45ee6c75d4b4422"
     },
     {
       "file": "v.html",
@@ -218,8 +218,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 338,
-      "sha256": "7de5e740e62a8ec1090e2ca76a2f5ffb60af0db093a97c800cb6ae433a6ba932"
+      "bytes": 368,
+      "sha256": "a219d7cb2ef05c2664023d93373406092aa67782357449f860bbd1887bd2f10f"
     }
   ]
 }
