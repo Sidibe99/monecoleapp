@@ -1,9 +1,9 @@
 {
-  "version": "v254",
+  "version": "v255",
   "date": "2026-08-17",
-  "note": "Le portail Parent affiche, en lecture seule, les paiements des enfants liés. Les fiches de notes publiées sont filtrables par classe et recherchables par prénom, nom ou matricule.",
-  "label": "Paiements et recherche Parent",
+  "note": "La messagerie Parent masque le canal Général et les groupes. Elle affiche uniquement la direction et les professeurs qui enseignent les enfants liés au compte.",
+  "label": "Messagerie Parent ciblée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-17T18:00:00.000Z"
+  "updated_at": "2026-08-17T23:45:00.000Z"
 }
