@@ -1,10 +1,10 @@
 {
-  "version": "v255",
-  "package_version": "1.0.255",
-  "label": "Messagerie Parent ciblée",
-  "created_at": "2026-08-18T07:39:30.382Z",
+  "version": "v256",
+  "package_version": "1.0.256",
+  "label": "Paiements Parent réparés",
+  "created_at": "2026-08-18T10:46:06.609Z",
   "files": 43,
-  "total_bytes": 9891244,
+  "total_bytes": 9891411,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,9 +52,9 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-B_nQCzyt.js",
-      "bytes": 1000207,
-      "sha256": "48140ef5143b726261c0667ccd20acfe105a466f7c5e5746385801768bf233e7"
+      "file": "assets/index-Be0zqCKQ.js",
+      "bytes": 1000296,
+      "sha256": "21f41067e71f6538173dada2826eb847594e9a248419784f77f0d9d09425cd65"
     },
     {
       "file": "assets/index-JZ66OH6c.css",
@@ -62,9 +62,9 @@
       "sha256": "1c9b6e56f9718ac8f45c8c07125c5b553b2da9ea1ea7e585ed4d8491679709cc"
     },
     {
-      "file": "assets/index-legacy-NMkV9QE7.js",
-      "bytes": 1320538,
-      "sha256": "8f771835cc3b4c864c617e6f42674578d473ec5eaf06778bfb2184b4c8cbfdb1"
+      "file": "assets/index-legacy-BNhoUhJR.js",
+      "bytes": 1320627,
+      "sha256": "79d2741fa6c00eae1ec89cd5d31a84eb9b70f0fbacaf0062f9045e62bbf762b2"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -194,7 +194,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "19fa175ca9d2001b3bb8278670980961b7cf19ca02a21a93aaa8e5a87ca25dbc"
+      "sha256": "c674066213deb508ffb5e4a5b27f04458b6448afb4fa05514cfcaf5fc7f7ada2"
     },
     {
       "file": "manifest.webmanifest",
@@ -209,7 +209,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "dc96ce5edf011e805bab86d7e81c6ac8e403955b291ba702a45630673fe99b05"
+      "sha256": "a6b602cc69dc4d793a4654fc00d67398dbea5b149e005ecd019b5e0d06300131"
     },
     {
       "file": "v.html",
@@ -218,8 +218,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 355,
-      "sha256": "6e4818cd795c3f9d68faa1cbb1837203e1461aa2016fa6bad33b761e38c5718a"
+      "bytes": 344,
+      "sha256": "91456f9fa6beffd606681b5ba66688a022ea58070f71067c479478f85f49b7f0"
     }
   ]
 }
