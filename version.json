@@ -1,9 +1,9 @@
 {
-  "version": "v261",
+  "version": "v262",
   "date": "2026-08-18",
-  "note": "L’auteur d’un message peut maintenant modifier son texte ou le supprimer pour tout le monde, y compris depuis un compte Parent.",
-  "label": "Messages modifiables et supprimables",
+  "note": "La navigation est plus compacte : rubriques repliables, menu actif toujours visible, informations lisibles et outils flottants regroupés.",
+  "label": "Navigation compacte et accessible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-18T18:45:00.000Z"
+  "updated_at": "2026-08-18T20:30:00.000Z"
 }
