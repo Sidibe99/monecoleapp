@@ -1,9 +1,9 @@
 {
-  "version": "v257",
+  "version": "v258",
   "date": "2026-08-18",
-  "note": "La messagerie Parent affiche désormais le compte de direction de l'établissement, y compris lorsqu'il utilise le rôle historique Administrateur.",
-  "label": "Direction visible pour les Parents",
+  "note": "La messagerie Parent enregistre la lecture sans alerte, retire le préfixe des réponses et permet de supprimer un message uniquement pour soi.",
+  "label": "Messagerie Parent corrigée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-18T12:50:00.000Z"
+  "updated_at": "2026-08-18T15:55:00.000Z"
 }
