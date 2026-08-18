@@ -1,9 +1,9 @@
 {
-  "version": "v256",
+  "version": "v257",
   "date": "2026-08-18",
-  "note": "La situation financière du portail Parent accepte désormais les anciennes structures Supabase et les montants vides sans bloquer la synchronisation.",
-  "label": "Paiements Parent réparés",
+  "note": "La messagerie Parent affiche désormais le compte de direction de l'établissement, y compris lorsqu'il utilise le rôle historique Administrateur.",
+  "label": "Direction visible pour les Parents",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-18T08:30:00.000Z"
+  "updated_at": "2026-08-18T12:50:00.000Z"
 }
