@@ -1,10 +1,10 @@
 {
-  "version": "v260",
-  "package_version": "1.0.260",
-  "label": "Notifications de messagerie fiables",
-  "created_at": "2026-08-18T18:21:12.673Z",
-  "files": 43,
-  "total_bytes": 9906707,
+  "version": "v261",
+  "package_version": "1.0.261",
+  "label": "Messages modifiables et supprimables",
+  "created_at": "2026-08-18T20:40:58.386Z",
+  "files": 49,
+  "total_bytes": 9924238,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -20,6 +20,26 @@
       "file": "apple-touch-icon.png",
       "bytes": 14108,
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
+    },
+    {
+      "file": "assets/MessageActionsMenu-DwDFtdQR.js",
+      "bytes": 1181,
+      "sha256": "c6f5ac28225f881a4477ea8279f28ee14fb75afc1568e8f10eb81ad00fe928ec"
+    },
+    {
+      "file": "assets/MessageActionsMenu-legacy-BtCBBD4y.js",
+      "bytes": 1329,
+      "sha256": "d1192f603344cd90d1650307d8e36ad80bed02543620a8cc3009c640385fab70"
+    },
+    {
+      "file": "assets/MessageEditModal-CLXNuB3j.js",
+      "bytes": 1591,
+      "sha256": "8333ecea00e052bb525842149bd79b5d45d1fc2a6186bb514a1a4ab6244a0e01"
+    },
+    {
+      "file": "assets/MessageEditModal-legacy-CgWSyguK.js",
+      "bytes": 5590,
+      "sha256": "2dc15ba157e6e549e7831293409f687e39ec2f6dac4ac5c93fbb5882a560b080"
     },
     {
       "file": "assets/ParentPortalViews-BLBN5idq.js",
@@ -52,19 +72,29 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-BiAYXC8z.css",
-      "bytes": 213471,
-      "sha256": "57638f4928523b842aa8b122c8a05a6cad45c73f854da6a6f732adac8059a024"
+      "file": "assets/index-1R44z2qC.css",
+      "bytes": 214668,
+      "sha256": "9274583a593a9d5cec6f45eaa99486bb02445d94b1441c7f89e4e29b344c0976"
     },
     {
-      "file": "assets/index-LoHPkpzf.js",
-      "bytes": 1004355,
-      "sha256": "370c071e6eae23511388a7fdc5d12df15bf7933d8b343b862a45b8333dac4d00"
+      "file": "assets/index-DSLfpp5D.js",
+      "bytes": 1004930,
+      "sha256": "4921e26b0ce7fe8afde5196a63bd00e9d9901959ae31c075887b11d6c3b4ca74"
     },
     {
-      "file": "assets/index-legacy-CSDSggke.js",
-      "bytes": 1327799,
-      "sha256": "5b71bb2f212a7274e1e69ddebec84bc64d4d001f8840f0d5ab7d02f27aba6fa5"
+      "file": "assets/index-legacy-BzN7Gqjd.js",
+      "bytes": 1329826,
+      "sha256": "f0e9e628874de6de04a5fa9bc4784b304fc74b911c502a03daafc4a95405fbd2"
+    },
+    {
+      "file": "assets/message-actions-D7e1Wedr.js",
+      "bytes": 536,
+      "sha256": "a3d411cbe5353c0c60e5fade42c4e395a801c92305a199b558665f6ef0a2be62"
+    },
+    {
+      "file": "assets/message-actions-legacy-C9FcHq59.js",
+      "bytes": 3408,
+      "sha256": "a7d5f7e7b72f09ef1ff32ba1fa3e9078cfca57ca7a64eef74e4628e369ddb7f5"
     },
     {
       "file": "assets/monecole-administration-DnW588dE.js",
@@ -77,14 +107,14 @@
       "sha256": "e21cdb64ac3de326190eb5f23a62572197c8549967259123714f110f99df40c7"
     },
     {
-      "file": "assets/monecole-core-BgZ9S7vk.js",
-      "bytes": 31742,
-      "sha256": "b7e3fd664de7db12a26d02c6e008d004e9b2cbc889c4bc53795102cde1f9766d"
+      "file": "assets/monecole-core-B9qmxpsH.js",
+      "bytes": 31807,
+      "sha256": "5174183d24aca685fbcbd979415f9a5c054c103ea2c8676c29ef048fcedd2176"
     },
     {
-      "file": "assets/monecole-core-legacy-BCiC6qdE.js",
-      "bytes": 44097,
-      "sha256": "9983c414e3e619cfee4a64927db23e02a3a2dc1daaa991bf172e2f34e91568bd"
+      "file": "assets/monecole-core-legacy-B3sPaPiS.js",
+      "bytes": 44162,
+      "sha256": "84d92c85d4f681d7496b18a2cc346d10ba417b75f8cb7488733d3873e4a03ff5"
     },
     {
       "file": "assets/monecole-monitoring-BC2ZQj_-.js",
@@ -194,7 +224,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "291640563d5fd604d75b20daefd8408c184498b68e881521687872cbd04ee36b"
+      "sha256": "4915acb25a69e000487386f3d70f967ea4d08531eab91e922c60832b84a08aca"
     },
     {
       "file": "manifest.webmanifest",
@@ -209,7 +239,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "dc1c64bbb68cd00683099f7bc414b177d3cf91ccab5a28feb45ee6c75d4b4422"
+      "sha256": "c8c9724a39f3ad7c3b736fb6f82c66ed700d4c6d63361aecc78f72989bfa9cd0"
     },
     {
       "file": "v.html",
@@ -218,8 +248,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 368,
-      "sha256": "a219d7cb2ef05c2664023d93373406092aa67782357449f860bbd1887bd2f10f"
+      "bytes": 335,
+      "sha256": "1aad498fd11c8456deb11294539be3ae33665b6c4705951cf96b1847132571de"
     }
   ]
 }
