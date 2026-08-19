@@ -1,9 +1,9 @@
 {
-  "version": "v268",
+  "version": "v269",
   "date": "2026-08-19",
-  "note": "La barre latérale montre désormais son défilement, les filtres et actions rapides remontent sous l’en-tête, et les informations générales inutiles sont retirées.",
-  "label": "Tableau de bord épuré",
+  "note": "L’état de synchronisation en double est retiré du tableau de bord ; le bouton À jour et son heure restent accessibles dans la barre latérale.",
+  "label": "Synchronisation simplifiée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-19T20:39:23.000Z"
+  "updated_at": "2026-08-19T21:37:58.000Z"
 }
