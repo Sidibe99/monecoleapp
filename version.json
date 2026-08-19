@@ -1,9 +1,9 @@
 {
-  "version": "v265",
+  "version": "v266",
   "date": "2026-08-19",
-  "note": "Le tableau de bord devient un centre de pilotage avec filtres, actions rapides, indicateurs fiables, alertes compactes et synthèse financière.",
-  "label": "Tableau de bord professionnel",
+  "note": "Le tableau de bord active tous ses filtres, distingue les retards réels, ajoute six tendances accessibles et couvre les états de chargement ou d’erreur.",
+  "label": "Tableau de bord complet",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-19T12:00:00.000Z"
+  "updated_at": "2026-08-19T16:00:00.000Z"
 }
