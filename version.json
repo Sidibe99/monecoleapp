@@ -1,9 +1,9 @@
 {
-  "version": "v262",
-  "date": "2026-08-18",
-  "note": "La navigation est plus compacte : rubriques repliables, menu actif toujours visible, informations lisibles et outils flottants regroupés.",
-  "label": "Navigation compacte et accessible",
+  "version": "v263",
+  "date": "2026-08-19",
+  "note": "Le tableau de bord affiche des textes correctement accordés, des états fiables sans notes et un profil latéral plus lisible.",
+  "label": "Tableau de bord précis et lisible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-18T20:30:00.000Z"
+  "updated_at": "2026-08-19T12:00:00.000Z"
 }

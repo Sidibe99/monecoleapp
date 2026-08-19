@@ -1,10 +1,10 @@
 {
-  "version": "v262",
-  "package_version": "1.0.262",
-  "label": "Navigation compacte et accessible",
-  "created_at": "2026-08-18T23:57:32.918Z",
+  "version": "v263",
+  "package_version": "1.0.263",
+  "label": "Tableau de bord précis et lisible",
+  "created_at": "2026-08-19T04:45:47.725Z",
   "files": 51,
-  "total_bytes": 9955677,
+  "total_bytes": 9963947,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,14 +52,14 @@
       "sha256": "a0865276f4033ee803bed9de40a0564b9fe615a11096ea8556398ca4d38006ab"
     },
     {
-      "file": "assets/SidebarNavigation-8foP7JHF.js",
-      "bytes": 6090,
-      "sha256": "855cc691843dfd016ea35f231ef956deb5dbb00b0070e90115cfde6252e3f2ad"
+      "file": "assets/SidebarNavigation-ByLMTk8D.js",
+      "bytes": 6870,
+      "sha256": "a33fc684831adf4a39978f6b58146dbd94f8f8086a6dbf0c2f88828a76762f64"
     },
     {
-      "file": "assets/SidebarNavigation-legacy-DAM4x-QL.js",
-      "bytes": 8839,
-      "sha256": "3c26d2cb7190264349550050d48526534419dd23de73f271dc280197d5d21658"
+      "file": "assets/SidebarNavigation-legacy-91QkIeky.js",
+      "bytes": 9722,
+      "sha256": "3efe0749f1bd6829dffd68ab5161c09dd51f2a560d71c854e2246111db349c6e"
     },
     {
       "file": "assets/heic-to-lXPrQE7P.js",
@@ -82,19 +82,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-BsCn7dnv.js",
-      "bytes": 1002237,
-      "sha256": "66bee241ee50bc3038c1e0b4475bbfcc3ae6a27fcbd324ceead94b5a73c820de"
+      "file": "assets/index-2dDNPMCb.css",
+      "bytes": 226829,
+      "sha256": "7b7aec3bce1297040cc76a407e0b91afa452b69be9004db5187b44a8650fab00"
     },
     {
-      "file": "assets/index-CmumCjzs.css",
-      "bytes": 225327,
-      "sha256": "2d60b2618e34eb9c04b083578b47dbfae0fce7bbbcd62c36b6eb47bcf02c5bfa"
+      "file": "assets/index-3GTE6jQt.js",
+      "bytes": 1004015,
+      "sha256": "6c15c8948fa9092a5cc897d2ad5ddcf960e6576ccaf3b707d2177bfdc625405b"
     },
     {
-      "file": "assets/index-legacy-CiOsVjcT.js",
-      "bytes": 1337863,
-      "sha256": "61b2f3ffb07ffedc97bd832a90cdc384d8c7aed2b6ad95491f3e366f87ab3cac"
+      "file": "assets/index-legacy-BSIsJJxv.js",
+      "bytes": 1341200,
+      "sha256": "d79dfe6e4ab241337e093eafc70596f29ed31804fab563c7a0299ba31b984581"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -234,7 +234,7 @@
     {
       "file": "index.html",
       "bytes": 8610,
-      "sha256": "d145e00530414941078ddaf3d344ebc20460aa15e323ba6f4e0cf481910ba555"
+      "sha256": "f1f04dcef29eb28c6c9fe5959c2db1c7268a67e4928b738fae1aebc5dad80400"
     },
     {
       "file": "manifest.webmanifest",
@@ -249,7 +249,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "e0101522a393689babc75995483c6132994465ad99ab3043025e6a7c93eac0fb"
+      "sha256": "8c4145f7b844439650d9e07fb99132accb3430107ca598f5c3c7a92531aa7b0a"
     },
     {
       "file": "v.html",
@@ -258,8 +258,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 339,
-      "sha256": "5f2c2ed1ff7312e2cbed581795d5da6fda64388c9265cbf5db87d8aaee60ccb4"
+      "bytes": 329,
+      "sha256": "b4c962316120d1f923fef70e896b87a394683e54d380ed4103e4d131b1d781f4"
     }
   ]
 }
