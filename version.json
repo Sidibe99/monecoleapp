@@ -1,8 +1,8 @@
 {
-  "version": "v263",
+  "version": "v264",
   "date": "2026-08-19",
-  "note": "Le tableau de bord affiche des textes correctement accordés, des états fiables sans notes et un profil latéral plus lisible.",
-  "label": "Tableau de bord précis et lisible",
+  "note": "Le tableau de bord devient un centre de pilotage avec filtres, actions rapides, indicateurs fiables, alertes compactes et synthèse financière.",
+  "label": "Tableau de bord de pilotage",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-08-19T12:00:00.000Z"
