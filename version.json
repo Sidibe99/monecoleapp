@@ -1,8 +1,8 @@
 {
-  "version": "v264",
+  "version": "v265",
   "date": "2026-08-19",
   "note": "Le tableau de bord devient un centre de pilotage avec filtres, actions rapides, indicateurs fiables, alertes compactes et synthèse financière.",
-  "label": "Tableau de bord de pilotage",
+  "label": "Tableau de bord professionnel",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-08-19T12:00:00.000Z"
