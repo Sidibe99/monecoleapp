@@ -1,9 +1,9 @@
 {
-  "version": "v266",
+  "version": "v267",
   "date": "2026-08-19",
-  "note": "Le tableau de bord active tous ses filtres, distingue les retards réels, ajoute six tendances accessibles et couvre les états de chargement ou d’erreur.",
-  "label": "Tableau de bord complet",
+  "note": "Les clics et la navigation restent réactifs grâce à des calculs financiers et de présence indexés, mémorisés et accompagnés d’un retour visuel immédiat.",
+  "label": "Navigation plus réactive",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-19T16:00:00.000Z"
+  "updated_at": "2026-08-19T19:00:00.000Z"
 }
