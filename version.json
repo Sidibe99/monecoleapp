@@ -1,9 +1,9 @@
 {
-  "version": "v278",
+  "version": "v279",
   "date": "2026-08-20",
-  "note": "Le tableau de bord place les indicateurs et alertes en priorité, replie les filtres, mémorise leur sélection et allège les cadres pour une lecture plus rapide.",
-  "label": "Tableau de bord calme et hiérarchisé",
+  "note": "Les cinq indicateurs du tableau de bord sont répartis en trois puis deux cartes équilibrées, avec une hauteur réduite et une adaptation au nombre réel d'indicateurs selon le rôle.",
+  "label": "Grille d’indicateurs équilibrée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T11:43:42.000Z"
+  "updated_at": "2026-08-20T13:10:00.000Z"
 }

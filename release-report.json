@@ -1,10 +1,10 @@
 {
-  "version": "v278",
-  "package_version": "1.0.278",
-  "label": "Tableau de bord calme et hiérarchisé",
-  "created_at": "2026-08-20T11:55:34.504Z",
+  "version": "v279",
+  "package_version": "1.0.279",
+  "label": "Grille d’indicateurs équilibrée",
+  "created_at": "2026-08-20T13:19:53.926Z",
   "files": 59,
-  "total_bytes": 10186835,
+  "total_bytes": 10190883,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,19 +92,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-BCUea37t.js",
-      "bytes": 1017650,
-      "sha256": "3b6f1e71a445897cf98e2e65f505319a56ea99cc80650c60157d176ebeaad7ce"
+      "file": "assets/index-BFdKS_6L.js",
+      "bytes": 1017672,
+      "sha256": "20f856a649c01526b7a531e327976b7715b10f6f73baab03d8cee4c187201afd"
     },
     {
-      "file": "assets/index-CfBNQ7dT.css",
-      "bytes": 260948,
-      "sha256": "92fe3df0254dc11d3db780a2e9a6f6239c12057789978dfdea62136f263d99a5"
+      "file": "assets/index-BQaP1y_i.css",
+      "bytes": 262940,
+      "sha256": "adac8641030dbf04a55ed6521751849bd1e4ca71c625d11d295e7fcfda41b8b3"
     },
     {
-      "file": "assets/index-legacy-BTFJRbxh.js",
-      "bytes": 1393292,
-      "sha256": "88c28946ab87f1d510aef43e7a05ebee66b495f9244c77214ccc830509844eed"
+      "file": "assets/index-legacy-DNou9582.js",
+      "bytes": 1395307,
+      "sha256": "a064cacb046ab3ee014de8e322bb75de8efe5fab7bf51e2630af9c0b79c6a46b"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "b5828ca5b8276a181e1aeaf4c6611116925b8af0cf0a45f9aed910ef92fdd539"
+      "sha256": "b59a32fab33c85a33dbef4483ad5cb67b4e6376d9a07864b53b21425830f0ec2"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "e8b32c0995fc120f8ab4f424b5c0685a49db7e0703f6b6637ee359245e90b8b7"
+      "sha256": "a5f1a57db6efeab217428582ee1a792d4c03e20744dea075325bbebca20ae746"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 369,
-      "sha256": "a379f058d04eb27e0d3cd7212c8f6c0ed50e27967c835ce22151b39b1ff70b5e"
+      "bytes": 388,
+      "sha256": "75d61c2ca70133bc8a3b9b252751c5fba6e1ce7b9f6e5d7396d546fcf9adf52f"
     }
   ]
 }
