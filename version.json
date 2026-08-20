@@ -1,9 +1,9 @@
 {
-  "version": "v284",
+  "version": "v285",
   "date": "2026-08-20",
-  "note": "Trois variables utilisées sans exister provoquaient un écran d'erreur : la fiche élève, l'envoi d'une photo ou d'un document, et l'impression d'un bulletin portant une appréciation.",
-  "label": "Correction de trois plantages",
+  "note": "Un contrôle automatique refuse désormais toute publication contenant une variable lue sans exister — la cause des trois plantages corrigés en v284.",
+  "label": "Contrôle des variables inexistantes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T20:40:00.000Z"
+  "updated_at": "2026-08-20T21:50:00.000Z"
 }
