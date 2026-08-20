@@ -1,9 +1,9 @@
 {
-  "version": "v272",
+  "version": "v274",
   "date": "2026-08-20",
-  "note": "Les vues de saisie, de validation, de publication et de consultation des résultats sont désormais clairement adaptées au professeur, à la direction et aux parents.",
-  "label": "Résultats scolaires adaptés aux rôles",
-  "scope": "client",
+  "note": "Les actions des professeurs et de la direction sont maintenant séparées dans les notes et les résultats, avec des contrôles Supabase qui bloquent les modifications et transitions non autorisées.",
+  "label": "Rôles des résultats sécurisés",
+  "scope": "client+database",
   "client_visible": true,
-  "updated_at": "2026-08-20T00:25:40.000Z"
+  "updated_at": "2026-08-20T08:20:00.000Z"
 }
