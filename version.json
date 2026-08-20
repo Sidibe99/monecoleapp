@@ -1,9 +1,9 @@
 {
-  "version": "v283",
+  "version": "v284",
   "date": "2026-08-20",
-  "note": "Un bulletin n'apparaît que lorsque toutes les fiches de notes de la classe sont validées. La liste nomme les matières encore en attente.",
-  "label": "Bulletin seulement si les notes sont complètes",
+  "note": "Trois variables utilisées sans exister provoquaient un écran d'erreur : la fiche élève, l'envoi d'une photo ou d'un document, et l'impression d'un bulletin portant une appréciation.",
+  "label": "Correction de trois plantages",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T19:15:00.000Z"
+  "updated_at": "2026-08-20T20:40:00.000Z"
 }
