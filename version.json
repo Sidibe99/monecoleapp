@@ -1,9 +1,9 @@
 {
-  "version": "v271",
-  "date": "2026-08-19",
-  "note": "Les fiches de notes sont soumises par les professeurs puis validées par la direction avant la publication des bulletins individuels et des résultats collectifs.",
-  "label": "Validation des résultats scolaires",
-  "scope": "client+database",
+  "version": "v272",
+  "date": "2026-08-20",
+  "note": "Les vues de saisie, de validation, de publication et de consultation des résultats sont désormais clairement adaptées au professeur, à la direction et aux parents.",
+  "label": "Résultats scolaires adaptés aux rôles",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-19T23:30:00.000Z"
+  "updated_at": "2026-08-20T00:25:40.000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v271",
-  "package_version": "1.0.271",
-  "label": "Validation des résultats scolaires",
-  "created_at": "2026-08-20T00:00:08.187Z",
+  "version": "v272",
+  "package_version": "1.0.272",
+  "label": "Résultats scolaires adaptés aux rôles",
+  "created_at": "2026-08-20T01:37:56.031Z",
   "files": 59,
-  "total_bytes": 10110752,
+  "total_bytes": 10148110,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,14 +42,14 @@
       "sha256": "2dc15ba157e6e549e7831293409f687e39ec2f6dac4ac5c93fbb5882a560b080"
     },
     {
-      "file": "assets/ParentPortalViews-BLBN5idq.js",
-      "bytes": 13949,
-      "sha256": "551414cb1d1105963bcff13b002ce88bdf5a441ccf92fd75f27df91991e7eb9c"
+      "file": "assets/ParentPortalViews-BPkhLXz9.js",
+      "bytes": 13940,
+      "sha256": "06ce407576b55f1f5caabbebbbaa10974b59321ec5e96f0d0f8401f18b09a429"
     },
     {
-      "file": "assets/ParentPortalViews-legacy-DelZByQ_.js",
-      "bytes": 17489,
-      "sha256": "a0865276f4033ee803bed9de40a0564b9fe615a11096ea8556398ca4d38006ab"
+      "file": "assets/ParentPortalViews-legacy-DmGyVA6S.js",
+      "bytes": 17480,
+      "sha256": "bfdef41119024416cb6c4e527837ff8eeef9ee5596a0fb91fcac6d702cd391c7"
     },
     {
       "file": "assets/SidebarNavigation-BMBo_UtS.js",
@@ -92,9 +92,9 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-IDisVP8i.js",
-      "bytes": 1017083,
-      "sha256": "76be23307dbc912c6cf0213f85997c6ca10d26b593425736b74e6c6983f093aa"
+      "file": "assets/index-BrDCdDdx.js",
+      "bytes": 1019894,
+      "sha256": "24daaee7761cfb6a7636f680da81d9c1e3192f43186e2f774b93fd4ee8e9c33d"
     },
     {
       "file": "assets/index-lPYJACVp.css",
@@ -102,9 +102,9 @@
       "sha256": "8096e6b227d255d5370037bb26b88220eaa1392aefd18dda607435234950f9f7"
     },
     {
-      "file": "assets/index-legacy-5wh677w_.js",
-      "bytes": 1374497,
-      "sha256": "8dbf1b2590ffa4ee6334f91eecb787a18e84659af28817d1f80367d314dad38f"
+      "file": "assets/index-legacy-xlgqOHwY.js",
+      "bytes": 1378729,
+      "sha256": "9953e360e8d82c238106c13f5ceedd22a497b84f3d8496093307811bafc29b52"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -127,14 +127,14 @@
       "sha256": "e21cdb64ac3de326190eb5f23a62572197c8549967259123714f110f99df40c7"
     },
     {
-      "file": "assets/monecole-core-CpiNkRlA.js",
+      "file": "assets/monecole-core-DrjTghSE.js",
       "bytes": 43068,
-      "sha256": "186167675e3a2d80829d1167c31591929e165125667ff7a60bc7c59b208f1249"
+      "sha256": "3b417e8ac936bad4a499819da3f3437429b52718f11446eb2dca165633115852"
     },
     {
-      "file": "assets/monecole-core-legacy-oJIAn_RP.js",
+      "file": "assets/monecole-core-legacy-B_eJ30_z.js",
       "bytes": 58519,
-      "sha256": "fbd42432274ea6cb8c33f175ec230bbffd99d540e9cc692c9d572d6beb4309ec"
+      "sha256": "bef50709bc7f7df6d654a2c136b8c1a0577a71101096be46b3be4238f4e1fbb4"
     },
     {
       "file": "assets/monecole-dashboard-ui-Cn7gRgZ-.js",
@@ -187,14 +187,14 @@
       "sha256": "4be5e04d8e977048d0e1c080ddce1563d8abbe2b427325cbad69c31d304b3049"
     },
     {
-      "file": "assets/monecole-results-DcFMMoKf.js",
-      "bytes": 2387,
-      "sha256": "3f34c16ea5f9e8bed56b40c5d6e96605e5b432775057921d720f274eee6be5bb"
+      "file": "assets/monecole-results-C9gTcj9X.js",
+      "bytes": 16560,
+      "sha256": "5e952517e288bc4e3a25cf6ffccec7a00fb1ddb9e752ea750fa9ef199ab7fb57"
     },
     {
-      "file": "assets/monecole-results-legacy-Cguj98CN.js",
-      "bytes": 3674,
-      "sha256": "6adc2d1bb6b4828b10a8606f29686003bf4a83a9c163ec0113a504fc01d3ad3b"
+      "file": "assets/monecole-results-legacy-DWBPLEM3.js",
+      "bytes": 19833,
+      "sha256": "193eb6327c3478ce96853da09ba4175f7145a69187825f36a5a4a3bb0f094d82"
     },
     {
       "file": "assets/monecole-search-PM5eD6TU.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "0ff7605f43fc913c7aca1618946b25155823ca7b2653636dbe781178a6c941c8"
+      "sha256": "cf2fd7d60af73224b915f4efdb55c66afd17539838e5b6251068d28594f2aaac"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "76ed2b9201e540b59fd1b48b0398f883336e89edf10411a49ce1412e7d4b237e"
+      "sha256": "bb05646e1ee528b584ca0e1001f6950d44beef84dd4056d04b417fbb84687be6"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 374,
-      "sha256": "677698be6541e65c7bfd63ccba88a802e0e97114e5efdf2cf956a86d6393f3ad"
+      "bytes": 375,
+      "sha256": "93c0add2a4472eb9772b7604094b1633d810fcafe418882bb38efaa36915f338"
     }
   ]
 }
