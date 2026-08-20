@@ -1,9 +1,9 @@
 {
-  "version": "v276",
+  "version": "v278",
   "date": "2026-08-20",
-  "note": "L’interface adopte une finition institutionnelle plus légère, plus lisible et mieux adaptée aux écrans ordinateur, tablette et téléphone.",
-  "label": "Finition esthétique institutionnelle",
+  "note": "Le tableau de bord place les indicateurs et alertes en priorité, replie les filtres, mémorise leur sélection et allège les cadres pour une lecture plus rapide.",
+  "label": "Tableau de bord calme et hiérarchisé",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T11:30:00.000Z"
+  "updated_at": "2026-08-20T11:43:42.000Z"
 }
