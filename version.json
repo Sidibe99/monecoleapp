@@ -1,9 +1,9 @@
 {
-  "version": "v280",
+  "version": "v281",
   "date": "2026-08-20",
-  "note": "Les mentions suivent le barème réel de chaque cycle, le bulletin affiche l'appréciation écrite par le professeur et le mot de la direction, et le tableau de bord sépare maternelle, primaire, collège et lycée.",
-  "label": "Mentions justes et appréciations réelles",
-  "scope": "client+database",
+  "note": "Les onglets de cycle forment un bloc titré au lieu d'un contrôle isolé, et la carte « Résultats scolaires » indique le cycle qu'elle affiche.",
+  "label": "Onglets de cycle identifiables",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T15:20:00.000Z"
+  "updated_at": "2026-08-20T17:45:00.000Z"
 }

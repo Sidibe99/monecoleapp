@@ -1,10 +1,10 @@
 {
-  "version": "v280",
-  "package_version": "1.0.280",
-  "label": "Mentions justes et appréciations réelles",
-  "created_at": "2026-08-20T17:12:13.661Z",
+  "version": "v281",
+  "package_version": "1.0.281",
+  "label": "Onglets de cycle identifiables",
+  "created_at": "2026-08-20T17:56:11.033Z",
   "files": 59,
-  "total_bytes": 10208601,
+  "total_bytes": 10210202,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,19 +92,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-CxFKc44a.js",
-      "bytes": 1022074,
-      "sha256": "5365fc3a0e5e8e862dfeeff1963ed9b8647c058adc9f68cd3030c2895ec035cc"
+      "file": "assets/index-DXEHg2T4.js",
+      "bytes": 1022682,
+      "sha256": "b14ab0895c670ccaf089a79e0170dc8190da668cfd1492324035389d46ec0b90"
     },
     {
-      "file": "assets/index-DXHSLww4.css",
-      "bytes": 265955,
-      "sha256": "1a17571fd9a102a748c3ada96ea892c83c39e7a60046ff840a97c87053362286"
+      "file": "assets/index-DjXXV23p.css",
+      "bytes": 266191,
+      "sha256": "769052c3e393caceefbdcede7ec77572f404ef9eadc64aae54e55741b92898f7"
     },
     {
-      "file": "assets/index-legacy-CMEbKvsk.js",
-      "bytes": 1403355,
-      "sha256": "8dd41c63be7bc37278bf5e8aa7d297741054f1c5dc0c928d23a963841f3367c1"
+      "file": "assets/index-legacy-DQB6ujN0.js",
+      "bytes": 1404201,
+      "sha256": "c4a96e0f3432422505c996a4281c236c1806a23dcfae3cb4307dd5335c8ac027"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "f93e55e028de074ec324bb414461ad7639f4d0e15e4c3734f28ed8bbc084888c"
+      "sha256": "ec7edb81ffcba09e8767a67d593da5aa697f6fc3232143ba4054d88d3ea5e8ac"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "d9f887cb49a8108ee92bcf4c72e19b9991e437b1790f268c20839286dc04843d"
+      "sha256": "f512c8e4014ea5f2f539d2d27778bbf979bf35735202a0391d3dbe90fdc7f6cd"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 434,
-      "sha256": "3a805dc88fe904095553b8acd91091f03326176f7501d81903e13a0c6d54a820"
+      "bytes": 345,
+      "sha256": "05e48c0eadb16c2cb412b4fae7954af284b0c6d47a8d3e7a2b46233e52596e66"
     }
   ]
 }
