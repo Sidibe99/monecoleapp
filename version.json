@@ -1,9 +1,9 @@
 {
-  "version": "v274",
+  "version": "v275",
   "date": "2026-08-20",
-  "note": "Les actions des professeurs et de la direction sont maintenant séparées dans les notes et les résultats, avec des contrôles Supabase qui bloquent les modifications et transitions non autorisées.",
-  "label": "Rôles des résultats sécurisés",
-  "scope": "client+database",
+  "note": "Les brouillons de notes restent chez les professeurs. La direction reçoit uniquement les fiches soumises, demande des corrections motivées et produit les bulletins à partir des fiches validées.",
+  "label": "Circuit notes et bulletins sécurisé",
+  "scope": "client+database+edge",
   "client_visible": true,
-  "updated_at": "2026-08-20T08:20:00.000Z"
+  "updated_at": "2026-08-20T10:30:00.000Z"
 }
