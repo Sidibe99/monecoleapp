@@ -1,9 +1,9 @@
 {
-  "version": "v281",
+  "version": "v282",
   "date": "2026-08-20",
-  "note": "Les onglets de cycle forment un bloc titré au lieu d'un contrôle isolé, et la carte « Résultats scolaires » indique le cycle qu'elle affiche.",
-  "label": "Onglets de cycle identifiables",
+  "note": "Une série entièrement à zéro n'est plus tracée comme une courbe, et la maternelle évaluée sans note parle d'appréciations et non de notes.",
+  "label": "Fin des graphiques vides",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T17:45:00.000Z"
+  "updated_at": "2026-08-20T18:30:00.000Z"
 }
