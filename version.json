@@ -1,9 +1,9 @@
 {
-  "version": "v275",
+  "version": "v276",
   "date": "2026-08-20",
-  "note": "Les brouillons de notes restent chez les professeurs. La direction reçoit uniquement les fiches soumises, demande des corrections motivées et produit les bulletins à partir des fiches validées.",
-  "label": "Circuit notes et bulletins sécurisé",
-  "scope": "client+database+edge",
+  "note": "L’interface adopte une finition institutionnelle plus légère, plus lisible et mieux adaptée aux écrans ordinateur, tablette et téléphone.",
+  "label": "Finition esthétique institutionnelle",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T10:30:00.000Z"
+  "updated_at": "2026-08-20T11:30:00.000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v275",
-  "package_version": "1.0.275",
-  "label": "Circuit notes et bulletins sécurisé",
-  "created_at": "2026-08-20T10:23:10.221Z",
+  "version": "v276",
+  "package_version": "1.0.276",
+  "label": "Finition esthétique institutionnelle",
+  "created_at": "2026-08-20T11:15:29.401Z",
   "files": 59,
-  "total_bytes": 10147970,
+  "total_bytes": 10173361,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,19 +92,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-CqKA6T5u.js",
-      "bytes": 1016002,
-      "sha256": "382f190f197ab74b02634ac3d903330cea589699bb367ad3c46628519a512697"
+      "file": "assets/index-BwVzUqxZ.js",
+      "bytes": 1016610,
+      "sha256": "8f8c7c91fbce4f3fc676ad3daf6f7d18600b07f70875bd62f42f86077b73cf7e"
     },
     {
-      "file": "assets/index-lPYJACVp.css",
-      "bytes": 243859,
-      "sha256": "8096e6b227d255d5370037bb26b88220eaa1392aefd18dda607435234950f9f7"
+      "file": "assets/index-DAeiLHZ3.css",
+      "bytes": 255814,
+      "sha256": "d712eb48392e8171bd52d94ff86c8a6da4bd346c008d1a4e2fac8be33bc548ad"
     },
     {
-      "file": "assets/index-legacy-CFng2UtI.js",
-      "bytes": 1374482,
-      "sha256": "6a82f13203ef4f43772072bf3ecd5f9f4fae5129030d88fada3cbb9d626af35a"
+      "file": "assets/index-legacy-CX-bQW3w.js",
+      "bytes": 1387046,
+      "sha256": "580c5e09d34488f00a79ec1bb62b37640e2f7f0427014190809e89179921290f"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -187,14 +187,14 @@
       "sha256": "4be5e04d8e977048d0e1c080ddce1563d8abbe2b427325cbad69c31d304b3049"
     },
     {
-      "file": "assets/monecole-results-DpuUBBAy.js",
-      "bytes": 19117,
-      "sha256": "08080b478798aea310cb80120ca24913318e5b735509b51020c20c148bdf5e3f"
+      "file": "assets/monecole-results-legacy-CvP__4Fm.js",
+      "bytes": 22648,
+      "sha256": "32df031a99d83e4bf20fedb0e83969f92cc9624f058667a7186bb74c3b6ad030"
     },
     {
-      "file": "assets/monecole-results-legacy-B2Y47Cmf.js",
-      "bytes": 22483,
-      "sha256": "f4fbf432fdeea906546f4be61042532261ff237461e5665d828d0ee16498c6d0"
+      "file": "assets/monecole-results-muruutGC.js",
+      "bytes": 19282,
+      "sha256": "01f234adc192df2dc0b9cb52bd147414c52856d4b77bbf56974b817f00e7c3ab"
     },
     {
       "file": "assets/monecole-search-PM5eD6TU.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "8047b9b47bba28091b120fd68a981b523a4005a65b60bfd9b9b4157548a39713"
+      "sha256": "ea00263b6c0f4c761c8ad0442de3f5130cd68b9e21cb4539503f5a8cbf1d2b84"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "682ad1d0484e94ca6acf03c673f5bd19a8efc6c47d5a7b432f40ab4dec279374"
+      "sha256": "b9cc5f1c0d9041bcd2663261edb33d8bc282b7b5038fb757579bd7cdeac16611"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 416,
-      "sha256": "83862849a99caad391559a323d4cbe93ba8d41b76bdcd800a5a5249a099fdfc7"
+      "bytes": 350,
+      "sha256": "f807a9c4548b7bb5e59592467168aaf0d2b2f2d3986c476a7e29d3b745bd058e"
     }
   ]
 }
