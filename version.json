@@ -1,9 +1,9 @@
 {
-  "version": "v279",
+  "version": "v280",
   "date": "2026-08-20",
-  "note": "Les cinq indicateurs du tableau de bord sont répartis en trois puis deux cartes équilibrées, avec une hauteur réduite et une adaptation au nombre réel d'indicateurs selon le rôle.",
-  "label": "Grille d’indicateurs équilibrée",
-  "scope": "client",
+  "note": "Les mentions suivent le barème réel de chaque cycle, le bulletin affiche l'appréciation écrite par le professeur et le mot de la direction, et le tableau de bord sépare maternelle, primaire, collège et lycée.",
+  "label": "Mentions justes et appréciations réelles",
+  "scope": "client+database",
   "client_visible": true,
-  "updated_at": "2026-08-20T13:10:00.000Z"
+  "updated_at": "2026-08-20T15:20:00.000Z"
 }
