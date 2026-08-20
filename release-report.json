@@ -1,10 +1,10 @@
 {
-  "version": "v270",
-  "package_version": "1.0.270",
-  "label": "Saisie des notes compacte",
-  "created_at": "2026-08-19T22:12:53.172Z",
-  "files": 55,
-  "total_bytes": 10067522,
+  "version": "v271",
+  "package_version": "1.0.271",
+  "label": "Validation des résultats scolaires",
+  "created_at": "2026-08-20T00:00:08.187Z",
+  "files": 59,
+  "total_bytes": 10110752,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,9 +92,9 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-DZikV2aJ.js",
-      "bytes": 1004214,
-      "sha256": "574a76442f1236f584ec2b46e490fca856975279c14bbb41a0b3e33bd4f9e377"
+      "file": "assets/index-IDisVP8i.js",
+      "bytes": 1017083,
+      "sha256": "76be23307dbc912c6cf0213f85997c6ca10d26b593425736b74e6c6983f093aa"
     },
     {
       "file": "assets/index-lPYJACVp.css",
@@ -102,9 +102,9 @@
       "sha256": "8096e6b227d255d5370037bb26b88220eaa1392aefd18dda607435234950f9f7"
     },
     {
-      "file": "assets/index-legacy-DhTMJCKk.js",
-      "bytes": 1360534,
-      "sha256": "528cbb1a71760a7cd1e83bbfc95379554153938c7efd14a45fbfeb989c86e272"
+      "file": "assets/index-legacy-5wh677w_.js",
+      "bytes": 1374497,
+      "sha256": "8dbf1b2590ffa4ee6334f91eecb787a18e84659af28817d1f80367d314dad38f"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -127,14 +127,14 @@
       "sha256": "e21cdb64ac3de326190eb5f23a62572197c8549967259123714f110f99df40c7"
     },
     {
-      "file": "assets/monecole-core-DOSrSXhF.js",
-      "bytes": 42983,
-      "sha256": "3134b470a8194c77059b99ea6b7e2425adced22143ea78c6b88e9b92678e3d84"
+      "file": "assets/monecole-core-CpiNkRlA.js",
+      "bytes": 43068,
+      "sha256": "186167675e3a2d80829d1167c31591929e165125667ff7a60bc7c59b208f1249"
     },
     {
-      "file": "assets/monecole-core-legacy-CN5GcsTl.js",
-      "bytes": 58434,
-      "sha256": "41cd5624701e9c303ef538db53a48ed123cf8ea79b71807a988fd2c482b49c3f"
+      "file": "assets/monecole-core-legacy-oJIAn_RP.js",
+      "bytes": 58519,
+      "sha256": "fbd42432274ea6cb8c33f175ec230bbffd99d540e9cc692c9d572d6beb4309ec"
     },
     {
       "file": "assets/monecole-dashboard-ui-Cn7gRgZ-.js",
@@ -145,6 +145,16 @@
       "file": "assets/monecole-dashboard-ui-legacy-1OZbH6mi.js",
       "bytes": 18891,
       "sha256": "424c0c721c005274220f5e8c4fe265af35ce77ac2dcbe16e51db68e1e1c14b72"
+    },
+    {
+      "file": "assets/monecole-documents-BtLZH3uY.js",
+      "bytes": 2844,
+      "sha256": "43dd3fb416922d631742b1cb40d11cca6653d7d295acbdc4043cefd7d89eea0b"
+    },
+    {
+      "file": "assets/monecole-documents-legacy-DmRG5MCL.js",
+      "bytes": 7139,
+      "sha256": "15eb69da6074a47a340f1aa8d3441712319e6f5cfe78ae7c967d36155e0def02"
     },
     {
       "file": "assets/monecole-monitoring-BC2ZQj_-.js",
@@ -175,6 +185,16 @@
       "file": "assets/monecole-offline-legacy-DnKttMKb.js",
       "bytes": 4627,
       "sha256": "4be5e04d8e977048d0e1c080ddce1563d8abbe2b427325cbad69c31d304b3049"
+    },
+    {
+      "file": "assets/monecole-results-DcFMMoKf.js",
+      "bytes": 2387,
+      "sha256": "3f34c16ea5f9e8bed56b40c5d6e96605e5b432775057921d720f274eee6be5bb"
+    },
+    {
+      "file": "assets/monecole-results-legacy-Cguj98CN.js",
+      "bytes": 3674,
+      "sha256": "6adc2d1bb6b4828b10a8606f29686003bf4a83a9c163ec0113a504fc01d3ad3b"
     },
     {
       "file": "assets/monecole-search-PM5eD6TU.js",
@@ -253,8 +273,8 @@
     },
     {
       "file": "index.html",
-      "bytes": 8703,
-      "sha256": "d8625ec7a87aaa039304d446d3d7fb27d4640b4a58ab1db7a4c821a0006e2d8c"
+      "bytes": 8881,
+      "sha256": "0ff7605f43fc913c7aca1618946b25155823ca7b2653636dbe781178a6c941c8"
     },
     {
       "file": "manifest.webmanifest",
@@ -269,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "585fb4082e7d86507e97b53182cec21974c6b4fa8f0a0d59f181e692650540a5"
+      "sha256": "76ed2b9201e540b59fd1b48b0398f883336e89edf10411a49ce1412e7d4b237e"
     },
     {
       "file": "v.html",
@@ -278,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 368,
-      "sha256": "15fc0c6ea7f06a722161ca998d2cf349cd434f6f39420d89595d804edee96d74"
+      "bytes": 374,
+      "sha256": "677698be6541e65c7bfd63ccba88a802e0e97114e5efdf2cf956a86d6393f3ad"
     }
   ]
 }

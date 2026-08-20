@@ -1,9 +1,9 @@
 {
-  "version": "v270",
+  "version": "v271",
   "date": "2026-08-19",
-  "note": "La zone d’enregistrement de la saisie des notes est compactée sur une ligne tout en conservant les états de brouillon, le choix de couleur et le bouton d’enregistrement.",
-  "label": "Saisie des notes compacte",
-  "scope": "client",
+  "note": "Les fiches de notes sont soumises par les professeurs puis validées par la direction avant la publication des bulletins individuels et des résultats collectifs.",
+  "label": "Validation des résultats scolaires",
+  "scope": "client+database",
   "client_visible": true,
-  "updated_at": "2026-08-19T22:03:58.000Z"
+  "updated_at": "2026-08-19T23:30:00.000Z"
 }
