@@ -1,10 +1,10 @@
 {
-  "version": "v299",
-  "package_version": "1.0.299",
-  "label": "Couleurs de marque sans double sens",
-  "created_at": "2026-08-21T16:28:28.477Z",
+  "version": "v301",
+  "package_version": "1.0.301",
+  "label": "Cinq actions rapides qui agissent vraiment",
+  "created_at": "2026-08-21T17:16:55.140Z",
   "files": 59,
-  "total_bytes": 10251686,
+  "total_bytes": 10251980,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,9 +92,9 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-BgnuX6ka.js",
-      "bytes": 1024327,
-      "sha256": "23ff466936847f24da8278ad2cd5566d2469c85c27b308bfea2a4a5d47165862"
+      "file": "assets/index-C6eh_6Vr.js",
+      "bytes": 1024494,
+      "sha256": "6a318f902310dd20f3fe01c74e04c7507a25e0b5242f65dfd44133df6c14bb27"
     },
     {
       "file": "assets/index-D6162dL6.css",
@@ -102,9 +102,9 @@
       "sha256": "b3ccef5f0d0542fce0f3b61831f16c6e9264f86e715b2c9e7ac25251ec8d3663"
     },
     {
-      "file": "assets/index-legacy-BSltZp1X.js",
-      "bytes": 1420924,
-      "sha256": "731f0c2afc5ec56b317a24289b6a3f068598bf0e71135f28a47858cf91d0f746"
+      "file": "assets/index-legacy-BDfqWjFO.js",
+      "bytes": 1421093,
+      "sha256": "faeeb05ee069915b67075542a600ae9c3c019a613aee3e9598a66e0a85b35b24"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "ae88d09aca1ed6699d8cf9ef53e33992af61808c1369279f1e650ec272197447"
+      "sha256": "2c40322d4207d42704fbc271ce559e06dbaa0be3c5a04a0c64e48c84fa5a1b58"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "3fa96a1ab4bd8b7a93b7d1582239f6951b410da8d993b899b299e8b1d5ca662b"
+      "sha256": "b4c3863ed3794035deb3d72f714c0ff528d8b26b5b5b4f37b2d47ab4308acad8"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 379,
-      "sha256": "a98803f1d374853e403c193d271378b952dca8a6263848c57ed7d0914280d4ce"
+      "bytes": 337,
+      "sha256": "9f58733e078d906851a96294746e64945631172c4f795c0444bafaed51401d61"
     }
   ]
 }

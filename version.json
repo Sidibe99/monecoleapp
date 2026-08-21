@@ -1,9 +1,9 @@
 {
-  "version": "v299",
+  "version": "v301",
   "date": "2026-08-21",
-  "note": "Rubis valait exactement la couleur d'erreur et Ambre celle d'attention : un bouton d'action principale avait l'allure d'un avertissement. Émeraude et Vert étaient identiques.",
-  "label": "Couleurs de marque sans double sens",
+  "note": "« Créer un emploi du temps » ouvre désormais le formulaire de créneau au lieu de déposer l'utilisateur devant une grille.",
+  "label": "Cinq actions rapides qui agissent vraiment",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T06:30:00.000Z"
+  "updated_at": "2026-08-21T08:00:00.000Z"
 }
