@@ -1,9 +1,9 @@
 {
-  "version": "v301",
+  "version": "v302",
   "date": "2026-08-21",
-  "note": "« Créer un emploi du temps » ouvre désormais le formulaire de créneau au lieu de déposer l'utilisateur devant une grille.",
-  "label": "Cinq actions rapides qui agissent vraiment",
+  "note": "Une bande vide de 13 % restait à droite de l'écran sur téléphone : la compensation du zoom se calculait sur le conteneur parent au lieu de l'écran.",
+  "label": "Plein écran retrouvé sur téléphone",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T08:00:00.000Z"
+  "updated_at": "2026-08-21T09:00:00.000Z"
 }
