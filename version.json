@@ -1,9 +1,9 @@
 {
-  "version": "v287",
+  "version": "v288",
   "date": "2026-08-21",
-  "note": "Une coupure passagère ne laisse plus un bandeau d'erreur pour toute la session, et la tuile « Montant restant » cesse de s'afficher en rouge quand rien n'est en retard.",
-  "label": "Analyses plus robustes",
+  "note": "Le tableau de bord renouvelle la session et réessaie automatiquement les analyses tout en conservant les graphiques locaux visibles sans alerte rouge bloquante.",
+  "label": "Reconnexion automatique des analyses",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T00:10:00.000Z"
+  "updated_at": "2026-08-21T00:28:34.000Z"
 }
