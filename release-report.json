@@ -1,10 +1,10 @@
 {
-  "version": "v309",
-  "package_version": "1.0.309",
-  "label": "Matrice responsive complète de 320 à 1920 px",
-  "created_at": "2026-08-21T22:35:36.404Z",
+  "version": "v310",
+  "package_version": "1.0.310",
+  "label": "Menu entièrement visible à la première ouverture",
+  "created_at": "2026-08-21T23:11:07.502Z",
   "files": 59,
-  "total_bytes": 10259382,
+  "total_bytes": 10259162,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,14 +52,14 @@
       "sha256": "92296c2afe553741848e721ca987325d4270783dd06255e82b96c2e04c7e9926"
     },
     {
-      "file": "assets/SidebarNavigation-BMBo_UtS.js",
-      "bytes": 6952,
-      "sha256": "7a7ab8c40111b7e21ecfd5c9680e68c1804dcf6d79d45671502493e20039754b"
+      "file": "assets/SidebarNavigation--sdWm46K.js",
+      "bytes": 6875,
+      "sha256": "a02b6118244d0a79f701750b9086310d85bb1886393f7762bc57049274fbe5eb"
     },
     {
-      "file": "assets/SidebarNavigation-legacy-B20ls7FF.js",
-      "bytes": 9806,
-      "sha256": "59472972e477de6467969858171856f585acb695372e059cc4f440c79b44543e"
+      "file": "assets/SidebarNavigation-legacy-gOxmnZsY.js",
+      "bytes": 9698,
+      "sha256": "846bd62c32ed8bec9ab9c3e2c5f43119f073df254110d9fb1159554877c90176"
     },
     {
       "file": "assets/dashboard-finance-export-legacy-Cqf_bHnY.js",
@@ -97,14 +97,14 @@
       "sha256": "346858c5874f214a7a7e4d06d326d6ceac84fc7c9fee494de6082820a1073f32"
     },
     {
-      "file": "assets/index-BSb6U8Ls.js",
+      "file": "assets/index-Dsr0UqdP.js",
       "bytes": 1025665,
-      "sha256": "5d0e2137a61ab00893d0ab9d2cfff43088f5e630ed82cc08aa8714d855daf48f"
+      "sha256": "1bb06f17594c9a8a5f98c15141eee94f8ae4acccf576af7055956cdd5ce9df86"
     },
     {
-      "file": "assets/index-legacy-DDhAU44W.js",
+      "file": "assets/index-legacy-DZ8-XAqo.js",
       "bytes": 1424788,
-      "sha256": "108c7ae0f690bafede7765cd00271067ddea7d36c56275fe926f43a2c86dc9a9"
+      "sha256": "eb62da7aacd45faa29a993f21d3cc58cce57838dfe8e34ab231caafe29d613d9"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "7ca0b943932aefe5f9e29e49f6cee40cdf36fe3a39706c3e78cae5a9670c4d63"
+      "sha256": "3116c125bcb16b603666587f6efea52c15a7ae752302d89d9f08d44184778555"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "e54dc5da4f09530a75c8e1999f1aaf8f87c9510776542f7a7e7e4b5a282b82f4"
+      "sha256": "f667614f33db702755dd32f413ed253fe02c5c3973338b51ed9158ec85781de9"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 387,
-      "sha256": "8ccebb327d8965161343448eb84313bc895ef1c675e87e54ad51de55dd569b24"
+      "bytes": 352,
+      "sha256": "57dd20906fa79390a93d4e7a689227b0108a92516daa2d9c0622de09331f1e01"
     }
   ]
 }

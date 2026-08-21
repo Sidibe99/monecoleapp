@@ -1,9 +1,9 @@
 {
-  "version": "v309",
+  "version": "v310",
   "date": "2026-08-21",
-  "note": "La matrice responsive couvre désormais les largeurs CSS courantes de 320 à 1920 px et les cinq étapes d'inscription tiennent sans défilement sur les petits téléphones.",
-  "label": "Matrice responsive complète de 320 à 1920 px",
+  "note": "Les quatre groupes de la barre latérale sont dépliés à la première ouverture : douze entrées sur dix-sept restaient invisibles.",
+  "label": "Menu entièrement visible à la première ouverture",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T22:10:00.000Z"
+  "updated_at": "2026-08-21T22:30:00.000Z"
 }
