@@ -1,9 +1,9 @@
 {
-  "version": "v290",
+  "version": "v291",
   "date": "2026-08-21",
-  "note": "« Moyenne par classe » passe en barres horizontales : les noms de classes se chevauchaient et se faisaient tronquer sur un axe du bas.",
-  "label": "Comparaison des classes lisible",
-  "scope": "client",
+  "note": "Chaque école choisit son mois de rentrée. Les inscriptions encaissées avant la rentrée comptent désormais pour l'année qui commence.",
+  "label": "Mois de rentrée réglable",
+  "scope": "client+database",
   "client_visible": true,
-  "updated_at": "2026-08-21T01:10:00.000Z"
+  "updated_at": "2026-08-21T02:00:00.000Z"
 }
