@@ -1,9 +1,9 @@
 {
-  "version": "v304",
+  "version": "v308",
   "date": "2026-08-21",
-  "note": "Les actions rapides se réduisent à leurs icônes sur téléphone, et six règles de modales tiennent enfin compte du zoom d'interface.",
-  "label": "Téléphone : icônes seules et modales à la bonne taille",
+  "note": "Sur ordinateur, les libellés des actions rapides se repliaient sur quatre lignes : le texte était traité comme une pastille d'icône.",
+  "label": "Libellés des actions rapides rétablis",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T11:00:00.000Z"
+  "updated_at": "2026-08-21T21:30:00.000Z"
 }
