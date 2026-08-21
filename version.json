@@ -1,9 +1,9 @@
 {
-  "version": "v310",
+  "version": "v311",
   "date": "2026-08-21",
-  "note": "Les quatre groupes de la barre latérale sont dépliés à la première ouverture : douze entrées sur dix-sept restaient invisibles.",
-  "label": "Menu entièrement visible à la première ouverture",
+  "note": "L'onglet Dépenses était réservé aux formules Standard et Premium, et disparaissait sans explication pour les autres.",
+  "label": "Dépenses accessibles à toutes les écoles",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T22:30:00.000Z"
+  "updated_at": "2026-08-21T23:45:00.000Z"
 }
