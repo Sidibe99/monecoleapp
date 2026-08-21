@@ -1,10 +1,10 @@
 {
-  "version": "v286",
-  "package_version": "1.0.286",
-  "label": "Le tableau de bord respire",
-  "created_at": "2026-08-20T22:46:30.437Z",
+  "version": "v287",
+  "package_version": "1.0.287",
+  "label": "Analyses plus robustes",
+  "created_at": "2026-08-21T00:09:02.932Z",
   "files": 59,
-  "total_bytes": 10217072,
+  "total_bytes": 10217307,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -97,14 +97,14 @@
       "sha256": "7ccb865ddbc206655bdb8ff91073b0ae75fd0344a5f9e9895eb1504d4cdfe72a"
     },
     {
-      "file": "assets/index-CoEAZ7_h.js",
-      "bytes": 1024079,
-      "sha256": "a8edfec3789d7037fab1fed56ac53eca770459b59496ddf56f8853f0015d5f91"
+      "file": "assets/index-BfiCDJBQ.js",
+      "bytes": 1024208,
+      "sha256": "8cc5f7dd48ec13278495bda74164622a6bdd56e5a95557755fa0cb19c5c3ccce"
     },
     {
-      "file": "assets/index-legacy-D_b2JTNJ.js",
-      "bytes": 1406715,
-      "sha256": "007e46cfe2f6ebf84216148298735d3428d99c359758c8c60ef70fc95f30dcd5"
+      "file": "assets/index-legacy-ZGEuemkP.js",
+      "bytes": 1406834,
+      "sha256": "65b8724c829f646103ec3245beff75696770efbbf068c0f8c1d11a9482ec7ad5"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "ada4647add7487c6f2f4f560b395668ca4b793b6d1e13564789d610bf5cc34ce"
+      "sha256": "6e6bb04bee0d80b53c530f79dd0f5b31640a4969a2f28d977a070e0a7c9ce80a"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "205aa3f181c86820e14e91cb04d8f87633b82a244f86d7bae7475e8c8eb51840"
+      "sha256": "0d153c6ade4b9d3718a3bd336198f63de443752e91a20f1b1f5acf2cd65152b7"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 374,
-      "sha256": "c370db767dcd20c82090c64416baf396e1c7ec5631424e3cef8b8d4da314fdd1"
+      "bytes": 361,
+      "sha256": "e346adcaf448b5cbff2f58309b0d983b2330727511d77fe15488b1af0d061618"
     }
   ]
 }

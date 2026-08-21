@@ -1,9 +1,9 @@
 {
-  "version": "v286",
-  "date": "2026-08-20",
-  "note": "Moins de bruit : le bandeau sans information disparaît, six encadrés vides deviennent une phrase, le rouge est réservé aux vrais retards et le texte secondaire devient lisible.",
-  "label": "Le tableau de bord respire",
+  "version": "v287",
+  "date": "2026-08-21",
+  "note": "Une coupure passagère ne laisse plus un bandeau d'erreur pour toute la session, et la tuile « Montant restant » cesse de s'afficher en rouge quand rien n'est en retard.",
+  "label": "Analyses plus robustes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-20T22:40:00.000Z"
+  "updated_at": "2026-08-21T00:10:00.000Z"
 }
