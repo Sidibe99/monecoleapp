@@ -1,9 +1,9 @@
 {
-  "version": "v302",
+  "version": "v304",
   "date": "2026-08-21",
-  "note": "Une bande vide de 13 % restait à droite de l'écran sur téléphone : la compensation du zoom se calculait sur le conteneur parent au lieu de l'écran.",
-  "label": "Plein écran retrouvé sur téléphone",
+  "note": "Les actions rapides se réduisent à leurs icônes sur téléphone, et six règles de modales tiennent enfin compte du zoom d'interface.",
+  "label": "Téléphone : icônes seules et modales à la bonne taille",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T09:00:00.000Z"
+  "updated_at": "2026-08-21T11:00:00.000Z"
 }

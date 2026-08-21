@@ -1,10 +1,10 @@
 {
-  "version": "v302",
-  "package_version": "1.0.302",
-  "label": "Plein écran retrouvé sur téléphone",
-  "created_at": "2026-08-21T17:44:02.963Z",
+  "version": "v304",
+  "package_version": "1.0.304",
+  "label": "Téléphone : icônes seules et modales à la bonne taille",
+  "created_at": "2026-08-21T19:11:01.950Z",
   "files": 59,
-  "total_bytes": 10252467,
+  "total_bytes": 10254395,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,19 +92,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-BdcS-EQG.js",
-      "bytes": 1024739,
-      "sha256": "bd7f8917f339b9079426fed62576750ca9303494f6e31e94833952947d17d8bd"
+      "file": "assets/index-Cq20izRN.js",
+      "bytes": 1024844,
+      "sha256": "15418595e0fddcc505f0e3db2689e504baec35c0a6465423ce61e48c545fe05a"
     },
     {
-      "file": "assets/index-D6162dL6.css",
-      "bytes": 280487,
-      "sha256": "b3ccef5f0d0542fce0f3b61831f16c6e9264f86e715b2c9e7ac25251ec8d3663"
+      "file": "assets/index-D07kTDWI.css",
+      "bytes": 281344,
+      "sha256": "477e25f526b4753859b2e87868e489303f27c3132570bae2d2a193f09a688b01"
     },
     {
-      "file": "assets/index-legacy-Cr2w6ff0.js",
-      "bytes": 1421312,
-      "sha256": "3073af3e788de65e20106a633cd2798bd72ef4485a7fbb1abdb3a229240af765"
+      "file": "assets/index-legacy-Cdq0lAPv.js",
+      "bytes": 1422274,
+      "sha256": "6cfa36b53e5cdaed65becc9af790e5e39001450879a593a57235f888d4271fb6"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "4174fefca2b792ac5155448c4c4d7ba617b4a8452b356fea4b3a6f1b817f3809"
+      "sha256": "f502de3a722048bdffc1b5d3152a126b2b388bb2e0d930e3921cdf1f30ebf57d"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "bc02885017578b7eb82c79a58bd471f218ea4b9e80d77ffddc6eeca08e9763b8"
+      "sha256": "a14ac4d2572d3bc4e40e7ad56a5c50f7de14a22a33a8c540081c367e43c9ba54"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 358,
-      "sha256": "50b2310bbb6920cacbc90a08ba7ae1ed6c9b532ca724f279615e85a61c76688d"
+      "bytes": 362,
+      "sha256": "670b4f35b22dad32a3a525f38c974bd583e101dbc59674f4d8ca4fc88c8c44d4"
     }
   ]
 }
