@@ -1,9 +1,9 @@
 {
-  "version": "v288",
+  "version": "v290",
   "date": "2026-08-21",
-  "note": "Le tableau de bord renouvelle la session et réessaie automatiquement les analyses tout en conservant les graphiques locaux visibles sans alerte rouge bloquante.",
-  "label": "Reconnexion automatique des analyses",
+  "note": "« Moyenne par classe » passe en barres horizontales : les noms de classes se chevauchaient et se faisaient tronquer sur un axe du bas.",
+  "label": "Comparaison des classes lisible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T00:28:34.000Z"
+  "updated_at": "2026-08-21T01:10:00.000Z"
 }
