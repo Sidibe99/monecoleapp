@@ -1,9 +1,9 @@
 {
-  "version": "v295",
+  "version": "v296",
   "date": "2026-08-21",
-  "note": "Les explications secondaires deviennent des aides contextuelles accessibles au survol, au clavier et au toucher ; les répétitions inutiles sont retirées.",
-  "label": "Aides contextuelles",
+  "note": "Les aides sont plus discrètes et les sept thèmes gagnent en contraste, cohérence et lisibilité sur tous les écrans.",
+  "label": "Thèmes harmonisés",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T03:30:00.000Z"
+  "updated_at": "2026-08-21T10:30:00.000Z"
 }
