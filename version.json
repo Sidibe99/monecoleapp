@@ -1,8 +1,8 @@
 {
-  "version": "v294",
+  "version": "v295",
   "date": "2026-08-21",
-  "note": "La seconde couleur passe du doré au turquoise : la seule teinte que les mentions et les cycles n'occupent pas, claire et lisible sur tous les fonds.",
-  "label": "Accent turquoise",
+  "note": "Les explications secondaires deviennent des aides contextuelles accessibles au survol, au clavier et au toucher ; les répétitions inutiles sont retirées.",
+  "label": "Aides contextuelles",
   "scope": "client",
   "client_visible": true,
   "updated_at": "2026-08-21T03:30:00.000Z"
