@@ -1,10 +1,10 @@
 {
-  "version": "v292",
-  "package_version": "1.0.292",
-  "label": "Début d'année scolaire clarifié",
-  "created_at": "2026-08-21T01:39:19.837Z",
+  "version": "v293",
+  "package_version": "1.0.293",
+  "label": "Mensualités cohérentes",
+  "created_at": "2026-08-21T01:45:19.657Z",
   "files": 59,
-  "total_bytes": 10240561,
+  "total_bytes": 10240956,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -97,14 +97,14 @@
       "sha256": "483bf2b95455e54fbbdca81f56e8539e33608f0ae30a34e49abb08da52141e8b"
     },
     {
-      "file": "assets/index-legacy-QyZbQtK1.js",
-      "bytes": 1416646,
-      "sha256": "0cb3ff839e0116c22ff2d0f34c29b127e7b54ffc13749fad3d8cf8843a65c7be"
+      "file": "assets/index-legacy-B04zOGft.js",
+      "bytes": 1416435,
+      "sha256": "7705acc388bcb9c7f4fe4472931059197fc27897e50482e28030eed4fc8997a0"
     },
     {
-      "file": "assets/index-yXpnVHyM.js",
-      "bytes": 1026312,
-      "sha256": "af4cb5eaaf7ba2ea96e8359720fc7f7c3f8fd458107997fd01eaa7dd3308c4cd"
+      "file": "assets/index-z8qknR0j.js",
+      "bytes": 1026088,
+      "sha256": "0021edc53c711868424c366d4fd3c0a9692efc6f92c2eb4779d9b9200131fb4e"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -127,14 +127,14 @@
       "sha256": "e21cdb64ac3de326190eb5f23a62572197c8549967259123714f110f99df40c7"
     },
     {
-      "file": "assets/monecole-core-DNa5jZEj.js",
-      "bytes": 45682,
-      "sha256": "d82dec826d3487dea9845730d1a516269632d9dd23b75f360e0a8545f8f05ce6"
+      "file": "assets/monecole-core-Ck4B1mc4.js",
+      "bytes": 46056,
+      "sha256": "c9f00d0be759886aee458cd5cff9ee453a5651b48427f34906958de68c0accd2"
     },
     {
-      "file": "assets/monecole-core-legacy-n-Rll5mk.js",
-      "bytes": 61838,
-      "sha256": "eff3b843dcd0fa71c29eda6ec7b6f71ef0e51783214e7ac2d7b57df3d10876d1"
+      "file": "assets/monecole-core-legacy-CPIBZNB6.js",
+      "bytes": 62324,
+      "sha256": "124037f9e785d39b6dc9eac21ddb498bef8d11a86ea111f20854965b8d894109"
     },
     {
       "file": "assets/monecole-dashboard-ui-BQHiz8nZ.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "0f827fa025aacbb494b2b563c14f3962bd8c3d73a860462c4300d9abfb21c7e5"
+      "sha256": "0ebc9b36266a04dde8f67206524d97099fe494e9a197cdd3b6517edbf0eea09e"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "7af99b66af658e0dedfdbb343b200eef592c85c8f777312b2c5ee51829993d4f"
+      "sha256": "23f54cc51be206f4d146be980711d25cad8947b028a72edfb1252258597b33a4"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 369,
-      "sha256": "75f079c571e4b26d11e050b2ebed00c0a67c9643f65a40942fccce17c2327c48"
+      "bytes": 339,
+      "sha256": "86dc9ea9f220bc8ea427040460a2257060e8675224ff222da45f54eebfd305d7"
     }
   ]
 }

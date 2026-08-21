@@ -1,9 +1,9 @@
 {
-  "version": "v292",
+  "version": "v293",
   "date": "2026-08-21",
-  "note": "Le réglage s'appelle « Début de l'année scolaire » et explique qu'il faut choisir le mois où l'on commence à encaisser, même si les cours démarrent plus tard.",
-  "label": "Début d'année scolaire clarifié",
+  "note": "La mensualité affichée, la validation de l'encaissement, les reçus, les relances et les retards utilisent désormais exactement le même calcul.",
+  "label": "Mensualités cohérentes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T02:30:00.000Z"
+  "updated_at": "2026-08-21T02:45:00.000Z"
 }
