@@ -1,9 +1,9 @@
 {
-  "version": "v308",
+  "version": "v309",
   "date": "2026-08-21",
-  "note": "Sur ordinateur, les libellés des actions rapides se repliaient sur quatre lignes : le texte était traité comme une pastille d'icône.",
-  "label": "Libellés des actions rapides rétablis",
+  "note": "La matrice responsive couvre désormais les largeurs CSS courantes de 320 à 1920 px et les cinq étapes d'inscription tiennent sans défilement sur les petits téléphones.",
+  "label": "Matrice responsive complète de 320 à 1920 px",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T21:30:00.000Z"
+  "updated_at": "2026-08-21T22:10:00.000Z"
 }

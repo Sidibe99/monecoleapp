@@ -1,10 +1,10 @@
 {
-  "version": "v308",
-  "package_version": "1.0.308",
-  "label": "Libellés des actions rapides rétablis",
-  "created_at": "2026-08-21T21:37:17.459Z",
+  "version": "v309",
+  "package_version": "1.0.309",
+  "label": "Matrice responsive complète de 320 à 1920 px",
+  "created_at": "2026-08-21T22:35:36.404Z",
   "files": 59,
-  "total_bytes": 10259338,
+  "total_bytes": 10259382,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "c14c2635f064dbd9e695720c671edc9d30243c73216f27a15c91abf1d01987e9"
+      "sha256": "7ca0b943932aefe5f9e29e49f6cee40cdf36fe3a39706c3e78cae5a9670c4d63"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "28945fff12b4d06d77d8483e27bcf70f971fb57e4f9fe83e1449051e894d2e52"
+      "sha256": "e54dc5da4f09530a75c8e1999f1aaf8f87c9510776542f7a7e7e4b5a282b82f4"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 343,
-      "sha256": "b5f49b6ca608cd6bafe9f4bc6f8637d8108d894669da9697f08bb19820aea349"
+      "bytes": 387,
+      "sha256": "8ccebb327d8965161343448eb84313bc895ef1c675e87e54ad51de55dd569b24"
     }
   ]
 }
