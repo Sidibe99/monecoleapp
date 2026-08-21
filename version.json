@@ -1,9 +1,9 @@
 {
-  "version": "v291",
+  "version": "v292",
   "date": "2026-08-21",
-  "note": "Chaque école choisit son mois de rentrée. Les inscriptions encaissées avant la rentrée comptent désormais pour l'année qui commence.",
-  "label": "Mois de rentrée réglable",
-  "scope": "client+database",
+  "note": "Le réglage s'appelle « Début de l'année scolaire » et explique qu'il faut choisir le mois où l'on commence à encaisser, même si les cours démarrent plus tard.",
+  "label": "Début d'année scolaire clarifié",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T02:00:00.000Z"
+  "updated_at": "2026-08-21T02:30:00.000Z"
 }

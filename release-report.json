@@ -1,10 +1,10 @@
 {
-  "version": "v291",
-  "package_version": "1.0.291",
-  "label": "Mois de rentrée réglable",
-  "created_at": "2026-08-21T01:28:51.292Z",
+  "version": "v292",
+  "package_version": "1.0.292",
+  "label": "Début d'année scolaire clarifié",
+  "created_at": "2026-08-21T01:39:19.837Z",
   "files": 59,
-  "total_bytes": 10239855,
+  "total_bytes": 10240561,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,19 +92,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-C8MaR3OY.js",
-      "bytes": 1025973,
-      "sha256": "6d510ee0e500be06268eb32d3b4b80a9044ca13079d809eb1f2926f8a94e8648"
-    },
-    {
       "file": "assets/index-DQVQ5Vma.css",
       "bytes": 274243,
       "sha256": "483bf2b95455e54fbbdca81f56e8539e33608f0ae30a34e49abb08da52141e8b"
     },
     {
-      "file": "assets/index-legacy-w965IocZ.js",
-      "bytes": 1416307,
-      "sha256": "f14617c0cf4182655bd5f1779eb4ab78927ce4b81ca67d29f444acc469d5ea0f"
+      "file": "assets/index-legacy-QyZbQtK1.js",
+      "bytes": 1416646,
+      "sha256": "0cb3ff839e0116c22ff2d0f34c29b127e7b54ffc13749fad3d8cf8843a65c7be"
+    },
+    {
+      "file": "assets/index-yXpnVHyM.js",
+      "bytes": 1026312,
+      "sha256": "af4cb5eaaf7ba2ea96e8359720fc7f7c3f8fd458107997fd01eaa7dd3308c4cd"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "d8e59d189918b026a6d0ba2e902301141eef265d04812d6a0229e3a24b96a6ca"
+      "sha256": "0f827fa025aacbb494b2b563c14f3962bd8c3d73a860462c4300d9abfb21c7e5"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "2d12b8301b2cc3a49ae8fe81ff6f6444f88d1f8862a5c04f4e2029a1f027c6bb"
+      "sha256": "7af99b66af658e0dedfdbb343b200eef592c85c8f777312b2c5ee51829993d4f"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 341,
-      "sha256": "03d8f3751453c29380fc363b6942a08be7c85aeeecb85ed1b91d76632477e0a9"
+      "bytes": 369,
+      "sha256": "75f079c571e4b26d11e050b2ebed00c0a67c9643f65a40942fccce17c2327c48"
     }
   ]
 }
