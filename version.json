@@ -1,9 +1,9 @@
 {
-  "version": "v298",
+  "version": "v299",
   "date": "2026-08-21",
-  "note": "Une série de moins de trois relevés n'est plus tracée comme une courbe : elle devient une ligne qui dit combien de relevés existent. Le bloc des tendances passe de 425 à 301 pixels.",
-  "label": "Tendances sans courbes trompeuses",
+  "note": "Rubis valait exactement la couleur d'erreur et Ambre celle d'attention : un bouton d'action principale avait l'allure d'un avertissement. Émeraude et Vert étaient identiques.",
+  "label": "Couleurs de marque sans double sens",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-21T05:30:00.000Z"
+  "updated_at": "2026-08-21T06:30:00.000Z"
 }
