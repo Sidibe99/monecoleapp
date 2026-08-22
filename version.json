@@ -1,9 +1,9 @@
 {
-  "version": "v327",
+  "version": "v328",
   "date": "2026-08-22",
-  "note": "Le titre de page redevient « Résultats scolaires » ; le nom de l'onglet passe en sous-titre.",
-  "label": "Titres remis en ordre",
+  "note": "Les boutons Exporter et Passage de fin d’année sont de nouveau visibles directement dans l’en-tête de la page Classes.",
+  "label": "Actions Classes restaurées",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T19:00:00.000Z"
+  "updated_at": "2026-08-22T20:05:23.000Z"
 }
