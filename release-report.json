@@ -1,10 +1,10 @@
 {
-  "version": "v323",
-  "package_version": "1.0.323",
-  "label": "Lisibilité des blocs",
-  "created_at": "2026-08-22T17:17:46.603Z",
+  "version": "v324",
+  "package_version": "1.0.324",
+  "label": "Repère actif épuré",
+  "created_at": "2026-08-22T17:34:31.692Z",
   "files": 59,
-  "total_bytes": 10295194,
+  "total_bytes": 10294894,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,19 +92,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-GYXcMfMc.js",
+      "file": "assets/index-BIIOoSQe.css",
+      "bytes": 288529,
+      "sha256": "1ea397e7dcd17ec56c2f45b8b472d0c133722ffd5c323bea96108cbbd6106a41"
+    },
+    {
+      "file": "assets/index-BryCfzkB.js",
       "bytes": 1028722,
       "sha256": "7894ce205d53d04b920f837204a81fd408b57e73089e9c17447772a0cac3bb01"
     },
     {
-      "file": "assets/index-i5lBNu9v.css",
-      "bytes": 288669,
-      "sha256": "40a233f6b35eaacfbe2ec776e592c0ed29e68cfb2a2e179fa902968e7f16dd37"
-    },
-    {
-      "file": "assets/index-legacy-ChJyGobr.js",
-      "bytes": 1434975,
-      "sha256": "2ddcd0c488aef74761334a9775109196eb3df0a81ce9b29d749aa446eab35e4e"
+      "file": "assets/index-legacy-BQ0xXGlz.js",
+      "bytes": 1434835,
+      "sha256": "f8a6c5a31865e2ca6ea9c808faff5e9f3904757fa2b01a871d22af61f6e39a9d"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "37bb1d959ac33c847567740825402ec89d37764de1f4009331a6977a4c9c84ad"
+      "sha256": "19de9f11c8a5d8a4fe3771dfa79253a49cf89ade720d9fcf50938d019def5b74"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "d8f9af0f37851d926080fa7a96a360dc6aa7825fbaa25a8cb7c7c4bd7a2679dd"
+      "sha256": "d5e1bf221178dc73d5a59fc6e4b08d50c393f0c77c5a76c07643b51c57eedd54"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 275,
-      "sha256": "e918c0e4912b6c4c66ea4d760040d1a9074d0138dc9c13c66d656d23084e0bfa"
+      "bytes": 255,
+      "sha256": "8b63f9560ce26841c9731b1a08297b14e456c80fdae7c01dbdba7d701f2ae986"
     }
   ]
 }
