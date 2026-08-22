@@ -1,9 +1,9 @@
 {
-  "version": "v328",
+  "version": "v329",
   "date": "2026-08-22",
-  "note": "Les boutons Exporter et Passage de fin d’année sont de nouveau visibles directement dans l’en-tête de la page Classes.",
-  "label": "Actions Classes restaurées",
+  "note": "Le versement demande la classe et l'élève ; la messagerie devient lisible sur téléphone.",
+  "label": "Versement et messagerie",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T20:05:23.000Z"
+  "updated_at": "2026-08-22T20:20:00.000Z"
 }
