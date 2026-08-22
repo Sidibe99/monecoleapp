@@ -1,9 +1,9 @@
 {
-  "version": "v329",
+  "version": "v330",
   "date": "2026-08-22",
-  "note": "Le versement demande la classe et l'élève ; la messagerie devient lisible sur téléphone.",
-  "label": "Versement et messagerie",
+  "note": "Relances financières allégées, en-têtes de fenêtre visibles sur téléphone, jours colorés et impression des emplois du temps par cycle.",
+  "label": "Emploi du temps par cycle",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T20:20:00.000Z"
+  "updated_at": "2026-08-22T22:10:00.000Z"
 }
