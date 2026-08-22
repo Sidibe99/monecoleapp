@@ -1,9 +1,9 @@
 {
-  "version": "v326",
+  "version": "v327",
   "date": "2026-08-22",
-  "note": "Les onglets inactifs redeviennent des boutons et l'écran de validation reçoit son aide.",
-  "label": "Onglets cliquables",
+  "note": "Le titre de page redevient « Résultats scolaires » ; le nom de l'onglet passe en sous-titre.",
+  "label": "Titres remis en ordre",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T18:40:00.000Z"
+  "updated_at": "2026-08-22T19:00:00.000Z"
 }
