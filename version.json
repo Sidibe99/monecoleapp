@@ -1,9 +1,9 @@
 {
-  "version": "v319",
+  "version": "v320",
   "date": "2026-08-22",
-  "note": "Les en-têtes de page et les pastilles des cartes reprennent le dégradé de la marque.",
-  "label": "En-têtes en dégradé",
+  "note": "La barre de titre devient un bandeau bleu plein, avec titre et sous-titre en blanc.",
+  "label": "Bandeau de titre bleu",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T14:10:00.000Z"
+  "updated_at": "2026-08-22T14:30:00.000Z"
 }
