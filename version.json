@@ -1,9 +1,9 @@
 {
-  "version": "v316",
+  "version": "v317",
   "date": "2026-08-22",
-  "note": "Le dégradé se concentre dans la pastille d'icône ; les boutons redeviennent clairs et lisibles.",
-  "label": "Actions rapides allégées",
+  "note": "L’archivage reste dans MonÉcole, la messagerie attend le choix d’une discussion et les aides restent au-dessus des cartes.",
+  "label": "Dialogues et messagerie maîtrisés",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T08:30:00.000Z"
+  "updated_at": "2026-08-22T11:30:00.000Z"
 }
