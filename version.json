@@ -1,9 +1,9 @@
 {
-  "version": "v313",
+  "version": "v316",
   "date": "2026-08-22",
-  "note": "La corbeille quitte le Journal et dispose désormais de sa propre page dans Administration, réservée à la direction.",
-  "label": "Une corbeille séparée et facile à retrouver",
+  "note": "Le dégradé se concentre dans la pastille d'icône ; les boutons redeviennent clairs et lisibles.",
+  "label": "Actions rapides allégées",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T01:00:00.000Z"
+  "updated_at": "2026-08-22T08:30:00.000Z"
 }
