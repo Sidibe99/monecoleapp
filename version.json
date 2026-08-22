@@ -1,9 +1,9 @@
 {
-  "version": "v324",
+  "version": "v325",
   "date": "2026-08-22",
-  "note": "Le repère de navigation actif ne porte plus qu'une seule couleur.",
-  "label": "Repère actif épuré",
+  "note": "L'écran de validation retrouve son bandeau ; les onglets actifs perdent leur trait turquoise.",
+  "label": "Onglets et bandeau",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T17:35:00.000Z"
+  "updated_at": "2026-08-22T17:55:00.000Z"
 }
