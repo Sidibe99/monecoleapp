@@ -1,9 +1,9 @@
 {
-  "version": "v325",
+  "version": "v326",
   "date": "2026-08-22",
-  "note": "L'écran de validation retrouve son bandeau ; les onglets actifs perdent leur trait turquoise.",
-  "label": "Onglets et bandeau",
+  "note": "Les onglets inactifs redeviennent des boutons et l'écran de validation reçoit son aide.",
+  "label": "Onglets cliquables",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T17:55:00.000Z"
+  "updated_at": "2026-08-22T18:40:00.000Z"
 }
