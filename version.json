@@ -1,9 +1,9 @@
 {
-  "version": "v337",
+  "version": "v338",
   "date": "2026-08-23",
-  "note": "La messagerie et les briques d'interface sortent du paquet de démarrage.",
-  "label": "Messagerie différée",
+  "note": "La fiche élève ne se télécharge plus qu'à son ouverture : 224 Ko de moins au démarrage depuis hier.",
+  "label": "Fiche élève différée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T18:00:00.000Z"
+  "updated_at": "2026-08-23T19:30:00.000Z"
 }
