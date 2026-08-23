@@ -1,9 +1,9 @@
 {
-  "version": "v333",
+  "version": "v334",
   "date": "2026-08-23",
-  "note": "Les actions rapides occupent maintenant toute la largeur disponible sur les grands écrans.",
-  "label": "Actions mieux réparties",
+  "note": "Toutes les pastilles ont la même couleur et l'impression des emplois du temps gagne de la place.",
+  "label": "Pastilles et en-tête allégé",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T08:50:00.000Z"
+  "updated_at": "2026-08-23T01:10:00.000Z"
 }
