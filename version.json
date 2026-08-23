@@ -1,9 +1,9 @@
 {
-  "version": "v336",
+  "version": "v337",
   "date": "2026-08-23",
-  "note": "Le dictionnaire arabe ne se télécharge plus que si l'école s'en sert : 104 Ko de moins au démarrage.",
-  "label": "Arabe à la demande",
+  "note": "La messagerie et les briques d'interface sortent du paquet de démarrage.",
+  "label": "Messagerie différée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T16:20:00.000Z"
+  "updated_at": "2026-08-23T18:00:00.000Z"
 }
