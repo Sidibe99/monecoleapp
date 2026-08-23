@@ -1,9 +1,9 @@
 {
-  "version": "v335",
+  "version": "v336",
   "date": "2026-08-23",
-  "note": "L'espace revendeur ne pèse plus sur le démarrage : 27 Ko de moins au chargement.",
-  "label": "Démarrage allégé",
+  "note": "Le dictionnaire arabe ne se télécharge plus que si l'école s'en sert : 104 Ko de moins au démarrage.",
+  "label": "Arabe à la demande",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T15:10:00.000Z"
+  "updated_at": "2026-08-23T16:20:00.000Z"
 }
