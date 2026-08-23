@@ -1,9 +1,9 @@
 {
-  "version": "v338",
+  "version": "v339",
   "date": "2026-08-23",
-  "note": "La fiche élève ne se télécharge plus qu'à son ouverture : 224 Ko de moins au démarrage depuis hier.",
-  "label": "Fiche élève différée",
+  "note": "Le contexte de la fiche à imprimer redevient lisible dans le bandeau.",
+  "label": "Contexte lisible",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T19:30:00.000Z"
+  "updated_at": "2026-08-23T20:45:00.000Z"
 }
