@@ -1,9 +1,9 @@
 {
-  "version": "v341",
+  "version": "v342",
   "date": "2026-08-23",
-  "note": "Les écrans différés se préchargent en tâche de fond, sauf en connexion lente.",
-  "label": "Préchargement discret",
+  "note": "Impression officielle des emplois du temps : matrice jours x classes, en-tête et signature.",
+  "label": "Emploi du temps officiel",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T21:45:00.000Z"
+  "updated_at": "2026-08-23T22:30:00.000Z"
 }

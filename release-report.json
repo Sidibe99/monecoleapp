@@ -1,10 +1,10 @@
 {
-  "version": "v341",
-  "package_version": "1.0.341",
-  "label": "Préchargement discret",
-  "created_at": "2026-08-23T21:41:01.981Z",
+  "version": "v342",
+  "package_version": "1.0.342",
+  "label": "Emploi du temps officiel",
+  "created_at": "2026-08-23T22:41:23.128Z",
   "files": 69,
-  "total_bytes": 10357640,
+  "total_bytes": 10363670,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-QMtOLZ6E.js",
-      "bytes": 673663,
-      "sha256": "cd5cecaf90fe5da6c9339512475af5547f249b376fda4acfc7192a8e486ab8d1"
+      "file": "assets/index-BamyFW9F.js",
+      "bytes": 676599,
+      "sha256": "7ebd0ba0be56d0bf4cc11b1b08b870084a107531079ab306133b98518265077f"
     },
     {
-      "file": "assets/index-legacy-VwPUThVj.js",
-      "bytes": 1070377,
-      "sha256": "d96fe4d2ef0d25e06178cf3ca8599e1ac0066c04207cbfc57440532e41dd5cd3"
+      "file": "assets/index-legacy-DVccFFB4.js",
+      "bytes": 1073459,
+      "sha256": "4dc0e6ef1090ce0b35a15414590f4317df6c47a52f5029a41554ee4376b097ed"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "3dffd8f1c8dbeda742a1dfb7dbe0a989e328c9f90873ba1a3a7b0f59fcbb45f1"
+      "sha256": "5b90ce44c38a8f5c4abbbdc71f37445b2865a12003be3f9f52a8889f83601872"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "fdef858020d2623a98b7bfae5eef64e861edfd38565f113fd0a4382a128f3d40"
+      "sha256": "9e4d73fbe1be835b1ebaef19394875b2b9d1cca448dcc9923364458f5a87ce7d"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 272,
-      "sha256": "0d2e3ae82c357b5366c71409ba704c235190a5c7df8abe9c2b8346693faa43c5"
+      "bytes": 284,
+      "sha256": "2233334e58be3cd5ed65703f43d19fedea35600c53d240efe6753b135cdaf6c3"
     }
   ]
 }
