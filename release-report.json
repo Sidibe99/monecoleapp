@@ -1,10 +1,10 @@
 {
-  "version": "v331",
-  "package_version": "1.0.331",
-  "label": "Cycle sur une feuille",
-  "created_at": "2026-08-23T00:32:50.568Z",
+  "version": "v332",
+  "package_version": "1.0.332",
+  "label": "Responsive renforcé",
+  "created_at": "2026-08-23T07:11:36.652Z",
   "files": 59,
-  "total_bytes": 10324327,
+  "total_bytes": 10326419,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,19 +92,19 @@
       "sha256": "e12f43c4a6e5e04616305dee092eb6fb5c8cdfa27daf869b2fbbd305ae9b0911"
     },
     {
-      "file": "assets/index-B4xDcmGC.js",
-      "bytes": 1031470,
-      "sha256": "d85be0c1c301e2bba9b00c649804b1e36b694f61efef3b7fa5227f755efe03ea"
+      "file": "assets/index-CzLBoYZq.css",
+      "bytes": 301647,
+      "sha256": "62bc8b72f4d37a42798b7d0015d364f8f433f011fd67541f86512c3bc9d81695"
     },
     {
-      "file": "assets/index-CZzePbJF.css",
-      "bytes": 300644,
-      "sha256": "ff6fc3fd1e8cfbbcffa8d477bc048b53a6c57fbee6d23cff63e7866ab73d54ad"
+      "file": "assets/index-EoIwPB9i.js",
+      "bytes": 1031506,
+      "sha256": "e7a669e1bcd1dc562fa688ea4bb9b6f489bf95f45918d940d72d0f8d6acf9574"
     },
     {
-      "file": "assets/index-legacy-DCwIqmlc.js",
-      "bytes": 1449992,
-      "sha256": "59cf4e42c14ba95c31ffb63d7f21723cb5e1b3455d6acaaa394a239e35ef9b73"
+      "file": "assets/index-legacy-B9wJ76gP.js",
+      "bytes": 1451031,
+      "sha256": "72516f60cf851e3fcd7cd47784a58a2f3d5cde8f3983a9c26ab4acd1d4dad47c"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -274,7 +274,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "aceecb16a215b5cf74f766b8e28edc4df957901a312441234e520039b7105f7c"
+      "sha256": "ae1a8b478fb00ad41a64bafddfeedaa906c3b07c7723c9bf84d2e42f78e57dab"
     },
     {
       "file": "manifest.webmanifest",
@@ -289,7 +289,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "46741de49f880b6165faec75ea82f610aba0724e66a7e3558cc29ecef210a8a0"
+      "sha256": "07a9091ed4d7a4d3a96705cdcfb2ff85b8e464eb581bcb2f0eb1867a9fbb04dd"
     },
     {
       "file": "v.html",
@@ -298,8 +298,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 276,
-      "sha256": "43fd6829bb3076199765bcc7acdb7ae05cc5ee04cecdfc94f16550b02afa3a86"
+      "bytes": 290,
+      "sha256": "801441b8b3161b3d4052f6827296d66db7e54e2e3d59809e882a20b39ddcb89c"
     }
   ]
 }
