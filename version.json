@@ -1,9 +1,9 @@
 {
-  "version": "v334",
+  "version": "v335",
   "date": "2026-08-23",
-  "note": "Toutes les pastilles ont la même couleur et l'impression des emplois du temps gagne de la place.",
-  "label": "Pastilles et en-tête allégé",
+  "note": "L'espace revendeur ne pèse plus sur le démarrage : 27 Ko de moins au chargement.",
+  "label": "Démarrage allégé",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T01:10:00.000Z"
+  "updated_at": "2026-08-23T15:10:00.000Z"
 }
