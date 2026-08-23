@@ -1,9 +1,9 @@
 {
-  "version": "v339",
+  "version": "v340",
   "date": "2026-08-23",
-  "note": "Le contexte de la fiche à imprimer redevient lisible dans le bandeau.",
-  "label": "Contexte lisible",
+  "note": "Les réglages sortent du démarrage : 265 Ko de moins qu'avant-hier au chargement.",
+  "label": "Réglages différés",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T20:45:00.000Z"
+  "updated_at": "2026-08-23T21:20:00.000Z"
 }
