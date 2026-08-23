@@ -1,9 +1,9 @@
 {
-  "version": "v343",
+  "version": "v344",
   "date": "2026-08-23",
-  "note": "L'emploi du temps officiel s'adapte : plus de colonne ni de jour vides.",
-  "label": "Emploi du temps adaptatif",
+  "note": "La hauteur des lignes de l'emploi du temps suit le texte saisi.",
+  "label": "Lignes ajustées",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T23:20:00.000Z"
+  "updated_at": "2026-08-23T23:40:00.000Z"
 }
