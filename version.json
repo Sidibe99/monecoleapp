@@ -1,9 +1,9 @@
 {
-  "version": "v340",
+  "version": "v341",
   "date": "2026-08-23",
-  "note": "Les réglages sortent du démarrage : 265 Ko de moins qu'avant-hier au chargement.",
-  "label": "Réglages différés",
+  "note": "Les écrans différés se préchargent en tâche de fond, sauf en connexion lente.",
+  "label": "Préchargement discret",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T21:20:00.000Z"
+  "updated_at": "2026-08-23T21:45:00.000Z"
 }
