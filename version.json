@@ -1,9 +1,9 @@
 {
-  "version": "v332",
+  "version": "v333",
   "date": "2026-08-23",
-  "note": "Les zones tactiles mobiles sont plus accessibles et les fondations responsive sont mieux structurées.",
-  "label": "Responsive renforcé",
+  "note": "Les actions rapides occupent maintenant toute la largeur disponible sur les grands écrans.",
+  "label": "Actions mieux réparties",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T01:30:00.000Z"
+  "updated_at": "2026-08-23T08:50:00.000Z"
 }
