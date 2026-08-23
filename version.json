@@ -1,9 +1,9 @@
 {
-  "version": "v330",
+  "version": "v331",
   "date": "2026-08-22",
-  "note": "Relances financières allégées, en-têtes de fenêtre visibles sur téléphone, jours colorés et impression des emplois du temps par cycle.",
-  "label": "Emploi du temps par cycle",
+  "note": "Les emplois du temps d'un cycle tiennent sur une feuille A4, quelle que soit sa taille.",
+  "label": "Cycle sur une feuille",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-22T22:10:00.000Z"
+  "updated_at": "2026-08-23T00:30:00.000Z"
 }
