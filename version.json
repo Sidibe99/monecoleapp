@@ -1,9 +1,9 @@
 {
-  "version": "v344",
+  "version": "v345",
   "date": "2026-08-23",
-  "note": "La hauteur des lignes de l'emploi du temps suit le texte saisi.",
-  "label": "Lignes ajustées",
+  "note": "L'export Excel n'échoue plus sur une cellule trop longue.",
+  "label": "Export réparé",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T23:40:00.000Z"
+  "updated_at": "2026-08-23T23:55:00.000Z"
 }
