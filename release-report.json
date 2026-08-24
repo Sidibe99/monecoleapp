@@ -1,10 +1,10 @@
 {
-  "version": "v347",
-  "package_version": "1.0.347",
-  "label": "Suite de tests réparée",
-  "created_at": "2026-08-24T01:13:09.236Z",
+  "version": "v348",
+  "package_version": "1.0.348",
+  "label": "Couleurs du tableau",
+  "created_at": "2026-08-24T07:54:51.497Z",
   "files": 69,
-  "total_bytes": 10367016,
+  "total_bytes": 10368325,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-BGnSTR2N.js",
-      "bytes": 677904,
-      "sha256": "07ab687b0cf0ec83e80ae41b76822e35507dfa572ff38c3d4ab4c67b747498fa"
+      "file": "assets/index-IJY7p9uS.js",
+      "bytes": 678537,
+      "sha256": "9398e685edde1fba56733248a0437da4c8edf709adabd58263842053ea4e5051"
     },
     {
-      "file": "assets/index-legacy-DHy_wgAQ.js",
-      "bytes": 1075013,
-      "sha256": "90b3dd950f99dfa0a533d14fe479e112c649c6d3839e913e8c24b130cf7997be"
+      "file": "assets/index-legacy-D-ZG9LX0.js",
+      "bytes": 1075663,
+      "sha256": "f395bba7543ceab3befb58795da5a13f4c44f8f8da6cc8da20aae2e99822e3f5"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "f70fd725f511ad6427a24d15db7fe4301d88f082b276134d7d8faaf641f1d262"
+      "sha256": "3f1c1126bb12f6c48302d8d7291202a1ad06ceb383cfa4db2d687c3e198766bd"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "bd510bf354a9495ff0a94f46f62833f2f94b66d476ceb9f05cbfd859122ff937"
+      "sha256": "28d1ec423caf2d06a390ca009a3a1abdfab4a7be90446db8003178bd490f0314"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 279,
-      "sha256": "41a1568597724dce79b29abdf5d9a35e1db0cb8eabec68f8e1d5eda2678b827a"
+      "bytes": 305,
+      "sha256": "4894a2dd68b83267fe075a2a99cd52187018615dd47f0dfad9e24bb988df5fd9"
     }
   ]
 }

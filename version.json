@@ -1,9 +1,9 @@
 {
-  "version": "v347",
+  "version": "v348",
   "date": "2026-08-23",
-  "note": "Le contrôle de version vérifie la cohérence des fichiers au lieu d'un numéro figé.",
-  "label": "Suite de tests réparée",
+  "note": "La couleur se règle séparément pour l'en-tête et le contenu du tableau ; les mentions officielles ne bougent plus.",
+  "label": "Couleurs du tableau",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-24T01:00:00.000Z"
+  "updated_at": "2026-08-24T07:55:00.000Z"
 }
