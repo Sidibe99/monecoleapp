@@ -1,9 +1,9 @@
 {
-  "version": "v346",
+  "version": "v347",
   "date": "2026-08-23",
-  "note": "Mise en forme dans l'aperçu : couleur du texte, taille, orientation et marges.",
-  "label": "Mise en forme d'impression",
+  "note": "Le contrôle de version vérifie la cohérence des fichiers au lieu d'un numéro figé.",
+  "label": "Suite de tests réparée",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-24T00:20:00.000Z"
+  "updated_at": "2026-08-24T01:00:00.000Z"
 }

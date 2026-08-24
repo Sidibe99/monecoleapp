@@ -1,10 +1,10 @@
 {
-  "version": "v346",
-  "package_version": "1.0.346",
-  "label": "Mise en forme d'impression",
-  "created_at": "2026-08-24T00:19:21.425Z",
+  "version": "v347",
+  "package_version": "1.0.347",
+  "label": "Suite de tests réparée",
+  "created_at": "2026-08-24T01:13:09.236Z",
   "files": 69,
-  "total_bytes": 10367010,
+  "total_bytes": 10367016,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "2539db11076e6fa94b95eccdb9fdf0348bdfc39995bc096dcfe5131855ef65ae"
+      "sha256": "f70fd725f511ad6427a24d15db7fe4301d88f082b276134d7d8faaf641f1d262"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "7728c695b067c0c022ae220149deeae4699c95e201fa753280d9e51f2037a666"
+      "sha256": "bd510bf354a9495ff0a94f46f62833f2f94b66d476ceb9f05cbfd859122ff937"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 273,
-      "sha256": "c532a0f9ff836226454392f3962479e7efcaf6f5a3a134b898260a2a719c9246"
+      "bytes": 279,
+      "sha256": "41a1568597724dce79b29abdf5d9a35e1db0cb8eabec68f8e1d5eda2678b827a"
     }
   ]
 }
