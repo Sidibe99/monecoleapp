@@ -1,10 +1,10 @@
 {
-  "version": "v345",
-  "package_version": "1.0.345",
-  "label": "Export réparé",
-  "created_at": "2026-08-23T23:42:45.196Z",
+  "version": "v346",
+  "package_version": "1.0.346",
+  "label": "Mise en forme d'impression",
+  "created_at": "2026-08-24T00:19:21.425Z",
   "files": 69,
-  "total_bytes": 10365545,
+  "total_bytes": 10367010,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-Csf01HMM.js",
-      "bytes": 677239,
-      "sha256": "5b0faebf562e7c432ccfe01c0ed466ef9fbd191282574754bf5eb73fb3000535"
+      "file": "assets/index-BGnSTR2N.js",
+      "bytes": 677904,
+      "sha256": "07ab687b0cf0ec83e80ae41b76822e35507dfa572ff38c3d4ab4c67b747498fa"
     },
     {
-      "file": "assets/index-legacy-DK8wm964.js",
-      "bytes": 1074245,
-      "sha256": "c0c4a088e1546837e3564c7bb9cecff005ea75b26c08b1f6df3b65d8939c1f10"
+      "file": "assets/index-legacy-DHy_wgAQ.js",
+      "bytes": 1075013,
+      "sha256": "90b3dd950f99dfa0a533d14fe479e112c649c6d3839e913e8c24b130cf7997be"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "89139de31e48c7ebcb89f653f6c324ff9774605e2c1538e1b3f0a5bcea8e7b7c"
+      "sha256": "2539db11076e6fa94b95eccdb9fdf0348bdfc39995bc096dcfe5131855ef65ae"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "2f0a5afb77031f66ca316ea14f2f00f7ad9496673e1b21a5fded3d37df1e53bf"
+      "sha256": "7728c695b067c0c022ae220149deeae4699c95e201fa753280d9e51f2037a666"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 241,
-      "sha256": "f83d335d34a7a7071b92463e743905c133837d9e1ea45f900f7bb9d2e93a1a24"
+      "bytes": 273,
+      "sha256": "c532a0f9ff836226454392f3962479e7efcaf6f5a3a134b898260a2a719c9246"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "version": "v345",
+  "version": "v346",
   "date": "2026-08-23",
-  "note": "L'export Excel n'échoue plus sur une cellule trop longue.",
-  "label": "Export réparé",
+  "note": "Mise en forme dans l'aperçu : couleur du texte, taille, orientation et marges.",
+  "label": "Mise en forme d'impression",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-23T23:55:00.000Z"
+  "updated_at": "2026-08-24T00:20:00.000Z"
 }
