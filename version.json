@@ -1,9 +1,9 @@
 {
-  "version": "v365",
+  "version": "v366",
   "date": "2026-08-31",
-  "note": "Les contraires reviennent, et chaque bloc vide dit ce qui lui manque.",
-  "label": "Blocs qui s expliquent",
+  "note": "L invite de reparation demande enfin synonymes, contraires et origine.",
+  "label": "Deux invites, une consigne",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T21:20:00.000Z"
+  "updated_at": "2026-08-31T21:55:00.000Z"
 }

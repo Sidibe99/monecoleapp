@@ -1,10 +1,10 @@
 {
-  "version": "v365",
-  "package_version": "1.0.365",
-  "label": "Blocs qui s expliquent",
-  "created_at": "2026-08-31T22:07:34.740Z",
+  "version": "v366",
+  "package_version": "1.0.366",
+  "label": "Deux invites, une consigne",
+  "created_at": "2026-08-31T23:48:56.719Z",
   "files": 71,
-  "total_bytes": 10453179,
+  "total_bytes": 10453184,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -334,7 +334,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "35f043b0e3639226860fceabd38bf3e91f5089d0696bacc2dd8b685b7f4f68ab"
+      "sha256": "1a2fff284ffc76ac75a12fe9a29278e9e903a488bc1873d27b676632fe128b18"
     },
     {
       "file": "manifest.webmanifest",
@@ -349,7 +349,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "08651159524f72bf07b07fa3c795fba8ce3a20bd4611846d79381bee8d206840"
+      "sha256": "c06bec08f2afc0ff83ef089cccc3364c5942195667a5dfa1e8573c2c07241284"
     },
     {
       "file": "v.html",
@@ -358,8 +358,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 259,
-      "sha256": "9f769469ed342738c41ccb5f36684ca021db5a2ff4a7c570bcb2e865868eefea"
+      "bytes": 264,
+      "sha256": "35302a30999ed9d4cb964cc1925f5cbcead33ee50ba7e2626d073cde817390a5"
     }
   ]
 }
