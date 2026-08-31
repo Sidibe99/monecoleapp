@@ -1,9 +1,9 @@
 {
-  "version": "v359",
+  "version": "v360",
   "date": "2026-08-31",
-  "note": "La fiche de definition suit enfin les cases cochees.",
-  "label": "Fiche fidele",
+  "note": "Rouvrir une generation ramene l ecran sur le resultat.",
+  "label": "Historique cliquable",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T18:05:00.000Z"
+  "updated_at": "2026-08-31T18:40:00.000Z"
 }

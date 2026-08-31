@@ -1,10 +1,10 @@
 {
-  "version": "v359",
-  "package_version": "1.0.359",
-  "label": "Fiche fidele",
-  "created_at": "2026-08-31T18:07:35.615Z",
+  "version": "v360",
+  "package_version": "1.0.360",
+  "label": "Historique cliquable",
+  "created_at": "2026-08-31T18:31:51.994Z",
   "files": 71,
-  "total_bytes": 10447840,
+  "total_bytes": 10448626,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,14 +42,14 @@
       "sha256": "cb83b7867bd571af2312cc8c2a409dd715f9698cf6f0b011b2e4eed388e5b1fe"
     },
     {
-      "file": "assets/IAEducative-BSPGJdj3.js",
-      "bytes": 29822,
-      "sha256": "52ed163f41bfbf96f1a23625bb1d4fa67a104e0dc4f15d8fc6cbdbbb10756dd1"
+      "file": "assets/IAEducative-BtYZeyqA.js",
+      "bytes": 30198,
+      "sha256": "2fc4f83e9c1cb2f7ef73ceff45838775872ebe1b6bac635332983bacc36db1eb"
     },
     {
-      "file": "assets/IAEducative-legacy-C_8vMd-X.js",
-      "bytes": 47351,
-      "sha256": "3160d152c27daff72ce1b4fda98c895fda7b2d61a719ca0f67b4b2427b39048c"
+      "file": "assets/IAEducative-legacy-pTGFlS75.js",
+      "bytes": 47751,
+      "sha256": "66b9a1c9e79ed2e6391933a7e2caa344a9a0662001a9b73f70c9b8cf8cfc1af9"
     },
     {
       "file": "assets/MessageActionsMenu-DwDFtdQR.js",
@@ -144,12 +144,12 @@
     {
       "file": "assets/ia-educative-fallback-legacy.js",
       "bytes": 17609,
-      "sha256": "985a759e5c07b6926f7dbc63e2a6e448a51a976f1e58876accd483044f42e480"
+      "sha256": "bfb9fc59d6213f606d68d358e309213714744715a389c24d37e1c53e02c22b00"
     },
     {
       "file": "assets/ia-educative-fallback.js",
       "bytes": 14418,
-      "sha256": "5d9e1146a1372e589de05084737c7a1a9cde7c719ad67baabadc4fa1cbc3d43e"
+      "sha256": "498aa91316f463fe7e920e6c1226295556de7c782b71ed1fcaf8d7b645563a3a"
     },
     {
       "file": "assets/index-B8nGodK4.css",
@@ -157,14 +157,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-D1T2AGro.js",
+      "file": "assets/index-DAgNNCbi.js",
       "bytes": 663305,
-      "sha256": "1276b63a2f7020bdd285ec86347209645bd46288b836f2d2ea3541157fa9c552"
+      "sha256": "28aa4e053de03bb6edb6e8f54bbba1026fbdecf4e1bd026e45935178a87f0c4e"
     },
     {
-      "file": "assets/index-legacy-CdAdpbj6.js",
+      "file": "assets/index-legacy-CR466-XE.js",
       "bytes": 1058658,
-      "sha256": "a5fc1d2db25cbb980c5d3241e38832743da62583d6c947cdee995d9449617b94"
+      "sha256": "66f12f08dc4bcf456dcc93b8712c816e2deb6de48b6841d6ec855384bda5f233"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -334,7 +334,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "c50d09d1b8a13ed8cb3ba3ad3ab3026671d5e8900c538645aa5f5387e08b1158"
+      "sha256": "c31816116c654d711a43c1a65dfce7d4cfa76e80686ccaba672702f4eed111d9"
     },
     {
       "file": "manifest.webmanifest",
@@ -349,7 +349,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "5e6f8eeb8c522fccebe562c9b3509d3729b57e3bdd7d8a4c6c0cad7f7fcecde0"
+      "sha256": "bdd6cf7d1a4c828cf9d05dc6385fc878ba71b30dc04dd14250d15cfe25904282"
     },
     {
       "file": "v.html",
@@ -358,8 +358,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 232,
-      "sha256": "03a96eac2075e6742e35da9a3429e50aaeafd6f6fab57538d5901036843f6b71"
+      "bytes": 242,
+      "sha256": "fca5d4f710385cda83c01ff93f2517f2a032d378f2c8a1e2de55ddfd2556914f"
     }
   ]
 }
