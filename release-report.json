@@ -1,10 +1,10 @@
 {
-  "version": "v353",
-  "package_version": "1.0.353",
-  "label": "Pastille et couleurs",
-  "created_at": "2026-08-31T12:11:09.460Z",
+  "version": "v354",
+  "package_version": "1.0.354",
+  "label": "Cartes au theme",
+  "created_at": "2026-08-31T12:27:32.192Z",
   "files": 69,
-  "total_bytes": 10372328,
+  "total_bytes": 10372539,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-BI_dCQ6c.js",
-      "bytes": 679804,
-      "sha256": "03b6aa150d4de8af3999be4c803bd7fcc6ec412bb95172732da5b1a3f97e5683"
+      "file": "assets/index-CcRzBkIa.js",
+      "bytes": 679921,
+      "sha256": "ca66a75879401c369ac4458aaeba495b755780cb2b8a3a7a621bb68867d46cb4"
     },
     {
-      "file": "assets/index-legacy-CDEC-gCD.js",
-      "bytes": 1077001,
-      "sha256": "a1a8997de8fc708930643103001a79dd4ca351f06539163f21a9c40d4f9c6bf6"
+      "file": "assets/index-legacy-By3hIv4G.js",
+      "bytes": 1077118,
+      "sha256": "ee27df358332f4cd22c660f640bfbbb84b8376608ac937cd0a272708a13ca080"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "4af799e6a8c874275682ca1e74626982f2c21770fb2cdd677ada12576503f21f"
+      "sha256": "9fd123c7bb6767bb2f3ae5f9f6e4cbbac116423f75f416c697ec3d3dce475637"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "bf1e7f820cbbeb1133f42a994e1d2699d39f91ff0702621acb8febc5111e8d3f"
+      "sha256": "8dec6d9b77b2072c3cfcd7664c249f9e4d9f1325b77f9b95f7a04bbd39b0d47c"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 265,
-      "sha256": "575e3a48a366423759ad32884ef83419437c890fd9b03d9b8bd97a4c6953a217"
+      "bytes": 242,
+      "sha256": "21c212ed598a774c927b7223d5f2434e198f62398de57f1466a280c1238e77b5"
     }
   ]
 }

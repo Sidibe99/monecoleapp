@@ -1,9 +1,9 @@
 {
-  "version": "v353",
+  "version": "v354",
   "date": "2026-08-23",
-  "note": "La cloche indique le nombre de messages recus et les cartes suivent le theme.",
-  "label": "Pastille et couleurs",
+  "note": "Les cinq cartes du tableau de bord suivent le theme choisi.",
+  "label": "Cartes au theme",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T12:30:00.000Z"
+  "updated_at": "2026-08-31T12:35:00.000Z"
 }
