@@ -2,7 +2,7 @@
   "version": "v355",
   "package_version": "1.0.355",
   "label": "Arabe standard",
-  "created_at": "2026-08-31T12:55:07.597Z",
+  "created_at": "2026-08-31T12:58:28.449Z",
   "files": 69,
   "total_bytes": 10372316,
   "artifacts": [
@@ -349,7 +349,7 @@
     {
       "file": "version.json",
       "bytes": 247,
-      "sha256": "70175ea7602a6871ec5ee0a07fb8f133efb82a03de189339fdfd9ee6b7bdf978"
+      "sha256": "500544b3a67512f7d6535a97fbeebee2420da27c753659298b8d3a26b31d5cdb"
     }
   ]
 }
