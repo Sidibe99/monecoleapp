@@ -1,9 +1,9 @@
 {
-  "version": "v349",
+  "version": "v350",
   "date": "2026-08-23",
-  "note": "Les limites reglees par le revendeur s appliquent vraiment, et la classe suivante se propose seule.",
-  "label": "Limites et passage",
-  "scope": "client+supabase",
+  "note": "Les lignes de reglages ne debordent plus de l ecran sur telephone.",
+  "label": "Reglages sans debordement",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-24T09:00:00.000Z"
+  "updated_at": "2026-08-31T11:00:00.000Z"
 }

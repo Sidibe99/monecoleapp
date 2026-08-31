@@ -1,10 +1,10 @@
 {
-  "version": "v349",
-  "package_version": "1.0.349",
-  "label": "Limites et passage",
-  "created_at": "2026-08-31T10:17:52.715Z",
+  "version": "v350",
+  "package_version": "1.0.350",
+  "label": "Reglages sans debordement",
+  "created_at": "2026-08-31T10:32:26.046Z",
   "files": 69,
-  "total_bytes": 10369609,
+  "total_bytes": 10369764,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -72,14 +72,14 @@
       "sha256": "2f39c0440f46b3a965be88d7d2908be658c327f13117d663f79768c2d24c1c73"
     },
     {
-      "file": "assets/Parametres-CygeHYU9.js",
-      "bytes": 64241,
-      "sha256": "e85473eb98fee11e42bc44dd63026cf8db07da1f770bafb466072f0dcd146a5c"
+      "file": "assets/Parametres-legacy-C-GkOS2m.js",
+      "bytes": 77814,
+      "sha256": "11dee54db2b5f1b9fca1ef833bf0f1c32f07bf72fa61bb6ba3fda43e55434d06"
     },
     {
-      "file": "assets/Parametres-legacy-Dh5wqu4p.js",
-      "bytes": 77719,
-      "sha256": "87e89480ecc22ece87830b691aa8d5cb00ba99535f6c1d26292104523616a539"
+      "file": "assets/Parametres-rY_tcSb9.js",
+      "bytes": 64336,
+      "sha256": "e6cb6451f97b46a9052b506c4922435217822dae538d874de71a2403fc4e5103"
     },
     {
       "file": "assets/ParentPortalViews-BJL804gB.js",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-legacy-BSHnhIee.js",
-      "bytes": 1076344,
-      "sha256": "10f6332db0819825efcc7de694940165dc6ad671d1489b7364d2d29f31356591"
+      "file": "assets/index-BeyqHcjz.js",
+      "bytes": 679151,
+      "sha256": "01a2183dfa1630b09ea7a5a4f405f8f23940537c09237fcfeb649fe2063dc4ea"
     },
     {
-      "file": "assets/index-oEJXKY7V.js",
-      "bytes": 679151,
-      "sha256": "16cad88a056c39d8af1a7dbf755774b36bfc70fa1d2d4ea3b5b190a19e07812d"
+      "file": "assets/index-legacy-Bk4PmbSc.js",
+      "bytes": 1076344,
+      "sha256": "b7a27f10f974b8ef4370f2fcd387a741258d1013e660948ccb2294f647188d7d"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "64288586ae493f0d76973be2dd10be5fd55f8cc51fb8c7d4a958629a06fbf7c6"
+      "sha256": "080c6a3bf84be37d105388b8b3214e21b2f473480ca350838c64814d584928aa"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "1e136065e9ad46b6cfe4f036f7943b0c7295c15d5e117e61cd4798153ddac717"
+      "sha256": "edf0922a2bf92b856203da9c11b742be2a46da158ec199e12a6b69870f3fcd51"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 294,
-      "sha256": "e10f09ab84880ade5438381b7ce9d48b7bf6b519f49b6043eb8200e538c466c1"
+      "bytes": 259,
+      "sha256": "9bcc362937ca94fd9cc4e6bc72656be2120fe4f7fab6d0f5f0854f411c7ff641"
     }
   ]
 }
