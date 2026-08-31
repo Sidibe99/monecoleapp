@@ -1,10 +1,10 @@
 {
-  "version": "v360",
-  "package_version": "1.0.360",
-  "label": "Historique cliquable",
-  "created_at": "2026-08-31T18:31:51.994Z",
+  "version": "v361",
+  "package_version": "1.0.361",
+  "label": "Reglages utiles",
+  "created_at": "2026-08-31T19:45:59.763Z",
   "files": 71,
-  "total_bytes": 10448626,
+  "total_bytes": 10448864,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -157,14 +157,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-DAgNNCbi.js",
-      "bytes": 663305,
-      "sha256": "28aa4e053de03bb6edb6e8f54bbba1026fbdecf4e1bd026e45935178a87f0c4e"
+      "file": "assets/index-BHTiLY4a.js",
+      "bytes": 663435,
+      "sha256": "57d1a7a97ba366f9665beeeb973ef64612aa20e2a7413f6de88f4c40173eb9ff"
     },
     {
-      "file": "assets/index-legacy-CR466-XE.js",
-      "bytes": 1058658,
-      "sha256": "66f12f08dc4bcf456dcc93b8712c816e2deb6de48b6841d6ec855384bda5f233"
+      "file": "assets/index-legacy-7eGIkZwT.js",
+      "bytes": 1058765,
+      "sha256": "3975049e8e22193eda71664241ff8b57739f940827693a63f8427e1cf1f46cdf"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -334,7 +334,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "c31816116c654d711a43c1a65dfce7d4cfa76e80686ccaba672702f4eed111d9"
+      "sha256": "b1b5a5f8515002b49c35eca7af9c5b3694ac6dab512772373d6a38d399ddebcc"
     },
     {
       "file": "manifest.webmanifest",
@@ -349,7 +349,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "bdd6cf7d1a4c828cf9d05dc6385fc878ba71b30dc04dd14250d15cfe25904282"
+      "sha256": "8b17ea9cb4c3eaaa6cbf0864646f7f898734c236826eefc2faf8d61f5901b1bc"
     },
     {
       "file": "v.html",
@@ -358,8 +358,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 242,
-      "sha256": "fca5d4f710385cda83c01ff93f2517f2a032d378f2c8a1e2de55ddfd2556914f"
+      "bytes": 243,
+      "sha256": "ea0999ae3edd96da14c46a71afa62f1206d8b0242284220b93c3e1130220f7b4"
     }
   ]
 }

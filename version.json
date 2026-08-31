@@ -1,9 +1,9 @@
 {
-  "version": "v360",
+  "version": "v361",
   "date": "2026-08-31",
-  "note": "Rouvrir une generation ramene l ecran sur le resultat.",
-  "label": "Historique cliquable",
+  "note": "Les reglages d impression ne s affichent que s ils agissent.",
+  "label": "Reglages utiles",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T18:40:00.000Z"
+  "updated_at": "2026-08-31T19:10:00.000Z"
 }
