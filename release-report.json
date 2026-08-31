@@ -1,10 +1,10 @@
 {
-  "version": "v350",
-  "package_version": "1.0.350",
-  "label": "Reglages sans debordement",
-  "created_at": "2026-08-31T10:32:26.046Z",
+  "version": "v351",
+  "package_version": "1.0.351",
+  "label": "Session qui tient",
+  "created_at": "2026-08-31T11:29:42.392Z",
   "files": 69,
-  "total_bytes": 10369764,
+  "total_bytes": 10370966,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-BeyqHcjz.js",
-      "bytes": 679151,
-      "sha256": "01a2183dfa1630b09ea7a5a4f405f8f23940537c09237fcfeb649fe2063dc4ea"
+      "file": "assets/index-DN4nYIr6.js",
+      "bytes": 679746,
+      "sha256": "4414ea7270d3283ca17a4408bde3bcb7bd7388c733ed80d0cb4778c63d4a17ff"
     },
     {
-      "file": "assets/index-legacy-Bk4PmbSc.js",
-      "bytes": 1076344,
-      "sha256": "b7a27f10f974b8ef4370f2fcd387a741258d1013e660948ccb2294f647188d7d"
+      "file": "assets/index-legacy-DZjpSHxj.js",
+      "bytes": 1076928,
+      "sha256": "760ae5bf5304a4a4007e6e6779bc3d1e571c869a67308d1eebe4655ccaf1ae67"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "080c6a3bf84be37d105388b8b3214e21b2f473480ca350838c64814d584928aa"
+      "sha256": "da4a7c6e02f8c3ccd9422e404d304f0f79441aca555cd0d745eaea335cb95329"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "edf0922a2bf92b856203da9c11b742be2a46da158ec199e12a6b69870f3fcd51"
+      "sha256": "881c0f34bb93789b669e347eaed252a70faf90fad4641a02c9eddbe2d5f94764"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 259,
-      "sha256": "9bcc362937ca94fd9cc4e6bc72656be2120fe4f7fab6d0f5f0854f411c7ff641"
+      "bytes": 282,
+      "sha256": "3821479307b298327d46a5f5b819408f30d42100f30899e41214f1bd0eba226b"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "version": "v350",
+  "version": "v351",
   "date": "2026-08-23",
-  "note": "Les lignes de reglages ne debordent plus de l ecran sur telephone.",
-  "label": "Reglages sans debordement",
+  "note": "L app ne redemande plus le mot de passe quand le jeton expire et reste utilisable hors connexion.",
+  "label": "Session qui tient",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T11:00:00.000Z"
+  "updated_at": "2026-08-24T12:00:00.000Z"
 }
