@@ -1,9 +1,9 @@
 {
-  "version": "v351",
+  "version": "v352",
   "date": "2026-08-23",
-  "note": "L app ne redemande plus le mot de passe quand le jeton expire et reste utilisable hors connexion.",
-  "label": "Session qui tient",
+  "note": "Un appareil connecte n apparait plus qu une seule fois dans la liste.",
+  "label": "Appareils regroupes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-24T12:00:00.000Z"
+  "updated_at": "2026-08-31T12:00:00.000Z"
 }
