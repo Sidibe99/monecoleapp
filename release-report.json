@@ -1,10 +1,10 @@
 {
-  "version": "v352",
-  "package_version": "1.0.352",
-  "label": "Appareils regroupes",
-  "created_at": "2026-08-31T11:41:48.713Z",
+  "version": "v353",
+  "package_version": "1.0.353",
+  "label": "Pastille et couleurs",
+  "created_at": "2026-08-31T12:11:09.460Z",
   "files": 69,
-  "total_bytes": 10372188,
+  "total_bytes": 10372328,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-C7rJGpQb.js",
-      "bytes": 679746,
-      "sha256": "2d7d089f86c9df42363ae439cafde6a9f1267c8d2f825c52d7ca074848f713f3"
+      "file": "assets/index-BI_dCQ6c.js",
+      "bytes": 679804,
+      "sha256": "03b6aa150d4de8af3999be4c803bd7fcc6ec412bb95172732da5b1a3f97e5683"
     },
     {
-      "file": "assets/index-legacy-BGqFeP17.js",
-      "bytes": 1076928,
-      "sha256": "f7cfb2d5918d10e2d1be911b52698105ba3c171ea972a2951ec8b5b09317f61b"
+      "file": "assets/index-legacy-CDEC-gCD.js",
+      "bytes": 1077001,
+      "sha256": "a1a8997de8fc708930643103001a79dd4ca351f06539163f21a9c40d4f9c6bf6"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "380af75ae197668127721888457e76f7b81eee2b331598e8e3dda82628b58342"
+      "sha256": "4af799e6a8c874275682ca1e74626982f2c21770fb2cdd677ada12576503f21f"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "9989f5698572d7bfec9c77258223bde71bf72811e8778372107e5174e5e88b43"
+      "sha256": "bf1e7f820cbbeb1133f42a994e1d2699d39f91ff0702621acb8febc5111e8d3f"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 256,
-      "sha256": "b01f1458d700c844409293fefcbe0257de5e06ae4fbb510340e8b9c8f8c97c38"
+      "bytes": 265,
+      "sha256": "575e3a48a366423759ad32884ef83419437c890fd9b03d9b8bd97a4c6953a217"
     }
   ]
 }

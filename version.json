@@ -1,9 +1,9 @@
 {
-  "version": "v352",
+  "version": "v353",
   "date": "2026-08-23",
-  "note": "Un appareil connecte n apparait plus qu une seule fois dans la liste.",
-  "label": "Appareils regroupes",
+  "note": "La cloche indique le nombre de messages recus et les cartes suivent le theme.",
+  "label": "Pastille et couleurs",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T12:00:00.000Z"
+  "updated_at": "2026-08-31T12:30:00.000Z"
 }
