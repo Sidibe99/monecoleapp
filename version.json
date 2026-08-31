@@ -1,9 +1,9 @@
 {
-  "version": "v355",
+  "version": "v356",
   "date": "2026-08-31",
-  "note": "Terminologie arabe alignee sur l usage standard : note et classe.",
-  "label": "Arabe standard",
+  "note": "La classe se dit desormais فصل, comme la salle de classe.",
+  "label": "Classe = فصل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T13:10:00.000Z"
+  "updated_at": "2026-08-31T13:30:00.000Z"
 }
