@@ -1,9 +1,9 @@
 {
-  "version": "v363",
+  "version": "v364",
   "date": "2026-08-31",
-  "note": "Chaque definition propose Vikidia et Wikipedia, verifies avant d etre proposes.",
-  "label": "Sources libres",
+  "note": "Court ne vide plus les champs coches : il ne regle que la longueur.",
+  "label": "Court sans effet de bord",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T20:40:00.000Z"
+  "updated_at": "2026-08-31T20:45:00.000Z"
 }
