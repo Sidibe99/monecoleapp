@@ -1,10 +1,10 @@
 {
-  "version": "v361",
-  "package_version": "1.0.361",
-  "label": "Reglages utiles",
-  "created_at": "2026-08-31T19:45:59.763Z",
+  "version": "v362",
+  "package_version": "1.0.362",
+  "label": "Reglages qui agissent",
+  "created_at": "2026-08-31T20:04:32.408Z",
   "files": 71,
-  "total_bytes": 10448864,
+  "total_bytes": 10449548,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,14 +42,14 @@
       "sha256": "cb83b7867bd571af2312cc8c2a409dd715f9698cf6f0b011b2e4eed388e5b1fe"
     },
     {
-      "file": "assets/IAEducative-BtYZeyqA.js",
-      "bytes": 30198,
-      "sha256": "2fc4f83e9c1cb2f7ef73ceff45838775872ebe1b6bac635332983bacc36db1eb"
+      "file": "assets/IAEducative-B5c4-aOV.js",
+      "bytes": 30306,
+      "sha256": "572364a319b0db7c0351edae68cda6cd9032ecbf5f489a1a4a82fbc618d6c268"
     },
     {
-      "file": "assets/IAEducative-legacy-pTGFlS75.js",
-      "bytes": 47751,
-      "sha256": "66b9a1c9e79ed2e6391933a7e2caa344a9a0662001a9b73f70c9b8cf8cfc1af9"
+      "file": "assets/IAEducative-legacy-Bg-wderC.js",
+      "bytes": 47860,
+      "sha256": "1dc067472b75ab7d81225f1a6458fce7e707acea5c8057214fc9ece9fc4d1362"
     },
     {
       "file": "assets/MessageActionsMenu-DwDFtdQR.js",
@@ -144,27 +144,27 @@
     {
       "file": "assets/ia-educative-fallback-legacy.js",
       "bytes": 17609,
-      "sha256": "bfb9fc59d6213f606d68d358e309213714744715a389c24d37e1c53e02c22b00"
+      "sha256": "ed50992ec0649aa4780ba12ff0c3a1f97e45268d5ed4eaec67c9d0b2a6333237"
     },
     {
       "file": "assets/ia-educative-fallback.js",
       "bytes": 14418,
-      "sha256": "498aa91316f463fe7e920e6c1226295556de7c782b71ed1fcaf8d7b645563a3a"
+      "sha256": "6ec552b7e9b72dbe858e74dc940277e0811c3bcda8f25d139a9644d1606e5af6"
     },
     {
-      "file": "assets/index-B8nGodK4.css",
-      "bytes": 302162,
-      "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
+      "file": "assets/index-0A5j4NU2.css",
+      "bytes": 302384,
+      "sha256": "33f4233752861a109b1aa77b4645a278bf961843b0b059f34bc002a470913bad"
     },
     {
-      "file": "assets/index-BHTiLY4a.js",
+      "file": "assets/index-legacy-BCahV5Ga.js",
+      "bytes": 1058987,
+      "sha256": "3212d985e7253f1311e4fd180e4831e4e3fb3bb574ccef289c3b4cd24a208143"
+    },
+    {
+      "file": "assets/index-zSqniVQ9.js",
       "bytes": 663435,
-      "sha256": "57d1a7a97ba366f9665beeeb973ef64612aa20e2a7413f6de88f4c40173eb9ff"
-    },
-    {
-      "file": "assets/index-legacy-7eGIkZwT.js",
-      "bytes": 1058765,
-      "sha256": "3975049e8e22193eda71664241ff8b57739f940827693a63f8427e1cf1f46cdf"
+      "sha256": "6e347abbd6abbc324255902a02ad0631da52f4056275df8d86aa2a000c5a0ad5"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -334,7 +334,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "b1b5a5f8515002b49c35eca7af9c5b3694ac6dab512772373d6a38d399ddebcc"
+      "sha256": "7d202d7dce92e9bf2dbf9c8c9efd5ae8a635ee60450f9646930170c00ebd2f2f"
     },
     {
       "file": "manifest.webmanifest",
@@ -349,7 +349,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "8b17ea9cb4c3eaaa6cbf0864646f7f898734c236826eefc2faf8d61f5901b1bc"
+      "sha256": "eac7a55540235d153597b94823f69018b56d5704646eab768930123e35f3dec5"
     },
     {
       "file": "v.html",
@@ -358,8 +358,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 243,
-      "sha256": "ea0999ae3edd96da14c46a71afa62f1206d8b0242284220b93c3e1130220f7b4"
+      "bytes": 266,
+      "sha256": "a1b999e866a7f6443a6b7a3d02c692eef552fdc433117421c20741351ad45f45"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "version": "v361",
+  "version": "v362",
   "date": "2026-08-31",
-  "note": "Les reglages d impression ne s affichent que s ils agissent.",
-  "label": "Reglages utiles",
+  "note": "Court, Contraires et Origine du mot agissent enfin ; le bouton reste visible.",
+  "label": "Reglages qui agissent",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T19:10:00.000Z"
+  "updated_at": "2026-08-31T19:55:00.000Z"
 }
