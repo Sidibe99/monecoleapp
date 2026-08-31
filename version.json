@@ -1,9 +1,9 @@
 {
-  "version": "v348",
+  "version": "v349",
   "date": "2026-08-23",
-  "note": "La couleur se règle séparément pour l'en-tête et le contenu du tableau ; les mentions officielles ne bougent plus.",
-  "label": "Couleurs du tableau",
-  "scope": "client",
+  "note": "Les limites reglees par le revendeur s appliquent vraiment, et la classe suivante se propose seule.",
+  "label": "Limites et passage",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-08-24T07:55:00.000Z"
+  "updated_at": "2026-08-24T09:00:00.000Z"
 }

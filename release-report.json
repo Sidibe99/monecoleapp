@@ -1,10 +1,10 @@
 {
-  "version": "v348",
-  "package_version": "1.0.348",
-  "label": "Couleurs du tableau",
-  "created_at": "2026-08-24T07:54:51.497Z",
+  "version": "v349",
+  "package_version": "1.0.349",
+  "label": "Limites et passage",
+  "created_at": "2026-08-31T10:17:52.715Z",
   "files": 69,
-  "total_bytes": 10368325,
+  "total_bytes": 10369609,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,14 +147,14 @@
       "sha256": "a85ef9c81bce8580ff9a8b21930bfda35976866258f8495731d244ebffbd585a"
     },
     {
-      "file": "assets/index-IJY7p9uS.js",
-      "bytes": 678537,
-      "sha256": "9398e685edde1fba56733248a0437da4c8edf709adabd58263842053ea4e5051"
+      "file": "assets/index-legacy-BSHnhIee.js",
+      "bytes": 1076344,
+      "sha256": "10f6332db0819825efcc7de694940165dc6ad671d1489b7364d2d29f31356591"
     },
     {
-      "file": "assets/index-legacy-D-ZG9LX0.js",
-      "bytes": 1075663,
-      "sha256": "f395bba7543ceab3befb58795da5a13f4c44f8f8da6cc8da20aae2e99822e3f5"
+      "file": "assets/index-oEJXKY7V.js",
+      "bytes": 679151,
+      "sha256": "16cad88a056c39d8af1a7dbf755774b36bfc70fa1d2d4ea3b5b190a19e07812d"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -324,7 +324,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "3f1c1126bb12f6c48302d8d7291202a1ad06ceb383cfa4db2d687c3e198766bd"
+      "sha256": "64288586ae493f0d76973be2dd10be5fd55f8cc51fb8c7d4a958629a06fbf7c6"
     },
     {
       "file": "manifest.webmanifest",
@@ -339,7 +339,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "28d1ec423caf2d06a390ca009a3a1abdfab4a7be90446db8003178bd490f0314"
+      "sha256": "1e136065e9ad46b6cfe4f036f7943b0c7295c15d5e117e61cd4798153ddac717"
     },
     {
       "file": "v.html",
@@ -348,8 +348,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 305,
-      "sha256": "4894a2dd68b83267fe075a2a99cd52187018615dd47f0dfad9e24bb988df5fd9"
+      "bytes": 294,
+      "sha256": "e10f09ab84880ade5438381b7ce9d48b7bf6b519f49b6043eb8200e538c466c1"
     }
   ]
 }
