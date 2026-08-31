@@ -1,9 +1,9 @@
 {
-  "version": "v364",
+  "version": "v365",
   "date": "2026-08-31",
-  "note": "Court ne vide plus les champs coches : il ne regle que la longueur.",
-  "label": "Court sans effet de bord",
+  "note": "Les contraires reviennent, et chaque bloc vide dit ce qui lui manque.",
+  "label": "Blocs qui s expliquent",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T20:45:00.000Z"
+  "updated_at": "2026-08-31T21:20:00.000Z"
 }

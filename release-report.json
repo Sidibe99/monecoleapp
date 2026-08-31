@@ -1,8 +1,8 @@
 {
-  "version": "v364",
-  "package_version": "1.0.364",
-  "label": "Court sans effet de bord",
-  "created_at": "2026-08-31T21:49:05.381Z",
+  "version": "v365",
+  "package_version": "1.0.365",
+  "label": "Blocs qui s expliquent",
+  "created_at": "2026-08-31T22:07:34.740Z",
   "files": 71,
   "total_bytes": 10453179,
   "artifacts": [
@@ -334,7 +334,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "8c96b8a29b9f7e9c2386a22f8e62b07ee9eae5db94ce8cd54ed468d17ed5fd33"
+      "sha256": "35f043b0e3639226860fceabd38bf3e91f5089d0696bacc2dd8b685b7f4f68ab"
     },
     {
       "file": "manifest.webmanifest",
@@ -349,7 +349,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "372f25b75902abc294039c592e323e1350e8fe6e0a75cddc052d366b155ad9e9"
+      "sha256": "08651159524f72bf07b07fa3c795fba8ce3a20bd4611846d79381bee8d206840"
     },
     {
       "file": "v.html",
@@ -359,7 +359,7 @@
     {
       "file": "version.json",
       "bytes": 259,
-      "sha256": "ac8a5b1986c572a086fef907063bb623ad2b5d1c1b240b425b7c713bca68bac2"
+      "sha256": "9f769469ed342738c41ccb5f36684ca021db5a2ff4a7c570bcb2e865868eefea"
     }
   ]
 }
