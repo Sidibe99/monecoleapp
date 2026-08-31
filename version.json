@@ -1,9 +1,9 @@
 {
-  "version": "v357",
+  "version": "v358",
   "date": "2026-08-31",
-  "note": "IA educative : delai maximal, modele de secours annonce et varie en arabe.",
-  "label": "IA renforcee",
+  "note": "Les trois onglets IA se reglent : nombre, difficulte, format, corrige, seance, classe reelle.",
+  "label": "IA reglable",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T14:05:00.000Z"
+  "updated_at": "2026-08-31T15:20:00.000Z"
 }
