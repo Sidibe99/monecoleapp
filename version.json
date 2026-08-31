@@ -1,9 +1,9 @@
 {
-  "version": "v354",
+  "version": "v355",
   "date": "2026-08-23",
-  "note": "Les cinq cartes du tableau de bord suivent le theme choisi.",
-  "label": "Cartes au theme",
+  "note": "Terminologie arabe alignee sur l usage standard : note et classe.",
+  "label": "Arabe standard",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T12:35:00.000Z"
+  "updated_at": "2026-08-31T13:10:00.000Z"
 }
