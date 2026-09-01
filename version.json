@@ -1,9 +1,9 @@
 {
-  "version": "v382",
+  "version": "v383",
   "date": "2026-09-01",
-  "note": "Cocher une page pour un utilisateur ne lui retire plus les autres.",
-  "label": "Permissions additives",
+  "note": "Une page accordee se lit, jamais plus, et l avertissement accompagne les pages sensibles.",
+  "label": "Lecture accordee",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T18:05:00.000Z"
+  "updated_at": "2026-09-01T18:50:00.000Z"
 }
