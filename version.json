@@ -1,9 +1,9 @@
 {
-  "version": "v368",
-  "date": "2026-08-31",
-  "note": "Le dictionnaire consulte suit l ecriture du mot, plus la langue de generation.",
-  "label": "Le mot choisit son dictionnaire",
+  "version": "v369",
+  "date": "2026-09-01",
+  "note": "Barres pour ce qui se compare, ligne pour ce qui progresse, echelle visible.",
+  "label": "Graphiques lisibles",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T23:10:00.000Z"
+  "updated_at": "2026-09-01T10:45:00.000Z"
 }
