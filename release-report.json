@@ -1,10 +1,10 @@
 {
-  "version": "v378",
-  "package_version": "1.0.378",
-  "label": "Enregistrement clair",
-  "created_at": "2026-09-01T14:09:31.689Z",
+  "version": "v379",
+  "package_version": "1.0.379",
+  "label": "Barre qui ne cache rien",
+  "created_at": "2026-09-01T14:32:15.398Z",
   "files": 73,
-  "total_bytes": 10468042,
+  "total_bytes": 10467911,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,14 +92,14 @@
       "sha256": "db9bf978563a7f86123b5cfa3e8f5c6ae0b08545ea1f57bfdd2e38f577a9ca69"
     },
     {
-      "file": "assets/Parametres-DRqvLfQ8.js",
+      "file": "assets/Parametres-Cie5sIdW.js",
       "bytes": 65604,
-      "sha256": "bdb585c23cda7888878fa4b25dcd1bad14063cfbca1eda6dfd9978bdd8d91a34"
+      "sha256": "f53d7d2f7b3a63d1c6744ce118f0a4acc73f681d0e42dbfb578c904190c5325f"
     },
     {
-      "file": "assets/Parametres-legacy-BvEAqdeJ.js",
+      "file": "assets/Parametres-legacy-DpA9eNmY.js",
       "bytes": 79565,
-      "sha256": "1a5ef49bd8b42de142e05557108fa8b436048033341b5874fad08317808a6c96"
+      "sha256": "27a6ab77c15f5e1641cc5323f8ab61b762b94a7d3dad5259b2172cc6f5aaa630"
     },
     {
       "file": "assets/ParentPortalViews-BJL804gB.js",
@@ -162,19 +162,19 @@
       "sha256": "5ec4db969e048b919b50496d00770460d444110a8117f428e76885393ee4c8a6"
     },
     {
-      "file": "assets/index-BxO6wRPG.js",
+      "file": "assets/index-D6OjgAfp.js",
       "bytes": 664445,
-      "sha256": "23ac2d9b27c6c27649a88973313ec933e961644bc36957cc4cff8a80d87b5352"
+      "sha256": "c2e2dd72030e0476997fd103f76f6f5921b5b70b0fa7db8d11afdad3dbab8b35"
     },
     {
-      "file": "assets/index-FKx8zqpt.css",
-      "bytes": 303669,
-      "sha256": "88838f4d0a6212e690c0864d7f6ad9bd136087c550f43994d7588824756baaa9"
+      "file": "assets/index-LU4s6AOl.css",
+      "bytes": 303626,
+      "sha256": "f4fc6ec087f122ce92f27aab44f5caf11f471d049d70543285bf41656ef9b268"
     },
     {
-      "file": "assets/index-legacy-CJtXHTDm.js",
-      "bytes": 1061287,
-      "sha256": "f784ab3aa653311826e937d1e3052c1389352ba0e10237a2414bd8059de6671d"
+      "file": "assets/index-legacy-CbWipY7H.js",
+      "bytes": 1061244,
+      "sha256": "aeb84e8294b8a445c617eec2e3a9aeeb33207b00473b50a3ecd5270e43c84eda"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -344,7 +344,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "ebcb08c8dc93bf3eb99e9951b8afcc8645c0c69006458d6ed788e548f417655b"
+      "sha256": "8cf813d793f9e0e3795846c2f3e96ebaa65d9625a93495570fbea447ea01d233"
     },
     {
       "file": "manifest.webmanifest",
@@ -359,7 +359,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "db6f7a599e9eb28fa3b374f8269aca1e6002e3322de27c9ee7e5e49d85167c3a"
+      "sha256": "b912e0ebe604f35e2d740d3e440ed47619a07a9f5e1ce11f7f1290cdd30b119c"
     },
     {
       "file": "v.html",
@@ -368,8 +368,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 291,
-      "sha256": "60e903b1b672ae8a80db71fb7d8cfd7e9bc3b4e50cea0f3aa50dd7261bcb46a7"
+      "bytes": 246,
+      "sha256": "d2333b36dd5db86cb57b7b773c67018fbe8d9bd77a8189ee9daf281530774a5c"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "version": "v378",
+  "version": "v379",
   "date": "2026-09-01",
-  "note": "Un seul bouton Enregistrer, une pastille sur l onglet modifie, et des liens qui ouvrent le bon reglage.",
-  "label": "Enregistrement clair",
+  "note": "La barre d enregistrement ne masque plus le formulaire.",
+  "label": "Barre qui ne cache rien",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T14:55:00.000Z"
+  "updated_at": "2026-09-01T15:25:00.000Z"
 }
