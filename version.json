@@ -1,9 +1,9 @@
 {
-  "version": "v376",
+  "version": "v377",
   "date": "2026-09-01",
-  "note": "Les onglets de cycle occupent toute la largeur.",
-  "label": "Onglets etires",
+  "note": "Les reglages sont ranges selon ce qu ils affectent : ecole, scolarite, documents, application, compte.",
+  "label": "Reglages reorganises",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T13:35:00.000Z"
+  "updated_at": "2026-09-01T14:20:00.000Z"
 }
