@@ -1,7 +1,7 @@
 {
   "version": "v372",
   "date": "2026-09-01",
-  "note": "Correctif urgent : le tableau de bord de la v372 ne s affichait plus.",
+  "note": "Correctif urgent : le tableau de bord de la v371 ne s affichait plus.",
   "label": "Correctif tableau de bord",
   "scope": "client",
   "client_visible": true,
