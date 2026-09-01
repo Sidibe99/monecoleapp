@@ -1,9 +1,9 @@
 {
-  "version": "v366",
+  "version": "v367",
   "date": "2026-08-31",
-  "note": "L invite de reparation demande enfin synonymes, contraires et origine.",
-  "label": "Deux invites, une consigne",
+  "note": "Une phrase saisie propose desormais ses mots, cliquables.",
+  "label": "Phrases decoupees",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T21:55:00.000Z"
+  "updated_at": "2026-08-31T22:30:00.000Z"
 }
