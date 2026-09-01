@@ -1,9 +1,9 @@
 {
-  "version": "v381",
+  "version": "v382",
   "date": "2026-09-01",
-  "note": "L en-tete ne laisse plus de vide, et le vert ne dit plus reussite devant un mauvais resultat.",
-  "label": "En-tete rempli",
+  "note": "Cocher une page pour un utilisateur ne lui retire plus les autres.",
+  "label": "Permissions additives",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T17:10:00.000Z"
+  "updated_at": "2026-09-01T18:05:00.000Z"
 }
