@@ -1,9 +1,9 @@
 {
-  "version": "v386",
+  "version": "v387",
   "date": "2026-09-01",
-  "note": "Le theme de l interface reste accessible meme en lecture seule.",
-  "label": "Theme personnel libre",
+  "note": "Les fenetres ne debordent plus : l en-tete et sa croix restent visibles.",
+  "label": "Fenetres tenues",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T20:15:00.000Z"
+  "updated_at": "2026-09-01T20:55:00.000Z"
 }
