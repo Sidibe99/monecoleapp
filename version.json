@@ -1,9 +1,9 @@
 {
-  "version": "v373",
+  "version": "v374",
   "date": "2026-09-01",
-  "note": "La courbe des encaissements affiche le meme total que l indicateur.",
-  "label": "Chiffres concordants",
+  "note": "Les dates d echeance sont enfin dans l onglet Paiement.",
+  "label": "Echeances trouvables",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T12:15:00.000Z"
+  "updated_at": "2026-09-01T12:45:00.000Z"
 }
