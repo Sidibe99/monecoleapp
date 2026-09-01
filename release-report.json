@@ -1,10 +1,10 @@
 {
-  "version": "v385",
-  "package_version": "1.0.385",
-  "label": "Boutons honnetes",
-  "created_at": "2026-09-01T18:39:31.999Z",
+  "version": "v386",
+  "package_version": "1.0.386",
+  "label": "Theme personnel libre",
+  "created_at": "2026-09-01T19:34:23.320Z",
   "files": 73,
-  "total_bytes": 10471241,
+  "total_bytes": 10471250,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -92,14 +92,14 @@
       "sha256": "26e35dcc2fa2105acf25da17b9c7abfc0209e27ad02d3accd6b1d5c0219e4cc8"
     },
     {
-      "file": "assets/Parametres-B32flb2k.js",
+      "file": "assets/Parametres-6NIAcfbi.js",
       "bytes": 65604,
-      "sha256": "c643d99da424dd78b00c8c78812c5c2dd4b00b72f28d344ff196369216e67f17"
+      "sha256": "3fb80eb1e639a3835744088d0c5bf7002ccaff1d55d6afbd9fc4a7a436b92114"
     },
     {
-      "file": "assets/Parametres-legacy-CG5AimKd.js",
+      "file": "assets/Parametres-legacy-CtyUvjj1.js",
       "bytes": 79565,
-      "sha256": "1edd365a6d4affef6a954d8e32f7a6246e7eae79b180ab9004e8e6f010a5f72c"
+      "sha256": "a6286711276304b9d38d3edb2e7b3a7d2f7b4ac85cc2c8869641a919cf240433"
     },
     {
       "file": "assets/ParentPortalViews-BJL804gB.js",
@@ -167,14 +167,14 @@
       "sha256": "bc440cb424b0c1e356b665ccd290c9f85caf6c2063a7ee3c0620261f2a9e90e2"
     },
     {
-      "file": "assets/index-Cz6NKdkp.js",
+      "file": "assets/index-CMe8CsIj.js",
       "bytes": 664997,
-      "sha256": "389347ac74cdedb8d8b943df9b5bff57c13593d730210c3e17c7fc692bed1d9d"
+      "sha256": "6e12c97e2abacc7afaa3610a8d28abcbbb47cfad63a359bf8fca06945d66a744"
     },
     {
-      "file": "assets/index-legacy-C-Tfx325.js",
+      "file": "assets/index-legacy-CzsDTei-.js",
       "bytes": 1062095,
-      "sha256": "25cfcc90e8293336f8f8cb8e12fb33dd22ea53ca7d747b2c405106bcddc5a3fb"
+      "sha256": "51b67bf3060d72c11c94d7c7ea892083ebc7066e496db5f166e993ff3f54bf25"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -344,7 +344,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "79455fbcdc010cbb23b3790b9b177e87b71196e452540121835bc031e7682e90"
+      "sha256": "167b45a59a6694f577b8a6b4a600d4d14a411033263400fbd5e590501a91d099"
     },
     {
       "file": "manifest.webmanifest",
@@ -359,7 +359,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "00e6005b3b64619cab87bcb720d5008a3324daf3a9e4e4f84f4d8bf7144a21af"
+      "sha256": "dab099fc5eb190e145f9cdcfb23537df4e48f6a6d86d785e1bf945cd639cacbf"
     },
     {
       "file": "v.html",
@@ -368,8 +368,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 243,
-      "sha256": "13413cb249870743a3e0390cf40c645212c5c42034e3b3e74443ff9b4c28fd67"
+      "bytes": 252,
+      "sha256": "8aec4eb8e113bb74b16e450afcfec30230b343275807e00f99f0b1221850f0c8"
     }
   ]
 }
