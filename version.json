@@ -1,9 +1,9 @@
 {
-  "version": "v387",
+  "version": "v388",
   "date": "2026-09-01",
-  "note": "Les fenetres ne debordent plus : l en-tete et sa croix restent visibles.",
-  "label": "Fenetres tenues",
+  "note": "La liste des utilisateurs affiche un decompte d acces, cliquable pour le detail.",
+  "label": "Acces au clic",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T20:55:00.000Z"
+  "updated_at": "2026-09-01T21:35:00.000Z"
 }
