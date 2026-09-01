@@ -1,9 +1,9 @@
 {
-  "version": "v379",
+  "version": "v380",
   "date": "2026-09-01",
-  "note": "La barre d enregistrement ne masque plus le formulaire.",
-  "label": "Barre qui ne cache rien",
+  "note": "L origine des mots arrive enfin du Wiktionnaire jusqu a la fiche.",
+  "label": "Origine des mots",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T15:25:00.000Z"
+  "updated_at": "2026-09-01T16:30:00.000Z"
 }
