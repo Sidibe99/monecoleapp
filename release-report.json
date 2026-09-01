@@ -1,10 +1,10 @@
 {
-  "version": "v371",
-  "package_version": "1.0.371",
-  "label": "Demarrage allege",
-  "created_at": "2026-09-01T11:33:40.564Z",
+  "version": "v372",
+  "package_version": "1.0.372",
+  "label": "Correctif tableau de bord",
+  "created_at": "2026-09-01T11:51:37.028Z",
   "files": 73,
-  "total_bytes": 10461293,
+  "total_bytes": 10461329,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/DashboardAnalyticsPanel-CGOyQhWk.js",
-      "bytes": 8499,
-      "sha256": "0ff0d15fbd705496db9ae326ac09602e8d193d26405a12f7340cf358bf1a9371"
+      "file": "assets/DashboardAnalyticsPanel-CBPLaxLg.js",
+      "bytes": 8512,
+      "sha256": "e52c3aa06f2e0e5746cfcf74ee681422e3716c8b5543c4206457c549ddd2c3fc"
     },
     {
-      "file": "assets/DashboardAnalyticsPanel-legacy-dmevUlTJ.js",
-      "bytes": 10030,
-      "sha256": "c5a891e853095a3cf0b764fe174a4e5ffcc6a22602f76125364bdc70b5872dea"
+      "file": "assets/DashboardAnalyticsPanel-legacy-Bt8YM01-.js",
+      "bytes": 10043,
+      "sha256": "7f186306d13a1c2e3f85068281a24f2d134a34d2d646fba9f69e06325ed77139"
     },
     {
       "file": "assets/EditorHub-CZYo9o9L.js",
@@ -167,14 +167,14 @@
       "sha256": "328b1e37cc237497b74b48e8eea7d1f1d11f399b4007b5804f78636c4970c557"
     },
     {
-      "file": "assets/index-DFPrnA-n.js",
+      "file": "assets/index-DPZ768np.js",
       "bytes": 664149,
-      "sha256": "70fd6cd394298e49cff828e063d89b8bf1b4e39a847ffcb0c4497b82bd6212bf"
+      "sha256": "6e3dd9546d02f8f108d2e52e53dfd4972c5e1b97adf0a5ca2dc59d83d22022a4"
     },
     {
-      "file": "assets/index-legacy-DJa-OU0b.js",
+      "file": "assets/index-legacy-C2WJ2vQU.js",
       "bytes": 1059879,
-      "sha256": "bf82a473cd1d41f18b1c58898e37508387a17429c069124f4183c20109573c9a"
+      "sha256": "aefa095c99392f62e302f85fb332001d401c4fd1c5a7a19d038e9708dd83dcf2"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -344,7 +344,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "362ee0eb78be9ff41e4e582eed757d7ac64a04fe73b01844533156990dfbfaab"
+      "sha256": "8f9897d32d84eef76302766eaee581ebd135cf6785c2da48314ab0bfca9ecac5"
     },
     {
       "file": "manifest.webmanifest",
@@ -359,7 +359,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "7568afeb546f9879849121c9ca8e49ffccca50aaedaa0dc4308da97046a9d4ea"
+      "sha256": "7a03c14f32510b7671a1f6e1ac0ccd3f5b5711c3752bc69fa848f31918a164f6"
     },
     {
       "file": "v.html",
@@ -368,8 +368,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 252,
-      "sha256": "3c1afab22d537b833267c90a581c562eef9fe76a72af50ebf072302ae3b0bbdb"
+      "bytes": 262,
+      "sha256": "a1a8943848a9c714ab35f548ba303ac85fcd62575abcb85337e45651d238d2b3"
     }
   ]
 }
