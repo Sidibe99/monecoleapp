@@ -1,10 +1,10 @@
 {
-  "version": "v372",
-  "package_version": "1.0.372",
-  "label": "Correctif tableau de bord",
-  "created_at": "2026-09-01T11:54:52.353Z",
+  "version": "v373",
+  "package_version": "1.0.373",
+  "label": "Chiffres concordants",
+  "created_at": "2026-09-01T12:02:44.422Z",
   "files": 73,
-  "total_bytes": 10461329,
+  "total_bytes": 10461249,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -162,19 +162,19 @@
       "sha256": "5c9560bbe6d4156e6e6235a6592164da3b251c4b54896c9fb8fd0c063862125e"
     },
     {
+      "file": "assets/index-BUEP7BC2.js",
+      "bytes": 664113,
+      "sha256": "e241f31ee891dc9fa21b0e3ae7bffa5b2b1e89fa169655fcc16667ae1ba2c4a8"
+    },
+    {
       "file": "assets/index-CHP7JJhx.css",
       "bytes": 302596,
       "sha256": "328b1e37cc237497b74b48e8eea7d1f1d11f399b4007b5804f78636c4970c557"
     },
     {
-      "file": "assets/index-DPZ768np.js",
-      "bytes": 664149,
-      "sha256": "6e3dd9546d02f8f108d2e52e53dfd4972c5e1b97adf0a5ca2dc59d83d22022a4"
-    },
-    {
-      "file": "assets/index-legacy-C2WJ2vQU.js",
-      "bytes": 1059879,
-      "sha256": "aefa095c99392f62e302f85fb332001d401c4fd1c5a7a19d038e9708dd83dcf2"
+      "file": "assets/index-legacy-GIS8z0W2.js",
+      "bytes": 1059842,
+      "sha256": "dba8b75b63fb0142ee7ea232cb1673ce078b171f04816ecc3f5ac45ac654f2e8"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -344,7 +344,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "8f9897d32d84eef76302766eaee581ebd135cf6785c2da48314ab0bfca9ecac5"
+      "sha256": "ea270a6e6933b9be81340689a51773c2480b3e2eea17190d82aef7bd16466c48"
     },
     {
       "file": "manifest.webmanifest",
@@ -359,7 +359,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "7a03c14f32510b7671a1f6e1ac0ccd3f5b5711c3752bc69fa848f31918a164f6"
+      "sha256": "954252ac8fa00dc4dcee835e0b939ca0e589275d9f9654067e57795de39fb6c8"
     },
     {
       "file": "v.html",
@@ -368,8 +368,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 262,
-      "sha256": "53706387a1f698e52a57d1421018832a10032a4f74ffb488b70087e015b89e77"
+      "bytes": 255,
+      "sha256": "5192fb4c7ef4cf3ac0dc961d0b8b4dcc5079fcf267e94c1ceb0a14083f9e508a"
     }
   ]
 }
