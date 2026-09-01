@@ -1,9 +1,9 @@
 {
-  "version": "v367",
+  "version": "v368",
   "date": "2026-08-31",
-  "note": "Une phrase saisie propose desormais ses mots, cliquables.",
-  "label": "Phrases decoupees",
+  "note": "Le dictionnaire consulte suit l ecriture du mot, plus la langue de generation.",
+  "label": "Le mot choisit son dictionnaire",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-08-31T22:30:00.000Z"
+  "updated_at": "2026-08-31T23:10:00.000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v367",
-  "package_version": "1.0.367",
-  "label": "Phrases decoupees",
-  "created_at": "2026-09-01T08:51:53.421Z",
+  "version": "v368",
+  "package_version": "1.0.368",
+  "label": "Le mot choisit son dictionnaire",
+  "created_at": "2026-09-01T09:58:40.128Z",
   "files": 71,
-  "total_bytes": 10456009,
+  "total_bytes": 10456044,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -334,7 +334,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "171a53636559bce3063cca7bb8bb1cf5b980cf93dc987800db8d4a8b761d944e"
+      "sha256": "ce9ccaeeddc476957f09bc335398bea359ced19d0ddd7a08fef82d60fc4a5b57"
     },
     {
       "file": "manifest.webmanifest",
@@ -349,7 +349,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "ed23ba9485deef23d9a723cc5347575f14bf5d951f00bb2e7ecb15ecec839be0"
+      "sha256": "8c4de828830bec7c52204d1637ff49bf5f3c315061dad5de3430618ccfbc7cbc"
     },
     {
       "file": "v.html",
@@ -358,8 +358,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 242,
-      "sha256": "acbc01e0af36c736d2ffda709990edfc8dcd5588f503f62d56369a84b1d43223"
+      "bytes": 277,
+      "sha256": "82af3b758a1206722724a94330bf06b88857b08dfbdf98eb2d02c4fc7cbe65eb"
     }
   ]
 }
