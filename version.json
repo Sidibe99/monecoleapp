@@ -1,9 +1,9 @@
 {
-  "version": "v391",
+  "version": "v392",
   "date": "2026-09-02",
-  "note": "La surveillance technique quitte le Journal des ecoles pour l espace editeur.",
-  "label": "Erreurs cote editeur",
+  "note": "Le dictionnaire nomme le mot d origine au lieu de dire seulement sa langue.",
+  "label": "Etymologie nommee",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-02T10:45:00.000Z"
+  "updated_at": "2026-09-02T12:00:00.000Z"
 }
