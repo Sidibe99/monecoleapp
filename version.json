@@ -1,9 +1,9 @@
 {
-  "version": "v392",
+  "version": "v394",
   "date": "2026-09-02",
-  "note": "Le dictionnaire nomme le mot d origine au lieu de dire seulement sa langue.",
-  "label": "Etymologie nommee",
-  "scope": "client",
+  "note": "Chaque ecole choisit qui valide les fiches de notes.",
+  "label": "Valideurs par ecole",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-02T12:00:00.000Z"
+  "updated_at": "2026-09-02T15:00:00.000Z"
 }
