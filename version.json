@@ -1,9 +1,9 @@
 {
-  "version": "v388",
+  "version": "v389",
   "date": "2026-09-01",
-  "note": "La liste des utilisateurs affiche un decompte d acces, cliquable pour le detail.",
-  "label": "Acces au clic",
+  "note": "Directrice, Professeure : le role affiche s accorde au genre.",
+  "label": "Roles accordes",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-01T21:35:00.000Z"
+  "updated_at": "2026-09-01T22:20:00.000Z"
 }
