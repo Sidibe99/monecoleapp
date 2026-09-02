@@ -1,10 +1,10 @@
 {
-  "version": "v390",
-  "package_version": "1.0.390",
-  "label": "Journal pour tous",
-  "created_at": "2026-09-02T09:35:46.863Z",
+  "version": "v391",
+  "package_version": "1.0.391",
+  "label": "Erreurs cote editeur",
+  "created_at": "2026-09-02T10:43:03.541Z",
   "files": 75,
-  "total_bytes": 10483081,
+  "total_bytes": 10485363,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,14 +42,14 @@
       "sha256": "543c2a4dbe8f0b9b66103cb1589fc60115559da7b0803606f066ace83477047c"
     },
     {
-      "file": "assets/EditorHub-D52dokIF.js",
-      "bytes": 28020,
-      "sha256": "25bd8d5ed5d837a7f5a678a4fb716973883ceb12d7f4645a71573dca23ba6020"
+      "file": "assets/EditorHub-Cv5MhYOp.js",
+      "bytes": 29160,
+      "sha256": "6ee241d91ed2ef1f173077877bf333b69ebc8adba143f980bc051830dea03333"
     },
     {
-      "file": "assets/EditorHub-legacy-DsiGs4QG.js",
-      "bytes": 37858,
-      "sha256": "f56fd12a2fac456cc5d1683c88e53821a695ab58ecf91ef1bd9d6e53b623cc9a"
+      "file": "assets/EditorHub-legacy-D3ItgdNz.js",
+      "bytes": 39446,
+      "sha256": "63b5c25f020924c0e33050ec8a6736c2021ddc84ad3c79548d8bac4635afcd5d"
     },
     {
       "file": "assets/FicheEleve-CTk7_rOq.js",
@@ -177,14 +177,14 @@
       "sha256": "8b0dbc0fdb1f9dde09720ebe15d377afa88c3c97a8fa1dfdefe65e525cadf205"
     },
     {
-      "file": "assets/index-ChLdtYGU.js",
-      "bytes": 648045,
-      "sha256": "00be612437ba23945e8fc66fbf0d2532d2edac45b81d86d343264a0c27235d80"
+      "file": "assets/index-BmreBqD6.js",
+      "bytes": 647804,
+      "sha256": "ed72cda7f4af4ba793b51e44388e8dd57d0f905c3825fdc84444ee05e2aef053"
     },
     {
-      "file": "assets/index-legacy-Ck_SQEn2.js",
-      "bytes": 1044264,
-      "sha256": "b00d74f090d64b163ef74cfc9063878927db4c7679a5d112428b918891984da8"
+      "file": "assets/index-legacy-BUYV4-EM.js",
+      "bytes": 1044031,
+      "sha256": "b9d312e8d793d5068474b9fa180c7834f1902b9dc9b2d037a2341152bd6e168f"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -354,7 +354,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "d47dd8b995c50ccb4440315b28c638679d2414776d2556f33a9a19ee24b3c69b"
+      "sha256": "74973f64ad080556b749bb95acc0edcc471cf40d6e7505e5a487e8c8ea90c1e7"
     },
     {
       "file": "manifest.webmanifest",
@@ -369,7 +369,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "aba36b0ada9c9d18182eb9631728b9f954eb949acfd937755bc1bb157c1cb893"
+      "sha256": "f9d03af6f3394e39f157584338f50406e9611fafc9e17aab0f83e64116cf2666"
     },
     {
       "file": "v.html",
@@ -378,8 +378,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 237,
-      "sha256": "c650cb6c3d964b6f01f4cd497558600838a2a1ff27469884a67b45801b5802b7"
+      "bytes": 265,
+      "sha256": "c3b89e981f8adeab50f7b1b721f4fd2e28be546ff9c68ff72f5271de827eea46"
     }
   ]
 }
