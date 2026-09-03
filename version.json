@@ -1,9 +1,9 @@
 {
-  "version": "v398",
+  "version": "v399",
   "date": "2026-09-03",
-  "note": "Moins de vide en bas sur mobile, et plus de texte coupe.",
-  "label": "Mobile sans vide",
+  "note": "Le bas des pages mobiles ne reserve plus une bande pour un bouton d angle.",
+  "label": "Bas de page rendu",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-03T13:00:00.000Z"
+  "updated_at": "2026-09-03T14:00:00.000Z"
 }
