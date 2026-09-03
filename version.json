@@ -1,9 +1,9 @@
 {
-  "version": "v395",
+  "version": "v396",
   "date": "2026-09-03",
-  "note": "Le formulaire dit ce qui manque, et la page Presences ne pese plus au demarrage.",
-  "label": "Saisie qui explique",
+  "note": "La fenetre Modifier ne reclame plus un mot de passe qu on peut laisser vide.",
+  "label": "Champ facultatif",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-03T09:00:00.000Z"
+  "updated_at": "2026-09-03T11:00:00.000Z"
 }

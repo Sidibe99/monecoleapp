@@ -1,10 +1,10 @@
 {
-  "version": "v395",
-  "package_version": "1.0.395",
-  "label": "Saisie qui explique",
-  "created_at": "2026-09-03T09:14:07.244Z",
+  "version": "v396",
+  "package_version": "1.0.396",
+  "label": "Champ facultatif",
+  "created_at": "2026-09-03T10:03:19.621Z",
   "files": 77,
-  "total_bytes": 10501197,
+  "total_bytes": 10501619,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -187,14 +187,14 @@
       "sha256": "8b0dbc0fdb1f9dde09720ebe15d377afa88c3c97a8fa1dfdefe65e525cadf205"
     },
     {
-      "file": "assets/index-BbF-a96Z.js",
-      "bytes": 627818,
-      "sha256": "a26342875ecceeb046f05986cecf6f9d7056b65f8f705a2ed13bc3f97dffab58"
+      "file": "assets/index-Cl5ruAMM.js",
+      "bytes": 628030,
+      "sha256": "6d649425bb29c60226def6065b3ed28212a737ef1d10cb92cda8c68a17c2cf96"
     },
     {
-      "file": "assets/index-legacy-7PKS92GL.js",
-      "bytes": 1022639,
-      "sha256": "41d406a1b302b6237f15896551404d191be7f8ff2b04565b7c7efe168ede5f92"
+      "file": "assets/index-legacy-9iPyxHZN.js",
+      "bytes": 1022856,
+      "sha256": "66b817df09eee121f8e4e3efe74c747da4cbf76db0ae24333703f79df7e6ba84"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -364,7 +364,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "d583cb7742ca5375bd1caf39557d93897b2feca57a775a2bf7de64f19238fcf2"
+      "sha256": "531b31dc8a88d6459e1cfe4eba32846c72bf18cc57b03ba6de46c7580c0880ec"
     },
     {
       "file": "manifest.webmanifest",
@@ -379,7 +379,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "25e71347a9c01a53049937a201bbc1089e76b0c3e61df2df09b78dca56e7c851"
+      "sha256": "e89b19c5d5135a474f3eddee6ca6d5d72d6b2cdd9ecabdc36d6241e2f8b5c9c6"
     },
     {
       "file": "v.html",
@@ -388,8 +388,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 267,
-      "sha256": "adbeb4015047ad0dae7aa9f6166b74b0d4cf2192ae9b2b46ce20768401ed8dae"
+      "bytes": 260,
+      "sha256": "fb295c944cd3dc85a1f9e510efa2b15b2d9f26e061d2d32a544921fc11a85249"
     }
   ]
 }
