@@ -1,9 +1,9 @@
 {
-  "version": "v399",
+  "version": "v400",
   "date": "2026-09-03",
-  "note": "Le bas des pages mobiles ne reserve plus une bande pour un bouton d angle.",
-  "label": "Bas de page rendu",
+  "note": "Le vide sous les pages mobiles venait d un rembourrage declare trois fois.",
+  "label": "Marge basse unique",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-03T14:00:00.000Z"
+  "updated_at": "2026-09-03T15:00:00.000Z"
 }

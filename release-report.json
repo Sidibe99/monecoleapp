@@ -1,10 +1,10 @@
 {
-  "version": "v399",
-  "package_version": "1.0.399",
-  "label": "Bas de page rendu",
-  "created_at": "2026-09-03T14:43:31.657Z",
+  "version": "v400",
+  "package_version": "1.0.400",
+  "label": "Marge basse unique",
+  "created_at": "2026-09-03T17:18:20.815Z",
   "files": 77,
-  "total_bytes": 10501978,
+  "total_bytes": 10501967,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -182,19 +182,19 @@
       "sha256": "e543169dfffe8a27ac607a284e00ed69499f002e921142855ac22fa361daa0f9"
     },
     {
-      "file": "assets/index-Co1QNbJs.css",
-      "bytes": 304433,
-      "sha256": "ae2afb1ad80fe3e21528bb5f6b404334378ebda1c3c6bb0f77945f2ed50640ce"
+      "file": "assets/index-CZ4trjPv.css",
+      "bytes": 304427,
+      "sha256": "a1c964ef9ccd4fce82fe63efaac6f46791eac31d6400cda652f95bcb4a63de3d"
     },
     {
-      "file": "assets/index-legacy-BBgh4mMV.js",
-      "bytes": 1023035,
-      "sha256": "e90ef43324b6b4d1e4f9dbd002ed0d052cb98791ef68c3e6bb6c3aca80cb84fc"
-    },
-    {
-      "file": "assets/index-wyPAOZhh.js",
+      "file": "assets/index-CeG_72CI.js",
       "bytes": 628030,
       "sha256": "4a94443fabd2b57a99911614a7deb46f3c4350864202514fa50c4fc15f2647dc"
+    },
+    {
+      "file": "assets/index-legacy-BRV9e--P.js",
+      "bytes": 1023029,
+      "sha256": "f7a2c09d361753595eb2e45543cb891d9080a1ea0cd157c3057f5e24da5b43dd"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -364,7 +364,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "61f234629def146980587eaf94258eac652ea42af2cabe883283a3f16c779f08"
+      "sha256": "14eb3ba639547b247c2bbec8ff7fcf16b5b0cc550e011ac89a7d33fc2affbce6"
     },
     {
       "file": "manifest.webmanifest",
@@ -379,7 +379,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "38c1fdf0900bf28cefc921690ff78706beed366166f723b718eabd3062aa9d63"
+      "sha256": "b574f72d60a3e45ece48c7a7257a8616b33e8ac93cf1ab2ecaaf83608f03670a"
     },
     {
       "file": "v.html",
@@ -388,8 +388,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 259,
-      "sha256": "0394866f5a26f813f230a192b212eec0755c995d80baf966afeae02a55a1ed1a"
+      "bytes": 260,
+      "sha256": "1d0a649b4599986927edcef822b8e4fb217e00bdc7d57aae31a0a938b8e034fb"
     }
   ]
 }
