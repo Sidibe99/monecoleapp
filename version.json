@@ -1,9 +1,9 @@
 {
-  "version": "v400",
+  "version": "v401",
   "date": "2026-09-03",
-  "note": "Le vide sous les pages mobiles venait d un rembourrage declare trois fois.",
-  "label": "Marge basse unique",
+  "note": "Ouvrir un export ne montrait aucun fichier sur macOS.",
+  "label": "Export retrouvable",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-03T15:00:00.000Z"
+  "updated_at": "2026-09-03T16:30:00.000Z"
 }
