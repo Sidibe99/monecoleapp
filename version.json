@@ -1,9 +1,9 @@
 {
-  "version": "v397",
+  "version": "v398",
   "date": "2026-09-03",
-  "note": "Qui a le droit de modifier une section des reglages peut desormais l enregistrer.",
-  "label": "Enregistrer ce qu on modifie",
+  "note": "Moins de vide en bas sur mobile, et plus de texte coupe.",
+  "label": "Mobile sans vide",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-03T12:00:00.000Z"
+  "updated_at": "2026-09-03T13:00:00.000Z"
 }
