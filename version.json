@@ -1,9 +1,9 @@
 {
-  "version": "v394",
-  "date": "2026-09-02",
-  "note": "Chaque ecole choisit qui valide les fiches de notes.",
-  "label": "Valideurs par ecole",
-  "scope": "client+supabase",
+  "version": "v395",
+  "date": "2026-09-03",
+  "note": "Le formulaire dit ce qui manque, et la page Presences ne pese plus au demarrage.",
+  "label": "Saisie qui explique",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-02T15:00:00.000Z"
+  "updated_at": "2026-09-03T09:00:00.000Z"
 }
