@@ -1,10 +1,10 @@
 {
-  "version": "v396",
-  "package_version": "1.0.396",
-  "label": "Champ facultatif",
-  "created_at": "2026-09-03T11:15:15.349Z",
+  "version": "v397",
+  "package_version": "1.0.397",
+  "label": "Enregistrer ce qu on modifie",
+  "created_at": "2026-09-03T11:30:34.312Z",
   "files": 77,
-  "total_bytes": 10501619,
+  "total_bytes": 10501638,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -102,14 +102,14 @@
       "sha256": "271af0208a0b2035006b32888752451329ccc88f8b465cb198a33ea9467afd27"
     },
     {
-      "file": "assets/Parametres-B4Vw3RMh.js",
-      "bytes": 67246,
-      "sha256": "33a185a0872faffaeb2e906a249ec122b10645a99d2aa244e47dadfb152e27fb"
+      "file": "assets/Parametres-BM31fg_Y.js",
+      "bytes": 67247,
+      "sha256": "9ab8ac04ce5d0bc3b94fd6edc7778b53569ee80f0d75280f8b28641447028978"
     },
     {
-      "file": "assets/Parametres-legacy-Rog71Hgf.js",
-      "bytes": 81287,
-      "sha256": "bd55b44a63d76218d2296543b938ae21f1f8425a7ee5939a2b0f9938673d2d67"
+      "file": "assets/Parametres-legacy-BOulH4iX.js",
+      "bytes": 81288,
+      "sha256": "07dce2601a3102d10a44abe925de9d203a2d1d1ec4320ea19887381127891b4f"
     },
     {
       "file": "assets/ParentPortalViews-BJL804gB.js",
@@ -187,14 +187,14 @@
       "sha256": "8b0dbc0fdb1f9dde09720ebe15d377afa88c3c97a8fa1dfdefe65e525cadf205"
     },
     {
-      "file": "assets/index-Cl5ruAMM.js",
+      "file": "assets/index-DxYyApPy.js",
       "bytes": 628030,
-      "sha256": "6d649425bb29c60226def6065b3ed28212a737ef1d10cb92cda8c68a17c2cf96"
+      "sha256": "4a94443fabd2b57a99911614a7deb46f3c4350864202514fa50c4fc15f2647dc"
     },
     {
-      "file": "assets/index-legacy-9iPyxHZN.js",
+      "file": "assets/index-legacy-BQIgg-dc.js",
       "bytes": 1022856,
-      "sha256": "66b817df09eee121f8e4e3efe74c747da4cbf76db0ae24333703f79df7e6ba84"
+      "sha256": "f75c8f96df0a3eaf5fa7341bd5fddd6dd45cf72c0863d2abaf2dca14b5004686"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -364,7 +364,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "531b31dc8a88d6459e1cfe4eba32846c72bf18cc57b03ba6de46c7580c0880ec"
+      "sha256": "d96d777f652c2fcee96f0bf7bd3cbdd24b4ccf08a028fac08f8a02892e6f997d"
     },
     {
       "file": "manifest.webmanifest",
@@ -379,7 +379,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "e89b19c5d5135a474f3eddee6ca6d5d72d6b2cdd9ecabdc36d6241e2f8b5c9c6"
+      "sha256": "45609cf5a24d074af50769bcf01c4e5b50902a6d5a94602d3d7b41fec9bef393"
     },
     {
       "file": "v.html",
@@ -388,8 +388,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 260,
-      "sha256": "fb295c944cd3dc85a1f9e510efa2b15b2d9f26e061d2d32a544921fc11a85249"
+      "bytes": 277,
+      "sha256": "9be65594d7ae80b48339b6a65e164a1107aab63cb0a725d33ddb7fa0b7d78295"
     }
   ]
 }

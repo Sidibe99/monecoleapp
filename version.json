@@ -1,9 +1,9 @@
 {
-  "version": "v396",
+  "version": "v397",
   "date": "2026-09-03",
-  "note": "La fenetre Modifier ne reclame plus un mot de passe qu on peut laisser vide.",
-  "label": "Champ facultatif",
+  "note": "Qui a le droit de modifier une section des reglages peut desormais l enregistrer.",
+  "label": "Enregistrer ce qu on modifie",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-03T11:00:00.000Z"
+  "updated_at": "2026-09-03T12:00:00.000Z"
 }
