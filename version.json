@@ -1,12 +1,9 @@
 {
-  "version": "v418",
+  "version": "v419",
   "date": "2026-09-05",
-  "note": "Une fiche arabe a ses titres en arabe, et ses parentheses a l endroit dans le PDF.",
-  "label": "Titres en arabe",
-  "scope": "client+supabase",
-  "deploiement": [
-    "ia-educative"
-  ],
+  "note": "Dans le PDF arabe, parentheses et ponctuation se placent comme dans un navigateur.",
+  "label": "Signes du PDF arabe",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T02:30:00.000Z"
+  "updated_at": "2026-09-05T03:20:00.000Z"
 }
