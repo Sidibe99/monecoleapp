@@ -1,9 +1,10 @@
 {
-  "version": "v404",
+  "version": "v406",
   "date": "2026-09-03",
-  "note": "Supprimer definitivement une ecole et toutes ses donnees, sous six garde-fous.",
-  "label": "Suppression definitive",
+  "note": "L assistant professeur redige une vraie lecon, adaptee au niveau, avec etymologie sourcee.",
+  "label": "Une vraie lecon",
   "scope": "client+supabase",
+  "deploiement": ["ia-educative"],
   "client_visible": true,
-  "updated_at": "2026-09-03T19:00:00.000Z"
+  "updated_at": "2026-09-03T21:00:00.000Z"
 }
