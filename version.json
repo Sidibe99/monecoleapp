@@ -1,12 +1,9 @@
 {
-  "version": "v421",
+  "version": "v422",
   "date": "2026-09-05",
-  "note": "La definition s enrichit : mots de la meme famille, phrase pour la classe, a retenir, mini-exercice, PDF.",
-  "label": "Definitions renforcees",
-  "scope": "client+supabase",
-  "deploiement": [
-    "ia-educative"
-  ],
+  "note": "La connexion hors ligne accepte un jeton expire ; le controle de publication attend jusqu a huit minutes.",
+  "label": "Hors ligne eprouve",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T05:20:00.000Z"
+  "updated_at": "2026-09-05T06:30:00.000Z"
 }
