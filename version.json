@@ -1,8 +1,8 @@
 {
-  "version": "v408",
+  "version": "v409",
   "date": "2026-09-04",
-  "note": "L assistant rend une vraie lecon, et le controle d identifiants couvre le serveur.",
-  "label": "Lecon riche",
+  "note": "La fiche cite les types, hierarchise ses titres et retrouve l origine des mots.",
+  "label": "Assistant adaptatif",
   "scope": "client+supabase",
   "deploiement": ["ia-educative"],
   "client_visible": true,

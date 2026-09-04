@@ -1,10 +1,10 @@
 {
-  "version": "v408",
-  "package_version": "1.0.408",
-  "label": "Lecon riche",
-  "created_at": "2026-09-04T12:30:02.370Z",
+  "version": "v409",
+  "package_version": "1.0.409",
+  "label": "Assistant adaptatif",
+  "created_at": "2026-09-04T15:30:17.394Z",
   "files": 79,
-  "total_bytes": 10519502,
+  "total_bytes": 10519507,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -374,7 +374,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "82fbf193fc1139e314eba6bbc1a17eaf5ffafb2b0d662a39c021d61844085092"
+      "sha256": "d492f93c47c19b26e90b17b38e70268c2fd24420cc36a793aeb3f073e7eaaded"
     },
     {
       "file": "manifest.webmanifest",
@@ -389,7 +389,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "fa5c0c4b8b538855f123bf667a7477c5119be0a2fb0471965d14fa218987fd8a"
+      "sha256": "75bde63bba9adc444e8095378e9e83d74a7af206a7295dd28ad11f674e1c9ca0"
     },
     {
       "file": "v.html",
@@ -398,8 +398,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 305,
-      "sha256": "822a9a83a34c85826f6b8fc6c50f9c894c72089f15ec0e70552c1e024c3d3365"
+      "bytes": 310,
+      "sha256": "c6bbc026aae0620d1ec0f8b1c337e846ccee2000034aac2095dc841c33499904"
     }
   ]
 }
