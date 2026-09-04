@@ -1,9 +1,12 @@
 {
-  "version": "v419",
+  "version": "v420",
   "date": "2026-09-05",
-  "note": "Dans le PDF arabe, parentheses et ponctuation se placent comme dans un navigateur.",
-  "label": "Signes du PDF arabe",
-  "scope": "client",
+  "note": "Les exercices sortent propres : sans phrase d accueil, sans filets ni italiques, et en PDF.",
+  "label": "Exercices propres",
+  "scope": "client+supabase",
+  "deploiement": [
+    "ia-educative"
+  ],
   "client_visible": true,
-  "updated_at": "2026-09-05T03:20:00.000Z"
+  "updated_at": "2026-09-05T04:10:00.000Z"
 }
