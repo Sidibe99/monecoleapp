@@ -1,9 +1,9 @@
 {
-  "version": "v416",
+  "version": "v417",
   "date": "2026-09-05",
-  "note": "La fiche se telecharge en PDF, professeur ou eleve, prete a partager.",
-  "label": "Fiche en PDF",
+  "note": "Le PDF ecrit aussi l arabe, avec une vraie police, lettres liees et chiffres dans l ordre.",
+  "label": "PDF en arabe",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T00:20:00.000Z"
+  "updated_at": "2026-09-05T01:10:00.000Z"
 }
