@@ -1,9 +1,12 @@
 {
-  "version": "v417",
+  "version": "v418",
   "date": "2026-09-05",
-  "note": "Le PDF ecrit aussi l arabe, avec une vraie police, lettres liees et chiffres dans l ordre.",
-  "label": "PDF en arabe",
-  "scope": "client",
+  "note": "Une fiche arabe a ses titres en arabe, et ses parentheses a l endroit dans le PDF.",
+  "label": "Titres en arabe",
+  "scope": "client+supabase",
+  "deploiement": [
+    "ia-educative"
+  ],
   "client_visible": true,
-  "updated_at": "2026-09-05T01:10:00.000Z"
+  "updated_at": "2026-09-05T02:30:00.000Z"
 }
