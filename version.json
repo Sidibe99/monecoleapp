@@ -1,9 +1,9 @@
 {
-  "version": "v422",
+  "version": "v423",
   "date": "2026-09-05",
-  "note": "La connexion hors ligne accepte un jeton expire ; le controle de publication attend jusqu a huit minutes.",
-  "label": "Hors ligne eprouve",
+  "note": "Le tableau de bord s ouvre sur la periode du jour et le cycle le plus peuple ; actions rapides lisibles sur telephone.",
+  "label": "Tableau de bord",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T06:30:00.000Z"
+  "updated_at": "2026-09-05T07:40:00.000Z"
 }
