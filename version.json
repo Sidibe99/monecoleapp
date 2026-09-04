@@ -1,9 +1,9 @@
 {
-  "version": "v403",
+  "version": "v404",
   "date": "2026-09-03",
-  "note": "Le suivi montre ce que les ecoles font, et une ecole neuve demarre avec ses classes.",
-  "label": "Usage reel des ecoles",
-  "scope": "client",
+  "note": "Supprimer definitivement une ecole et toutes ses donnees, sous six garde-fous.",
+  "label": "Suppression definitive",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-03T18:30:00.000Z"
+  "updated_at": "2026-09-03T19:00:00.000Z"
 }
