@@ -1,10 +1,10 @@
 {
-  "version": "v407",
+  "version": "v408",
   "date": "2026-09-04",
-  "note": "Type de seance Lecon, et le serveur cesse de couper l IA avant la fin.",
-  "label": "Lecon et delais",
+  "note": "L assistant rend une vraie lecon, et le controle d identifiants couvre le serveur.",
+  "label": "Lecon riche",
   "scope": "client+supabase",
   "deploiement": ["ia-educative"],
   "client_visible": true,
-  "updated_at": "2026-09-04T12:00:00.000Z"
+  "updated_at": "2026-09-04T15:00:00.000Z"
 }

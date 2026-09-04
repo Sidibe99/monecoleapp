@@ -1,10 +1,10 @@
 {
-  "version": "v407",
-  "package_version": "1.0.407",
-  "label": "Lecon et delais",
-  "created_at": "2026-09-04T11:27:54.553Z",
+  "version": "v408",
+  "package_version": "1.0.408",
+  "label": "Lecon riche",
+  "created_at": "2026-09-04T12:30:02.370Z",
   "files": 79,
-  "total_bytes": 10519494,
+  "total_bytes": 10519502,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -374,7 +374,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "8ea4a55e33323ef047052a8d482e04c07ea6fb99c808b81ebb54b1649c278cab"
+      "sha256": "82fbf193fc1139e314eba6bbc1a17eaf5ffafb2b0d662a39c021d61844085092"
     },
     {
       "file": "manifest.webmanifest",
@@ -389,7 +389,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "388ee314a8653eff11e4bae212dae83ced1baf06288925368c35e1eb1cfcc4b9"
+      "sha256": "fa5c0c4b8b538855f123bf667a7477c5119be0a2fb0471965d14fa218987fd8a"
     },
     {
       "file": "v.html",
@@ -398,8 +398,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 297,
-      "sha256": "0ba6a3f42cfa5c5f4df1acbd9df55edb3a7296179ed1847b16bc8e1cb505dcd3"
+      "bytes": 305,
+      "sha256": "822a9a83a34c85826f6b8fc6c50f9c894c72089f15ec0e70552c1e024c3d3365"
     }
   ]
 }
