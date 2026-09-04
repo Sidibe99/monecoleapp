@@ -1,9 +1,12 @@
 {
-  "version": "v413",
+  "version": "v414",
   "date": "2026-09-04",
-  "note": "Les cours prepares avec l assistant s enregistrent sur le serveur de l ecole.",
-  "label": "Cours enregistres",
+  "note": "Une fiche se retouche sans la recommencer : simplifier, developper, exemples, exercices, traduire, adapter.",
+  "label": "Retouches de fiche",
   "scope": "client+supabase",
+  "deploiement": [
+    "ia-educative"
+  ],
   "client_visible": true,
-  "updated_at": "2026-09-04T21:10:00.000Z"
+  "updated_at": "2026-09-04T22:40:00.000Z"
 }
