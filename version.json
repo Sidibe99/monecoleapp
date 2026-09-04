@@ -1,10 +1,10 @@
 {
-  "version": "v406",
-  "date": "2026-09-03",
-  "note": "L assistant professeur redige une vraie lecon, adaptee au niveau, avec etymologie sourcee.",
-  "label": "Une vraie lecon",
+  "version": "v407",
+  "date": "2026-09-04",
+  "note": "Type de seance Lecon, et le serveur cesse de couper l IA avant la fin.",
+  "label": "Lecon et delais",
   "scope": "client+supabase",
   "deploiement": ["ia-educative"],
   "client_visible": true,
-  "updated_at": "2026-09-03T21:00:00.000Z"
+  "updated_at": "2026-09-04T12:00:00.000Z"
 }
