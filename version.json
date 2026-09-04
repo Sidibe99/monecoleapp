@@ -1,12 +1,9 @@
 {
-  "version": "v415",
-  "date": "2026-09-04",
-  "note": "Le professeur retouche sa fiche avec ses mots : une demande libre, bornee et cadree.",
-  "label": "Demande libre",
-  "scope": "client+supabase",
-  "deploiement": [
-    "ia-educative"
-  ],
+  "version": "v416",
+  "date": "2026-09-05",
+  "note": "La fiche se telecharge en PDF, professeur ou eleve, prete a partager.",
+  "label": "Fiche en PDF",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-04T23:30:00.000Z"
+  "updated_at": "2026-09-05T00:20:00.000Z"
 }
