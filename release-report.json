@@ -1,10 +1,10 @@
 {
-  "version": "v409",
-  "package_version": "1.0.409",
-  "label": "Assistant adaptatif",
-  "created_at": "2026-09-04T15:30:17.394Z",
+  "version": "v411",
+  "package_version": "1.0.411",
+  "label": "Fiche pedagogique",
+  "created_at": "2026-09-04T17:13:52.401Z",
   "files": 79,
-  "total_bytes": 10519507,
+  "total_bytes": 10519508,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -62,14 +62,14 @@
       "sha256": "47b6630d59b1e1669702320a2dfecead202586702dd83212ca38864b5b8bb066"
     },
     {
-      "file": "assets/IAEducative-D64csEw3.js",
+      "file": "assets/IAEducative-lWfvpt5F.js",
       "bytes": 32665,
-      "sha256": "2a97db9dad6afae7f5ac5e3b37ab57e94ea6ffaea65b673cdc644a42d2ebb657"
+      "sha256": "3de73ec4b8c5e74a151124a35721db5e8f8d5d08705e85c1ca3a1aada1fa8f18"
     },
     {
-      "file": "assets/IAEducative-legacy-Cf17XoeW.js",
+      "file": "assets/IAEducative-legacy-DZDUBfPk.js",
       "bytes": 50366,
-      "sha256": "b871c645407a046a30f089673fdcd5651fe5ea3bf21bfa91a106535e071e6f61"
+      "sha256": "905072213878c03ddf15529efc31dd21b259b51be4d1682adbc83656afbe4b2e"
     },
     {
       "file": "assets/MessageActionsMenu-DwDFtdQR.js",
@@ -184,17 +184,12 @@
     {
       "file": "assets/ia-educative-fallback-legacy.js",
       "bytes": 17639,
-      "sha256": "18fbfe1dab51f55735fd3bdebb95f8afd9ef3a94b885df92ee83966ab5f217e0"
+      "sha256": "0c7a1e376c87a3aee74d6fbecc2f5cea3ecbf5eb454d1b2229f5db732d4784f3"
     },
     {
       "file": "assets/ia-educative-fallback.js",
       "bytes": 14448,
-      "sha256": "3c667aa0957e2ede787587f7f82eda349361fee51c2af575f6f91af1e2c856da"
-    },
-    {
-      "file": "assets/index-COqarP9r.js",
-      "bytes": 628922,
-      "sha256": "b7b48d2c391001c0d31028bcf96794b446b33d2a2e3be9eac08ca4ccb53ca21d"
+      "sha256": "e61bb5ea3803793e83d41af2f6565c696828fa7be23ca8e49607d8a1111ae121"
     },
     {
       "file": "assets/index-CZ4trjPv.css",
@@ -202,9 +197,14 @@
       "sha256": "a1c964ef9ccd4fce82fe63efaac6f46791eac31d6400cda652f95bcb4a63de3d"
     },
     {
-      "file": "assets/index-legacy-D8f6ZsTF.js",
+      "file": "assets/index-D4Lt9lt4.js",
+      "bytes": 628922,
+      "sha256": "adcc141c24b2497b806c61510fa467647e144de9996cb31837263b045c7c6158"
+    },
+    {
+      "file": "assets/index-legacy-BkQNqmbZ.js",
       "bytes": 1024290,
-      "sha256": "5c96bff6cc3f01eaf2d69069cf75c51bffe71f9d6987827d52864157f1931853"
+      "sha256": "d05af5b270d5ac1f267191e91176aa57f23878e23aa3c8e0d086b4c0f9601b75"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -374,7 +374,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "d492f93c47c19b26e90b17b38e70268c2fd24420cc36a793aeb3f073e7eaaded"
+      "sha256": "9d51d854a6d4463602cec1f84de3edb96db86d63984af34710a587815b28c015"
     },
     {
       "file": "manifest.webmanifest",
@@ -389,7 +389,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "75bde63bba9adc444e8095378e9e83d74a7af206a7295dd28ad11f674e1c9ca0"
+      "sha256": "6a2af918b1d2ff76d05fe87f477ed5464099b2c25374eec4aa1378dcdd252280"
     },
     {
       "file": "v.html",
@@ -398,8 +398,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 310,
-      "sha256": "c6bbc026aae0620d1ec0f8b1c337e846ccee2000034aac2095dc841c33499904"
+      "bytes": 311,
+      "sha256": "d9b59a763d40c05d55d02493e2a772fcab43f5ca526eb60258c9650528f8193d"
     }
   ]
 }
