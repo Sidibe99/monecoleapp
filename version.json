@@ -1,12 +1,12 @@
 {
-  "version": "v414",
+  "version": "v415",
   "date": "2026-09-04",
-  "note": "Une fiche se retouche sans la recommencer : simplifier, developper, exemples, exercices, traduire, adapter.",
-  "label": "Retouches de fiche",
+  "note": "Le professeur retouche sa fiche avec ses mots : une demande libre, bornee et cadree.",
+  "label": "Demande libre",
   "scope": "client+supabase",
   "deploiement": [
     "ia-educative"
   ],
   "client_visible": true,
-  "updated_at": "2026-09-04T22:40:00.000Z"
+  "updated_at": "2026-09-04T23:30:00.000Z"
 }
