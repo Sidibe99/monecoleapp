@@ -1,9 +1,9 @@
 {
-  "version": "v449",
+  "version": "v450",
   "date": "2026-09-06",
-  "note": "Dans Utilisateurs, un compte de direction, de censeur ou de secretaire peut etre limite a des cycles : directeur du primaire, proviseur du secondaire. Aucune case cochee = toute l ecole.",
-  "label": "Le perimetre par cycle se regle dans Utilisateurs",
+  "note": "Nouveau role Proviseur : une direction pour le college et le lycee, avec les memes droits qu un directeur, dans son perimetre.",
+  "label": "Le role Proviseur",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-06T08:30:00.000Z"
+  "updated_at": "2026-09-06T10:00:00.000Z"
 }
