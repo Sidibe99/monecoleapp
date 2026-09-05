@@ -1,9 +1,9 @@
 {
-  "version": "v439",
+  "version": "v440",
   "date": "2026-09-05",
-  "note": "Nouvelle page Discipline : signaler, decider, garder le dossier de l eleve sans rien effacer. Les pages cochees pour un compte s ajoutent a celles du role, dans la base comme a l ecran.",
-  "label": "La discipline, et les pages cochees qui s ajoutent",
-  "scope": "client+supabase",
-  "client_visible": true,
-  "updated_at": "2026-09-06T00:15:00.000Z"
+  "note": "Dans la page Discipline, le nom de l eleve ne se coupe plus lettre a lettre sur un ecran etroit ; le tableau glisse de cote.",
+  "label": "Le nom de l eleve tient sur une ligne",
+  "scope": "client",
+  "client_visible": false,
+  "updated_at": "2026-09-06T00:50:00.000Z"
 }

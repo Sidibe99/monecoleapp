@@ -1,10 +1,10 @@
 {
-  "version": "v439",
-  "package_version": "1.0.439",
-  "label": "La discipline, et les pages cochees qui s ajoutent",
-  "created_at": "2026-09-05T15:32:39.751Z",
+  "version": "v440",
+  "package_version": "1.0.440",
+  "label": "Le nom de l eleve tient sur une ligne",
+  "created_at": "2026-09-05T15:59:34.081Z",
   "files": 98,
-  "total_bytes": 12530508,
+  "total_bytes": 12530492,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,14 +52,14 @@
       "sha256": "2ccf4b153384e5a604942ef0a4ed6674ffbcb604e8dd37a7d9f41323874cb73e"
     },
     {
-      "file": "assets/Discipline-B7gedhQa.js",
-      "bytes": 15302,
-      "sha256": "c7e4140b56193757a11514fa731abc04c7b1d73b456605ab646682b594f7e523"
+      "file": "assets/Discipline-ar1Q7oId.js",
+      "bytes": 15335,
+      "sha256": "fc27cee5120f78e9920f7f543b6be2dad96e2343a036c15a979c3606c5d2eaa0"
     },
     {
-      "file": "assets/Discipline-legacy-CZ0r9xBM.js",
-      "bytes": 22813,
-      "sha256": "e4b7ff44e16ba92dedc6018a203790867242995725a7c834a03ea81625a766e6"
+      "file": "assets/Discipline-legacy-CAlk-xP3.js",
+      "bytes": 22846,
+      "sha256": "e6c1fdbd9804bbf9a4c34cfec022a0995b6cee3349f18e5cf9bdea365e2cde32"
     },
     {
       "file": "assets/EditorHub-EqokGJvH.js",
@@ -247,14 +247,14 @@
       "sha256": "c53bee7e8e6d7b3aeafd2892e43fd35a0fb66cdbc3b1991f474cc92f34d751d8"
     },
     {
-      "file": "assets/index-Bz_CirH7.js",
+      "file": "assets/index-DyER-_fE.js",
       "bytes": 625451,
-      "sha256": "a1c10c0f19718fefab7480fcc01b3beadd262f8cbd01a98ea7a44e20323e1c6f"
+      "sha256": "4a8ee20f3909ce090912f9bb70d0c795cf17228ae423b3b068f9373e93e4e630"
     },
     {
-      "file": "assets/index-legacy-DNzD0tZu.js",
+      "file": "assets/index-legacy-Ci26nKS-.js",
       "bytes": 1022192,
-      "sha256": "e2b322975276d1c98dae33a6f5beae237ebffe064a8d5e0e699e6c066224a683"
+      "sha256": "0be7186124c5f9bd47045a88db28e11158aada52797a1ea4e9ef87e6aa07143b"
     },
     {
       "file": "assets/index.es-6WemuGzT.js",
@@ -469,7 +469,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "0bf492d7ace7647e6839c1522b1bba82de139a2b57664bca1946376b06bf9106"
+      "sha256": "6679ca10527b89f6c4952b2b2c2d10ef499196a88c394953753e824b305a3f62"
     },
     {
       "file": "manifest.webmanifest",
@@ -484,7 +484,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "0b954735106dfb5b8f357a1a7683dba29e64f8c8c72c443520f69e88d86ab8d2"
+      "sha256": "fbc5e22ede7832ee5d4ca3f061a96fad1f7338d3ae14695f0f0abf683fc35dd1"
     },
     {
       "file": "v.html",
@@ -493,8 +493,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 412,
-      "sha256": "c55bf2713992ffc801ab4fa4d78f255fd342ed6c654a641d70d860293fef0b04"
+      "bytes": 330,
+      "sha256": "32c6ac7e935d07807ae96b6ca3c61a68a770c38b10a6c28b8709d90f9d5aa336"
     }
   ]
 }
