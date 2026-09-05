@@ -1,9 +1,9 @@
 {
-  "version": "v428",
+  "version": "v429",
   "date": "2026-09-05",
-  "note": "Tableau de bord en arabe, fin : actions des alertes, jour de la semaine, cycles, periodes, fleches.",
-  "label": "Arabe, suite",
+  "note": "Dernier reste francais du tableau de bord arabe : le nombre d eleves en retard de paiement.",
+  "label": "Arabe, fin",
   "scope": "client",
-  "client_visible": true,
-  "updated_at": "2026-09-05T12:30:00.000Z"
+  "client_visible": false,
+  "updated_at": "2026-09-05T13:10:00.000Z"
 }

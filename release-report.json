@@ -1,10 +1,10 @@
 {
-  "version": "v428",
-  "package_version": "1.0.428",
-  "label": "Arabe, suite",
-  "created_at": "2026-09-05T10:11:06.863Z",
+  "version": "v429",
+  "package_version": "1.0.429",
+  "label": "Arabe, fin",
+  "created_at": "2026-09-05T10:20:07.782Z",
   "files": 94,
-  "total_bytes": 12456755,
+  "total_bytes": 12456814,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -222,9 +222,9 @@
       "sha256": "e93d784bed9386407f120814d322658eaed735247d9aee650568ebb05f387a84"
     },
     {
-      "file": "assets/index-B-qfac5Z.js",
-      "bytes": 627277,
-      "sha256": "20d21c2a8204d390727a103921245168c4d184b25cf7fd705cf66d8fe641d47f"
+      "file": "assets/index-CW_80F4L.js",
+      "bytes": 627311,
+      "sha256": "1cb755980513268856253c86a920ae28111fc8291aa6d1796848cf9e9bd4f831"
     },
     {
       "file": "assets/index-NWQOU339.css",
@@ -232,9 +232,9 @@
       "sha256": "463fdeaf282c7803958da5d5509cd422df91850cbc6aa4c503bf3c377dad07ef"
     },
     {
-      "file": "assets/index-legacy-DXsxMXQB.js",
-      "bytes": 1023944,
-      "sha256": "425720ca5ad1ac39f0868ffcbf0f2fcecb4ee4444a0b577daf1eccbab27621d7"
+      "file": "assets/index-legacy-8BFooinT.js",
+      "bytes": 1023978,
+      "sha256": "0d1fbb2b4c940148ccf7bee06bd481577952957bbde373fb9e310f79e6ea1b91"
     },
     {
       "file": "assets/index.es-DkFVYjXV.js",
@@ -449,7 +449,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "6acbf924e4dd28320545384653752011a1b45fb9073d74da316e6bdc085e72c4"
+      "sha256": "26e437295195a7fbd4e68cdc949d303e33cb0d5f76feac9e9925be19252d553e"
     },
     {
       "file": "manifest.webmanifest",
@@ -464,7 +464,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "cca15b86fecd182ff046c551c8b84477bcc2fe484ba934e15d638245b85ba369"
+      "sha256": "e4c0f5bd1280746d5a1c8ba4d91e48b74b4de33596f3141c4cb63e6e6f662d31"
     },
     {
       "file": "v.html",
@@ -473,8 +473,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 279,
-      "sha256": "b2d3d4dac755d15f53c421d5c37ec24766e765d67a0bb38132974ca38b8844a2"
+      "bytes": 270,
+      "sha256": "71f0d5a5ed68e081bdef398e7dcd99e791ef70dc4b945b0ecb94bff08b179d84"
     }
   ]
 }
