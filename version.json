@@ -1,9 +1,9 @@
 {
-  "version": "v430",
+  "version": "v431",
   "date": "2026-09-05",
-  "note": "Resultats scolaires, Journal, Corbeille, roles, mois et cycles parlent arabe.",
-  "label": "Arabe : resultats et journal",
+  "note": "Formules, statuts des resultats, colonnes des fiches, journal et mois des versements parlent arabe.",
+  "label": "Arabe : formules et fiches",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T14:30:00.000Z"
+  "updated_at": "2026-09-05T15:40:00.000Z"
 }
