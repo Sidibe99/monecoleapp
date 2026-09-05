@@ -1,9 +1,9 @@
 {
-  "version": "v440",
-  "date": "2026-09-05",
-  "note": "Dans la page Discipline, le nom de l eleve ne se coupe plus lettre a lettre sur un ecran etroit ; le tableau glisse de cote.",
-  "label": "Le nom de l eleve tient sur une ligne",
-  "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-06T00:50:00.000Z"
+  "version": "v441",
+  "date": "2026-09-06",
+  "note": "Le professeur peut noter un retard a l appel. Le censeur, la secretaire et la direction justifient une absence apres coup, sans toucher a l appel. Le tableau de bord signale les retards du jour et les absences repetees.",
+  "label": "Les retards et la justification des absences",
+  "scope": "client+supabase",
+  "client_visible": true,
+  "updated_at": "2026-09-06T01:30:00.000Z"
 }
