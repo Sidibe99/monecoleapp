@@ -1,9 +1,9 @@
 {
-  "version": "v450",
+  "version": "v452",
   "date": "2026-09-06",
-  "note": "Nouveau role Proviseur : une direction pour le college et le lycee, avec les memes droits qu un directeur, dans son perimetre.",
-  "label": "Le role Proviseur",
+  "note": "Chaque direction valide les passages de ses cycles ; la cloture de l annee, reservee a une direction sur toute l ecole, exige que tous les cycles soient valides et applique exactement ces decisions.",
+  "label": "Les passages valides cycle par cycle",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-06T10:00:00.000Z"
+  "updated_at": "2026-09-06T12:30:00.000Z"
 }
