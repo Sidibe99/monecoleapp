@@ -1,9 +1,9 @@
 {
-  "version": "v425",
+  "version": "v426",
   "date": "2026-09-05",
-  "note": "Pourcentages et espaces coherents sur tous les onglets : Presences, Paiements, Eleves, Emploi du temps, Formules.",
-  "label": "Formats coherents",
+  "note": "Le site public ne garde plus que deux semaines d anciennes versions.",
+  "label": "Site allege",
   "scope": "client",
-  "client_visible": true,
-  "updated_at": "2026-09-05T09:30:00.000Z"
+  "client_visible": false,
+  "updated_at": "2026-09-05T10:20:00.000Z"
 }

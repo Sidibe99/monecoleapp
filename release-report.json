@@ -1,10 +1,10 @@
 {
-  "version": "v425",
-  "package_version": "1.0.425",
-  "label": "Formats coherents",
-  "created_at": "2026-09-05T07:18:22.689Z",
+  "version": "v426",
+  "package_version": "1.0.426",
+  "label": "Site allege",
+  "created_at": "2026-09-05T08:30:27.898Z",
   "files": 94,
-  "total_bytes": 12452235,
+  "total_bytes": 12452185,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -449,7 +449,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "c2e17ef5df162ddeaf82fc0d05313c2baa903cf99e75524a432ea0d619b8e9de"
+      "sha256": "86a320931ecde2d7bce334b1e324cc7effa52bca3190a52fe90f4dff71f8c522"
     },
     {
       "file": "manifest.webmanifest",
@@ -464,7 +464,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "b872646d91d247969faf64ab5dd25f3be855b9fd595cf6e70924b0610acd54dd"
+      "sha256": "1d04befc7ca88a8991caa36cfed8c00025cae58bff3a4702bb141ec08aa586dc"
     },
     {
       "file": "v.html",
@@ -473,8 +473,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 298,
-      "sha256": "ddd79857692f4f68c545f4fe0390f90bdc24af75771fac5d1c09353bdfe3be84"
+      "bytes": 248,
+      "sha256": "f1e483f4578e01357c4e4ee0b75ec8f82718d7bfdef173537030171076d299e0"
     }
   ]
 }
