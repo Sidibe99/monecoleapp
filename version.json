@@ -1,9 +1,9 @@
 {
-  "version": "v432",
+  "version": "v433",
   "date": "2026-09-05",
-  "note": "Un bouton qu un role ne peut pas utiliser ne s affiche plus : Supprimer sur les classes, matieres, cours et eleves.",
-  "label": "Boutons selon le role",
+  "note": "Le tableau de bord d un professeur cesse de reclamer des analyses qui lui sont refusees ; le message dit la verite.",
+  "label": "Analyses selon le role",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T16:40:00.000Z"
+  "updated_at": "2026-09-05T17:30:00.000Z"
 }

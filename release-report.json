@@ -1,10 +1,10 @@
 {
-  "version": "v432",
-  "package_version": "1.0.432",
-  "label": "Boutons selon le role",
-  "created_at": "2026-09-05T11:43:11.872Z",
+  "version": "v433",
+  "package_version": "1.0.433",
+  "label": "Analyses selon le role",
+  "created_at": "2026-09-05T12:03:22.776Z",
   "files": 96,
-  "total_bytes": 12477386,
+  "total_bytes": 12478293,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -32,14 +32,14 @@
       "sha256": "702da5dc532aad1ac0868900675c47fafcbb098c6e443ff6891eae66dc05b4e2"
     },
     {
-      "file": "assets/DashboardAnalyticsPanel-Dn6ko6dp.js",
-      "bytes": 8760,
-      "sha256": "a4524faca81915bd2c6f35340da47e7718fd81dc6ae73632ebf03e1480cfcc7e"
+      "file": "assets/DashboardAnalyticsPanel-DfhN2eFz.js",
+      "bytes": 9023,
+      "sha256": "6decd63a79e8d78a8e7b704af76cb8e94592a6e8323212114c7922da53115645"
     },
     {
-      "file": "assets/DashboardAnalyticsPanel-legacy-C2sJdNXh.js",
-      "bytes": 10326,
-      "sha256": "326940211b8e1f841d08a039745063aa8d1a6c93e91e97b2f9fba69a1930ad3a"
+      "file": "assets/DashboardAnalyticsPanel-legacy-BHm5uKiW.js",
+      "bytes": 10589,
+      "sha256": "1ff7861cbffafb814382c6acceac4ea70d245be10fc7df3b833cf8a53807c896"
     },
     {
       "file": "assets/Depenses-legacy-DyUuIWj2.js",
@@ -232,9 +232,9 @@
       "sha256": "805d333f0bca8ad424699bf84396e08276f1e2286d59cddee4c9b13f53bf399a"
     },
     {
-      "file": "assets/index-D_vRtlQM.js",
-      "bytes": 620298,
-      "sha256": "19b4837cfc639788227d285e63118c9a6a783ff214f898c89bfc2eac6e8b9d60"
+      "file": "assets/index-BOXj9gYx.js",
+      "bytes": 620470,
+      "sha256": "956db0e113f971f787c3a5ea58f9aafbd127dcadfa82cdc9579b38b8820967dd"
     },
     {
       "file": "assets/index-NWQOU339.css",
@@ -242,9 +242,9 @@
       "sha256": "463fdeaf282c7803958da5d5509cd422df91850cbc6aa4c503bf3c377dad07ef"
     },
     {
-      "file": "assets/index-legacy-DmWBm0g_.js",
-      "bytes": 1015869,
-      "sha256": "99fb714f9d5eb4826103cfb414bc435171ffd1af3bddde856940d559e67aa53a"
+      "file": "assets/index-legacy-Dy5HLdEA.js",
+      "bytes": 1016077,
+      "sha256": "43ac2d56ba0ce0ce8465cd03c9c27df668a89e459f8e57c1d9c07b695d329fdb"
     },
     {
       "file": "assets/index.es-1GUVX345.js",
@@ -459,7 +459,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "ce7338f02ca6b3b4ad5c7874b7f6ac826087dea30fd62bc8966c8a0a22dd5ad9"
+      "sha256": "8cfcab4b37976d943bcd4b491443176e04da43861aa2c8f4b4395d60bfb147aa"
     },
     {
       "file": "manifest.webmanifest",
@@ -474,7 +474,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "1b05861e23af46b788d5d2de6b35340c05a7698cb5e04f68b799739eb7990136"
+      "sha256": "91f500b65661ac4d12c02910bab82c707b4917e14c9e11903e7eddad0d87128d"
     },
     {
       "file": "v.html",
@@ -483,8 +483,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 304,
-      "sha256": "86d7ca756fbf693859b0155afd722e9edd776c10fe8ce198ceb7cbd978a55755"
+      "bytes": 305,
+      "sha256": "a34d76ade95f8c0caab68f744bf24308eed7fac917475c846320d0e9ecf354d7"
     }
   ]
 }
