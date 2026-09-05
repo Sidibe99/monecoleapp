@@ -1,9 +1,9 @@
 {
-  "version": "v446",
+  "version": "v447",
   "date": "2026-09-06",
-  "note": "Un incident disciplinaire garde ses preuves : photo, PDF ou document joints au signalement ou par le censeur, lisibles par ceux qui lisent l incident, jamais retires.",
-  "label": "Les pieces jointes des incidents",
-  "scope": "client+supabase",
-  "client_visible": true,
-  "updated_at": "2026-09-06T05:00:00.000Z"
+  "note": "La piece jointe d un incident est bien envoyee : le champ se vidait avant que le fichier soit lu.",
+  "label": "La piece jointe arrive vraiment",
+  "scope": "client",
+  "client_visible": false,
+  "updated_at": "2026-09-06T05:40:00.000Z"
 }
