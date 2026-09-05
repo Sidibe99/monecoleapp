@@ -1,9 +1,9 @@
 {
-  "version": "v444",
+  "version": "v445",
   "date": "2026-09-06",
-  "note": "Nouvelle page Autorisations : sorties anticipees, permissions d absence et dispenses. La secretaire enregistre la demande, le censeur ou la direction accorde ou refuse, le laissez-passer s imprime.",
-  "label": "Les autorisations de sortie et permissions",
-  "scope": "client+supabase",
+  "note": "Nouvelle page Rapports pour le censeur, la secretaire et la direction : le jour ou le mois, une classe ou l ecole, a imprimer ou a ouvrir dans Word.",
+  "label": "Le rapport du censeur",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-06T03:00:00.000Z"
+  "updated_at": "2026-09-06T04:00:00.000Z"
 }
