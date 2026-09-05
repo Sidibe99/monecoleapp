@@ -1,9 +1,9 @@
 {
-  "version": "v423",
+  "version": "v425",
   "date": "2026-09-05",
-  "note": "Le tableau de bord s ouvre sur la periode du jour et le cycle le plus peuple ; actions rapides lisibles sur telephone.",
-  "label": "Tableau de bord",
+  "note": "Pourcentages et espaces coherents sur tous les onglets : Presences, Paiements, Eleves, Emploi du temps, Formules.",
+  "label": "Formats coherents",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T07:40:00.000Z"
+  "updated_at": "2026-09-05T09:30:00.000Z"
 }
