@@ -1,9 +1,9 @@
 {
-  "version": "v445",
+  "version": "v446",
   "date": "2026-09-06",
-  "note": "Nouvelle page Rapports pour le censeur, la secretaire et la direction : le jour ou le mois, une classe ou l ecole, a imprimer ou a ouvrir dans Word.",
-  "label": "Le rapport du censeur",
-  "scope": "client",
+  "note": "Un incident disciplinaire garde ses preuves : photo, PDF ou document joints au signalement ou par le censeur, lisibles par ceux qui lisent l incident, jamais retires.",
+  "label": "Les pieces jointes des incidents",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-06T04:00:00.000Z"
+  "updated_at": "2026-09-06T05:00:00.000Z"
 }
