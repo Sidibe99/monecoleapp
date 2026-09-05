@@ -1,9 +1,9 @@
 {
-  "version": "v433",
+  "version": "v434",
   "date": "2026-09-05",
-  "note": "Le tableau de bord d un professeur cesse de reclamer des analyses qui lui sont refusees ; le message dit la verite.",
-  "label": "Analyses selon le role",
+  "note": "Le tableau de bord d un comptable ne montre plus les resultats scolaires ; les boutons Supprimer des paiements, depenses et salaires suivent le role.",
+  "label": "Le comptable a son tableau de bord",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T17:30:00.000Z"
+  "updated_at": "2026-09-05T19:30:00.000Z"
 }

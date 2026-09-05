@@ -1,10 +1,10 @@
 {
-  "version": "v433",
-  "package_version": "1.0.433",
-  "label": "Analyses selon le role",
-  "created_at": "2026-09-05T12:03:22.776Z",
+  "version": "v434",
+  "package_version": "1.0.434",
+  "label": "Le comptable a son tableau de bord",
+  "created_at": "2026-09-05T12:38:13.891Z",
   "files": 96,
-  "total_bytes": 12478293,
+  "total_bytes": 12478597,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,14 +42,14 @@
       "sha256": "1ff7861cbffafb814382c6acceac4ea70d245be10fc7df3b833cf8a53807c896"
     },
     {
-      "file": "assets/Depenses-legacy-DyUuIWj2.js",
-      "bytes": 25794,
-      "sha256": "b21311ba85420116031081a82f5406cd1013e4cf60c2db40b937b415c94cd0cf"
+      "file": "assets/Depenses-Du0inmJ2.js",
+      "bytes": 18870,
+      "sha256": "64f0913fc51e6c3a8ba6b6fc73b1e3c1493ad955ade7a086688c9e9bbe5eeb5d"
     },
     {
-      "file": "assets/Depenses-wZEWH6F2.js",
-      "bytes": 18834,
-      "sha256": "d8cfe656d59c86ba8283d33a2499a1701f73f293df6641817bec0df35f9ce5f4"
+      "file": "assets/Depenses-legacy-Cl_HUg-8.js",
+      "bytes": 25830,
+      "sha256": "bf6697b19b082db10dae50fe22e4b5d097cb9c275e383823d85d3bf2eba1b4b8"
     },
     {
       "file": "assets/EditorHub-DFxPpqno.js",
@@ -232,9 +232,9 @@
       "sha256": "805d333f0bca8ad424699bf84396e08276f1e2286d59cddee4c9b13f53bf399a"
     },
     {
-      "file": "assets/index-BOXj9gYx.js",
-      "bytes": 620470,
-      "sha256": "956db0e113f971f787c3a5ea58f9aafbd127dcadfa82cdc9579b38b8820967dd"
+      "file": "assets/index-DKS3gkBL.js",
+      "bytes": 620528,
+      "sha256": "56ad7f5e6b672db5b70d63a442df7a5a0d4c5e86c0207d4f3e408197150efa57"
     },
     {
       "file": "assets/index-NWQOU339.css",
@@ -242,9 +242,9 @@
       "sha256": "463fdeaf282c7803958da5d5509cd422df91850cbc6aa4c503bf3c377dad07ef"
     },
     {
-      "file": "assets/index-legacy-Dy5HLdEA.js",
-      "bytes": 1016077,
-      "sha256": "43ac2d56ba0ce0ce8465cd03c9c27df668a89e459f8e57c1d9c07b695d329fdb"
+      "file": "assets/index-legacy-eVxCu1I6.js",
+      "bytes": 1016205,
+      "sha256": "dfe3ad3d05ee9f04a7d698d7acfacb5f8564bf71b182268fad8d5c8a0138bcb6"
     },
     {
       "file": "assets/index.es-1GUVX345.js",
@@ -459,7 +459,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "8cfcab4b37976d943bcd4b491443176e04da43861aa2c8f4b4395d60bfb147aa"
+      "sha256": "97ea2f3590f1955dc1055d181388061080966b80a3a06e22f770599181628f0b"
     },
     {
       "file": "manifest.webmanifest",
@@ -474,7 +474,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "91f500b65661ac4d12c02910bab82c707b4917e14c9e11903e7eddad0d87128d"
+      "sha256": "0441b7c7b89ae253a15c6a72a303ea3a7a1d354a1dc37340e6f5c5dc38a90aa8"
     },
     {
       "file": "v.html",
@@ -483,8 +483,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 305,
-      "sha256": "a34d76ade95f8c0caab68f744bf24308eed7fac917475c846320d0e9ecf354d7"
+      "bytes": 351,
+      "sha256": "9bfc49a4e7029b8cbda1eb5d245544b3371dd84d86935360ac9017e46e4e9dc4"
     }
   ]
 }
