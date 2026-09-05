@@ -1,10 +1,10 @@
 {
-  "version": "v434",
-  "package_version": "1.0.434",
-  "label": "Le comptable a son tableau de bord",
-  "created_at": "2026-09-05T12:38:13.891Z",
+  "version": "v435",
+  "package_version": "1.0.435",
+  "label": "La cloture reservee a la direction",
+  "created_at": "2026-09-05T12:52:12.995Z",
   "files": 96,
-  "total_bytes": 12478597,
+  "total_bytes": 12478603,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -232,9 +232,9 @@
       "sha256": "805d333f0bca8ad424699bf84396e08276f1e2286d59cddee4c9b13f53bf399a"
     },
     {
-      "file": "assets/index-DKS3gkBL.js",
-      "bytes": 620528,
-      "sha256": "56ad7f5e6b672db5b70d63a442df7a5a0d4c5e86c0207d4f3e408197150efa57"
+      "file": "assets/index-CGQBJt2M.js",
+      "bytes": 620555,
+      "sha256": "c2c5cb43a8d4ba0cf63e198d5e606c569a462d41e0413500550e26465cacfc4d"
     },
     {
       "file": "assets/index-NWQOU339.css",
@@ -242,9 +242,9 @@
       "sha256": "463fdeaf282c7803958da5d5509cd422df91850cbc6aa4c503bf3c377dad07ef"
     },
     {
-      "file": "assets/index-legacy-eVxCu1I6.js",
-      "bytes": 1016205,
-      "sha256": "dfe3ad3d05ee9f04a7d698d7acfacb5f8564bf71b182268fad8d5c8a0138bcb6"
+      "file": "assets/index-legacy-DfEfO7Tk.js",
+      "bytes": 1016232,
+      "sha256": "561864f9691e884c53678e4b7e28a3f2a2dcd45108508017a2ec5eff54cd9717"
     },
     {
       "file": "assets/index.es-1GUVX345.js",
@@ -459,7 +459,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "97ea2f3590f1955dc1055d181388061080966b80a3a06e22f770599181628f0b"
+      "sha256": "dc0fc87c8e86f70e30cadc7875eca95a7371e0cc3d1a229b9bc8dcbc58c23e0a"
     },
     {
       "file": "manifest.webmanifest",
@@ -474,7 +474,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "0441b7c7b89ae253a15c6a72a303ea3a7a1d354a1dc37340e6f5c5dc38a90aa8"
+      "sha256": "85cd657edf3df88957af0ea94705e08de561bb16e9ec291424aaa9bc265692b5"
     },
     {
       "file": "v.html",
@@ -483,8 +483,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 351,
-      "sha256": "9bfc49a4e7029b8cbda1eb5d245544b3371dd84d86935360ac9017e46e4e9dc4"
+      "bytes": 303,
+      "sha256": "5d251bb0e12abcc6d4ad8e378850ed4f45d69cc547f4419eb8c921bf99d29216"
     }
   ]
 }
