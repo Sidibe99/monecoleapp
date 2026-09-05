@@ -1,10 +1,10 @@
 {
-  "version": "v447",
-  "package_version": "1.0.447",
-  "label": "La piece jointe arrive vraiment",
-  "created_at": "2026-09-05T18:30:12.340Z",
+  "version": "v449",
+  "package_version": "1.0.449",
+  "label": "Le perimetre par cycle se regle dans Utilisateurs",
+  "created_at": "2026-09-05T20:41:06.650Z",
   "files": 104,
-  "total_bytes": 12645031,
+  "total_bytes": 12649093,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -192,14 +192,14 @@
       "sha256": "9140792eadf493c3725b4636cc425e41ed2ccae6b66e97ba06a00480a608e93d"
     },
     {
-      "file": "assets/Utilisateurs-Da2BdsoC.js",
-      "bytes": 25019,
-      "sha256": "f8ad3cc2775e512c8e390cccad2832b35dff597c73f49ef60d0ce43ecf3e2d29"
+      "file": "assets/Utilisateurs-eDPAH0wv.js",
+      "bytes": 26667,
+      "sha256": "adcffb3d24f1b93d36a6832b055a83a3bc067504f72b43487f6b3c3032c53793"
     },
     {
-      "file": "assets/Utilisateurs-legacy-BmyIbqKC.js",
-      "bytes": 32503,
-      "sha256": "8de8031b8e7ccffe57cf30662bf8821e3ac52ad38d62118422dc56b9a763b1c7"
+      "file": "assets/Utilisateurs-legacy-CB1D98gv.js",
+      "bytes": 34253,
+      "sha256": "5887fb8a203f4c228ba023f7b7452f5ffacdbb056e73285b32523ccfb5283066"
     },
     {
       "file": "assets/dashboard-finance-export-C66-bAHP.js",
@@ -272,9 +272,9 @@
       "sha256": "a80a59513cd2e0fd2d05d64569de43309ed72f0a2fae07b75662e54a5156b494"
     },
     {
-      "file": "assets/index-BSjm29AC.js",
-      "bytes": 607886,
-      "sha256": "1202bf8f7e81b3f2707586bf8eb062b2e184152f88306631d1d59c547e1e16ab"
+      "file": "assets/index-C9s3zKCo.js",
+      "bytes": 608143,
+      "sha256": "73f90d5e7fa4bb035c046cdd08618c50546ddeb530c6460993464dd3b12370d5"
     },
     {
       "file": "assets/index-CW9fELBH.css",
@@ -282,9 +282,9 @@
       "sha256": "fa895f2c67970a7db73a0209d3676bfc4a43fe93d81dd5ad6bef5a548613964d"
     },
     {
-      "file": "assets/index-legacy-BL1YSqyn.js",
-      "bytes": 1004753,
-      "sha256": "91b3cdf9cc6f0b77a229601b1f1f09ff6be3e05e1585dc036dfd512936770777"
+      "file": "assets/index-legacy-DrVOM-CS.js",
+      "bytes": 1005045,
+      "sha256": "21a4f56c0207fd81986c9479b82213579a2c162cc7e0306bb6ab09a0b8f27746"
     },
     {
       "file": "assets/index.es-B3t2PIVt.js",
@@ -499,7 +499,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "b40ec91c5aa9611d7d8848a35650ffcd6fd4bc92979bb0ab3f9c96c2d86fd9c4"
+      "sha256": "a67896b107882f1dc45df563b2f0e2444c81f7c89ac06d4c49a0499ff674c2d7"
     },
     {
       "file": "manifest.webmanifest",
@@ -514,7 +514,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "dd57954d6b22fdaa85bc6e7f0a7e0595b75ade14d65d8f806e3c92046868490b"
+      "sha256": "2884924741de892c704d51975e84af8994f7f865cd49f932573075e1ce734656"
     },
     {
       "file": "v.html",
@@ -523,8 +523,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 297,
-      "sha256": "deef93c166e667005899c0c75b1a62fcd546bfc4d89ee7a59415001d73059866"
+      "bytes": 412,
+      "sha256": "987db0a6f3e59db8ae891f73008216c7ab2ec1535c2d4c48f0fd2ba8829deec0"
     }
   ]
 }

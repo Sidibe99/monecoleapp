@@ -1,9 +1,9 @@
 {
-  "version": "v447",
+  "version": "v449",
   "date": "2026-09-06",
-  "note": "La piece jointe d un incident est bien envoyee : le champ se vidait avant que le fichier soit lu.",
-  "label": "La piece jointe arrive vraiment",
-  "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-06T05:40:00.000Z"
+  "note": "Dans Utilisateurs, un compte de direction, de censeur ou de secretaire peut etre limite a des cycles : directeur du primaire, proviseur du secondaire. Aucune case cochee = toute l ecole.",
+  "label": "Le perimetre par cycle se regle dans Utilisateurs",
+  "scope": "client+supabase",
+  "client_visible": true,
+  "updated_at": "2026-09-06T08:30:00.000Z"
 }
