@@ -1,9 +1,9 @@
 {
-  "version": "v437",
+  "version": "v439",
   "date": "2026-09-05",
-  "note": "Le tableau de bord signale les enseignants absents et les cours termines sans lecon au cahier de textes, pour la direction et le censeur.",
-  "label": "Le suivi du jour pour le censeur",
-  "scope": "client",
+  "note": "Nouvelle page Discipline : signaler, decider, garder le dossier de l eleve sans rien effacer. Les pages cochees pour un compte s ajoutent a celles du role, dans la base comme a l ecran.",
+  "label": "La discipline, et les pages cochees qui s ajoutent",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-05T22:00:00.000Z"
+  "updated_at": "2026-09-06T00:15:00.000Z"
 }
