@@ -1,9 +1,9 @@
 {
-  "version": "v435",
+  "version": "v437",
   "date": "2026-09-05",
-  "note": "Le bouton Passage de fin d annee n apparait plus qu a la direction, la seule que le serveur autorise.",
-  "label": "La cloture reservee a la direction",
+  "note": "Le tableau de bord signale les enseignants absents et les cours termines sans lecon au cahier de textes, pour la direction et le censeur.",
+  "label": "Le suivi du jour pour le censeur",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T20:15:00.000Z"
+  "updated_at": "2026-09-05T22:00:00.000Z"
 }
