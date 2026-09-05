@@ -1,9 +1,9 @@
 {
-  "version": "v443",
+  "version": "v444",
   "date": "2026-09-06",
-  "note": "L appel du professeur remarche (heures en texte en production). Le censeur et la secretaire lisent les presences : synthese, alertes et justification apparaissent enfin chez eux.",
-  "label": "L appel repare, les presences lisibles par le censeur",
+  "note": "Nouvelle page Autorisations : sorties anticipees, permissions d absence et dispenses. La secretaire enregistre la demande, le censeur ou la direction accorde ou refuse, le laissez-passer s imprime.",
+  "label": "Les autorisations de sortie et permissions",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-06T02:00:00.000Z"
+  "updated_at": "2026-09-06T03:00:00.000Z"
 }
