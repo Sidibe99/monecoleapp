@@ -1,10 +1,10 @@
 {
-  "version": "v431",
-  "package_version": "1.0.431",
-  "label": "Arabe : formules et fiches",
-  "created_at": "2026-09-05T11:25:25.419Z",
+  "version": "v432",
+  "package_version": "1.0.432",
+  "label": "Boutons selon le role",
+  "created_at": "2026-09-05T11:43:11.872Z",
   "files": 96,
-  "total_bytes": 12477039,
+  "total_bytes": 12477386,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -232,9 +232,9 @@
       "sha256": "805d333f0bca8ad424699bf84396e08276f1e2286d59cddee4c9b13f53bf399a"
     },
     {
-      "file": "assets/index-By0D45iZ.js",
-      "bytes": 620138,
-      "sha256": "97212a848404a444e0360071d117922dbc01a71b047532942a1ca35e5ecda064"
+      "file": "assets/index-D_vRtlQM.js",
+      "bytes": 620298,
+      "sha256": "19b4837cfc639788227d285e63118c9a6a783ff214f898c89bfc2eac6e8b9d60"
     },
     {
       "file": "assets/index-NWQOU339.css",
@@ -242,9 +242,9 @@
       "sha256": "463fdeaf282c7803958da5d5509cd422df91850cbc6aa4c503bf3c377dad07ef"
     },
     {
-      "file": "assets/index-legacy-Dz1fpRgX.js",
-      "bytes": 1015693,
-      "sha256": "f6c60839b04b42d1e378f16d8fc91e831a03a5ed586d6e8f1fd11a0ecce4a89b"
+      "file": "assets/index-legacy-DmWBm0g_.js",
+      "bytes": 1015869,
+      "sha256": "99fb714f9d5eb4826103cfb414bc435171ffd1af3bddde856940d559e67aa53a"
     },
     {
       "file": "assets/index.es-1GUVX345.js",
@@ -459,7 +459,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "58d3137e32667955ac3ea24aee3ab87e375bf5169e46f8120f0f443a46e70230"
+      "sha256": "ce7338f02ca6b3b4ad5c7874b7f6ac826087dea30fd62bc8966c8a0a22dd5ad9"
     },
     {
       "file": "manifest.webmanifest",
@@ -474,7 +474,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "a0fa2fbd83d88812e43c994615ffdc0a181150e0d7093e4da01ae415f7ebaa1e"
+      "sha256": "1b05861e23af46b788d5d2de6b35340c05a7698cb5e04f68b799739eb7990136"
     },
     {
       "file": "v.html",
@@ -483,8 +483,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 293,
-      "sha256": "78330bf9b51f4bd8c7ece2068d44bd872c6280358dec6747a68b8c2a0851e22a"
+      "bytes": 304,
+      "sha256": "86d7ca756fbf693859b0155afd722e9edd776c10fe8ce198ceb7cbd978a55755"
     }
   ]
 }

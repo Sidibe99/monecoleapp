@@ -1,9 +1,9 @@
 {
-  "version": "v431",
+  "version": "v432",
   "date": "2026-09-05",
-  "note": "Formules, statuts des resultats, colonnes des fiches, journal et mois des versements parlent arabe.",
-  "label": "Arabe : formules et fiches",
+  "note": "Un bouton qu un role ne peut pas utiliser ne s affiche plus : Supprimer sur les classes, matieres, cours et eleves.",
+  "label": "Boutons selon le role",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T15:40:00.000Z"
+  "updated_at": "2026-09-05T16:40:00.000Z"
 }
