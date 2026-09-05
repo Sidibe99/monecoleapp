@@ -1,10 +1,10 @@
 {
-  "version": "v427",
-  "package_version": "1.0.427",
-  "label": "Tableau de bord en arabe",
-  "created_at": "2026-09-05T09:55:16.967Z",
+  "version": "v428",
+  "package_version": "1.0.428",
+  "label": "Arabe, suite",
+  "created_at": "2026-09-05T10:11:06.863Z",
   "files": 94,
-  "total_bytes": 12456115,
+  "total_bytes": 12456755,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -222,9 +222,9 @@
       "sha256": "e93d784bed9386407f120814d322658eaed735247d9aee650568ebb05f387a84"
     },
     {
-      "file": "assets/index-CK9ukphM.js",
-      "bytes": 626953,
-      "sha256": "2070c294d01e990a5d4c640ba311888b41bea506d5a2b52daa2e73b825ee8f95"
+      "file": "assets/index-B-qfac5Z.js",
+      "bytes": 627277,
+      "sha256": "20d21c2a8204d390727a103921245168c4d184b25cf7fd705cf66d8fe641d47f"
     },
     {
       "file": "assets/index-NWQOU339.css",
@@ -232,9 +232,9 @@
       "sha256": "463fdeaf282c7803958da5d5509cd422df91850cbc6aa4c503bf3c377dad07ef"
     },
     {
-      "file": "assets/index-legacy-e_k1KIP4.js",
-      "bytes": 1023620,
-      "sha256": "389a2bded6d78b4b6ad3fdf7319a4369c05b5f6ba360d2cbd00588fe1c03b447"
+      "file": "assets/index-legacy-DXsxMXQB.js",
+      "bytes": 1023944,
+      "sha256": "425720ca5ad1ac39f0868ffcbf0f2fcecb4ee4444a0b577daf1eccbab27621d7"
     },
     {
       "file": "assets/index.es-DkFVYjXV.js",
@@ -449,7 +449,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "0310dee5f966c7f49f0de0dcae97c30cf77f1d25cc31d8bd2dc0f30792d0a6d2"
+      "sha256": "6acbf924e4dd28320545384653752011a1b45fb9073d74da316e6bdc085e72c4"
     },
     {
       "file": "manifest.webmanifest",
@@ -464,7 +464,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "f74e8c1bb2ae3386edfa4bc2d71dc77e7372803132369234ef63f9b3bd7e68e9"
+      "sha256": "cca15b86fecd182ff046c551c8b84477bcc2fe484ba934e15d638245b85ba369"
     },
     {
       "file": "v.html",
@@ -473,8 +473,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 287,
-      "sha256": "3898aece5f8b398841326776a20b2f48d1550cccc60f5391a8f6662f9e0c40ec"
+      "bytes": 279,
+      "sha256": "b2d3d4dac755d15f53c421d5c37ec24766e765d67a0bb38132974ca38b8844a2"
     }
   ]
 }

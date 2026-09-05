@@ -1,9 +1,9 @@
 {
-  "version": "v427",
+  "version": "v428",
   "date": "2026-09-05",
-  "note": "Le tableau de bord parle arabe jusqu au bout : date, indicateurs, alertes, mois des graphiques.",
-  "label": "Tableau de bord en arabe",
+  "note": "Tableau de bord en arabe, fin : actions des alertes, jour de la semaine, cycles, periodes, fleches.",
+  "label": "Arabe, suite",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-05T11:30:00.000Z"
+  "updated_at": "2026-09-05T12:30:00.000Z"
 }
