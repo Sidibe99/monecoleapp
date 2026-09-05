@@ -1,9 +1,9 @@
 {
-  "version": "v426",
+  "version": "v427",
   "date": "2026-09-05",
-  "note": "Le site public ne garde plus que deux semaines d anciennes versions.",
-  "label": "Site allege",
+  "note": "Le tableau de bord parle arabe jusqu au bout : date, indicateurs, alertes, mois des graphiques.",
+  "label": "Tableau de bord en arabe",
   "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-05T10:20:00.000Z"
+  "client_visible": true,
+  "updated_at": "2026-09-05T11:30:00.000Z"
 }
