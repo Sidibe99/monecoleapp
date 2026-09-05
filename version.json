@@ -1,9 +1,9 @@
 {
-  "version": "v429",
+  "version": "v430",
   "date": "2026-09-05",
-  "note": "Dernier reste francais du tableau de bord arabe : le nombre d eleves en retard de paiement.",
-  "label": "Arabe, fin",
+  "note": "Resultats scolaires, Journal, Corbeille, roles, mois et cycles parlent arabe.",
+  "label": "Arabe : resultats et journal",
   "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-05T13:10:00.000Z"
+  "client_visible": true,
+  "updated_at": "2026-09-05T14:30:00.000Z"
 }
