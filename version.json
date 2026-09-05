@@ -1,9 +1,9 @@
 {
-  "version": "v452",
+  "version": "v453",
   "date": "2026-09-06",
-  "note": "Chaque direction valide les passages de ses cycles ; la cloture de l annee, reservee a une direction sur toute l ecole, exige que tous les cycles soient valides et applique exactement ces decisions.",
-  "label": "Les passages valides cycle par cycle",
-  "scope": "client+supabase",
-  "client_visible": true,
-  "updated_at": "2026-09-06T12:30:00.000Z"
+  "note": "Le premier de chaque mois, la sauvegarde chiffree est aussi deposee chez Cloudflare R2, hors de GitHub.",
+  "label": "Une copie des sauvegardes hors de GitHub",
+  "scope": "client",
+  "client_visible": false,
+  "updated_at": "2026-09-06T13:00:00.000Z"
 }

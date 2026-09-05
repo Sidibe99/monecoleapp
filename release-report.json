@@ -1,10 +1,10 @@
 {
-  "version": "v452",
-  "package_version": "1.0.452",
-  "label": "Les passages valides cycle par cycle",
-  "created_at": "2026-09-05T22:16:03.051Z",
+  "version": "v453",
+  "package_version": "1.0.453",
+  "label": "Une copie des sauvegardes hors de GitHub",
+  "created_at": "2026-09-05T23:06:15.407Z",
   "files": 104,
-  "total_bytes": 12662503,
+  "total_bytes": 12662404,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -499,7 +499,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "a1c02b0ce7e59ea680a34f0201b2e09a0743e86aee8c0cb7b81c15731b495352"
+      "sha256": "f01646e719fa193c4b127f392410e189110c130b554ffdc2c79c224df9ea2501"
     },
     {
       "file": "manifest.webmanifest",
@@ -514,7 +514,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "81e9ef4f0f074b4b8a366e3c78db315b78f61d621c8fcb3168248b1f8461dff6"
+      "sha256": "3b1453833d435efef9be93eab1daa8c579e04d2025ac79dc4283d109acc3e812"
     },
     {
       "file": "v.html",
@@ -523,8 +523,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 411,
-      "sha256": "f787d7b1764f91a554d0dcfec9402ea3be0402932a087d7aa78bf96b25e2545f"
+      "bytes": 312,
+      "sha256": "b666ccfcc1d672acf117d5b54c118fef7ae862970ef178c3c7356bc1a5eda59a"
     }
   ]
 }
