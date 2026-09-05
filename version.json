@@ -1,9 +1,9 @@
 {
-  "version": "v453",
+  "version": "v454",
   "date": "2026-09-06",
-  "note": "Le premier de chaque mois, la sauvegarde chiffree est aussi deposee chez Cloudflare R2, hors de GitHub.",
-  "label": "Une copie des sauvegardes hors de GitHub",
-  "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-06T13:00:00.000Z"
+  "note": "Dans l espace Parent, page Presences : les incidents disciplinaires decides et les autorisations accordees ou refusees de chaque enfant.",
+  "label": "Le parent lit le dossier de son enfant",
+  "scope": "client+supabase",
+  "client_visible": true,
+  "updated_at": "2026-09-06T14:00:00.000Z"
 }
