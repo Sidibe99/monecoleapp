@@ -1,10 +1,10 @@
 {
-  "version": "v441",
-  "package_version": "1.0.441",
-  "label": "Les retards et la justification des absences",
-  "created_at": "2026-09-05T16:33:33.482Z",
+  "version": "v443",
+  "package_version": "1.0.443",
+  "label": "L appel repare, les presences lisibles par le censeur",
+  "created_at": "2026-09-05T17:10:23.924Z",
   "files": 98,
-  "total_bytes": 12544820,
+  "total_bytes": 12544788,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -469,7 +469,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "a88e775992f3326646075abdf83fa82bcc97995813ec14f57217928968e3ebbf"
+      "sha256": "8558629ece3f150ea25315ad47dcaffbcb673ce14a0349eaa2505239b7cb19ce"
     },
     {
       "file": "manifest.webmanifest",
@@ -484,7 +484,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "8943312ad499e8ad3b9da7a859e1d328fbe97a1766551ef8163c175cba035e75"
+      "sha256": "7a05c41dca81192ab414afb2e682aaf0741f92e2f0749ddee2f4d2984627e0a8"
     },
     {
       "file": "v.html",
@@ -493,8 +493,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 440,
-      "sha256": "41edddfbecb6fc4b096670bb09e70223b5ae171d95ace9f1e4ab780e029d62b3"
+      "bytes": 408,
+      "sha256": "75a62fb8ce8a6b9e25bd23759ed8c47be1e95132c1c9a24c378ef57352125d33"
     }
   ]
 }

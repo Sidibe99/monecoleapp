@@ -1,9 +1,9 @@
 {
-  "version": "v441",
+  "version": "v443",
   "date": "2026-09-06",
-  "note": "Le professeur peut noter un retard a l appel. Le censeur, la secretaire et la direction justifient une absence apres coup, sans toucher a l appel. Le tableau de bord signale les retards du jour et les absences repetees.",
-  "label": "Les retards et la justification des absences",
+  "note": "L appel du professeur remarche (heures en texte en production). Le censeur et la secretaire lisent les presences : synthese, alertes et justification apparaissent enfin chez eux.",
+  "label": "L appel repare, les presences lisibles par le censeur",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-06T01:30:00.000Z"
+  "updated_at": "2026-09-06T02:00:00.000Z"
 }
