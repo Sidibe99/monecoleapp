@@ -1,10 +1,10 @@
 {
-  "version": "v456",
-  "package_version": "1.0.456",
-  "label": "Les rappels du censeur par la cloche",
-  "created_at": "2026-09-05T23:50:13.419Z",
+  "version": "v457",
+  "package_version": "1.0.457",
+  "label": "Les classes types se creent vraiment",
+  "created_at": "2026-09-06T00:22:58.662Z",
   "files": 104,
-  "total_bytes": 12683552,
+  "total_bytes": 12683493,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -272,19 +272,19 @@
       "sha256": "27dcb4f3f16f1fc758972f4f67841065dc36cc61dda6d5ac495fd6d17c679a7b"
     },
     {
+      "file": "assets/index-B0JrYFt6.js",
+      "bytes": 610630,
+      "sha256": "0900f7ff71af3a0a2d8eeda814e6f773a9b96233ba0b8ba72d6c85965a4f1f5a"
+    },
+    {
       "file": "assets/index-CW9fELBH.css",
       "bytes": 305957,
       "sha256": "fa895f2c67970a7db73a0209d3676bfc4a43fe93d81dd5ad6bef5a548613964d"
     },
     {
-      "file": "assets/index-DATOaqxs.js",
-      "bytes": 610612,
-      "sha256": "49dc972bae0416cf263fef73404a02867de564367668620a5fa6dce3bafa54cd"
-    },
-    {
-      "file": "assets/index-legacy-D88Itw7Z.js",
-      "bytes": 1008006,
-      "sha256": "19753452aa7eceaeb3ebd4cbc9eb31b1cce437df774e38f9599374c0c03a98d1"
+      "file": "assets/index-legacy-COQizUI7.js",
+      "bytes": 1008023,
+      "sha256": "2c02ab78ba61ebe19755980c5d9198988a1c2873a63dff34e5bf36f98b149fc0"
     },
     {
       "file": "assets/index.es-CSg8NdPt.js",
@@ -499,7 +499,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "bd00882856d838be5b079d566e82b2572025fd6a5254f3d180136f781f8d70ab"
+      "sha256": "263af396317198e15e7af4b4670f831cfcca854764996515f5ca21d9146b5c9a"
     },
     {
       "file": "manifest.webmanifest",
@@ -514,7 +514,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "d72795ea16c1e653b153cd39459c2d33f0699587f022aa21c2de814431bf6256"
+      "sha256": "c4ff081d25241a844b6d7803a1cb93e7c5444439c58a02dacca6fd86c3150c8a"
     },
     {
       "file": "v.html",
@@ -523,8 +523,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 417,
-      "sha256": "556ed664aa3238456530538e1d829aa45b29dd3976c174f455fe4e9bec60604e"
+      "bytes": 323,
+      "sha256": "a13222b89b24907fbbb06c85458f8fa5e266b536602bc801beffef0c4dd3bbfe"
     }
   ]
 }
