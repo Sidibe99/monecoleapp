@@ -1,9 +1,9 @@
 {
-  "version": "v460",
+  "version": "v461",
   "date": "2026-09-06",
   "note": "Sur telephone, une fenetre (inscription, paiement...) ne passe plus sous la barre du haut : son titre et sa croix restent visibles.",
   "label": "Le titre d une fenetre reste visible sur telephone",
   "scope": "client",
   "client_visible": false,
-  "updated_at": "2026-09-06T02:00:00.000Z"
+  "updated_at": "2026-09-06T02:30:00.000Z"
 }
