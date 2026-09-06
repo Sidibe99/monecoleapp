@@ -1,10 +1,10 @@
 {
-  "version": "v459",
-  "package_version": "1.0.459",
-  "label": "Se reconnecter sans reseau sur son propre appareil",
-  "created_at": "2026-09-06T00:41:58.596Z",
+  "version": "v460",
+  "package_version": "1.0.460",
+  "label": "Le titre d une fenetre reste visible sur telephone",
+  "created_at": "2026-09-06T11:24:25.044Z",
   "files": 104,
-  "total_bytes": 12685667,
+  "total_bytes": 12685706,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -272,19 +272,19 @@
       "sha256": "f92e7adadc78084b9eb76dbb5b347653fb54f3663c53ba7064cdf7bfed86ebbc"
     },
     {
-      "file": "assets/index-CW9fELBH.css",
-      "bytes": 305957,
-      "sha256": "fa895f2c67970a7db73a0209d3676bfc4a43fe93d81dd5ad6bef5a548613964d"
-    },
-    {
-      "file": "assets/index-DcQ5hLOK.js",
+      "file": "assets/index-Bbojgj0Y.js",
       "bytes": 610999,
       "sha256": "f20770c62b0bc466b5462c61ac6cea0076abe7e41589885b3ec22d552408a51d"
     },
     {
-      "file": "assets/index-legacy-Dpx-FD91.js",
-      "bytes": 1008376,
-      "sha256": "094526e0251bde9fd88d9d1665055dad923b665e42498ba624dd877786c1a5a9"
+      "file": "assets/index-DNnHVVEq.css",
+      "bytes": 306011,
+      "sha256": "088dc0912948b15cad2a4d2d2f7e554cf34207f62302db70788cd58545f15c31"
+    },
+    {
+      "file": "assets/index-legacy-D0PtEAzS.js",
+      "bytes": 1008430,
+      "sha256": "27319ff912f8305719c242b1475e01e03f76dd4db32c515513a2096f7bc2d808"
     },
     {
       "file": "assets/index.es-legacy-BxCwjAys.js",
@@ -499,7 +499,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "c86ca1c778c696e2db4f48a778865ee8947616ea3a58ecdf1ea05d801522428b"
+      "sha256": "ebfa41c1821054a7a6e24f78f6fe7c8e5d22a1310cdf9df02bcb6f8d021814d6"
     },
     {
       "file": "manifest.webmanifest",
@@ -514,7 +514,7 @@
     {
       "file": "sw.js",
       "bytes": 4138,
-      "sha256": "df014839215f43df95125feb9f9cbed8f4cf24dd6a8df3b371a7522266cd24f3"
+      "sha256": "cba07af25e84e2a1bdc9fadb955fec3cdd8a9d4384086fbfe3c86240e4a5654c"
     },
     {
       "file": "v.html",
@@ -523,8 +523,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 419,
-      "sha256": "66c5c3ff54f26fe1320cd05190a9cdc5d6eecc7b1bb170a34616f448f0ddb1e1"
+      "bytes": 350,
+      "sha256": "c25e1ca315004c24aaf073769d59059903c884af88339d0a2d085b5ed8fee419"
     }
   ]
 }

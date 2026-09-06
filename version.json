@@ -1,9 +1,9 @@
 {
-  "version": "v459",
+  "version": "v460",
   "date": "2026-09-06",
-  "note": "Avec Memoriser mon identifiant, la deconnexion garde la session hors ligne sur l appareil : on peut se reconnecter sans reseau et retrouver ses donnees. Sur un poste partage, tout s efface comme avant.",
-  "label": "Se reconnecter sans reseau sur son propre appareil",
+  "note": "Sur telephone, une fenetre (inscription, paiement...) ne passe plus sous la barre du haut : son titre et sa croix restent visibles.",
+  "label": "Le titre d une fenetre reste visible sur telephone",
   "scope": "client",
-  "client_visible": true,
-  "updated_at": "2026-09-06T01:30:00.000Z"
+  "client_visible": false,
+  "updated_at": "2026-09-06T02:00:00.000Z"
 }
