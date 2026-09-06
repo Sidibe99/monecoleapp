@@ -1,9 +1,9 @@
 {
-  "version": "v457",
+  "version": "v458",
   "date": "2026-09-06",
-  "note": "Dans une ecole sans classes, le bouton Classes types cree bien les classes du cycle au lieu de repondre par une erreur.",
-  "label": "Les classes types se creent vraiment",
+  "note": "Dans les rapports, les cours prevus sans lecon ne se comptent qu a partir de la rentree effective : plus de cours de juillet dans le trimestre 1.",
+  "label": "Les cours comptent a partir de la rentree",
   "scope": "client",
-  "client_visible": true,
-  "updated_at": "2026-09-06T00:30:00.000Z"
+  "client_visible": false,
+  "updated_at": "2026-09-06T01:00:00.000Z"
 }
