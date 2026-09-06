@@ -1,10 +1,10 @@
 {
-  "version": "v464",
-  "package_version": "1.0.464",
-  "label": "Une seule colonne d horaires sur la feuille officielle",
-  "created_at": "2026-09-06T12:46:16.979Z",
+  "version": "v465",
+  "package_version": "1.0.465",
+  "label": "La fenetre suit la barre du haut a toutes les tailles",
+  "created_at": "2026-09-06T13:15:17.146Z",
   "files": 104,
-  "total_bytes": 12686261,
+  "total_bytes": 12686260,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -272,19 +272,19 @@
       "sha256": "f92e7adadc78084b9eb76dbb5b347653fb54f3663c53ba7064cdf7bfed86ebbc"
     },
     {
-      "file": "assets/index-DKwdQ8Zn.js",
+      "file": "assets/index-BVTBhYUs.js",
       "bytes": 610813,
       "sha256": "f94830101b2f30a00d5976bf1beebde554adfe52daad7b528da3f1b402c1234d"
     },
     {
-      "file": "assets/index-DWf4ZgAa.css",
-      "bytes": 306067,
-      "sha256": "2cb8f34fa2c4a28e19840b9210f47bc07551e7d021ffe98f55cdf3b274a916c3"
+      "file": "assets/index-legacy-CqMWajAu.js",
+      "bytes": 1008259,
+      "sha256": "c7398a136cce3a99f00873f79164d089677d7e4aaec67292e40d971ce5f1edbf"
     },
     {
-      "file": "assets/index-legacy-BZn7Bo0y.js",
-      "bytes": 1008231,
-      "sha256": "b7a30c64ff8889fd996e42e040881facedab7a7469c7fb9df7f864233791b131"
+      "file": "assets/index-vGNqfpne.css",
+      "bytes": 306095,
+      "sha256": "3ec674722961830e5130dbf5be33647a35b0913afe737fa18045e61c8f666014"
     },
     {
       "file": "assets/index.es-legacy-BxCwjAys.js",
@@ -499,7 +499,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "171a24f2dfdf91ff1efc5f9e0b3c7639d095845778c15827efe837f8d0c70e1c"
+      "sha256": "c98fa87deadb8fceb4ad8132420700bf6260a337590846835f65940613508430"
     },
     {
       "file": "manifest.webmanifest",
@@ -514,7 +514,7 @@
     {
       "file": "sw.js",
       "bytes": 4789,
-      "sha256": "1f487b644f775acbfc797c86c8c7b40bdf581730954fd4fce7f49a6ed4516e47"
+      "sha256": "0206a6e3580a508ea7a01d7a0a3c3568d31056473dc760df8243268f910ba961"
     },
     {
       "file": "v.html",
@@ -523,8 +523,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 449,
-      "sha256": "a38792cb5fac737042ef6c3746f816778e36f9a831c88a74e26915f2cee3279b"
+      "bytes": 392,
+      "sha256": "8d0991e559226640a920b5aad15d01d7dd0c40b8ce3be5ee85b954d5e1287e20"
     }
   ]
 }

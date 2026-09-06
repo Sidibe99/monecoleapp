@@ -1,9 +1,9 @@
 {
-  "version": "v464",
+  "version": "v465",
   "date": "2026-09-06",
-  "note": "La feuille officielle de l emploi du temps n a plus qu une colonne d horaires : chaque jour montre les plages ou une classe a cours, matin et soir dans le meme tableau. Sur telephone, une fenetre commence sous la barre du haut.",
-  "label": "Une seule colonne d horaires sur la feuille officielle",
+  "note": "Sur telephone, une fenetre commence sous la barre du haut quelle que soit la taille de l interface : son titre reste visible quand on agrandit ou qu on reduit l affichage.",
+  "label": "La fenetre suit la barre du haut a toutes les tailles",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-06T04:30:00.000Z"
+  "updated_at": "2026-09-06T13:10:00.000Z"
 }
