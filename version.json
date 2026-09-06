@@ -1,9 +1,12 @@
 {
-  "version": "v466",
+  "version": "v467",
   "date": "2026-09-06",
-  "note": "La fenetre d inscription reste entierement visible sous la barre MonEcole, meme apres un changement de taille de l interface. Le formulaire defile seul et ses actions restent accessibles. Les cycles choisis pour un nouveau compte de direction sont aussi transmis correctement.",
-  "label": "Garde toute la fenetre d inscription visible sur mobile",
-  "scope": "client",
+  "note": "Le perimetre de cycles d un compte Censeur est maintenant applique aux ecrans et aux acces directs Supabase. La creation des comptes a perimetre refuse aussi toute liste de cycles absente ou invalide au lieu de l ouvrir a toute l ecole.",
+  "label": "Cloisonne strictement les cycles autorises",
+  "scope": "client+supabase",
+  "deploiement": [
+    "create-user"
+  ],
   "client_visible": true,
-  "updated_at": "2026-09-06T16:31:34.000Z"
+  "updated_at": "2026-09-06T22:40:23.000Z"
 }
