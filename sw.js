@@ -1,4 +1,4 @@
-const CACHE_NAME = "monecole-vite-v461";
+const CACHE_NAME = "monecole-vite-v463";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
 const APP_SHELL = [
   "/",
@@ -50,21 +50,29 @@ const cacheCompiledAssets = cache => {
 
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    purgerAnciensCaches(2).then(() => caches.open(CACHE_NAME))
       .then(cache => cache.addAll(APP_SHELL).then(() => cacheCompiledAssets(cache)))
       .then(() => self.skipWaiting())
   );
 });
 
+// v463 — le ménage des anciennes versions ne se faisait qu'à l'activation.
+// Or un service worker reste « en attente » tant que l'utilisateur ne touche
+// pas « Mettre à jour maintenant » : un onglet qui choisissait « Plus tard »
+// à chaque version gardait chaque cache (27 versions, près de 300 Mo, vus sur
+// un poste de test). Le ménage se fait donc aussi à l'installation : on garde
+// la version en cours d'installation et les deux plus récentes déjà là (celle
+// qui sert encore la page et sa précédente), on supprime le reste.
+const purgerAnciensCaches = (garder = 1) =>
+  caches.keys().then(keys => {
+    const previousCaches = keys
+      .filter(key => /^monecole-vite-v\d+$/.test(key) && key !== CACHE_NAME)
+      .sort((a, b) => Number(b.match(/\d+$/)?.[0] || 0) - Number(a.match(/\d+$/)?.[0] || 0));
+    return Promise.all(previousCaches.slice(garder).map(key => caches.delete(key)));
+  });
+
 self.addEventListener("activate", event => {
-  event.waitUntil(
-    caches.keys().then(keys => {
-      const previousCaches = keys
-        .filter(key => /^monecole-vite-v\d+$/.test(key) && key !== CACHE_NAME)
-        .sort((a, b) => Number(b.match(/\d+$/)?.[0] || 0) - Number(a.match(/\d+$/)?.[0] || 0));
-      return Promise.all(previousCaches.slice(1).map(key => caches.delete(key)));
-    }).then(() => self.clients.claim())
-  );
+  event.waitUntil(purgerAnciensCaches(1).then(() => self.clients.claim()));
 });
 
 self.addEventListener("fetch", event => {

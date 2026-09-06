@@ -1,9 +1,9 @@
 {
-  "version": "v461",
+  "version": "v463",
   "date": "2026-09-06",
-  "note": "Sur telephone, une fenetre (inscription, paiement...) ne passe plus sous la barre du haut : son titre et sa croix restent visibles.",
-  "label": "Le titre d une fenetre reste visible sur telephone",
+  "note": "Le telephone ne garde plus les anciennes versions de l application : deux au plus. Et la session hors ligne survit a la deconnexion sur l appareil personnel.",
+  "label": "Le telephone ne garde plus toutes les anciennes versions",
   "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-06T02:30:00.000Z"
+  "client_visible": true,
+  "updated_at": "2026-09-06T03:30:00.000Z"
 }

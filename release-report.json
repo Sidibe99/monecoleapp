@@ -1,10 +1,10 @@
 {
-  "version": "v461",
-  "package_version": "1.0.461",
-  "label": "Le titre d une fenetre reste visible sur telephone",
-  "created_at": "2026-09-06T11:36:09.627Z",
+  "version": "v463",
+  "package_version": "1.0.463",
+  "label": "Le telephone ne garde plus toutes les anciennes versions",
+  "created_at": "2026-09-06T11:53:50.690Z",
   "files": 104,
-  "total_bytes": 12685970,
+  "total_bytes": 12687099,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -272,19 +272,19 @@
       "sha256": "f92e7adadc78084b9eb76dbb5b347653fb54f3663c53ba7064cdf7bfed86ebbc"
     },
     {
-      "file": "assets/index-DqZTbiEP.js",
-      "bytes": 611112,
-      "sha256": "81b49c7950d9ad40305473459bc9cc7b05ba87de24447b6fc8fc0a8a209549ac"
-    },
-    {
       "file": "assets/index-_pIvt0tQ.css",
       "bytes": 306030,
       "sha256": "e6b276e9db6c96e010ecfed0c17c6324732635ce807e274a3a600e4460a01c31"
     },
     {
-      "file": "assets/index-legacy-B5nem1jV.js",
-      "bytes": 1008562,
-      "sha256": "e2506dc08e6d381782903fcff5fbd7d015dbab1b2e71f62202764a6fe5c0781a"
+      "file": "assets/index-legacy-DCKKQdhj.js",
+      "bytes": 1008805,
+      "sha256": "79dc541c5bececd26f95044b8e28e486af151bbab7c4a93622e8d1cc1f39dc35"
+    },
+    {
+      "file": "assets/index-oPFpv7DS.js",
+      "bytes": 611316,
+      "sha256": "061f1f5a4066635fe146dbb00b8e70f049a1efa251b5ee4d7237631997cbbbf3"
     },
     {
       "file": "assets/index.es-legacy-BxCwjAys.js",
@@ -499,7 +499,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "414beb94e4dd664c545939598923d0cc2c28c96f1527ad310ebbc8f50760e2a4"
+      "sha256": "583f75e69efab778a767b16b6d8a74792bddad6a35209c7eceea388865ba0c5e"
     },
     {
       "file": "manifest.webmanifest",
@@ -513,8 +513,8 @@
     },
     {
       "file": "sw.js",
-      "bytes": 4138,
-      "sha256": "63ca7e02a5756bd254d76198902f48b67cef700718e66b27cc15a5680c98f698"
+      "bytes": 4789,
+      "sha256": "6caec81c478fe6158682b3010944a78ccd3aeb28e12b332e684a1ce86ca52930"
     },
     {
       "file": "v.html",
@@ -523,8 +523,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 350,
-      "sha256": "2990f236f39569b0c45a32a77c6a583e3685f760dc47c8912e1fc86cccc9b258"
+      "bytes": 381,
+      "sha256": "0bad391a1cfad8216904344f2d1c183bf2a9eee37e0e2566d3227b60ba0acb7b"
     }
   ]
 }
