@@ -1,9 +1,9 @@
 {
-  "version": "v458",
+  "version": "v459",
   "date": "2026-09-06",
-  "note": "Dans les rapports, les cours prevus sans lecon ne se comptent qu a partir de la rentree effective : plus de cours de juillet dans le trimestre 1.",
-  "label": "Les cours comptent a partir de la rentree",
+  "note": "Avec Memoriser mon identifiant, la deconnexion garde la session hors ligne sur l appareil : on peut se reconnecter sans reseau et retrouver ses donnees. Sur un poste partage, tout s efface comme avant.",
+  "label": "Se reconnecter sans reseau sur son propre appareil",
   "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-06T01:00:00.000Z"
+  "client_visible": true,
+  "updated_at": "2026-09-06T01:30:00.000Z"
 }
