@@ -1,10 +1,10 @@
 {
-  "version": "v463",
-  "package_version": "1.0.463",
-  "label": "Le telephone ne garde plus toutes les anciennes versions",
-  "created_at": "2026-09-06T11:53:50.690Z",
+  "version": "v464",
+  "package_version": "1.0.464",
+  "label": "Une seule colonne d horaires sur la feuille officielle",
+  "created_at": "2026-09-06T12:46:16.979Z",
   "files": 104,
-  "total_bytes": 12687099,
+  "total_bytes": 12686261,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -142,14 +142,14 @@
       "sha256": "f96c5cd5993efd1d72566d1eb500de99a3234fb9aa4405b04633e250574244be"
     },
     {
-      "file": "assets/Parametres-iMI1cum_.js",
-      "bytes": 67247,
-      "sha256": "75ebaba8bf4f9640d7c68204ff0f3236882e15f8c5e78188a62d3d35202b3381"
+      "file": "assets/Parametres-CFmkr_JB.js",
+      "bytes": 67314,
+      "sha256": "cdd74ba5e5c21857906a2bd62644af6d5b37264c01cb59fe3a1a784305ca0851"
     },
     {
-      "file": "assets/Parametres-legacy-CCwTHoDB.js",
-      "bytes": 81288,
-      "sha256": "9373ee292867211a7d7340edd34662c1043cdb9a620c6dfc9b04e653977c44f3"
+      "file": "assets/Parametres-legacy-ehQd74gs.js",
+      "bytes": 81355,
+      "sha256": "53b144107c40509687dd48d23f63e0dd9920fb4c24537451d6b145fb09bec79f"
     },
     {
       "file": "assets/ParentPortalViews-BRIJQUSt.js",
@@ -272,19 +272,19 @@
       "sha256": "f92e7adadc78084b9eb76dbb5b347653fb54f3663c53ba7064cdf7bfed86ebbc"
     },
     {
-      "file": "assets/index-_pIvt0tQ.css",
-      "bytes": 306030,
-      "sha256": "e6b276e9db6c96e010ecfed0c17c6324732635ce807e274a3a600e4460a01c31"
+      "file": "assets/index-DKwdQ8Zn.js",
+      "bytes": 610813,
+      "sha256": "f94830101b2f30a00d5976bf1beebde554adfe52daad7b528da3f1b402c1234d"
     },
     {
-      "file": "assets/index-legacy-DCKKQdhj.js",
-      "bytes": 1008805,
-      "sha256": "79dc541c5bececd26f95044b8e28e486af151bbab7c4a93622e8d1cc1f39dc35"
+      "file": "assets/index-DWf4ZgAa.css",
+      "bytes": 306067,
+      "sha256": "2cb8f34fa2c4a28e19840b9210f47bc07551e7d021ffe98f55cdf3b274a916c3"
     },
     {
-      "file": "assets/index-oPFpv7DS.js",
-      "bytes": 611316,
-      "sha256": "061f1f5a4066635fe146dbb00b8e70f049a1efa251b5ee4d7237631997cbbbf3"
+      "file": "assets/index-legacy-BZn7Bo0y.js",
+      "bytes": 1008231,
+      "sha256": "b7a30c64ff8889fd996e42e040881facedab7a7469c7fb9df7f864233791b131"
     },
     {
       "file": "assets/index.es-legacy-BxCwjAys.js",
@@ -499,7 +499,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "583f75e69efab778a767b16b6d8a74792bddad6a35209c7eceea388865ba0c5e"
+      "sha256": "171a24f2dfdf91ff1efc5f9e0b3c7639d095845778c15827efe837f8d0c70e1c"
     },
     {
       "file": "manifest.webmanifest",
@@ -514,7 +514,7 @@
     {
       "file": "sw.js",
       "bytes": 4789,
-      "sha256": "6caec81c478fe6158682b3010944a78ccd3aeb28e12b332e684a1ce86ca52930"
+      "sha256": "1f487b644f775acbfc797c86c8c7b40bdf581730954fd4fce7f49a6ed4516e47"
     },
     {
       "file": "v.html",
@@ -523,8 +523,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 381,
-      "sha256": "0bad391a1cfad8216904344f2d1c183bf2a9eee37e0e2566d3227b60ba0acb7b"
+      "bytes": 449,
+      "sha256": "a38792cb5fac737042ef6c3746f816778e36f9a831c88a74e26915f2cee3279b"
     }
   ]
 }

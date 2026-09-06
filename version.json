@@ -1,9 +1,9 @@
 {
-  "version": "v463",
+  "version": "v464",
   "date": "2026-09-06",
-  "note": "Le telephone ne garde plus les anciennes versions de l application : deux au plus. Et la session hors ligne survit a la deconnexion sur l appareil personnel.",
-  "label": "Le telephone ne garde plus toutes les anciennes versions",
+  "note": "La feuille officielle de l emploi du temps n a plus qu une colonne d horaires : chaque jour montre les plages ou une classe a cours, matin et soir dans le meme tableau. Sur telephone, une fenetre commence sous la barre du haut.",
+  "label": "Une seule colonne d horaires sur la feuille officielle",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-06T03:30:00.000Z"
+  "updated_at": "2026-09-06T04:30:00.000Z"
 }
