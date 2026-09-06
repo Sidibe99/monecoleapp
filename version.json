@@ -1,12 +1,10 @@
 {
-  "version": "v467",
+  "version": "v468",
   "date": "2026-09-06",
-  "note": "Le perimetre de cycles d un compte Censeur est maintenant applique aux ecrans et aux acces directs Supabase. La creation des comptes a perimetre refuse aussi toute liste de cycles absente ou invalide au lieu de l ouvrir a toute l ecole.",
-  "label": "Cloisonne strictement les cycles autorises",
-  "scope": "client+supabase",
-  "deploiement": [
-    "create-user"
-  ],
+  "note": "Les filtres de la page Eleves et les indications de bareme du tableau de bord n affichent plus aucun cycle hors du perimetre autorise du Censeur.",
+  "label": "Masque les derniers cycles interdits",
+  "scope": "client",
+  "deploiement": [],
   "client_visible": true,
-  "updated_at": "2026-09-06T22:40:23.000Z"
+  "updated_at": "2026-09-06T23:45:50.000Z"
 }
