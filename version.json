@@ -1,10 +1,10 @@
 {
-  "version": "v468",
-  "date": "2026-09-06",
-  "note": "Les filtres de la page Eleves et les indications de bareme du tableau de bord n affichent plus aucun cycle hors du perimetre autorise du Censeur.",
-  "label": "Masque les derniers cycles interdits",
+  "version": "v470",
+  "date": "2026-09-13",
+  "note": "La page Personnel est chargee a la demande, la gestion des dialogues est modularisee et les options IA distinguent le libelle de classe de son contexte. Les parcours par role et l accessibilite v469 sont inclus.",
+  "label": "Allege Personnel et fiabilise les options IA",
   "scope": "client",
   "deploiement": [],
   "client_visible": true,
-  "updated_at": "2026-09-06T23:45:50.000Z"
+  "updated_at": "2026-09-13T00:03:10.000Z"
 }
