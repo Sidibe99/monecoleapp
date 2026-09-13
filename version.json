@@ -1,10 +1,10 @@
 {
-  "version": "v474",
+  "version": "v475",
   "date": "2026-09-13",
-  "note": "Le cache hors ligne utilise maintenant l'adresse canonique de la page d'accueil pour rester compatible avec l'hebergement public. Les controles d'integrite et les protections des saisies de v473 sont conserves.",
+  "note": "Les dossiers, salaires et absences du personnel respectent les droits de lecture et d'ecriture, meme en presence d'anciennes politiques permissives. Un annuaire pedagogique minimal preserve les noms utiles au planning et les anciens caches prives sont assainis sans toucher aux saisies en attente.",
   "label": "Permissions renforcees et hors ligne fiabilise",
-  "scope": "client",
+  "scope": "client+supabase",
   "deploiement": [],
   "client_visible": true,
-  "updated_at": "2026-09-13T17:00:00.000Z"
+  "updated_at": "2026-09-13T18:37:34.000Z"
 }
