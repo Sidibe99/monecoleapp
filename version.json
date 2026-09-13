@@ -1,10 +1,10 @@
 {
-  "version": "v472",
+  "version": "v473",
   "date": "2026-09-13",
-  "note": "La page Eleves est chargee a la demande. Les controles du perimetre Censeur et du poids au demarrage sont renforces. Les vues de diagnostic technique ne sont plus une API publique.",
-  "label": "Protege les diagnostics et allege Eleves",
+  "note": "Les permissions techniques et les reglages sont mieux proteges. Le cache hors ligne est verifie avant activation ; les saisies sont conservees en cas de quota plein ou de session a renouveler.",
+  "label": "Permissions renforcees et hors ligne fiabilise",
   "scope": "client+supabase",
   "deploiement": [],
   "client_visible": true,
-  "updated_at": "2026-09-13T12:23:48.000Z"
+  "updated_at": "2026-09-13T15:24:34.000Z"
 }
