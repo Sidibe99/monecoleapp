@@ -1,10 +1,10 @@
 {
-  "version": "v473",
-  "package_version": "1.0.473",
+  "version": "v474",
+  "package_version": "1.0.474",
   "label": "Permissions renforcees et hors ligne fiabilise",
-  "created_at": "2026-09-13T17:36:12.519Z",
+  "created_at": "2026-09-13T17:47:30.693Z",
   "files": 111,
-  "total_bytes": 12789768,
+  "total_bytes": 12790011,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "9544bd54ffb0e35e8263f869b7da2711fa5287cdd9ec3cbddf332210e127601d"
+      "sha256": "fb6514365e1194df847806d2a60ff5e6ad11dbcb90d09384901994d7782d0648"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "a59d29534a0742f2a453f4aecc5972c17a3b4a7c4f5b1c3cb7c46f7318139fcb"
+      "sha256": "3a49078004a0361192dd06a8d2796dc0aca2763e359af5116dbb4238a3b9c025"
     },
     {
       "file": "reset-cache.html",
@@ -548,8 +548,8 @@
     },
     {
       "file": "sw.js",
-      "bytes": 7960,
-      "sha256": "4e2b9d675fbc1696ac54e58126410cb140e125fcf3985888c84251eea4a1cc84"
+      "bytes": 8194,
+      "sha256": "c572edac92d8b31abf3e3bfdd66e33b548ce96e8f0c7553a5158dbdcbf32335e"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 436,
-      "sha256": "fb6d2ce3cc8b9069cd35fe9888ae6861c3ea66e5ec73c8c3c3352870bdf54623"
+      "bytes": 445,
+      "sha256": "451f29111eb3fda8e9185e8d1cde746543d96b359a9e35a2c524763c4ab27bcf"
     }
   ]
 }

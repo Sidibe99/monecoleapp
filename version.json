@@ -1,10 +1,10 @@
 {
-  "version": "v473",
+  "version": "v474",
   "date": "2026-09-13",
-  "note": "Les permissions techniques et les reglages sont mieux proteges. Le cache hors ligne est verifie avant activation ; les saisies sont conservees en cas de quota plein ou de session a renouveler.",
+  "note": "Le cache hors ligne utilise maintenant l'adresse canonique de la page d'accueil pour rester compatible avec l'hebergement public. Les controles d'integrite et les protections des saisies de v473 sont conserves.",
   "label": "Permissions renforcees et hors ligne fiabilise",
-  "scope": "client+supabase",
+  "scope": "client",
   "deploiement": [],
   "client_visible": true,
-  "updated_at": "2026-09-13T15:24:34.000Z"
+  "updated_at": "2026-09-13T17:00:00.000Z"
 }

@@ -1,6 +1,6 @@
-const CACHE_NAME = "monecole-vite-v473";
+const CACHE_NAME = "monecole-vite-v474";
 // Remplacé uniquement dans dist/sw.js, après génération de tous les bundles.
-const MANIFEST_SHA256 = "a59d29534a0742f2a453f4aecc5972c17a3b4a7c4f5b1c3cb7c46f7318139fcb";
+const MANIFEST_SHA256 = "3a49078004a0361192dd06a8d2796dc0aca2763e359af5116dbb4238a3b9c025";
 const CACHE_STORAGE_NAME = `${CACHE_NAME}-${MANIFEST_SHA256.slice(0, 16)}`;
 const OFFLINE_MANIFEST_URL = "/offline-manifest.json";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
@@ -55,7 +55,10 @@ const cacheCompiledAssets = (cache, assets) => {
   const cacheNext = () => {
     if (failure || next >= assets.length) return Promise.resolve();
     const asset = assets[next++];
-    return fetch(asset.url, { cache: "no-store" }).then(response => {
+    // L'hébergement public redirige /index.html vers /. Garder la clé locale
+    // index.html, mais télécharger sa représentation canonique sans redirection.
+    const sourceUrl = asset.url === "/index.html" ? "/" : asset.url;
+    return fetch(sourceUrl, { cache: "no-store" }).then(response => {
       if (!validResponse(response, asset.type)) throw new Error(`Type ou statut incorrect : ${asset.url}`);
       return response.clone().arrayBuffer().then(bytes => {
         if (bytes.byteLength !== asset.bytes) throw new Error(`Taille incorrecte : ${asset.url}`);
