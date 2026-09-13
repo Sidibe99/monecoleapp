@@ -1,10 +1,10 @@
 {
-  "version": "v475",
+  "version": "v476",
   "date": "2026-09-13",
-  "note": "Les dossiers, salaires et absences du personnel respectent les droits de lecture et d'ecriture, meme en presence d'anciennes politiques permissives. Un annuaire pedagogique minimal preserve les noms utiles au planning et les anciens caches prives sont assainis sans toucher aux saisies en attente.",
+  "note": "Les pages deleguees sont conservees lors de la creation du compte sans ajouter de droits d'ecriture. Les boutons et actions d'impression et d'export respectent les permissions. Les pieces jointes de Discipline suivent les droits d'action et le perimetre des incidents, y compris leurs cycles autorises.",
   "label": "Permissions renforcees et hors ligne fiabilise",
   "scope": "client+supabase",
-  "deploiement": [],
+  "deploiement": ["create-user"],
   "client_visible": true,
-  "updated_at": "2026-09-13T18:37:34.000Z"
+  "updated_at": "2026-09-13T19:09:04.000Z"
 }
