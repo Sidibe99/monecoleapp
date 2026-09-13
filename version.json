@@ -1,10 +1,10 @@
 {
-  "version": "v471",
+  "version": "v472",
   "date": "2026-09-13",
-  "note": "Une erreur d ecran reste maintenant isolee sans faire tomber toute l application. La page Matieres est chargee a la demande et son perimetre par cycles est conserve.",
-  "label": "Isole les erreurs et allege Matieres",
-  "scope": "client",
+  "note": "La page Eleves est chargee a la demande. Les controles du perimetre Censeur et du poids au demarrage sont renforces. Les vues de diagnostic technique ne sont plus une API publique.",
+  "label": "Protege les diagnostics et allege Eleves",
+  "scope": "client+supabase",
   "deploiement": [],
   "client_visible": true,
-  "updated_at": "2026-09-13T09:40:59.000Z"
+  "updated_at": "2026-09-13T12:23:48.000Z"
 }
