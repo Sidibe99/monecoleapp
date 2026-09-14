@@ -1,10 +1,10 @@
 {
-  "version": "v487",
+  "version": "v488",
   "date": "2026-09-14",
-  "note": "Personnel : « Nouveau membre » en tete, l export sous « Autres actions ». Depenses : « Nouvelle depense » en tete, l export sous « Autres actions ». Meme motif qu Eleves, Classes, Matieres, Emploi du temps et Paiements.",
-  "label": "Personnel et Depenses, une action principale",
-  "label_ar": "الطاقم والمصاريف: إجراء رئيسي واحد",
+  "note": "Notes : la saisie et le bouton « Enregistrer » restent en tete ; l export, la fiche a imprimer et l import attendent sous « Autres actions », replies sur telephone seulement.",
+  "label": "Notes : saisir d abord, exporter ensuite",
+  "label_ar": "الدرجات: الإدخال أولاً، ثم التصدير",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T20:20:00.000Z"
+  "updated_at": "2026-09-14T20:50:00.000Z"
 }

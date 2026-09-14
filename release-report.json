@@ -1,10 +1,10 @@
 {
-  "version": "v487",
-  "package_version": "1.0.487",
-  "label": "Personnel et Depenses, une action principale",
-  "created_at": "2026-09-14T19:58:50.091Z",
+  "version": "v488",
+  "package_version": "1.0.488",
+  "label": "Notes : saisir d abord, exporter ensuite",
+  "created_at": "2026-09-14T20:26:25.263Z",
   "files": 111,
-  "total_bytes": 12825769,
+  "total_bytes": 12826610,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -302,19 +302,19 @@
       "sha256": "f2b60758c7f92910ba331bbc1bb7c3b8e76047411662f16701a0888813ddd482"
     },
     {
-      "file": "assets/index-AmC0F-Iz.css",
-      "bytes": 312802,
-      "sha256": "806a0c853305bcad57772f3463bbb1fd7e494dcb27768c699f164114b9edc250"
+      "file": "assets/index-BVb187J0.css",
+      "bytes": 313066,
+      "sha256": "282c19eb6265b836b0f92213606d17d1ace9acfaccfc26ee2d18b7bcae21163a"
     },
     {
-      "file": "assets/index-DkCerwQv.js",
-      "bytes": 526342,
-      "sha256": "c2438ed59715e945f30561f7e059b6e4af3143525c30e639b900e3343fef276c"
+      "file": "assets/index-ST4hhwB6.js",
+      "bytes": 526517,
+      "sha256": "824e9669bd5c200961f1044e6da6555cd64cca4bba8fca477cc8adb46adbae48"
     },
     {
-      "file": "assets/index-legacy-CEQINz1h.js",
-      "bytes": 923680,
-      "sha256": "8562567b17269ccb4cf7897c83628cbe26c81c427511342ead21c640b8913cc8"
+      "file": "assets/index-legacy-DIvAV5w1.js",
+      "bytes": 924135,
+      "sha256": "f6f60f45ddee57d1f5a85b4f8725c79118a4f0608521448d6e34cb41920542dc"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "74becd847e0d63839f750905cfc90e85bd77003c2e1002b66414cfd834211bad"
+      "sha256": "6618d3f6816f4e2f8be1e2ff8261a8de71f698a6ef2aadb590a4fb54e48fb08c"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "ac8c24b1ef3ee3a8883a27ac7a55ab3cd03570b8d1a2c55b1f65120f97e02016"
+      "sha256": "5ea6939e3b9738e2d0db7a051bace4db37296b99c034a4f85339ee97a070bfd8"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "fb779c23f4438cb844c06e8ae66944fd91b3dc5583c119353b8fd6419432059d"
+      "sha256": "53bcf95a207847baae9fbe3c971287cb7ceb95d2c379c8f193016f036ee5c30a"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 520,
-      "sha256": "d13ce25f22585d42fd5fa270e022a58122e34df97bcbcfae1e86d1d9f06bebed"
+      "bytes": 467,
+      "sha256": "853d96a493c80d5a901c608267afb05d50969787fe6d8517ac5631ca0372c980"
     }
   ]
 }
