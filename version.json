@@ -1,10 +1,10 @@
 {
-  "version": "v492",
+  "version": "v493",
   "date": "2026-09-14",
-  "note": "Depenses : les boutons Excel et Word rejoignent la ligne des rapports (Rapprochement, Journal, Bilan), a droite ; le bloc « Autres actions » disparait de cette page.",
-  "label": "Depenses : l export rejoint la ligne des rapports",
-  "label_ar": "المصاريف: التصدير في سطر التقارير",
+  "note": "Dans l en-tete bilingue des documents imprimes, la case de droite porte un vrai titre arabe (Journal de caisse, Bilan, Rapprochement, attestations et lettres de la fiche eleve, rapports du censeur), meme quand l interface est en francais ; elle repetait le nom francais.",
+  "label": "Les titres de documents en arabe, meme en francais",
+  "label_ar": "عناوين الوثائق بالعربية حتى في الواجهة الفرنسية",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T23:10:00.000Z"
+  "updated_at": "2026-09-14T23:40:00.000Z"
 }
