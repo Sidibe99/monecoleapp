@@ -1,9 +1,10 @@
 {
-  "version": "v481",
+  "version": "v482",
   "date": "2026-09-14",
-  "note": "En arabe, le bouton rond des outils rapides et ses panneaux (Affichage, Preferences) passent a gauche de l ecran : a droite, ils couvraient le bas du menu qui s y ouvre depuis la v480.",
-  "label": "En arabe, le bouton rond passe a gauche",
+  "note": "L avis « Nouvelle version disponible » se lit entierement en arabe : le libelle de la version (label_ar dans version.json) et le bouton « Plus tard ». L onglet Formules affiche le meme libelle.",
+  "label": "L avis de mise a jour parle arabe",
+  "label_ar": "إشعار التحديث يتكلم العربية",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T14:45:00.000Z"
+  "updated_at": "2026-09-14T15:20:00.000Z"
 }
