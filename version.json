@@ -1,9 +1,9 @@
 {
-  "version": "v478",
+  "version": "v479",
   "date": "2026-09-14",
-  "note": "Les 21 onglets ont ete passes en arabe avec des donnees d essai : le mois du tableau de bord, le cycle de la carte Resultats, les statuts des fiches, l origine des donnees d un bulletin, les colonnes automatiques des fiches, les durees de l emploi du temps, le journal vide et les roles dans la messagerie se lisent maintenant en arabe.",
-  "label": "L arabe sur tous les onglets, sans reste de francais",
+  "note": "Sur le tableau de bord en arabe, la carte des encaissements dit « المحصل في شهر سبتمبر » : le mot « شهر » precede le nom du mois, comme on le dit.",
+  "label": "Le mois se dit avec le mot mois en arabe",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T11:30:00.000Z"
+  "updated_at": "2026-09-14T12:10:00.000Z"
 }

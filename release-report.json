@@ -1,10 +1,10 @@
 {
-  "version": "v478",
-  "package_version": "1.0.478",
-  "label": "L arabe sur tous les onglets, sans reste de francais",
-  "created_at": "2026-09-14T11:34:23.205Z",
+  "version": "v479",
+  "package_version": "1.0.479",
+  "label": "Le mois se dit avec le mot mois en arabe",
+  "created_at": "2026-09-14T14:04:27.349Z",
   "files": 111,
-  "total_bytes": 12815037,
+  "total_bytes": 12814873,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -302,19 +302,19 @@
       "sha256": "f2b60758c7f92910ba331bbc1bb7c3b8e76047411662f16701a0888813ddd482"
     },
     {
+      "file": "assets/index-CX3G0bhF.js",
+      "bytes": 525604,
+      "sha256": "a7d498884305504b20eebe47fc52350a4c1ca355495e785a11b2b7638ba278ff"
+    },
+    {
       "file": "assets/index-D0mSAmoU.css",
       "bytes": 310412,
       "sha256": "71ec292414454cde3f567c46cf2d496a4e0f78453ec1ce365b4fd011295a9342"
     },
     {
-      "file": "assets/index-FZ9bbnOk.js",
-      "bytes": 525597,
-      "sha256": "9f7668b5aa564e4b449c35919df1033c8166f2451613d49820da30cc55e019b7"
-    },
-    {
-      "file": "assets/index-legacy-hXv68D4_.js",
-      "bytes": 920254,
-      "sha256": "38af1112498d28a876ec3ad3b1d20beeedf1eaefc0e33c3ef131d95c38d4cf5d"
+      "file": "assets/index-legacy-BmVU-5l_.js",
+      "bytes": 920261,
+      "sha256": "6e79742f2f7388b9601d0ce2cb4bb62cacfde7a5738e0e8207f5ef63b8028c62"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "d7f9317b42ec3cef3d740d18389b31c56f6486c1df06d799c5d6ef12a83e33eb"
+      "sha256": "0d58548ee3d67eaf2d5d6980877ad98ed5886587fa217b72e48143938b892c82"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "91d91df733023302f72f408447d84ff6d76f3e20c46ef4eba4cf9738818925e9"
+      "sha256": "0380ffce2d6a503abad94f39bac457a8eba5fcf142cdd1aaa3b33237513787d5"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "dfda0958be6f62f0d99efe425c9423e617660e2e82d3f969b3b00f75fc759d34"
+      "sha256": "bc82598383dd829ef7dc8e8bc8dc0ddadb308afc078ee960c9af96c39d185d0b"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 556,
-      "sha256": "4834ce9cdcc291b8a0786decba61d1d09481b00ccaf35a670c18d80273e6efa0"
+      "bytes": 378,
+      "sha256": "e60b28b95d17727f0a7cfc7c9bf57dc8ae1906ad4d3e5245af14185fec118c29"
     }
   ]
 }
