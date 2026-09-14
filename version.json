@@ -1,10 +1,9 @@
 {
-  "version": "v476",
-  "date": "2026-09-13",
-  "note": "Les pages deleguees sont conservees lors de la creation du compte sans ajouter de droits d'ecriture. Les boutons et actions d'impression et d'export respectent les permissions. Les pieces jointes de Discipline suivent les droits d'action et le perimetre des incidents, y compris leurs cycles autorises.",
-  "label": "Permissions renforcees et hors ligne fiabilise",
-  "scope": "client+supabase",
-  "deploiement": ["create-user"],
+  "version": "v477",
+  "date": "2026-09-14",
+  "note": "Sur Eleves, Classes et Matieres, une seule action principale reste en tete de page ; les exports, l import, les cartes et le comite se trouvent sous « Autres actions ». Le bilan se replie, Echap le referme. Le perimetre de chacun est ecrit sous le titre.",
+  "label": "Une action principale par page, les autres repliees",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-13T19:09:04.000Z"
+  "updated_at": "2026-09-14T09:30:00.000Z"
 }
