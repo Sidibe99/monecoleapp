@@ -1,9 +1,9 @@
 {
-  "version": "v477",
+  "version": "v478",
   "date": "2026-09-14",
-  "note": "Sur Eleves, Classes et Matieres, une seule action principale reste en tete de page ; les exports, l import, les cartes et le comite se trouvent sous « Autres actions ». Le bilan se replie, Echap le referme. Le perimetre de chacun est ecrit sous le titre.",
-  "label": "Une action principale par page, les autres repliees",
+  "note": "Les 21 onglets ont ete passes en arabe avec des donnees d essai : le mois du tableau de bord, le cycle de la carte Resultats, les statuts des fiches, l origine des donnees d un bulletin, les colonnes automatiques des fiches, les durees de l emploi du temps, le journal vide et les roles dans la messagerie se lisent maintenant en arabe.",
+  "label": "L arabe sur tous les onglets, sans reste de francais",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T09:30:00.000Z"
+  "updated_at": "2026-09-14T11:30:00.000Z"
 }
