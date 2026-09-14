@@ -1,10 +1,10 @@
 {
-  "version": "v494",
-  "package_version": "1.0.494",
-  "label": "Depenses : quantite et prix unitaire, montant calcule",
-  "created_at": "2026-09-14T22:35:28.629Z",
+  "version": "v495",
+  "package_version": "1.0.495",
+  "label": "Emploi du temps : les impressions sur la ligne de la classe",
+  "created_at": "2026-09-14T23:02:50.091Z",
   "files": 113,
-  "total_bytes": 12845234,
+  "total_bytes": 12844772,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -307,14 +307,14 @@
       "sha256": "4d1622092b5efbaf1f740ed0375250ff96b72fcf7efaf27a4bff1179e225a9a8"
     },
     {
-      "file": "assets/index-DxEVQ9Ys.js",
-      "bytes": 524943,
-      "sha256": "5378c10ba81ef1f95f713c2e49f4c734f3d8b5eac74fc3a655d9566cee61f33f"
+      "file": "assets/index-DJ3dScYM.js",
+      "bytes": 524775,
+      "sha256": "8abed4d893f3a88243ab09fff58a539c7d8c65c79847a8df86f973756563ad77"
     },
     {
-      "file": "assets/index-legacy-BYtn_sD2.js",
-      "bytes": 923358,
-      "sha256": "04dbd414a9f26e81ea8fea35e8aa9854ae7e1ada5a5f96116ea66d02f1314de0"
+      "file": "assets/index-legacy-Djc0Jl1m.js",
+      "bytes": 923175,
+      "sha256": "9d4e4d63985708615f0dddb48e85c46abb3dd75c3ac2012aae72627c169b7350"
     },
     {
       "file": "assets/index.es-C0GmcR0x.js",
@@ -539,7 +539,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "2c4344f20431418d1a1a67affe0c44bfd1b3f9c60d3a1f591a56ff0383114094"
+      "sha256": "c973738cf375fa07519a583a0c35d5b0e5e89cdce15568a0f65926e38f6b5849"
     },
     {
       "file": "manifest.webmanifest",
@@ -549,7 +549,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15801,
-      "sha256": "aefd01a661fe053d087b9d9487b7ffe0e12e4307f8c316f1342957eecd692e3b"
+      "sha256": "6f0d1df17d6ebb0445814099b00760fac4a0df290f3d9ffbea0f788d8541c533"
     },
     {
       "file": "reset-cache.html",
@@ -559,7 +559,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "7fc4eaed8e0b39a66b5641a64a498971a156edbf7967e3700216cc41842d9519"
+      "sha256": "b96c513df8b25c14b23296d46e01f5d1958b3c24aedb20f6274346c229f43cc9"
     },
     {
       "file": "v.html",
@@ -568,8 +568,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 611,
-      "sha256": "79f25970b8550ed3f67029c070342a59a92f1265ac11243e76012de2996ca265"
+      "bytes": 500,
+      "sha256": "f30bb2a996341bfa9f951a328f6db7430fe391b6901a10664f3ab9cc0161e12b"
     }
   ]
 }

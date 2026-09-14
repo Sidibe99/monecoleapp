@@ -1,10 +1,10 @@
 {
-  "version": "v494",
-  "date": "2026-09-14",
-  "note": "Depenses : a l ajout ou a la modification, une quantite et un prix unitaire ; quand les deux sont saisis, le montant se calcule tout seul (quantite x prix unitaire). Le tableau et l export montrent la quantite et le prix unitaire. Migration SQL v494 a installer avant la publication.",
-  "label": "Depenses : quantite et prix unitaire, montant calcule",
-  "label_ar": "المصاريف: الكمية وسعر الوحدة، والمبلغ يُحسب",
-  "scope": "client+supabase",
+  "version": "v495",
+  "date": "2026-09-15",
+  "note": "Emploi du temps : « Imprimer » et « Impression officielle » rejoignent la ligne du choix de la classe, a droite ; le bloc « Autres actions » disparait de cette page, comme sur Depenses.",
+  "label": "Emploi du temps : les impressions sur la ligne de la classe",
+  "label_ar": "الجدول الزمني: الطباعة في سطر الفصل",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-15T00:20:00.000Z"
+  "updated_at": "2026-09-15T00:50:00.000Z"
 }
