@@ -1,10 +1,10 @@
 {
-  "version": "v489",
-  "package_version": "1.0.489",
-  "label": "Discipline et Autorisations : filtres replies sur telephone",
-  "created_at": "2026-09-14T20:47:55.214Z",
+  "version": "v490",
+  "package_version": "1.0.490",
+  "label": "Depenses : un rapport se consulte avant de s imprimer",
+  "created_at": "2026-09-14T21:12:30.321Z",
   "files": 111,
-  "total_bytes": 12828704,
+  "total_bytes": 12830615,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,14 +52,14 @@
       "sha256": "c2ac9cda4c1d6bfa91c3de8d7bbf3f098a6572b1d9f4216accab78ccc6ae6737"
     },
     {
-      "file": "assets/Depenses-GU51KKUy.js",
-      "bytes": 19123,
-      "sha256": "50a1ab658a2ef6a77c6c9b6edf5ebb7e4ce55c4cb857b612c89509b8afe00836"
+      "file": "assets/Depenses-8Lr_DcSI.js",
+      "bytes": 20033,
+      "sha256": "32cd78586fa2fe367168aa0aaf6a26c43600bab115a4b5702638e89e6cf6e1b0"
     },
     {
-      "file": "assets/Depenses-legacy-DwQiykUz.js",
-      "bytes": 26105,
-      "sha256": "9164ed4fe6db7d927adcdf54666d8e492131b825a6c71c6b0e2fddee9fea05a9"
+      "file": "assets/Depenses-legacy-Bh0GX9Gi.js",
+      "bytes": 27112,
+      "sha256": "702aa900c94c6f557bff872d2899add82a509766d2d62c7ebea9dbecada430dc"
     },
     {
       "file": "assets/Discipline-BpWFlMjt.js",
@@ -307,14 +307,14 @@
       "sha256": "4d1622092b5efbaf1f740ed0375250ff96b72fcf7efaf27a4bff1179e225a9a8"
     },
     {
-      "file": "assets/index-e6LC_PL5.js",
-      "bytes": 526527,
-      "sha256": "6c50a82611445e0964f43ac4cebe5096e8d9144f0015e8e1cc59cef40998889b"
+      "file": "assets/index-FGmwZk4v.js",
+      "bytes": 526549,
+      "sha256": "fdf4079e16b66d95d61b5c61d938f7af2e852ac0a9a99806011fe800514ae8ee"
     },
     {
-      "file": "assets/index-legacy-CqZ7sV6m.js",
-      "bytes": 924309,
-      "sha256": "37e9d3f221598b42b949b65144fc03f4a03b2e1af078aac690f1d11ba69d25f2"
+      "file": "assets/index-legacy-C4Ty7WDa.js",
+      "bytes": 924331,
+      "sha256": "ae0bb27d6d6dece906ddac6fc601cba08f673a880bdc62819c3db3f80e33bbda"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "e876457fb63459d5956ba6b03b0b15e7b51a30a8e1e2f3cfd43c2c437b1ac153"
+      "sha256": "32bf1fbe139ddf336e63b1491263b34c101e15ae0198a2f6f5bc2b2acb795d4b"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "736f0c2b269e73b1d15682d77088d94616c783757c1b96afe4fb0e5b31249e7f"
+      "sha256": "d200d8d4b425c63f5e2a3ac7070fc675b824e8501e8988ad8cf575ff027f7c6a"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "9737bb05a3dc318c9799cfea14ea96b4d8687dc4ca4b84c3ac5d8e331b1c4068"
+      "sha256": "362403884dc91c7f28a40bcd4a81daf892a87b3db232b3e0b0645b5e9a28cda4"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 612,
-      "sha256": "d1a324e509483eb93bf29a3704136f272534e119ad603c3606d8b5dd6b1e417f"
+      "bytes": 562,
+      "sha256": "d0adf7e5d613c0c842028c1d1f8b26d3ee0c73f1db47272de847e78bb0f5d188"
     }
   ]
 }

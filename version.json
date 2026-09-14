@@ -1,10 +1,10 @@
 {
-  "version": "v489",
+  "version": "v490",
   "date": "2026-09-14",
-  "note": "Discipline et Autorisations : sur telephone, les filtres (classe, statut, type, dossier d un eleve) se replient sous « Filtres » pour laisser la place a la liste ; ouverts sur ordinateur ; le nombre de filtres actifs reste lisible. Le plan de simplification est complet.",
-  "label": "Discipline et Autorisations : filtres replies sur telephone",
-  "label_ar": "الانضباط والتصاريح: عوامل التصفية مطويّة على الهاتف",
+  "note": "Depenses : Rapprochement de caisse, Journal de caisse et Bilan de tresorerie s ouvrent d abord dans la page, comme le rapport financier des Paiements ; le bouton « Imprimer » n arrive qu ensuite. Le clic n envoie plus directement vers le mode d impression.",
+  "label": "Depenses : un rapport se consulte avant de s imprimer",
+  "label_ar": "المصاريف: التقرير يُعرض قبل الطباعة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T21:20:00.000Z"
+  "updated_at": "2026-09-14T22:00:00.000Z"
 }
