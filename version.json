@@ -1,10 +1,10 @@
 {
-  "version": "v490",
+  "version": "v491",
   "date": "2026-09-14",
-  "note": "Depenses : Rapprochement de caisse, Journal de caisse et Bilan de tresorerie s ouvrent d abord dans la page, comme le rapport financier des Paiements ; le bouton « Imprimer » n arrive qu ensuite. Le clic n envoie plus directement vers le mode d impression.",
-  "label": "Depenses : un rapport se consulte avant de s imprimer",
-  "label_ar": "المصاريف: التقرير يُعرض قبل الطباعة",
+  "note": "Paiements : dans l apercu du rapport financier, on choisit une classe pour voir le rapport eleve par eleve (du, encaisse, reste, taux), et l impression suit ce choix. Sans classe, le rapport de l ecole, classe par classe, comme avant.",
+  "label": "Le rapport financier par classe",
+  "label_ar": "التقرير المالي حسب الفصل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T22:00:00.000Z"
+  "updated_at": "2026-09-14T22:40:00.000Z"
 }

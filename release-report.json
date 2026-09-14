@@ -1,10 +1,10 @@
 {
-  "version": "v490",
-  "package_version": "1.0.490",
-  "label": "Depenses : un rapport se consulte avant de s imprimer",
-  "created_at": "2026-09-14T21:12:30.321Z",
-  "files": 111,
-  "total_bytes": 12830615,
+  "version": "v491",
+  "package_version": "1.0.491",
+  "label": "Le rapport financier par classe",
+  "created_at": "2026-09-14T21:46:06.127Z",
+  "files": 113,
+  "total_bytes": 12840150,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -117,9 +117,9 @@
       "sha256": "23543619fbcd484af10fd4171500f27cc327933f7651ea66cd552ded53b892cf"
     },
     {
-      "file": "assets/IAEducative-legacy-DZ1t7Ku4.js",
+      "file": "assets/IAEducative-legacy-GUyCuf9T.js",
       "bytes": 67282,
-      "sha256": "a943417937fe4a85e361f3df9374e1be4c73ead530295ce10f18410e84c98fda"
+      "sha256": "36ed533d4f3aed08500a62858aa77f48ae0931eb88795d01785446a00a76bfe9"
     },
     {
       "file": "assets/MatieresPage-DwRiEQ7J.js",
@@ -294,7 +294,7 @@
     {
       "file": "assets/ia-educative-fallback-legacy.js",
       "bytes": 17639,
-      "sha256": "ac6ab32031c8712318f4ccf8499e4c147fbfb552a0eb60e6085ec570d4e84f0d"
+      "sha256": "778cdf6a67ce065104a1fcb63dcb70a608b81e0d331a36c12e4664d0040b8d57"
     },
     {
       "file": "assets/ia-educative-fallback.js",
@@ -307,14 +307,14 @@
       "sha256": "4d1622092b5efbaf1f740ed0375250ff96b72fcf7efaf27a4bff1179e225a9a8"
     },
     {
-      "file": "assets/index-FGmwZk4v.js",
-      "bytes": 526549,
-      "sha256": "fdf4079e16b66d95d61b5c61d938f7af2e852ac0a9a99806011fe800514ae8ee"
+      "file": "assets/index-DlBh2jKN.js",
+      "bytes": 524948,
+      "sha256": "881976a4c292044a7c8c2d6357e18efe16ffed79a785327e2cc39e92144fb027"
     },
     {
-      "file": "assets/index-legacy-C4Ty7WDa.js",
-      "bytes": 924331,
-      "sha256": "ae0bb27d6d6dece906ddac6fc601cba08f673a880bdc62819c3db3f80e33bbda"
+      "file": "assets/index-legacy-Cy3zZTYM.js",
+      "bytes": 923358,
+      "sha256": "842918d0a23ee1e22049beff66bbdbe435702ac77cb9e9a01416713eb86dc27d"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -462,6 +462,16 @@
       "sha256": "f53f0defc75024b50ab18b4cc28d4c586595e433e6c1cba4501f27871a02be00"
     },
     {
+      "file": "assets/rapport-financier-iJ5DpsWO.js",
+      "bytes": 5721,
+      "sha256": "2d6f5d3c38facac39b0e5a4678265ea8b3575a8a4fc7ef9f42d5f116d21a53fd"
+    },
+    {
+      "file": "assets/rapport-financier-legacy-D7WLI3R4.js",
+      "bytes": 6133,
+      "sha256": "394d0cce634a138291779557696a927cd3930119211ab22ba705875328786f23"
+    },
+    {
       "file": "assets/react-Do6ro8z1.js",
       "bytes": 143156,
       "sha256": "37c63ee42f0c88d661e8db6753ac9a845587c8b1057ac0a42948760660fe0ace"
@@ -529,7 +539,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "32bf1fbe139ddf336e63b1491263b34c101e15ae0198a2f6f5bc2b2acb795d4b"
+      "sha256": "a84db472783e211aa49c8455bdd1ff4ded6087567539d200e7ec7e7773496672"
     },
     {
       "file": "manifest.webmanifest",
@@ -538,8 +548,8 @@
     },
     {
       "file": "offline-manifest.json",
-      "bytes": 15480,
-      "sha256": "d200d8d4b425c63f5e2a3ac7070fc675b824e8501e8988ad8cf575ff027f7c6a"
+      "bytes": 15801,
+      "sha256": "889b56e074682df740ec846fa10508e24a7aad50c37fff3c5407c44d96b3b672"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +559,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "362403884dc91c7f28a40bcd4a81daf892a87b3db232b3e0b0645b5e9a28cda4"
+      "sha256": "b4f1eebbcbca476f898bccdfb6632a64431fd8d000b8bfeecdaf9818b6ab3b52"
     },
     {
       "file": "v.html",
@@ -558,8 +568,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 562,
-      "sha256": "d0adf7e5d613c0c842028c1d1f8b26d3ee0c73f1db47272de847e78bb0f5d188"
+      "bytes": 496,
+      "sha256": "724558aabfaa3aa9b253d77c777e780636014872a92eba76881e921a3a46b60e"
     }
   ]
 }
