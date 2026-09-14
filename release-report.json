@@ -1,10 +1,10 @@
 {
-  "version": "v482",
-  "package_version": "1.0.482",
-  "label": "L avis de mise a jour parle arabe",
-  "created_at": "2026-09-14T15:21:31.262Z",
+  "version": "v483",
+  "package_version": "1.0.483",
+  "label": "Aperçu d impression sous la barre, boutons entiers",
+  "created_at": "2026-09-14T16:40:37.841Z",
   "files": 111,
-  "total_bytes": 12816748,
+  "total_bytes": 12817029,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -302,19 +302,19 @@
       "sha256": "f2b60758c7f92910ba331bbc1bb7c3b8e76047411662f16701a0888813ddd482"
     },
     {
-      "file": "assets/index-BaXB9cIf.js",
+      "file": "assets/index-CaB-ff2M.css",
+      "bytes": 310878,
+      "sha256": "0711167e5c1199dbb5f8624e581cd989d22292542e3c37f5699bcf648de824b1"
+    },
+    {
+      "file": "assets/index-D0o974nh.js",
       "bytes": 525901,
       "sha256": "55cf1abe4e7541ab86577e78ca84cca9d717e25ff7fafc8261aa846752bdefa2"
     },
     {
-      "file": "assets/index-OD62vmR_.css",
-      "bytes": 310773,
-      "sha256": "5d3b80d4d2a567694c3eab280ce306408e2b262ef2a407105081cde5eaf327f4"
-    },
-    {
-      "file": "assets/index-legacy-BGMJRNAz.js",
-      "bytes": 921057,
-      "sha256": "111af89b1d7bd83867ccb371cf28559318b1944619af963dd724e7f56d0c6bc5"
+      "file": "assets/index-legacy-C7-JpAIQ.js",
+      "bytes": 921162,
+      "sha256": "875096403fbaf4b7889cb3a0c2bf1e48e0bc94074db4177220a75f2e0a6156aa"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "aa0e762fddbdaadf27fe93b02a3712e43ff2660d48753a6a62a15d52e9a23c21"
+      "sha256": "872707db253552d6fbbb427763d336891b568bb3f9774ae5965694ef9817e0f0"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "cbb9a9bd3e2b211fe76336e11e44de8fafc4475b6faf763ed7f30d36410e0e0c"
+      "sha256": "72a0aedb910e979f72f7bcbda78b904f89b54476033b7183f52c5d615a23a7e2"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "a92c7c9befe680ff21633e0f0faa2df5dd3208579b9111f2ce7dc553e7eab686"
+      "sha256": "23b186868a2120c20a27b7af650ed94c1d08bad048dd822a573710f06edff9f8"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 467,
-      "sha256": "0c8757f3e07f12aef35cee321da6d59c25a1919e0ac6d8c62eb0ab442aa68c76"
+      "bytes": 538,
+      "sha256": "c279224dd11c76db8b4d9ade548c2e3ab4db3e3b73d96a2b465cf2c90e7fbfc4"
     }
   ]
 }

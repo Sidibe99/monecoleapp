@@ -1,10 +1,10 @@
 {
-  "version": "v482",
+  "version": "v483",
   "date": "2026-09-14",
-  "note": "L avis « Nouvelle version disponible » se lit entierement en arabe : le libelle de la version (label_ar dans version.json) et le bouton « Plus tard ». L onglet Formules affiche le meme libelle.",
-  "label": "L avis de mise a jour parle arabe",
-  "label_ar": "إشعار التحديث يتكلم العربية",
+  "note": "Sur telephone, l apercu avant impression commence sous la barre du haut, comme les autres fenetres. Les boutons d en-tete trop longs (Demander via WhatsApp, Renouveler avec un code) passent sur deux lignes au lieu d etre coupes.",
+  "label": "Aperçu d impression sous la barre, boutons entiers",
+  "label_ar": "معاينة الطباعة تحت الشريط، وأزرار كاملة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T15:20:00.000Z"
+  "updated_at": "2026-09-14T16:30:00.000Z"
 }
