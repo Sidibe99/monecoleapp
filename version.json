@@ -1,10 +1,10 @@
 {
-  "version": "v483",
+  "version": "v485",
   "date": "2026-09-14",
-  "note": "Sur telephone, l apercu avant impression commence sous la barre du haut, comme les autres fenetres. Les boutons d en-tete trop longs (Demander via WhatsApp, Renouveler avec un code) passent sur deux lignes au lieu d etre coupes.",
-  "label": "Aperçu d impression sous la barre, boutons entiers",
-  "label_ar": "معاينة الطباعة تحت الشريط، وأزرار كاملة",
+  "note": "Sur Eleves, Classes et Matieres, les blocs « Autres actions » et les bilans ne se replient que sur telephone ; sur ordinateur, ou la place ne manque pas, ils sont ouverts d emblee. Les actions rapides du tableau de bord ne coupent plus les mots (v484).",
+  "label": "Replie sur telephone, ouvert sur ordinateur",
+  "label_ar": "مطويّ على الهاتف، مفتوح على الحاسوب",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T16:30:00.000Z"
+  "updated_at": "2026-09-14T18:00:00.000Z"
 }

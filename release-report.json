@@ -1,10 +1,10 @@
 {
-  "version": "v483",
-  "package_version": "1.0.483",
-  "label": "Aperçu d impression sous la barre, boutons entiers",
-  "created_at": "2026-09-14T16:40:37.841Z",
+  "version": "v485",
+  "package_version": "1.0.485",
+  "label": "Replie sur telephone, ouvert sur ordinateur",
+  "created_at": "2026-09-14T18:21:21.954Z",
   "files": 111,
-  "total_bytes": 12817029,
+  "total_bytes": 12820441,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -82,14 +82,14 @@
       "sha256": "fef4b41f35619ad7868df8f1964752bb3a484a50d10f75aa998efa75f4bb5269"
     },
     {
-      "file": "assets/ElevesPage-SZfj3rei.js",
-      "bytes": 70688,
-      "sha256": "10e2ef61f779a88d69aa2573d96aaed6076bfff999ddc1925cc8c326a79f6d3d"
+      "file": "assets/ElevesPage-BsZAuAqr.js",
+      "bytes": 70720,
+      "sha256": "b1a135d943f06494d614382cc68603cdf87baee983a3250fdbf1c194a32b5d92"
     },
     {
-      "file": "assets/ElevesPage-legacy-C8ghKq9t.js",
-      "bytes": 85123,
-      "sha256": "0f946df120a9b2d3a6033bc55750074c2526a1086cb6d2b48cb8085fdf922b1c"
+      "file": "assets/ElevesPage-legacy-C8E_X7DL.js",
+      "bytes": 85156,
+      "sha256": "0ac98ac96c3f07acd3285fd6e37e763dfe3fc9edc81045294fd765a8298fa89c"
     },
     {
       "file": "assets/FicheEleve-BhiiycwW.js",
@@ -122,14 +122,14 @@
       "sha256": "a943417937fe4a85e361f3df9374e1be4c73ead530295ce10f18410e84c98fda"
     },
     {
-      "file": "assets/MatieresPage-CFuQod07.js",
-      "bytes": 7642,
-      "sha256": "b62f5da96fb0ce22b18c36665f2517717cef3c1ca7ba03f2d75cf4a16f3df2de"
+      "file": "assets/MatieresPage-DwRiEQ7J.js",
+      "bytes": 7662,
+      "sha256": "148758bf0aeb638b98386aefe272fd163356cbff9dd1bed46f08edf67f24d67e"
     },
     {
-      "file": "assets/MatieresPage-legacy-B-EOWqBh.js",
-      "bytes": 13915,
-      "sha256": "c3927dae8eb8299857520e28ea456863a7a78fe9d485bbb8685ea71926b04b88"
+      "file": "assets/MatieresPage-legacy-CH7OEeqt.js",
+      "bytes": 13940,
+      "sha256": "22ddf4675057fb761f72cc6f7f455c93ef39697523648f9967a95ab7d3b9bf0e"
     },
     {
       "file": "assets/MessageActionsMenu-B7zXOqin.js",
@@ -302,19 +302,19 @@
       "sha256": "f2b60758c7f92910ba331bbc1bb7c3b8e76047411662f16701a0888813ddd482"
     },
     {
-      "file": "assets/index-CaB-ff2M.css",
-      "bytes": 310878,
-      "sha256": "0711167e5c1199dbb5f8624e581cd989d22292542e3c37f5699bcf648de824b1"
+      "file": "assets/index-B46DDCpF.css",
+      "bytes": 311690,
+      "sha256": "fb68bd853591623f3e1eec565ff0dbeb78776750082e1dbffefc986edfa0f83f"
     },
     {
-      "file": "assets/index-D0o974nh.js",
-      "bytes": 525901,
-      "sha256": "55cf1abe4e7541ab86577e78ca84cca9d717e25ff7fafc8261aa846752bdefa2"
+      "file": "assets/index-DRuvj8gZ.js",
+      "bytes": 525840,
+      "sha256": "5348f9b056cafd81a8fc6f73cdbd0ffcbe0f02faf43eecb3c1bd0a0a30218727"
     },
     {
-      "file": "assets/index-legacy-C7-JpAIQ.js",
-      "bytes": 921162,
-      "sha256": "875096403fbaf4b7889cb3a0c2bf1e48e0bc94074db4177220a75f2e0a6156aa"
+      "file": "assets/index-legacy-6vAEJw8a.js",
+      "bytes": 921999,
+      "sha256": "e2f1c8da86cf0cc9bf5f0be2daf46fe4156a803d12ada746224ac5ce51095bd0"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -437,14 +437,14 @@
       "sha256": "5f859c6c1879f8ff2212c2bb3dcd0f8fe2bc53d831e564e9758f248978f8a6f4"
     },
     {
-      "file": "assets/monecole-system-6ZP8NUWv.js",
-      "bytes": 11590,
-      "sha256": "4c3a4c9549141e67e128f326cacf94cf219422e90dc3aca7d8029e5c7e14d6a3"
+      "file": "assets/monecole-system-C3OCGN1a.js",
+      "bytes": 11901,
+      "sha256": "8c9011935cdbf11fd01e7e0462a0e2d70847c50483fa387a642b2544dcac25fa"
     },
     {
-      "file": "assets/monecole-system-legacy-DtEO1Yd-.js",
-      "bytes": 17923,
-      "sha256": "71f58afbb81a8c73520436abb2ec6bf4abed251a6eed9e57715dec091802224a"
+      "file": "assets/monecole-system-legacy-jwhZvcPZ.js",
+      "bytes": 19316,
+      "sha256": "28a383f566c08f9d6efe60e3b5ebbe2e8505197f6467a1acbbd5150e2ef50a63"
     },
     {
       "file": "assets/polyfills-legacy-BjunMcK-.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "872707db253552d6fbbb427763d336891b568bb3f9774ae5965694ef9817e0f0"
+      "sha256": "43ad3c2b83d13160844f92b24d102e31f8193d1d9936c12648a356742eace1b4"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "72a0aedb910e979f72f7bcbda78b904f89b54476033b7183f52c5d615a23a7e2"
+      "sha256": "7753f7f11b6a47bf3eee51c6e2f3735e092e752a77724416c8bdbe9dbf0f0fb6"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "23b186868a2120c20a27b7af650ed94c1d08bad048dd822a573710f06edff9f8"
+      "sha256": "577673473f6ce58d099375e134a8e96d69749b17e6a69c6f34f2b0fb8ba9dd7a"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 538,
-      "sha256": "c279224dd11c76db8b4d9ade548c2e3ab4db3e3b73d96a2b465cf2c90e7fbfc4"
+      "bytes": 548,
+      "sha256": "0abf6f5c5ad734ed74cdb7ce88c71c95cec09c090042067f278329866007cac4"
     }
   ]
 }
