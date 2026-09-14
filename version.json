@@ -1,10 +1,10 @@
 {
-  "version": "v493",
+  "version": "v494",
   "date": "2026-09-14",
-  "note": "Dans l en-tete bilingue des documents imprimes, la case de droite porte un vrai titre arabe (Journal de caisse, Bilan, Rapprochement, attestations et lettres de la fiche eleve, rapports du censeur), meme quand l interface est en francais ; elle repetait le nom francais.",
-  "label": "Les titres de documents en arabe, meme en francais",
-  "label_ar": "عناوين الوثائق بالعربية حتى في الواجهة الفرنسية",
-  "scope": "client",
+  "note": "Depenses : a l ajout ou a la modification, une quantite et un prix unitaire ; quand les deux sont saisis, le montant se calcule tout seul (quantite x prix unitaire). Le tableau et l export montrent la quantite et le prix unitaire. Migration SQL v494 a installer avant la publication.",
+  "label": "Depenses : quantite et prix unitaire, montant calcule",
+  "label_ar": "المصاريف: الكمية وسعر الوحدة، والمبلغ يُحسب",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-14T23:40:00.000Z"
+  "updated_at": "2026-09-15T00:20:00.000Z"
 }
