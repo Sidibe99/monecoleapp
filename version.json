@@ -1,10 +1,10 @@
 {
-  "version": "v486",
+  "version": "v487",
   "date": "2026-09-14",
-  "note": "Emploi du temps : « Ajouter un cours » en tete, les impressions sous « Autres actions ». Paiements : « Enregistrer un paiement » en tete, relances, rapport et exports sous « Autres actions ». Rapports : sans classe choisie, le perimetre dit les cycles autorises du compte.",
-  "label": "Emploi du temps et Paiements, une action principale",
-  "label_ar": "الجدول الزمني والمدفوعات: إجراء رئيسي واحد",
+  "note": "Personnel : « Nouveau membre » en tete, l export sous « Autres actions ». Depenses : « Nouvelle depense » en tete, l export sous « Autres actions ». Meme motif qu Eleves, Classes, Matieres, Emploi du temps et Paiements.",
+  "label": "Personnel et Depenses, une action principale",
+  "label_ar": "الطاقم والمصاريف: إجراء رئيسي واحد",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T19:45:00.000Z"
+  "updated_at": "2026-09-14T20:20:00.000Z"
 }

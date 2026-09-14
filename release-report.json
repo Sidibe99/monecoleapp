@@ -1,10 +1,10 @@
 {
-  "version": "v486",
-  "package_version": "1.0.486",
-  "label": "Emploi du temps et Paiements, une action principale",
-  "created_at": "2026-09-14T19:44:43.691Z",
+  "version": "v487",
+  "package_version": "1.0.487",
+  "label": "Personnel et Depenses, une action principale",
+  "created_at": "2026-09-14T19:58:50.091Z",
   "files": 111,
-  "total_bytes": 12823464,
+  "total_bytes": 12825769,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,14 +52,14 @@
       "sha256": "c2ac9cda4c1d6bfa91c3de8d7bbf3f098a6572b1d9f4216accab78ccc6ae6737"
     },
     {
-      "file": "assets/Depenses-CH-AkoCA.js",
-      "bytes": 18870,
-      "sha256": "020c9abeccd23fe853bb80c6ada518b3b6190085bb44763c7b9397cc60e72b28"
+      "file": "assets/Depenses-GU51KKUy.js",
+      "bytes": 19123,
+      "sha256": "50a1ab658a2ef6a77c6c9b6edf5ebb7e4ce55c4cb857b612c89509b8afe00836"
     },
     {
-      "file": "assets/Depenses-legacy-Du1j6hQV.js",
-      "bytes": 25830,
-      "sha256": "678f7a4b73f48d7870d14f3a4e550d0fc3818467b48c2bc2caebc36f19fa5116"
+      "file": "assets/Depenses-legacy-DwQiykUz.js",
+      "bytes": 26105,
+      "sha256": "9164ed4fe6db7d927adcdf54666d8e492131b825a6c71c6b0e2fddee9fea05a9"
     },
     {
       "file": "assets/Discipline-D4fuiD6N.js",
@@ -182,14 +182,14 @@
       "sha256": "42d0353b23c06268a345dbae08cd6a3851af7f0f92e332abab877a4327aecaf1"
     },
     {
-      "file": "assets/PersonnelPage-BXrTPtE1.js",
-      "bytes": 19531,
-      "sha256": "349a51dd0071aa537d222554b152f86b4fdc02f32e29079b4b73306b567cfa08"
+      "file": "assets/PersonnelPage-B_E_mbX4.js",
+      "bytes": 19867,
+      "sha256": "76827b03e3d6f5ba4deeaff5401fe88e9e850e4ea71c70a5b86ebc0c90bbe0bd"
     },
     {
-      "file": "assets/PersonnelPage-legacy-BYP_uEoL.js",
-      "bytes": 27801,
-      "sha256": "2ad8b14dec519d343b8284f75abbd671d952f087b30d8228797d8d85b72c69bc"
+      "file": "assets/PersonnelPage-legacy-C-0-cczn.js",
+      "bytes": 28157,
+      "sha256": "5da5280a3a45d4ddc63e7cf04983e7bd4cbc50eab68242787029c6e168db1882"
     },
     {
       "file": "assets/PresencesGestionPage-CS-37JSu.js",
@@ -302,19 +302,19 @@
       "sha256": "f2b60758c7f92910ba331bbc1bb7c3b8e76047411662f16701a0888813ddd482"
     },
     {
-      "file": "assets/index-BOMxKsFG.js",
-      "bytes": 526332,
-      "sha256": "da37d6f9199d62e96d2e614452b358732ebb0b547b57189701d483fd71dfa466"
+      "file": "assets/index-AmC0F-Iz.css",
+      "bytes": 312802,
+      "sha256": "806a0c853305bcad57772f3463bbb1fd7e494dcb27768c699f164114b9edc250"
     },
     {
-      "file": "assets/index-Cr1WbXIE.css",
-      "bytes": 312227,
-      "sha256": "b039a24b7eec223430d343f627722ae0c0f79746ef2c741f30d71e1471afe0f5"
+      "file": "assets/index-DkCerwQv.js",
+      "bytes": 526342,
+      "sha256": "c2438ed59715e945f30561f7e059b6e4af3143525c30e639b900e3343fef276c"
     },
     {
-      "file": "assets/index-legacy-C0v8eVZE.js",
-      "bytes": 923105,
-      "sha256": "fee90702c2244c7a31938d5ad6cc2fa09dd3eb9ea328db3b6fe16d6c084b4eb3"
+      "file": "assets/index-legacy-CEQINz1h.js",
+      "bytes": 923680,
+      "sha256": "8562567b17269ccb4cf7897c83628cbe26c81c427511342ead21c640b8913cc8"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "3fb9e963577b53b97ee29b5c6c69e845cc7e8693b622b02d1c81c7a2a876013a"
+      "sha256": "74becd847e0d63839f750905cfc90e85bd77003c2e1002b66414cfd834211bad"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "e39939df704a0cbb134f1eb4e8cd9a314a0e4de2d29f37b56ba06fcc609451a3"
+      "sha256": "ac8c24b1ef3ee3a8883a27ac7a55ab3cd03570b8d1a2c55b1f65120f97e02016"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "4b26c63cf3c65e4267fa29ab8b87b96985fa3c5e98396f0718b123cfdf372d11"
+      "sha256": "fb779c23f4438cb844c06e8ae66944fd91b3dc5583c119353b8fd6419432059d"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 595,
-      "sha256": "34ad6d3a11644be1151b9e270c7ceb2b3b62ea3c2c7c6c6bd8fa8ea29f4fb7a6"
+      "bytes": 520,
+      "sha256": "d13ce25f22585d42fd5fa270e022a58122e34df97bcbcfae1e86d1d9f06bebed"
     }
   ]
 }
