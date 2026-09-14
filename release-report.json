@@ -1,10 +1,10 @@
 {
-  "version": "v491",
-  "package_version": "1.0.491",
-  "label": "Le rapport financier par classe",
-  "created_at": "2026-09-14T21:46:06.127Z",
+  "version": "v492",
+  "package_version": "1.0.492",
+  "label": "Depenses : l export rejoint la ligne des rapports",
+  "created_at": "2026-09-14T21:56:57.819Z",
   "files": 113,
-  "total_bytes": 12840150,
+  "total_bytes": 12839566,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -52,14 +52,14 @@
       "sha256": "c2ac9cda4c1d6bfa91c3de8d7bbf3f098a6572b1d9f4216accab78ccc6ae6737"
     },
     {
-      "file": "assets/Depenses-8Lr_DcSI.js",
-      "bytes": 20033,
-      "sha256": "32cd78586fa2fe367168aa0aaf6a26c43600bab115a4b5702638e89e6cf6e1b0"
+      "file": "assets/Depenses-D9fZt2ag.js",
+      "bytes": 19770,
+      "sha256": "736a665b8dc1caf82c37331b72a6c27c5f9f13b27d45f6e2427abcb9c0038d3b"
     },
     {
-      "file": "assets/Depenses-legacy-Bh0GX9Gi.js",
-      "bytes": 27112,
-      "sha256": "702aa900c94c6f557bff872d2899add82a509766d2d62c7ebea9dbecada430dc"
+      "file": "assets/Depenses-legacy-EwaB2ZA1.js",
+      "bytes": 26829,
+      "sha256": "7fe2340ab72e8fc63858e7a9e173473c429dd4638671bc1a538cd29351438458"
     },
     {
       "file": "assets/Discipline-BpWFlMjt.js",
@@ -307,14 +307,14 @@
       "sha256": "4d1622092b5efbaf1f740ed0375250ff96b72fcf7efaf27a4bff1179e225a9a8"
     },
     {
-      "file": "assets/index-DlBh2jKN.js",
-      "bytes": 524948,
-      "sha256": "881976a4c292044a7c8c2d6357e18efe16ffed79a785327e2cc39e92144fb027"
+      "file": "assets/index-Bp5B_0ar.js",
+      "bytes": 524943,
+      "sha256": "33425a6ab77773d76b430949d11f6ccf4518e74ecccb21f88323e03c29bc01a3"
     },
     {
-      "file": "assets/index-legacy-Cy3zZTYM.js",
+      "file": "assets/index-legacy-Z37T79Tu.js",
       "bytes": 923358,
-      "sha256": "842918d0a23ee1e22049beff66bbdbe435702ac77cb9e9a01416713eb86dc27d"
+      "sha256": "d2f416da05b08ddffffad851c8d0d0f3bcf32ce4ad9baa8140e1cc95f04c60ca"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -539,7 +539,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "a84db472783e211aa49c8455bdd1ff4ded6087567539d200e7ec7e7773496672"
+      "sha256": "b08b745ebf90b5e5e7b298c9196b94c3d08d12e899e8e081f99c16bc79cc43c8"
     },
     {
       "file": "manifest.webmanifest",
@@ -549,7 +549,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15801,
-      "sha256": "889b56e074682df740ec846fa10508e24a7aad50c37fff3c5407c44d96b3b672"
+      "sha256": "b95cf4598468d87d22f309500d30b7e6f589abad14136a51cb3d8c712ee820f8"
     },
     {
       "file": "reset-cache.html",
@@ -559,7 +559,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "b4f1eebbcbca476f898bccdfb6632a64431fd8d000b8bfeecdaf9818b6ab3b52"
+      "sha256": "2368da4f238511f4005b987674eb65b855c3e8e67f53f9a692e1079383c32c1b"
     },
     {
       "file": "v.html",
@@ -568,8 +568,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 496,
-      "sha256": "724558aabfaa3aa9b253d77c777e780636014872a92eba76881e921a3a46b60e"
+      "bytes": 463,
+      "sha256": "1bf7d62589f7478a0bb54709a31a89fe00f4f0fea20888367839fd079d68b6c6"
     }
   ]
 }
