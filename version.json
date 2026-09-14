@@ -1,9 +1,9 @@
 {
-  "version": "v479",
+  "version": "v480",
   "date": "2026-09-14",
-  "note": "Sur le tableau de bord en arabe, la carte des encaissements dit « المحصل في شهر سبتمبر » : le mot « شهر » precede le nom du mois, comme on le dit.",
-  "label": "Le mois se dit avec le mot mois en arabe",
+  "note": "En arabe, sur telephone, le menu se range a droite et glisse depuis la droite, du cote du bouton qui l ouvre. Le trait de l onglet actif et l ombre du menu suivent aussi le sens de lecture.",
+  "label": "En arabe, le menu du telephone s ouvre a droite",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T12:10:00.000Z"
+  "updated_at": "2026-09-14T14:20:00.000Z"
 }

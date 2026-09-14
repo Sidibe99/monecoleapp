@@ -1,10 +1,10 @@
 {
-  "version": "v479",
-  "package_version": "1.0.479",
-  "label": "Le mois se dit avec le mot mois en arabe",
-  "created_at": "2026-09-14T14:04:27.349Z",
+  "version": "v480",
+  "package_version": "1.0.480",
+  "label": "En arabe, le menu du telephone s ouvre a droite",
+  "created_at": "2026-09-14T14:17:00.689Z",
   "files": 111,
-  "total_bytes": 12814873,
+  "total_bytes": 12815651,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -212,14 +212,14 @@
       "sha256": "78ab9f54ca82227151d95b08de1d0c002b5411988431f78d96312bf114e426c6"
     },
     {
-      "file": "assets/SidebarNavigation-legacy-2M31kxNf.js",
-      "bytes": 12630,
-      "sha256": "e8c7e6126799504f06784521b22d4baae2975af70c40a924c8dca7969bef51c6"
+      "file": "assets/SidebarNavigation-NPN9nibb.js",
+      "bytes": 9700,
+      "sha256": "fdb519428c09b7bc398b17a66256bd18d8eddda6da863c0e849572ba2577dc7e"
     },
     {
-      "file": "assets/SidebarNavigation-v9QHFRh-.js",
-      "bytes": 9599,
-      "sha256": "bb65a327d4dfc65a308124d6ae69fadf46fe217909caf8e6551ab6f7dd7c7a7f"
+      "file": "assets/SidebarNavigation-legacy-B5iiNCLh.js",
+      "bytes": 12735,
+      "sha256": "7d3132ce0da7ffb4f9b785038e6c0d35c7ff78316a0d2fa6c3a8c0798a1f48aa"
     },
     {
       "file": "assets/Utilisateurs-BDGsA5gS.js",
@@ -302,19 +302,19 @@
       "sha256": "f2b60758c7f92910ba331bbc1bb7c3b8e76047411662f16701a0888813ddd482"
     },
     {
-      "file": "assets/index-CX3G0bhF.js",
+      "file": "assets/index-B2DLIhZW.css",
+      "bytes": 310685,
+      "sha256": "2d019f2adf4090aac6083847dc761f938f62cefdbe7c5230af27e64e403d92b6"
+    },
+    {
+      "file": "assets/index-DJkNplKk.js",
       "bytes": 525604,
-      "sha256": "a7d498884305504b20eebe47fc52350a4c1ca355495e785a11b2b7638ba278ff"
+      "sha256": "0676c150ae070b12a948fced555fd46f82a89fa47ea75aa667195a883fa0814f"
     },
     {
-      "file": "assets/index-D0mSAmoU.css",
-      "bytes": 310412,
-      "sha256": "71ec292414454cde3f567c46cf2d496a4e0f78453ec1ce365b4fd011295a9342"
-    },
-    {
-      "file": "assets/index-legacy-BmVU-5l_.js",
-      "bytes": 920261,
-      "sha256": "6e79742f2f7388b9601d0ce2cb4bb62cacfde7a5738e0e8207f5ef63b8028c62"
+      "file": "assets/index-legacy-c5vnAJPl.js",
+      "bytes": 920534,
+      "sha256": "242de578ac97cffdb5b6b0a7f248576c608055fd71204bc6a5d5d06d99c11242"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "0d58548ee3d67eaf2d5d6980877ad98ed5886587fa217b72e48143938b892c82"
+      "sha256": "ca75022cbdcf92e939e41142d1ea7cfc32e59113900837613c4506c780f90e4a"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "0380ffce2d6a503abad94f39bac457a8eba5fcf142cdd1aaa3b33237513787d5"
+      "sha256": "112d779213e7f232bf9eab76fb431bcbd0a5689ce55b22901ecea00088564e09"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "bc82598383dd829ef7dc8e8bc8dc0ddadb308afc078ee960c9af96c39d185d0b"
+      "sha256": "e7f4bb31a455b83953ad80d69c3c54f0ae37e6b08517dbc87e554f1390ce342d"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 378,
-      "sha256": "e60b28b95d17727f0a7cfc7c9bf57dc8ae1906ad4d3e5245af14185fec118c29"
+      "bytes": 404,
+      "sha256": "53343bf3b2dae63f8ec75e242d4d05b4477df3a71e34afb7a9c9c37f98c7d12a"
     }
   ]
 }
