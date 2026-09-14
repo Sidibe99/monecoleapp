@@ -1,10 +1,10 @@
 {
-  "version": "v480",
-  "package_version": "1.0.480",
-  "label": "En arabe, le menu du telephone s ouvre a droite",
-  "created_at": "2026-09-14T14:17:00.689Z",
+  "version": "v481",
+  "package_version": "1.0.481",
+  "label": "En arabe, le bouton rond passe a gauche",
+  "created_at": "2026-09-14T14:39:49.616Z",
   "files": 111,
-  "total_bytes": 12815651,
+  "total_bytes": 12816049,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -302,19 +302,19 @@
       "sha256": "f2b60758c7f92910ba331bbc1bb7c3b8e76047411662f16701a0888813ddd482"
     },
     {
-      "file": "assets/index-B2DLIhZW.css",
-      "bytes": 310685,
-      "sha256": "2d019f2adf4090aac6083847dc761f938f62cefdbe7c5230af27e64e403d92b6"
+      "file": "assets/index-BbydVbMb.js",
+      "bytes": 525652,
+      "sha256": "39fb6210d0384d5a28c73308a523a7996d1d448eae21501ffcc07a8f47f5a6e2"
     },
     {
-      "file": "assets/index-DJkNplKk.js",
-      "bytes": 525604,
-      "sha256": "0676c150ae070b12a948fced555fd46f82a89fa47ea75aa667195a883fa0814f"
+      "file": "assets/index-OD62vmR_.css",
+      "bytes": 310773,
+      "sha256": "5d3b80d4d2a567694c3eab280ce306408e2b262ef2a407105081cde5eaf327f4"
     },
     {
-      "file": "assets/index-legacy-c5vnAJPl.js",
-      "bytes": 920534,
-      "sha256": "242de578ac97cffdb5b6b0a7f248576c608055fd71204bc6a5d5d06d99c11242"
+      "file": "assets/index-legacy-DtGCwtLL.js",
+      "bytes": 920809,
+      "sha256": "6635ed0135342d61371d3e9a8e4717b41c53aa87008ee3bebe6902a87778c074"
     },
     {
       "file": "assets/index.es-BjvTZ4oC.js",
@@ -529,7 +529,7 @@
     {
       "file": "index.html",
       "bytes": 8881,
-      "sha256": "ca75022cbdcf92e939e41142d1ea7cfc32e59113900837613c4506c780f90e4a"
+      "sha256": "34bd1d876359bef3cce9455354d96b50be539d432eca25853903ec74d42ddc89"
     },
     {
       "file": "manifest.webmanifest",
@@ -539,7 +539,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15480,
-      "sha256": "112d779213e7f232bf9eab76fb431bcbd0a5689ce55b22901ecea00088564e09"
+      "sha256": "7401a96d1818add26ba5fe8a6da5ffe23e3aa99bb275f7a4f39473ff3403b57b"
     },
     {
       "file": "reset-cache.html",
@@ -549,7 +549,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "e7f4bb31a455b83953ad80d69c3c54f0ae37e6b08517dbc87e554f1390ce342d"
+      "sha256": "9258a07adafe3af6b0e30ec7cf47ab70fff1760f96ef82ebc3285b570c0cf8c4"
     },
     {
       "file": "v.html",
@@ -558,8 +558,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 404,
-      "sha256": "53343bf3b2dae63f8ec75e242d4d05b4477df3a71e34afb7a9c9c37f98c7d12a"
+      "bytes": 391,
+      "sha256": "031205fa5f6a99c7c287580df0268e5442f50b6b26d63de7952f78dcd861fa98"
     }
   ]
 }

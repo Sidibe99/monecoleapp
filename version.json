@@ -1,9 +1,9 @@
 {
-  "version": "v480",
+  "version": "v481",
   "date": "2026-09-14",
-  "note": "En arabe, sur telephone, le menu se range a droite et glisse depuis la droite, du cote du bouton qui l ouvre. Le trait de l onglet actif et l ombre du menu suivent aussi le sens de lecture.",
-  "label": "En arabe, le menu du telephone s ouvre a droite",
+  "note": "En arabe, le bouton rond des outils rapides et ses panneaux (Affichage, Preferences) passent a gauche de l ecran : a droite, ils couvraient le bas du menu qui s y ouvre depuis la v480.",
+  "label": "En arabe, le bouton rond passe a gauche",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-14T14:20:00.000Z"
+  "updated_at": "2026-09-14T14:45:00.000Z"
 }
