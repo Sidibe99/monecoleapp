@@ -1,10 +1,10 @@
 {
-  "version": "v496",
+  "version": "v497",
   "date": "2026-09-15",
-  "note": "Depenses sur telephone : les trois rapports l un sous l autre, l export sur sa propre ligne ; dans le tableau, le libelle ne se casse plus lettre a lettre et les colonnes suivent leur contenu, le tableau defile de cote dans son cadre.",
-  "label": "Depenses sur telephone : boutons ranges, colonnes lisibles",
-  "label_ar": "المصاريف على الهاتف: أزرار مرتبة وأعمدة مقروءة",
+  "note": "Hors ligne : dans un navigateur sans service worker (Chrome, Edge ou Firefox sur iPhone), le bandeau dit que ce navigateur ne garde pas l application et conseille Safari ; une page differee qui ne se charge pas hors ligne l explique au lieu d une erreur.",
+  "label": "Hors ligne : l application dit quand le navigateur ne la garde pas",
+  "label_ar": "دون اتصال: التطبيق يخبرك عندما لا يحفظه المتصفح",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-15T01:20:00.000Z"
+  "updated_at": "2026-09-15T10:40:00.000Z"
 }
