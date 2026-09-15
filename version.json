@@ -1,10 +1,10 @@
 {
-  "version": "v500",
+  "version": "v502",
   "date": "2026-09-15",
-  "note": "Aide et assistance : une page Aide pour tous les roles (WhatsApp et e-mail de l assistance, demande ecrite suivie dans Mes demandes, aide par ecran, questions frequentes, guide PDF), un bouton ? sur telephone, et les demandes lues et repondues dans l espace editeur.",
-  "label": "Aide et assistance : contacts, questions frequentes, demandes suivies",
-  "label_ar": "المساعدة والدعم: جهات الاتصال والأسئلة الشائعة وطلبات متابَعة",
-  "scope": "client+supabase",
-  "client_visible": true,
-  "updated_at": "2026-09-15T16:30:00.000Z"
+  "note": "Espace editeur : les demandes d assistance sont relevees a l ouverture puis toutes les cinq minutes ; une pastille compte les nouvelles, le titre de l onglet aussi, et une notification du navigateur previent a chaque arrivee, si on l a permise.",
+  "label": "Espace editeur : pastille et notification des nouvelles demandes",
+  "label_ar": "مساحة الناشر: شارة وإشعار بالطلبات الجديدة",
+  "scope": "client",
+  "client_visible": false,
+  "updated_at": "2026-09-15T18:40:00.000Z"
 }

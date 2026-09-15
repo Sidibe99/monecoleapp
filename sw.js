@@ -1,6 +1,6 @@
-const CACHE_NAME = "monecole-vite-v500";
+const CACHE_NAME = "monecole-vite-v502";
 // Remplacé uniquement dans dist/sw.js, après génération de tous les bundles.
-const MANIFEST_SHA256 = "914de70b3e962042d22b8025dd5ed7ee090fe9dfcc60a636d1c8723fe26db3bd";
+const MANIFEST_SHA256 = "c7f92f446cac8a1b6e9872345b6714150c516a3870fd0b6573ed86bb00839064";
 const CACHE_STORAGE_NAME = `${CACHE_NAME}-${MANIFEST_SHA256.slice(0, 16)}`;
 const OFFLINE_MANIFEST_URL = "/offline-manifest.json";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
@@ -142,6 +142,10 @@ self.addEventListener("fetch", event => {
   }
   if (request.mode === "navigate") {
     event.respondWith(fetch(request, { cache: "no-store" }).then(response => {
+      // v501 — une navigation vers un document (le guide PDF) n'est pas une page de
+      // l'application : la réponse passe telle quelle au lieu d'être remplacée par
+      // la coque, qui affichait « Chargement de MonEcole… » à la place du guide.
+      if (response && response.ok && !/^text\/html\b/i.test((response.headers.get("content-type") || "").toLowerCase())) return response;
       if (!validResponse(response, "html")) throw new Error("Page indisponible");
       // Ne jamais remplacer la coque vérifiée par une erreur HTML, une route
       // inconnue ou l'index d'un prochain déploiement dont les chunks manquent.
