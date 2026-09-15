@@ -2,9 +2,9 @@
   "version": "v502",
   "package_version": "1.0.502",
   "label": "Espace editeur : pastille et notification des nouvelles demandes",
-  "created_at": "2026-09-15T19:18:44.363Z",
+  "created_at": "2026-09-15T19:50:15.558Z",
   "files": 122,
-  "total_bytes": 19311621,
+  "total_bytes": 19312586,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -558,8 +558,8 @@
     },
     {
       "file": "guide/MonEcole-Guide-utilisation.pdf",
-      "bytes": 6390135,
-      "sha256": "4c4823c9dcab07cd215da10ca03fe5cb25fe5811fdcc301c839a91955652b5cc"
+      "bytes": 6391100,
+      "sha256": "e391f49029706da34a8ac5532ab5a3bfd4492f8ce1de9dd79bf043008da8b0bf"
     },
     {
       "file": "icon-192.png",
