@@ -1,10 +1,10 @@
 {
-  "version": "v499",
+  "version": "v500",
   "date": "2026-09-15",
-  "note": "Session expiree : en ligne sans session Supabase, l application ne lit plus en anonyme (listes vides, cinq tables refusees). Elle garde les dernieres donnees, affiche un bandeau et propose de se reconnecter sans perdre les saisies.",
-  "label": "Session expiree : plus de lecture anonyme, reconnexion sans perdre les saisies",
-  "label_ar": "انتهاء الجلسة: لا قراءة مجهولة بعد الآن، وإعادة اتصال دون فقدان المدخلات",
-  "scope": "client",
+  "note": "Aide et assistance : une page Aide pour tous les roles (WhatsApp et e-mail de l assistance, demande ecrite suivie dans Mes demandes, aide par ecran, questions frequentes, guide PDF), un bouton ? sur telephone, et les demandes lues et repondues dans l espace editeur.",
+  "label": "Aide et assistance : contacts, questions frequentes, demandes suivies",
+  "label_ar": "المساعدة والدعم: جهات الاتصال والأسئلة الشائعة وطلبات متابَعة",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-15T13:30:00.000Z"
+  "updated_at": "2026-09-15T16:30:00.000Z"
 }
