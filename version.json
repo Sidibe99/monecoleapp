@@ -1,10 +1,10 @@
 {
-  "version": "v497",
+  "version": "v498",
   "date": "2026-09-15",
-  "note": "Hors ligne : dans un navigateur sans service worker (Chrome, Edge ou Firefox sur iPhone), le bandeau dit que ce navigateur ne garde pas l application et conseille Safari ; une page differee qui ne se charge pas hors ligne l explique au lieu d une erreur.",
-  "label": "Hors ligne : l application dit quand le navigateur ne la garde pas",
-  "label_ar": "دون اتصال: التطبيق يخبرك عندما لا يحفظه المتصفح",
+  "note": "Synchronisation partielle : la table qui n a pas pu etre rechargee et le motif s ecrivent sous le bouton Actualiser du menu, lisibles sur telephone ; le message d avertissement les nomme aussi.",
+  "label": "Synchronisation partielle : la raison s ecrit sous le bouton Actualiser",
+  "label_ar": "مزامنة جزئية: السبب مكتوب تحت زر التحديث",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-15T10:40:00.000Z"
+  "updated_at": "2026-09-15T12:10:00.000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v497",
-  "package_version": "1.0.497",
-  "label": "Hors ligne : l application dit quand le navigateur ne la garde pas",
-  "created_at": "2026-09-15T11:17:50.721Z",
+  "version": "v498",
+  "package_version": "1.0.498",
+  "label": "Synchronisation partielle : la raison s ecrit sous le bouton Actualiser",
+  "created_at": "2026-09-15T12:01:14.505Z",
   "files": 113,
-  "total_bytes": 12851904,
+  "total_bytes": 12853102,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -212,14 +212,14 @@
       "sha256": "79c9f76d9b9c0dd11a95eacf1a8468ddfec171fff30cfefc8b8688fa4491bb6c"
     },
     {
-      "file": "assets/SidebarNavigation-CJmlyOBo.js",
-      "bytes": 9700,
-      "sha256": "3f5644611ae03109aafa40019003954fef7eb44b6df94e045512e2ce3966d6b7"
+      "file": "assets/SidebarNavigation-B77BwvxE.js",
+      "bytes": 9797,
+      "sha256": "807cedd00fb315a06fba0ea02e9232a944a24d05b85a4c9b5f55c1f68751d0b3"
     },
     {
-      "file": "assets/SidebarNavigation-legacy-Bv4jlLrD.js",
-      "bytes": 12735,
-      "sha256": "0a2bf0e40c696723ce9d53c95926721f7cd7fc91184cd8320cc47cc4883784fc"
+      "file": "assets/SidebarNavigation-legacy-DgfPAdVo.js",
+      "bytes": 12835,
+      "sha256": "d61b0666517fd1f60e15ddbe910b0b933c15f5ef87ceb07faf8af2b4339d022f"
     },
     {
       "file": "assets/Utilisateurs-C_D87bdC.js",
@@ -302,19 +302,19 @@
       "sha256": "5f372d507e2b034f7f1cacef5444a19f2d80567578a10cdb700ea4d6bfebe8b6"
     },
     {
-      "file": "assets/index-Cl3A_fqD.css",
-      "bytes": 313912,
-      "sha256": "a43f9cfdf0875b41dd49bf58b8a0855098ac698b10ca8eef031c5842a36c7ba0"
+      "file": "assets/index-BV1F1Sk2.css",
+      "bytes": 314104,
+      "sha256": "b23ba7d36bcccd2ef5c252ff1ad390973024edb2c94bb5875510a9977a72ba7a"
     },
     {
-      "file": "assets/index-legacy-JhWHHGQ9.js",
-      "bytes": 924335,
-      "sha256": "661c76c04f5ac719124dd3470531c16bd94c9635cd02a1ca7d76a716658d5156"
+      "file": "assets/index-PhcYoeQM.js",
+      "bytes": 525345,
+      "sha256": "fac943e0f654f5992818385fb744dfdb493b68fa33b761f375e3846f0f54bd32"
     },
     {
-      "file": "assets/index-rJnwYord.js",
-      "bytes": 525009,
-      "sha256": "d9d3efb5e474124f64b69b7fa4a969ed6ba6e3972b35be15e75c72c8478e8af4"
+      "file": "assets/index-legacy-0Jlj9beZ.js",
+      "bytes": 924877,
+      "sha256": "24957653d742d2e4d03b51af69d2a7021c51fcecc5920f543136a4e9ec73744f"
     },
     {
       "file": "assets/index.es-C8idsD7b.js",
@@ -539,7 +539,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "e9ae3d15b6067f80ee8b953341b5e4879b83a75d810bf54ea774d0a833837c32"
+      "sha256": "8485740e395370f0696283cdeaf95e8cc56a78c130da4cf5e8847b546f212136"
     },
     {
       "file": "manifest.webmanifest",
@@ -549,7 +549,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 15801,
-      "sha256": "834ebf47ebf8433228b3d8850138864885692189966cee51bc6606be185d0f56"
+      "sha256": "f62ff67b0871b93b753fac54a792ef2b0185c5a6d0bf7c21337d7f377cdefdef"
     },
     {
       "file": "reset-cache.html",
@@ -559,7 +559,7 @@
     {
       "file": "sw.js",
       "bytes": 8194,
-      "sha256": "b50a203b324ecb81269e6b83fd078b2c8093e8a2e5c4b4e95cbf30ad5716d976"
+      "sha256": "3c7e74586389f79a092b3f3d04af941d82a3544b4b71510aec5e93817588cf53"
     },
     {
       "file": "v.html",
@@ -568,8 +568,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 592,
-      "sha256": "36879e60634909bb5da4173d1b54ffc0561084ba399492bc6a431492e1a3cef6"
+      "bytes": 523,
+      "sha256": "02fef1f52f1abe934537aca5d22d3233407dc20b5a5bb325b5cf9aa31cd34c4c"
     }
   ]
 }
