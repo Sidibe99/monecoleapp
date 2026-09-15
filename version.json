@@ -1,10 +1,10 @@
 {
-  "version": "v498",
+  "version": "v499",
   "date": "2026-09-15",
-  "note": "Synchronisation partielle : la table qui n a pas pu etre rechargee et le motif s ecrivent sous le bouton Actualiser du menu, lisibles sur telephone ; le message d avertissement les nomme aussi.",
-  "label": "Synchronisation partielle : la raison s ecrit sous le bouton Actualiser",
-  "label_ar": "مزامنة جزئية: السبب مكتوب تحت زر التحديث",
+  "note": "Session expiree : en ligne sans session Supabase, l application ne lit plus en anonyme (listes vides, cinq tables refusees). Elle garde les dernieres donnees, affiche un bandeau et propose de se reconnecter sans perdre les saisies.",
+  "label": "Session expiree : plus de lecture anonyme, reconnexion sans perdre les saisies",
+  "label_ar": "انتهاء الجلسة: لا قراءة مجهولة بعد الآن، وإعادة اتصال دون فقدان المدخلات",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-15T12:10:00.000Z"
+  "updated_at": "2026-09-15T13:30:00.000Z"
 }
