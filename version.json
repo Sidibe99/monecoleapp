@@ -1,10 +1,10 @@
 {
-  "version": "v504",
-  "date": "2026-09-15",
-  "note": "Ecran du code d activation : le sous-titre devient Gestion scolaire - Synchronisee, sans le mot Guinee. Les valeurs par defaut reglables (pays sur les documents, devise) ne changent pas.",
-  "label": "Ecran d activation : Gestion scolaire, sans nom de pays",
-  "label_ar": "شاشة التفعيل: إدارة مدرسية دون اسم بلد",
+  "version": "v505",
+  "date": "2026-09-16",
+  "note": "Hors ligne : une ecriture qui ne peut pas etre mise en attente (creer une classe, une matiere, signaler un incident) le dit en francais et en arabe au lieu d afficher TypeError: Load failed. Rien n est perdu, le formulaire reste rempli.",
+  "label": "Hors ligne : un echec d enregistrement se dit en francais, plus de TypeError",
+  "label_ar": "دون اتصال: تعذر الحفظ يُقال بالعربية، لا مزيد من TypeError",
   "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-09-15T20:10:00.000Z"
+  "client_visible": true,
+  "updated_at": "2026-09-16T08:10:00.000Z"
 }

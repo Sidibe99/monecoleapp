@@ -1,10 +1,10 @@
 {
-  "version": "v504",
-  "package_version": "1.0.504",
-  "label": "Ecran d activation : Gestion scolaire, sans nom de pays",
-  "created_at": "2026-09-15T20:24:09.984Z",
+  "version": "v505",
+  "package_version": "1.0.505",
+  "label": "Hors ligne : un echec d enregistrement se dit en francais, plus de TypeError",
+  "created_at": "2026-09-16T08:14:56.314Z",
   "files": 122,
-  "total_bytes": 19314189,
+  "total_bytes": 19314436,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -342,19 +342,19 @@
       "sha256": "ab82265a53d32fefc21173bb9998355e0d005ce6115f0582cb9d298101f5d3f1"
     },
     {
+      "file": "assets/index-B7EIqL24.js",
+      "bytes": 529889,
+      "sha256": "638ace8820bf39be94ba0d2b59b5a5f895fd5e0f8347ba36af59abb483919f80"
+    },
+    {
       "file": "assets/index-BV1F1Sk2.css",
       "bytes": 314104,
       "sha256": "b23ba7d36bcccd2ef5c252ff1ad390973024edb2c94bb5875510a9977a72ba7a"
     },
     {
-      "file": "assets/index-legacy-D7_CP6uI.js",
-      "bytes": 930125,
-      "sha256": "296ea75358d800cbc8d9046213e1baaec3e6447ae2e96d5bec78eaba06e5d389"
-    },
-    {
-      "file": "assets/index-xWNE5w7v.js",
-      "bytes": 529825,
-      "sha256": "06614c3fb304d4bc5ff7d0481a20978bacb624a45414f5c61a0861914daa8e62"
+      "file": "assets/index-legacy-CA2tzbls.js",
+      "bytes": 930210,
+      "sha256": "2a6c16739a5a3424821f38de5249e4f700ed6fa311eee0bcb74c9423d438e27d"
     },
     {
       "file": "assets/index.es-B8Xuq3He.js",
@@ -584,7 +584,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "329b4277571e68e7efa91feba6cdee68d3040cda5130eb539697c396f0d78193"
+      "sha256": "e26a51c294123d99b66ac32341c51540f75cb26333b0422f3997520f621ae6af"
     },
     {
       "file": "manifest.webmanifest",
@@ -594,7 +594,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17057,
-      "sha256": "c0cde62e5cd33ec2d71544eddce460f712cf1e7a2c7c500530783c6a0002c3a5"
+      "sha256": "2b8f44f1bbfff584299b9f1943dc89cb5cd3d582f947fd43eaa7e9811aa84320"
     },
     {
       "file": "reset-cache.html",
@@ -604,7 +604,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "aaf5b270ba7b89ea1ca5c99d7083f6581d44aa2b068bff56710eee37e6bb24fe"
+      "sha256": "d3c00c29e662f005bd122dba3f77409a6e5951120119e8f0b577fba966a5fd13"
     },
     {
       "file": "v.html",
@@ -613,8 +613,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 497,
-      "sha256": "0790585dacf0f3ff8df609c95383ee990457142b5a9ee3d8c83d93fc6e67e812"
+      "bytes": 595,
+      "sha256": "c2439404a21ed5d4aa8795eafab2d8289da459a272d95cb309e005ec0e1b22ce"
     }
   ]
 }
