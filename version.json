@@ -1,10 +1,10 @@
 {
-  "version": "v518",
+  "version": "v519",
   "date": "2026-09-16",
-  "note": "Trois corrections vues sur iPhone. Les etats de synchronisation tenaient quatre pastilles empilees en bas de l ecran, en permanence par-dessus les tableaux : ils tiennent maintenant en une seule ligne, dans le flux de la page, qui ne couvre plus rien. La session se renouvelle toute seule au retour du reseau au lieu de reclamer le mot de passe. Et le clavier du telephone ne coupe plus les fenetres en deux : sa hauteur est mesuree et rendue a la fenetre.",
-  "label": "Alertes regroupees, session qui se renouvelle, clavier corrige",
-  "label_ar": "تجميع التنبيهات وتجديد الجلسة وإصلاح لوحة المفاتيح",
+  "note": "Deux pages exigees par Google Play sont en ligne : la politique de confidentialite et la marche a suivre pour supprimer un compte. Elles s ouvrent sans compte et sans installer l application, en francais et en arabe, et se retrouvent depuis la page Aide. Rien ne change dans l application elle-meme.",
+  "label": "Pages confidentialite et suppression de compte, en ligne",
+  "label_ar": "صفحتا الخصوصية وحذف الحساب على الإنترنت",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-16T23:59:00.000Z"
+  "updated_at": "2026-09-17T00:40:00.000Z"
 }
