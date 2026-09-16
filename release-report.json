@@ -1,10 +1,10 @@
 {
-  "version": "v508",
-  "package_version": "1.0.508",
-  "label": "Hors ligne : un creneau et une lecon du jour attendent le reseau",
-  "created_at": "2026-09-16T10:08:49.709Z",
+  "version": "v510",
+  "package_version": "1.0.510",
+  "label": "Actions rapides alignees sur telephone pliable et tablette",
+  "created_at": "2026-09-16T11:06:53.554Z",
   "files": 122,
-  "total_bytes": 19320047,
+  "total_bytes": 19321248,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -342,19 +342,19 @@
       "sha256": "ab82265a53d32fefc21173bb9998355e0d005ce6115f0582cb9d298101f5d3f1"
     },
     {
-      "file": "assets/index-BV1F1Sk2.css",
-      "bytes": 314104,
-      "sha256": "b23ba7d36bcccd2ef5c252ff1ad390973024edb2c94bb5875510a9977a72ba7a"
+      "file": "assets/index-DlvVuHd5.js",
+      "bytes": 532085,
+      "sha256": "bd131c23fa6df2830e67ef675419fa3c2f02dca812f3dfaa1a0190717bad30af"
     },
     {
-      "file": "assets/index-Dmj_B7zM.js",
-      "bytes": 531973,
-      "sha256": "d7419edddeac82710cd63be92297ba68727dc42fdb4d9d4bbeae6d987ea11504"
+      "file": "assets/index-ldO1XJvy.css",
+      "bytes": 314586,
+      "sha256": "5c75534b4402ee5a1e63333df338c179142a9ea7a7dea675e7a15db9e3ea31d7"
     },
     {
-      "file": "assets/index-legacy-BAUI7khQ.js",
-      "bytes": 933441,
-      "sha256": "ff0b117924a87277bf73a36a0633051f127f77952cc8a4394925910b4e894103"
+      "file": "assets/index-legacy-D4QhdUWK.js",
+      "bytes": 934035,
+      "sha256": "74a689bb486b5bee45edc4336e05b8d632860735943d9a7b73660a1d76c54bb7"
     },
     {
       "file": "assets/index.es-B8Xuq3He.js",
@@ -584,7 +584,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "25bbb2638ed44e369105b1ed298dd369a4050a8ec70d53874410d0a581892d19"
+      "sha256": "2af61e209e20db71b4075fabcffa46e484c7865387b4078afd2bff8e08e66816"
     },
     {
       "file": "manifest.webmanifest",
@@ -594,7 +594,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17057,
-      "sha256": "5dc466eca8fd952e002e785f9f1e42e42e506e776d1529b897e67960814315eb"
+      "sha256": "8afc28e447f11c5975f24221d373e32d0ba21a4a0e5b6cccec251480edb00281"
     },
     {
       "file": "reset-cache.html",
@@ -604,7 +604,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "7eb0b09c648c9890ff84f76b8ae1cadd19a36058e6b6a39e4902e5487fa04f76"
+      "sha256": "42c5b854768dbe577405466cae738c064caaf7986ff086b30cabe774f5a246b7"
     },
     {
       "file": "v.html",
@@ -613,8 +613,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 607,
-      "sha256": "a0748484db630c6ce64c18b26d5bdc67fc8aa1052b93c7d8f67aa617fa5ec5cb"
+      "bytes": 620,
+      "sha256": "7bcc20072ab899befdb894dde12f0495178850425fd152b49f8da5c21e6a94be"
     }
   ]
 }

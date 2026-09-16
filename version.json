@@ -1,10 +1,10 @@
 {
-  "version": "v508",
+  "version": "v510",
   "date": "2026-09-16",
-  "note": "Hors ligne : ajouter un creneau a l emploi du temps et enregistrer la lecon du jour sont mis en attente puis envoyes au retour du reseau. Migration v508 : les deux tables recoivent client_uid et sync_version. Une ligne en attente ne se modifie ni ne se supprime.",
-  "label": "Hors ligne : un creneau et une lecon du jour attendent le reseau",
-  "label_ar": "دون اتصال: الحصة ودرس اليوم ينتظران عودة الشبكة",
-  "scope": "client+supabase",
+  "note": "Tableau de bord : entre 641 et 1280 pixels (telephone pliable deplie, tablette, petit ordinateur), les actions rapides passent en colonnes de largeur egale au lieu de tomber en marches d escalier. La rangee defilante du telephone et la rangee unique du grand ecran ne changent pas.",
+  "label": "Actions rapides alignees sur telephone pliable et tablette",
+  "label_ar": "إجراءات سريعة مصفوفة على الهاتف القابل للطي واللوحي",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-16T12:30:00.000Z"
+  "updated_at": "2026-09-16T15:00:00.000Z"
 }
