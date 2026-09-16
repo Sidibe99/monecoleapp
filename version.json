@@ -1,10 +1,10 @@
 {
-  "version": "v510",
+  "version": "v516",
   "date": "2026-09-16",
-  "note": "Tableau de bord : entre 641 et 1280 pixels (telephone pliable deplie, tablette, petit ordinateur), les actions rapides passent en colonnes de largeur egale au lieu de tomber en marches d escalier. La rangee defilante du telephone et la rangee unique du grand ecran ne changent pas.",
-  "label": "Actions rapides alignees sur telephone pliable et tablette",
-  "label_ar": "إجراءات سريعة مصفوفة على الهاتف القابل للطي واللوحي",
+  "note": "Fin des traductions de l ecran : les messages de chargement, la reconnexion, la corbeille, le journal de securite, le renouvellement d abonnement, l espace editeur et la fenetre de choix d impression se lisent en arabe. Les documents imprimes ne changent pas : ils suivent le reglage Langue des documents, pas la langue de l ecran.",
+  "label": "Ecran principal en arabe, documents inchanges",
+  "label_ar": "الشاشة الرئيسية بالعربية دون تغيير الوثائق",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-16T15:00:00.000Z"
+  "updated_at": "2026-09-16T21:00:00.000Z"
 }
