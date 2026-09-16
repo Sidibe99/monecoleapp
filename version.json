@@ -1,10 +1,10 @@
 {
-  "version": "v517",
+  "version": "v518",
   "date": "2026-09-16",
-  "note": "Les fenetres d administration se lisent en arabe : cloture annuelle, sauvegarde, file d attente de synchronisation, centre de notifications et rappels de la cloche, validation des resultats, eleves, matieres et utilisateurs. Deux fichiers reserves a l espace editeur quittent le chemin de demarrage : le premier ecran s allege de 7 kilo-octets malgre les textes ajoutes. Les documents imprimes ne changent pas : ils suivent le reglage Langue des documents, pas la langue de l ecran.",
-  "label": "Fenetres d administration en arabe, demarrage allege",
-  "label_ar": "نوافذ الإدارة بالعربية مع تخفيف بدء التشغيل",
+  "note": "Trois corrections vues sur iPhone. Les etats de synchronisation tenaient quatre pastilles empilees en bas de l ecran, en permanence par-dessus les tableaux : ils tiennent maintenant en une seule ligne, dans le flux de la page, qui ne couvre plus rien. La session se renouvelle toute seule au retour du reseau au lieu de reclamer le mot de passe. Et le clavier du telephone ne coupe plus les fenetres en deux : sa hauteur est mesuree et rendue a la fenetre.",
+  "label": "Alertes regroupees, session qui se renouvelle, clavier corrige",
+  "label_ar": "تجميع التنبيهات وتجديد الجلسة وإصلاح لوحة المفاتيح",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-16T22:30:00.000Z"
+  "updated_at": "2026-09-16T23:59:00.000Z"
 }
