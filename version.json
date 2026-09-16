@@ -1,10 +1,10 @@
 {
-  "version": "v516",
+  "version": "v517",
   "date": "2026-09-16",
-  "note": "Fin des traductions de l ecran : les messages de chargement, la reconnexion, la corbeille, le journal de securite, le renouvellement d abonnement, l espace editeur et la fenetre de choix d impression se lisent en arabe. Les documents imprimes ne changent pas : ils suivent le reglage Langue des documents, pas la langue de l ecran.",
-  "label": "Ecran principal en arabe, documents inchanges",
-  "label_ar": "الشاشة الرئيسية بالعربية دون تغيير الوثائق",
+  "note": "Les fenetres d administration se lisent en arabe : cloture annuelle, sauvegarde, file d attente de synchronisation, centre de notifications et rappels de la cloche, validation des resultats, eleves, matieres et utilisateurs. Deux fichiers reserves a l espace editeur quittent le chemin de demarrage : le premier ecran s allege de 7 kilo-octets malgre les textes ajoutes. Les documents imprimes ne changent pas : ils suivent le reglage Langue des documents, pas la langue de l ecran.",
+  "label": "Fenetres d administration en arabe, demarrage allege",
+  "label_ar": "نوافذ الإدارة بالعربية مع تخفيف بدء التشغيل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-16T21:00:00.000Z"
+  "updated_at": "2026-09-16T22:30:00.000Z"
 }
