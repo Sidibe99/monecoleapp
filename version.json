@@ -1,10 +1,10 @@
 {
-  "version": "v519",
-  "date": "2026-09-16",
-  "note": "Deux pages exigees par Google Play sont en ligne : la politique de confidentialite et la marche a suivre pour supprimer un compte. Elles s ouvrent sans compte et sans installer l application, en francais et en arabe, et se retrouvent depuis la page Aide. Rien ne change dans l application elle-meme.",
-  "label": "Pages confidentialite et suppression de compte, en ligne",
-  "label_ar": "صفحتا الخصوصية وحذف الحساب على الإنترنت",
+  "version": "v520",
+  "date": "2026-09-17",
+  "note": "Deux corrections vues sur iPhone. Le clavier ne coupe plus les fenetres en deux : sa hauteur est mesuree en comparant a la plus grande fenetre vue, sans supposer que la page garde sa taille — la mesure precedente rendait zero dans Safari. Et une date laissee vide part desormais comme une absence de valeur, non comme un texte vide que la base refuse : une saisie faite hors ligne ne reste plus bloquee dans la file, y compris celles qui y sont deja.",
+  "label": "Clavier mesure autrement, saisies hors ligne debloquees",
+  "label_ar": "قياس جديد للوحة المفاتيح وفكّ حجز الإدخالات",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-17T00:40:00.000Z"
+  "updated_at": "2026-09-17T08:30:00.000Z"
 }
