@@ -1,10 +1,10 @@
 {
-  "version": "v524",
+  "version": "v525",
   "date": "2026-09-17",
-  "note": "Deux demandes de Yacine. Les classes se rangent du plus petit niveau au plus grand, partout dans l application et non plus par ordre alphabetique. Et la liste des eleves d une classe s imprime depuis la page Eleves, avec l en-tete officiel de l ecole, une classe par page, contacts et colonne d emargement en option.",
-  "label": "Classes rangees par niveau et listes d eleves imprimables",
-  "label_ar": "ترتيب الفصول وطباعة قوائم التلاميذ",
+  "note": "Deux gênes signalées par Yacine sur son iPhone. L avertissement de fin de session ne revient plus sur un appareil personnel : il annoncait une coupure qui n arrivait jamais, puisque la session est conservée. Et la hauteur disponible des fenêtres est calculée à partir d une seule mesure, celle de la fenêtre visible : le clavier était retranché deux fois.",
+  "label": "Fin de session sans rappel et fenetres mieux mesurees",
+  "label_ar": "إنهاء الجلسة بلا تذكير ونوافذ بقياس أدق",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-17T19:10:00.000Z"
+  "updated_at": "2026-09-17T21:40:00.000Z"
 }
