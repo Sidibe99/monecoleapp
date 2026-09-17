@@ -1,10 +1,10 @@
 {
-  "version": "v520",
-  "package_version": "1.0.520",
-  "label": "Clavier mesure autrement, saisies hors ligne debloquees",
-  "created_at": "2026-09-17T09:50:43.954Z",
+  "version": "v521",
+  "package_version": "1.0.521",
+  "label": "Ecrans publics recentres sur grand ecran",
+  "created_at": "2026-09-17T13:42:41.413Z",
   "files": 127,
-  "total_bytes": 19397365,
+  "total_bytes": 19397304,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -352,19 +352,19 @@
       "sha256": "c41a931ea7259271a65e94224707be3a271044714a38dd04be00a8231e09ea3e"
     },
     {
-      "file": "assets/index-BCtK61sO.css",
-      "bytes": 315022,
-      "sha256": "1103ef4ebf850e0d86c505e72deb0fdf5e007e9a2e8e7eff06dfe45b7c778a7d"
+      "file": "assets/index-DpXYp00I.css",
+      "bytes": 315087,
+      "sha256": "18393d3ef2d7f8b2d32404a2a24db4e7a2321b7b4d3e6698432beb2eca4d190b"
     },
     {
-      "file": "assets/index-DHnsfa7x.js",
+      "file": "assets/index-Xlqggnjj.js",
       "bytes": 536244,
       "sha256": "b08e8436a41ec54e65a0d0db5cefd3c85f04af4360703835094050f308fedec7"
     },
     {
-      "file": "assets/index-legacy-Bf3sJROb.js",
-      "bytes": 938669,
-      "sha256": "94b623888f9073dabc1215643e5237f11a0a3f2cc15e8692c66fbbd3c81a2ebc"
+      "file": "assets/index-legacy-NarU2ZXT.js",
+      "bytes": 938734,
+      "sha256": "ce7116bcf0db8c8f5569ef98cde2d167f71be5248841ad1b6b8cf43dbec133d4"
     },
     {
       "file": "assets/index.es-CgWHrluS.js",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "69eabf4bf4b766a586024175b8ed4d3eb279c13c52b18e42b757a879128d91cd"
+      "sha256": "3edf3220e1fa31bb9e80322f6dcb468ba325ef68d4c3e50538f0fcdc7bc606af"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17379,
-      "sha256": "073ec34b31396ed610f74f421f71b02e9139f0345d8912baa9de5fc5dd01067f"
+      "sha256": "71a6d5f9a768272328bb248edea30f38988447e2632c5c959fe68e0b073a1d53"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "25adc85631b8650ca3fd00f59af729864947d4733611a838740b445e81692cc5"
+      "sha256": "09911e7481598cb46d919692b85c90cc6cf36eb830f033ea1424e95474ad5402"
     },
     {
       "file": "v.html",
@@ -638,8 +638,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 773,
-      "sha256": "f4cc99753acdb14e2ee5d7a5870eeb897871637997f12480927c1b540a85851d"
+      "bytes": 582,
+      "sha256": "9c0b869ba399d099b44bedf9c0d76a381141b0d285d610f12449a77140cd8d35"
     }
   ]
 }

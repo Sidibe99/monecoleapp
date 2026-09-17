@@ -1,10 +1,10 @@
 {
-  "version": "v520",
+  "version": "v521",
   "date": "2026-09-17",
-  "note": "Deux corrections vues sur iPhone. Le clavier ne coupe plus les fenetres en deux : sa hauteur est mesuree en comparant a la plus grande fenetre vue, sans supposer que la page garde sa taille — la mesure precedente rendait zero dans Safari. Et une date laissee vide part desormais comme une absence de valeur, non comme un texte vide que la base refuse : une saisie faite hors ligne ne reste plus bloquee dans la file, y compris celles qui y sont deja.",
-  "label": "Clavier mesure autrement, saisies hors ligne debloquees",
-  "label_ar": "قياس جديد للوحة المفاتيح وفكّ حجز الإدخالات",
+  "note": "Sur un grand ecran, la carte des ecrans publics — connexion, activation, conditions d utilisation, espace editeur — restait collee a gauche avec tout le vide a droite. Elle est de nouveau centree, sans rien perdre du defilement ajoute en v509 pour les ecrans courts.",
+  "label": "Ecrans publics recentres sur grand ecran",
+  "label_ar": "إعادة توسيط الشاشات العامة على الشاشات الكبيرة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-17T08:30:00.000Z"
+  "updated_at": "2026-09-17T14:00:00.000Z"
 }
