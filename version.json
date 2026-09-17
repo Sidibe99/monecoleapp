@@ -1,10 +1,10 @@
 {
-  "version": "v522",
+  "version": "v524",
   "date": "2026-09-17",
-  "note": "L ecran de connexion indique desormais comment joindre MonEcole. Quelqu un qui telecharge l application depuis le magasin y arrive sans compte, puisque ce sont les ecoles qui creent les comptes : il trouve maintenant le WhatsApp et l adresse de l editeur, en francais comme en arabe.",
-  "label": "Contact de MonEcole sur l ecran de connexion",
-  "label_ar": "وسيلة للتواصل مع MonEcole في شاشة الدخول",
+  "note": "Deux demandes de Yacine. Les classes se rangent du plus petit niveau au plus grand, partout dans l application et non plus par ordre alphabetique. Et la liste des eleves d une classe s imprime depuis la page Eleves, avec l en-tete officiel de l ecole, une classe par page, contacts et colonne d emargement en option.",
+  "label": "Classes rangees par niveau et listes d eleves imprimables",
+  "label_ar": "ترتيب الفصول وطباعة قوائم التلاميذ",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-17T15:30:00.000Z"
+  "updated_at": "2026-09-17T19:10:00.000Z"
 }
