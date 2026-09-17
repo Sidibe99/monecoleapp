@@ -1,10 +1,10 @@
 {
-  "version": "v521",
-  "package_version": "1.0.521",
-  "label": "Ecrans publics recentres sur grand ecran",
-  "created_at": "2026-09-17T13:42:41.413Z",
+  "version": "v522",
+  "package_version": "1.0.522",
+  "label": "Contact de MonEcole sur l ecran de connexion",
+  "created_at": "2026-09-17T15:01:05.983Z",
   "files": 127,
-  "total_bytes": 19397304,
+  "total_bytes": 19400012,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -357,14 +357,14 @@
       "sha256": "18393d3ef2d7f8b2d32404a2a24db4e7a2321b7b4d3e6698432beb2eca4d190b"
     },
     {
-      "file": "assets/index-Xlqggnjj.js",
-      "bytes": 536244,
-      "sha256": "b08e8436a41ec54e65a0d0db5cefd3c85f04af4360703835094050f308fedec7"
+      "file": "assets/index-cNCH4j7U.js",
+      "bytes": 537493,
+      "sha256": "d0a7c813018c93e5cf70e7721c80500bb28b2017a375cdd2d7c70e297781d077"
     },
     {
-      "file": "assets/index-legacy-NarU2ZXT.js",
-      "bytes": 938734,
-      "sha256": "ce7116bcf0db8c8f5569ef98cde2d167f71be5248841ad1b6b8cf43dbec133d4"
+      "file": "assets/index-legacy-DwxdLU6O.js",
+      "bytes": 940196,
+      "sha256": "2058d3daf449fd7ee0533e41b77036bdd0a950a3ccc64929333673cb51548a1d"
     },
     {
       "file": "assets/index.es-CgWHrluS.js",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "3edf3220e1fa31bb9e80322f6dcb468ba325ef68d4c3e50538f0fcdc7bc606af"
+      "sha256": "241be3e0d9596f4cbaef9c174b21c88d08a0d9344df805a9007c341411a4656c"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17379,
-      "sha256": "71a6d5f9a768272328bb248edea30f38988447e2632c5c959fe68e0b073a1d53"
+      "sha256": "b84339aecfd6f70f446d5115add2ff9509c65a4f1799338855540afa5a4ddb67"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "09911e7481598cb46d919692b85c90cc6cf36eb830f033ea1424e95474ad5402"
+      "sha256": "fe63841a6d36b64257cf8949650e158fbe3fd0ef7dfa96db380dbb2d7d5ca8d0"
     },
     {
       "file": "v.html",
@@ -638,8 +638,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 582,
-      "sha256": "9c0b869ba399d099b44bedf9c0d76a381141b0d285d610f12449a77140cd8d35"
+      "bytes": 579,
+      "sha256": "402b2948516912c83fce04f4505b21d94e23909eae8c1dab304d4f5abc6d0eeb"
     }
   ]
 }

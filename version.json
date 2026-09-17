@@ -1,10 +1,10 @@
 {
-  "version": "v521",
+  "version": "v522",
   "date": "2026-09-17",
-  "note": "Sur un grand ecran, la carte des ecrans publics — connexion, activation, conditions d utilisation, espace editeur — restait collee a gauche avec tout le vide a droite. Elle est de nouveau centree, sans rien perdre du defilement ajoute en v509 pour les ecrans courts.",
-  "label": "Ecrans publics recentres sur grand ecran",
-  "label_ar": "إعادة توسيط الشاشات العامة على الشاشات الكبيرة",
+  "note": "L ecran de connexion indique desormais comment joindre MonEcole. Quelqu un qui telecharge l application depuis le magasin y arrive sans compte, puisque ce sont les ecoles qui creent les comptes : il trouve maintenant le WhatsApp et l adresse de l editeur, en francais comme en arabe.",
+  "label": "Contact de MonEcole sur l ecran de connexion",
+  "label_ar": "وسيلة للتواصل مع MonEcole في شاشة الدخول",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-17T14:00:00.000Z"
+  "updated_at": "2026-09-17T15:30:00.000Z"
 }
