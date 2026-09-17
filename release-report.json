@@ -2,9 +2,9 @@
   "version": "v525",
   "package_version": "1.0.525",
   "label": "Fin de session sans rappel et fenetres mieux mesurees",
-  "created_at": "2026-09-17T22:46:24.951Z",
+  "created_at": "2026-09-17T23:29:23.525Z",
   "files": 127,
-  "total_bytes": 19409071,
+  "total_bytes": 19409369,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -352,19 +352,19 @@
       "sha256": "9e4ae7d104ffdf655eb2d646955e2236bc15df525c1951f3e44637896c632867"
     },
     {
+      "file": "assets/index-BrJji6sL.js",
+      "bytes": 537809,
+      "sha256": "504a94bea63ec6d21861531d11dc1a6f329f0ec18020f8116f03a3cc0a1087c7"
+    },
+    {
       "file": "assets/index-CAGmEHd8.css",
       "bytes": 314871,
       "sha256": "57c2cb2107258ebe5d6b2ef2154d2360fefa8928f1f5f53e790704f6160f5da0"
     },
     {
-      "file": "assets/index-g5x7FmXp.js",
-      "bytes": 537659,
-      "sha256": "6224dbf0a5078dd521518422646b522d767302f986fb1ea6b35743b4fd595241"
-    },
-    {
-      "file": "assets/index-legacy-gXXc9LpE.js",
-      "bytes": 940216,
-      "sha256": "f6125eb8f39ab7739878d2608ae0fa895acc99603f2822aef72bbb1d80922ede"
+      "file": "assets/index-legacy-DmeDTYBl.js",
+      "bytes": 940364,
+      "sha256": "370f2932dcf3220d4f228ab3bd807ea7372ffb77b138723e117b3f81caf636fd"
     },
     {
       "file": "assets/index.es-BQPL2ovi.js",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "525cca09df6dcb1974eb6a8baf866f58b7d4555b8bb58a7866b4260607945f0f"
+      "sha256": "05b3150ac0b369c1e60dbd4dfd285920d47a046e7e738906d71077388ffed62b"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17378,
-      "sha256": "5785d1fb597711a45de1be7b196ef17c00d3dbac26500306de76e76120a6389c"
+      "sha256": "372132fcd5fb1e8d343f2f6313a355e2115c77a3fba621804574a161ca01e3bb"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "c4b9f981a11cc937351a8880265f0564ca5a9f4f97a7b0ff9101f73d24049a75"
+      "sha256": "70d81ecf7a9ad52ce8198a7641e6cf3853d7f676c9e4983850e33c6ba3a0c77c"
     },
     {
       "file": "v.html",
