@@ -1,10 +1,10 @@
 {
-  "version": "v527",
-  "package_version": "1.0.527",
-  "label": "Proposition d installation seulement si l application manque",
-  "created_at": "2026-09-18T12:59:28.999Z",
+  "version": "v528",
+  "package_version": "1.0.528",
+  "label": "Regles d acces de la base alignees sur les roles",
+  "created_at": "2026-09-18T18:30:22.402Z",
   "files": 127,
-  "total_bytes": 19418246,
+  "total_bytes": 19418288,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "1cfa3666f7f7299e602492852926f7bf28a932030f3e7b29c5f2629dd2a0bfda"
+      "sha256": "471153c5d21d8a28d5cfb750cac1d863718f429729f13904da18897de060d524"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17379,
-      "sha256": "6d0e0ff57ca938fe795f1b392e47174cb58147af9f5096ffc303337507f0b01c"
+      "sha256": "f7c7f7ecdd3597d83a940d60174873ea1056ce1bb45a6fafd7f0525ba0d05efc"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "b0ab9809030c0c949361c1a99ac27224264fddfbfd3bb76694b06bd257514838"
+      "sha256": "9c53532c37406efc834e28cfffddc008143bee6f53a314b3280c676c40c989f0"
     },
     {
       "file": "v.html",
@@ -638,8 +638,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 597,
-      "sha256": "1432b532fd641285f6643b563c800fe7a47b8c266b0bc704b0b0b21de693da0c"
+      "bytes": 639,
+      "sha256": "edf2a239a1a0ce9ce1a6345d71b52690c317be3056701f7b141813ae09c37e9d"
     }
   ]
 }

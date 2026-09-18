@@ -1,10 +1,10 @@
 {
-  "version": "v527",
+  "version": "v528",
   "date": "2026-09-17",
-  "note": "La proposition d installer MonEcole ne s affiche plus pour ceux qui ont deja l application : dans l application installee, sur un appareil ou elle a deja ete installee, sur un telephone Android qui porte l application du Play Store, ou apres avoir touche Deja installee.",
-  "label": "Proposition d installation seulement si l application manque",
-  "label_ar": "اقتراح التثبيت فقط إذا لم يكن التطبيق مثبتًا",
-  "scope": "client",
+  "note": "Securite : 37 regles d acces creees a la main dans la base, absentes du code, laissaient n importe quel compte d une ecole - parent ou professeur compris - lire et modifier directement les paiements, les eleves, les notes, les depenses et les messages. Elles sont retirees ; chaque role retrouve exactement ses droits.",
+  "label": "Regles d acces de la base alignees sur les roles",
+  "label_ar": "مواءمة قواعد الوصول إلى القاعدة مع الأدوار",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-18T09:30:00.000Z"
+  "updated_at": "2026-09-18T18:10:00.000Z"
 }
