@@ -1,10 +1,10 @@
 {
-  "version": "v528",
-  "package_version": "1.0.528",
-  "label": "Regles d acces de la base alignees sur les roles",
-  "created_at": "2026-09-18T18:30:22.402Z",
+  "version": "v529",
+  "package_version": "1.0.529",
+  "label": "Message aux parents redige depuis l incident",
+  "created_at": "2026-09-18T20:58:14.815Z",
   "files": 127,
-  "total_bytes": 19418288,
+  "total_bytes": 19434846,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -82,14 +82,14 @@
       "sha256": "da139f90401206e41d213e8f80a3b01b624c597b4af94b0670b57fda05603b6d"
     },
     {
-      "file": "assets/Discipline-CM_XvDZ9.js",
-      "bytes": 17981,
-      "sha256": "b4a0e7646ade4f9cec19ef6f1e80bb563f13840e8b8cac9f63a0a755fc294455"
+      "file": "assets/Discipline-DcV8UVHV.js",
+      "bytes": 22579,
+      "sha256": "7021a05039d640eec23f3da7fbedfec7a164fffce069fa9eb797ad7a93b0dd51"
     },
     {
-      "file": "assets/Discipline-legacy-BmDuHS0X.js",
-      "bytes": 26546,
-      "sha256": "ba7e0ec38c6c0a9ca3b321165f5cf3bd0c080a2801423a831e402fb9c1737356"
+      "file": "assets/Discipline-legacy-7icu8lXf.js",
+      "bytes": 31513,
+      "sha256": "b1f981a15357ef9b7a8463eb7fc3ca1c37ebe9cd31d76386446dab037aa80eae"
     },
     {
       "file": "assets/EditorHub-B2By9MIe.js",
@@ -182,14 +182,14 @@
       "sha256": "4abcc5df4876569fa1fd93dabd520f4fb7c3b7525b5f7b4755d53205a6779b46"
     },
     {
-      "file": "assets/MessageriePage-CUUl9cmp.js",
-      "bytes": 40427,
-      "sha256": "ddbdb801062924460361c53f224fa75cbb7f3e492a2cc859a8248daa35267866"
+      "file": "assets/MessageriePage-7ElIwipy.js",
+      "bytes": 43973,
+      "sha256": "cbd5158be0320d4b1623d4369cacd4c39920144b15755e0d0a5a0a96eded34e5"
     },
     {
-      "file": "assets/MessageriePage-legacy-BxiQREj-.js",
-      "bytes": 52665,
-      "sha256": "9d14eb5eaf2d60165544f8e96fb80033a27527176f096c45c35627af9239ddf9"
+      "file": "assets/MessageriePage-legacy-BubwaYqv.js",
+      "bytes": 56970,
+      "sha256": "ce5ce77fb5def36000a64a2e07dca5c2ccd41740e979eba76da4dccada28ff7f"
     },
     {
       "file": "assets/NotificationCenter-DtlJr8kf.js",
@@ -357,14 +357,14 @@
       "sha256": "338ebc408c1b1c4f642e096c3f84d56e2f524ca3a84f4947e0d99f934bdb356b"
     },
     {
-      "file": "assets/index-DpYj4IgX.js",
-      "bytes": 540908,
-      "sha256": "e8297c67d7ff563e918ed6b3a77bc2ae3ec8d67f5a0346bb71c10f5dcf685f3b"
+      "file": "assets/index-DClUPtMV.js",
+      "bytes": 540484,
+      "sha256": "e44952a5f9db92b57fa453d86c107ad270578ef8607458e86604e291f904a969"
     },
     {
-      "file": "assets/index-legacy-DrD-rUhe.js",
-      "bytes": 944683,
-      "sha256": "d94119a3b994b1690b98c994476512420a66581b360e3dc333553e7025a07ced"
+      "file": "assets/index-legacy-qBklTcoc.js",
+      "bytes": 944303,
+      "sha256": "2e5fdc19495693b218f0c8c87323e4d2521c27557d7abc3551a09e62f3f5bba6"
     },
     {
       "file": "assets/index.es-CqE1DjgQ.js",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "471153c5d21d8a28d5cfb750cac1d863718f429729f13904da18897de060d524"
+      "sha256": "a199dd93b71be1dbbfd7db135769b367b2a8f785889f1dca81541abfe7a4eeec"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17379,
-      "sha256": "f7c7f7ecdd3597d83a940d60174873ea1056ce1bb45a6fafd7f0525ba0d05efc"
+      "sha256": "9499f5a7444a5c7216f6ca1aa601bcde1eafcfe57de3053f48a868cbc77bbfe4"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "9c53532c37406efc834e28cfffddc008143bee6f53a314b3280c676c40c989f0"
+      "sha256": "5d48ca990dae6f2773618919019a83622e1e6d3a2f7fb53107cbf863dbb8b3ec"
     },
     {
       "file": "v.html",
@@ -638,8 +638,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 639,
-      "sha256": "edf2a239a1a0ce9ce1a6345d71b52690c317be3056701f7b141813ae09c37e9d"
+      "bytes": 585,
+      "sha256": "9d63d9c16dd96cbb9e9a1f7b3c1155f6736382b1a4f9baa73e1c5d12fdfabe6a"
     }
   ]
 }

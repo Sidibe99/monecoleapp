@@ -1,10 +1,10 @@
 {
-  "version": "v528",
+  "version": "v529",
   "date": "2026-09-17",
-  "note": "Securite : 37 regles d acces creees a la main dans la base, absentes du code, laissaient n importe quel compte d une ecole - parent ou professeur compris - lire et modifier directement les paiements, les eleves, les notes, les depenses et les messages. Elles sont retirees ; chaque role retrouve exactement ses droits.",
-  "label": "Regles d acces de la base alignees sur les roles",
-  "label_ar": "مواءمة قواعد الوصول إلى القاعدة مع الأدوار",
-  "scope": "client+supabase",
+  "note": "Discipline : Ecrire aux parents ouvre directement la conversation du parent de l eleve, avec un message deja redige a partir de l incident - nature, date, faits, reponse de l eleve et decision. Plusieurs parents : leur liste, tous coches, avec le meme message a relire.",
+  "label": "Message aux parents redige depuis l incident",
+  "label_ar": "رسالة إلى الأولياء تُحرَّر انطلاقًا من الحادثة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-18T18:10:00.000Z"
+  "updated_at": "2026-09-18T20:00:00.000Z"
 }
