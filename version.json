@@ -1,10 +1,16 @@
 {
-  "version": "v529",
+  "version": "v530",
   "date": "2026-09-17",
-  "note": "Discipline : Ecrire aux parents ouvre directement la conversation du parent de l eleve, avec un message deja redige a partir de l incident - nature, date, faits, reponse de l eleve et decision. Plusieurs parents : leur liste, tous coches, avec le meme message a relire.",
-  "label": "Message aux parents redige depuis l incident",
-  "label_ar": "رسالة إلى الأولياء تُحرَّر انطلاقًا من الحادثة",
-  "scope": "client",
+  "note": "Securite serveur : le blocage des essais du mot de passe maitre ne se contourne plus en changeant d adresse, et un compte Professeur ne peut plus recevoir de classes ou de matieres d une autre ecole.",
+  "label": "Fonctions serveur renforcees",
+  "label_ar": "تعزيز وظائف الخادم",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-18T20:00:00.000Z"
+  "updated_at": "2026-09-18T22:00:00.000Z",
+  "deploiement": [
+    "generer-code",
+    "renouveler",
+    "editeur-admin",
+    "create-user"
+  ]
 }

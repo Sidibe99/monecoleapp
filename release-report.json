@@ -1,10 +1,10 @@
 {
-  "version": "v529",
-  "package_version": "1.0.529",
-  "label": "Message aux parents redige depuis l incident",
-  "created_at": "2026-09-18T20:58:14.815Z",
+  "version": "v530",
+  "package_version": "1.0.530",
+  "label": "Fonctions serveur renforcees",
+  "created_at": "2026-09-18T21:52:35.899Z",
   "files": 127,
-  "total_bytes": 19434846,
+  "total_bytes": 19434818,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "a199dd93b71be1dbbfd7db135769b367b2a8f785889f1dca81541abfe7a4eeec"
+      "sha256": "40b75abe56da5c4cc0aab438108671f3009db966ae605100f54dc3e148aebe5d"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17379,
-      "sha256": "9499f5a7444a5c7216f6ca1aa601bcde1eafcfe57de3053f48a868cbc77bbfe4"
+      "sha256": "cced55a2249d3cb2139947d1376a67f48fe7c37fafa0335b4053ac5492b59976"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "5d48ca990dae6f2773618919019a83622e1e6d3a2f7fb53107cbf863dbb8b3ec"
+      "sha256": "172ec4079fab9fa5f005c3bcb480a61f4997f670d1e34751846af6f9e85d8269"
     },
     {
       "file": "v.html",
@@ -638,8 +638,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 585,
-      "sha256": "9d63d9c16dd96cbb9e9a1f7b3c1155f6736382b1a4f9baa73e1c5d12fdfabe6a"
+      "bytes": 557,
+      "sha256": "ebe2d7b9bc6b44df349b852fd8ee6e16a1c18993210b7cd3c5a588b345222b50"
     }
   ]
 }
