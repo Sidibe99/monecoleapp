@@ -2,9 +2,9 @@
   "version": "v526",
   "package_version": "1.0.526",
   "label": "Contact en deux icones sur l ecran de connexion",
-  "created_at": "2026-09-18T08:27:41.317Z",
+  "created_at": "2026-09-18T08:46:45.410Z",
   "files": 127,
-  "total_bytes": 19412958,
+  "total_bytes": 19413766,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -352,19 +352,19 @@
       "sha256": "9e4ae7d104ffdf655eb2d646955e2236bc15df525c1951f3e44637896c632867"
     },
     {
+      "file": "assets/index-BQruP2TG.js",
+      "bytes": 540089,
+      "sha256": "9aa53220f5b39ac9a5294c2385d0db67eca4943df50163882cfdf9201c3225bc"
+    },
+    {
       "file": "assets/index-CAGmEHd8.css",
       "bytes": 314871,
       "sha256": "57c2cb2107258ebe5d6b2ef2154d2360fefa8928f1f5f53e790704f6160f5da0"
     },
     {
-      "file": "assets/index-D8mgZjL9.js",
-      "bytes": 539685,
-      "sha256": "496851e8231d5c77b534caf567de045c225d85ae41dc4eae245882764f327164"
-    },
-    {
-      "file": "assets/index-legacy-DQQvfui2.js",
-      "bytes": 942240,
-      "sha256": "4f4ca8fb3a3c967745ad0b617917984643f0f06a5bf88a20ab1258439c5bb491"
+      "file": "assets/index-legacy-D1mwbKJS.js",
+      "bytes": 942644,
+      "sha256": "b4a850ec0712cade7c0685ce19553f97f21fc234fcba18326696a0f3c026f5d4"
     },
     {
       "file": "assets/index.es-BQPL2ovi.js",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "61376cc92369c9e8dd2a76021481fd1c35a7266fe86fd9c3195d78364e1c933e"
+      "sha256": "f71c7bd3ec41bc9938f095c8010a5718259f4ed263f22b7e6c3575b621ed8b0a"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17378,
-      "sha256": "8733aa673467a45270f87c3f44e245d2f2841c5547a39bebcfdd42c48fdc9a71"
+      "sha256": "dc1dc5124689104ca1759d22db5e27a29b9b0c956f3e2b8fe0e940432d440180"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "dc959bcd4fbd946d0d389f41abfd80672e335de1aa138e2beee9523f64901a25"
+      "sha256": "4c90c3d20baf7ed5c29da277301e2e656d2bd317ad4c6f845b99b558826ca96c"
     },
     {
       "file": "v.html",
