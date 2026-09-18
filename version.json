@@ -1,10 +1,10 @@
 {
-  "version": "v526",
+  "version": "v527",
   "date": "2026-09-17",
-  "note": "Sur l ecran de connexion, les coordonnees de MonEcole ne s affichent plus en toutes lettres : deux icones ouvrent directement WhatsApp, avec un message deja amorce, ou l e-mail. Le texte qui les presente est plus court.",
-  "label": "Contact en deux icones sur l ecran de connexion",
-  "label_ar": "التواصل بأيقونتين في شاشة الدخول",
+  "note": "La proposition d installer MonEcole ne s affiche plus pour ceux qui ont deja l application : dans l application installee, sur un appareil ou elle a deja ete installee, sur un telephone Android qui porte l application du Play Store, ou apres avoir touche Deja installee.",
+  "label": "Proposition d installation seulement si l application manque",
+  "label_ar": "اقتراح التثبيت فقط إذا لم يكن التطبيق مثبتًا",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-18T08:00:00.000Z"
+  "updated_at": "2026-09-18T09:30:00.000Z"
 }

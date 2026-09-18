@@ -8,11 +8,17 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
   "orientation": "any",
   "background_color": "#eef2f7",
   "theme_color": "#1a56db",
-  "categories": ["education", "productivity"],
+  "categories": [
+    "education",
+    "productivity"
+  ],
   "icons": [
     {
       "src": "/icon-192.png",
@@ -33,5 +39,12 @@
       "purpose": "maskable"
     }
   ],
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.monecoleapp.app",
+      "url": "https://play.google.com/store/apps/details?id=com.monecoleapp.app"
+    }
+  ]
 }
