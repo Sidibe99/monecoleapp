@@ -1,10 +1,10 @@
 {
-  "version": "v525",
-  "package_version": "1.0.525",
-  "label": "Fin de session sans rappel et fenetres mieux mesurees",
-  "created_at": "2026-09-17T23:29:23.525Z",
+  "version": "v526",
+  "package_version": "1.0.526",
+  "label": "Contact en deux icones sur l ecran de connexion",
+  "created_at": "2026-09-18T08:27:41.317Z",
   "files": 127,
-  "total_bytes": 19409369,
+  "total_bytes": 19412958,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -352,19 +352,19 @@
       "sha256": "9e4ae7d104ffdf655eb2d646955e2236bc15df525c1951f3e44637896c632867"
     },
     {
-      "file": "assets/index-BrJji6sL.js",
-      "bytes": 537809,
-      "sha256": "504a94bea63ec6d21861531d11dc1a6f329f0ec18020f8116f03a3cc0a1087c7"
-    },
-    {
       "file": "assets/index-CAGmEHd8.css",
       "bytes": 314871,
       "sha256": "57c2cb2107258ebe5d6b2ef2154d2360fefa8928f1f5f53e790704f6160f5da0"
     },
     {
-      "file": "assets/index-legacy-DmeDTYBl.js",
-      "bytes": 940364,
-      "sha256": "370f2932dcf3220d4f228ab3bd807ea7372ffb77b138723e117b3f81caf636fd"
+      "file": "assets/index-D8mgZjL9.js",
+      "bytes": 539685,
+      "sha256": "496851e8231d5c77b534caf567de045c225d85ae41dc4eae245882764f327164"
+    },
+    {
+      "file": "assets/index-legacy-DQQvfui2.js",
+      "bytes": 942240,
+      "sha256": "4f4ca8fb3a3c967745ad0b617917984643f0f06a5bf88a20ab1258439c5bb491"
     },
     {
       "file": "assets/index.es-BQPL2ovi.js",
@@ -599,7 +599,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "05b3150ac0b369c1e60dbd4dfd285920d47a046e7e738906d71077388ffed62b"
+      "sha256": "61376cc92369c9e8dd2a76021481fd1c35a7266fe86fd9c3195d78364e1c933e"
     },
     {
       "file": "manifest.webmanifest",
@@ -609,7 +609,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17378,
-      "sha256": "372132fcd5fb1e8d343f2f6313a355e2115c77a3fba621804574a161ca01e3bb"
+      "sha256": "8733aa673467a45270f87c3f44e245d2f2841c5547a39bebcfdd42c48fdc9a71"
     },
     {
       "file": "reset-cache.html",
@@ -629,7 +629,7 @@
     {
       "file": "sw.js",
       "bytes": 8593,
-      "sha256": "70d81ecf7a9ad52ce8198a7641e6cf3853d7f676c9e4983850e33c6ba3a0c77c"
+      "sha256": "dc959bcd4fbd946d0d389f41abfd80672e335de1aa138e2beee9523f64901a25"
     },
     {
       "file": "v.html",
@@ -638,8 +638,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 675,
-      "sha256": "d08dd76468b2700897d7dd8667a8ba41921e328edcac28e204add07753b15e4e"
+      "bytes": 512,
+      "sha256": "0f2b6ed3b9f11afdfa19cc6408ad27406120d64ff9d2bcae2e4f94a9c6a725b2"
     }
   ]
 }

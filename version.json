@@ -1,10 +1,10 @@
 {
-  "version": "v525",
+  "version": "v526",
   "date": "2026-09-17",
-  "note": "Deux gênes signalées par Yacine sur son iPhone. L avertissement de fin de session ne revient plus sur un appareil personnel : il annoncait une coupure qui n arrivait jamais, puisque la session est conservée. Et la hauteur disponible des fenêtres est calculée à partir d une seule mesure, celle de la fenêtre visible : le clavier était retranché deux fois.",
-  "label": "Fin de session sans rappel et fenetres mieux mesurees",
-  "label_ar": "إنهاء الجلسة بلا تذكير ونوافذ بقياس أدق",
+  "note": "Sur l ecran de connexion, les coordonnees de MonEcole ne s affichent plus en toutes lettres : deux icones ouvrent directement WhatsApp, avec un message deja amorce, ou l e-mail. Le texte qui les presente est plus court.",
+  "label": "Contact en deux icones sur l ecran de connexion",
+  "label_ar": "التواصل بأيقونتين في شاشة الدخول",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-17T21:40:00.000Z"
+  "updated_at": "2026-09-18T08:00:00.000Z"
 }
