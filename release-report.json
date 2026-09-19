@@ -1,10 +1,10 @@
 {
-  "version": "v542",
-  "package_version": "1.0.542",
-  "label": "La messagerie ne glisse plus de cote",
-  "created_at": "2026-09-19T21:05:06.590Z",
+  "version": "v543",
+  "package_version": "1.0.543",
+  "label": "Message aux parents multi-classes, retour WhatsApp",
+  "created_at": "2026-09-19T22:47:28.623Z",
   "files": 160,
-  "total_bytes": 23775713,
+  "total_bytes": 23783410,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -182,14 +182,14 @@
       "sha256": "be215f0fe1c1a5154cdd6915dc20ef8afde8640574a8760c5e4bd3b6b0491116"
     },
     {
-      "file": "assets/MessageriePage-BZtcHWeQ.js",
-      "bytes": 43997,
-      "sha256": "2858c004cb5d38c699b5b799d27bf5a691ffecda43f93dd55c68d65640fa47d6"
+      "file": "assets/MessageriePage-DJHEQAGP.js",
+      "bytes": 47268,
+      "sha256": "bfb40344df516874a850c823afd335b13007c92379d62e2244291693f09d184f"
     },
     {
-      "file": "assets/MessageriePage-legacy-CrAQf0Y7.js",
-      "bytes": 56994,
-      "sha256": "0b0eb69c281f50a78c888c775c98eb5b6543d0545423be654c2f4bce32a07b24"
+      "file": "assets/MessageriePage-legacy-2yeVLgnW.js",
+      "bytes": 60523,
+      "sha256": "04b995f6d335d53236210638a8ea6b14d001cc36888db50b5a327dc5b8508f49"
     },
     {
       "file": "assets/NotificationCenter-0xX2A2hP.js",
@@ -362,19 +362,19 @@
       "sha256": "c09e2547a9f7083b8355b77d6344742454d7152bdb34674dd00ad1591c2f429b"
     },
     {
+      "file": "assets/index-CPrAbtZD.js",
+      "bytes": 541846,
+      "sha256": "137c7a150525bdc3523483e0127411f4a34edc0430a5e37c519d899744ba8403"
+    },
+    {
       "file": "assets/index-CRwi0ICJ.css",
       "bytes": 316783,
       "sha256": "a2e3cbd03741b554e6daf322c76fed877e704f68bc70af942f69827e227bc038"
     },
     {
-      "file": "assets/index-D9MtRir5.js",
-      "bytes": 541846,
-      "sha256": "6f8cd75dc8551c827a927d38cd94caf857867d8ee3970f639be0c87af3920f1a"
-    },
-    {
-      "file": "assets/index-legacy-DYQ8gRry.js",
+      "file": "assets/index-legacy-BCFWog5d.js",
       "bytes": 948633,
-      "sha256": "bf0feb802eaccd6e61df008fe82d576fd54cd903de9845c7b456bb3ab342d168"
+      "sha256": "49d21993ad5c45e922f87320a4e7d8506e370f740b0fde9962db884902ac465a"
     },
     {
       "file": "assets/index.es-DwRQ4b9f.js",
@@ -764,7 +764,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "6dd64dd9b1a01bc3d5d090158b56b0a44317316c68a543f3507a19cda1f07555"
+      "sha256": "885e16d4694136ef6c69f55601bb31289d3cf85b99fe13c98b27bb5ac0d90119"
     },
     {
       "file": "manifest.webmanifest",
@@ -774,7 +774,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17691,
-      "sha256": "b667f44b63ec3251b1b05dc848f8904363f2b457890f32063becbf0551122c0b"
+      "sha256": "a5791878ad40b3b3f0193a8b0b61bb72d5ce4a0b7936e66e5c27e06cdd2f97f8"
     },
     {
       "file": "reset-cache.html",
@@ -794,17 +794,17 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "7762ccdbd2bb42fed1de934bce64bb7191b6abb8162f1640235ccd02a13aaec3"
+      "sha256": "853a9c7c714b5c1ff61eb0d9c436ace5c28d33d2a327c2b748c29de38e7b498b"
     },
     {
       "file": "v.html",
-      "bytes": 3931,
-      "sha256": "439a2a60bc345d87fe731b05e5f5bd8177c61e8abcb9cb0a9b31bb78d2bd77ae"
+      "bytes": 4805,
+      "sha256": "64469df067d5d0c708ae6d336019b2103dafe3c76de747f1081720d5339e711d"
     },
     {
       "file": "version.json",
-      "bytes": 560,
-      "sha256": "725e4c99cac3223835c3757977b00c5c14ba010fbfbe7417f8b0ac2a268aeb98"
+      "bytes": 583,
+      "sha256": "f3821e5282d04ea771821758d43546fa8322b66513ddc6616b5d9876ba52eb0e"
     }
   ]
 }

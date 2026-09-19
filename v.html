@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; connect-src https://*.supabase.co; media-src https://*.supabase.co; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self';" />
   <title>Message vocal · MonEcole</title>
   <style>
-    *{box-sizing:border-box}body{margin:0;min-height:100dvh;display:grid;place-items:center;padding:20px;background:linear-gradient(145deg,#102952,#1d4ed8);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#10203d}.card{width:min(460px,100%);background:#fff;border-radius:24px;padding:28px;box-shadow:0 30px 80px #06142e66;text-align:center}.logo{width:58px;height:58px;margin:0 auto 14px;border-radius:17px;display:grid;place-items:center;background:#2457dc;color:#fff;font-weight:900;font-size:18px}h1{font-size:23px;margin:0 0 8px}p{color:#64748b;line-height:1.55;margin:0 0 20px}.status{padding:12px;border-radius:12px;background:#f1f5f9;color:#475569;font-weight:700}.error{background:#fef2f2;color:#b91c1c}audio{display:none;width:100%;margin-top:18px}.ready audio{display:block}.note{font-size:12px;margin-top:16px;color:#64748b}.retry{display:none;margin:16px auto 0;border:0;border-radius:11px;padding:11px 16px;background:#2457dc;color:#fff;font-weight:800;cursor:pointer}.failed .retry{display:block}
+    *{box-sizing:border-box}body{margin:0;min-height:100dvh;display:grid;place-items:center;padding:20px;background:linear-gradient(145deg,#102952,#1d4ed8);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#10203d}.card{width:min(460px,100%);background:#fff;border-radius:24px;padding:28px;box-shadow:0 30px 80px #06142e66;text-align:center}.logo{width:58px;height:58px;margin:0 auto 14px;border-radius:17px;display:grid;place-items:center;background:#2457dc;color:#fff;font-weight:900;font-size:18px}h1{font-size:23px;margin:0 0 8px}p{color:#64748b;line-height:1.55;margin:0 0 20px}.status{padding:12px;border-radius:12px;background:#f1f5f9;color:#475569;font-weight:700}.error{background:#fef2f2;color:#b91c1c}audio{display:none;width:100%;margin-top:18px}.ready audio{display:block}.note{font-size:12px;margin-top:16px;color:#64748b}.retry{display:none;margin:16px auto 0;border:0;border-radius:11px;padding:11px 16px;background:#2457dc;color:#fff;font-weight:800;cursor:pointer}.failed .retry{display:block}.retour{display:block;width:100%;margin:10px 0 0;border:1.5px solid #cbd5e1;border-radius:11px;padding:11px 16px;background:#fff;color:#25d366;font-weight:800;cursor:pointer;font-size:14px}
   </style>
 </head>
 <body>
@@ -18,13 +18,20 @@
     <div class="status" id="status">Préparation du vocal…</div>
     <audio id="audio" controls preload="metadata"></audio>
     <button class="retry" id="retry" type="button">Réessayer</button>
+    <button class="retour" id="retour" type="button">‹ Retour à WhatsApp</button>
     <div class="note" id="note">Lien privé · disponible pendant 7 jours</div>
   </main>
   <script>
     (()=>{
-      const card=document.getElementById("card"),title=document.getElementById("title"),intro=document.getElementById("intro"),status=document.getElementById("status"),audio=document.getElementById("audio"),retry=document.getElementById("retry"),note=document.getElementById("note");
+      const card=document.getElementById("card"),title=document.getElementById("title"),intro=document.getElementById("intro"),status=document.getElementById("status"),audio=document.getElementById("audio"),retry=document.getElementById("retry"),note=document.getElementById("note"),retour=document.getElementById("retour");
       const ar=(navigator.language||"").toLowerCase().startsWith("ar");
-      if(ar){document.documentElement.lang="ar";document.documentElement.dir="rtl";title.textContent="رسالة صوتية من MonEcole";intro.textContent="استمع إلى الرسالة المرسلة من مؤسستك.";status.textContent="جارٍ تحضير المقطع…";retry.textContent="إعادة المحاولة";note.textContent="رابط خاص · متاح لمدة 7 أيام";}
+      if(ar){document.documentElement.lang="ar";document.documentElement.dir="rtl";title.textContent="رسالة صوتية من MonEcole";intro.textContent="استمع إلى الرسالة المرسلة من مؤسستك.";status.textContent="جارٍ تحضير المقطع…";retry.textContent="إعادة المحاولة";note.textContent="رابط خاص · متاح لمدة 7 أيام";retour.textContent="‹ العودة إلى واتساب";}
+      // v543 — un parent qui ouvre ce lien depuis WhatsApp n'a pas toujours de
+      // bouton natif pour y revenir (ça dépend s'il l'ouvre dans le
+      // navigateur intégré de WhatsApp ou dans Safari/Chrome). window.close()
+      // ne marche que sur un onglet ouvert par un script, donc rarement ici :
+      // on retombe alors sur un lien wa.me, qui rouvre l'application WhatsApp.
+      retour.addEventListener("click",()=>{try{window.close();}catch(_){}location.href="https://wa.me/";});
       const load=async()=>{
         card.classList.remove("ready","failed");status.classList.remove("error");status.textContent=ar?"جارٍ تحضير المقطع…":"Préparation du vocal…";
         const c=new URLSearchParams(location.search).get("c")||"";

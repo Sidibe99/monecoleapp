@@ -1,10 +1,10 @@
 {
-  "version": "v542",
+  "version": "v543",
   "date": "2026-09-17",
-  "note": "Sur telephone, la page de la messagerie ne se laisse plus glisser de cote sous le doigt : elle verrouille son propre defilement mais n avait pas recu le meme refus de geste que le fond d une fenetre. La liste des discussions et le fil d une conversation defilent toujours normalement.",
-  "label": "La messagerie ne glisse plus de cote",
-  "label_ar": "المراسلة لم تعد تنزلق جانبيًا",
+  "note": "Le message aux parents d une classe se compose puis se selectionne : des parents de plusieurs classes peuvent etre coches ensemble, et un seul bouton les envoie un par un sur WhatsApp. La page du message vocal partage sur WhatsApp propose maintenant un retour vers WhatsApp.",
+  "label": "Message aux parents multi-classes, retour WhatsApp",
+  "label_ar": "رسالة لأولياء عدة أقسام، العودة لواتساب",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-20T01:00:00.000Z"
+  "updated_at": "2026-09-20T02:00:00.000Z"
 }
