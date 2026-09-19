@@ -1,10 +1,10 @@
 {
-  "version": "v537",
+  "version": "v538",
   "date": "2026-09-17",
-  "note": "Sur iPhone, clavier ouvert, la page etait peinte a moitie sous la barre du haut. L application se pose desormais sur la vue comme la messagerie (par position et non par transformation), et l ancien retour de vue est retire.",
-  "label": "Clavier : la page reste entiere sous la barre",
-  "label_ar": "لوحة المفاتيح: الصفحة تبقى كاملة تحت الشريط",
+  "note": "Sur telephone, tirer sur la barre du haut, l en-tete d une fenetre ou le bord du menu ne deplace plus toute l interface, ni de cote ni vers le haut. Les pages, listes, menus et fenetres defilent comme avant.",
+  "label": "L interface ne glisse plus sous le doigt",
+  "label_ar": "الواجهة لم تعد تنزلق تحت الإصبع",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T20:30:00.000Z"
+  "updated_at": "2026-09-19T22:00:00.000Z"
 }
