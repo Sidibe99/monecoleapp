@@ -1,6 +1,6 @@
-const CACHE_NAME = "monecole-vite-v530";
+const CACHE_NAME = "monecole-vite-v531";
 // Remplacé uniquement dans dist/sw.js, après génération de tous les bundles.
-const MANIFEST_SHA256 = "cced55a2249d3cb2139947d1376a67f48fe7c37fafa0335b4053ac5492b59976";
+const MANIFEST_SHA256 = "9115bf493d82fa2f53a8c71e7562da05b6081b6a71e79bc0eaf224097a692483";
 const CACHE_STORAGE_NAME = `${CACHE_NAME}-${MANIFEST_SHA256.slice(0, 16)}`;
 const OFFLINE_MANIFEST_URL = "/offline-manifest.json";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
@@ -142,6 +142,11 @@ self.addEventListener("fetch", event => {
   }
   if (request.mode === "navigate") {
     event.respondWith(fetch(request, { cache: "no-store" }).then(response => {
+      // v531 — l'hébergeur redirige /confidentialite.html vers /confidentialite.
+      // Une navigation reçoit alors une réponse « opaqueredirect » : elle n'est
+      // pas une erreur, le navigateur doit la suivre. La prendre pour une panne
+      // remplaçait la page par la coque, et le lien semblait ne rien faire.
+      if (response && response.type === "opaqueredirect") return response;
       // v501 — une navigation vers un document (le guide PDF) n'est pas une page de
       // l'application : la réponse passe telle quelle au lieu d'être remplacée par
       // la coque, qui affichait « Chargement de MonEcole… » à la place du guide.

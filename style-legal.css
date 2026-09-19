@@ -32,3 +32,8 @@ a{color:var(--bleu);text-decoration:underline;overflow-wrap:anywhere}
 [dir="rtl"] ul{margin:0 20px 11px 0}
 [dir="rtl"] th,[dir="rtl"] td{text-align:right}
 @media(max-width:560px){header.tete h1{font-size:19px}.enveloppe{padding:16px 13px 56px}main section{padding:16px 14px}}
+
+/* v531 — dans l'application installée, ces pages s'ouvrent sans barre du
+   navigateur : ce lien est le seul chemin du retour. */
+.me-retour-app{margin:0 0 18px;font-size:15px;font-weight:700}
+.me-retour-app a{color:#1a56db;text-decoration:none}

@@ -1,16 +1,10 @@
 {
-  "version": "v530",
+  "version": "v531",
   "date": "2026-09-17",
-  "note": "Securite serveur : le blocage des essais du mot de passe maitre ne se contourne plus en changeant d adresse, et un compte Professeur ne peut plus recevoir de classes ou de matieres d une autre ecole.",
-  "label": "Fonctions serveur renforcees",
-  "label_ar": "تعزيز وظائف الخادم",
-  "scope": "client+supabase",
+  "note": "Les liens Politique de confidentialite et Supprimer un compte s ouvrent de nouveau. Le guide se telecharge et, sur iPhone, s ouvre dans une visionneuse avec Fermer. Les montants ne coupent plus la devise, la barre laterale descend jusqu en bas, et le champ touche reste visible au-dessus du clavier.",
+  "label": "Liens, guide, montants et barre laterale corriges",
+  "label_ar": "تصحيح الروابط والدليل والمبالغ والشريط الجانبي",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-18T22:00:00.000Z",
-  "deploiement": [
-    "generer-code",
-    "renouveler",
-    "editeur-admin",
-    "create-user"
-  ]
+  "updated_at": "2026-09-19T11:00:00.000Z"
 }
