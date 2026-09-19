@@ -1,10 +1,10 @@
 {
-  "version": "v532",
+  "version": "v533",
   "date": "2026-09-17",
-  "note": "Sur iPhone, une fenetre ne se reduit plus a une bande quand le clavier s ouvre : Safari faisait glisser la vue pour montrer le champ touche et ne revenait pas. La vue est ramenee en haut, ou la fenetre est deja placee au-dessus du clavier.",
-  "label": "Fenetres au-dessus du clavier sur iPhone",
-  "label_ar": "النوافذ فوق لوحة المفاتيح على آيفون",
+  "note": "Le guide s ouvre dans une visionneuse qui couvre tout l ecran : chaque page a la largeur du telephone, chargee au fil de la lecture, agrandissable, et Fermer toujours visible. Le telechargement part directement.",
+  "label": "Le guide se lit a la largeur du telephone",
+  "label_ar": "الدليل يُقرأ بعرض الهاتف",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T12:30:00.000Z"
+  "updated_at": "2026-09-19T14:00:00.000Z"
 }

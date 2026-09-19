@@ -1,6 +1,6 @@
-const CACHE_NAME = "monecole-vite-v532";
+const CACHE_NAME = "monecole-vite-v533";
 // Remplacé uniquement dans dist/sw.js, après génération de tous les bundles.
-const MANIFEST_SHA256 = "05aba727593d06401963d42af609fa10c2830239fdce0595d293b40c4f78956c";
+const MANIFEST_SHA256 = "2965d180e96d7e83fef83f0218ec70d4102f563ed81616e8464a3e92c5df6496";
 const CACHE_STORAGE_NAME = `${CACHE_NAME}-${MANIFEST_SHA256.slice(0, 16)}`;
 const OFFLINE_MANIFEST_URL = "/offline-manifest.json";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
@@ -133,6 +133,10 @@ self.addEventListener("fetch", event => {
     return;
   }
   if (url.pathname.startsWith("/rest/") || url.pathname.startsWith("/auth/") || url.pathname.startsWith("/storage/")) return;
+  // v533 — le guide (PDF, pages de la visionneuse, téléchargement) n'est pas
+  // gardé hors ligne : ses requêtes vont au réseau comme si le worker n'existait
+  // pas. Un téléchargement ne dépend ainsi que du navigateur.
+  if (url.pathname.startsWith("/guide/")) return;
   if (url.pathname === "/version.json") {
     event.respondWith(fetch(request, { cache: "no-store" }).then(response => {
       if (!validResponse(response, "json")) throw new Error("Version indisponible");
