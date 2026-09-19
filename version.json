@@ -1,10 +1,10 @@
 {
-  "version": "v531",
+  "version": "v532",
   "date": "2026-09-17",
-  "note": "Les liens Politique de confidentialite et Supprimer un compte s ouvrent de nouveau. Le guide se telecharge et, sur iPhone, s ouvre dans une visionneuse avec Fermer. Les montants ne coupent plus la devise, la barre laterale descend jusqu en bas, et le champ touche reste visible au-dessus du clavier.",
-  "label": "Liens, guide, montants et barre laterale corriges",
-  "label_ar": "تصحيح الروابط والدليل والمبالغ والشريط الجانبي",
+  "note": "Sur iPhone, une fenetre ne se reduit plus a une bande quand le clavier s ouvre : Safari faisait glisser la vue pour montrer le champ touche et ne revenait pas. La vue est ramenee en haut, ou la fenetre est deja placee au-dessus du clavier.",
+  "label": "Fenetres au-dessus du clavier sur iPhone",
+  "label_ar": "النوافذ فوق لوحة المفاتيح على آيفون",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T11:00:00.000Z"
+  "updated_at": "2026-09-19T12:30:00.000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v531",
-  "package_version": "1.0.531",
-  "label": "Liens, guide, montants et barre laterale corriges",
-  "created_at": "2026-09-19T09:36:01.740Z",
+  "version": "v532",
+  "package_version": "1.0.532",
+  "label": "Fenetres au-dessus du clavier sur iPhone",
+  "created_at": "2026-09-19T10:28:47.881Z",
   "files": 129,
-  "total_bytes": 19449667,
+  "total_bytes": 19451088,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -292,14 +292,14 @@
       "sha256": "fa469f30b828f8c77f4f81071c57c3be5e8131e4d87aab45b953d02766ffd78a"
     },
     {
-      "file": "assets/diag-clavier-Johk2hHo.js",
-      "bytes": 1942,
-      "sha256": "c10f0b05e281c637fc8ee843650e41a0917488ff575cbf42002270a383248cdb"
+      "file": "assets/diag-clavier-YsqwxhQw.js",
+      "bytes": 2335,
+      "sha256": "f69af375e7fb31f3e9a93f475888518934684864f1ec92fa52f0e2fe9a62f6ca"
     },
     {
-      "file": "assets/diag-clavier-legacy-C-uE7F9l.js",
-      "bytes": 2102,
-      "sha256": "4da2427a560ddf06b77604cc5dca983429bbb0f9192793bfde6dd640f9aef45b"
+      "file": "assets/diag-clavier-legacy-BG_eSq7T.js",
+      "bytes": 2507,
+      "sha256": "784852088f4847573879fcc0a25e4e69ec290a1794de690325b62e4873335c66"
     },
     {
       "file": "assets/export-chiffre-DPxwVr9B.js",
@@ -362,19 +362,19 @@
       "sha256": "98e909cb6727636af34e508b085b7516a4fa9765a1053e38513e21fc48c9a309"
     },
     {
+      "file": "assets/index-BR2n1N3T.js",
+      "bytes": 541943,
+      "sha256": "304f8f3c9a10bd5dca5431a4678a0360e0e6d1b81a161bbe44c7039840d4f891"
+    },
+    {
       "file": "assets/index-C08CATYt.css",
       "bytes": 316259,
       "sha256": "8c50ddba23e09cc45375ed8a242f199b12d055d4e2350f376aad9daede168105"
     },
     {
-      "file": "assets/index-Ct2pO4SB.js",
-      "bytes": 541598,
-      "sha256": "6f6e4841d5d27d6e5c5a3b438a9eb240109b6d48e9d1acb3fc27d0e903003801"
-    },
-    {
-      "file": "assets/index-legacy-D_87umSy.js",
-      "bytes": 947850,
-      "sha256": "7909df37de3e83f8a93a1bec194e85b10f0bfc91ae7319ba0ea03b9bf820756e"
+      "file": "assets/index-legacy-DSiDRE09.js",
+      "bytes": 948219,
+      "sha256": "a12bc6b61099f3ee21f5a07467d29206878ea7b2f8a7cfc5f93ebe3437b30bfc"
     },
     {
       "file": "assets/index.es-CqE1DjgQ.js",
@@ -609,7 +609,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "0ae12ad24d3771bc057caa2c533d1fd4bd3775a7769829c2927ff5bec0f20941"
+      "sha256": "541e1fb5f3c9ffe99a7517a8f45e2c676ded042d1e29afdc6ee9dacc5f924246"
     },
     {
       "file": "manifest.webmanifest",
@@ -619,7 +619,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17690,
-      "sha256": "9115bf493d82fa2f53a8c71e7562da05b6081b6a71e79bc0eaf224097a692483"
+      "sha256": "05aba727593d06401963d42af609fa10c2830239fdce0595d293b40c4f78956c"
     },
     {
       "file": "reset-cache.html",
@@ -639,7 +639,7 @@
     {
       "file": "sw.js",
       "bytes": 8997,
-      "sha256": "4f97533ca7be535089d5bcc46e69ba80a921d02fbeabcc77ed733eaf61df4786"
+      "sha256": "6c477d3d5436e08ff1bb4efd734e4713ff772bbb66157836f7b14a08743d5aef"
     },
     {
       "file": "v.html",
@@ -648,8 +648,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 621,
-      "sha256": "0c8ed6bc5753a2acbaf44111897bb23b6accab08e3e97211fbc5a575c01e93ac"
+      "bytes": 530,
+      "sha256": "bf5d7ddf7118bcec375ab6fca1c52282280b12b5ec14f91e67f4c8c76aa7e4fb"
     }
   ]
 }
