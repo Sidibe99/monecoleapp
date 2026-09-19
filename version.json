@@ -1,10 +1,10 @@
 {
-  "version": "v543",
+  "version": "v544",
   "date": "2026-09-17",
-  "note": "Le message aux parents d une classe se compose puis se selectionne : des parents de plusieurs classes peuvent etre coches ensemble, et un seul bouton les envoie un par un sur WhatsApp. La page du message vocal partage sur WhatsApp propose maintenant un retour vers WhatsApp.",
-  "label": "Message aux parents multi-classes, retour WhatsApp",
-  "label_ar": "رسالة لأولياء عدة أقسام، العودة لواتساب",
+  "note": "Le bouton Retour a WhatsApp de la page du message vocal visait aussi window.close, qui revelait parfois l onglet MonEcole reste ouvert en dessous au lieu de WhatsApp. Il vise maintenant directement l application WhatsApp.",
+  "label": "Le retour vise directement WhatsApp",
+  "label_ar": "العودة تستهدف واتساب مباشرة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-20T02:00:00.000Z"
+  "updated_at": "2026-09-20T02:45:00.000Z"
 }

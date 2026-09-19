@@ -28,10 +28,18 @@
       if(ar){document.documentElement.lang="ar";document.documentElement.dir="rtl";title.textContent="رسالة صوتية من MonEcole";intro.textContent="استمع إلى الرسالة المرسلة من مؤسستك.";status.textContent="جارٍ تحضير المقطع…";retry.textContent="إعادة المحاولة";note.textContent="رابط خاص · متاح لمدة 7 أيام";retour.textContent="‹ العودة إلى واتساب";}
       // v543 — un parent qui ouvre ce lien depuis WhatsApp n'a pas toujours de
       // bouton natif pour y revenir (ça dépend s'il l'ouvre dans le
-      // navigateur intégré de WhatsApp ou dans Safari/Chrome). window.close()
-      // ne marche que sur un onglet ouvert par un script, donc rarement ici :
-      // on retombe alors sur un lien wa.me, qui rouvre l'application WhatsApp.
-      retour.addEventListener("click",()=>{try{window.close();}catch(_){}location.href="https://wa.me/";});
+      // navigateur intégré de WhatsApp ou dans Safari/Chrome).
+      // v544 — window.close() réussissait souvent (l'onglet avait bien été
+      // ouvert par un script, depuis WhatsApp), mais révélait alors l'onglet
+      // resté en dessous — MonEcole, si le parent l'avait ouvert avant —
+      // plutôt que WhatsApp (Yacine, 20/09/2026). On vise directement
+      // l'application : le schéma whatsapp:// la relance si elle est
+      // installée ; si la page est toujours visible une seconde après (le
+      // schéma n'a pas été pris en charge), on retombe sur wa.me.
+      retour.addEventListener("click",()=>{
+        location.href="whatsapp://";
+        setTimeout(()=>{if(!document.hidden)location.href="https://wa.me/";},1200);
+      });
       const load=async()=>{
         card.classList.remove("ready","failed");status.classList.remove("error");status.textContent=ar?"جارٍ تحضير المقطع…":"Préparation du vocal…";
         const c=new URLSearchParams(location.search).get("c")||"";

@@ -1,10 +1,10 @@
 {
-  "version": "v543",
-  "package_version": "1.0.543",
-  "label": "Message aux parents multi-classes, retour WhatsApp",
-  "created_at": "2026-09-19T22:47:28.623Z",
+  "version": "v544",
+  "package_version": "1.0.544",
+  "label": "Le retour vise directement WhatsApp",
+  "created_at": "2026-09-19T23:11:41.812Z",
   "files": 160,
-  "total_bytes": 23783410,
+  "total_bytes": 23783743,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -764,7 +764,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "885e16d4694136ef6c69f55601bb31289d3cf85b99fe13c98b27bb5ac0d90119"
+      "sha256": "3947c28c4a7a5cd9252063beabfc3f1cc64ed7736c06f4979b340cce4a4dde7b"
     },
     {
       "file": "manifest.webmanifest",
@@ -774,7 +774,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17691,
-      "sha256": "a5791878ad40b3b3f0193a8b0b61bb72d5ce4a0b7936e66e5c27e06cdd2f97f8"
+      "sha256": "419eb6c439bee042cb5646a6ced07514d428a757ac90768c427dc7f906bb18c1"
     },
     {
       "file": "reset-cache.html",
@@ -794,17 +794,17 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "853a9c7c714b5c1ff61eb0d9c436ace5c28d33d2a327c2b748c29de38e7b498b"
+      "sha256": "8d3816efae4b35920802b3370d800753e12797b74b0fadd0a23416f02127e8d1"
     },
     {
       "file": "v.html",
-      "bytes": 4805,
-      "sha256": "64469df067d5d0c708ae6d336019b2103dafe3c76de747f1081720d5339e711d"
+      "bytes": 5228,
+      "sha256": "edca439962632f179ea578f5df26358bd302a06b427577bc13755bf358c6b79e"
     },
     {
       "file": "version.json",
-      "bytes": 583,
-      "sha256": "f3821e5282d04ea771821758d43546fa8322b66513ddc6616b5d9876ba52eb0e"
+      "bytes": 493,
+      "sha256": "54adba23ac6eac90aacb1fd612f1155229a6e7938f67b12cae90a67536d7b88a"
     }
   ]
 }
