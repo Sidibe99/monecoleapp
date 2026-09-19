@@ -1,10 +1,10 @@
 {
-  "version": "v533",
+  "version": "v534",
   "date": "2026-09-17",
-  "note": "Le guide s ouvre dans une visionneuse qui couvre tout l ecran : chaque page a la largeur du telephone, chargee au fil de la lecture, agrandissable, et Fermer toujours visible. Le telechargement part directement.",
-  "label": "Le guide se lit a la largeur du telephone",
-  "label_ar": "الدليل يُقرأ بعرض الهاتف",
+  "note": "Sur iPhone, le clavier ne coupe plus aucune page : la vue revient en haut et le champ touche reste visible, dans toute l application. Le menu garde Deconnexion visible et l application ne bouge plus sous le doigt. La visionneuse du guide ne fait que lire ; Telecharger le PDF est explique.",
+  "label": "Clavier partout, menu stable, guide plus clair",
+  "label_ar": "لوحة المفاتيح في كل مكان، قائمة ثابتة، دليل أوضح",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T14:00:00.000Z"
+  "updated_at": "2026-09-19T16:00:00.000Z"
 }
