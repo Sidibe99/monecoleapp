@@ -1,10 +1,10 @@
 {
-  "version": "v538",
+  "version": "v539",
   "date": "2026-09-17",
-  "note": "Sur telephone, tirer sur la barre du haut, l en-tete d une fenetre ou le bord du menu ne deplace plus toute l interface, ni de cote ni vers le haut. Les pages, listes, menus et fenetres defilent comme avant.",
-  "label": "L interface ne glisse plus sous le doigt",
-  "label_ar": "الواجهة لم تعد تنزلق تحت الإصبع",
+  "note": "Sur iPhone, l interface ne glisse plus de cote : la barre du haut et la page prennent exactement la largeur visible.",
+  "label": "L interface tient dans l ecran, de cote aussi",
+  "label_ar": "الواجهة تبقى داخل الشاشة، جانبيًا أيضًا",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T22:00:00.000Z"
+  "updated_at": "2026-09-19T23:00:00.000Z"
 }
