@@ -1,10 +1,10 @@
 {
-  "version": "v534",
+  "version": "v535",
   "date": "2026-09-17",
-  "note": "Sur iPhone, le clavier ne coupe plus aucune page : la vue revient en haut et le champ touche reste visible, dans toute l application. Le menu garde Deconnexion visible et l application ne bouge plus sous le doigt. La visionneuse du guide ne fait que lire ; Telecharger le PDF est explique.",
-  "label": "Clavier partout, menu stable, guide plus clair",
-  "label_ar": "لوحة المفاتيح في كل مكان، قائمة ثابتة، دليل أوضح",
+  "note": "Sur iPhone, l application ne monte plus en cachant la barre du haut : le menu ne fait defiler que lui-meme, et la vue que Safari fait glisser pour le clavier revient bien en haut (page blanche corrigee). Texte du guide raccourci.",
+  "label": "La vue ne glisse plus : clavier et menu",
+  "label_ar": "لم تعد الشاشة تنزلق: لوحة المفاتيح والقائمة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T16:00:00.000Z"
+  "updated_at": "2026-09-19T17:30:00.000Z"
 }
