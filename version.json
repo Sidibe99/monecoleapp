@@ -1,10 +1,10 @@
 {
-  "version": "v540",
+  "version": "v541",
   "date": "2026-09-17",
-  "note": "Le petit rebond qui deplacait brievement l interface en bout de page, de menu ou de fenetre est supprime : le defilement normal ne change pas.",
-  "label": "Plus de petit rebond en bout d ecran",
-  "label_ar": "لا مزيد من الارتداد في نهاية الشاشة",
+  "note": "Sur telephone, clavier ouvert, chercher une conversation dans la messagerie montre maintenant son resultat : l en tete et le resume de formule se replient pendant la recherche pour lui laisser la place.",
+  "label": "La recherche de la messagerie montre son resultat",
+  "label_ar": "بحث المراسلة يظهر نتيجته",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T23:45:00.000Z"
+  "updated_at": "2026-09-20T00:15:00.000Z"
 }
