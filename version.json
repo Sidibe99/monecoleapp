@@ -1,10 +1,10 @@
 {
-  "version": "v536",
+  "version": "v537",
   "date": "2026-09-17",
-  "note": "Sur iPhone, quand Safari deplace la vue (clavier, menu), toute l application la suit : barre du haut, menu et fenetres restent a leur place, plus de page blanche ni d en-tete cache.",
-  "label": "L application suit la vue de Safari",
-  "label_ar": "التطبيق يتبع شاشة سفاري",
+  "note": "Sur iPhone, clavier ouvert, la page etait peinte a moitie sous la barre du haut. L application se pose desormais sur la vue comme la messagerie (par position et non par transformation), et l ancien retour de vue est retire.",
+  "label": "Clavier : la page reste entiere sous la barre",
+  "label_ar": "لوحة المفاتيح: الصفحة تبقى كاملة تحت الشريط",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T19:00:00.000Z"
+  "updated_at": "2026-09-19T20:30:00.000Z"
 }
