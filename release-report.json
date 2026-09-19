@@ -1,10 +1,10 @@
 {
-  "version": "v535",
-  "package_version": "1.0.535",
-  "label": "La vue ne glisse plus : clavier et menu",
-  "created_at": "2026-09-19T14:29:49.679Z",
+  "version": "v536",
+  "package_version": "1.0.536",
+  "label": "L application suit la vue de Safari",
+  "created_at": "2026-09-19T15:26:21.797Z",
   "files": 160,
-  "total_bytes": 23773585,
+  "total_bytes": 23773605,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -362,19 +362,19 @@
       "sha256": "76b307ae49c49bfda78fad70ca957d68c5223246e70e3c0d5305ff83469678a8"
     },
     {
-      "file": "assets/index-ChEaDd4M.css",
-      "bytes": 316342,
-      "sha256": "bad67ed784d45d52fe61ada89f5acc692a7743e4da24235e4073319d558cd96b"
+      "file": "assets/index-B6L5Uk3d.css",
+      "bytes": 316396,
+      "sha256": "ee95b4ec0b899110e389a0d014e7a04b9a8433b8a9ecff25ecab287ca7572c8e"
     },
     {
-      "file": "assets/index-legacy-Bq_sno4o.js",
-      "bytes": 948547,
-      "sha256": "446e55659f8c9f11b9696cb3dc7ab0e58f0a78b7e236a20f2b8634c9c8532200"
-    },
-    {
-      "file": "assets/index-n43xEivr.js",
+      "file": "assets/index-IlLwg6PG.js",
       "bytes": 542179,
       "sha256": "f64149af6ee2ba2aeb8c033435ff270d38bec4d9daf97bebea96d470cab3e5fb"
+    },
+    {
+      "file": "assets/index-legacy-BARW3mBH.js",
+      "bytes": 948601,
+      "sha256": "039306f078c10ba0545c22bda8fb01623a4f3e6385b218255cb4a0a1024d7592"
     },
     {
       "file": "assets/index.es-Cj1ddI2Q.js",
@@ -764,7 +764,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "69ba63387366383ad02b6938c99dac982d79ca3a9ab9dd0330cabb4b244f99b2"
+      "sha256": "f6a3c054f67fd8439feb98a0d5dcc8d05cfb76641bcd99fd20eedd458e00c1f4"
     },
     {
       "file": "manifest.webmanifest",
@@ -774,7 +774,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17691,
-      "sha256": "2ffadeedcde9fe7e2b43dd160bf92258e0178384477c72ed2d95868e9b8b32c0"
+      "sha256": "97d0efefe0eca79422ebcb1006cccb56eb21c0e0627aad13dec28e8efb7f4c68"
     },
     {
       "file": "reset-cache.html",
@@ -794,7 +794,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "1ddaed8a1c7cee1b440706e140dcab9d1dca1958e7920798684cda92dcc8cf98"
+      "sha256": "9529e428bbcb2c3fceb5181cf46e4383815db8113858355342ff91a76bef5e57"
     },
     {
       "file": "v.html",
@@ -803,8 +803,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 533,
-      "sha256": "6dc670b729dad96b916c9fd59ec28a6997a0d4fc254425c56385942dd8571b56"
+      "bytes": 445,
+      "sha256": "3920e2d3d31cb44feb85af949696f36c174dadd1b0f11a1522ffd480c788e3e7"
     }
   ]
 }

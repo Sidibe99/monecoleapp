@@ -1,10 +1,10 @@
 {
-  "version": "v535",
+  "version": "v536",
   "date": "2026-09-17",
-  "note": "Sur iPhone, l application ne monte plus en cachant la barre du haut : le menu ne fait defiler que lui-meme, et la vue que Safari fait glisser pour le clavier revient bien en haut (page blanche corrigee). Texte du guide raccourci.",
-  "label": "La vue ne glisse plus : clavier et menu",
-  "label_ar": "لم تعد الشاشة تنزلق: لوحة المفاتيح والقائمة",
+  "note": "Sur iPhone, quand Safari deplace la vue (clavier, menu), toute l application la suit : barre du haut, menu et fenetres restent a leur place, plus de page blanche ni d en-tete cache.",
+  "label": "L application suit la vue de Safari",
+  "label_ar": "التطبيق يتبع شاشة سفاري",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-19T17:30:00.000Z"
+  "updated_at": "2026-09-19T19:00:00.000Z"
 }
