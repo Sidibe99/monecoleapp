@@ -1,10 +1,10 @@
 {
-  "version": "v541",
-  "package_version": "1.0.541",
-  "label": "La recherche de la messagerie montre son resultat",
-  "created_at": "2026-09-19T19:50:25.972Z",
+  "version": "v542",
+  "package_version": "1.0.542",
+  "label": "La messagerie ne glisse plus de cote",
+  "created_at": "2026-09-19T21:05:06.590Z",
   "files": 160,
-  "total_bytes": 23775533,
+  "total_bytes": 23775713,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -362,19 +362,19 @@
       "sha256": "c09e2547a9f7083b8355b77d6344742454d7152bdb34674dd00ad1591c2f429b"
     },
     {
-      "file": "assets/index-DqXNjlZP.js",
+      "file": "assets/index-CRwi0ICJ.css",
+      "bytes": 316783,
+      "sha256": "a2e3cbd03741b554e6daf322c76fed877e704f68bc70af942f69827e227bc038"
+    },
+    {
+      "file": "assets/index-D9MtRir5.js",
       "bytes": 541846,
       "sha256": "6f8cd75dc8551c827a927d38cd94caf857867d8ee3970f639be0c87af3920f1a"
     },
     {
-      "file": "assets/index-legacy-D7wHFCH4.js",
-      "bytes": 948582,
-      "sha256": "2bdbc801c3766e13cc0814119fc6dbcbc95af96565da43c982f1a1911e153ebd"
-    },
-    {
-      "file": "assets/index-p6Zm1yvN.css",
-      "bytes": 316732,
-      "sha256": "1daffcecfbacb845e90a4a0bdcc27a32dd7703741823f5c890c4087b1a891eb8"
+      "file": "assets/index-legacy-DYQ8gRry.js",
+      "bytes": 948633,
+      "sha256": "bf0feb802eaccd6e61df008fe82d576fd54cd903de9845c7b456bb3ab342d168"
     },
     {
       "file": "assets/index.es-DwRQ4b9f.js",
@@ -764,7 +764,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "474cf9ad51939b3a80d6f977cdc89d479af4be0367842da06b7fce478527b878"
+      "sha256": "6dd64dd9b1a01bc3d5d090158b56b0a44317316c68a543f3507a19cda1f07555"
     },
     {
       "file": "manifest.webmanifest",
@@ -774,7 +774,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17691,
-      "sha256": "c87db07f96d31fbdc23b758da09de5bfc48132077102642e4978c9663d21931c"
+      "sha256": "b667f44b63ec3251b1b05dc848f8904363f2b457890f32063becbf0551122c0b"
     },
     {
       "file": "reset-cache.html",
@@ -794,7 +794,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "4ecbb6925d9edd162422b4ef036bb51e9fffcf079f2f69f3026d906a061138c0"
+      "sha256": "7762ccdbd2bb42fed1de934bce64bb7191b6abb8162f1640235ccd02a13aaec3"
     },
     {
       "file": "v.html",
@@ -803,8 +803,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 482,
-      "sha256": "71784b972f3671cd73f373c1da44f9e7776c1f63ae1e894b8b3327804bd32cc1"
+      "bytes": 560,
+      "sha256": "725e4c99cac3223835c3757977b00c5c14ba010fbfbe7417f8b0ac2a268aeb98"
     }
   ]
 }

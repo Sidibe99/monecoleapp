@@ -1,10 +1,10 @@
 {
-  "version": "v541",
+  "version": "v542",
   "date": "2026-09-17",
-  "note": "Sur telephone, clavier ouvert, chercher une conversation dans la messagerie montre maintenant son resultat : l en tete et le resume de formule se replient pendant la recherche pour lui laisser la place.",
-  "label": "La recherche de la messagerie montre son resultat",
-  "label_ar": "بحث المراسلة يظهر نتيجته",
+  "note": "Sur telephone, la page de la messagerie ne se laisse plus glisser de cote sous le doigt : elle verrouille son propre defilement mais n avait pas recu le meme refus de geste que le fond d une fenetre. La liste des discussions et le fil d une conversation defilent toujours normalement.",
+  "label": "La messagerie ne glisse plus de cote",
+  "label_ar": "المراسلة لم تعد تنزلق جانبيًا",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-20T00:15:00.000Z"
+  "updated_at": "2026-09-20T01:00:00.000Z"
 }
