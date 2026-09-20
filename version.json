@@ -1,10 +1,10 @@
 {
-  "version": "v544",
+  "version": "v547",
   "date": "2026-09-17",
-  "note": "Le bouton Retour a WhatsApp de la page du message vocal visait aussi window.close, qui revelait parfois l onglet MonEcole reste ouvert en dessous au lieu de WhatsApp. Il vise maintenant directement l application WhatsApp.",
-  "label": "Le retour vise directement WhatsApp",
-  "label_ar": "العودة تستهدف واتساب مباشرة",
+  "note": "Sur la page Classes, un professeur ne voit plus les frais de scolarite ni les frais d inscription d une classe. La direction, la secretaire et le censeur continuent de les voir.",
+  "label": "Le professeur ne voit plus les frais des classes",
+  "label_ar": "الأستاذ لم يعد يرى رسوم الأقسام",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-20T02:45:00.000Z"
+  "updated_at": "2026-09-20T11:00:00.000Z"
 }
