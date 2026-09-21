@@ -1,11 +1,10 @@
 {
-  "version": "v552",
+  "version": "v553",
   "date": "2026-09-21",
-  "note": "Les matières sont désormais reliées à un enseignant enregistré. Une même personne peut exercer plusieurs fonctions et choisir son mode de travail actif, sans cumul permanent des droits.",
-  "label": "Fonctions multiples et matières sécurisées",
-  "label_ar": "وظائف متعددة ومواد مؤمّنة",
+  "note": "Une revue de code a trouve trois failles dans la version precedente : le changement de mode de travail renvoyait le mot de passe au navigateur, une protection de securite avait disparu, et un role a l ancienne orthographe perdait son lien vers sa classe. Corrige, deja en production.",
+  "label": "Corrige trois failles des fonctions multiples",
+  "label_ar": "يصحح ثلاث ثغرات في الوظائف المتعددة",
   "scope": "client+supabase",
-  "deploiement": ["create-user"],
   "client_visible": true,
-  "updated_at": "2026-09-21T14:45:00.000Z"
+  "updated_at": "2026-09-21T15:30:00.000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v552",
-  "package_version": "1.0.552",
-  "label": "Fonctions multiples et matières sécurisées",
-  "created_at": "2026-09-21T19:58:56.649Z",
+  "version": "v553",
+  "package_version": "1.0.553",
+  "label": "Corrige trois failles des fonctions multiples",
+  "created_at": "2026-09-21T20:48:49.042Z",
   "files": 162,
-  "total_bytes": 23809282,
+  "total_bytes": 23809358,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -774,7 +774,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "b1d5251f27665a7593bc1e11ce69bbbb97a167f48ce2975b327f23569aacd5c1"
+      "sha256": "b20d4acbc84f3913304c5ff3eeb9d6ad1c788b0c38af3950bda5fd2b91cf444d"
     },
     {
       "file": "manifest.webmanifest",
@@ -784,7 +784,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 18013,
-      "sha256": "31b6f17308e53fafeef167c777b1dbb8ef8cccd9372345c92d27b26c0a7c1139"
+      "sha256": "0baa6fc3ec3d82523457cb9fac3b03b0a0d4d20b555501cbc926395bf992e9d5"
     },
     {
       "file": "reset-cache.html",
@@ -804,7 +804,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "481fcdf05d80ce91b37e6611dfbf004ab7597a20f935802aff123fe86f6dee85"
+      "sha256": "addc7e55a74211cc3b4dc84c81a226ffa2417c7a0fe116334bc50f884f20dea0"
     },
     {
       "file": "v.html",
@@ -813,8 +813,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 512,
-      "sha256": "de19a9159f9f6ecb059ca441daa5909a1fa1ee923270726da4a5f58d8aac7e8d"
+      "bytes": 588,
+      "sha256": "1607d7fe289ba53d3f33fca8824548fced86217939dccd4e1cd3c148aae82369"
     }
   ]
 }
