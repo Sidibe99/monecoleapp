@@ -1,10 +1,10 @@
 {
-  "version": "v547",
-  "package_version": "1.0.547",
-  "label": "Le professeur ne voit plus les frais des classes",
-  "created_at": "2026-09-20T13:30:39.186Z",
+  "version": "v549",
+  "package_version": "1.0.549",
+  "label": "Le double-tap sur iPhone ne fait plus zoomer l application",
+  "created_at": "2026-09-21T10:43:44.053Z",
   "files": 160,
-  "total_bytes": 23784833,
+  "total_bytes": 23786684,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/Aide-legacy-DTHWj8Cc.js",
-      "bytes": 30863,
-      "sha256": "6d4a161097676e132f00364f6cc006bf1e5428538df5c6f305cbbce8e0d29ba8"
+      "file": "assets/Aide-CCHUcEKB.js",
+      "bytes": 24496,
+      "sha256": "7864ebbd45f813150985d2e091ff2085a6ac89d41ec7a0ea8d51242ee360dd51"
     },
     {
-      "file": "assets/Aide-zm-po6x2.js",
-      "bytes": 24019,
-      "sha256": "826decc0b1e8c997bd5c64bf5aa5a0c4c8db1f7123cc6531d2cd8301f1f56667"
+      "file": "assets/Aide-legacy-DDtjHn8g.js",
+      "bytes": 31681,
+      "sha256": "146bfea83244f1a2c8f3add9adb6fe5b41b61efa436af435231de75d38ff137f"
     },
     {
       "file": "assets/AnnualClosureModal-BGnpM_Cj.js",
@@ -362,14 +362,14 @@
       "sha256": "c09e2547a9f7083b8355b77d6344742454d7152bdb34674dd00ad1591c2f429b"
     },
     {
-      "file": "assets/index-TxNVZm0O.js",
-      "bytes": 541904,
-      "sha256": "5c3a7bf782fd7ee7868d9c81f17d93f0641f20aeae6c508894b181529a802461"
+      "file": "assets/index-BzO2W86n.js",
+      "bytes": 542126,
+      "sha256": "0d7d52b64b6877fb7d4b6abadaaaa054fe0c33ceac525ef426cf3413e7bdb08f"
     },
     {
-      "file": "assets/index-legacy-DpaEjs_Q.js",
-      "bytes": 948641,
-      "sha256": "9d026e4b9a21aa84c8009b37ecc689c8b5d5489abd4d3ab8671add0dbcd0a737"
+      "file": "assets/index-legacy-5VmhMtuu.js",
+      "bytes": 948874,
+      "sha256": "a4c19eecda1a17448f40ea9b5455ad9f37f70a1809966fe32110e09d45f16dfb"
     },
     {
       "file": "assets/index-p6Zm1yvN.css",
@@ -764,7 +764,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "b0df24ed89385b4979351eeb50b6ce715c37630204465b74661ad3a2b72fd21a"
+      "sha256": "b290785b1642002edf0856ca6ef5dc05bb68f0932aaf026b7f0b86600965465d"
     },
     {
       "file": "manifest.webmanifest",
@@ -774,7 +774,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17691,
-      "sha256": "0b80afb09bfad0a1046b492bbba15d8f62f4c997568aa5351eb33886feab90f2"
+      "sha256": "5c700e0b975b29bb411175558d88124e8512f06624ade4142ab6fd1af349929e"
     },
     {
       "file": "reset-cache.html",
@@ -794,7 +794,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "94c6a32638da9eab5aa681dc7f13ca6c36b6b2f78ded94b5f8e8afd890fc24e2"
+      "sha256": "da3482b2930d0e5d37657a825b8bed567d00fdc90464d9e0131cef564451a1f1"
     },
     {
       "file": "v.html",
@@ -803,8 +803,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 468,
-      "sha256": "79b2baacdf779c7eff688c4cb6542bbe0f6db93e97a7ffe1d72129e828475661"
+      "bytes": 569,
+      "sha256": "801445432bfb4c49226b0d36cf4dea00a6022533c54b9df3ed20962c61afe825"
     }
   ]
 }

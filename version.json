@@ -1,10 +1,10 @@
 {
-  "version": "v547",
+  "version": "v549",
   "date": "2026-09-17",
-  "note": "Sur la page Classes, un professeur ne voit plus les frais de scolarite ni les frais d inscription d une classe. La direction, la secretaire et le censeur continuent de les voir.",
-  "label": "Le professeur ne voit plus les frais des classes",
-  "label_ar": "الأستاذ لم يعد يرى رسوم الأقسام",
+  "note": "Sur iPhone, taper deux fois rapidement dans MonEcole faisait zoomer toute la page comme dans Safari, rendant la barre du haut et le menu inutilisables. Le second toucher est annule dans l application ; le pincement a deux doigts reste disponible.",
+  "label": "Le double-tap sur iPhone ne fait plus zoomer l application",
+  "label_ar": "النقر المزدوج على آيفون لم يعد يكبر التطبيق",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-20T11:00:00.000Z"
+  "updated_at": "2026-09-21T09:00:00.000Z"
 }
