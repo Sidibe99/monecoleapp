@@ -1,10 +1,10 @@
 {
-  "version": "v550",
-  "package_version": "1.0.550",
-  "label": "La generation des PDF est mise a jour pour la securite",
-  "created_at": "2026-09-21T14:39:45.175Z",
+  "version": "v551",
+  "package_version": "1.0.551",
+  "label": "Le mot de passe se synchronise depuis l application Android",
+  "created_at": "2026-09-21T15:30:59.688Z",
   "files": 160,
-  "total_bytes": 23790425,
+  "total_bytes": 23790715,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -764,7 +764,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "1531f8883d4993e5a030c6a76da28ab6dd01d2616f4665a5f38929394aefdfcb"
+      "sha256": "13f6f6b19067d6ff5a18022f0a2aa9ca9a701d6aadcbcbf9555b77cff7a16655"
     },
     {
       "file": "manifest.webmanifest",
@@ -774,7 +774,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17691,
-      "sha256": "23f80f532f826889024cfadbfe94eb1e97587877d727b29cab806802e1e08abf"
+      "sha256": "107558f8d363ad02433ddeb7bf4b842b54de4ca007d2d7162553ef01b959b350"
     },
     {
       "file": "reset-cache.html",
@@ -794,7 +794,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "dd195118d4a7609bb6ab76a17b0549a546e286aa4d9fbff079a404e085fdcf87"
+      "sha256": "fc85bbd94796070d79eb30577de3530509bd2de2337db5fc77fda225eaaca8d3"
     },
     {
       "file": "v.html",
@@ -803,8 +803,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 436,
-      "sha256": "cdbceba6507e48ca9d7690eecc22685bed3a39450395fe49a6458ed5220bd808"
+      "bytes": 726,
+      "sha256": "d1c9c09f6ca330af3dfaed07317539976851c20385f2e85f9de9d809ed1aef63"
     }
   ]
 }
