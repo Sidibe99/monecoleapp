@@ -1,10 +1,10 @@
 {
-  "version": "v549",
-  "package_version": "1.0.549",
-  "label": "Le double-tap sur iPhone ne fait plus zoomer l application",
-  "created_at": "2026-09-21T10:43:44.053Z",
+  "version": "v550",
+  "package_version": "1.0.550",
+  "label": "La generation des PDF est mise a jour pour la securite",
+  "created_at": "2026-09-21T14:39:45.175Z",
   "files": 160,
-  "total_bytes": 23786684,
+  "total_bytes": 23790425,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -142,14 +142,14 @@
       "sha256": "5feedab6bdd15ec9d3798333a9ec50f1eefba931642f2b56245760aa99930100"
     },
     {
-      "file": "assets/IAEducative-B5vJm_9C.js",
+      "file": "assets/IAEducative-HtKghX21.js",
       "bytes": 46933,
-      "sha256": "ba45347efb80d28850243e879a3da3a1e4ee05a0b7828e8f59623ed1652e4375"
+      "sha256": "3e17191af8ccc608f88748979c599bfd51c1f6360eb607142c9b4c82e378c4d4"
     },
     {
-      "file": "assets/IAEducative-legacy-BhuYyQvv.js",
+      "file": "assets/IAEducative-legacy-YOdvqQ_h.js",
       "bytes": 67283,
-      "sha256": "4c82dbd1e545d881dfb2f2315cf0c4ee069f5a0ade1d3e6c8c7060867335eb68"
+      "sha256": "c8847cc5fb9003691f5fd4e1cb86e8da9cf69b1b5dd805cad7a0c27ef402c830"
     },
     {
       "file": "assets/MatieresPage-CiI8fbeo.js",
@@ -312,14 +312,14 @@
       "sha256": "32baa0c3d297a330806bbf35bdc24a5b6be365ff6b205accbe5a678b136cefe0"
     },
     {
-      "file": "assets/fiche-pdf-BKJGiZiP.js",
+      "file": "assets/fiche-pdf-41zEDbtB.js",
       "bytes": 5078,
-      "sha256": "a34ea5631508515bc3d6420c8889742d8b12330ff50d27cf91ba03f2080b8081"
+      "sha256": "92ed6b6c3e2d89b12cb03902e9cea849065fd6ff22b3cda99d4eaf553ed9458c"
     },
     {
-      "file": "assets/fiche-pdf-legacy-CpJ3ikcg.js",
+      "file": "assets/fiche-pdf-legacy-BkBGFnxK.js",
       "bytes": 11559,
-      "sha256": "f54b6b156060fff9681a0ce21542456e92ee69ce78bf0c27143cbebe1a02dfbe"
+      "sha256": "f45d97e4c50d864c4e3e08fcafa01c494eb544998b0a4c3c4c3658da4dc3f45a"
     },
     {
       "file": "assets/heic-to-lXPrQE7P.js",
@@ -354,22 +354,22 @@
     {
       "file": "assets/ia-educative-fallback-legacy.js",
       "bytes": 17639,
-      "sha256": "392513995aae5be869d1759e643f2af562e76ec194c7788eefc69a76b336424e"
+      "sha256": "6118a4fa89200f7c2e0bcf377a622fa30172c6a245abf874e91dc6989a156327"
     },
     {
       "file": "assets/ia-educative-fallback.js",
       "bytes": 14448,
-      "sha256": "c09e2547a9f7083b8355b77d6344742454d7152bdb34674dd00ad1591c2f429b"
+      "sha256": "5c7772f5dd9d9ea22d22dc99faa370a12e284cc7657e98eaedcef237c0cc4be6"
     },
     {
-      "file": "assets/index-BzO2W86n.js",
+      "file": "assets/index-CbQN8Wkm.js",
       "bytes": 542126,
-      "sha256": "0d7d52b64b6877fb7d4b6abadaaaa054fe0c33ceac525ef426cf3413e7bdb08f"
+      "sha256": "83b5bb798c45872c4e29885316fbaadb443a6ec346d136c953ee45550c05a9d0"
     },
     {
-      "file": "assets/index-legacy-5VmhMtuu.js",
+      "file": "assets/index-legacy-Bf_XSxSt.js",
       "bytes": 948874,
-      "sha256": "a4c19eecda1a17448f40ea9b5455ad9f37f70a1809966fe32110e09d45f16dfb"
+      "sha256": "079fcbe3de1c3bf418c3c5bb09a9849643fa2e82da742708a678b4a8c63793c0"
     },
     {
       "file": "assets/index-p6Zm1yvN.css",
@@ -377,24 +377,24 @@
       "sha256": "1daffcecfbacb845e90a4a0bdcc27a32dd7703741823f5c890c4087b1a891eb8"
     },
     {
-      "file": "assets/index.es-DwRQ4b9f.js",
-      "bytes": 159756,
-      "sha256": "59aa534bbf8f4a01e6f06c99c965faf271beb29cc3c3acaa10ab4d337df0cf68"
+      "file": "assets/index.es-legacy-C3GW9DN6.js",
+      "bytes": 178456,
+      "sha256": "68d8ebf4b75530d8f2ae465e19d52f8a6a6af6257e0e98ee164cc6c8a79f9bb3"
     },
     {
-      "file": "assets/index.es-legacy-35WhfsIH.js",
-      "bytes": 178344,
-      "sha256": "9114b99faeb18fa05fc4b47b2034b7ce0adc42b929854c89ad8f839f93d452db"
+      "file": "assets/index.es-zfQCwwno.js",
+      "bytes": 159873,
+      "sha256": "ed7676a716915de98e3916db0098aab873b5a8c0acc84118e43e1701d7278ea2"
     },
     {
-      "file": "assets/jspdf.es.min-CbeSudvF.js",
-      "bytes": 388735,
-      "sha256": "9925cee81f42a78a8d8980fcfbe8e24d70b366a812a3a74229ee50551d09a285"
+      "file": "assets/jspdf.es.min-DAdzKpzq.js",
+      "bytes": 391100,
+      "sha256": "9593d029246e41115e92147120696fd1c74603f8c23641cfc28c67a58b75abd5"
     },
     {
-      "file": "assets/jspdf.es.min-legacy-tbhVrE2u.js",
-      "bytes": 392562,
-      "sha256": "8cd7f96db28ecc395b8cde5203c3e5519668b20e59d312bd4f4ef598dc51df6e"
+      "file": "assets/jspdf.es.min-legacy-o_Ehv8tu.js",
+      "bytes": 393559,
+      "sha256": "db4101bc133b7cd23b1d13d638846761a879f5fb45fe1422e4aacd25aff8afe7"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -512,14 +512,14 @@
       "sha256": "5c8b7487c933b2c6a350ed97ba5e68a10c3230fc4655f84ee0b65ec49fbdb610"
     },
     {
-      "file": "assets/purify.es-BDIrlkyn.js",
-      "bytes": 28986,
-      "sha256": "766e85a4e0e5178ab69b451650768069d7712e5db291505351d34b428a315ef6"
+      "file": "assets/purify.es-DA2N5iUF.js",
+      "bytes": 29105,
+      "sha256": "88de68d51e22bfcd637395d2941b003c763e99271b684544e70948d0f9c9671f"
     },
     {
-      "file": "assets/purify.es-legacy-CXebvt2O.js",
-      "bytes": 30895,
-      "sha256": "f53f0defc75024b50ab18b4cc28d4c586595e433e6c1cba4501f27871a02be00"
+      "file": "assets/purify.es-legacy-Bip-Aupq.js",
+      "bytes": 31059,
+      "sha256": "250de421160de7f2a79d68f62af01b9eee06000811d754bc91528d69599f1262"
     },
     {
       "file": "assets/rapport-financier-BoHJwdba.js",
@@ -764,7 +764,7 @@
     {
       "file": "index.html",
       "bytes": 8791,
-      "sha256": "b290785b1642002edf0856ca6ef5dc05bb68f0932aaf026b7f0b86600965465d"
+      "sha256": "1531f8883d4993e5a030c6a76da28ab6dd01d2616f4665a5f38929394aefdfcb"
     },
     {
       "file": "manifest.webmanifest",
@@ -774,7 +774,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 17691,
-      "sha256": "5c700e0b975b29bb411175558d88124e8512f06624ade4142ab6fd1af349929e"
+      "sha256": "23f80f532f826889024cfadbfe94eb1e97587877d727b29cab806802e1e08abf"
     },
     {
       "file": "reset-cache.html",
@@ -794,7 +794,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "da3482b2930d0e5d37657a825b8bed567d00fdc90464d9e0131cef564451a1f1"
+      "sha256": "dd195118d4a7609bb6ab76a17b0549a546e286aa4d9fbff079a404e085fdcf87"
     },
     {
       "file": "v.html",
@@ -803,8 +803,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 569,
-      "sha256": "801445432bfb4c49226b0d36cf4dea00a6022533c54b9df3ed20962c61afe825"
+      "bytes": 436,
+      "sha256": "cdbceba6507e48ca9d7690eecc22685bed3a39450395fe49a6458ed5220bd808"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v549",
+  "version": "v550",
   "date": "2026-09-17",
-  "note": "Sur iPhone, taper deux fois rapidement dans MonEcole faisait zoomer toute la page comme dans Safari, rendant la barre du haut et le menu inutilisables. Le second toucher est annule dans l application ; le pincement a deux doigts reste disponible.",
-  "label": "Le double-tap sur iPhone ne fait plus zoomer l application",
-  "label_ar": "النقر المزدوج على آيفون لم يعد يكبر التطبيق",
+  "note": "La bibliotheque de generation des PDF a ete mise a jour vers une version corrigee, afin de supprimer les alertes de securite connues.",
+  "label": "La generation des PDF est mise a jour pour la securite",
+  "label_ar": "تم تحديث إنشاء ملفات PDF لأجل الأمان",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-21T09:00:00.000Z"
+  "updated_at": "2026-09-21T12:00:00.000Z"
 }
