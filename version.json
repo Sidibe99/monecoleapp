@@ -1,11 +1,11 @@
 {
-  "version": "v551",
-  "date": "2026-09-17",
-  "note": "Changer un mot de passe depuis l application Android echouait (synchronisation Auth impossible) : l origine de l application n etait pas autorisee par les fonctions du serveur. Corrige, sans rien changer aux droits par role.",
-  "label": "Le mot de passe se synchronise depuis l application Android",
-  "label_ar": "كلمة المرور تتزامن الآن من تطبيق أندرويد",
+  "version": "v552",
+  "date": "2026-09-21",
+  "note": "Les matières sont désormais reliées à un enseignant enregistré. Une même personne peut exercer plusieurs fonctions et choisir son mode de travail actif, sans cumul permanent des droits.",
+  "label": "Fonctions multiples et matières sécurisées",
+  "label_ar": "وظائف متعددة ومواد مؤمّنة",
   "scope": "client+supabase",
-  "deploiement": ["create-user","creer-ecole","dashboard-analytics","delete-user","editeur-admin","generer-code","ia-educative","renouveler","set-password","vocal-relance"],
+  "deploiement": ["create-user"],
   "client_visible": true,
   "updated_at": "2026-09-21T14:45:00.000Z"
 }
