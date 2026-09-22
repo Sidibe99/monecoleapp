@@ -1,10 +1,10 @@
 {
-  "version": "v555",
+  "version": "v556",
   "date": "2026-09-22",
-  "note": "Le personnel suit maintenant le meme perimetre par cycle que les classes : un proviseur ou un directeur ne voit que les enseignants de son ou ses cycles. Le personnel non enseignant reste visible a tous.",
-  "label": "Le personnel suit le perimetre par cycle",
-  "label_ar": "الطاقم يتبع نطاق الدورة",
+  "note": "Sur les bulletins, fiches de notes, listes de classe et rapports de presence, le titre de la direction et de l'enseignant suit maintenant le cycle de la classe : Directeur/Enseignant(e) au primaire, Principal(e) au college, Proviseur/Professeur(e) au lycee - meme si une seule direction gere toute l'ecole.",
+  "label": "Le signataire des documents suit le cycle",
+  "label_ar": "توقيع الوثائق المدرسية يتبع الدورة الدراسية",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-22T10:00:00.000Z"
+  "updated_at": "2026-09-22T12:00:00.000Z"
 }
