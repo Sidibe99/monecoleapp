@@ -1,10 +1,10 @@
 {
-  "version": "v554",
+  "version": "v555",
   "date": "2026-09-22",
-  "note": "Un professeur ne peut plus ecrire a un parent d eleve depuis la messagerie : seule la direction le peut, comme pour le message envoye apres un incident de discipline. Rien ne change pour ce qu un parent peut deja faire.",
-  "label": "Seule la direction peut ecrire a un parent",
-  "label_ar": "الإدارة وحدها تكاتب ولي الأمر",
-  "scope": "client+supabase",
+  "note": "Le personnel suit maintenant le meme perimetre par cycle que les classes : un proviseur ou un directeur ne voit que les enseignants de son ou ses cycles. Le personnel non enseignant reste visible a tous.",
+  "label": "Le personnel suit le perimetre par cycle",
+  "label_ar": "الطاقم يتبع نطاق الدورة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-22T09:00:00.000Z"
+  "updated_at": "2026-09-22T10:00:00.000Z"
 }
