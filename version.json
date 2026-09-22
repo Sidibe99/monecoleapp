@@ -1,10 +1,10 @@
 {
-  "version": "v553",
-  "date": "2026-09-21",
-  "note": "Une revue de code a trouve trois failles dans la version precedente : le changement de mode de travail renvoyait le mot de passe au navigateur, une protection de securite avait disparu, et un role a l ancienne orthographe perdait son lien vers sa classe. Corrige, deja en production.",
-  "label": "Corrige trois failles des fonctions multiples",
-  "label_ar": "يصحح ثلاث ثغرات في الوظائف المتعددة",
+  "version": "v554",
+  "date": "2026-09-22",
+  "note": "Un professeur ne peut plus ecrire a un parent d eleve depuis la messagerie : seule la direction le peut, comme pour le message envoye apres un incident de discipline. Rien ne change pour ce qu un parent peut deja faire.",
+  "label": "Seule la direction peut ecrire a un parent",
+  "label_ar": "الإدارة وحدها تكاتب ولي الأمر",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-21T15:30:00.000Z"
+  "updated_at": "2026-09-22T09:00:00.000Z"
 }
