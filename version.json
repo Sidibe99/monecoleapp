@@ -1,11 +1,10 @@
 {
-  "version": "v558",
+  "version": "v559",
   "date": "2026-09-23",
-  "note": "Les inscriptions exigent une classe choisie, les comptes se préremplissent depuis le personnel sans élargir les droits, et l’IA peut générer en arabe même si l’école utilise le français.",
-  "label": "Inscriptions, personnel et arabe sécurisés",
-  "label_ar": "تأمين التسجيلات والموظفين والتوليد بالعربية",
-  "scope": "client+supabase",
-  "deploiement": ["ia-educative"],
+  "note": "Les QR codes des cartes d'eleve et du comite se lisent maintenant une fois imprimes : plus grands (18 mm), dessines nettement, et disponibles meme hors ligne. Les noms longs passent sur deux lignes au lieu d'etre coupes. Le taux de reinscription affiche un tiret quand personne n'est a reinscrire.",
+  "label": "QR des cartes lisibles une fois imprimées",
+  "label_ar": "رمز QR في البطاقات مقروء بعد الطباعة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-23T10:45:00.000Z"
+  "updated_at": "2026-09-23T14:00:00.000Z"
 }

@@ -83,7 +83,7 @@
     <tr><td><strong>Supabase</strong></td><td>Héberge la base de données et les fichiers déposés (photos, documents). C'est là que vivent les données de l'école.</td></tr>
     <tr><td><strong>Cloudflare</strong></td><td>Sert le site monecoleapp.com, et reçoit une copie chiffrée de la sauvegarde le premier de chaque mois.</td></tr>
     <tr><td><strong>GitHub</strong></td><td>Conserve la sauvegarde quotidienne, <strong>chiffrée</strong>, pendant 90 jours.</td></tr>
-    <tr><td><strong>cdnjs (Cloudflare)</strong></td><td>Votre navigateur y télécharge trois bibliothèques, au moment où vous exportez vers Excel, imprimez en PDF ou affichez un code QR. Aucune donnée scolaire n'y est envoyée ; ce service voit seulement votre adresse IP.</td></tr>
+    <tr><td><strong>cdnjs (Cloudflare)</strong></td><td>Votre navigateur y télécharge deux bibliothèques, au moment où vous exportez vers Excel ou imprimez en PDF. Aucune donnée scolaire n'y est envoyée ; ce service voit seulement votre adresse IP.</td></tr>
     <tr><td><strong>Google · OpenAI</strong></td><td>Uniquement pour la page <strong>IA Éducative</strong>. Voir ci-dessous.</td></tr>
     <tr><td><strong>WhatsApp</strong></td><td>Seulement si <em>vous</em> choisissez d'envoyer un message : l'application prépare le texte et ouvre WhatsApp. Rien ne part sans votre geste.</td></tr>
   </table>
@@ -177,7 +177,7 @@
   <p>لتسيير المدرسة فقط: التسجيل، والدرجات والكشوف، والمناداة، ومتابعة المدفوعات، وجدول الحصص، ومراسلة الأسر. لا شيء غير ذلك.</p>
 
   <h3>أين تُحفظ</h3>
-  <p><strong>Supabase</strong> يستضيف قاعدة البيانات والملفات. <strong>Cloudflare</strong> يقدّم الموقع ويتلقى نسخة مشفّرة شهريًا. <strong>GitHub</strong> يحفظ النسخة اليومية <strong>مشفّرة</strong> لمدة 90 يومًا. <strong>cdnjs</strong> يزوّد متصفحك بثلاث مكتبات عند التصدير إلى إكسل أو الطباعة أو عرض رمز QR، دون أي بيانات مدرسية. <strong>واتساب</strong> لا يُفتح إلا إذا اخترت أنت إرسال رسالة.</p>
+  <p><strong>Supabase</strong> يستضيف قاعدة البيانات والملفات. <strong>Cloudflare</strong> يقدّم الموقع ويتلقى نسخة مشفّرة شهريًا. <strong>GitHub</strong> يحفظ النسخة اليومية <strong>مشفّرة</strong> لمدة 90 يومًا. <strong>cdnjs</strong> يزوّد متصفحك بمكتبتين عند التصدير إلى إكسل أو الطباعة، دون أي بيانات مدرسية. <strong>واتساب</strong> لا يُفتح إلا إذا اخترت أنت إرسال رسالة.</p>
 
   <h3>صفحة الذكاء الاصطناعي التربوي</h3>
   <p>عند توليد درس أو تمارين، يُرسَل إلى خدمة ذكاء اصطناعي (Google أو OpenAI): المستوى والمادة والموضوع والخيارات واسم المدرسة، وإن اختار الأستاذ فصلًا: <strong>مجاميع فقط</strong> — اسم الفصل وعدد تلاميذه ومعدله ونسبة من هم دون المعدل.</p>

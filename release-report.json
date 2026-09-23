@@ -1,10 +1,10 @@
 {
-  "version": "v558",
-  "package_version": "1.0.558",
-  "label": "Inscriptions, personnel et arabe sécurisés",
-  "created_at": "2026-09-23T12:18:58.536Z",
-  "files": 166,
-  "total_bytes": 23862082,
+  "version": "v559",
+  "package_version": "1.0.559",
+  "label": "QR des cartes lisibles une fois imprimées",
+  "created_at": "2026-09-23T13:41:34.758Z",
+  "files": 168,
+  "total_bytes": 23906569,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -102,14 +102,14 @@
       "sha256": "6642f3722293037214f2f7f2adbb84774a0fbdbf534fe63eac257bac8fd5ce42"
     },
     {
-      "file": "assets/ElevesPage-BO7tqt7j.js",
-      "bytes": 81727,
-      "sha256": "7f933f6741b8d3f47b55745dddaa4de9aee756c5b7bee3ea3001b4bee1e50945"
+      "file": "assets/ElevesPage-CxRB95Rg.js",
+      "bytes": 82787,
+      "sha256": "df6b980796012a9d2402cfd6969799b6f8f3e7c869c384ddb6c56e85c65b76da"
     },
     {
-      "file": "assets/ElevesPage-legacy-HeYPJtHl.js",
-      "bytes": 97105,
-      "sha256": "066a4b5b45c5e6670ba004a70eea504d2cd0c288f73779c1035d395871171201"
+      "file": "assets/ElevesPage-legacy-D8vNwvvj.js",
+      "bytes": 98274,
+      "sha256": "57ce9f0901f2403faf1869ccb207e68f373065db05fd283c2672b371a352b615"
     },
     {
       "file": "assets/ExportDonneesCard-Bp5k-DA5.js",
@@ -147,9 +147,9 @@
       "sha256": "ee79ebc43ffa1fdf5927ef44254638c37a7d899d64bd53522c4010fe8548a5ab"
     },
     {
-      "file": "assets/IAEducative-legacy-Ca-TuvRN.js",
+      "file": "assets/IAEducative-legacy-DWfaKfL_.js",
       "bytes": 67465,
-      "sha256": "58b97800212b1a8dc8f628015f3cfe3a1dc5888a5b78a1e61ba31689ed1d8ea2"
+      "sha256": "41c07e4de0f5d9fd2cfd8882f42b8747725f3aeb9ea58e622b2fff425c893fe9"
     },
     {
       "file": "assets/MatieresPage-BZEfK7Dm.js",
@@ -327,9 +327,9 @@
       "sha256": "7a02f6764010b993d7cd4256a42233f661e203148b92b8d8b01b977d5dd090b1"
     },
     {
-      "file": "assets/fiche-pdf-legacy-BNxS51It.js",
+      "file": "assets/fiche-pdf-legacy-CWOEFERH.js",
       "bytes": 11559,
-      "sha256": "b2dfdc01e4eaff57721519995643e64f2de314707154028b4bb21e402f0af21c"
+      "sha256": "5a7a769951e711c13b8f74496ab30ac08eae6cefc1382d159c26fff66b8f1433"
     },
     {
       "file": "assets/heic-to-lXPrQE7P.js",
@@ -364,7 +364,7 @@
     {
       "file": "assets/ia-educative-fallback-legacy.js",
       "bytes": 17639,
-      "sha256": "5c5137851a3ddcb8b718a6512f0150352b24ccc0f7d557a45b069aa03d606b31"
+      "sha256": "254976c8b98caa2e58d7cf4056ede9daee5659464b304f670ae759cf7ef6cf93"
     },
     {
       "file": "assets/ia-educative-fallback.js",
@@ -372,19 +372,19 @@
       "sha256": "96b168c2c8b665b2cc8c455be8ba4d61b254bb0282185a3702bab0b2dca5e0b6"
     },
     {
-      "file": "assets/index-B7O1Kbu6.js",
-      "bytes": 541926,
-      "sha256": "df2b048130170311e9f8e75ee490a79d14064e0b5c567dd57ee9f83923a0f898"
-    },
-    {
       "file": "assets/index-CSFAzlQ5.css",
       "bytes": 317014,
       "sha256": "4dfdcc29b547254b46f92df51a09125cbfc44883b9bcaa8daacde8dd4787718c"
     },
     {
-      "file": "assets/index-legacy-BCSl3iIH.js",
-      "bytes": 949889,
-      "sha256": "83645056f89bb75f866d734008ab53d47f067fe7b3a4367d5b31276918dd67bf"
+      "file": "assets/index-DP83O7aj.js",
+      "bytes": 541476,
+      "sha256": "05ba8aacbe4ac33d25ff7e9d7f8fd26924424ddb507524b63b0b4e217ee1e227"
+    },
+    {
+      "file": "assets/index-legacy-CJp7ETFM.js",
+      "bytes": 949406,
+      "sha256": "178afe6df657c4f14ff31e96096af33efa02b929e5026d1ab49c4fc81717aa54"
     },
     {
       "file": "assets/index.es-7rb6sKiY.js",
@@ -392,9 +392,9 @@
       "sha256": "6d7f15952f00ad2380ca86faf8877d8718913e52779280b638454ef1502313ca"
     },
     {
-      "file": "assets/index.es-legacy-BjYN2FZL.js",
+      "file": "assets/index.es-legacy-C5j6cK6j.js",
       "bytes": 178456,
-      "sha256": "af1af0ed5d24e117bdc134fa90f675c7ddddc60dfc24867491a088060cdfd74c"
+      "sha256": "20249dc852ca27c41ebbb3f7e6056cfd74cc3ac2942a90699a4609ccffe8f637"
     },
     {
       "file": "assets/jspdf.es.min-D3wDumWC.js",
@@ -402,9 +402,9 @@
       "sha256": "04bdea78c66eafe9feee8c620cc189580ea1ee19d4674a5ff8a2bb11eade2bb0"
     },
     {
-      "file": "assets/jspdf.es.min-legacy-DuVXhWYs.js",
+      "file": "assets/jspdf.es.min-legacy-AUWILZ0v.js",
       "bytes": 393559,
-      "sha256": "2954244b9cdb6c56f8756d39dd493a75965aefdcd4a40cae021676f8023265c9"
+      "sha256": "cb3d6475543e197ff8c0a0d2621d4ea2e45b94b4d65a5ebd8a286d9b8dc09f79"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -532,6 +532,16 @@
       "sha256": "250de421160de7f2a79d68f62af01b9eee06000811d754bc91528d69599f1262"
     },
     {
+      "file": "assets/qrcode-DN_1lq-l.js",
+      "bytes": 21733,
+      "sha256": "e390f67a4a1b7d7d5eb7f808b7eb988e218b43d93c643a9f6b5798592a32ba13"
+    },
+    {
+      "file": "assets/qrcode-legacy-9jLWO0hq.js",
+      "bytes": 21172,
+      "sha256": "7898a87493f45d5111f71b9674f91b63e90e6ebc926be270adcb86d626f18373"
+    },
+    {
       "file": "assets/rapport-financier-legacy-CHwVz0eq.js",
       "bytes": 6133,
       "sha256": "bd68b8652fc9a0567813b3b26020444d558b825a9f909f01a9f4dae3b2820faa"
@@ -593,8 +603,8 @@
     },
     {
       "file": "confidentialite.html",
-      "bytes": 15690,
-      "sha256": "070d413795a0b4a84153a830feffc47b44ae127a8a00e53d122c53a48f236f77"
+      "bytes": 15639,
+      "sha256": "e77919dd5a5a0839c18d56ecd523f50bacaa5b4b0f3da0adc6418baab82b09e7"
     },
     {
       "file": "fonts/NotoNaskhArabic-Bold.ttf",
@@ -794,7 +804,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "880460a4e9c272cbd7ccf85e2d87da4213cf49f8e272bbb083675f937118c76a"
+      "sha256": "456c8f4ae6920c0bf728d564873611bfffbfb52592ce12bb2cf1e399dc61fdbd"
     },
     {
       "file": "manifest.webmanifest",
@@ -803,8 +813,8 @@
     },
     {
       "file": "offline-manifest.json",
-      "bytes": 18664,
-      "sha256": "997fa1776b5a0f2dd9094326dfca611641f44bb0e350e90b46907881e53c5888"
+      "bytes": 18965,
+      "sha256": "64ecb10c31c22a6f98f5886a9c53dddfeb861757e552ef74ee0d1f44790e5e20"
     },
     {
       "file": "reset-cache.html",
@@ -824,7 +834,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "1971385b41637a1599b06868dba1ee46eb6351d46c2db8912d25975579d335cb"
+      "sha256": "abdcfb2b3866372a7aafd09295191363c2e60f4cb328331341b641dfef1680e1"
     },
     {
       "file": "v.html",
@@ -833,8 +843,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 553,
-      "sha256": "e401178a0d21c065aa093a998d9d62d839392f9ccc921a29ad2b2d818d746945"
+      "bytes": 589,
+      "sha256": "7c161c577fe0e5164ee45b736394d46982ef142847bf2ec4e1d1ddbd2d4b6242"
     }
   ]
 }
