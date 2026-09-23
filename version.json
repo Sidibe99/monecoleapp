@@ -1,10 +1,10 @@
 {
-  "version": "v560",
+  "version": "v561",
   "date": "2026-09-23",
-  "note": "Les definitions IA sont maintenant completes sans reglage repetitif : exemples, synonymes, contraires, traduction, erreurs frequentes, origine, famille de mots et activite pour la classe sont demandes automatiquement. La compilation du manifeste hors ligne reste compatible avec Vite 6.4.",
-  "label": "Définitions IA complètes et automatiques",
-  "label_ar": "تعريفات الذكاء الاصطناعي كاملة وتلقائية",
+  "note": "Les cartes scolaires et les badges du comite ne sont plus coupes entre deux pages. Chaque feuille A4 contient des groupes fixes, les paires francais-arabe restent indivisibles et la page blanche finale a ete supprimee.",
+  "label": "Cartes et badges imprimés sans coupure",
+  "label_ar": "طباعة البطاقات والشارات دون انقسام",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-23T19:45:06.000Z"
+  "updated_at": "2026-09-23T21:41:37.000Z"
 }
