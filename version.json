@@ -1,10 +1,10 @@
 {
-  "version": "v559",
+  "version": "v560",
   "date": "2026-09-23",
-  "note": "Les QR codes des cartes d'eleve et du comite se lisent maintenant une fois imprimes : plus grands (18 mm), dessines nettement, et disponibles meme hors ligne. Les noms longs passent sur deux lignes au lieu d'etre coupes. Le taux de reinscription affiche un tiret quand personne n'est a reinscrire.",
-  "label": "QR des cartes lisibles une fois imprimées",
-  "label_ar": "رمز QR في البطاقات مقروء بعد الطباعة",
+  "note": "Les definitions IA sont maintenant completes sans reglage repetitif : exemples, synonymes, contraires, traduction, erreurs frequentes, origine, famille de mots et activite pour la classe sont demandes automatiquement. La compilation du manifeste hors ligne reste compatible avec Vite 6.4.",
+  "label": "Définitions IA complètes et automatiques",
+  "label_ar": "تعريفات الذكاء الاصطناعي كاملة وتلقائية",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-23T14:00:00.000Z"
+  "updated_at": "2026-09-23T19:45:06.000Z"
 }
