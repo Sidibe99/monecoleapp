@@ -1,10 +1,10 @@
 {
-  "version": "v564",
+  "version": "v565",
   "date": "2026-09-24",
-  "note": "L'aperçu des reçus conserve désormais sa mise en page et son logo. Chaque reçu peut être imprimé en A3, A4, A5, A6, Letter, Legal ou sur un rouleau thermique de 80 ou 58 mm.",
-  "label": "Reçus adaptés à tous les papiers",
-  "label_ar": "إيصالات مناسبة لجميع أحجام الورق",
+  "note": "Les photos et documents d'inscription peuvent désormais être ajoutés sans connexion. Ils restent protégés sur l'appareil et sont envoyés automatiquement dès le retour d'Internet.",
+  "label": "Documents d’inscription hors ligne",
+  "label_ar": "وثائق التسجيل دون اتصال",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-24T17:05:00.000Z"
+  "updated_at": "2026-09-24T19:35:00.000Z"
 }
