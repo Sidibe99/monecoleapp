@@ -1,10 +1,10 @@
 {
-  "version": "v563",
+  "version": "v564",
   "date": "2026-09-24",
-  "note": "Les libellés arabes des reçus conservent désormais leurs lettres liées dans l'aperçu, le PDF et l'impression. La police arabe locale est chargée avant toute capture du document.",
-  "label": "Arabe lisible sur les reçus",
-  "label_ar": "عربية واضحة في الإيصالات",
+  "note": "L'aperçu des reçus conserve désormais sa mise en page et son logo. Chaque reçu peut être imprimé en A3, A4, A5, A6, Letter, Legal ou sur un rouleau thermique de 80 ou 58 mm.",
+  "label": "Reçus adaptés à tous les papiers",
+  "label_ar": "إيصالات مناسبة لجميع أحجام الورق",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-24T11:00:00.000Z"
+  "updated_at": "2026-09-24T17:05:00.000Z"
 }

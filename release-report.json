@@ -1,10 +1,10 @@
 {
-  "version": "v563",
-  "package_version": "1.0.563",
-  "label": "Arabe lisible sur les reçus",
-  "created_at": "2026-09-24T13:13:58.493Z",
+  "version": "v564",
+  "package_version": "1.0.564",
+  "label": "Reçus adaptés à tous les papiers",
+  "created_at": "2026-09-24T17:34:33.480Z",
   "files": 168,
-  "total_bytes": 23909985,
+  "total_bytes": 23919072,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -372,19 +372,19 @@
       "sha256": "47168c946e20dc3ab76de6d4227dd8b77e480b80e681708a921ec339b48a6006"
     },
     {
-      "file": "assets/index-Bv_U9Xzv.css",
-      "bytes": 320468,
-      "sha256": "c67b6856d0f7f4f064a76300974d5b8107dcd37185a7e0f4c994ab11ea8e82f7"
+      "file": "assets/index-1TOGsIDn.js",
+      "bytes": 541341,
+      "sha256": "f1ac9f1398f3ac17a4713d3c221839d1026971d0124692dee48b6a14cc6be52a"
     },
     {
-      "file": "assets/index-D0DKtkJD.js",
-      "bytes": 538950,
-      "sha256": "19588fd3c4771a42a5cabcecc418e187f8cea9457333f45905d6fcc48b60f9ee"
+      "file": "assets/index-kXWPMQVw.css",
+      "bytes": 322580,
+      "sha256": "cf86fa7e46b5dd1a6a62583ec72cf78bf6cb815f59adefd13903ac82c36799e9"
     },
     {
-      "file": "assets/index-legacy-6sKDsUqw.js",
-      "bytes": 950689,
-      "sha256": "8640b6fddd9e17e8644e256a10c7a8e081f39ae813ccb7cffffc3cd426fbd5c3"
+      "file": "assets/index-legacy-C6JcjamA.js",
+      "bytes": 955255,
+      "sha256": "dcf75a2ebb5385e5362216a844932cce32d0745d0d43d5cda4a13bca003b19c4"
     },
     {
       "file": "assets/index.es-CIS7Ibyc.js",
@@ -804,7 +804,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "98e32d2d13f0aaaa26f7210bb3cc3b4f1fdb6bc52ffe9fc50f3dfbdd78690fc5"
+      "sha256": "1eeda06761489c91e43aaba24c135b6ff3ad66a4caabfb721cfbc4b19e7f5b2d"
     },
     {
       "file": "manifest.webmanifest",
@@ -814,7 +814,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 18965,
-      "sha256": "aa44996b58eb68c531dce10a056bcad399c81dd759c910fca44db9a86338d50f"
+      "sha256": "c08ab3e61c94727ad651b89c296d57478ad94bb70fdcbf5e4fbf9af403a538d0"
     },
     {
       "file": "reset-cache.html",
@@ -834,7 +834,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "6cf7972420dfee00a01abdb218ef1215f65ddc9916226b7b69071871c2edb817"
+      "sha256": "a393c8c1353538481027b3bfdd9a40f6ebbfd1ab3184a1ff710f131fa0286400"
     },
     {
       "file": "v.html",
@@ -843,8 +843,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 442,
-      "sha256": "1d4fd3d0a8314c8b27e0de6a369f788eb1b0d5dc236bfef21c66284957b67852"
+      "bytes": 460,
+      "sha256": "d794bb41e32fa74a582e44eb77264400eeeed0016f06fecb67dfe74020ad8de1"
     }
   ]
 }
