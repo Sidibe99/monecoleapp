@@ -1,10 +1,10 @@
 {
-  "version": "v561",
-  "date": "2026-09-23",
-  "note": "Les cartes scolaires et les badges du comite ne sont plus coupes entre deux pages. Chaque feuille A4 contient des groupes fixes, les paires francais-arabe restent indivisibles et la page blanche finale a ete supprimee.",
-  "label": "Cartes et badges imprimés sans coupure",
-  "label_ar": "طباعة البطاقات والشارات دون انقسام",
+  "version": "v562",
+  "date": "2026-09-24",
+  "note": "Après une inscription, la fiche complète de l'élève peut être ouverte et imprimée pour le parent. Lorsqu'un paiement d'inscription est enregistré, le reçu officiel s'affiche et donne aussi accès à cette fiche.",
+  "label": "Reçu et fiche élève après inscription",
+  "label_ar": "وصل وبطاقة التلميذ بعد التسجيل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-23T21:41:37.000Z"
+  "updated_at": "2026-09-24T00:15:00.000Z"
 }

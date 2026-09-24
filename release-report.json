@@ -1,10 +1,10 @@
 {
-  "version": "v561",
-  "package_version": "1.0.561",
-  "label": "Cartes et badges imprimés sans coupure",
-  "created_at": "2026-09-23T22:34:53.414Z",
+  "version": "v562",
+  "package_version": "1.0.562",
+  "label": "Reçu et fiche élève après inscription",
+  "created_at": "2026-09-24T02:28:48.396Z",
   "files": 168,
-  "total_bytes": 23906972,
+  "total_bytes": 23908707,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -102,14 +102,14 @@
       "sha256": "e1fb09f6aae6f297a42fc7c8cd928bfb31c80583b44f1b132a6a03de5b93ba5a"
     },
     {
-      "file": "assets/ElevesPage-CySY_EOo.js",
-      "bytes": 83293,
-      "sha256": "b2cf09f0f1b0ad1e6a3c12208674d8bc8276a199c82492a5f9c3579b8c7e3aca"
+      "file": "assets/ElevesPage-C0-p3NuD.js",
+      "bytes": 83634,
+      "sha256": "2729a95d9538193d2634d2f8b715af0963db4022886631149a00087151d27f8c"
     },
     {
-      "file": "assets/ElevesPage-legacy-GyLb9KnW.js",
-      "bytes": 98784,
-      "sha256": "c2ecb64291475e006609d77680f726f9d5dbfe622e6f4278ae7b31e92fb32c9b"
+      "file": "assets/ElevesPage-legacy-Dhlz7zjT.js",
+      "bytes": 99207,
+      "sha256": "199a54d1d6d26b2bffccd8a647522ded3025e2949fb29aa064375604517bdeeb"
     },
     {
       "file": "assets/ExportDonneesCard-DE9v2jOR.js",
@@ -372,19 +372,19 @@
       "sha256": "47168c946e20dc3ab76de6d4227dd8b77e480b80e681708a921ec339b48a6006"
     },
     {
+      "file": "assets/index-CODTBX8K.js",
+      "bytes": 541998,
+      "sha256": "669584e4042f3574cb58aa85452ff804ae4c01f0516ca9c441fea1a4c3700d22"
+    },
+    {
       "file": "assets/index-CSFAzlQ5.css",
       "bytes": 317014,
       "sha256": "4dfdcc29b547254b46f92df51a09125cbfc44883b9bcaa8daacde8dd4787718c"
     },
     {
-      "file": "assets/index-DBt4OWNs.js",
-      "bytes": 541512,
-      "sha256": "d9c75b772fe5f3d30f6ca2f7c2ea7cb1794f1cee5c20045d51451da35d1e45c4"
-    },
-    {
-      "file": "assets/index-legacy-Cwl9-g0S.js",
-      "bytes": 949442,
-      "sha256": "0ce02619c278d7887a609b028447ac4d4304790ea73e36e57d5dfd85d30ebdd0"
+      "file": "assets/index-legacy-FEHpxTyu.js",
+      "bytes": 949932,
+      "sha256": "c962d29995d8c716794e22c1a75c87dece163b484e9aaa42e0f5c600fde5bb3a"
     },
     {
       "file": "assets/index.es-CIS7Ibyc.js",
@@ -804,7 +804,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "0c008be151bb9a02a09178d7f766d92746f1187e782a0692679603b7eaa2dded"
+      "sha256": "b2df6ea4c39c9f1e3ce6d3cf8bc9060015f50c2217e1d593c3c2b805ad4f24da"
     },
     {
       "file": "manifest.webmanifest",
@@ -814,7 +814,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 18965,
-      "sha256": "c9747df31c86714a4bc1281e8182a518bbe3af250b787ae7efc3038419d70e60"
+      "sha256": "21b86545295893896b9d8b3ee2ff20a9dbca4edbbe6eaea9b6a51bd432573db1"
     },
     {
       "file": "reset-cache.html",
@@ -834,7 +834,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "1ce4cf06f7fbd101d469aae7d882f0b1b6c1025c88938903d9cc6c99fd65c2de"
+      "sha256": "3a50aef4f046b4d95daf258fb7b2f0c6674c20ee568a91e716bb4f8bab843f58"
     },
     {
       "file": "v.html",
@@ -843,8 +843,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 507,
-      "sha256": "a5f5cbe115a344a14a201ee03acc4ecacff5ab89eb4ee66b70490439807e00a4"
+      "bytes": 502,
+      "sha256": "84cd16380703f411e48d5c556e1fc89a49c3b706d64b4d7f9abe33b6c07940d0"
     }
   ]
 }
