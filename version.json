@@ -1,10 +1,10 @@
 {
-  "version": "v562",
+  "version": "v563",
   "date": "2026-09-24",
-  "note": "Après une inscription, la fiche complète de l'élève peut être ouverte et imprimée pour le parent. Lorsqu'un paiement d'inscription est enregistré, le reçu officiel s'affiche et donne aussi accès à cette fiche.",
-  "label": "Reçu et fiche élève après inscription",
-  "label_ar": "وصل وبطاقة التلميذ بعد التسجيل",
+  "note": "Les libellés arabes des reçus conservent désormais leurs lettres liées dans l'aperçu, le PDF et l'impression. La police arabe locale est chargée avant toute capture du document.",
+  "label": "Arabe lisible sur les reçus",
+  "label_ar": "عربية واضحة في الإيصالات",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-24T00:15:00.000Z"
+  "updated_at": "2026-09-24T11:00:00.000Z"
 }
