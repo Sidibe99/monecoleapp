@@ -1,10 +1,10 @@
 {
-  "version": "v565",
-  "package_version": "1.0.565",
-  "label": "Documents d’inscription hors ligne",
-  "created_at": "2026-09-24T23:27:29.319Z",
+  "version": "v566",
+  "package_version": "1.0.566",
+  "label": "Reçus, emplois du temps et cartes",
+  "created_at": "2026-09-25T04:16:01.466Z",
   "files": 172,
-  "total_bytes": 23944735,
+  "total_bytes": 23961574,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -102,14 +102,14 @@
       "sha256": "7c85da55384169186aa217367c15182fada2705441bb45380696d4f48dbb010f"
     },
     {
-      "file": "assets/ElevesPage-DDZn3jXN.js",
-      "bytes": 83846,
-      "sha256": "2c70a6a72b4e72b081bfd174258f71ab44b068e62398b168093e8a118fc861d7"
+      "file": "assets/ElevesPage-leBGueHB.js",
+      "bytes": 84467,
+      "sha256": "005781b495b5557350d33d7e8cdd5d5d9845363d41a13580bd5c3cfb1f8e9221"
     },
     {
-      "file": "assets/ElevesPage-legacy-zdq2P7a3.js",
-      "bytes": 99419,
-      "sha256": "aaa8b8d53a897bb035c2e6b93ce7a9ae8620b32cd0db0422aa0fa0bd291ad6d5"
+      "file": "assets/ElevesPage-legacy-CrtUs4b3.js",
+      "bytes": 100197,
+      "sha256": "f1acf85f8a3e82825176e4aeec5689cd8055d258ca9b826b6485a14204a80be6"
     },
     {
       "file": "assets/ExportDonneesCard-MaREgv4V.js",
@@ -222,14 +222,14 @@
       "sha256": "71f0a9f07326d96b997c8359c7c5c955b178746fa7a6435792be01b77ca385f5"
     },
     {
-      "file": "assets/PersonnelPage-BYX_PU05.js",
-      "bytes": 21432,
-      "sha256": "2d9a3ec1e948ed3111856ea2d7f0307f6365e3f2c411d2bf299b24562523d514"
+      "file": "assets/PersonnelPage-BwP9UWDN.js",
+      "bytes": 28226,
+      "sha256": "f99b059936750a2b0984cb4d24093646b6f0885896a22d5976198e99c8af11a2"
     },
     {
-      "file": "assets/PersonnelPage-legacy-BKTOICkW.js",
-      "bytes": 29890,
-      "sha256": "766b0f4a80cc9351566f656775a548d73aff77c981b29b7446df66029c150454"
+      "file": "assets/PersonnelPage-legacy-B5wYjwiA.js",
+      "bytes": 37015,
+      "sha256": "508bbaabed14fc866e8529bd1481b3b4d70e53e02fc11602df9cfea5386cbb52"
     },
     {
       "file": "assets/PresencesGestionPage-CESIBlki.js",
@@ -372,9 +372,9 @@
       "sha256": "7198e51ea0ae81e71738ddea4518b5f8596d2fac5270a28c922661ac3930dd40"
     },
     {
-      "file": "assets/index-BcOLi3PM.js",
-      "bytes": 543305,
-      "sha256": "d35e3763b5ff0a11df49f4d181a7fb027571ceb82c665693a9aa68c76dce2c59"
+      "file": "assets/index-CLLGUQHP.js",
+      "bytes": 543991,
+      "sha256": "5c74cf0fe333683518b64df3525517f8503aa2383b21ddd382d09525c177ee31"
     },
     {
       "file": "assets/index-kXWPMQVw.css",
@@ -382,9 +382,9 @@
       "sha256": "cf86fa7e46b5dd1a6a62583ec72cf78bf6cb815f59adefd13903ac82c36799e9"
     },
     {
-      "file": "assets/index-legacy-qhw4rxFO.js",
-      "bytes": 958019,
-      "sha256": "c350f4c177caeb83bc3df56a8414ce81755edc8e3dc4a4022dadb6d89d94d04b"
+      "file": "assets/index-legacy-C3qTCmGH.js",
+      "bytes": 958767,
+      "sha256": "ceb76b243a514deb680ecc79d21c8afeb0f39111ae10e883b6dc58e858879be6"
     },
     {
       "file": "assets/index.es-CoHUCgdX.js",
@@ -824,7 +824,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "19e997872e1fc1a4e51727c67a5d285ad1b3d34dfb8cf25d5cd26ff79f38504a"
+      "sha256": "8f3e4d9a3aa58ffbf0f685bd4e3ec37807e81d59f3c5f6c0fab4e5a8771f6e49"
     },
     {
       "file": "manifest.webmanifest",
@@ -833,8 +833,8 @@
     },
     {
       "file": "offline-manifest.json",
-      "bytes": 19610,
-      "sha256": "5d03b9db576e23501fae738cfc6988000e1d9eabe032ecda14d7fb93f636aaed"
+      "bytes": 19611,
+      "sha256": "50886e160542912de52d03d08c8c442b1d00cd852c4c59de0b9d5cffa560ee0d"
     },
     {
       "file": "reset-cache.html",
@@ -854,7 +854,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "9808693dd0b672e5ae158c917d571ebcf759c044fd59ac002d3bc4301a115e81"
+      "sha256": "f4f184e12689baed6db0e53cafa1c03d24b18404263f0db57bd7c26f51b57e74"
     },
     {
       "file": "v.html",
@@ -863,8 +863,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 450,
-      "sha256": "f8f5537f17a6be688d0e2f339b8a144a81567cc23edc1d89a1b70e88eeffe6e2"
+      "bytes": 536,
+      "sha256": "1dc008bc0ea11b22fdd8287ec32e3490702c54de2f5e094f4e92ab5cf6f9a224"
     }
   ]
 }

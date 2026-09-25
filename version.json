@@ -1,10 +1,10 @@
 {
-  "version": "v565",
-  "date": "2026-09-24",
-  "note": "Les photos et documents d'inscription peuvent désormais être ajoutés sans connexion. Ils restent protégés sur l'appareil et sont envoyés automatiquement dès le retour d'Internet.",
-  "label": "Documents d’inscription hors ligne",
-  "label_ar": "وثائق التسجيل دون اتصال",
+  "version": "v566",
+  "date": "2026-09-25",
+  "note": "Les salaires disposent maintenant de reçus imprimables, les emplois du temps peuvent être imprimés par cycle, les matières du personnel se choisissent dans la liste existante et les cartes scolaires peuvent cibler une classe ou toutes les classes.",
+  "label": "Reçus, emplois du temps et cartes",
+  "label_ar": "إيصالات الرواتب والجداول والبطاقات",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-09-24T19:35:00.000Z"
+  "updated_at": "2026-09-25T01:47:07.000Z"
 }
