@@ -1,11 +1,11 @@
 {
-  "version": "v569",
+  "version": "v570",
   "date": "2026-10-05",
-  "note": "Espace éditeur : la durée de l’essai se choisit (une semaine, deux semaines, un mois, deux ou trois mois, ou un nombre de jours jusqu’à 365), en créant le code d’activation comme en passant une école en essai. L’essai compte à partir de l’activation de l’école, et la page Formules en affiche la date de fin.",
-  "label": "Durée de l’essai au choix",
-  "label_ar": "مدة الفترة التجريبية حسب الاختيار",
+  "note": "Espace éditeur : passer une école en essai ajoute la durée choisie après la date de fin en cours quand elle est encore à venir, au lieu de repartir d’aujourd’hui. Un essai renouvelé en avance garde ses jours restants, et une école payante passée en essai ne voit plus sa date de fin avancer.",
+  "label": "Essai renouvelé sans perte de jours",
+  "label_ar": "تجديد الفترة التجريبية دون فقدان أيام",
   "scope": "client+supabase",
-  "deploiement": ["editeur-admin", "creer-ecole"],
+  "deploiement": ["editeur-admin"],
   "client_visible": false,
-  "updated_at": "2026-10-05T14:44:10.000Z"
+  "updated_at": "2026-10-05T18:10:59.000Z"
 }
