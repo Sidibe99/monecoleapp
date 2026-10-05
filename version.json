@@ -1,10 +1,10 @@
 {
-  "version": "v566",
-  "date": "2026-09-25",
-  "note": "Les salaires disposent maintenant de reçus imprimables, les emplois du temps peuvent être imprimés par cycle, les matières du personnel se choisissent dans la liste existante et les cartes scolaires peuvent cibler une classe ou toutes les classes.",
-  "label": "Reçus, emplois du temps et cartes",
-  "label_ar": "إيصالات الرواتب والجداول والبطاقات",
-  "scope": "client",
+  "version": "v567",
+  "date": "2026-10-05",
+  "note": "Le paiement ouvert depuis la fiche d’un élève reprend sa classe ; un parent n’écrit plus qu’à la direction, la seule à pouvoir lui répondre ; les frais par classe et la classe de l’emploi du temps s’affichent dès l’ouverture de la page ; le reçu tient dans un écran de portable à toute taille d’interface ; la recherche des élèves porte sur toute l’école.",
+  "label": "Paiements, messagerie et recherche",
+  "label_ar": "المدفوعات والمراسلة والبحث",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-09-25T01:47:07.000Z"
+  "updated_at": "2026-10-05T00:17:04.000Z"
 }
