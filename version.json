@@ -1,10 +1,11 @@
 {
-  "version": "v568",
+  "version": "v569",
   "date": "2026-10-05",
-  "note": "Sur téléphone, sur un pliable ou une tablette, les montants des cartes de la page Dépenses s’affichent en entier : les cartes passent à la ligne au lieu de couper les gros montants.",
-  "label": "Montants des dépenses sur téléphone",
-  "label_ar": "مبالغ المصاريف على الهاتف",
-  "scope": "client",
-  "client_visible": true,
-  "updated_at": "2026-10-05T12:57:53.000Z"
+  "note": "Espace éditeur : la durée de l’essai se choisit (une semaine, deux semaines, un mois, deux ou trois mois, ou un nombre de jours jusqu’à 365), en créant le code d’activation comme en passant une école en essai. L’essai compte à partir de l’activation de l’école, et la page Formules en affiche la date de fin.",
+  "label": "Durée de l’essai au choix",
+  "label_ar": "مدة الفترة التجريبية حسب الاختيار",
+  "scope": "client+supabase",
+  "deploiement": ["editeur-admin", "creer-ecole"],
+  "client_visible": false,
+  "updated_at": "2026-10-05T14:44:10.000Z"
 }
