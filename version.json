@@ -1,11 +1,10 @@
 {
-  "version": "v570",
+  "version": "v572",
   "date": "2026-10-05",
-  "note": "Espace éditeur : passer une école en essai ajoute la durée choisie après la date de fin en cours quand elle est encore à venir, au lieu de repartir d’aujourd’hui. Un essai renouvelé en avance garde ses jours restants, et une école payante passée en essai ne voit plus sa date de fin avancer.",
-  "label": "Essai renouvelé sans perte de jours",
-  "label_ar": "تجديد الفترة التجريبية دون فقدان أيام",
+  "note": "Import des élèves : une colonne « Déjà payé » reprend ce que chaque élève a versé cette année avant MonEcole. Le montant couvre d’abord l’inscription, puis la scolarité ; il est enregistré comme paiement « Reprise » avec un reçu à part. Élèves et montants sont enregistrés ensemble, ou pas du tout.",
+  "label": "Import avec les montants déjà payés",
+  "label_ar": "الاستيراد مع المبالغ المدفوعة مسبقًا",
   "scope": "client+supabase",
-  "deploiement": ["editeur-admin"],
-  "client_visible": false,
-  "updated_at": "2026-10-05T18:10:59.000Z"
+  "client_visible": true,
+  "updated_at": "2026-10-05T21:41:14.000Z"
 }
