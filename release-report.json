@@ -1,10 +1,10 @@
 {
-  "version": "v567",
-  "package_version": "1.0.567",
-  "label": "Paiements, messagerie et recherche",
-  "created_at": "2026-10-05T00:40:37.886Z",
+  "version": "v568",
+  "package_version": "1.0.568",
+  "label": "Montants des dépenses sur téléphone",
+  "created_at": "2026-10-05T13:19:50.419Z",
   "files": 176,
-  "total_bytes": 23970528,
+  "total_bytes": 23970459,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -382,19 +382,19 @@
       "sha256": "a9cfdca639cd31e70c920a2c0b389de0f2ebd9311dcac1edea0644d164d09974"
     },
     {
-      "file": "assets/index-kXWPMQVw.css",
-      "bytes": 322580,
-      "sha256": "cf86fa7e46b5dd1a6a62583ec72cf78bf6cb815f59adefd13903ac82c36799e9"
-    },
-    {
-      "file": "assets/index-kYaqtPD9.js",
+      "file": "assets/index-BCug3p-b.js",
       "bytes": 544729,
       "sha256": "2a3a3e9008d0575837d0de7cc98e3a3b9ecd1413bfea1bc9cf60c3f5886b0047"
     },
     {
-      "file": "assets/index-legacy-BD4TUtR1.js",
-      "bytes": 960816,
-      "sha256": "62c0e66d9f43dfbced49a6b0fd33a364dee56acf52e154f48d8fafb15c13ddc1"
+      "file": "assets/index-DpNaGPUr.css",
+      "bytes": 322648,
+      "sha256": "8c77717d1c50c35c7952a44a6f5b848ab969b3a312341da256fb545f960c3215"
+    },
+    {
+      "file": "assets/index-legacy-Oznpmqsq.js",
+      "bytes": 960884,
+      "sha256": "a14b15f8bda1c620fa4dc3e3fb094a9b36472a34927d40ad7231b096fab98a91"
     },
     {
       "file": "assets/index.es-BIAK6eXY.js",
@@ -844,7 +844,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "c406a3d98abf3f0bfb7b6ba078718c113c862d8b41ae00eb0433fd0e0ab803d3"
+      "sha256": "eab1f13fdfec7f3c3d7bfed488f8e9d931b5745b25d07c41ca4a21a36956fc5f"
     },
     {
       "file": "manifest.webmanifest",
@@ -854,7 +854,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 20249,
-      "sha256": "2bb7cf12879f99d379e895ddf9b3f0efa49e40cba42ce908acab1efae2c2b48e"
+      "sha256": "7cc2b464212d31ef4ef1f1477e1b2a89b99334e09bbe29d276fbdba5ea3e3e47"
     },
     {
       "file": "reset-cache.html",
@@ -874,7 +874,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "d3ed5718ca7c35118c5c1e7aad56b103f7a5699f891d0783db5ae1a8d0b52c8c"
+      "sha256": "fd8ed668b31e70c2d0df9f498c1440e4698fd8cb420d85b75ceea74135efa416"
     },
     {
       "file": "v.html",
@@ -883,8 +883,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 663,
-      "sha256": "d7e243cf70db56554a89c73f6f2ce523330eb429ca237817dc2c9c58d187ef27"
+      "bytes": 458,
+      "sha256": "8f880a123871dd818e937f0d8f0606e5b2cfb96e8f13d318e06646c002ab31b0"
     }
   ]
 }

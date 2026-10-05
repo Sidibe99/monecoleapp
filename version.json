@@ -1,10 +1,10 @@
 {
-  "version": "v567",
+  "version": "v568",
   "date": "2026-10-05",
-  "note": "Le paiement ouvert depuis la fiche d’un élève reprend sa classe ; un parent n’écrit plus qu’à la direction, la seule à pouvoir lui répondre ; les frais par classe et la classe de l’emploi du temps s’affichent dès l’ouverture de la page ; le reçu tient dans un écran de portable à toute taille d’interface ; la recherche des élèves porte sur toute l’école.",
-  "label": "Paiements, messagerie et recherche",
-  "label_ar": "المدفوعات والمراسلة والبحث",
-  "scope": "client+supabase",
+  "note": "Sur téléphone, sur un pliable ou une tablette, les montants des cartes de la page Dépenses s’affichent en entier : les cartes passent à la ligne au lieu de couper les gros montants.",
+  "label": "Montants des dépenses sur téléphone",
+  "label_ar": "مبالغ المصاريف على الهاتف",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-05T00:17:04.000Z"
+  "updated_at": "2026-10-05T12:57:53.000Z"
 }
