@@ -1,10 +1,10 @@
 {
-  "version": "v581",
-  "package_version": "1.0.581",
-  "label": "Cartes scolaires corrigées",
-  "created_at": "2026-10-06T17:26:54.228Z",
-  "files": 189,
-  "total_bytes": 24410263,
+  "version": "v582",
+  "package_version": "1.0.582",
+  "label": "Liste des arrivées",
+  "created_at": "2026-10-06T18:07:40.291Z",
+  "files": 191,
+  "total_bytes": 24427137,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -147,9 +147,19 @@
       "sha256": "e97be820c07496211c619fa44df60042c0c182fe8de88a5e7c1860ea55eb627c"
     },
     {
-      "file": "assets/IAEducative-legacy-C4QS26Fp.js",
+      "file": "assets/IAEducative-legacy-DpKhCuAu.js",
       "bytes": 66857,
-      "sha256": "1e9b877473dd223656cd98f64fc8ae752145da587a8456aca45f4f5a7960ecef"
+      "sha256": "86e1e869a896d1ebacaaae69f254a12ec61899ee74f1c236670ca2e897a1bdc5"
+    },
+    {
+      "file": "assets/ListeArrivees-PmZyVS8L.js",
+      "bytes": 5020,
+      "sha256": "4482df2a5a1ea8f5228434383caee62e4e1cadd382e0c7ad1972369ccd85446e"
+    },
+    {
+      "file": "assets/ListeArrivees-legacy-CMzISQet.js",
+      "bytes": 7687,
+      "sha256": "30469268d2e36fa65adebe7d885caa5628377a89520afbf673a724134fbd06d8"
     },
     {
       "file": "assets/MatieresPage-CQW459Yg.js",
@@ -232,24 +242,24 @@
       "sha256": "a8489eac8a664af8ada3edc0cb8d0fee6de04932137940d0c490bfa88987d34e"
     },
     {
-      "file": "assets/PointageScanner-I9WZ9XLT.js",
-      "bytes": 11028,
-      "sha256": "5a1ae529addea8a8781aed88fb5f19bd165c1cf8623fc5b054eebc04a65c1680"
+      "file": "assets/PointageScanner-V1m1Qs_Z.js",
+      "bytes": 11088,
+      "sha256": "97cbda2c4794238870c8bc449948a11bcaad4401ce1126cfc324bdffc138ff2d"
     },
     {
-      "file": "assets/PointageScanner-legacy-uGmM1pMR.js",
-      "bytes": 18091,
-      "sha256": "397898c6448148f796a99dd2644bc27283e9f2f359513a508cfc11ff741a664e"
+      "file": "assets/PointageScanner-legacy-CirfojFY.js",
+      "bytes": 18183,
+      "sha256": "3ceefe7afe015f56de4df2df2905ec08d825d741946e494783616d6115843e39"
     },
     {
-      "file": "assets/PresencesGestionPage-D0viDv8r.js",
-      "bytes": 35306,
-      "sha256": "2acf067400bfd88fba1817ba9bdcac766be2cab493de1188f89342f49ce1db87"
+      "file": "assets/PresencesGestionPage-D67JTBaN.js",
+      "bytes": 37056,
+      "sha256": "86092439fb060cce3c4334408db8cd720fd2cd10c2cec039313d37dd2d967274"
     },
     {
-      "file": "assets/PresencesGestionPage-legacy-ZC9NR92s.js",
-      "bytes": 44948,
-      "sha256": "8d097d295bf694acf2045c2cb7e30630067eb0449f2a079e9a1d8f3bd3ab2ced"
+      "file": "assets/PresencesGestionPage-legacy-DYrerf-T.js",
+      "bytes": 47038,
+      "sha256": "9bf18d12b36321095b2562f9f491b9d9219c441e48bf0338476e50565dc4609d"
     },
     {
       "file": "assets/RadarEleves-C97CQck3.js",
@@ -367,9 +377,9 @@
       "sha256": "c6c8379acffd6eedc81ed26cd47a2076ead7a9716ba9d59366f0f541a0c88900"
     },
     {
-      "file": "assets/fiche-pdf-legacy-DBhyJLyz.js",
+      "file": "assets/fiche-pdf-legacy-C74uOifD.js",
       "bytes": 11593,
-      "sha256": "5219be1eb6b1e5428b9bf3b82fcb1d548fcd8eea9b9eaf5bf63b15c5aabd6049"
+      "sha256": "bb59e3fbeb07860d7f3974845add5b79922fe32d8240a52e8d61ae583bdda0a0"
     },
     {
       "file": "assets/heic-to-lXPrQE7P.js",
@@ -404,7 +414,7 @@
     {
       "file": "assets/ia-educative-fallback-legacy.js",
       "bytes": 17639,
-      "sha256": "8eaf1290b7b103577ee69b22f151e7038ccfe37c45766e18f5c50604dcf81550"
+      "sha256": "1556dec174ea8b9bfdf676f7c92717a0009d06020e2c0a3da986bccb71343d1a"
     },
     {
       "file": "assets/ia-educative-fallback.js",
@@ -412,9 +422,9 @@
       "sha256": "7ff88a17a733bb43ef219b8dc3f80af4799f626b6c26287bd282e147be6f700c"
     },
     {
-      "file": "assets/index-DMwsvBfU.js",
+      "file": "assets/index-B_qG7qCQ.js",
       "bytes": 550359,
-      "sha256": "27b7ac57af14c935d46513b9c04010d9ce6cdfa5185336e21fd766b1d0c0a3b0"
+      "sha256": "839a562f53aa9d7ef8689831a8f22f8d389d524f244b10cf4707b5b78dbe4d2e"
     },
     {
       "file": "assets/index-DpNaGPUr.css",
@@ -422,9 +432,9 @@
       "sha256": "8c77717d1c50c35c7952a44a6f5b848ab969b3a312341da256fb545f960c3215"
     },
     {
-      "file": "assets/index-legacy-Dpw79uHA.js",
+      "file": "assets/index-legacy-B1nChP4i.js",
       "bytes": 968185,
-      "sha256": "9a7ebfb597d2e067807ddc9a087db5bd4426786a289589aa5d710ca917306cd7"
+      "sha256": "b76af27a5a11bda3b5aa860249ef08c0414a247a08210b9e7e1d90759ec524dd"
     },
     {
       "file": "assets/index.es-CqRIblMi.js",
@@ -904,7 +914,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "6697f1a396df0ec5603c7281a847d91a02a7a2328fe8f3810c1edb8c198e4a43"
+      "sha256": "0b12fef6309581b19ca9c1675d6854fa55365b7263591253de247eca81af6975"
     },
     {
       "file": "manifest.webmanifest",
@@ -913,8 +923,8 @@
     },
     {
       "file": "offline-manifest.json",
-      "bytes": 22138,
-      "sha256": "de2b390bd74c0c32d6bb8cc3ce8a143b7347a6a5ec4a6ebebd3850c91cb27076"
+      "bytes": 22451,
+      "sha256": "185adb359d2502082de9399828784da621392da28c2113081a1e8f8056ca7f0c"
     },
     {
       "file": "reset-cache.html",
@@ -934,7 +944,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "1b90d24575c4d6f9a74ea6869a7462f35a04dc49316705b74ceb136205334572"
+      "sha256": "9ede82bbadb322fb459fc606d58afa5925576e8932dcb8fd53636210c71d574f"
     },
     {
       "file": "v.html",
@@ -948,8 +958,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 654,
-      "sha256": "ba1aaaec0c71334c5ca088f5ac5594d61852f86dfc30aca19bf6c9f61592940f"
+      "bytes": 516,
+      "sha256": "2b44fbd7e01919cf94b999cfa06aef67ccc73cc2abcb856bc9e1135acc5874b7"
     }
   ]
 }

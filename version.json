@@ -1,10 +1,10 @@
 {
-  "version": "v581",
+  "version": "v582",
   "date": "2026-10-06",
-  "note": "Cartes scolaires : à l’impression, le nom du signataire reste sous son titre, la photo et l’identité ne débordent plus sur le bandeau, et la date de naissance s’affiche en entier. Aussi : la caméra dans l’application Android (pointage à l’entrée, photo de la messagerie), et le pointage lit les cartes sur les téléphones Android dont le lecteur de QR intégré ne fonctionne pas.",
-  "label": "Cartes scolaires corrigées",
-  "label_ar": "تصحيح البطاقات المدرسية",
+  "note": "Pointage à l’entrée : la carte de la page Présences reste courte (les trois dernières arrivées), et « Voir la liste » montre toute l’école — qui est arrivé et à quelle heure, qui ne l’est pas encore — par classe, avec le compte de chacune, et par nom ou matricule.",
+  "label": "Liste des arrivées",
+  "label_ar": "قائمة الواصلين",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-06T17:03:10.000Z"
+  "updated_at": "2026-10-06T17:47:57.000Z"
 }
