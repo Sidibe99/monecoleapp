@@ -1,10 +1,10 @@
 {
-  "version": "v572",
-  "date": "2026-10-05",
-  "note": "Import des élèves : une colonne « Déjà payé » reprend ce que chaque élève a versé cette année avant MonEcole. Le montant couvre d’abord l’inscription, puis la scolarité ; il est enregistré comme paiement « Reprise » avec un reçu à part. Élèves et montants sont enregistrés ensemble, ou pas du tout.",
-  "label": "Import avec les montants déjà payés",
-  "label_ar": "الاستيراد مع المبالغ المدفوعة مسبقًا",
-  "scope": "client+supabase",
+  "version": "v573",
+  "date": "2026-10-06",
+  "note": "Page Élèves : un seul « Modèle d’import », avec la colonne Classe en tête. Remplissez-la pour importer toute l’école en une fois, ou laissez-la vide et choisissez la classe au moment de l’import. Si le fichier désigne une autre classe que celle choisie, l’import est bloqué et la fenêtre explique quoi faire.",
+  "label": "Un seul modèle d’import",
+  "label_ar": "نموذج استيراد واحد",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-05T21:41:14.000Z"
+  "updated_at": "2026-10-06T09:12:45.000Z"
 }

@@ -1,10 +1,10 @@
 {
-  "version": "v572",
-  "package_version": "1.0.572",
-  "label": "Import avec les montants déjà payés",
-  "created_at": "2026-10-05T22:19:59.453Z",
+  "version": "v573",
+  "package_version": "1.0.573",
+  "label": "Un seul modèle d’import",
+  "created_at": "2026-10-06T09:30:58.675Z",
   "files": 176,
-  "total_bytes": 24010530,
+  "total_bytes": 24010743,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -102,14 +102,14 @@
       "sha256": "cee57d131d0dc0b5a8e61e31c13ea9a5f82466a4f384ceed961ef09e937c7ed0"
     },
     {
-      "file": "assets/ElevesPage-CcDzTWvP.js",
-      "bytes": 97707,
-      "sha256": "d15aa8be8f6d19b516ac41983767ae254ee3b501b572c000790902cbccd970ee"
+      "file": "assets/ElevesPage-legacy-Z7dHIV-S.js",
+      "bytes": 114920,
+      "sha256": "7937fde33716eedde3f07f9838c2117c99205037d6dc89f1f8a4cde2b6d20e80"
     },
     {
-      "file": "assets/ElevesPage-legacy-CfcWPhaE.js",
-      "bytes": 114888,
-      "sha256": "020d5ae4e396db685c84ed707f32ec3573e0d52a46546ced65e73f0f18c208bf"
+      "file": "assets/ElevesPage-yEJkIp0i.js",
+      "bytes": 97939,
+      "sha256": "03649ee5d82fb555a036ae94942f74bf94bc468db462cbc7fbe9adbac1e1e1ce"
     },
     {
       "file": "assets/ExportDonneesCard-B8c90g5-.js",
@@ -382,9 +382,9 @@
       "sha256": "c5b1b05ad63463d57cb38063d0fd07c5b459a91b8d108484892cf71597fa108a"
     },
     {
-      "file": "assets/index-DDuxTtp-.js",
+      "file": "assets/index-CiXnUGSZ.js",
       "bytes": 544729,
-      "sha256": "e7977afb3aede69647537ff9c6c5b81d728276d13083c07a7aada3537c4b8909"
+      "sha256": "5be44b314f4d9fdce36d392c0f859e7fcd50be8753b31f1c8850c812de71cdbd"
     },
     {
       "file": "assets/index-DpNaGPUr.css",
@@ -392,9 +392,9 @@
       "sha256": "8c77717d1c50c35c7952a44a6f5b848ab969b3a312341da256fb545f960c3215"
     },
     {
-      "file": "assets/index-legacy-CyyMUA_5.js",
+      "file": "assets/index-legacy-a_4PPvyy.js",
       "bytes": 960884,
-      "sha256": "a875ff8df1a1f8d113783712d6c4b4a20ccba8c5bda49e861fb157172d927860"
+      "sha256": "549447afe34d9d4785cc1a32125e2c0ce931bdbacbcb3fd6969b0bd3d8ef809f"
     },
     {
       "file": "assets/index.es-bmAJ9hhS.js",
@@ -844,7 +844,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "84d7051f053e53a245cd5fb99b72cb8325b6b7930678da7a4e2cecd967174e4f"
+      "sha256": "5b68623fc87f41310719319ea0f9edfb7bdf23e29876958ed6be036ab5ea9bd6"
     },
     {
       "file": "manifest.webmanifest",
@@ -854,7 +854,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 20249,
-      "sha256": "d1c53aa3b04bd348d3c5cb94e5e59b602c482ef3645746844570266d6b2f165f"
+      "sha256": "3ffb7d7d2e4afe027eff3951715a51f37c9b9e5e22559747cf2c922ecdabbe20"
     },
     {
       "file": "reset-cache.html",
@@ -874,7 +874,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "93a16f5e7b7be25e4a27b20cace7bde522c984a0a9752e50a7c9ef07a934120f"
+      "sha256": "1a30e3bc88cd0da9fc0c36399646269a6fdb1e158fc0d7b865d2774ed6d389e6"
     },
     {
       "file": "v.html",
@@ -883,8 +883,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 623,
-      "sha256": "e2ab02b72ba67b25bda1ccf63f699130b77ffe1d1371cea577c81bbb8fb2640f"
+      "bytes": 572,
+      "sha256": "4128b955f8c9b3a3dc1e27edb5e0f793607de9aa3804829be347ec0c17c13bd5"
     }
   ]
 }
