@@ -1,10 +1,10 @@
 {
-  "version": "v576",
+  "version": "v577",
   "date": "2026-10-06",
-  "note": "Le radar des élèves à suivre, sur le tableau de bord : les absences sans motif, les retards de paiement et les moyennes faibles ou en baisse se croisent, et l’élève qui cumule plusieurs signaux apparaît avec le détail — à ouvrir d’un clic, à imprimer pour en parler. Chaque rôle ne voit que ce que ses pages lui permettent. Le démarrage s’allège au passage de 6 600 octets.",
-  "label": "Élèves à suivre",
-  "label_ar": "تلاميذ بحاجة إلى متابعة",
-  "scope": "client",
+  "note": "Pointage à l’entrée : dans Présences, « Scanner les cartes » lit la carte de l’élève avec l’appareil photo (ou son matricule) et enregistre l’heure d’arrivée, même sans Internet. Les parents voient l’heure d’arrivée de leurs enfants dans leur espace. La politique de confidentialité précise l’usage de l’appareil photo : l’image reste sur le téléphone.",
+  "label": "Pointage à l’entrée",
+  "label_ar": "تسجيل الدخول عند البوابة",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-06T11:53:34.000Z"
+  "updated_at": "2026-10-06T14:03:45.000Z"
 }
