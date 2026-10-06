@@ -1,10 +1,10 @@
 {
-  "version": "v579",
+  "version": "v581",
   "date": "2026-10-06",
-  "note": "Bulletin vérifiable : chaque bulletin imprimé par l’école porte un QR. Scanné avec un téléphone, il ouvre une page publique qui confirme que le bulletin a bien été émis par l’établissement et rappelle ses chiffres (moyenne, mention, rang), sans le détail des notes. Un bulletin retouché ne correspond plus. La politique de confidentialité le précise.",
-  "label": "Bulletin vérifiable",
-  "label_ar": "كشف قابل للتحقق",
-  "scope": "client+supabase",
+  "note": "Cartes scolaires : à l’impression, le nom du signataire reste sous son titre, la photo et l’identité ne débordent plus sur le bandeau, et la date de naissance s’affiche en entier. Aussi : la caméra dans l’application Android (pointage à l’entrée, photo de la messagerie), et le pointage lit les cartes sur les téléphones Android dont le lecteur de QR intégré ne fonctionne pas.",
+  "label": "Cartes scolaires corrigées",
+  "label_ar": "تصحيح البطاقات المدرسية",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-06T15:36:17.000Z"
+  "updated_at": "2026-10-06T17:03:10.000Z"
 }
