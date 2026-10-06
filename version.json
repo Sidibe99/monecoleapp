@@ -1,10 +1,10 @@
 {
-  "version": "v573",
+  "version": "v575",
   "date": "2026-10-06",
-  "note": "Page Élèves : un seul « Modèle d’import », avec la colonne Classe en tête. Remplissez-la pour importer toute l’école en une fois, ou laissez-la vide et choisissez la classe au moment de l’import. Si le fichier désigne une autre classe que celle choisie, l’import est bloqué et la fenêtre explique quoi faire.",
-  "label": "Un seul modèle d’import",
-  "label_ar": "نموذج استيراد واحد",
-  "scope": "client",
+  "note": "Fin d’année : la clôture reporte ce que chaque élève doit encore dans ses impayés des années passées, et un trop-payé devient une avance sur la nouvelle année. Les soldes (Paiements, fiche, relances, rapport, tableau de bord, espace Parent) ne comptent plus que l’année en cours ; les années clôturées restent dans l’historique.",
+  "label": "Report des soldes à la clôture",
+  "label_ar": "ترحيل الأرصدة عند الإقفال",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-06T09:12:45.000Z"
+  "updated_at": "2026-10-06T10:35:18.000Z"
 }
