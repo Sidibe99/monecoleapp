@@ -1,10 +1,10 @@
 {
-  "version": "v575",
+  "version": "v576",
   "date": "2026-10-06",
-  "note": "Fin d’année : la clôture reporte ce que chaque élève doit encore dans ses impayés des années passées, et un trop-payé devient une avance sur la nouvelle année. Les soldes (Paiements, fiche, relances, rapport, tableau de bord, espace Parent) ne comptent plus que l’année en cours ; les années clôturées restent dans l’historique.",
-  "label": "Report des soldes à la clôture",
-  "label_ar": "ترحيل الأرصدة عند الإقفال",
-  "scope": "client+supabase",
+  "note": "Le radar des élèves à suivre, sur le tableau de bord : les absences sans motif, les retards de paiement et les moyennes faibles ou en baisse se croisent, et l’élève qui cumule plusieurs signaux apparaît avec le détail — à ouvrir d’un clic, à imprimer pour en parler. Chaque rôle ne voit que ce que ses pages lui permettent. Le démarrage s’allège au passage de 6 600 octets.",
+  "label": "Élèves à suivre",
+  "label_ar": "تلاميذ بحاجة إلى متابعة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-06T10:35:18.000Z"
+  "updated_at": "2026-10-06T11:53:34.000Z"
 }
