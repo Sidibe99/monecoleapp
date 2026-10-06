@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; connect-src https://*.supabase.co; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self';" />
+  <title>Vérifier un bulletin · MonEcole</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100dvh;display:grid;place-items:center;padding:20px;background:linear-gradient(145deg,#102952,#1d4ed8);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:#0f172a}
+    .card{width:min(100%,460px);background:#fff;border-radius:20px;padding:24px 22px;box-shadow:0 24px 60px rgba(2,6,23,.35)}
+    .logo{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;background:#1d4ed8;color:#fff;font-weight:900;margin-bottom:12px}
+    h1{margin:0 0 4px;font-size:21px}
+    .intro{margin:0 0 16px;color:#475569;font-size:13.5px;line-height:1.5}
+    .etat{padding:12px 14px;border-radius:12px;font-weight:800;font-size:15px;line-height:1.4;background:#f1f5f9;color:#334155}
+    .etat.ok{background:#ecfdf5;color:#047857;border:1px solid #a7f3d0}
+    .etat.ko{background:#fef2f2;color:#b91c1c;border:1px solid #fecaca}
+    .alerte{display:none;margin-top:10px;padding:10px 12px;border-radius:10px;background:#fffbeb;color:#92400e;border:1px solid #fde68a;font-size:13px;font-weight:700;line-height:1.45}
+    dl{display:none;grid-template-columns:auto 1fr;gap:8px 14px;margin:16px 0 0;font-size:14px}
+    dt{color:#64748b}
+    dd{margin:0;font-weight:800;text-align:end}
+    .note{display:none;margin:14px 0 0;color:#475569;font-size:12.5px;line-height:1.5}
+    button{display:none;margin-top:14px;width:100%;padding:11px;border:0;border-radius:11px;background:#1d4ed8;color:#fff;font-weight:800;font-size:14px}
+    .pied{margin-top:18px;color:#94a3b8;font-size:11.5px;text-align:center}
+    [dir=rtl] dd{text-align:start}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="logo">ME</div>
+    <h1 id="titre">Vérifier un bulletin</h1>
+    <p class="intro" id="intro">Ce code vient d’un bulletin imprimé par un établissement qui utilise MonEcole.</p>
+    <div class="etat" id="etat" role="status" aria-live="polite">Vérification en cours…</div>
+    <div class="alerte" id="alerte"></div>
+    <dl id="details"></dl>
+    <p class="note" id="note">Comparez ces chiffres au bulletin papier : s’ils diffèrent, le papier a été modifié. Le détail des notes reste dans l’établissement.</p>
+    <button id="reessayer" type="button">Réessayer</button>
+    <div class="pied">MonEcole · monecoleapp.com</div>
+  </main>
+  <script>
+    (()=>{
+      // v579 — la page publique du bulletin vérifiable. Elle n'interroge
+      // qu'une fonction : monecole_verifier_bulletin, ouverte aux visiteurs,
+      // qui ne rend que le résumé imprimé du bulletin dont on a le jeton.
+      const API="https://durbgghxbbhqtxncpdcq.supabase.co/rest/v1/rpc/monecole_verifier_bulletin";
+      const CLE="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR1cmJnZ2h4YmJocXR4bmNwZGNxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA2NjcyNjYsImV4cCI6MjA5NjI0MzI2Nn0.GK4Xpx1G31_e4m6BW8m9NojWo00O7SRbXfIIvx3vwvA";
+      const ar=(navigator.language||"").toLowerCase().startsWith("ar");
+      const T=ar?{titre:"التحقق من كشف الدرجات",intro:"هذا الرمز مأخوذ من كشف طبعته مؤسسة تستعمل MonEcole.",encours:"جارٍ التحقق…",ok:"✓ كشف أصلي",ko:"✗ هذا الرمز لا يطابق أي كشف صادر عبر MonEcole.",invalide:"رابط التحقق غير مكتمل.",reseau:"تعذّر التحقق حاليًا. تحقق من الاتصال ثم أعد المحاولة.",reessayer:"أعد المحاولة",note:"قارن هذه الأرقام بالكشف الورقي: إن اختلفت فقد عُدّل الورق. تفاصيل الدرجات تبقى لدى المؤسسة.",remplace:d=>`⚠ صدرت نسخة أحدث من هذا الكشف في ${d}: هذه النسخة لم تعد محيّنة.`,ecole:"المؤسسة",eleve:"التلميذ",classe:"الفصل",annee:"السنة الدراسية",bulletin:"الكشف",moyenne:"المعدل",mention:"التقدير",rang:"الترتيب",emis:"تاريخ الإصدار"}
+        :{titre:"Vérifier un bulletin",intro:"Ce code vient d’un bulletin imprimé par un établissement qui utilise MonEcole.",encours:"Vérification en cours…",ok:"✓ Bulletin authentique",ko:"✗ Ce code ne correspond à aucun bulletin émis avec MonEcole.",invalide:"Ce lien de vérification est incomplet.",reseau:"Vérification impossible pour l’instant. Vérifiez la connexion puis réessayez.",reessayer:"Réessayer",note:"Comparez ces chiffres au bulletin papier : s’ils diffèrent, le papier a été modifié. Le détail des notes reste dans l’établissement.",remplace:d=>`⚠ Une version plus récente de ce bulletin a été émise le ${d} : celui-ci n’est plus à jour.`,ecole:"École",eleve:"Élève",classe:"Classe",annee:"Année scolaire",bulletin:"Bulletin",moyenne:"Moyenne",mention:"Mention",rang:"Rang",emis:"Émis le"};
+      if(ar){document.documentElement.lang="ar";document.documentElement.dir="rtl";}
+      const $=id=>document.getElementById(id);
+      $("titre").textContent=T.titre;$("intro").textContent=T.intro;$("note").textContent=T.note;$("reessayer").textContent=T.reessayer;
+      const date=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?"":d.toLocaleDateString(ar?"ar":"fr-FR",{day:"2-digit",month:"long",year:"numeric"});};
+      const nombre=v=>v==null||v===""||!Number.isFinite(Number(v))?"—":Number(v).toLocaleString("fr-FR",{minimumFractionDigits:2,maximumFractionDigits:2});
+      const etat=(texte,classe)=>{const e=$("etat");e.textContent=texte;e.className=`etat${classe?` ${classe}`:""}`;};
+      const verifier=async()=>{
+        $("reessayer").style.display="none";$("details").style.display="none";$("note").style.display="none";$("alerte").style.display="none";
+        etat(T.encours,"");
+        const jeton=new URLSearchParams(location.search).get("b")||"";
+        if(!/^[0-9a-f]{32}$/.test(jeton)){etat(T.invalide,"ko");return;}
+        let resultat;
+        try{
+          const reponse=await fetch(API,{method:"POST",cache:"no-store",headers:{"content-type":"application/json",apikey:CLE,authorization:`Bearer ${CLE}`},body:JSON.stringify({p_jeton:jeton})});
+          if(!reponse.ok)throw new Error(String(reponse.status));
+          resultat=await reponse.json();
+        }catch(_){etat(T.reseau,"ko");$("reessayer").style.display="block";return;}
+        if(!resultat||typeof resultat!=="object"){etat(T.ko,"ko");return;}
+        etat(T.ok,"ok");
+        const lignes=[[T.ecole,resultat.ecole],[T.eleve,resultat.eleve],[T.classe,resultat.classe],[T.annee,resultat.annee],[T.bulletin,resultat.titre],
+          [T.moyenne,resultat.moyenne==null?"—":`${nombre(resultat.moyenne)}${resultat.bareme?` / ${resultat.bareme}`:""}`],[T.mention,resultat.mention],[T.rang,resultat.rang],[T.emis,date(resultat.emis_le)]]
+          .filter(([,valeur])=>valeur!=null&&String(valeur).trim()!=="");
+        const liste=$("details");liste.textContent="";
+        for(const [nom,valeur] of lignes){const dt=document.createElement("dt");dt.textContent=nom;const dd=document.createElement("dd");dd.textContent=String(valeur);liste.append(dt,dd);}
+        liste.style.display="grid";$("note").style.display="block";
+        if(resultat.remplace_le){$("alerte").textContent=T.remplace(date(resultat.remplace_le));$("alerte").style.display="block";}
+      };
+      $("reessayer").addEventListener("click",verifier);
+      verifier();
+    })();
+  </script>
+</body>
+</html>

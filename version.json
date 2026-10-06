@@ -1,10 +1,10 @@
 {
-  "version": "v578",
+  "version": "v579",
   "date": "2026-10-06",
-  "note": "Dossier sur plusieurs années : la fiche de l’élève montre ses années clôturées — classe, moyenne, décision de passage et montant payé — à l’écran et à l’impression. Rien n’est à saisir : la clôture d’année les gardait déjà.",
-  "label": "Années précédentes de l’élève",
-  "label_ar": "السنوات السابقة للتلميذ",
-  "scope": "client",
+  "note": "Bulletin vérifiable : chaque bulletin imprimé par l’école porte un QR. Scanné avec un téléphone, il ouvre une page publique qui confirme que le bulletin a bien été émis par l’établissement et rappelle ses chiffres (moyenne, mention, rang), sans le détail des notes. Un bulletin retouché ne correspond plus. La politique de confidentialité le précise.",
+  "label": "Bulletin vérifiable",
+  "label_ar": "كشف قابل للتحقق",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-06T15:02:29.000Z"
+  "updated_at": "2026-10-06T15:36:17.000Z"
 }
