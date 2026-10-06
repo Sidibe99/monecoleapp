@@ -1,10 +1,10 @@
 {
-  "version": "v577",
-  "package_version": "1.0.577",
-  "label": "Pointage à l’entrée",
-  "created_at": "2026-10-06T14:37:06.404Z",
+  "version": "v578",
+  "package_version": "1.0.578",
+  "label": "Années précédentes de l’élève",
+  "created_at": "2026-10-06T15:18:18.377Z",
   "files": 186,
-  "total_bytes": 24370061,
+  "total_bytes": 24378514,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -122,14 +122,14 @@
       "sha256": "c55706672fe41c4fb986dc51666f0a41cad0b93adabc0d64f915df9360926aa9"
     },
     {
-      "file": "assets/FicheEleve-bmVxsRuT.js",
-      "bytes": 83337,
-      "sha256": "b8920d47d5c1c9f35a2f2c68dbadd0de5a7a2ef4de7036e68c4d638eeac1c22f"
+      "file": "assets/FicheEleve-legacy-DOhX1IuJ.js",
+      "bytes": 94486,
+      "sha256": "2a8497cc10174aa6947decd1fa431c3b3045e91be9b17df31174ff0cc70163bb"
     },
     {
-      "file": "assets/FicheEleve-legacy-D0oa_cdc.js",
-      "bytes": 89699,
-      "sha256": "d197514f3ceeac1af3109e2a60c8d54574848d0ea67428e38a455a9f8b45f32b"
+      "file": "assets/FicheEleve-s1__uVyx.js",
+      "bytes": 87133,
+      "sha256": "630dfb56bf5764b0e8f559b7806f2ca08c00e7eed0e51b4e75f21ddc48934796"
     },
     {
       "file": "assets/FormulesAbonnement-gTlbyeA-.js",
@@ -412,9 +412,9 @@
       "sha256": "13819715babb929a093ea1ef6ab8a2f5291d4505835d61d95bb7188e23232745"
     },
     {
-      "file": "assets/index-CLAKXi9B.js",
+      "file": "assets/index-DdcOA4kK.js",
       "bytes": 549051,
-      "sha256": "2845ecd642cedef6999796b230f7da63d59ab3c66c9490a969b4c7e1eaf27597"
+      "sha256": "3b6ec00051a2b65ef741732117e034510e4acf2029fe6fcee12440af7873e2af"
     },
     {
       "file": "assets/index-DpNaGPUr.css",
@@ -422,9 +422,9 @@
       "sha256": "8c77717d1c50c35c7952a44a6f5b848ab969b3a312341da256fb545f960c3215"
     },
     {
-      "file": "assets/index-legacy-CtNfPmHI.js",
+      "file": "assets/index-legacy-B1hE2Gtl.js",
       "bytes": 965897,
-      "sha256": "66d41af52eb842836f8de05e2ee8e425a011108622a2c0bcd513a289ac5a0b0b"
+      "sha256": "ff7e180b4a9c70bfb2153046aef0335f95f9d8c759872c36b2bca89b95c5f7cd"
     },
     {
       "file": "assets/index.es-CntzRJ9L.js",
@@ -894,7 +894,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "b98975c61954aeb239136d03b2d5c030eed8acfad968e58bb44001929f4cb0fa"
+      "sha256": "912e1a57360e42a970114c3c2a6eb621a469c354f4c3845df59c325d57b5c820"
     },
     {
       "file": "manifest.webmanifest",
@@ -904,7 +904,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 21808,
-      "sha256": "94109cacce7a9a8457372d46f77c4ed5634b7421418fd1b1b1231ce341a3e130"
+      "sha256": "f01a7b24b24a5f85010e56c478da58624d5c9aa30e1d59c48b796a39eaa27a3b"
     },
     {
       "file": "reset-cache.html",
@@ -924,7 +924,7 @@
     {
       "file": "sw.js",
       "bytes": 9280,
-      "sha256": "c47a92e119fe8d2ad57e5b87f3e5f8cbb2a366e61d76f1acd1247de58e4e0ffa"
+      "sha256": "0643d6192fe01bad9f3eeb08746252ba7291bfcfe9a6ebd32d3cef5e663acb0b"
     },
     {
       "file": "v.html",
@@ -933,8 +933,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 649,
-      "sha256": "ea91b14ae488609f7caaec1d9a5c880312f52f8734d7928a5cff3990c95bf3c2"
+      "bytes": 519,
+      "sha256": "4c87972ce44918ebc3841796ba20c4570275b5dc053b47e9e7b56fdb2b809770"
     }
   ]
 }

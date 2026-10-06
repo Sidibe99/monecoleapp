@@ -1,10 +1,10 @@
 {
-  "version": "v577",
+  "version": "v578",
   "date": "2026-10-06",
-  "note": "Pointage à l’entrée : dans Présences, « Scanner les cartes » lit la carte de l’élève avec l’appareil photo (ou son matricule) et enregistre l’heure d’arrivée, même sans Internet. Les parents voient l’heure d’arrivée de leurs enfants dans leur espace. La politique de confidentialité précise l’usage de l’appareil photo : l’image reste sur le téléphone.",
-  "label": "Pointage à l’entrée",
-  "label_ar": "تسجيل الدخول عند البوابة",
-  "scope": "client+supabase",
+  "note": "Dossier sur plusieurs années : la fiche de l’élève montre ses années clôturées — classe, moyenne, décision de passage et montant payé — à l’écran et à l’impression. Rien n’est à saisir : la clôture d’année les gardait déjà.",
+  "label": "Années précédentes de l’élève",
+  "label_ar": "السنوات السابقة للتلميذ",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-06T14:03:45.000Z"
+  "updated_at": "2026-10-06T15:02:29.000Z"
 }
