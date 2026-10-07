@@ -1,10 +1,10 @@
 {
-  "version": "v582",
-  "date": "2026-10-06",
-  "note": "Pointage à l’entrée : la carte de la page Présences reste courte (les trois dernières arrivées), et « Voir la liste » montre toute l’école — qui est arrivé et à quelle heure, qui ne l’est pas encore — par classe, avec le compte de chacune, et par nom ou matricule.",
-  "label": "Liste des arrivées",
-  "label_ar": "قائمة الواصلين",
+  "version": "v583",
+  "date": "2026-10-07",
+  "note": "Cartes scolaires : avec des noms officiels longs (IRE, DPE, DSEE), l’en-tête reste compact et la photo, l’identité et le QR ne débordent plus sur le pied de la carte. Pointage : sous le scanner, les dernières arrivées ne montrent que les élèves du périmètre du compte.",
+  "label": "Cartes et pointage corrigés",
+  "label_ar": "تصحيح البطاقات وتسجيل الدخول",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-06T17:47:57.000Z"
+  "updated_at": "2026-10-07T13:55:38.000Z"
 }
