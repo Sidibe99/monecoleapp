@@ -1,11 +1,10 @@
 {
-  "version": "v586",
+  "version": "v587",
   "date": "2026-10-08",
-  "note": "Lycée : une matière peut être réservée à une série (Scientifique ou Littéraire). Elle n’apparaît alors que dans les notes, les bulletins, les fiches et les moyennes des classes de cette série. Réglage dans Matières, case « Séries du lycée concernées ». Migration SQL à appliquer.",
-  "label": "Séries du lycée sur les matières",
-  "label_ar": "شعب الثانوية في المواد",
-  "scope": "client+supabase",
+  "note": "Classes types : au lycée, un seul clic crée une classe par niveau et par série (11ème S, 11ème L, 12ème S, 12ème L, Terminale S, Terminale L), déjà reliées à leur série. Les matières réservées à une série (v586) s’appliquent ainsi dès le départ.",
+  "label": "Classes types du lycée par série",
+  "label_ar": "الفصول النموذجية للثانوية حسب الشعبة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-08T20:37:31.000Z",
-  "migration": "20261008_v586_matieres_series.sql"
+  "updated_at": "2026-10-08T21:20:28.000Z"
 }
