@@ -1,14 +1,11 @@
 {
-  "version": "v584",
+  "version": "v586",
   "date": "2026-10-08",
-  "note": "Mots de passe : la direction change le mot de passe d’un compte de son école (jamais celui d’un administrateur), et MonEcole réinitialise celui d’un administrateur qui l’a oublié ; chaque changement est inscrit au Journal. Seule la direction voit l’échéance de l’abonnement. Espace parent : « Bonjour M. … » ou « Bonjour Mme … ». Fiche élève : « Impayés des années passées » seulement pour un réinscrit.",
-  "label": "Mots de passe et espace parent",
-  "label_ar": "كلمات المرور وفضاء أولياء الأمور",
+  "note": "Lycée : une matière peut être réservée à une série (Scientifique ou Littéraire). Elle n’apparaît alors que dans les notes, les bulletins, les fiches et les moyennes des classes de cette série. Réglage dans Matières, case « Séries du lycée concernées ». Migration SQL à appliquer.",
+  "label": "Séries du lycée sur les matières",
+  "label_ar": "شعب الثانوية في المواد",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-08T09:08:46.000Z",
-  "deploiement": [
-    "set-password",
-    "editeur-admin"
-  ]
+  "updated_at": "2026-10-08T20:37:31.000Z",
+  "migration": "20261008_v586_matieres_series.sql"
 }
