@@ -1,10 +1,10 @@
 {
-  "version": "v587",
+  "version": "v588",
   "date": "2026-10-08",
-  "note": "Classes types : au lycée, un seul clic crée une classe par niveau et par série (11ème S, 11ème L, 12ème S, 12ème L, Terminale S, Terminale L), déjà reliées à leur série. Les matières réservées à une série (v586) s’appliquent ainsi dès le départ.",
-  "label": "Classes types du lycée par série",
-  "label_ar": "الفصول النموذجية للثانوية حسب الشعبة",
+  "note": "Application Android : l’impression (reçus, bulletins, cartes, fiches, rapports) passe par le service d’impression du téléphone, et les exports (Excel, Word, PDF, sauvegardes) s’enregistrent par la feuille de partage (Fichiers, Drive, WhatsApp…). Rien ne change dans le navigateur. Nouveau paquet Android nécessaire.",
+  "label": "Impression et fichiers dans l’application Android",
+  "label_ar": "الطباعة والملفات في تطبيق أندرويد",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-08T21:20:28.000Z"
+  "updated_at": "2026-10-08T22:40:24.000Z"
 }
