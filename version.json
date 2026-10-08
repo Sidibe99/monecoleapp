@@ -1,10 +1,14 @@
 {
-  "version": "v583",
-  "date": "2026-10-07",
-  "note": "Cartes scolaires : avec des noms officiels longs (IRE, DPE, DSEE), l’en-tête reste compact et la photo, l’identité et le QR ne débordent plus sur le pied de la carte. Pointage : sous le scanner, les dernières arrivées ne montrent que les élèves du périmètre du compte.",
-  "label": "Cartes et pointage corrigés",
-  "label_ar": "تصحيح البطاقات وتسجيل الدخول",
-  "scope": "client",
+  "version": "v584",
+  "date": "2026-10-08",
+  "note": "Mots de passe : la direction change le mot de passe d’un compte de son école (jamais celui d’un administrateur), et MonEcole réinitialise celui d’un administrateur qui l’a oublié ; chaque changement est inscrit au Journal. Seule la direction voit l’échéance de l’abonnement. Espace parent : « Bonjour M. … » ou « Bonjour Mme … ». Fiche élève : « Impayés des années passées » seulement pour un réinscrit.",
+  "label": "Mots de passe et espace parent",
+  "label_ar": "كلمات المرور وفضاء أولياء الأمور",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-07T13:55:38.000Z"
+  "updated_at": "2026-10-08T09:08:46.000Z",
+  "deploiement": [
+    "set-password",
+    "editeur-admin"
+  ]
 }
