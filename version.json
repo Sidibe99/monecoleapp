@@ -1,10 +1,10 @@
 {
-  "version": "v588",
-  "date": "2026-10-08",
-  "note": "Application Android : l’impression (reçus, bulletins, cartes, fiches, rapports) passe par le service d’impression du téléphone, et les exports (Excel, Word, PDF, sauvegardes) s’enregistrent par la feuille de partage (Fichiers, Drive, WhatsApp…). Rien ne change dans le navigateur. Nouveau paquet Android nécessaire.",
-  "label": "Impression et fichiers dans l’application Android",
-  "label_ar": "الطباعة والملفات في تطبيق أندرويد",
-  "scope": "client",
+  "version": "v589",
+  "date": "2026-10-09",
+  "note": "Calendriers : le calendrier de l’année (rentrée et fin des cours fixées par le ministère, ouverture des inscriptions choisie par l’école, dates des trimestres facultatives), le calendrier des évaluations dans l’Emploi du temps (devoirs, interrogations, compositions, conflits signalés), et l’emploi du temps de l’enfant avec ses prochaines évaluations dans l’espace Parent. Parcours simplifiés : recherche d’un élève dans Paiements, inscription en sections, formulaire Utilisateurs, alertes prioritaires du tableau de bord, recherche dans le menu, messages des Présences. Démarrage plus léger.",
+  "label": "Calendriers et parcours simplifiés",
+  "label_ar": "الرزنامات ومسارات مبسطة",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-08T22:40:24.000Z"
+  "updated_at": "2026-10-09T13:42:05.000Z"
 }
