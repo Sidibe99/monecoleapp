@@ -1,10 +1,10 @@
 {
-  "version": "v591",
+  "version": "v592",
   "date": "2026-10-09",
-  "note": "L’onglet « Formules » s’appelle désormais « Abonnement MonEcole », pour ne pas le confondre avec les finances de l’école. Sur la fiche Personnel, « Autres fonctions » accompagne la fonction principale sans la répéter.",
-  "label": "Onglet Abonnement MonEcole",
-  "label_ar": "تبويب اشتراك MonEcole",
+  "note": "Le rappel de fin d’abonnement devient une ligne discrète, plus visible la dernière semaine, avec un bouton « Renouveler » qui ouvre l’onglet Abonnement MonEcole. Il s’affiche aussi en arabe.",
+  "label": "Rappel d’abonnement discret",
+  "label_ar": "تذكير هادئ بالاشتراك",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-09T17:22:56.000Z"
+  "updated_at": "2026-10-09T17:56:15.000Z"
 }
