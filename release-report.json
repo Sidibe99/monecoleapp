@@ -1,10 +1,10 @@
 {
-  "version": "v595",
-  "package_version": "1.0.595",
-  "label": "Notifications à traiter",
-  "created_at": "2026-10-09T21:14:07.655Z",
+  "version": "v596",
+  "package_version": "1.0.596",
+  "label": "Notifications Android",
+  "created_at": "2026-10-09T21:53:19.851Z",
   "files": 209,
-  "total_bytes": 24676809,
+  "total_bytes": 24677345,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -803,8 +803,8 @@
     },
     {
       "file": "confidentialite.html",
-      "bytes": 20524,
-      "sha256": "07af31e36b508256bd4b1ee6023d289bc8fa2fce486f5463352d35065ae07e33"
+      "bytes": 21145,
+      "sha256": "b41fa47bd6ed96ff0cfeddf7538fd2874a71d94ac0bbccd257070cb1bc53002b"
     },
     {
       "file": "fonts/NotoNaskhArabic-Bold.ttf",
@@ -1004,7 +1004,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "c12d75a7b8a54d6cf5c18701891b4c39c0af3a0e77e08bd59776412a8b17e5aa"
+      "sha256": "c73412058766c056d5c62c4a4edc832750b5f525e611381ddc984a12366d4baa"
     },
     {
       "file": "manifest.webmanifest",
@@ -1014,7 +1014,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 25274,
-      "sha256": "6cb587fff04e5cb247124a1996063591a7704c7fbcc983599de8e4b72b76ad8e"
+      "sha256": "1ee84c5d883caae1580b07db33f91afd928c9916bd4d91e6847cea9ceb516ec0"
     },
     {
       "file": "reset-cache.html",
@@ -1034,7 +1034,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "2bade7531a20b43bafecaa235af537a2d4e23189126714223f8ce09ee029ba3c"
+      "sha256": "b42b3f0138c0504d0d5c9136c52a3a9b11bd97a030ca9e725a0e17320392f93c"
     },
     {
       "file": "v.html",
@@ -1048,8 +1048,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 495,
-      "sha256": "f343fa9e17c89306d9e2e82187affc3461fdeba925fceca3d5532afdc3613cf5"
+      "bytes": 410,
+      "sha256": "9ab07e6bac1cb57c11f4f2663a3bec881e4efc74939dbb7b9712fcdb18b25c9c"
     }
   ]
 }

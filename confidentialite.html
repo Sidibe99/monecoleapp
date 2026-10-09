@@ -87,7 +87,7 @@
     <tr><td><strong>cdnjs (Cloudflare)</strong></td><td>Votre navigateur y télécharge deux bibliothèques, au moment où vous exportez vers Excel ou imprimez en PDF. Aucune donnée scolaire n'y est envoyée ; ce service voit seulement votre adresse IP.</td></tr>
     <tr><td><strong>Google · OpenAI</strong></td><td>Uniquement pour la page <strong>IA Éducative</strong>. Voir ci-dessous.</td></tr>
     <tr><td><strong>WhatsApp</strong></td><td>Seulement si <em>vous</em> choisissez d'envoyer un message : l'application prépare le texte et ouvre WhatsApp. Rien ne part sans votre geste.</td></tr>
-    <tr><td><strong>Service de notification de votre navigateur</strong> (Google, Apple, Mozilla ou Microsoft)</td><td>Seulement si <em>vous</em> activez les notifications. Il transmet à votre appareil un avis <strong>chiffré pour lui seul</strong> : « Nouveau message de … », ou le sujet d'une tâche qui vous attend (« Une fiche de notes attend votre vérification »). Jamais le texte du message, ni un nom d'élève, ni une note. La déconnexion retire l'appareil.</td></tr>
+    <tr><td><strong>Service de notification de votre navigateur</strong> (Google, Apple, Mozilla ou Microsoft) ; dans l'application Android, <strong>Firebase Cloud Messaging</strong> (Google)</td><td>Seulement si <em>vous</em> activez les notifications. Il transmet à votre appareil un avis <strong>chiffré pour lui seul</strong> : « Nouveau message de … », ou le sujet d'une tâche qui vous attend (« Une fiche de notes attend votre vérification »). Jamais le texte du message, ni un nom d'élève, ni une note. La déconnexion retire l'appareil.</td></tr>
   </table>
 </section>
 
@@ -120,7 +120,7 @@
 
 <section>
   <h2>Ce que l'application Android demande à votre téléphone</h2>
-  <p>Deux autorisations : <strong>l'accès à Internet</strong>, et <strong>l'appareil photo</strong>. Le téléphone ne pose la question de l'appareil photo que lorsque vous l'ouvrez vous-même : pour le pointage à l'entrée (voir plus haut), ou pour prendre une photo à joindre à un message — seule la photo prise part, comme une pièce jointe. Refusé, il ne manque qu'à ces deux gestes : le matricule se tape, et une image se choisit dans le téléphone.</p>
+  <p>Trois autorisations : <strong>l'accès à Internet</strong>, <strong>l'appareil photo</strong>, et <strong>les notifications</strong>. Les notifications ne sont demandées que si vous les activez vous-même (Paramètres → Compte) : refusées, le téléphone ne sonne simplement pas application fermée. Le téléphone ne pose la question de l'appareil photo que lorsque vous l'ouvrez vous-même : pour le pointage à l'entrée (voir plus haut), ou pour prendre une photo à joindre à un message — seule la photo prise part, comme une pièce jointe. Refusé, il ne manque qu'à ces deux gestes : le matricule se tape, et une image se choisit dans le téléphone.</p>
   <p>Pas la position, pas les contacts, pas le micro, pas vos fichiers. Quand l'école ajoute la photo d'un élève, elle passe par le sélecteur de fichiers du téléphone et choisit elle-même l'image : l'application ne voit que celle-là.</p>
 </section>
 
@@ -191,7 +191,7 @@
   <p>لتسيير المدرسة فقط: التسجيل، والدرجات والكشوف، والمناداة، ومتابعة المدفوعات، وجدول الحصص، ومراسلة الأسر. لا شيء غير ذلك.</p>
 
   <h3>أين تُحفظ</h3>
-  <p><strong>Supabase</strong> يستضيف قاعدة البيانات والملفات. <strong>Cloudflare</strong> يقدّم الموقع ويتلقى نسخة مشفّرة شهريًا. <strong>GitHub</strong> يحفظ النسخة اليومية <strong>مشفّرة</strong> لمدة 90 يومًا. <strong>cdnjs</strong> يزوّد متصفحك بمكتبتين عند التصدير إلى إكسل أو الطباعة، دون أي بيانات مدرسية. <strong>واتساب</strong> لا يُفتح إلا إذا اخترت أنت إرسال رسالة. <strong>خدمة إشعارات متصفحك</strong> (Google أو Apple أو Mozilla أو Microsoft): فقط إن فعّلتَ الإشعارات، تنقل إلى جهازك تنبيهًا <strong>مشفّرًا له وحده</strong> — «رسالة جديدة من …» أو موضوع مهمة تنتظرك («ورقة درجات تنتظر مراجعتك») — دون نص الرسالة أبدًا، ولا اسم تلميذ ولا درجة. ويُزال الجهاز عند تسجيل الخروج.</p>
+  <p><strong>Supabase</strong> يستضيف قاعدة البيانات والملفات. <strong>Cloudflare</strong> يقدّم الموقع ويتلقى نسخة مشفّرة شهريًا. <strong>GitHub</strong> يحفظ النسخة اليومية <strong>مشفّرة</strong> لمدة 90 يومًا. <strong>cdnjs</strong> يزوّد متصفحك بمكتبتين عند التصدير إلى إكسل أو الطباعة، دون أي بيانات مدرسية. <strong>واتساب</strong> لا يُفتح إلا إذا اخترت أنت إرسال رسالة. <strong>خدمة إشعارات متصفحك</strong> (Google أو Apple أو Mozilla أو Microsoft)، وفي تطبيق Android ‏<strong>Firebase Cloud Messaging</strong> من Google: فقط إن فعّلتَ الإشعارات، تنقل إلى جهازك تنبيهًا <strong>مشفّرًا له وحده</strong> — «رسالة جديدة من …» أو موضوع مهمة تنتظرك («ورقة درجات تنتظر مراجعتك») — دون نص الرسالة أبدًا، ولا اسم تلميذ ولا درجة. ويُزال الجهاز عند تسجيل الخروج.</p>
 
   <h3>صفحة الذكاء الاصطناعي التربوي</h3>
   <p>عند توليد درس أو تمارين، يُرسَل إلى خدمة ذكاء اصطناعي (Google أو OpenAI): المستوى والمادة والموضوع والخيارات واسم المدرسة، وإن اختار الأستاذ فصلًا: <strong>مجاميع فقط</strong> — اسم الفصل وعدد تلاميذه ومعدله ونسبة من هم دون المعدل.</p>
@@ -207,7 +207,7 @@
   <p>يحمل الكشف الذي تطبعه المدرسة رمز QR. من يمسحه يرى صفحة عامة، دون حساب، تؤكد أن الكشف صادر فعلًا عن المؤسسة وتذكّر بما طُبع فيه: اسم المدرسة، و<strong>الاسم الشخصي والحرف الأول من اللقب</strong>، والفصل، والسنة، وعنوان الكشف، والمعدل، والتقدير، والترتيب، وتاريخ الإصدار. لا شيء غير ذلك: لا تفاصيل الدرجات ولا التلاميذ الآخرون. كل رمز عشوائي لا يمكن تخمينه، ولا يحمله كشف يطبعه وليّ الأمر أو يُطبع دون اتصال أو يُصدَّر بصيغة Word.</p>
 
   <h3>أذونات تطبيق أندرويد</h3>
-  <p>إذنان فقط: <strong>الاتصال بالإنترنت</strong>، و<strong>الكاميرا</strong>. لا يطلب الهاتف إذن الكاميرا إلا عندما تفتحها بنفسك: لتسجيل الدخول عند البوابة، أو لالتقاط صورة تُرفَق برسالة — ولا تُرسَل إلا الصورة الملتقطة، كأي مرفق. وإن رُفضت لا ينقص إلا هذان الاستعمالان: يُكتب رقم التسجيل، وتُختار الصورة من الهاتف. لا موقع جغرافي ولا جهات اتصال ولا ميكروفون ولا ملفات.</p>
+  <p>ثلاثة أذونات: <strong>الاتصال بالإنترنت</strong>، و<strong>الكاميرا</strong>، و<strong>الإشعارات</strong>. لا تُطلب الإشعارات إلا إن فعّلتها بنفسك (الإعدادات ← الحساب): وإن رُفضت، لا يرنّ الهاتف والتطبيق مغلق، لا أكثر. لا يطلب الهاتف إذن الكاميرا إلا عندما تفتحها بنفسك: لتسجيل الدخول عند البوابة، أو لالتقاط صورة تُرفَق برسالة — ولا تُرسَل إلا الصورة الملتقطة، كأي مرفق. وإن رُفضت لا ينقص إلا هذان الاستعمالان: يُكتب رقم التسجيل، وتُختار الصورة من الهاتف. لا موقع جغرافي ولا جهات اتصال ولا ميكروفون ولا ملفات.</p>
 
   <h3>المدة</h3>
   <p>تبقى البيانات ما دامت المدرسة تستعمل MonEcole. تُحفظ النسخ الاحتياطية المشفّرة <strong>90 يومًا</strong> ثم تُمحى تلقائيًا. وعند طلب المدرسة، تُحذف بياناتها، وتختفي كذلك من النسخ الاحتياطية خلال 90 يومًا على الأكثر.</p>

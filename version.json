@@ -1,10 +1,10 @@
 {
-  "version": "v595",
+  "version": "v596",
   "date": "2026-10-09",
-  "note": "Les choses à traiter (fiche de notes soumise ou à corriger, bulletins, incident, autorisation, mot de passe oublié) arrivent en notification même application fermée, à ceux qui peuvent agir ; l’application Android est prête à les recevoir.",
-  "label": "Notifications à traiter",
-  "label_ar": "إشعارات المهام",
-  "scope": "client+supabase",
+  "note": "L’application Android reçoit les notifications même fermée (messages et choses à traiter) ; la politique de confidentialité annonce l’autorisation des notifications.",
+  "label": "Notifications Android",
+  "label_ar": "إشعارات أندرويد",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-09T20:41:46.000Z"
+  "updated_at": "2026-10-09T21:24:26.000Z"
 }
