@@ -1,10 +1,10 @@
 {
-  "version": "v593",
+  "version": "v594",
   "date": "2026-10-09",
-  "note": "Le Journal décrit les changements en clair (préférences, conditions d’utilisation, noms au lieu des numéros), sans afficher de code. Le rappel d’abonnement se ferme d’une croix jusqu’au lendemain.",
-  "label": "Journal en clair",
-  "label_ar": "سجل واضح",
-  "scope": "client",
+  "note": "Un son et une notification à l’arrivée d’un message ou d’une tâche à traiter ; même application fermée, dans le navigateur et sur l’écran d’accueil, sans jamais montrer le contenu.",
+  "label": "Notifications avec son",
+  "label_ar": "إشعارات بصوت",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-09T18:41:39.000Z"
+  "updated_at": "2026-10-09T19:48:13.000Z"
 }

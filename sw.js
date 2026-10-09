@@ -1,6 +1,6 @@
-const CACHE_NAME = "monecole-vite-v593";
+const CACHE_NAME = "monecole-vite-v594";
 // Remplacé uniquement dans dist/sw.js, après génération de tous les bundles.
-const MANIFEST_SHA256 = "0ae7cc6049a7cec858bfda9857553ec631167cd92c4faf487f4ab0116c8681e9";
+const MANIFEST_SHA256 = "1175ad3658392c3164539c762225d451b0bcf00adff53d7b9b41a13c2a5bdd1f";
 const CACHE_STORAGE_NAME = `${CACHE_NAME}-${MANIFEST_SHA256.slice(0, 16)}`;
 const OFFLINE_MANIFEST_URL = "/offline-manifest.json";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
@@ -168,4 +168,39 @@ self.addEventListener("fetch", event => {
     (url.pathname.startsWith("/assets/") ? caches.match(request) : undefined))
     .then(cached => cached || fetch(request))
     .catch(() => unavailableOffline()));
+});
+
+// v594 — les notifications même application fermée. Le serveur (fonction Edge
+// « notifier-push ») envoie { titre, corps, page, tag }, chiffré pour cet
+// appareil seul. Une notification est toujours affichée : un navigateur retire
+// l'abonnement d'un site qui reçoit sans rien montrer. La même étiquette que la
+// notification de l'application ouverte (« monecole-msg ») : l'une remplace
+// l'autre au lieu de s'empiler.
+const PAGE_SURE = /^[a-z_]{2,30}$/;
+self.addEventListener("push", event => {
+  let donnees = {};
+  try { donnees = event.data ? event.data.json() : {}; } catch (_) { donnees = {}; }
+  const titre = typeof donnees.titre === "string" && donnees.titre ? donnees.titre.slice(0, 80) : "MonEcole";
+  const corps = typeof donnees.corps === "string" ? donnees.corps.slice(0, 200) : "";
+  const page = PAGE_SURE.test(donnees.page || "") ? donnees.page : "";
+  const tag = typeof donnees.tag === "string" && /^[a-z0-9-]{1,40}$/.test(donnees.tag) ? donnees.tag : "monecole";
+  event.waitUntil(self.registration.showNotification(titre, {
+    body: corps, tag, renotify: true, icon: "/icon-192.png", badge: "/icon-192.png", data: { page }
+  }));
+});
+
+// Toucher la notification : l'application déjà ouverte passe au premier plan
+// sur le bon écran ; sinon elle s'ouvre directement dessus (« ?ouvrir= »).
+self.addEventListener("notificationclick", event => {
+  event.notification.close();
+  const demandee = (event.notification.data || {}).page || "";
+  const page = PAGE_SURE.test(demandee) ? demandee : "";
+  event.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(fenetres => {
+    const fenetre = fenetres.find(f => new URL(f.url).origin === self.location.origin);
+    if (fenetre) {
+      if (page) fenetre.postMessage({ type: "monecole-ouvrir", page });
+      return fenetre.focus();
+    }
+    return self.clients.openWindow(page ? `/?ouvrir=${page}` : "/");
+  }));
 });
