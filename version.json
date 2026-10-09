@@ -1,10 +1,10 @@
 {
-  "version": "v592",
+  "version": "v593",
   "date": "2026-10-09",
-  "note": "Le rappel de fin d’abonnement devient une ligne discrète, plus visible la dernière semaine, avec un bouton « Renouveler » qui ouvre l’onglet Abonnement MonEcole. Il s’affiche aussi en arabe.",
-  "label": "Rappel d’abonnement discret",
-  "label_ar": "تذكير هادئ بالاشتراك",
+  "note": "Le Journal décrit les changements en clair (préférences, conditions d’utilisation, noms au lieu des numéros), sans afficher de code. Le rappel d’abonnement se ferme d’une croix jusqu’au lendemain.",
+  "label": "Journal en clair",
+  "label_ar": "سجل واضح",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-09T17:56:15.000Z"
+  "updated_at": "2026-10-09T18:41:39.000Z"
 }
