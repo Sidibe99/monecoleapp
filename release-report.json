@@ -1,10 +1,10 @@
 {
-  "version": "v594",
-  "package_version": "1.0.594",
-  "label": "Notifications avec son",
-  "created_at": "2026-10-09T20:29:11.951Z",
+  "version": "v595",
+  "package_version": "1.0.595",
+  "label": "Notifications à traiter",
+  "created_at": "2026-10-09T21:14:07.655Z",
   "files": 209,
-  "total_bytes": 24671200,
+  "total_bytes": 24676809,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -227,19 +227,19 @@
       "sha256": "382a7ba365c547fb278057f47f85360f5ef8413f7ea97aaae72ac7fe993a962e"
     },
     {
-      "file": "assets/NotificationCenter-legacy-ClzEafdN.js",
-      "bytes": 10221,
-      "sha256": "d5b58882df34f428d426de714a3035eca7e791d8450a4094bfd4e97e8ec15587"
+      "file": "assets/NotificationCenter-D22lGiMV.js",
+      "bytes": 7861,
+      "sha256": "df8fd56ed2c43769a91079976ed0adbf8627856dd05cedb24cf2d58387259c58"
     },
     {
-      "file": "assets/NotificationCenter-x89cYkIQ.js",
-      "bytes": 7722,
-      "sha256": "301def954b279a45ad6e50f9e9db5bee90d2806c25238f4ced85be0e679f2c42"
+      "file": "assets/NotificationCenter-legacy-dLDP54CJ.js",
+      "bytes": 10360,
+      "sha256": "a3b002eaebbc1e257fd7e9552ff5bbaa8c6c743912bda1c2677d4dd3edc4493e"
     },
     {
-      "file": "assets/Parametres-CYLHypCL.js",
+      "file": "assets/Parametres-1J7EoahB.js",
       "bytes": 84954,
-      "sha256": "a1b0fd0a163e64573146c6774bf87b002c564ed2f90bb2b8d209d4e741e993c9"
+      "sha256": "0d3acf76037db3452dd329474d07e7cddcecfd129f025ba5f4b49d4c3c8be119"
     },
     {
       "file": "assets/Parametres-fXxBmwWj.css",
@@ -247,9 +247,9 @@
       "sha256": "00778c07619a6f3bf1fbc96b7e14b52ea2e111e61adb39f908a2eda890e55894"
     },
     {
-      "file": "assets/Parametres-legacy-5hMwaJzA.js",
+      "file": "assets/Parametres-legacy-lrG2Dmmj.js",
       "bytes": 108775,
-      "sha256": "734008ea56023e62b0ac73aeaa02e8f6166eebc682a5c21cc183f58f1d84c8b2"
+      "sha256": "379cc1e47a8fae4763f8c780054eaae170a1e6881c6be2838b83afe51924c6f0"
     },
     {
       "file": "assets/ParentPortalViews-B8hwagiJ.js",
@@ -477,19 +477,19 @@
       "sha256": "bf466078f0d769b01f8acf0078f3d58f44142774e931a587d9c2ce6a77193d5e"
     },
     {
+      "file": "assets/index-BjDZfk90.js",
+      "bytes": 541001,
+      "sha256": "7d9c5304fa40e31f46864f8084ffac2110187aad3640afd4f8136ebf3bf6ae3e"
+    },
+    {
       "file": "assets/index-CifbBMF0.css",
       "bytes": 326346,
       "sha256": "e54fbf5c82144da18cbb096cadbe4e272adbeeef0963aeb1d4274b9ce5b56124"
     },
     {
-      "file": "assets/index-DFe-lbsQ.js",
-      "bytes": 540416,
-      "sha256": "a67593d95cd9e79e7ad805b6975b9fecafdddb8510b8501a1d7a01019012ba39"
-    },
-    {
-      "file": "assets/index-legacy-yUqwZk3_.js",
-      "bytes": 961932,
-      "sha256": "add91d53c2bbe2b4511a1a1d8a1092160237c02c9f7915d6c3972226ebc98cf5"
+      "file": "assets/index-legacy-Bzki0IaG.js",
+      "bytes": 962705,
+      "sha256": "b1e45b6fda52da07ee6e071a2ea8406fe692930a35f6e03ea1eb326b8c781999"
     },
     {
       "file": "assets/index.es-BHS351ie.js",
@@ -647,14 +647,14 @@
       "sha256": "930505354c766d9a2ef3f7a490644406cb860568b295ebcae71db8cdd55c0079"
     },
     {
-      "file": "assets/notifications-push-CoIMwtQ1.js",
-      "bytes": 2125,
-      "sha256": "967a345a5594ecbe6944552ce8e06a876ef9c163b0b2f1c8bfd5cf029dce7d08"
+      "file": "assets/notifications-push-CBZxH0GM.js",
+      "bytes": 3542,
+      "sha256": "25b9acc55bb77137db20ed7a7ee6c2ce9eb96281817744a882af5747010e128c"
     },
     {
-      "file": "assets/notifications-push-legacy-BUAQeqxE.js",
-      "bytes": 5832,
-      "sha256": "a16afa320fa818d651a4fb013107332bd5d267cb811881188ff5b76f6e26459f"
+      "file": "assets/notifications-push-legacy-DdY61g1c.js",
+      "bytes": 8144,
+      "sha256": "e4bc0ab894ff105437345f5bd728358cf51e70f4313e4245e98d7a86f4e949bc"
     },
     {
       "file": "assets/offline-enrollment-files-Cp1NIOd0.js",
@@ -803,8 +803,8 @@
     },
     {
       "file": "confidentialite.html",
-      "bytes": 20338,
-      "sha256": "7542bbc5ee25cdffaf27def72a3988981203f9b2d609fb60274b3cda1d4dcbbd"
+      "bytes": 20524,
+      "sha256": "07af31e36b508256bd4b1ee6023d289bc8fa2fce486f5463352d35065ae07e33"
     },
     {
       "file": "fonts/NotoNaskhArabic-Bold.ttf",
@@ -1004,7 +1004,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "bf14971ec6864053e556933a6e5e4ba89dba154387e7be73c42a92e7997cf47e"
+      "sha256": "c12d75a7b8a54d6cf5c18701891b4c39c0af3a0e77e08bd59776412a8b17e5aa"
     },
     {
       "file": "manifest.webmanifest",
@@ -1014,7 +1014,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 25274,
-      "sha256": "1175ad3658392c3164539c762225d451b0bcf00adff53d7b9b41a13c2a5bdd1f"
+      "sha256": "6cb587fff04e5cb247124a1996063591a7704c7fbcc983599de8e4b72b76ad8e"
     },
     {
       "file": "reset-cache.html",
@@ -1034,7 +1034,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "b2ca95375a58cd4344d8beabc4850f9ae097f2dbcc3a75eb64a64d0ba5869aa1"
+      "sha256": "2bade7531a20b43bafecaa235af537a2d4e23189126714223f8ce09ee029ba3c"
     },
     {
       "file": "v.html",
@@ -1048,8 +1048,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 437,
-      "sha256": "586f29637fd5f7b33c597679384cee5b3633c23ba29b27bcfd655530c6f0b00a"
+      "bytes": 495,
+      "sha256": "f343fa9e17c89306d9e2e82187affc3461fdeba925fceca3d5532afdc3613cf5"
     }
   ]
 }
