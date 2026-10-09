@@ -1,10 +1,10 @@
 {
-  "version": "v589",
+  "version": "v590",
   "date": "2026-10-09",
-  "note": "Calendriers : le calendrier de l’année (rentrée et fin des cours fixées par le ministère, ouverture des inscriptions choisie par l’école, dates des trimestres facultatives), le calendrier des évaluations dans l’Emploi du temps (devoirs, interrogations, compositions, conflits signalés), et l’emploi du temps de l’enfant avec ses prochaines évaluations dans l’espace Parent. Parcours simplifiés : recherche d’un élève dans Paiements, inscription en sections, formulaire Utilisateurs, alertes prioritaires du tableau de bord, recherche dans le menu, messages des Présences. Démarrage plus léger.",
-  "label": "Calendriers et parcours simplifiés",
-  "label_ar": "الرزنامات ومسارات مبسطة",
+  "note": "Emploi du temps établi par la direction : la direction, le censeur et la secrétaire établissent l’emploi du temps et programment les évaluations ; le professeur les consulte. Le cahier de textes s’écrit pendant le cours (de 15 minutes avant à 30 minutes après), aussi hors connexion avec l’heure d’écriture notée. La fiche de l’école n’est modifiable que par la direction ou une délégation de modification.",
+  "label": "Emploi du temps établi par la direction",
+  "label_ar": "جدول الحصص تضعه الإدارة",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-09T13:42:05.000Z"
+  "updated_at": "2026-10-09T15:22:37.000Z"
 }
