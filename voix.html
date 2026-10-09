@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; connect-src 'self' https://*.supabase.co; media-src blob: https://*.supabase.co; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self';" />
+  <title>Voix des parents — MonEcole</title>
+  <!--
+    MonEcole v598 — enregistrer les phrases de l'espace Parent dans une langue
+    nationale. Ouverte par un lien envoyé depuis l'espace éditeur :
+    monecoleapp.com/voix.html#<jeton>. Le jeton reste dans le fragment (#) :
+    il ne part jamais dans une requête vers le site, seulement vers la
+    fonction voix-enregistrement, qui le vérifie.
+  -->
+  <style>
+    :root{--fond:#f4f6fb;--carte:#fff;--texte:#0f172a;--texte2:#475569;--texte3:#64748b;--bord:#e2e8f0;--marque:#1a56db;--ok:#047857;--okfond:#d1fae5;--rouge:#dc2626;--attention:#b45309;}
+    @media (prefers-color-scheme:dark){:root{--fond:#0b1120;--carte:#111a2e;--texte:#e2e8f0;--texte2:#cbd5e1;--texte3:#94a3b8;--bord:#23314d;--okfond:#064e3b;--ok:#6ee7b7;}}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--fond);color:var(--texte);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+    main{max-width:560px;margin:0 auto;padding:16px 16px calc(32px + env(safe-area-inset-bottom))}
+    header{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+    .logo{width:38px;height:38px;border-radius:11px;background:var(--marque);color:#fff;display:grid;place-items:center;font-weight:900;font-size:13px;flex-shrink:0}
+    h1{font-size:17px;margin:0}
+    .sous{font-size:12.5px;color:var(--texte3);margin-top:2px}
+    .carte{background:var(--carte);border:1px solid var(--bord);border-radius:16px;padding:16px;margin-bottom:12px}
+    .progres{height:8px;background:var(--bord);border-radius:99px;overflow:hidden;margin-top:8px}
+    .progres span{display:block;height:100%;background:var(--ok);width:0;transition:width .3s}
+    .section{font-size:11.5px;font-weight:800;color:var(--marque);text-transform:uppercase;letter-spacing:.04em}
+    .phrase{font-size:21px;font-weight:750;line-height:1.4;margin:8px 0 6px}
+    .conseil{font-size:13px;color:var(--attention);line-height:1.5;margin:6px 0 0}
+    .statut{display:inline-block;margin-top:10px;font-size:12.5px;font-weight:800;padding:5px 10px;border-radius:99px;background:var(--bord);color:var(--texte2)}
+    .statut.ok{background:var(--okfond);color:var(--ok)}
+    .enregistrer{display:flex;flex-direction:column;align-items:center;gap:10px;margin:18px 0 6px}
+    .rond{width:96px;height:96px;border-radius:50%;border:none;background:var(--rouge);color:#fff;font-size:15px;font-weight:900;cursor:pointer;box-shadow:0 10px 24px -12px rgba(220,38,38,.8)}
+    .rond.actif{animation:pulse 1.2s infinite;background:#991b1b}
+    @keyframes pulse{50%{transform:scale(1.06)}}
+    @media (prefers-reduced-motion:reduce){.rond.actif{animation:none}}
+    .rond:disabled{opacity:.45;cursor:not-allowed}
+    .chrono{font-size:13px;color:var(--texte3);min-height:18px}
+    .actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:6px}
+    button.b{min-height:46px;padding:10px 16px;border-radius:12px;border:1px solid var(--bord);background:var(--carte);color:var(--texte);font-size:15px;font-weight:750;cursor:pointer}
+    button.b.principal{background:var(--ok);border-color:var(--ok);color:#fff}
+    button.b:disabled{opacity:.45;cursor:not-allowed}
+    nav.pas{display:flex;justify-content:space-between;gap:8px;margin-top:14px}
+    nav.pas button{flex:1}
+    details summary{cursor:pointer;font-weight:800;font-size:14px}
+    ol{padding-left:20px;margin:10px 0 0}
+    ol li{margin:6px 0;font-size:13.5px;line-height:1.45}
+    ul.liste{list-style:none;padding:0;margin:10px 0 0}
+    ul.liste li button{width:100%;text-align:left;border:none;background:none;color:var(--texte);font-size:13.5px;padding:9px 4px;border-bottom:1px solid var(--bord);cursor:pointer;display:flex;gap:8px}
+    ul.liste li button .coche{width:18px;flex-shrink:0;color:var(--ok);font-weight:900}
+    .message{font-size:14px;line-height:1.55}
+    .erreur{color:var(--rouge);font-weight:700}
+    [hidden]{display:none!important}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true">ME</div>
+    <div><h1>Voix des parents</h1><div class="sous" id="langue">MonEcole</div></div>
+  </header>
+
+  <div class="carte message" id="attente">Chargement…</div>
+
+  <div id="app" hidden>
+    <div class="carte">
+      <div style="display:flex;justify-content:space-between;font-size:13px;font-weight:800"><span>Phrases enregistrées</span><span id="compte">0 / 0</span></div>
+      <div class="progres" aria-hidden="true"><span id="barre"></span></div>
+      <details style="margin-top:12px"><summary>Comment faire</summary><ol id="consignes"></ol></details>
+    </div>
+
+    <div class="carte" id="carte-phrase">
+      <div class="section" id="section"></div>
+      <div class="phrase" id="phrase" lang="fr"></div>
+      <p class="conseil" id="conseil" hidden></p>
+      <span class="statut" id="statut">Pas encore enregistrée</span>
+
+      <div class="enregistrer">
+        <button type="button" class="rond" id="rond" aria-label="Commencer l’enregistrement">● Parler</button>
+        <div class="chrono" id="chrono" aria-live="polite"></div>
+      </div>
+      <div class="actions">
+        <button type="button" class="b" id="reecouter" hidden>▶ Réécouter</button>
+        <button type="button" class="b principal" id="garder" hidden>✓ Garder</button>
+        <button type="button" class="b" id="ecouter-serveur" hidden>▶ Écouter l’enregistrement gardé</button>
+      </div>
+      <div class="message erreur" id="erreur" role="alert" hidden></div>
+
+      <nav class="pas">
+        <button type="button" class="b" id="precedente">← Précédente</button>
+        <button type="button" class="b" id="suivante">Suivante →</button>
+      </nav>
+    </div>
+
+    <div class="carte">
+      <details><summary>Toutes les phrases</summary><ul class="liste" id="liste"></ul></details>
+    </div>
+  </div>
+</main>
+<script>
+(()=>{
+  "use strict";
+  const API="https://durbgghxbbhqtxncpdcq.supabase.co/functions/v1/voix-enregistrement";
+  const DUREE_MAX=20;
+  const jeton=(location.hash||"").slice(1);
+  const $=id=>document.getElementById(id);
+  const etat={phrases:[],enregistrees:new Set(),index:0,flux:null,enregistreur:null,morceaux:[],brouillon:null,typeBrouillon:"",minuteur:0,debut:0,occupe:false};
+
+  const afficherErreur=texte=>{const e=$("erreur");e.textContent=texte||"";e.hidden=!texte;};
+  const appeler=async corps=>{
+    const reponse=await fetch(API,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({jeton,...corps})});
+    const donnees=await reponse.json().catch(()=>({}));
+    if(!reponse.ok)throw new Error(donnees.error||"Le serveur ne répond pas. Vérifiez la connexion, puis réessayez.");
+    return donnees;
+  };
+
+  // Le format que ce navigateur sait enregistrer : WebM/Opus (Chrome, Android),
+  // MP4/AAC (Safari, iPhone).
+  const typeEnregistrement=()=>{
+    if(typeof MediaRecorder==="undefined")return null;
+    for(const type of ["audio/webm;codecs=opus","audio/webm","audio/mp4","audio/ogg;codecs=opus"]){
+      try{if(MediaRecorder.isTypeSupported(type))return type;}catch(_){}
+    }
+    return "";
+  };
+
+  const prochaineManquante=depuis=>{
+    for(let pas=1;pas<=etat.phrases.length;pas++){
+      const i=(depuis+pas)%etat.phrases.length;
+      if(!etat.enregistrees.has(etat.phrases[i].cle))return i;
+    }
+    return depuis;
+  };
+
+  const oublierBrouillon=()=>{
+    if(etat.brouillon&&etat.brouillon.url)URL.revokeObjectURL(etat.brouillon.url);
+    etat.brouillon=null;
+  };
+
+  const rendre=()=>{
+    const total=etat.phrases.length,faites=etat.phrases.filter(p=>etat.enregistrees.has(p.cle)).length;
+    $("compte").textContent=`${faites} / ${total}`;
+    $("barre").style.width=total?`${Math.round(faites/total*100)}%`:"0";
+    const p=etat.phrases[etat.index];
+    $("section").textContent=`${p.section} · phrase ${etat.index+1} sur ${total}`;
+    $("phrase").textContent=p.fr;
+    $("conseil").textContent=p.conseil||"";$("conseil").hidden=!p.conseil;
+    const gardee=etat.enregistrees.has(p.cle);
+    $("statut").textContent=gardee?"✓ Enregistrée":"Pas encore enregistrée";
+    $("statut").className=gardee?"statut ok":"statut";
+    const enCours=!!(etat.enregistreur&&etat.enregistreur.state==="recording");
+    $("rond").classList.toggle("actif",enCours);
+    $("rond").textContent=enCours?"■ Arrêter":(etat.brouillon||gardee?"● Refaire":"● Parler");
+    $("rond").setAttribute("aria-label",enCours?"Arrêter l’enregistrement":"Commencer l’enregistrement");
+    $("rond").disabled=etat.occupe;
+    $("reecouter").hidden=!etat.brouillon||enCours;
+    $("garder").hidden=!etat.brouillon||enCours;
+    $("garder").disabled=etat.occupe;
+    $("ecouter-serveur").hidden=!gardee||!!etat.brouillon||enCours;
+    $("precedente").disabled=enCours||etat.index===0;
+    $("suivante").disabled=enCours;
+    const liste=$("liste");liste.textContent="";
+    etat.phrases.forEach((phrase,i)=>{
+      const li=document.createElement("li"),b=document.createElement("button"),coche=document.createElement("span"),texte=document.createElement("span");
+      b.type="button";coche.className="coche";coche.textContent=etat.enregistrees.has(phrase.cle)?"✓":"";
+      texte.textContent=`${i+1}. ${phrase.fr}`;if(i===etat.index)texte.style.fontWeight="800";
+      b.append(coche,texte);b.addEventListener("click",()=>aller(i));li.append(b);liste.append(li);
+    });
+  };
+
+  const aller=i=>{
+    if(etat.enregistreur&&etat.enregistreur.state==="recording")return;
+    oublierBrouillon();afficherErreur("");
+    etat.index=Math.max(0,Math.min(etat.phrases.length-1,i));
+    rendre();
+    $("carte-phrase").scrollIntoView({block:"start",behavior:"smooth"});
+  };
+
+  const arreter=()=>{
+    clearInterval(etat.minuteur);
+    if(etat.enregistreur&&etat.enregistreur.state==="recording")etat.enregistreur.stop();
+  };
+
+  const commencer=async()=>{
+    afficherErreur("");
+    const type=typeEnregistrement();
+    if(type===null){afficherErreur("Ce navigateur ne sait pas enregistrer. Ouvrez ce lien dans Chrome (Android) ou Safari (iPhone), à jour.");return;}
+    try{
+      if(!etat.flux)etat.flux=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
+    }catch(_){
+      afficherErreur("Le micro est refusé. Autorisez le micro pour ce site dans les réglages du navigateur, puis rechargez la page.");return;
+    }
+    oublierBrouillon();
+    etat.morceaux=[];
+    etat.enregistreur=type?new MediaRecorder(etat.flux,{mimeType:type}):new MediaRecorder(etat.flux);
+    etat.enregistreur.ondataavailable=e=>{if(e.data&&e.data.size)etat.morceaux.push(e.data);};
+    etat.enregistreur.onstop=()=>{
+      const typeFinal=(etat.enregistreur.mimeType||type||"audio/webm").split(";")[0];
+      const blob=new Blob(etat.morceaux,{type:typeFinal});
+      etat.brouillon=blob.size>800?{blob,url:URL.createObjectURL(blob),type:typeFinal}:null;
+      if(!etat.brouillon)afficherErreur("Rien n’a été entendu. Rapprochez le téléphone de votre bouche et recommencez.");
+      $("chrono").textContent=etat.brouillon?"Réécoutez, puis gardez ou recommencez.":"";
+      rendre();
+    };
+    etat.enregistreur.start();
+    etat.debut=Date.now();
+    $("chrono").textContent=`0 s / ${DUREE_MAX} s`;
+    etat.minuteur=setInterval(()=>{
+      const s=Math.floor((Date.now()-etat.debut)/1000);
+      $("chrono").textContent=`${s} s / ${DUREE_MAX} s`;
+      if(s>=DUREE_MAX)arreter();
+    },250);
+    rendre();
+  };
+
+  const enBase64=blob=>new Promise((ok,ko)=>{const r=new FileReader();r.onload=()=>ok(String(r.result).split(",")[1]||"");r.onerror=()=>ko(r.error);r.readAsDataURL(blob);});
+
+  const garder=async()=>{
+    if(!etat.brouillon||etat.occupe)return;
+    etat.occupe=true;afficherErreur("");$("garder").textContent="Envoi…";rendre();
+    try{
+      const p=etat.phrases[etat.index];
+      await appeler({action:"deposer",cle:p.cle,type:etat.brouillon.type,audio:await enBase64(etat.brouillon.blob)});
+      etat.enregistrees.add(p.cle);
+      oublierBrouillon();
+      $("chrono").textContent="✓ Gardée. Phrase suivante :";
+      etat.occupe=false;$("garder").textContent="✓ Garder";
+      etat.index=prochaineManquante(etat.index);
+      rendre();
+    }catch(e){
+      etat.occupe=false;$("garder").textContent="✓ Garder";
+      afficherErreur(e.message);rendre();
+    }
+  };
+
+  const jouer=url=>{const a=new Audio(url);a.play().catch(()=>afficherErreur("Lecture impossible sur cet appareil."));};
+
+  $("rond").addEventListener("click",()=>{if(etat.enregistreur&&etat.enregistreur.state==="recording")arreter();else commencer();});
+  $("reecouter").addEventListener("click",()=>{if(etat.brouillon)jouer(etat.brouillon.url);});
+  $("garder").addEventListener("click",garder);
+  $("ecouter-serveur").addEventListener("click",async()=>{
+    try{const {url}=await appeler({action:"ecouter",cle:etat.phrases[etat.index].cle});jouer(url);}catch(e){afficherErreur(e.message);}
+  });
+  $("precedente").addEventListener("click",()=>aller(etat.index-1));
+  $("suivante").addEventListener("click",()=>aller(etat.index+1>=etat.phrases.length?0:etat.index+1));
+
+  const demarrer=async()=>{
+    if(!/^[A-Za-z0-9_-]{32}$/.test(jeton)){$("attente").textContent="Ce lien n’est pas complet. Ouvrez le lien reçu en entier, sans le modifier.";return;}
+    try{
+      const [doc,serveur]=await Promise.all([
+        fetch("/voix/phrases.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("Liste des phrases indisponible.");return r.json();}),
+        appeler({action:"etat"}),
+      ]);
+      etat.phrases=doc.phrases||[];
+      etat.enregistrees=new Set(serveur.enregistrees||[]);
+      const langue=(doc.langues||[]).find(l=>l.code===serveur.langue);
+      $("langue").textContent=`Langue : ${langue?langue.nom:serveur.langue} · MonEcole`;
+      (doc.consignes||[]).forEach(c=>{const li=document.createElement("li");li.textContent=c;$("consignes").append(li);});
+      etat.index=etat.enregistrees.has(etat.phrases[0]?.cle)?prochaineManquante(0):0;
+      $("attente").hidden=true;$("app").hidden=false;
+      rendre();
+    }catch(e){$("attente").textContent=e.message;}
+  };
+  demarrer();
+})();
+</script>
+</body>
+</html>

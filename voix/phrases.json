@@ -1,0 +1,395 @@
+{
+ "version": 1,
+ "consignes": [
+  "Lisez la phrase en français, puis dites-la dans votre langue, naturellement, comme vous la diriez à un parent.",
+  "Parlez lentement et clairement, téléphone à une main de la bouche, dans un endroit calme.",
+  "Quand la phrase finit par deux points (« : »), dites seulement ces mots : la valeur est ajoutée ensuite.",
+  "Réécoutez chaque enregistrement. S’il ne vous plaît pas, recommencez : seul le dernier est gardé."
+ ],
+ "langues": [
+  {
+   "code": "pular",
+   "nom": "Pular",
+   "region": "Moyenne-Guinée"
+  },
+  {
+   "code": "maninka",
+   "nom": "Maninka",
+   "region": "Haute-Guinée"
+  },
+  {
+   "code": "soussou",
+   "nom": "Soussou",
+   "region": "Guinée maritime"
+  },
+  {
+   "code": "kissi",
+   "nom": "Kissi",
+   "region": "Guinée forestière"
+  },
+  {
+   "code": "kpelle",
+   "nom": "Kpèlè (guerzé)",
+   "region": "Guinée forestière"
+  },
+  {
+   "code": "toma",
+   "nom": "Toma (loma)",
+   "region": "Guinée forestière"
+  }
+ ],
+ "phrases": [
+  {
+   "cle": "bienvenue",
+   "section": "Bienvenue",
+   "fr": "Bienvenue dans l’espace Parent de MonEcole. Ici, vous suivez vos enfants : leurs résultats, leurs présences, leurs paiements et leur emploi du temps."
+  },
+  {
+   "cle": "ecouter_aide",
+   "section": "Bienvenue",
+   "fr": "Appuyez sur le haut-parleur à côté d’un message pour l’écouter."
+  },
+  {
+   "cle": "bonjour",
+   "section": "Bienvenue",
+   "fr": "Bonjour."
+  },
+  {
+   "cle": "merci",
+   "section": "Bienvenue",
+   "fr": "Merci."
+  },
+  {
+   "cle": "aucun_enfant",
+   "section": "Bienvenue",
+   "fr": "Aucun enfant n’est encore lié à votre compte. Contactez la direction de l’école."
+  },
+  {
+   "cle": "enfant",
+   "section": "Bienvenue",
+   "fr": "Enfant :",
+   "conseil": "Dites seulement ces mots : la valeur (le nom de l’enfant) est dite juste après, en français."
+  },
+  {
+   "cle": "classe",
+   "section": "Bienvenue",
+   "fr": "Classe :",
+   "conseil": "Dites seulement ces mots : la valeur (le nom de la classe) est dite juste après, en français."
+  },
+  {
+   "cle": "page_resultats",
+   "section": "Les pages",
+   "fr": "Ici, les résultats et les bulletins de votre enfant, publiés par la direction de l’école."
+  },
+  {
+   "cle": "page_presences",
+   "section": "Les pages",
+   "fr": "Ici, les présences de votre enfant : ses absences, ses retards et ses arrivées à l’école."
+  },
+  {
+   "cle": "page_paiements",
+   "section": "Les pages",
+   "fr": "Ici, les paiements de la scolarité : ce qui a été payé, et ce qui reste à payer."
+  },
+  {
+   "cle": "page_emploi",
+   "section": "Les pages",
+   "fr": "Ici, l’emploi du temps de la classe de votre enfant, et les prochaines évaluations."
+  },
+  {
+   "cle": "page_messagerie",
+   "section": "Les pages",
+   "fr": "Ici, vous pouvez écrire à la direction de l’école et lire ses réponses."
+  },
+  {
+   "cle": "page_aide",
+   "section": "Les pages",
+   "fr": "Ici, vous trouvez de l’aide pour utiliser MonEcole, et le numéro de l’assistance."
+  },
+  {
+   "cle": "absent_aujourdhui",
+   "section": "Présences",
+   "fr": "Votre enfant est absent aujourd’hui."
+  },
+  {
+   "cle": "absence_le",
+   "section": "Présences",
+   "fr": "Votre enfant a été absent le :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "absence_justifiee",
+   "section": "Présences",
+   "fr": "Cette absence est justifiée."
+  },
+  {
+   "cle": "absence_non_justifiee",
+   "section": "Présences",
+   "fr": "Cette absence n’est pas justifiée. Merci de contacter l’école."
+  },
+  {
+   "cle": "retard",
+   "section": "Présences",
+   "fr": "Votre enfant est arrivé en retard."
+  },
+  {
+   "cle": "arrivee_a",
+   "section": "Présences",
+   "fr": "Votre enfant est arrivé à l’école à :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "aucune_absence",
+   "section": "Présences",
+   "fr": "Votre enfant n’a aucune absence."
+  },
+  {
+   "cle": "nombre_absences",
+   "section": "Présences",
+   "fr": "Nombre d’absences :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "permission_accordee",
+   "section": "Présences",
+   "fr": "Une permission a été accordée à votre enfant."
+  },
+  {
+   "cle": "bulletin_disponible",
+   "section": "Résultats",
+   "fr": "Le bulletin de votre enfant est disponible."
+  },
+  {
+   "cle": "aucun_bulletin",
+   "section": "Résultats",
+   "fr": "Aucun bulletin n’est encore publié pour cette période."
+  },
+  {
+   "cle": "periode",
+   "section": "Résultats",
+   "fr": "Période :",
+   "conseil": "Dites seulement ces mots : la valeur (le trimestre ou le semestre) est dite juste après, en français."
+  },
+  {
+   "cle": "moyenne",
+   "section": "Résultats",
+   "fr": "Moyenne générale :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "rang",
+   "section": "Résultats",
+   "fr": "Rang dans la classe :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "passe",
+   "section": "Résultats",
+   "fr": "Votre enfant passe en classe supérieure. Félicitations."
+  },
+  {
+   "cle": "redouble",
+   "section": "Résultats",
+   "fr": "Votre enfant redouble sa classe."
+  },
+  {
+   "cle": "felicitations",
+   "section": "Résultats",
+   "fr": "Félicitations pour ces résultats."
+  },
+  {
+   "cle": "encouragements",
+   "section": "Résultats",
+   "fr": "Ces résultats méritent des encouragements."
+  },
+  {
+   "cle": "travail_insuffisant",
+   "section": "Résultats",
+   "fr": "Le travail est insuffisant. Merci d’en parler avec votre enfant et avec l’école."
+  },
+  {
+   "cle": "appreciations",
+   "section": "Résultats",
+   "fr": "Les appréciations des professeurs sont écrites sur le bulletin."
+  },
+  {
+   "cle": "paiement_enregistre",
+   "section": "Paiements",
+   "fr": "Un paiement a été enregistré pour votre enfant."
+  },
+  {
+   "cle": "montant_paye",
+   "section": "Paiements",
+   "fr": "Montant payé :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "reste_a_payer",
+   "section": "Paiements",
+   "fr": "Reste à payer :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "francs",
+   "section": "Paiements",
+   "fr": "francs guinéens",
+   "conseil": "Dites seulement la monnaie, telle qu’on la dit après un montant."
+  },
+  {
+   "cle": "tout_paye",
+   "section": "Paiements",
+   "fr": "La scolarité de votre enfant est entièrement payée. Merci."
+  },
+  {
+   "cle": "reste_scolarite",
+   "section": "Paiements",
+   "fr": "Il reste un montant à payer pour la scolarité de votre enfant. Merci de passer à l’école."
+  },
+  {
+   "cle": "reste_inscription",
+   "section": "Paiements",
+   "fr": "Les frais d’inscription ne sont pas encore entièrement payés."
+  },
+  {
+   "cle": "impayes_passes",
+   "section": "Paiements",
+   "fr": "Il reste des impayés des années passées."
+  },
+  {
+   "cle": "recu_disponible",
+   "section": "Paiements",
+   "fr": "Le reçu est disponible. Vous pouvez le montrer à l’école."
+  },
+  {
+   "cle": "aucun_paiement",
+   "section": "Paiements",
+   "fr": "Aucun paiement n’est encore enregistré."
+  },
+  {
+   "cle": "echeance",
+   "section": "Paiements",
+   "fr": "Date limite de paiement :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "cours_semaine",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Voici les cours de la semaine de votre enfant."
+  },
+  {
+   "cle": "emploi_pas_saisi",
+   "section": "Emploi du temps et évaluations",
+   "fr": "L’emploi du temps n’a pas encore été saisi par l’école."
+  },
+  {
+   "cle": "devoir_prevu",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Un devoir est prévu."
+  },
+  {
+   "cle": "interrogation_prevue",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Une interrogation est prévue."
+  },
+  {
+   "cle": "composition_prevue",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Une composition est prévue. Aidez votre enfant à bien réviser."
+  },
+  {
+   "cle": "evaluation_le",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Date de l’évaluation :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "matiere",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Matière :",
+   "conseil": "Dites seulement ces mots : la valeur (le nom de la matière) est dite juste après, en français."
+  },
+  {
+   "cle": "aucune_evaluation",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Aucune évaluation n’est prévue pour le moment."
+  },
+  {
+   "cle": "rentree_le",
+   "section": "Emploi du temps et évaluations",
+   "fr": "La rentrée des classes est le :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "fin_cours_le",
+   "section": "Emploi du temps et évaluations",
+   "fr": "Les cours se terminent le :",
+   "conseil": "Dites seulement ces mots : la valeur (chiffre, date ou heure) est dite juste après, en français."
+  },
+  {
+   "cle": "incident_enregistre",
+   "section": "Discipline et autorisations",
+   "fr": "L’école a enregistré un incident concernant votre enfant."
+  },
+  {
+   "cle": "avertissement",
+   "section": "Discipline et autorisations",
+   "fr": "Votre enfant a reçu un avertissement."
+  },
+  {
+   "cle": "sanction",
+   "section": "Discipline et autorisations",
+   "fr": "Votre enfant a reçu une sanction."
+  },
+  {
+   "cle": "convocation",
+   "section": "Discipline et autorisations",
+   "fr": "Vous êtes convoqué à l’école. Merci de vous présenter à la direction."
+  },
+  {
+   "cle": "autorisation_accordee",
+   "section": "Discipline et autorisations",
+   "fr": "La demande d’autorisation a été accordée."
+  },
+  {
+   "cle": "autorisation_refusee",
+   "section": "Discipline et autorisations",
+   "fr": "La demande d’autorisation a été refusée."
+  },
+  {
+   "cle": "motif",
+   "section": "Discipline et autorisations",
+   "fr": "Motif :",
+   "conseil": "Dites seulement ces mots : la valeur (le motif) est dite juste après, en français."
+  },
+  {
+   "cle": "nouveau_message",
+   "section": "Messages",
+   "fr": "Vous avez reçu un nouveau message de l’école."
+  },
+  {
+   "cle": "ecrire_ecole",
+   "section": "Messages",
+   "fr": "Pour écrire à l’école, tapez votre message en bas de l’écran, puis appuyez sur Envoyer."
+  },
+  {
+   "cle": "message_envoye",
+   "section": "Messages",
+   "fr": "Votre message a été envoyé à l’école."
+  },
+  {
+   "cle": "hors_connexion",
+   "section": "Connexion",
+   "fr": "Pas de connexion Internet. Les informations affichées sont peut-être anciennes."
+  },
+  {
+   "cle": "chargement",
+   "section": "Connexion",
+   "fr": "Chargement en cours. Patientez un instant."
+  },
+  {
+   "cle": "reconnexion",
+   "section": "Connexion",
+   "fr": "Votre session a expiré. Reconnectez-vous avec votre identifiant et votre mot de passe."
+  }
+ ]
+}

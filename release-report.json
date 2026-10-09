@@ -1,10 +1,10 @@
 {
-  "version": "v597",
-  "package_version": "1.0.597",
-  "label": "Réinscriptions exactes",
-  "created_at": "2026-10-09T22:14:08.595Z",
-  "files": 209,
-  "total_bytes": 24677211,
+  "version": "v598",
+  "package_version": "1.0.598",
+  "label": "Voix des parents",
+  "created_at": "2026-10-09T23:05:32.132Z",
+  "files": 213,
+  "total_bytes": 24721750,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -102,14 +102,14 @@
       "sha256": "814f36ea05d47a69e0fab9d29960afa2d93dc0c04ca0c7f851889e47ba9ed940"
     },
     {
-      "file": "assets/EditorHub-U6-gFqLe.js",
-      "bytes": 52094,
-      "sha256": "f90377a52a39e55001b2ce1b7458131c7b9e4d2a4b5f712dd8a745dd84c4197a"
+      "file": "assets/EditorHub-BYlB-xAv.js",
+      "bytes": 52504,
+      "sha256": "c867a9f8c1d8a866bea2cd6ad09aaf117ddb4244eaffc9617b87ee266b724fad"
     },
     {
-      "file": "assets/EditorHub-legacy-DKWXYRNu.js",
-      "bytes": 66579,
-      "sha256": "5beca99319ee5e7e8b5536b2275079775a527cda7f850fadd8f8d15a43eb6e5d"
+      "file": "assets/EditorHub-legacy-CAmRu2lM.js",
+      "bytes": 66972,
+      "sha256": "b6ba64e75a07529d23655ac07e0d26fd459865c15c831312d61b799aa084f6e3"
     },
     {
       "file": "assets/ElevesPage-D-cD5kvL.css",
@@ -367,6 +367,16 @@
       "sha256": "99088442bcf076760bc1b76146dfdc6ff46265c1498f548a05ece50bfb472d09"
     },
     {
+      "file": "assets/VoixParentsCard-B-2jdDRA.js",
+      "bytes": 5364,
+      "sha256": "d1884990bf177a4af678e07551c0133ab5dc5c30c6804d7cfabe0c7bcbef6be5"
+    },
+    {
+      "file": "assets/VoixParentsCard-legacy-DiJdNkFh.js",
+      "bytes": 11790,
+      "sha256": "0d3add2bc68439971bc74566027001931a202fc472b2581fb7e1e5dd9261c8b9"
+    },
+    {
       "file": "assets/active-role-switch-DjmgABIi.js",
       "bytes": 971,
       "sha256": "e15f9264a77ce882f39bd7d687f17e3ba370ac895cf76bba4a64b2a16c58413f"
@@ -482,14 +492,14 @@
       "sha256": "e54fbf5c82144da18cbb096cadbe4e272adbeeef0963aeb1d4274b9ce5b56124"
     },
     {
-      "file": "assets/index-legacy-CjwLnY5Z.js",
-      "bytes": 962453,
-      "sha256": "59f25c4bcb80559ee5c316da67ed52a17a78677b095f92e0949a2f682fdc9d11"
+      "file": "assets/index-ILpmNjJQ.js",
+      "bytes": 540746,
+      "sha256": "eb8e1c116ab7bc3c996903adc95bb97c9275923293f14f067bf67ffc7783cd19"
     },
     {
-      "file": "assets/index-r8sXxMuH.js",
-      "bytes": 540746,
-      "sha256": "78cb7266de05cc7c8892ddd18b881bc32e380ae3f611f97c88724c9013c7c57a"
+      "file": "assets/index-legacy-cR5W-KIo.js",
+      "bytes": 962453,
+      "sha256": "5e76dfae1c45c1b5af98806001c8d8429e100da5cbe216ac8195ab18812715e6"
     },
     {
       "file": "assets/index.es-lOMu6z5N.js",
@@ -1004,7 +1014,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "0854ee2d99c5292041e87f0e58ac1d1bb90d893d123c544d4e72d0256cb9c9e2"
+      "sha256": "c7f3210d336cbbc34d9c33c01b944399ba1641236e26bb5a65e8a0fbaa3d0bcc"
     },
     {
       "file": "manifest.webmanifest",
@@ -1013,8 +1023,8 @@
     },
     {
       "file": "offline-manifest.json",
-      "bytes": 25274,
-      "sha256": "f5058a3f9467c3f9450ff0737ce07f3ffc2160496f7516234c427c32c0a2bccf"
+      "bytes": 25592,
+      "sha256": "053b64944377daf9df2acad7f694c53edb2b8e5691f087d6e06b8d188b41f1cb"
     },
     {
       "file": "reset-cache.html",
@@ -1034,7 +1044,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "9d8f052abf7b8ab0c434a9b16be0565f345d30dc4ff59e79e909bde2ef93b350"
+      "sha256": "86bbc55199f27c3ef6645b9891d77feaf1af3f55462ea7209bd17ff9441b6592"
     },
     {
       "file": "v.html",
@@ -1048,8 +1058,18 @@
     },
     {
       "file": "version.json",
-      "bytes": 398,
-      "sha256": "c4e96bec00ddd3275b98ce1034b2cb7eb6dee075ab43a32613eec1fecd8c0f3b"
+      "bytes": 421,
+      "sha256": "eb9c6b012e22df50b291b4c8dea32805278ae99150216bd92139bbd9120e7090"
+    },
+    {
+      "file": "voix/phrases.json",
+      "bytes": 11550,
+      "sha256": "f64543a3537ec242dfc4b2129b40bf9aea326198937ac3cd04e9a57645f6ccef"
+    },
+    {
+      "file": "voix.html",
+      "bytes": 14691,
+      "sha256": "5e916311839344fc2a3b357a979c3b21248626dcecd59df151992de194c33663"
     }
   ]
 }
