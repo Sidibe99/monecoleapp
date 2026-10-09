@@ -1,10 +1,10 @@
 {
-  "version": "v590",
+  "version": "v591",
   "date": "2026-10-09",
-  "note": "Emploi du temps établi par la direction : la direction, le censeur et la secrétaire établissent l’emploi du temps et programment les évaluations ; le professeur les consulte. Le cahier de textes s’écrit pendant le cours (de 15 minutes avant à 30 minutes après), aussi hors connexion avec l’heure d’écriture notée. La fiche de l’école n’est modifiable que par la direction ou une délégation de modification.",
-  "label": "Emploi du temps établi par la direction",
-  "label_ar": "جدول الحصص تضعه الإدارة",
-  "scope": "client+supabase",
+  "note": "L’onglet « Formules » s’appelle désormais « Abonnement MonEcole », pour ne pas le confondre avec les finances de l’école. Sur la fiche Personnel, « Autres fonctions » accompagne la fonction principale sans la répéter.",
+  "label": "Onglet Abonnement MonEcole",
+  "label_ar": "تبويب اشتراك MonEcole",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-09T15:22:37.000Z"
+  "updated_at": "2026-10-09T17:22:56.000Z"
 }
