@@ -1,10 +1,10 @@
 {
-  "version": "v606",
+  "version": "v607",
   "date": "2026-10-10",
-  "note": "Le tableau de bord gagne « Résumé du jour » : la journée en quelques phrases, à lire ou à écouter. « Lire cette page » dans les outils rapides et « Écouter » dans le centre de notifications. La voix est celle de l’appareil : aucune intelligence artificielle, rien n’est envoyé.",
-  "label": "Le tableau de bord se lit à voix haute",
-  "label_ar": "لوحة القيادة تُقرأ بصوت مرتفع",
+  "note": "La lecture à voix haute dit les années, les montants, les dates et les heures en entier, avec la meilleure voix installée sur l’appareil. Dans Établissement, sur téléphone, la barre d’enregistrement reste au bas de l’écran sans recouvrir la page.",
+  "label": "La voix lit les nombres en entier",
+  "label_ar": "الصوت يقرأ الأعداد كاملة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T19:30:00.000Z"
+  "updated_at": "2026-10-10T21:30:00.000Z"
 }
