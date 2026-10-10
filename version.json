@@ -1,10 +1,10 @@
 {
-  "version": "v601",
-  "date": "2026-10-09",
-  "note": "Les nombres, les jours et les mois peuvent s’enregistrer en pular : dès qu’ils le sont, les montants, les absences et les dates se disent dans la langue du parent, plus en français.",
-  "label": "Nombres en pular",
-  "label_ar": "أرقام بالبولارية",
+  "version": "v602",
+  "date": "2026-10-10",
+  "note": "Dans Utilisateurs, la fonction principale du compte se choisit d’abord, les autres fonctions ensuite, comme sur la fiche Personnel.",
+  "label": "Compte : fonction principale",
+  "label_ar": "الحساب: الوظيفة الرئيسية",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T14:02:15.000Z"
+  "updated_at": "2026-10-10T15:28:44.000Z"
 }
