@@ -1,10 +1,10 @@
 {
-  "version": "v603",
-  "package_version": "1.0.603",
-  "label": "Mode de travail lisible",
-  "created_at": "2026-10-10T16:18:02.245Z",
-  "files": 287,
-  "total_bytes": 27191333,
+  "version": "v604",
+  "package_version": "1.0.604",
+  "label": "Montants dits en pular",
+  "created_at": "2026-10-10T16:59:36.456Z",
+  "files": 348,
+  "total_bytes": 27668217,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -1044,7 +1044,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "b8636a655320aec5202c04a90bff8dc4bd8c7cec1047b166f8aee22e033d9d2e"
+      "sha256": "f08276d65c3dd016b105938dc993913b5cd78d853bc1b96460185a93d98f89d6"
     },
     {
       "file": "manifest.webmanifest",
@@ -1054,7 +1054,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 26536,
-      "sha256": "aa18581d764bcd9afa401d5fa92b62a87135a0e477fc9626abc892968e9cbd0e"
+      "sha256": "49d8d1831f79998c5821ce06f9fe6b655f5d4667239372c20b127b9a7585a1a7"
     },
     {
       "file": "reset-cache.html",
@@ -1074,7 +1074,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "658f3bf1ba3988c61c145fc3ff4aa0ccadc0a4b13737dbd651589efc49a73493"
+      "sha256": "13e8e3ea66587c941ec8136d185d87fe2b01b904183b49ab6bd5eeedf7e642ad"
     },
     {
       "file": "v.html",
@@ -1088,8 +1088,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 375,
-      "sha256": "7997fd6c8479b24dc59399c38f544d193383d914c94350d4abac26b734365e20"
+      "bytes": 396,
+      "sha256": "08d3ccfbc3b51d430ea59c29c0e36133aac045848f57f63f63eaee22e2d4c8b0"
     },
     {
       "file": "voix/phrases.json",
@@ -1278,13 +1278,108 @@
     },
     {
       "file": "voix/pular/index.json",
-      "bytes": 1742,
-      "sha256": "48093b5e611daded5f04cb82bbb7fb3644ab164173a68099e19e517a386a048b"
+      "bytes": 2809,
+      "sha256": "85c1ee0e27a8c63912413a38f64a26c411d6350434b7a61468d44f8d72810141"
     },
     {
       "file": "voix/pular/interrogation_prevue.mp3",
       "bytes": 26036,
       "sha256": "11d2b414a08b9fcc38c075f7bc96392462446d2572bf0e48ff8f83aacfbaf57b"
+    },
+    {
+      "file": "voix/pular/j_dimanche.mp3",
+      "bytes": 6236,
+      "sha256": "dfdb632ffe2e6c8497724ebeea8c4178fd6965fb2d392a855daa3d6f8a7e9bdc"
+    },
+    {
+      "file": "voix/pular/j_jeudi.mp3",
+      "bytes": 7196,
+      "sha256": "332e2a8836256cd01054230cbd475e84e02f59609fd77b4f509bd369562bb651"
+    },
+    {
+      "file": "voix/pular/j_lundi.mp3",
+      "bytes": 5156,
+      "sha256": "7325aa9b532bd19efc141bacb3b0aa9e4299dacd5f1955402d8ec74f14b4e1b6"
+    },
+    {
+      "file": "voix/pular/j_mardi.mp3",
+      "bytes": 8636,
+      "sha256": "c4f2cd5092b051956cd786767819bf8b1c65a40df0beb3fde33f2e2548286260"
+    },
+    {
+      "file": "voix/pular/j_mercredi.mp3",
+      "bytes": 6476,
+      "sha256": "799e9a188035a1697e58cefe63c0036c5773305278455cf044631b0b2271d6a3"
+    },
+    {
+      "file": "voix/pular/j_samedi.mp3",
+      "bytes": 4916,
+      "sha256": "ee85a054e5599e675eaa77dad92a935423bd772dfe48f31cbd871a8daa6c2e48"
+    },
+    {
+      "file": "voix/pular/j_vendredi.mp3",
+      "bytes": 5996,
+      "sha256": "7f7f8d7b1315be9b598f4502648f32e537d2beed5b2b022ee0cad68a2338be8f"
+    },
+    {
+      "file": "voix/pular/m_aout.mp3",
+      "bytes": 5396,
+      "sha256": "e7986269fa8c18e17b7b71f4ba2a6be1ab28486a537ba502ed6ade9f58a5baa2"
+    },
+    {
+      "file": "voix/pular/m_avril.mp3",
+      "bytes": 7196,
+      "sha256": "f5318dc1ea22cf259eb1bc5b543d48b1c6b6695c99ccc6ff7d366977cdc04e65"
+    },
+    {
+      "file": "voix/pular/m_decembre.mp3",
+      "bytes": 8756,
+      "sha256": "38d07b8a62f06c49527434003e69f1f6df372b461bec22de7124dde3ffd7b71f"
+    },
+    {
+      "file": "voix/pular/m_fevrier.mp3",
+      "bytes": 7196,
+      "sha256": "94a9d692864fc0145b2208e878118d21f6553acc709de99652a4ce645f173f64"
+    },
+    {
+      "file": "voix/pular/m_janvier.mp3",
+      "bytes": 7676,
+      "sha256": "c33858a840cb3db5af958e2c2fd691e46ac90300299e5413c683791a5dcdcc0f"
+    },
+    {
+      "file": "voix/pular/m_juillet.mp3",
+      "bytes": 5156,
+      "sha256": "ea25858dbe6cb7a7a8beb498e4e454aa30dc893da434120adceca122e61cf5c0"
+    },
+    {
+      "file": "voix/pular/m_juin.mp3",
+      "bytes": 6116,
+      "sha256": "fc4a04a7774af449b7ae9c120c2b8f37e5f243940e35423ad3db87b8da0095ae"
+    },
+    {
+      "file": "voix/pular/m_mai.mp3",
+      "bytes": 6236,
+      "sha256": "4d18f419b61e0280948bf3b13515b63d38854dcff1b5eca17127466e3631af4c"
+    },
+    {
+      "file": "voix/pular/m_mars.mp3",
+      "bytes": 9716,
+      "sha256": "dff96657892f90e36ccf03127f8ae35442fa85b4b6069d1ba87a10eeeb155cce"
+    },
+    {
+      "file": "voix/pular/m_novembre.mp3",
+      "bytes": 10916,
+      "sha256": "e3c02bfde452e561197bdd449e5beeb773fbd3df12eef96aab31e60038585c5c"
+    },
+    {
+      "file": "voix/pular/m_octobre.mp3",
+      "bytes": 9116,
+      "sha256": "42f93ac9076c6ec163f3e5a4a5545b7b5149ec30948a267f0d1b0f4100eba3bb"
+    },
+    {
+      "file": "voix/pular/m_septembre.mp3",
+      "bytes": 11756,
+      "sha256": "779a0eaefea99beaec7761232b7cffc6d26f270cc85935279f90f24d6cba12eb"
     },
     {
       "file": "voix/pular/matiere.mp3",
@@ -1315,6 +1410,216 @@
       "file": "voix/pular/moyenne.mp3",
       "bytes": 18956,
       "sha256": "fb8602e026a9ddf127cc074f0ae1d0959c9d21765e75c214cc9cdd72d616ffa0"
+    },
+    {
+      "file": "voix/pular/n_0.mp3",
+      "bytes": 6476,
+      "sha256": "b46da4870162620d9d31c58311d0d2ef2d7a3fcfd99c5ecd00042d34fd513887"
+    },
+    {
+      "file": "voix/pular/n_1.mp3",
+      "bytes": 5396,
+      "sha256": "3618143fcb1a350f47df30d017307b3f94cda40f55d7f77eba134407632d0da6"
+    },
+    {
+      "file": "voix/pular/n_10.mp3",
+      "bytes": 5996,
+      "sha256": "eb9920afdef63f96c4551295a8d7485545697ba8c31b9129134373c0c65af69e"
+    },
+    {
+      "file": "voix/pular/n_100.mp3",
+      "bytes": 6236,
+      "sha256": "faa41c0c19856a62bcb86c099295cb201b984bbaecd0a722182c9494110faba5"
+    },
+    {
+      "file": "voix/pular/n_1000.mp3",
+      "bytes": 5276,
+      "sha256": "d9ce6c545b026020f9bb47b106335b5434e7cf8e10c8f47c175fe14ea6c9e7c2"
+    },
+    {
+      "file": "voix/pular/n_11.mp3",
+      "bytes": 8516,
+      "sha256": "55be054ca483acc95ae85b9f9be4d77e93368cd2bdb4abf09a0bbf54f1de4fce"
+    },
+    {
+      "file": "voix/pular/n_12.mp3",
+      "bytes": 8996,
+      "sha256": "216474090e9fcdf597ebd1f2973ad491ab5829d1e2ddd0b831679286c4d2ad4c"
+    },
+    {
+      "file": "voix/pular/n_13.mp3",
+      "bytes": 9116,
+      "sha256": "fe8ebf5c45e497d027421aea537f50909751d1633fa280f45b39ec758441c8e0"
+    },
+    {
+      "file": "voix/pular/n_14.mp3",
+      "bytes": 7196,
+      "sha256": "8af5b8b9b7fb771a1571500a74ce5b7fcc56f65f273ca810a79899efe71fa0c4"
+    },
+    {
+      "file": "voix/pular/n_15.mp3",
+      "bytes": 10556,
+      "sha256": "a863ec987e4b9d213cf79c8656d30aefca23982799528b77223fc77562645570"
+    },
+    {
+      "file": "voix/pular/n_16.mp3",
+      "bytes": 8876,
+      "sha256": "96eff0a75daf7417fd69452b5e8b76a19acb3cde139368f50c37e3a2785faa10"
+    },
+    {
+      "file": "voix/pular/n_17.mp3",
+      "bytes": 7916,
+      "sha256": "9f4ea4108f698f1d832e582e40115190f60ff325d2b6d37413decc1ffe7da47a"
+    },
+    {
+      "file": "voix/pular/n_18.mp3",
+      "bytes": 10436,
+      "sha256": "e07fccbd3f271e4c14bd22134b92bf6c329215654edc8f37c72cf5d543de57fb"
+    },
+    {
+      "file": "voix/pular/n_19.mp3",
+      "bytes": 11996,
+      "sha256": "2a95a4495f8fba3d5318661a179d8677650c0f300210a60673537a372e2a4366"
+    },
+    {
+      "file": "voix/pular/n_2.mp3",
+      "bytes": 5876,
+      "sha256": "a86b7f01bd501b4ec3bca1fe8a038472ad91486bfd831908234d6b3204943319"
+    },
+    {
+      "file": "voix/pular/n_20.mp3",
+      "bytes": 6236,
+      "sha256": "862baa1481ec341c5323ed327be7ad9279deae933b2e1de7f200312b2cfa1996"
+    },
+    {
+      "file": "voix/pular/n_200.mp3",
+      "bytes": 7556,
+      "sha256": "3fb0faf5091d2bccc0b898ea27ab4f60bc42e99681e844ee8b22d35fbae54a21"
+    },
+    {
+      "file": "voix/pular/n_3.mp3",
+      "bytes": 5756,
+      "sha256": "4f56f0bc3a5db8de2f990ae739ba7b70f10289ddded4c3f92519e147b7379cd4"
+    },
+    {
+      "file": "voix/pular/n_30.mp3",
+      "bytes": 7676,
+      "sha256": "3487c6c5599db91be18944825215e194089ad8e27d029b8c6e2dcd1cfead80c9"
+    },
+    {
+      "file": "voix/pular/n_300.mp3",
+      "bytes": 8036,
+      "sha256": "bbd03c65e00236190cb2c63a11064a2ed7852af478192ac55f762e9a7196f984"
+    },
+    {
+      "file": "voix/pular/n_4.mp3",
+      "bytes": 6356,
+      "sha256": "5c93a012fbdb044093bf49777d92f351e0450653dfb6eefe02c63e9072b2b8cc"
+    },
+    {
+      "file": "voix/pular/n_40.mp3",
+      "bytes": 7076,
+      "sha256": "6fedd54b1ab51c3f4ae74c46a7a25a52688823cc9ee76f069ac6805f81fe11b0"
+    },
+    {
+      "file": "voix/pular/n_400.mp3",
+      "bytes": 8156,
+      "sha256": "368aaf228d57a6bafe84c542fcbd9eff58f471deff5461e94201b3a0d38cc1c6"
+    },
+    {
+      "file": "voix/pular/n_5.mp3",
+      "bytes": 7076,
+      "sha256": "91d3bc548ad07998e4122708170c75f4e77745eb24005aeb321409b35007c381"
+    },
+    {
+      "file": "voix/pular/n_50.mp3",
+      "bytes": 8636,
+      "sha256": "4e3c3951039e5d8442d300218211084be7d924c47468dc9088c8df317bd9519a"
+    },
+    {
+      "file": "voix/pular/n_500.mp3",
+      "bytes": 8276,
+      "sha256": "ad3c24e19b5489e739ca96450c9e7c72b8b456434f9dda4b9441e4e969763d4e"
+    },
+    {
+      "file": "voix/pular/n_6.mp3",
+      "bytes": 6596,
+      "sha256": "ded5dbdb95ca481f77fbbcdcd85268567f5ba10a8a1c66d1537be135447db888"
+    },
+    {
+      "file": "voix/pular/n_60.mp3",
+      "bytes": 9956,
+      "sha256": "6f7ad1a90fc8654f31db074cdef6b463aa8d30f42e783fc2c8279953a93b137c"
+    },
+    {
+      "file": "voix/pular/n_600.mp3",
+      "bytes": 8636,
+      "sha256": "6bdb040280d2a43afc3597d6e66ba4dfa010cf67f2119319ac9a951f3ab46408"
+    },
+    {
+      "file": "voix/pular/n_7.mp3",
+      "bytes": 6476,
+      "sha256": "9e45b041ae9a960abf2f78655edf65c0918221023eb387d6c24fa78a360fecb1"
+    },
+    {
+      "file": "voix/pular/n_70.mp3",
+      "bytes": 9836,
+      "sha256": "39564cd5235f0dd672950513268f9dcce043afca4c0d00828e41052985973c72"
+    },
+    {
+      "file": "voix/pular/n_700.mp3",
+      "bytes": 9476,
+      "sha256": "50037aba3354bd54ed141deb28426763a9b44399403f438789e7ff393a4ebb0e"
+    },
+    {
+      "file": "voix/pular/n_8.mp3",
+      "bytes": 7436,
+      "sha256": "18658d2ca51c55fe99ee08dc7a134ea35c42293bbd2a18d3a7894a58ee5cf429"
+    },
+    {
+      "file": "voix/pular/n_80.mp3",
+      "bytes": 9116,
+      "sha256": "8f634cf5d41e68eef65d05d222e1baeb7e4194ccba419c81154e2671ebf7c5c9"
+    },
+    {
+      "file": "voix/pular/n_800.mp3",
+      "bytes": 12116,
+      "sha256": "1636721c958ca9f924259a3e9777e1a7a3e6042234f8e5a04f44f822e60f4e9e"
+    },
+    {
+      "file": "voix/pular/n_9.mp3",
+      "bytes": 7676,
+      "sha256": "a53c1594f3c9ad69adac445dc468f91c3a3f873e796174ed53d67b565aee0401"
+    },
+    {
+      "file": "voix/pular/n_90.mp3",
+      "bytes": 9476,
+      "sha256": "4c2d8bea7721f950ef7f2a26893dbbe9afe5dea703cb921ad66e2de7fa43d080"
+    },
+    {
+      "file": "voix/pular/n_900.mp3",
+      "bytes": 10436,
+      "sha256": "2681846239e64214c00204b190b3c5fd67df7ae3891202a2132f654dd311f1b3"
+    },
+    {
+      "file": "voix/pular/n_et.mp3",
+      "bytes": 4316,
+      "sha256": "7b3405b8072f7086548f73dc53b4a2038e8c5eb7db85e77e7b1b02956d24ce21"
+    },
+    {
+      "file": "voix/pular/n_milliers.mp3",
+      "bytes": 5036,
+      "sha256": "a3de0851024e28656fed1191e826122f32ead7fa2bdec983e1d9835e2b17888a"
+    },
+    {
+      "file": "voix/pular/n_million.mp3",
+      "bytes": 10676,
+      "sha256": "cd8170bb1e04db079fd4e06a4ad6c7742dd2f9aa1ce902635452c0cfafe1f26f"
+    },
+    {
+      "file": "voix/pular/n_millions.mp3",
+      "bytes": 8996,
+      "sha256": "dff4318ff127aa8a03e757be8c62c961d15d63ad87bb265b3e4551d2addf4cc4"
     },
     {
       "file": "voix/pular/nombre_absences.mp3",

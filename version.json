@@ -1,10 +1,10 @@
 {
-  "version": "v603",
+  "version": "v604",
   "date": "2026-10-10",
-  "note": "Dans le menu, la liste « Mode de travail » est lisible (blanc sur le menu sombre) et prend la place du badge du rôle, qu’elle répétait.",
-  "label": "Mode de travail lisible",
-  "label_ar": "وضع عمل مقروء",
+  "note": "En pular, les montants, le nombre d’absences et les dates se disent maintenant dans la langue (nombres, jours et mois enregistrés), plus en français.",
+  "label": "Montants dits en pular",
+  "label_ar": "المبالغ بالبولارية",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T15:53:35.000Z"
+  "updated_at": "2026-10-10T16:33:50.000Z"
 }
