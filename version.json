@@ -1,10 +1,10 @@
 {
-  "version": "v609",
+  "version": "v610",
   "date": "2026-10-10",
-  "note": "Dans l’application Android, la lecture à voix haute reprend la voix normale du téléphone et ne peut plus rester bloquée si le moteur vocal ne répond pas.",
-  "label": "Voix Android fiabilisée",
-  "label_ar": "صوت أندرويد أكثر أمانًا",
+  "note": "La lecture à voix haute dit correctement les grands montants : « quarante-cinq millions de francs guinéens », « un milliard de… », au lieu de les dicter chiffre par chiffre à partir de dix millions.",
+  "label": "Millions lus en entier",
+  "label_ar": "الملايين تُقرأ كاملة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-11T00:15:00.000Z"
+  "updated_at": "2026-10-11T01:10:00.000Z"
 }
