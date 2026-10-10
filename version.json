@@ -1,10 +1,10 @@
 {
-  "version": "v602",
+  "version": "v603",
   "date": "2026-10-10",
-  "note": "Dans Utilisateurs, la fonction principale du compte se choisit d’abord, les autres fonctions ensuite, comme sur la fiche Personnel.",
-  "label": "Compte : fonction principale",
-  "label_ar": "الحساب: الوظيفة الرئيسية",
+  "note": "Dans le menu, la liste « Mode de travail » est lisible (blanc sur le menu sombre) et prend la place du badge du rôle, qu’elle répétait.",
+  "label": "Mode de travail lisible",
+  "label_ar": "وضع عمل مقروء",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T15:28:44.000Z"
+  "updated_at": "2026-10-10T15:53:35.000Z"
 }
