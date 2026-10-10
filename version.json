@@ -1,10 +1,10 @@
 {
-  "version": "v610",
+  "version": "v611",
   "date": "2026-10-10",
-  "note": "La lecture à voix haute dit correctement les grands montants : « quarante-cinq millions de francs guinéens », « un milliard de… », au lieu de les dicter chiffre par chiffre à partir de dix millions.",
-  "label": "Millions lus en entier",
-  "label_ar": "الملايين تُقرأ كاملة",
+  "note": "Dans l’espace Parent, un montant ou une date dits en pular s’entendent d’un seul trait, sans trou entre les mots. Les textes s’accordent au nombre d’enfants : « Mon enfant » ou « Mes enfants ».",
+  "label": "Montants pular d’un trait",
+  "label_ar": "المبالغ بالبولارية دفعة واحدة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-11T01:10:00.000Z"
+  "updated_at": "2026-10-11T02:20:00.000Z"
 }
