@@ -1,10 +1,10 @@
 {
-  "version": "v608",
+  "version": "v609",
   "date": "2026-10-10",
-  "note": "Les voix en pular sont nettoyées : il ne reste que la parole, sans bruit avant ni claquement après. La lecture à voix haute traite aussi l’arabe (dates, heures, montants). L’écoute a son dessin, et le menu des outils rapides est réparé sur téléphone.",
-  "label": "Voix pular nettoyées",
-  "label_ar": "أصوات البولارية منقّاة",
+  "note": "Dans l’application Android, la lecture à voix haute reprend la voix normale du téléphone et ne peut plus rester bloquée si le moteur vocal ne répond pas.",
+  "label": "Voix Android fiabilisée",
+  "label_ar": "صوت أندرويد أكثر أمانًا",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T23:30:00.000Z"
+  "updated_at": "2026-10-11T00:15:00.000Z"
 }
