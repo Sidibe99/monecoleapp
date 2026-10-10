@@ -390,6 +390,433 @@
    "cle": "reconnexion",
    "section": "Connexion",
    "fr": "Votre session a expiré. Reconnectez-vous avec votre identifiant et votre mot de passe."
+  },
+  {
+   "cle": "n_0",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "0 — zéro",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_1",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "1 — un",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_2",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "2 — deux",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_3",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "3 — trois",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_4",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "4 — quatre",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_5",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "5 — cinq",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_6",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "6 — six",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_7",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "7 — sept",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_8",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "8 — huit",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_9",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "9 — neuf",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_10",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "10 — dix",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_11",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "11 — onze",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_12",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "12 — douze",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_13",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "13 — treize",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_14",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "14 — quatorze",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_15",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "15 — quinze",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_16",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "16 — seize",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_17",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "17 — dix-sept",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_18",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "18 — dix-huit",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_19",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "19 — dix-neuf",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_20",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "20 — vingt",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_30",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "30 — trente",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_40",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "40 — quarante",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_50",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "50 — cinquante",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_60",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "60 — soixante",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_70",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "70 — soixante-dix",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_80",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "80 — quatre-vingts",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_90",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "90 — quatre-vingt-dix",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_100",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "100 — cent",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_200",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "200 — deux cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_300",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "300 — trois cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_400",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "400 — quatre cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_500",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "500 — cinq cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_600",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "600 — six cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_700",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "700 — sept cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_800",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "800 — huit cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_900",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "900 — neuf cents",
+   "conseil": "Dites seulement ce nombre, comme quand on compte de l’argent."
+  },
+  {
+   "cle": "n_1000",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "1 000 — mille",
+   "conseil": "Dites « mille » tout seul."
+  },
+  {
+   "cle": "n_milliers",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "milliers",
+   "conseil": "Le mot pour « mille » quand il y en a plusieurs, SANS dire combien : le mot qui reste quand on enlève « deux » de « deux mille »."
+  },
+  {
+   "cle": "n_million",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "1 000 000 — un million",
+   "conseil": "Dites « un million » tout seul."
+  },
+  {
+   "cle": "n_millions",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "millions",
+   "conseil": "Le mot pour « millions » quand il y en a plusieurs, SANS dire combien : le mot qui reste quand on enlève « deux » de « deux millions »."
+  },
+  {
+   "cle": "n_et",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "et (entre deux parties d’un nombre)",
+   "conseil": "Le petit mot qui relie deux parties d’un nombre, comme « et » dans « vingt et un ». Dites-le seul."
+  },
+  {
+   "cle": "j_lundi",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Lundi",
+   "conseil": "Dites seulement ce jour de la semaine, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "j_mardi",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Mardi",
+   "conseil": "Dites seulement ce jour de la semaine, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "j_mercredi",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Mercredi",
+   "conseil": "Dites seulement ce jour de la semaine, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "j_jeudi",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Jeudi",
+   "conseil": "Dites seulement ce jour de la semaine, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "j_vendredi",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Vendredi",
+   "conseil": "Dites seulement ce jour de la semaine, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "j_samedi",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Samedi",
+   "conseil": "Dites seulement ce jour de la semaine, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "j_dimanche",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Dimanche",
+   "conseil": "Dites seulement ce jour de la semaine, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_janvier",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Janvier",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_fevrier",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Février",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_mars",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Mars",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_avril",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Avril",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_mai",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Mai",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_juin",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Juin",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_juillet",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Juillet",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_aout",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Août",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_septembre",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Septembre",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_octobre",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Octobre",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_novembre",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Novembre",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "m_decembre",
+   "section": "Nombres et dates",
+   "groupe": "nombres",
+   "fr": "Décembre",
+   "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
   }
  ],
  "disponibles": [

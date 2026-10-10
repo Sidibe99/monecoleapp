@@ -1,6 +1,9 @@
 {
  "langue": "pular",
  "format": "mp3",
+ "groupes": {
+  "nombres": false
+ },
  "durees": {
   "bienvenue": 17.39,
   "ecouter_aide": 8.11,
