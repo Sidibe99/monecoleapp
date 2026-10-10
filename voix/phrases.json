@@ -391,5 +391,8 @@
    "section": "Connexion",
    "fr": "Votre session a expiré. Reconnectez-vous avec votre identifiant et votre mot de passe."
   }
+ ],
+ "disponibles": [
+  "pular"
  ]
 }

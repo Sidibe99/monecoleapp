@@ -1,10 +1,10 @@
 {
-  "version": "v598",
+  "version": "v600",
   "date": "2026-10-09",
-  "note": "Les phrases de l’espace Parent s’enregistrent dans les langues nationales (pular, maninka, soussou, kissi, kpèlè, toma), par de vraies voix, depuis un lien envoyé par MonEcole.",
-  "label": "Voix des parents",
-  "label_ar": "أصوات الأولياء",
-  "scope": "client+supabase",
+  "note": "L’espace Parent s’écoute en pular, résultats, messagerie et aide compris : le parent choisit sa langue, puis un haut-parleur lit chaque message avec une vraie voix.",
+  "label": "Résultats à écouter",
+  "label_ar": "نتائج مسموعة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-09T22:44:55.000Z"
+  "updated_at": "2026-10-10T13:48:10.000Z"
 }
