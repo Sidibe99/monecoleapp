@@ -1,10 +1,10 @@
 {
-  "version": "v605",
+  "version": "v606",
   "date": "2026-10-10",
-  "note": "Dans Établissement, les réglages personnels d’impression ont leur onglet « Mes documents », entre Documents et Scolarité, au lieu d’être repliés au bas de Compte.",
-  "label": "Onglet Mes documents",
-  "label_ar": "تبويب وثائقي",
+  "note": "Le tableau de bord gagne « Résumé du jour » : la journée en quelques phrases, à lire ou à écouter. « Lire cette page » dans les outils rapides et « Écouter » dans le centre de notifications. La voix est celle de l’appareil : aucune intelligence artificielle, rien n’est envoyé.",
+  "label": "Le tableau de bord se lit à voix haute",
+  "label_ar": "لوحة القيادة تُقرأ بصوت مرتفع",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T16:43:55.000Z"
+  "updated_at": "2026-10-10T19:30:00.000Z"
 }
