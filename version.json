@@ -1,10 +1,10 @@
 {
-  "version": "v607",
+  "version": "v608",
   "date": "2026-10-10",
-  "note": "La lecture à voix haute dit les années, les montants, les dates et les heures en entier, avec la meilleure voix installée sur l’appareil. Dans Établissement, sur téléphone, la barre d’enregistrement reste au bas de l’écran sans recouvrir la page.",
-  "label": "La voix lit les nombres en entier",
-  "label_ar": "الصوت يقرأ الأعداد كاملة",
+  "note": "Les voix en pular sont nettoyées : il ne reste que la parole, sans bruit avant ni claquement après. La lecture à voix haute traite aussi l’arabe (dates, heures, montants). L’écoute a son dessin, et le menu des outils rapides est réparé sur téléphone.",
+  "label": "Voix pular nettoyées",
+  "label_ar": "أصوات البولارية منقّاة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T21:30:00.000Z"
+  "updated_at": "2026-10-10T23:30:00.000Z"
 }
