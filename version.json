@@ -1,10 +1,10 @@
 {
-  "version": "v604",
+  "version": "v605",
   "date": "2026-10-10",
-  "note": "En pular, les montants, le nombre d’absences et les dates se disent maintenant dans la langue (nombres, jours et mois enregistrés), plus en français.",
-  "label": "Montants dits en pular",
-  "label_ar": "المبالغ بالبولارية",
+  "note": "Dans Établissement, les réglages personnels d’impression ont leur onglet « Mes documents », entre Documents et Scolarité, au lieu d’être repliés au bas de Compte.",
+  "label": "Onglet Mes documents",
+  "label_ar": "تبويب وثائقي",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-10T16:33:50.000Z"
+  "updated_at": "2026-10-10T16:43:55.000Z"
 }

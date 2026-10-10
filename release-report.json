@@ -1,10 +1,10 @@
 {
-  "version": "v604",
-  "package_version": "1.0.604",
-  "label": "Montants dits en pular",
-  "created_at": "2026-10-10T16:59:36.456Z",
+  "version": "v605",
+  "package_version": "1.0.605",
+  "label": "Onglet Mes documents",
+  "created_at": "2026-10-10T17:17:42.346Z",
   "files": 348,
-  "total_bytes": 27668217,
+  "total_bytes": 27668085,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/Aide-CyI4a7_Z.js",
+      "file": "assets/Aide-CXC-Xgvl.js",
       "bytes": 26030,
-      "sha256": "d314f6a699dc0fdd41bfa007abfc6c3eee2263c8aff1710d7e5346fc9a8423cc"
+      "sha256": "64ed6c6f89f37a8ab644b86a9128cf7f230c43c0562ac232cfc74e5794887143"
     },
     {
-      "file": "assets/Aide-legacy-BWYoSNlP.js",
+      "file": "assets/Aide-legacy-Cajrnv_k.js",
       "bytes": 33274,
-      "sha256": "927c0dfb5b6464ff167b0629361846e0d2456b9e2d2c86696d42cc735e581287"
+      "sha256": "36dda6533e96c93862a8febb02a78b20bf93a3beac30432085a7586a9fe5c834"
     },
     {
       "file": "assets/AnnualClosureModal-BZuaWw82.js",
@@ -227,14 +227,14 @@
       "sha256": "be215f0fe1c1a5154cdd6915dc20ef8afde8640574a8760c5e4bd3b6b0491116"
     },
     {
-      "file": "assets/MessageriePage-iIKBsi_f.js",
+      "file": "assets/MessageriePage-D3VqQudK.js",
       "bytes": 48676,
-      "sha256": "6646b0641596012fdd59f75961e121a22c2e8c006dafac6d030321026b95d8b6"
+      "sha256": "3e179a8f5ceb20bb05c5389c48ace5405e72e84a5de34d37baf9514dc62bfb84"
     },
     {
-      "file": "assets/MessageriePage-legacy-es2kP_xJ.js",
+      "file": "assets/MessageriePage-legacy-DrfZLG0q.js",
       "bytes": 62006,
-      "sha256": "16899c6c1325f78d9f38f40920e3ad383dd10f3e3444f1229685dcef9ae58007"
+      "sha256": "cd963379ec6118bb9a3f743662e4c4617a3fe4fccbc7e1f72e44628bd52be67b"
     },
     {
       "file": "assets/NotificationCenter-I1qbAHnO.js",
@@ -247,9 +247,9 @@
       "sha256": "93baef572687c720f9076a9fb7c6991cce2d6577ecfae4489f9ef9e686a36d9f"
     },
     {
-      "file": "assets/Parametres-BOyL9gTK.js",
-      "bytes": 84954,
-      "sha256": "73b3fc89ed0903017061d3c916f18917a7c85ef447d168a83980eaf16e97a301"
+      "file": "assets/Parametres-B3ybrgZa.js",
+      "bytes": 84877,
+      "sha256": "c35f2cf06341b9e647223afc3e2dc3f4a0c8c3b236bf01a7e2845be79c9de293"
     },
     {
       "file": "assets/Parametres-fXxBmwWj.css",
@@ -257,9 +257,9 @@
       "sha256": "00778c07619a6f3bf1fbc96b7e14b52ea2e111e61adb39f908a2eda890e55894"
     },
     {
-      "file": "assets/Parametres-legacy-CQraUvmB.js",
-      "bytes": 108775,
-      "sha256": "4264023c961ea87fcf155f0e9979d40407747c618974bfb10a6cc9fc260670c9"
+      "file": "assets/Parametres-legacy-DyBCq5zz.js",
+      "bytes": 108714,
+      "sha256": "79185b64de78d536dcf3f0acd93880bdf8ddfe76de9e49b60388ea78b1259976"
     },
     {
       "file": "assets/ParentPortalViews-B9nALaeO.js",
@@ -497,19 +497,19 @@
       "sha256": "0f031e5a3cec92a8f5d8748c036f613cfe1879041e25f4f9ab4ffcffaf340e6e"
     },
     {
-      "file": "assets/index-B6Q-M4CO.js",
-      "bytes": 541808,
-      "sha256": "c829bbaa848fc3eeedba06c62b947652570ff1d53effc7ae235262cd68f9e057"
-    },
-    {
       "file": "assets/index-CDcSyiQ2.css",
       "bytes": 327085,
       "sha256": "fbf1dcc277dd17609f72b59f8133a939cda808ac795b8906dbc14ab11149356e"
     },
     {
-      "file": "assets/index-legacy-e56fClOU.js",
+      "file": "assets/index-CRigh8pp.js",
+      "bytes": 541808,
+      "sha256": "e4b997b98c61473e3f56bf7055bc0aa9d3a7de4b6bfb252628a116aceed3fa01"
+    },
+    {
+      "file": "assets/index-legacy-uKVk-03c.js",
       "bytes": 964005,
-      "sha256": "01f11080a7b1554283f3244685280f9ccd9e82b9bf2ff3d1894a1b88e60570dd"
+      "sha256": "7fd1997a8654b7c5a23dadf3bc010d1fc86f15c8ee4e6e6e5a815d5c35448619"
     },
     {
       "file": "assets/index.es-CE5ADqL3.js",
@@ -1044,7 +1044,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "f08276d65c3dd016b105938dc993913b5cd78d853bc1b96460185a93d98f89d6"
+      "sha256": "386c994681b50f7c17c6a807e4f9878b86359cdc1da5f2da8cbe737d1e4f56d4"
     },
     {
       "file": "manifest.webmanifest",
@@ -1054,7 +1054,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 26536,
-      "sha256": "49d8d1831f79998c5821ce06f9fe6b655f5d4667239372c20b127b9a7585a1a7"
+      "sha256": "ef8f73acd1193d9f5f92446387c799361c270b610edc87a218a23e605fd9d53f"
     },
     {
       "file": "reset-cache.html",
@@ -1074,7 +1074,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "13e8e3ea66587c941ec8136d185d87fe2b01b904183b49ab6bd5eeedf7e642ad"
+      "sha256": "4720e6487b0a250274d0476d531af287bbd3259b721516e100c7dad9feab0db6"
     },
     {
       "file": "v.html",
@@ -1088,8 +1088,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 396,
-      "sha256": "08d3ccfbc3b51d430ea59c29c0e36133aac045848f57f63f63eaee22e2d4c8b0"
+      "bytes": 402,
+      "sha256": "a3bd043cc93e3c3ea2a99e4d9e464af97bd165706deb92c070f7e6c1935ec808"
     },
     {
       "file": "voix/phrases.json",
