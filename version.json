@@ -1,10 +1,10 @@
 {
-  "version": "v611",
-  "date": "2026-10-10",
-  "note": "Dans l’espace Parent, un montant ou une date dits en pular s’entendent d’un seul trait, sans trou entre les mots. Les textes s’accordent au nombre d’enfants : « Mon enfant » ou « Mes enfants ».",
-  "label": "Montants pular d’un trait",
-  "label_ar": "المبالغ بالبولارية دفعة واحدة",
+  "version": "v612",
+  "date": "2026-10-11",
+  "note": "L’import d’élèves accepte les vraies dates d’Excel, quel que soit leur affichage : plus de « Date de naissance invalide » sur un fichier aux dates justes.",
+  "label": "Dates Excel comprises",
+  "label_ar": "تواريخ إكسل مفهومة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-11T02:20:00.000Z"
+  "updated_at": "2026-10-11T20:40:00.000Z"
 }

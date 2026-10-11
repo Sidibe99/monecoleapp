@@ -1,10 +1,10 @@
 {
-  "version": "v611",
-  "package_version": "1.0.611",
-  "label": "Montants pular d’un trait",
-  "created_at": "2026-10-10T23:47:27.395Z",
+  "version": "v612",
+  "package_version": "1.0.612",
+  "label": "Dates Excel comprises",
+  "created_at": "2026-10-11T20:36:52.049Z",
   "files": 354,
-  "total_bytes": 27412864,
+  "total_bytes": 27414070,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/Aide-BwO38V4L.js",
+      "file": "assets/Aide-BcBAjkVT.js",
       "bytes": 26030,
-      "sha256": "e7ac8aa1dbd4144372a3c2870192cee20e0c7c40602aeee6c2bec8135881130f"
+      "sha256": "dd02453a308736937cf27c8d19aa18f8b4c7f09a4d3ac63a112bdc71edf90b57"
     },
     {
-      "file": "assets/Aide-legacy-CW8UtzsD.js",
+      "file": "assets/Aide-legacy-Cnnc1uuH.js",
       "bytes": 33274,
-      "sha256": "0f0ca78a7b8268d4b82b976e9e007437a365aa92b6629c857ccf1c058c760650"
+      "sha256": "5193ed697c022ea81d4053a66bc33bee146b25f09778b9a04a7a91406bb0c8af"
     },
     {
       "file": "assets/AnnualClosureModal-BZuaWw82.js",
@@ -122,19 +122,19 @@
       "sha256": "06c30c0122ac60725c2d60bbc8fd4409aaa19eb9d0ae2ccf0bfac155d4f6238a"
     },
     {
-      "file": "assets/ElevesPage-Bbhv707n.js",
-      "bytes": 102529,
-      "sha256": "ff8f99ef2203df1e3d231d80ca402f4e3cef8d77eeb72bbe3014a53cff3cfc48"
-    },
-    {
       "file": "assets/ElevesPage-D-cD5kvL.css",
       "bytes": 744,
       "sha256": "6a876e6202102e41ba0d1f39cdb71c958c0826188a2c8524aab661151964c7da"
     },
     {
-      "file": "assets/ElevesPage-legacy-C5MzMhzZ.js",
-      "bytes": 120630,
-      "sha256": "c96c3ed6234cbf321c459afc4d2184a05987f14f9e6d0e254a64a98ae9a4643a"
+      "file": "assets/ElevesPage-D9mJIPv9.js",
+      "bytes": 102662,
+      "sha256": "23fe031258e353bb679cc56ca1eb2a816282191abe59d4ce68b4b51da8c4acf8"
+    },
+    {
+      "file": "assets/ElevesPage-legacy-fy24vDa1.js",
+      "bytes": 120763,
+      "sha256": "648034fb28724c0f53055adbc92a43df208c3bc7cc8d8d172419f7c09b1be1e4"
     },
     {
       "file": "assets/ExportDonneesCard-CILLQmt0.js",
@@ -227,14 +227,14 @@
       "sha256": "be215f0fe1c1a5154cdd6915dc20ef8afde8640574a8760c5e4bd3b6b0491116"
     },
     {
-      "file": "assets/MessageriePage-CXbZpDYB.js",
+      "file": "assets/MessageriePage-CVPSXCQ3.js",
       "bytes": 48676,
-      "sha256": "490453f965ff44307eed00a9aea7a063662fc088f8adab7e7a95e02223bc10bf"
+      "sha256": "1695bcb29eb4b2d84d485923de069b08c4f14a4a6c4cb385ae298d439a726f05"
     },
     {
-      "file": "assets/MessageriePage-legacy-D8A1gzFd.js",
+      "file": "assets/MessageriePage-legacy-0tnu4rMv.js",
       "bytes": 62006,
-      "sha256": "27298bd48e1361f07e80b36420badb67f2203b2a53ee98ee3e903892d6acb498"
+      "sha256": "16e5a9dee920d606a70104f9fd9b27fe76845a721ee8a0a6495df8d2be144d0b"
     },
     {
       "file": "assets/NotificationCenter-DNVF_lBA.js",
@@ -507,9 +507,9 @@
       "sha256": "d277adcab4d4c26758bbcdab02fc51fb9a60c66e2d89b56e12e5a624d970a92d"
     },
     {
-      "file": "assets/index-BR34Z5x8.js",
+      "file": "assets/index-8GgsM_50.js",
       "bytes": 544400,
-      "sha256": "5dd3a1cfb41d76fc6176855d7321331a6ad6998786c4c1b3a4f5b1c9059fdb5a"
+      "sha256": "a04637a314f427b9049acce36cbd13680e53b9d2c4f27d949113909a5bf30a15"
     },
     {
       "file": "assets/index-DwmxQlbe.css",
@@ -517,9 +517,9 @@
       "sha256": "596fb51624e1dc4aa266edec78cfb9c0d76fc648c6f87362f35238721789d020"
     },
     {
-      "file": "assets/index-legacy-BV4GhQg_.js",
+      "file": "assets/index-legacy-BUHIEWoE.js",
       "bytes": 967658,
-      "sha256": "79e3bb12bfa1eac0cf49cf1e4b5bbaa6761271af2371f1047a0edd0dc102907a"
+      "sha256": "72831e247b8ca79a592e5bceafb2c447d54c8a1057bb064ac62d7782cec09085"
     },
     {
       "file": "assets/index.es-CE5ADqL3.js",
@@ -822,14 +822,14 @@
       "sha256": "4ce1e472858bd10122058436b289bb94eec08f3625081a7bdc9e4457f4ee7ca8"
     },
     {
-      "file": "assets/spreadsheet-io-CH8cQtMc.js",
-      "bytes": 1817,
-      "sha256": "1a393413bfeb15136eee3b8c4878957190c2726e2fa91e80b0fe7d9c2001bf1b"
+      "file": "assets/spreadsheet-io-D_4Vh5TL.js",
+      "bytes": 2314,
+      "sha256": "342141416840b3be66aa5e395d252e76bd04426ba50af92d9817653530587d4c"
     },
     {
-      "file": "assets/spreadsheet-io-legacy-CsGy8b95.js",
-      "bytes": 8493,
-      "sha256": "60313c6030989e8b01f4aa043684c1ffd4f1b5d10f6b330b17caf1455954c272"
+      "file": "assets/spreadsheet-io-legacy-CSNEj74I.js",
+      "bytes": 9006,
+      "sha256": "aebee8312db6590ba0d36158f1129fd7f7a3f2abe80fc7ff133b8d151ed5adeb"
     },
     {
       "file": "assets/student-write-operations-legacy-B6BDNWwN.js",
@@ -1074,7 +1074,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "f6eaf6efc75807104de3296c9c70b7f57c245bfc88cfba9439daf5c899e4336e"
+      "sha256": "0b3c9bb9bb5e13a31b698786847faa996fcd9d96efb104b0c23d2f6047ddc95d"
     },
     {
       "file": "manifest.webmanifest",
@@ -1084,7 +1084,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 27455,
-      "sha256": "148333d314488962383795d114fb41dee6e907babd61e377d723af023d18e543"
+      "sha256": "3afa563bd803bd05a1a77e7d35e132016e8cdc0f9f40e0783fd5e75887e296e1"
     },
     {
       "file": "reset-cache.html",
@@ -1104,7 +1104,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "a85d1d5326beb39b6eb211a7c27501366b61c1b065ab37cd7a332d1d083ab7c3"
+      "sha256": "33cb0cbc3132c8655dec236baffbced11e0b595a3865456913699e87ee443a38"
     },
     {
       "file": "v.html",
@@ -1118,8 +1118,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 475,
-      "sha256": "cd44d96c52de15b63d7dcaf2bd85834d6f772565934143acec49bf06ca0ac3c3"
+      "bytes": 405,
+      "sha256": "02a6de2b02be2ebe0fb7e913567466f9e9e33d298dcea9cdd0670d7d05aa7a75"
     },
     {
       "file": "voix/phrases.json",
