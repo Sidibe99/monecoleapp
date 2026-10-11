@@ -1,10 +1,10 @@
 {
-  "version": "v614",
+  "version": "v615",
   "date": "2026-10-11",
-  "note": "Le parent peut déclarer un paiement fait par téléphone (Orange Money, MoMo) ; l’école le vérifie, puis l’enregistre ou le refuse avec un motif. Aucun argent ne passe par MonEcole.",
-  "label": "Le parent déclare son paiement",
-  "label_ar": "ولي الأمر يصرّح بدفعته",
-  "scope": "client+supabase",
+  "note": "L’import d’élèves sait qu’un élève est un ancien de l’école : un choix dans la fenêtre, ou une colonne « Statut » dans le fichier, le fait entrer comme réinscrit, avec son année précédente.",
+  "label": "Réinscrits à l’import",
+  "label_ar": "المعاد تسجيلهم عند الاستيراد",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-11T23:30:00.000Z"
+  "updated_at": "2026-10-12T00:30:00.000Z"
 }
