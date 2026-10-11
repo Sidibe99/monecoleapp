@@ -1,10 +1,10 @@
 {
-  "version": "v613",
+  "version": "v614",
   "date": "2026-10-11",
-  "note": "L’import d’élèves accepte deux élèves du même nom : une date de naissance ou un parent différent suffit à les distinguer, et sinon l’école confirme elle-même qu’il s’agit d’homonymes.",
-  "label": "Homonymes à l’import",
-  "label_ar": "الأسماء المتشابهة عند الاستيراد",
-  "scope": "client",
+  "note": "Le parent peut déclarer un paiement fait par téléphone (Orange Money, MoMo) ; l’école le vérifie, puis l’enregistre ou le refuse avec un motif. Aucun argent ne passe par MonEcole.",
+  "label": "Le parent déclare son paiement",
+  "label_ar": "ولي الأمر يصرّح بدفعته",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-11T21:40:00.000Z"
+  "updated_at": "2026-10-11T23:30:00.000Z"
 }
