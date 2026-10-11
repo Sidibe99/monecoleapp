@@ -1,10 +1,10 @@
 {
-  "version": "v612",
+  "version": "v613",
   "date": "2026-10-11",
-  "note": "L’import d’élèves accepte les vraies dates d’Excel, quel que soit leur affichage : plus de « Date de naissance invalide » sur un fichier aux dates justes.",
-  "label": "Dates Excel comprises",
-  "label_ar": "تواريخ إكسل مفهومة",
+  "note": "L’import d’élèves accepte deux élèves du même nom : une date de naissance ou un parent différent suffit à les distinguer, et sinon l’école confirme elle-même qu’il s’agit d’homonymes.",
+  "label": "Homonymes à l’import",
+  "label_ar": "الأسماء المتشابهة عند الاستيراد",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-11T20:40:00.000Z"
+  "updated_at": "2026-10-11T21:40:00.000Z"
 }
