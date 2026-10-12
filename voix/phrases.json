@@ -817,6 +817,100 @@
    "groupe": "nombres",
    "fr": "Décembre",
    "conseil": "Dites seulement ce mois, comme vous le dites d’habitude."
+  },
+  {
+   "cle": "mon_enfant",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Mon enfant.",
+   "conseil": "Le titre de la liste quand le parent a un seul enfant. Dites-le comme un titre, sans rien ajouter."
+  },
+  {
+   "cle": "mes_enfants",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Mes enfants.",
+   "conseil": "Le titre de la liste quand le parent a plusieurs enfants."
+  },
+  {
+   "cle": "presences_mon_enfant",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Les présences de mon enfant.",
+   "conseil": "Le titre de la page, pour le parent d’un seul enfant."
+  },
+  {
+   "cle": "presences_mes_enfants",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Les présences de mes enfants.",
+   "conseil": "Le titre de la page, pour le parent de plusieurs enfants."
+  },
+  {
+   "cle": "resultats_mon_enfant",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Les résultats de mon enfant.",
+   "conseil": "Le titre de la page, pour le parent d’un seul enfant."
+  },
+  {
+   "cle": "resultats_mes_enfants",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Les résultats de mes enfants.",
+   "conseil": "Le titre de la page, pour le parent de plusieurs enfants."
+  },
+  {
+   "cle": "bienvenue_un",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Bienvenue dans l’espace Parent de MonEcole. Ici, vous suivez votre enfant : ses résultats, ses présences, ses paiements et son emploi du temps.",
+   "conseil": "La même phrase que la toute première, pour le parent d’un seul enfant."
+  },
+  {
+   "cle": "page_resultats_plusieurs",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Ici, les résultats et les bulletins de vos enfants, publiés par la direction de l’école.",
+   "conseil": "Pour le parent de plusieurs enfants."
+  },
+  {
+   "cle": "page_presences_plusieurs",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Ici, les présences de vos enfants : leurs absences, leurs retards et leurs arrivées à l’école.",
+   "conseil": "Pour le parent de plusieurs enfants."
+  },
+  {
+   "cle": "page_emploi_plusieurs",
+   "section": "Mon enfant, mes enfants",
+   "groupe": "complements",
+   "fr": "Ici, l’emploi du temps de la classe de chacun de vos enfants, et les prochaines évaluations.",
+   "conseil": "Pour le parent de plusieurs enfants."
+  },
+  {
+   "cle": "declarer_paiement",
+   "section": "Paiement déclaré par le parent",
+   "groupe": "complements",
+   "fr": "Vous avez payé par téléphone ? Déclarez ici votre paiement. L’école le vérifie, puis l’enregistre."
+  },
+  {
+   "cle": "declaration_attente",
+   "section": "Paiement déclaré par le parent",
+   "groupe": "complements",
+   "fr": "Votre déclaration est en attente. L’école va la vérifier."
+  },
+  {
+   "cle": "declaration_enregistree",
+   "section": "Paiement déclaré par le parent",
+   "groupe": "complements",
+   "fr": "L’école a vérifié et enregistré votre paiement. Merci."
+  },
+  {
+   "cle": "declaration_refusee",
+   "section": "Paiement déclaré par le parent",
+   "groupe": "complements",
+   "fr": "L’école n’a pas retrouvé ce paiement. Lisez le motif, puis contactez l’école."
   }
  ],
  "disponibles": [

@@ -1,10 +1,10 @@
 {
-  "version": "v616",
-  "package_version": "1.0.616",
-  "label": "Arabe réservé aux écoles bilingues",
-  "created_at": "2026-10-12T09:36:26.750Z",
+  "version": "v617",
+  "package_version": "1.0.617",
+  "label": "Pular : écoute complétée",
+  "created_at": "2026-10-12T10:00:51.023Z",
   "files": 358,
-  "total_bytes": 27480568,
+  "total_bytes": 27493193,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/Aide-DwOIwypF.js",
+      "file": "assets/Aide-DgNBqy-S.js",
       "bytes": 26030,
-      "sha256": "6860dbf1e78401881b37c8554927730e7aa480c03a4ffe177e5cba562a132d7b"
+      "sha256": "a0a8985f9fb437e716486d73560a8f581c3933d48562e8be913e03f6609df46f"
     },
     {
-      "file": "assets/Aide-legacy-CiEfDv7r.js",
+      "file": "assets/Aide-legacy-DBF0EdF9.js",
       "bytes": 33274,
-      "sha256": "4f0de4a49f90d9fa0c2108c51033c23129330ac33010cfc01d0a93acc0c51423"
+      "sha256": "365b2ef6e5068511eae74089e0f6b533c7de33468085594a2f6ddd690d4eaaab"
     },
     {
       "file": "assets/AnnualClosureModal-CIpS-ejJ.js",
@@ -112,24 +112,24 @@
       "sha256": "d590b7f0a102fc832b9f21d2b8555b0dca28577992d8396aba5e261572f31dc5"
     },
     {
-      "file": "assets/EcouteParent-DnFRIJq3.js",
-      "bytes": 1191,
-      "sha256": "21facb4cca75830c5aa831d2f3b280358802496be5482b12e1c1e90d71ea3a5a"
+      "file": "assets/EcouteParent-DceY0HQz.js",
+      "bytes": 1390,
+      "sha256": "556dc3c316ca2022ea209d1c9a27ba184af36912104bd3141bab7c54a166b6fb"
     },
     {
-      "file": "assets/EcouteParent-legacy-DGos4nqp.js",
-      "bytes": 2641,
-      "sha256": "5e632527819f38eaffdc70d2d1b49039e6fd856fc9bb8035a9cde70cbfdf57a2"
+      "file": "assets/EcouteParent-legacy-CLhhrTPQ.js",
+      "bytes": 2842,
+      "sha256": "3cb3b5c29cc074c65ea27262a194a0ba26698f2db78983ae30f929669755d016"
     },
     {
-      "file": "assets/EditorHub-DV2ZVa-7.js",
+      "file": "assets/EditorHub-D52YF88o.js",
       "bytes": 52506,
-      "sha256": "692cbaa5ad32ff6d3f975e8e3cbc42ee8d32820f5c37cb810ee9707a560d8961"
+      "sha256": "95d762d1ef24e69c319c1b154346bfe8e128dda43b0fef4d93db12d235e902a0"
     },
     {
-      "file": "assets/EditorHub-legacy-DCnCrEW4.js",
+      "file": "assets/EditorHub-legacy-CQYGIVqo.js",
       "bytes": 66972,
-      "sha256": "3aec2b57cbb42dc47677e6a6629fb623286a2538b69a0eaf0b609478b0389cf9"
+      "sha256": "70d5df04ca781a4d98459f9fdfa8339a5426dfc01dad8840f84bb3e0aeb6ce44"
     },
     {
       "file": "assets/ElevesPage-CSI1wpHM.js",
@@ -237,34 +237,34 @@
       "sha256": "be215f0fe1c1a5154cdd6915dc20ef8afde8640574a8760c5e4bd3b6b0491116"
     },
     {
-      "file": "assets/MessageriePage-DBcbhFl3.js",
+      "file": "assets/MessageriePage-CH1gC8dV.js",
       "bytes": 48676,
-      "sha256": "1cd9b46dfa88920872c6d0bdbe81ba4c850e3aba8043a58796b0a0b30ef5c52f"
+      "sha256": "10db26f536162259b3d1bc5205f1baad823602f590b2bd3badc9dfa11c74625d"
     },
     {
-      "file": "assets/MessageriePage-legacy-B-Yt3bS6.js",
+      "file": "assets/MessageriePage-legacy-CsdLl1Ax.js",
       "bytes": 62006,
-      "sha256": "840e1f835b2bda2afa95c8d6209dbe12a3e6f15a2448cda28519b70bdfba6a62"
+      "sha256": "d180a1faff9aaaec26a2db99c0dddbfa85b8ce16652c052e312cf584300d141f"
     },
     {
-      "file": "assets/NotificationCenter-0WIfCJ-m.js",
+      "file": "assets/NotificationCenter-DTVaSGAI.js",
       "bytes": 8530,
-      "sha256": "69ee5bbafceb0790884e359ee32fc9c9d0367c69ef8fd9d2bddb079b62b8eb4c"
+      "sha256": "cf1414520117920d2391a2f48a0502d24c1ddd790d818d4c136f91d7908ddd3f"
     },
     {
-      "file": "assets/NotificationCenter-legacy-a97fWClY.js",
+      "file": "assets/NotificationCenter-legacy-CU_8CTrm.js",
       "bytes": 11120,
-      "sha256": "c5d8700cad9fda6dc4bd2f682c46c71bff4ef8bd38254bc8eaaf4de4b4960028"
+      "sha256": "63e793c7290b164c7bcf2c12f9f1976a70c89b50e7e6b37d39de89d19758a48e"
     },
     {
-      "file": "assets/Parametres-D9dUbhkz.js",
+      "file": "assets/Parametres-SW_nXA9U.js",
       "bytes": 86485,
-      "sha256": "8f6c15973682e9a732028a16e25cf257056befe23453df3b144a8188d24a2cc1"
+      "sha256": "4cdf0e7c932c2a2ec93faf253a7c554a347083b46cf7b8f4c03ba673a3270209"
     },
     {
-      "file": "assets/Parametres-legacy-BbiFB1IV.js",
+      "file": "assets/Parametres-legacy-BA8POLF2.js",
       "bytes": 110931,
-      "sha256": "2442251ace83378da0c941148f7701aa30b0979c172cf0019d82cae7fc58d622"
+      "sha256": "6721be09c9aac7a57983bcb479b96c7f9550d145035031475e1260d7d36f0606"
     },
     {
       "file": "assets/Parametres-yS4U2hvL.css",
@@ -272,14 +272,14 @@
       "sha256": "547e13ce291c8d204d5814bad7c6eb3c5459229866bad9d323a70607900c5c5f"
     },
     {
-      "file": "assets/ParentPortalViews-DZ35vtzU.js",
-      "bytes": 37573,
-      "sha256": "2b4d02ca6521360692d0922a6ff1a7f161eabf3b1ed037675cb78357e2112002"
+      "file": "assets/ParentPortalViews-SuUTJceR.js",
+      "bytes": 38495,
+      "sha256": "98b9c6a30734d21e0e33515459170fe5d267dec292e60fadd125366dd5d3288d"
     },
     {
-      "file": "assets/ParentPortalViews-legacy-Ch8BnzrR.js",
-      "bytes": 45299,
-      "sha256": "007e9ce63837547edbae7e6ef41a3bb09af9afe9b10df4b2379170c6806eff24"
+      "file": "assets/ParentPortalViews-legacy-BVQlNZxW.js",
+      "bytes": 46237,
+      "sha256": "635f4c28f06f99d01d72bed614e2eddb6b713ea9ae5a07bb49355e19c17c0793"
     },
     {
       "file": "assets/PersonnelPage--89J3hpF.js",
@@ -347,14 +347,14 @@
       "sha256": "e42746e878712ffcbe2aad9f7d6b3f46d1e1c8339c6a39bad769d1121e931200"
     },
     {
-      "file": "assets/ResumeDuJour-C1jfigFE.js",
+      "file": "assets/ResumeDuJour-DASKz0C-.js",
       "bytes": 6232,
-      "sha256": "bec0b2424b10806dafe3e816fc0270b88617218e3b2ff6542835afef60eff633"
+      "sha256": "89fff1cf3a589b8391a2200b2fdfa3c4ae84b48fdd96b792d18758edf49cf37c"
     },
     {
-      "file": "assets/ResumeDuJour-legacy-DAstupfZ.js",
+      "file": "assets/ResumeDuJour-legacy-B_TG5P2-.js",
       "bytes": 9873,
-      "sha256": "5281d6afbb73803b37d442a96c6a07e41fff27985e69d487195422b65db59a4f"
+      "sha256": "92a0d36c15b85b22900a5d1ddcfbe597a0c51a42af193aeca9ae07b601a92560"
     },
     {
       "file": "assets/SidebarNavigation-Cc6DXBP2.js",
@@ -397,14 +397,14 @@
       "sha256": "f7f3511457eb96a5f1ddb357256be2c166543ccc5f9789387c5e209b73763e80"
     },
     {
-      "file": "assets/VoixParentsCard-CrPNir6Z.js",
-      "bytes": 7141,
-      "sha256": "88eb5825d0703b9b34e28395bdb66f71aebef9c79f056a2fb0757780bcc8ad71"
+      "file": "assets/VoixParentsCard-DxW1VjqH.js",
+      "bytes": 8056,
+      "sha256": "df6f4cd493ac2299311bc5957eee57d29ccc9b98bc2d055b9b5965acc3b4cf14"
     },
     {
-      "file": "assets/VoixParentsCard-legacy-D5WaEFmO.js",
-      "bytes": 13816,
-      "sha256": "da8df2c1feae51e1d492cb3d7520508495fd0bfcd0a1f1cc16dbf7285da7c259"
+      "file": "assets/VoixParentsCard-legacy-Do68rik9.js",
+      "bytes": 14629,
+      "sha256": "fe5cdfd579079eb36b143c5584a488e16d01939ab8a7c5e52db4e1b827fdec2a"
     },
     {
       "file": "assets/active-role-switch-CrR_rZQs.js",
@@ -527,19 +527,19 @@
       "sha256": "30bec703eb4c0dd804fcceb4bc36e72b9acc82ce88296c53f212e827405ac9cd"
     },
     {
-      "file": "assets/index-BRnIHkUq.js",
-      "bytes": 547565,
-      "sha256": "704f4f7066c7fc7746e92fd9351ac605401bda46cbd4d2aeb6bfc1e4b972dbe3"
-    },
-    {
       "file": "assets/index-DwmxQlbe.css",
       "bytes": 327974,
       "sha256": "596fb51624e1dc4aa266edec78cfb9c0d76fc648c6f87362f35238721789d020"
     },
     {
-      "file": "assets/index-legacy-C6VZpW6J.js",
-      "bytes": 971619,
-      "sha256": "d2c20ca47bfc25d5b345ace8b3d3775b9220d649547da3971054224a3d0a933b"
+      "file": "assets/index-Nfl-3EUe.js",
+      "bytes": 547601,
+      "sha256": "f5e18e9e443b2f89fc070bde6e5b26e93546dc1451ddbc16a4823ad462e4be25"
+    },
+    {
+      "file": "assets/index-legacy-DjB804JC.js",
+      "bytes": 971655,
+      "sha256": "5a323818c9115e8bb72f9cad1e55da6e9aa83536dae5fba9ff373dd6d844bba0"
     },
     {
       "file": "assets/index.es-BcQdmA5R.js",
@@ -582,24 +582,24 @@
       "sha256": "9d3f1e0c674c5de59d5c37da80ff9d6275afbb17ee1749d686af06d790401854"
     },
     {
-      "file": "assets/lecteur-voix-Chg2bQxb.js",
-      "bytes": 7758,
-      "sha256": "9a11934a59acda00eb1d52349b085ebc7d928167117431bf59a1437e7720fb91"
+      "file": "assets/lecteur-voix-BvdoYfVu.js",
+      "bytes": 7838,
+      "sha256": "34c9636f5e33347cb0244f693ad72d51228e8b73d2c646a3f2c6754a2efb1cd4"
     },
     {
-      "file": "assets/lecteur-voix-legacy-Bad00SVZ.js",
-      "bytes": 16318,
-      "sha256": "198166288cb4322a4455622ea2a14bdacede275e13d187b1bfef47e8b82b555a"
+      "file": "assets/lecteur-voix-legacy-B2E7AEZH.js",
+      "bytes": 16513,
+      "sha256": "3ddc20f3e134a13a87aef6cebdf4489b2d10230e6b992a3898299415c05cadbb"
     },
     {
-      "file": "assets/lire-ecran-BoXnm1JC.js",
+      "file": "assets/lire-ecran-CncikI9b.js",
       "bytes": 968,
-      "sha256": "768435e24362144c93fbf4f9dd053643e40ce024503168a8d245044067f84e5f"
+      "sha256": "fb4ef9ba3f995c905fcbff679aed8c5c0733c127c8594da8b8f74c9dea6ea054"
     },
     {
-      "file": "assets/lire-ecran-legacy-B_7dSf9M.js",
+      "file": "assets/lire-ecran-legacy-DV70lk57.js",
       "bytes": 12309,
-      "sha256": "a9324a4cd02819f81a6e712fb41aaa87b0d5e2366f208533f55677ecc9c26f64"
+      "sha256": "8cdd0ce95ec6ed1cc229ca8c7c3b475113445be051d0872d5763b6dcb68ec580"
     },
     {
       "file": "assets/message-actions-D7e1Wedr.js",
@@ -747,19 +747,19 @@
       "sha256": "b4bf55669c7fa254632bad73efec025b09679db7575a20d51970356ae86721f0"
     },
     {
-      "file": "assets/parole-Dz94B2PV.js",
-      "bytes": 13359,
-      "sha256": "a7a0ff0581f6441cd65167c4270a4b67970ca2658eb5e2de67a5c96b923ec0b8"
+      "file": "assets/parole-Cyx392KK.js",
+      "bytes": 14049,
+      "sha256": "e300edd61c93080caba273507d53bf9310f086c9bdd1d2cc415c0aece44d371e"
     },
     {
-      "file": "assets/parole-legacy-Rjo1Yu8j.js",
-      "bytes": 57292,
-      "sha256": "99c49e8961c3f19109032c84628c539b6a0ac0e4437da1afbb0fbbc34d34d95f"
+      "file": "assets/parole-legacy-90itVuf9.js",
+      "bytes": 58061,
+      "sha256": "19ac33f64e90061471e802405d7b7f48462e218d4d692b6d07895e1f36ad41bd"
     },
     {
-      "file": "assets/polyfills-legacy-DcJiyxsO.js",
-      "bytes": 174053,
-      "sha256": "d0955a27f50b905ca72189b7053f1cb20aea937761ffe27244217cc3a85167b1"
+      "file": "assets/polyfills-legacy-5XV7uG2A.js",
+      "bytes": 174345,
+      "sha256": "83762ca859277f0972a4c273f850d7c4e515dadffb12137725c5f35f14bb056b"
     },
     {
       "file": "assets/purify.es-DA2N5iUF.js",
@@ -822,14 +822,14 @@
       "sha256": "21f261bfa5c8ec75dd7ff9b8abca210e1c78baff01a9d2a7eb7509f14768740c"
     },
     {
-      "file": "assets/sequences-parents-Lotf1EP_.js",
-      "bytes": 5170,
-      "sha256": "57aea438602ab59e85247e856a7b57d0dea28755d51fca3b935a6d89c080d8a2"
+      "file": "assets/sequences-parents-BQU3rhXc.js",
+      "bytes": 6437,
+      "sha256": "3e63eb62780666f9323c442a56c6aabf206d69f6531880110493aae5a3b40308"
     },
     {
-      "file": "assets/sequences-parents-legacy-xHOJaRPc.js",
-      "bytes": 9556,
-      "sha256": "95f27e6925c6ab48e19dc6dee1b967649802fcdf06b03a84c28ea2f3f494a6d0"
+      "file": "assets/sequences-parents-legacy-CcuPuSWC.js",
+      "bytes": 11347,
+      "sha256": "cd3a343f19409a127aadd29ea33fdb0e84a15b9d5a6ed7b107b5c422f4af5d80"
     },
     {
       "file": "assets/settings-periods-DOJt1mlL.js",
@@ -1094,7 +1094,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "f2f2b1072c7d9d9d8aea5ea79a60506f7f5527827289216fd6f765b08b58f2a5"
+      "sha256": "7a5d19277c639e8a74189378fa8894ad65a298862b68759e8468410f248e10ce"
     },
     {
       "file": "manifest.webmanifest",
@@ -1103,8 +1103,8 @@
     },
     {
       "file": "offline-manifest.json",
-      "bytes": 28114,
-      "sha256": "5807dcf22fdde461a5dd0dcc514e62949ec35d592e1b9155bc45e5d1e76cf319"
+      "bytes": 28115,
+      "sha256": "2ec1801608dfc3fb9e0238fe2bc0bdb08dd0b00ec47530aee774f9f1c9ea961c"
     },
     {
       "file": "reset-cache.html",
@@ -1124,7 +1124,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "feefdcecef4b7eb44891160b54694a47ae4aedcf3921c021c057748b226f30be"
+      "sha256": "9ff455397b0a44f8ff9cfd85e624c8119e0182a9f9e3b5ed2230b840a2a6d413"
     },
     {
       "file": "v.html",
@@ -1138,13 +1138,13 @@
     },
     {
       "file": "version.json",
-      "bytes": 533,
-      "sha256": "48b5cc3e09ae8d1e61abbfe5c3363979529b1b8c555e99aad8346130d3097996"
+      "bytes": 626,
+      "sha256": "7ca2b437759cfa27aa8be921e743d13a36cce46cf3a5015489f83afec8546777"
     },
     {
       "file": "voix/phrases.json",
-      "bytes": 23405,
-      "sha256": "b79a750285ca64e12a729ebc57f71a2bca14b0c48403cd1d9ad1c47ddb7ea020"
+      "bytes": 26792,
+      "sha256": "b05156099c89e1f63a72b2c7016848b027f94eb09bb6971352463a1caebb9dec"
     },
     {
       "file": "voix/pular/absence_justifiee.mp3",

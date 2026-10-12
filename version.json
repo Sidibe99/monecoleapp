@@ -1,10 +1,10 @@
 {
-  "version": "v616",
+  "version": "v617",
   "date": "2026-10-12",
-  "note": "L’arabe ne se montre qu’aux écoles bilingues ou arabes (réglage Langue des documents) : choix de la langue de l’interface, cases « Nom en arabe ». Sur l’emploi du temps d’une école bilingue, la matière qui a un nom arabe s’écrit en arabe.",
-  "label": "Arabe réservé aux écoles bilingues",
-  "label_ar": "العربية للمدارس الثنائية فقط",
+  "note": "Écoute en pular : les valeurs (prénom, matière, heure, message) sont dites par la voix du téléphone, y compris dans l’application Android, et ne retiennent plus la suite ; des boutons d’écoute en plus (rubriques de l’accueil, résultats, versements, déclaration) ; 14 phrases « mon enfant / mes enfants » à enregistrer, nommées dans l’espace éditeur.",
+  "label": "Pular : écoute complétée",
+  "label_ar": "البولارية: استماع مكتمل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-12T12:00:00.000Z"
+  "updated_at": "2026-10-12T15:00:00.000Z"
 }
