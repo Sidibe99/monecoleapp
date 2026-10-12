@@ -1,10 +1,10 @@
 {
-  "version": "v615",
-  "date": "2026-10-11",
-  "note": "L’import d’élèves sait qu’un élève est un ancien de l’école : un choix dans la fenêtre, ou une colonne « Statut » dans le fichier, le fait entrer comme réinscrit, avec son année précédente.",
-  "label": "Réinscrits à l’import",
-  "label_ar": "المعاد تسجيلهم عند الاستيراد",
+  "version": "v616",
+  "date": "2026-10-12",
+  "note": "L’arabe ne se montre qu’aux écoles bilingues ou arabes (réglage Langue des documents) : choix de la langue de l’interface, cases « Nom en arabe ». Sur l’emploi du temps d’une école bilingue, la matière qui a un nom arabe s’écrit en arabe.",
+  "label": "Arabe réservé aux écoles bilingues",
+  "label_ar": "العربية للمدارس الثنائية فقط",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-12T00:30:00.000Z"
+  "updated_at": "2026-10-12T12:00:00.000Z"
 }
