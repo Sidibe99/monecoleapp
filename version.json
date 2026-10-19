@@ -1,10 +1,10 @@
 {
-  "version": "v624",
+  "version": "v625",
   "date": "2026-10-19",
-  "note": "Inscription : les mois (ou tranches) payés le jour même se cochent sous les frais d’inscription, un seul reçu ; reçu sans logo : les initiales de l’école ; « Ajouter un cours » : la classe se choisit dans la fenêtre ; le nombre de messages non lus sur l’icône Messagerie.",
-  "label": "Mensualités payées à l’inscription",
-  "label_ar": "الأشهر المدفوعة عند التسجيل",
+  "note": "Cartes scolaires : la couleur du texte se choisit (ou Auto) ; une école en français seul n’imprime plus de verso arabe, même avec un ancien réglage de l’appareil ; l’écran de connexion ne propose l’arabe qu’après une école bilingue ou arabe.",
+  "label": "Couleur du texte des cartes",
+  "label_ar": "لون نص البطاقات",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-19T23:00:00.000Z"
+  "updated_at": "2026-10-19T23:30:00.000Z"
 }
