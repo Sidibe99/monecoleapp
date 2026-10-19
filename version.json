@@ -1,10 +1,10 @@
 {
-  "version": "v623",
+  "version": "v624",
   "date": "2026-10-19",
-  "note": "Espace Parent plus fluide : l’enfant en haut de l’accueil, ses pastilles mènent à ses absences, ses paiements ou ses résultats ; plus de recherche ni de liste pour un seul enfant ; les absences en premier.",
-  "label": "Espace Parent plus fluide",
-  "label_ar": "فضاء الولي أكثر سلاسة",
+  "note": "Inscription : les mois (ou tranches) payés le jour même se cochent sous les frais d’inscription, un seul reçu ; reçu sans logo : les initiales de l’école ; « Ajouter un cours » : la classe se choisit dans la fenêtre ; le nombre de messages non lus sur l’icône Messagerie.",
+  "label": "Mensualités payées à l’inscription",
+  "label_ar": "الأشهر المدفوعة عند التسجيل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-19T21:30:00.000Z"
+  "updated_at": "2026-10-19T23:00:00.000Z"
 }
