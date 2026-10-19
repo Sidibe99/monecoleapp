@@ -1,10 +1,10 @@
 {
-  "version": "v628",
+  "version": "v629",
   "date": "2026-10-19",
-  "note": "Résultats scolaires s’ouvre sur « Validation des fiches » (le premier sous-onglet) ; avec la v627 : l’annuel calculé depuis le mensuel, l’enregistrement rapide des frais, les onglets d’Établissement selon le rôle.",
-  "label": "Le premier sous-onglet d’abord",
-  "label_ar": "التبويب الفرعي الأول أولًا",
-  "scope": "client",
+  "note": "L’interface en anglais : Préférences → Langue → English (et « EN » sur l’écran de connexion), pour toutes les écoles ; l’arabe reste aux écoles bilingues ou arabes. Les documents imprimés suivent toujours la langue des documents.",
+  "label": "Interface en anglais",
+  "label_ar": "الواجهة بالإنجليزية",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-20T01:30:00.000Z"
+  "updated_at": "2026-10-20T09:00:00.000Z"
 }
