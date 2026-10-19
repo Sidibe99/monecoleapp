@@ -1,10 +1,10 @@
 {
-  "version": "v617",
-  "date": "2026-10-12",
-  "note": "Écoute en pular : les valeurs (prénom, matière, heure, message) sont dites par la voix du téléphone, y compris dans l’application Android, et ne retiennent plus la suite ; des boutons d’écoute en plus (rubriques de l’accueil, résultats, versements, déclaration) ; 14 phrases « mon enfant / mes enfants » à enregistrer, nommées dans l’espace éditeur.",
-  "label": "Pular : écoute complétée",
-  "label_ar": "البولارية: استماع مكتمل",
+  "version": "v623",
+  "date": "2026-10-19",
+  "note": "Espace Parent plus fluide : l’enfant en haut de l’accueil, ses pastilles mènent à ses absences, ses paiements ou ses résultats ; plus de recherche ni de liste pour un seul enfant ; les absences en premier.",
+  "label": "Espace Parent plus fluide",
+  "label_ar": "فضاء الولي أكثر سلاسة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-12T15:00:00.000Z"
+  "updated_at": "2026-10-19T21:30:00.000Z"
 }
