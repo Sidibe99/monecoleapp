@@ -1,10 +1,10 @@
 {
-  "version": "v625",
+  "version": "v626",
   "date": "2026-10-19",
-  "note": "Cartes scolaires : la couleur du texte se choisit (ou Auto) ; une école en français seul n’imprime plus de verso arabe, même avec un ancien réglage de l’appareil ; l’écran de connexion ne propose l’arabe qu’après une école bilingue ou arabe.",
-  "label": "Couleur du texte des cartes",
-  "label_ar": "لون نص البطاقات",
+  "note": "Emploi du temps : « Toute l’école » dans le choix de la classe, chaque cours avec sa classe ; le cahier de textes en liste seule pour la direction (seul le professeur saisit) ; le rôle s’accorde au genre de la personne dans la messagerie et le journal.",
+  "label": "Emploi du temps de toute l’école",
+  "label_ar": "جدول حصص المدرسة كلها",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-19T23:30:00.000Z"
+  "updated_at": "2026-10-20T00:00:00.000Z"
 }
