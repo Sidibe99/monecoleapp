@@ -1,10 +1,10 @@
 {
-  "version": "v629",
+  "version": "v630",
   "date": "2026-10-19",
-  "note": "L’interface en anglais : Préférences → Langue → English (et « EN » sur l’écran de connexion), pour toutes les écoles ; l’arabe reste aux écoles bilingues ou arabes. Les documents imprimés suivent toujours la langue des documents.",
-  "label": "Interface en anglais",
-  "label_ar": "الواجهة بالإنجليزية",
-  "scope": "client+supabase",
+  "note": "Écran de connexion : plus de case « Mémoriser mon identifiant ». Chaque connexion prépare le hors connexion : sans réseau, l’application s’ouvre sur les dernières données, et le même compte peut se reconnecter avec son mot de passe.",
+  "label": "Hors connexion automatique",
+  "label_ar": "دون اتصال تلقائيًا",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T09:00:00.000Z"
+  "updated_at": "2026-10-20T10:00:00.000Z"
 }
