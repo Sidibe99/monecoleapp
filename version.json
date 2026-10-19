@@ -1,10 +1,10 @@
 {
-  "version": "v626",
+  "version": "v628",
   "date": "2026-10-19",
-  "note": "Emploi du temps : « Toute l’école » dans le choix de la classe, chaque cours avec sa classe ; le cahier de textes en liste seule pour la direction (seul le professeur saisit) ; le rôle s’accorde au genre de la personne dans la messagerie et le journal.",
-  "label": "Emploi du temps de toute l’école",
-  "label_ar": "جدول حصص المدرسة كلها",
+  "note": "Résultats scolaires s’ouvre sur « Validation des fiches » (le premier sous-onglet) ; avec la v627 : l’annuel calculé depuis le mensuel, l’enregistrement rapide des frais, les onglets d’Établissement selon le rôle.",
+  "label": "Le premier sous-onglet d’abord",
+  "label_ar": "التبويب الفرعي الأول أولًا",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T00:00:00.000Z"
+  "updated_at": "2026-10-20T01:30:00.000Z"
 }
