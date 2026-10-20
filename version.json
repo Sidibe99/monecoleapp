@@ -1,10 +1,10 @@
 {
-  "version": "v631",
+  "version": "v632",
   "date": "2026-10-20",
-  "note": "Paramètres → École : chaque cycle (maternelle, primaire, collège, lycée) s’active ou se désactive. Un cycle que l’école n’a pas encore disparaît des onglets, des classes types et des listes de choix ; on le réactive le jour où il ouvre.",
-  "label": "Cycles activables",
-  "label_ar": "مراحل قابلة للتفعيل",
-  "scope": "client+supabase",
+  "note": "Encaisser un versement : une école payée par tranches peut aussi encaisser au mois. « Par mois », entre « Par tranche » et « Acompte », ne montre que les mois impayés ; on coche un ou plusieurs mois. Les tranches s’affichent en francs entiers.",
+  "label": "Mois à l’encaissement",
+  "label_ar": "الأشهر عند التحصيل",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T12:00:00.000Z"
+  "updated_at": "2026-10-20T13:00:00.000Z"
 }
