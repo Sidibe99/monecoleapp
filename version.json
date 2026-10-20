@@ -1,10 +1,10 @@
 {
-  "version": "v639",
+  "version": "v640",
   "date": "2026-10-20",
-  "note": "Classes : le menu « Actions » d’une carte se ferme tout seul — clic ou toucher ailleurs, touche Échap, ouverture d’un autre menu, souris qui s’en éloigne, ou choix de « Modifier » / « Supprimer ».",
-  "label": "Menu Actions refermable",
-  "label_ar": "قائمة الإجراءات تُغلق",
+  "note": "Élèves → Bilan des inscriptions : sous la répartition globale, deux graphiques de plus — filles et garçons (nombre et part), élèves par cycle (à la couleur du cycle, seulement les cycles de l’école).",
+  "label": "Graphiques des inscriptions",
+  "label_ar": "رسوم التسجيلات",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T20:00:00.000Z"
+  "updated_at": "2026-10-20T21:00:00.000Z"
 }
