@@ -1,10 +1,10 @@
 {
-  "version": "v630",
-  "date": "2026-10-19",
-  "note": "Écran de connexion : plus de case « Mémoriser mon identifiant ». Chaque connexion prépare le hors connexion : sans réseau, l’application s’ouvre sur les dernières données, et le même compte peut se reconnecter avec son mot de passe.",
-  "label": "Hors connexion automatique",
-  "label_ar": "دون اتصال تلقائيًا",
-  "scope": "client",
+  "version": "v631",
+  "date": "2026-10-20",
+  "note": "Paramètres → École : chaque cycle (maternelle, primaire, collège, lycée) s’active ou se désactive. Un cycle que l’école n’a pas encore disparaît des onglets, des classes types et des listes de choix ; on le réactive le jour où il ouvre.",
+  "label": "Cycles activables",
+  "label_ar": "مراحل قابلة للتفعيل",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-20T10:00:00.000Z"
+  "updated_at": "2026-10-20T12:00:00.000Z"
 }
