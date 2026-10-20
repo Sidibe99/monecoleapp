@@ -1,10 +1,10 @@
 {
-  "version": "v634",
+  "version": "v636",
   "date": "2026-10-20",
-  "note": "Cartes scolaires sur iPhone et iPad (et MonEcole sur l’écran d’accueil) : « PDF » et « Imprimer » préparent un vrai PDF des cartes, puis la feuille de partage propose Imprimer, Enregistrer dans Fichiers ou WhatsApp. Le QR reste lisible. Sur ordinateur et Android, rien ne change.",
-  "label": "Cartes en PDF",
-  "label_ar": "البطاقات بصيغة PDF",
+  "note": "Cartes scolaires sur iPhone et iPad : un seul bouton « Imprimer / PDF » (les deux boutons menaient au même PDF). Le PDF s’ouvre ensuite dans la feuille de partage : Imprimer, Fichiers, WhatsApp. Ordinateur et Android gardent « PDF » et « Imprimer ».",
+  "label": "Un seul bouton PDF",
+  "label_ar": "زر PDF واحد",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T15:00:00.000Z"
+  "updated_at": "2026-10-20T17:00:00.000Z"
 }
