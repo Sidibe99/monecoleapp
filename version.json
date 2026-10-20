@@ -1,13 +1,13 @@
 {
-  "version": "v641",
+  "version": "v642",
   "date": "2026-10-20",
-  "note": "Espace éditeur : la langue de chaque école se change d’un clic (français seul, franco-arabe, arabe). Une école franco-arabe garde le français et l’arabe, et reçoit en plus l’anglais.",
-  "label": "Langue de l’école modifiable",
-  "label_ar": "لغة المدرسة قابلة للتعديل",
+  "note": "Deux langues par école : celle de l’application (Paramètres → Application : français et anglais, ou avec l’arabe) et celle des documents imprimés (Paramètres → Documents). Une école qui n’a rien réglé garde son écran actuel. Les deux se règlent aussi dans l’espace éditeur.",
+  "label": "Langue de l’app à part",
+  "label_ar": "لغة التطبيق منفصلة",
   "scope": "client+supabase",
   "deploiement": [
     "editeur-admin"
   ],
   "client_visible": true,
-  "updated_at": "2026-10-20T22:00:00.000Z"
+  "updated_at": "2026-10-20T23:00:00.000Z"
 }
