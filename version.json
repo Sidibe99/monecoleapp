@@ -1,10 +1,10 @@
 {
-  "version": "v637",
+  "version": "v638",
   "date": "2026-10-20",
-  "note": "Les élèves sont rangés par ordre alphabétique partout (nom de famille, puis prénom), y compris ceux ajoutés dans la journée. La liste d’une classe écrit le nom en premier et se cherche par nom, prénom ou matricule ; numéros et matricules ne sont plus coupés.",
-  "label": "Élèves par ordre alphabétique",
-  "label_ar": "التلاميذ بالترتيب الأبجدي",
+  "note": "Page Classes : la répartition par cycle occupe toute la largeur ; chaque cycle a sa bande de titre, à sa couleur, avec ses classes et ses élèves ; les cartes écrivent plus grand, leur icône prend la couleur du cycle, et une école au mois voit les frais annuels calculés depuis la mensualité.",
+  "label": "Classes plus lisibles",
+  "label_ar": "فصول أوضح",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T18:00:00.000Z"
+  "updated_at": "2026-10-20T19:00:00.000Z"
 }
