@@ -1,10 +1,10 @@
 {
-  "version": "v643",
+  "version": "v644",
   "date": "2026-10-20",
-  "note": "Matières : une matière qui a un nom arabe montre ses deux noms, le français et l’arabe (« Coran » et « القرآن الكريم »), dans toutes les écoles.",
-  "label": "Matières à deux noms",
-  "label_ar": "المواد باسمين",
-  "scope": "client",
+  "note": "Matières : la langue d’enseignement se coche (français, arabe, ou les deux). Les deux langues créent deux matières jumelles — « Écriture (français) » et « Écriture (arabe) » — chacune avec son professeur, ses notes et sa ligne au bulletin. Au bulletin, chaque matière s’écrit dans sa langue.",
+  "label": "Matières par langue",
+  "label_ar": "المواد حسب اللغة",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-21T00:00:00.000Z"
+  "updated_at": "2026-10-21T01:00:00.000Z"
 }
