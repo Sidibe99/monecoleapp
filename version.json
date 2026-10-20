@@ -1,10 +1,10 @@
 {
-  "version": "v638",
+  "version": "v639",
   "date": "2026-10-20",
-  "note": "Page Classes : la répartition par cycle occupe toute la largeur ; chaque cycle a sa bande de titre, à sa couleur, avec ses classes et ses élèves ; les cartes écrivent plus grand, leur icône prend la couleur du cycle, et une école au mois voit les frais annuels calculés depuis la mensualité.",
-  "label": "Classes plus lisibles",
-  "label_ar": "فصول أوضح",
+  "note": "Classes : le menu « Actions » d’une carte se ferme tout seul — clic ou toucher ailleurs, touche Échap, ouverture d’un autre menu, souris qui s’en éloigne, ou choix de « Modifier » / « Supprimer ».",
+  "label": "Menu Actions refermable",
+  "label_ar": "قائمة الإجراءات تُغلق",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T19:00:00.000Z"
+  "updated_at": "2026-10-20T20:00:00.000Z"
 }
