@@ -1,10 +1,13 @@
 {
-  "version": "v640",
+  "version": "v641",
   "date": "2026-10-20",
-  "note": "Élèves → Bilan des inscriptions : sous la répartition globale, deux graphiques de plus — filles et garçons (nombre et part), élèves par cycle (à la couleur du cycle, seulement les cycles de l’école).",
-  "label": "Graphiques des inscriptions",
-  "label_ar": "رسوم التسجيلات",
-  "scope": "client",
+  "note": "Espace éditeur : la langue de chaque école se change d’un clic (français seul, franco-arabe, arabe). Une école franco-arabe garde le français et l’arabe, et reçoit en plus l’anglais.",
+  "label": "Langue de l’école modifiable",
+  "label_ar": "لغة المدرسة قابلة للتعديل",
+  "scope": "client+supabase",
+  "deploiement": [
+    "editeur-admin"
+  ],
   "client_visible": true,
-  "updated_at": "2026-10-20T21:00:00.000Z"
+  "updated_at": "2026-10-20T22:00:00.000Z"
 }

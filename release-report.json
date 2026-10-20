@@ -1,10 +1,10 @@
 {
-  "version": "v640",
-  "package_version": "1.0.640",
-  "label": "Graphiques des inscriptions",
-  "created_at": "2026-10-20T15:27:38.962Z",
+  "version": "v641",
+  "package_version": "1.0.641",
+  "label": "Langue de l’école modifiable",
+  "created_at": "2026-10-20T15:53:55.758Z",
   "files": 366,
-  "total_bytes": 28026222,
+  "total_bytes": 28029515,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/Aide-HlbMyJoY.js",
+      "file": "assets/Aide-DhHJZKE4.js",
       "bytes": 26161,
-      "sha256": "c2c07ab3acf5b2cb8faeadd3043736812d8a62c8357e2a130c5922a8bf92c630"
+      "sha256": "a46bc425ed226a3a3d3a138b96bdd91bd7c45a9b06260232e8333a5476272ebc"
     },
     {
-      "file": "assets/Aide-legacy-C9xmhtHY.js",
+      "file": "assets/Aide-legacy-CaVIKTCs.js",
       "bytes": 33399,
-      "sha256": "4ef8d72a6021444d30db3a0c024da9203da0ae84835dbf2c8eb65545d5df14fe"
+      "sha256": "acb0efd6e6ebaa55d88005e829aaa76028e7316f8341c1d1f2bfff64d8835eb6"
     },
     {
       "file": "assets/AnnualClosureModal-Bve9Zt_Y.js",
@@ -122,14 +122,14 @@
       "sha256": "87367f4d39d78fb1f95014b50d1caf165828bcc0e78bb7336630555a86ddb614"
     },
     {
-      "file": "assets/EditorHub-gOpp6c6l.js",
-      "bytes": 52506,
-      "sha256": "dab7a798a90546e89d6f7fb1d1fcd7d945c4155f1e13f8d55daa38dda1cf3f70"
+      "file": "assets/EditorHub-Ckz0c52M.js",
+      "bytes": 53937,
+      "sha256": "74d66b348260bf27796cb22e302d77de22f22a14372fea5da0e2b0d25ff076b5"
     },
     {
-      "file": "assets/EditorHub-legacy-wuFJO3FQ.js",
-      "bytes": 66972,
-      "sha256": "12f1b7eca98d02bfcf2a6574267fda18a140fd5c7a511171a41d64c34d2858fd"
+      "file": "assets/EditorHub-legacy-kyBaWyj0.js",
+      "bytes": 68776,
+      "sha256": "12245eb0236720b53402f7a940eb1a5eb797aa4eab36454a014958fd801ce380"
     },
     {
       "file": "assets/ElevesPage-BcYabkRE.js",
@@ -247,14 +247,14 @@
       "sha256": "fa6f2c5116761e2db243ad0de65c46f68b65e899ee9c520efa2f37b81c085130"
     },
     {
-      "file": "assets/MessageriePage-legacy-B9V1zP76.js",
-      "bytes": 62114,
-      "sha256": "e8e7d19d6109d9c58de72d25ea3dc7c6eef2194a2bfa44dc501b88d275ee8e7f"
+      "file": "assets/MessageriePage-J2gKV0WD.js",
+      "bytes": 48739,
+      "sha256": "b1fe07afd11da66fbb83eccd8bf74b926d56eca9bebd7d6d342fb303d4d84355"
     },
     {
-      "file": "assets/MessageriePage-x_HCez84.js",
-      "bytes": 48739,
-      "sha256": "3bcdb6a23573261a1f6cf1af17a6f3a380db60a7f098849aefa5cf41b88f0052"
+      "file": "assets/MessageriePage-legacy-C5wYBmjX.js",
+      "bytes": 62114,
+      "sha256": "e793a14116f77a60796064af4bf6716aea57809890568aded4a79fe74e651e2b"
     },
     {
       "file": "assets/NotificationCenter-ZiQQrD34.js",
@@ -572,14 +572,14 @@
       "sha256": "755af65a92c15974feebd442ebe6e9c1d10f0eed9bacd6fd084907d5c9985de9"
     },
     {
-      "file": "assets/index-Dhu1kyMQ.js",
+      "file": "assets/index-a0ZxvZl5.js",
       "bytes": 545671,
-      "sha256": "1e39825c9f5305833b936aa7a1fda5f16d65ac468736ff1d492e400c07aaf0b2"
+      "sha256": "d17bfb85669faa5580151ef13e7f8b2e495e08f9d2bd25122a416abd352686b4"
     },
     {
-      "file": "assets/index-legacy-AtSlUbyI.js",
+      "file": "assets/index-legacy-CST_j7Fe.js",
       "bytes": 974684,
-      "sha256": "9cad39121d29ec2bbce9dc442fcd40787b378bdc04cdd561b78e7aa1173c9d63"
+      "sha256": "a07291d0e2c55105247506275a207873ea2c2cf6be7930c2d4ccaf9586a01709"
     },
     {
       "file": "assets/index.es-DRSKM11r.js",
@@ -1134,7 +1134,7 @@
     {
       "file": "index.html",
       "bytes": 9030,
-      "sha256": "9cc9a399b813e113025570bd7ead40dfe33ce865293bc03341be9e558c1d61a6"
+      "sha256": "bf92c1732ab133d67db4fc2dc90c84f141dcb13297fc3de7ec6ea918921d7212"
     },
     {
       "file": "manifest.webmanifest",
@@ -1144,7 +1144,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 29387,
-      "sha256": "bf9ae12d62cc527b95814c2ab43d1e0b83339d09f187e4a1ff3e9ed8a38f0fa8"
+      "sha256": "b672a9be82e0e30380d9d6e7c757abeaaac984aed682019fb6f8f8f0a8dc7389"
     },
     {
       "file": "reset-cache.html",
@@ -1164,7 +1164,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "e3de274d3afd82351582aceffe0dc52e918d4bae0ebea7431b4313b8e60eed79"
+      "sha256": "5ac4f7ee9749a602aa583d17c11a9f96e5a8d5213ee5251dd42f8d26eec2f57c"
     },
     {
       "file": "v.html",
@@ -1178,8 +1178,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 453,
-      "sha256": "8479ecd800bc1a0cf7154aad51ab61842fee6a2b1bbcf34cc7beee422ce33123"
+      "bytes": 511,
+      "sha256": "722276ad16d325d1b824c998675ed7eb6892b6f583020ab8ef900ad1b4700616"
     },
     {
       "file": "voix/phrases.json",
