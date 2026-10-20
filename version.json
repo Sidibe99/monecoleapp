@@ -1,10 +1,10 @@
 {
-  "version": "v636",
+  "version": "v637",
   "date": "2026-10-20",
-  "note": "Cartes scolaires sur iPhone et iPad : un seul bouton « Imprimer / PDF » (les deux boutons menaient au même PDF). Le PDF s’ouvre ensuite dans la feuille de partage : Imprimer, Fichiers, WhatsApp. Ordinateur et Android gardent « PDF » et « Imprimer ».",
-  "label": "Un seul bouton PDF",
-  "label_ar": "زر PDF واحد",
+  "note": "Les élèves sont rangés par ordre alphabétique partout (nom de famille, puis prénom), y compris ceux ajoutés dans la journée. La liste d’une classe écrit le nom en premier et se cherche par nom, prénom ou matricule ; numéros et matricules ne sont plus coupés.",
+  "label": "Élèves par ordre alphabétique",
+  "label_ar": "التلاميذ بالترتيب الأبجدي",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T17:00:00.000Z"
+  "updated_at": "2026-10-20T18:00:00.000Z"
 }
