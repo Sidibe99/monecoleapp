@@ -1,13 +1,10 @@
 {
-  "version": "v642",
+  "version": "v643",
   "date": "2026-10-20",
-  "note": "Deux langues par école : celle de l’application (Paramètres → Application : français et anglais, ou avec l’arabe) et celle des documents imprimés (Paramètres → Documents). Une école qui n’a rien réglé garde son écran actuel. Les deux se règlent aussi dans l’espace éditeur.",
-  "label": "Langue de l’app à part",
-  "label_ar": "لغة التطبيق منفصلة",
-  "scope": "client+supabase",
-  "deploiement": [
-    "editeur-admin"
-  ],
+  "note": "Matières : une matière qui a un nom arabe montre ses deux noms, le français et l’arabe (« Coran » et « القرآن الكريم »), dans toutes les écoles.",
+  "label": "Matières à deux noms",
+  "label_ar": "المواد باسمين",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T23:00:00.000Z"
+  "updated_at": "2026-10-21T00:00:00.000Z"
 }
