@@ -1,10 +1,10 @@
 {
-  "version": "v633",
+  "version": "v634",
   "date": "2026-10-20",
-  "note": "Classes : la classe suivante se trouve toute seule d’après le niveau (1ère Année → 2ème Année A, 6ème Année → 7ème Année, Terminale → sortie) ; une autre reste possible. Encaisser un versement : le reste de l’élève en tête, les moyens de paiement d’un geste, la note repliée, le montant à encaisser en clair.",
-  "label": "Passage automatique",
-  "label_ar": "الانتقال التلقائي",
+  "note": "Cartes scolaires sur iPhone et iPad (et MonEcole sur l’écran d’accueil) : « PDF » et « Imprimer » préparent un vrai PDF des cartes, puis la feuille de partage propose Imprimer, Enregistrer dans Fichiers ou WhatsApp. Le QR reste lisible. Sur ordinateur et Android, rien ne change.",
+  "label": "Cartes en PDF",
+  "label_ar": "البطاقات بصيغة PDF",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T14:00:00.000Z"
+  "updated_at": "2026-10-20T15:00:00.000Z"
 }
