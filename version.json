@@ -1,10 +1,10 @@
 {
-  "version": "v632",
+  "version": "v633",
   "date": "2026-10-20",
-  "note": "Encaisser un versement : une école payée par tranches peut aussi encaisser au mois. « Par mois », entre « Par tranche » et « Acompte », ne montre que les mois impayés ; on coche un ou plusieurs mois. Les tranches s’affichent en francs entiers.",
-  "label": "Mois à l’encaissement",
-  "label_ar": "الأشهر عند التحصيل",
+  "note": "Classes : la classe suivante se trouve toute seule d’après le niveau (1ère Année → 2ème Année A, 6ème Année → 7ème Année, Terminale → sortie) ; une autre reste possible. Encaisser un versement : le reste de l’élève en tête, les moyens de paiement d’un geste, la note repliée, le montant à encaisser en clair.",
+  "label": "Passage automatique",
+  "label_ar": "الانتقال التلقائي",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-20T13:00:00.000Z"
+  "updated_at": "2026-10-20T14:00:00.000Z"
 }
