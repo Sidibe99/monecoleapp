@@ -1,10 +1,10 @@
 {
-  "version": "v647",
-  "date": "2026-10-20",
-  "note": "Matières : une matière peut être rattachée à une matière principale (Conjugaison ou Grammaire dans Français, Mesure ou Calcul écrit dans Mathématiques). Elle garde son professeur, ses notes et son créneau ; la liste la range sous sa principale et le bulletin la groupe, avec la moyenne du groupe.",
-  "label": "Composantes des matières",
-  "label_ar": "أجزاء المواد",
+  "version": "v648",
+  "date": "2026-10-21",
+  "note": "Emploi du temps : « Récréation » rejoint Cours, Entretien et Réunion. Une récréation n'a pas de matière ; son intitulé (« Grande récréation ») et son surveillant sont facultatifs. Elle n'ouvre ni l'appel ni le cahier de textes. Un entretien ou une réunion n'a plus de champ Professeur.",
+  "label": "Récréations de l'emploi du temps",
+  "label_ar": "استراحات جدول الحصص",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-21T13:00:00.000Z"
+  "updated_at": "2026-10-21T15:00:00.000Z"
 }
