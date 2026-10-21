@@ -1,10 +1,10 @@
 {
-  "version": "v648",
+  "version": "v649",
   "date": "2026-10-21",
-  "note": "Emploi du temps : « Récréation » rejoint Cours, Entretien et Réunion. Une récréation n'a pas de matière ; son intitulé (« Grande récréation ») et son surveillant sont facultatifs. Elle n'ouvre ni l'appel ni le cahier de textes. Un entretien ou une réunion n'a plus de champ Professeur.",
-  "label": "Récréations de l'emploi du temps",
-  "label_ar": "استراحات جدول الحصص",
+  "note": "Espace Parent : chaque matière de l'emploi du temps et des évaluations s'écrit dans sa langue d'enseignement, comme à l'école (« Lecture (français) » reste en français). Emploi du temps, Notes, Présences et Fiches à imprimer : la dernière classe consultée revient quand on revient sur la page, jusqu'à ce qu'on en choisisse une autre.",
+  "label": "Langue des matières chez le parent",
+  "label_ar": "لغة المواد عند ولي الأمر",
   "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-21T15:00:00.000Z"
+  "updated_at": "2026-10-21T17:30:00.000Z"
 }
