@@ -1,10 +1,10 @@
 {
-  "version": "v645",
+  "version": "v646",
   "date": "2026-10-20",
-  "note": "iPhone : dans les fenêtres (Inscrire un élève…), le champ touché reste visible au-dessus du clavier, même quand Safari fait défiler la fenêtre pendant la montée du clavier. Sauvegarde de la nuit : une panne passagère du stockage des fichiers est reprise jusqu’à trois fois.",
-  "label": "Champ visible et sauvegarde tenace",
-  "label_ar": "حقل ظاهر ونسخ احتياطي",
+  "note": "iPhone, « Inscrire un élève » : clavier ouvert, la zone de saisie ne tombe plus à zéro. Les cases « Frais d’inscription déjà réglés » et « Tranches déjà réglées » défilent maintenant avec le formulaire ; seuls les boutons restent fixes en bas.",
+  "label": "Saisie visible clavier ouvert",
+  "label_ar": "الإدخال ظاهر مع لوحة المفاتيح",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-21T09:00:00.000Z"
+  "updated_at": "2026-10-21T11:00:00.000Z"
 }
