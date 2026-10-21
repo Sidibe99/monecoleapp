@@ -1,10 +1,10 @@
 {
-  "version": "v646",
+  "version": "v647",
   "date": "2026-10-20",
-  "note": "iPhone, « Inscrire un élève » : clavier ouvert, la zone de saisie ne tombe plus à zéro. Les cases « Frais d’inscription déjà réglés » et « Tranches déjà réglées » défilent maintenant avec le formulaire ; seuls les boutons restent fixes en bas.",
-  "label": "Saisie visible clavier ouvert",
-  "label_ar": "الإدخال ظاهر مع لوحة المفاتيح",
-  "scope": "client",
+  "note": "Matières : une matière peut être rattachée à une matière principale (Conjugaison ou Grammaire dans Français, Mesure ou Calcul écrit dans Mathématiques). Elle garde son professeur, ses notes et son créneau ; la liste la range sous sa principale et le bulletin la groupe, avec la moyenne du groupe.",
+  "label": "Composantes des matières",
+  "label_ar": "أجزاء المواد",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-21T11:00:00.000Z"
+  "updated_at": "2026-10-21T13:00:00.000Z"
 }
