@@ -1,10 +1,10 @@
 {
-  "version": "v650",
+  "version": "v651",
   "date": "2026-10-21",
-  "note": "Emploi du temps : les séances se rangent toujours par l'heure, même ajoutées après coup ou écrites « 8:00 ». Présentation plus nette : Modifier et Supprimer à côté du nom de la matière, et les jours sans cours ne s'étirent plus.",
-  "label": "Séances rangées par l'heure",
-  "label_ar": "الحصص مرتبة حسب الوقت",
-  "scope": "client",
+  "note": "Classes du primaire : chaque classe choisit qui enseigne — un professeur par matière, un maître pour toutes les matières, ou deux maîtres (français et arabe) dans une école bilingue. L'emploi du temps place le bon maître sur chaque séance selon la langue de la matière, et « Attribuer les maîtres » remplit les séances déjà saisies.",
+  "label": "Maîtres des classes du primaire",
+  "label_ar": "معلمو فصول الابتدائي",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-21T19:00:00.000Z"
+  "updated_at": "2026-10-21T21:00:00.000Z"
 }
