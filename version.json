@@ -1,10 +1,10 @@
 {
-  "version": "v653",
+  "version": "v654",
   "date": "2026-10-21",
-  "note": "Emploi du temps : « Imprimer le cycle » pose toutes les classes du cycle sur une seule feuille A3, une petite grille par classe (heures × jours), avec le maître de chaque classe dans son titre. La taille du texte et le sens de la feuille s'ajustent au nombre de classes.",
-  "label": "Cycle sur une feuille A3",
-  "label_ar": "المرحلة على ورقة A3",
+  "note": "Emploi du temps imprimé : quand les jours n'ont pas les mêmes horaires (un entretien de 08:00 à 08:15 le mercredi, par exemple), les séances se rangent dans l'ordre de la journée et chaque case porte son heure. Plus de cases vides en zigzag.",
+  "label": "Horaires décalés en ordre",
+  "label_ar": "أوقات متفاوتة بالترتيب",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-21T23:00:00.000Z"
+  "updated_at": "2026-10-21T23:30:00.000Z"
 }
