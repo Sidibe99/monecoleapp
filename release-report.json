@@ -1,10 +1,10 @@
 {
-  "version": "v644",
-  "package_version": "1.0.644",
-  "label": "Matières par langue",
-  "created_at": "2026-10-20T18:28:42.615Z",
+  "version": "v645",
+  "package_version": "1.0.645",
+  "label": "Champ visible et sauvegarde tenace",
+  "created_at": "2026-10-21T08:34:35.816Z",
   "files": 366,
-  "total_bytes": 28051658,
+  "total_bytes": 28052041,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/Aide-D89iFkU4.js",
+      "file": "assets/Aide-QDf3HglB.js",
       "bytes": 26122,
-      "sha256": "0390df242fc008c6fcba55d093bccf3a7e7021916413631f8936620ce79e1165"
+      "sha256": "a3d5afbae3095363733c6717faa00de926e6c60241817f3f9b2651448d28ca76"
     },
     {
-      "file": "assets/Aide-legacy-CDeJX17x.js",
+      "file": "assets/Aide-legacy-DhFEfDFF.js",
       "bytes": 33354,
-      "sha256": "143878f4949fc21033938f4041b0148cbb8e054120d88127e684537dc0f962f0"
+      "sha256": "a0a477368aa0e8b0f119e95e69e036cfb985d754d6254066a98b1215332de65c"
     },
     {
       "file": "assets/AnnualClosureModal-CWLhhHDd.js",
@@ -247,14 +247,14 @@
       "sha256": "fa6f2c5116761e2db243ad0de65c46f68b65e899ee9c520efa2f37b81c085130"
     },
     {
-      "file": "assets/MessageriePage-DZtxfX9A.js",
+      "file": "assets/MessageriePage-71GUzMiS.js",
       "bytes": 48700,
-      "sha256": "7960e92b61eccf4e122854ee13fb7dcf3a5ae66ecde246fa1143c5bf725b10d5"
+      "sha256": "a426dc88f22c9e94a9317de57fb7d9cec71214ec5dcf01d984e996b3380c11a0"
     },
     {
-      "file": "assets/MessageriePage-legacy-DmgFtAxn.js",
+      "file": "assets/MessageriePage-legacy-3EjZY6E0.js",
       "bytes": 62069,
-      "sha256": "c475889657548919705f0d8be2bed54ceb5d9cc8d53bb3e38066b7ad7f8ae469"
+      "sha256": "ac0175daba6d8cd98fdbbda2090520dc5403f1bcee9685f49732f792cc5ad519"
     },
     {
       "file": "assets/NotificationCenter-DTf8sLkZ.js",
@@ -572,14 +572,14 @@
       "sha256": "755af65a92c15974feebd442ebe6e9c1d10f0eed9bacd6fd084907d5c9985de9"
     },
     {
-      "file": "assets/index-CsMaorWd.js",
-      "bytes": 546400,
-      "sha256": "e00c67424114d7eaa4d90b02a73c1bbdfb0bca0d3e6db48230bed58d087e66d9"
+      "file": "assets/index-duC-KGPu.js",
+      "bytes": 546578,
+      "sha256": "fae1abe5c4e2d57f9e984abe40928900e89278e967ba3915a259f4564e55b271"
     },
     {
-      "file": "assets/index-legacy-DVer1C28.js",
-      "bytes": 975394,
-      "sha256": "d8ffe5d988220ead2f58b83e53ed7afcfdf3efaeea233e8abea103634075db3a"
+      "file": "assets/index-legacy-BB0XIV7p.js",
+      "bytes": 975610,
+      "sha256": "2a5c47f806366a47174e65d9b86a5c10efeeabf9c4d2c3e99808ccf83ec4ca6a"
     },
     {
       "file": "assets/index.es-DvrdImGJ.js",
@@ -1134,7 +1134,7 @@
     {
       "file": "index.html",
       "bytes": 8942,
-      "sha256": "d544f935ec2a3fa29876d66dc30b52b3e8cce703c1f5f7cd34b1def857de7173"
+      "sha256": "95d17faebd5df376c324a77d1a4b37c0e5eab5c8ffc19483b553cc227dece53b"
     },
     {
       "file": "manifest.webmanifest",
@@ -1144,7 +1144,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 29388,
-      "sha256": "e91c7c0de849cd7a51d72eb6f63312f70ae69d1e66fc3199efc05986f804a539"
+      "sha256": "c9c7165bb03fa4ccb35d269dbf1acb90ee04f4fd2d9ebb9acd02fcb45427e614"
     },
     {
       "file": "reset-cache.html",
@@ -1164,7 +1164,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "badcaedb83ea65dc63d25fbf7e3605daa254da2e5d1e6b3ab4004cd571b4be0c"
+      "sha256": "8d5ccb0a09754cbc0915494f10a48c7d31bdf9527918d148db51a5c410b02768"
     },
     {
       "file": "v.html",
@@ -1178,8 +1178,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 557,
-      "sha256": "9964de34f0aac25c92090ccb6135b0fbe5901a4103dcb9bfe786d544fb10dad2"
+      "bytes": 546,
+      "sha256": "7fb6368cd1520dccadb90df7fb1476f726bc3c800c0a2a0292803f0d88ad4bec"
     },
     {
       "file": "voix/phrases.json",

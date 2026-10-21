@@ -1,10 +1,10 @@
 {
-  "version": "v644",
+  "version": "v645",
   "date": "2026-10-20",
-  "note": "Matières : la langue d’enseignement se coche (français, arabe, ou les deux). Les deux langues créent deux matières jumelles — « Écriture (français) » et « Écriture (arabe) » — chacune avec son professeur, ses notes et sa ligne au bulletin. Au bulletin, chaque matière s’écrit dans sa langue.",
-  "label": "Matières par langue",
-  "label_ar": "المواد حسب اللغة",
-  "scope": "client+supabase",
+  "note": "iPhone : dans les fenêtres (Inscrire un élève…), le champ touché reste visible au-dessus du clavier, même quand Safari fait défiler la fenêtre pendant la montée du clavier. Sauvegarde de la nuit : une panne passagère du stockage des fichiers est reprise jusqu’à trois fois.",
+  "label": "Champ visible et sauvegarde tenace",
+  "label_ar": "حقل ظاهر ونسخ احتياطي",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-21T01:00:00.000Z"
+  "updated_at": "2026-10-21T09:00:00.000Z"
 }
