@@ -1,10 +1,10 @@
 {
-  "version": "v652",
-  "package_version": "1.0.652",
-  "label": "Emploi du temps en grille",
-  "created_at": "2026-10-21T19:56:53.031Z",
+  "version": "v653",
+  "package_version": "1.0.653",
+  "label": "Cycle sur une feuille A3",
+  "created_at": "2026-10-21T20:56:01.347Z",
   "files": 366,
-  "total_bytes": 28098261,
+  "total_bytes": 28100553,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -22,14 +22,14 @@
       "sha256": "e12d444036caf226884ff99f7b531e73118ec635b76ebea2fbaf2232f82a15d9"
     },
     {
-      "file": "assets/Aide-BFFvS8VI.js",
+      "file": "assets/Aide-Bme-k3Y8.js",
       "bytes": 26122,
-      "sha256": "0de0959ec25276ca4148fd4f968176ccf06fba613fdb7b3b775668e662290e62"
+      "sha256": "b780323862fd37bc79507585c114ae6c8b843942384fefbc5b4e4f1d2cb47eb9"
     },
     {
-      "file": "assets/Aide-legacy-BxGDfu0X.js",
+      "file": "assets/Aide-legacy-C7nlVteW.js",
       "bytes": 33354,
-      "sha256": "8cfdc287bc4ec59b0768dd54d0fdc6e97e6537e02d8b861257f1dce4a57371cf"
+      "sha256": "f2bc70780912228b317986c5fb161b790faa3afb40028bab49ea7a6541debf42"
     },
     {
       "file": "assets/AnnualClosureModal-B2thA_7I.js",
@@ -247,14 +247,14 @@
       "sha256": "fa6f2c5116761e2db243ad0de65c46f68b65e899ee9c520efa2f37b81c085130"
     },
     {
-      "file": "assets/MessageriePage-BZz62fNO.js",
+      "file": "assets/MessageriePage-Bzd1kG7k.js",
       "bytes": 48700,
-      "sha256": "c78f4b940d148f2729d26e046fbc50a25692877b98dfa53c749b840a05e73dda"
+      "sha256": "d73a4ed284c2eb10dcc57b74c6d45aa3c7ac048a5c24d9a69f39b5f5eed038af"
     },
     {
-      "file": "assets/MessageriePage-legacy-BMfIhSPh.js",
+      "file": "assets/MessageriePage-legacy-BZh01Z4N.js",
       "bytes": 62069,
-      "sha256": "673141cb9490a9dc2e25a406577fbb731aab7956ffab01ba2d0dae32095ad62a"
+      "sha256": "490a08b0c81177749aead51492eb9256497efaf76fc42904722c77dfa66bb832"
     },
     {
       "file": "assets/NotificationCenter-RYOnKQTs.js",
@@ -557,19 +557,19 @@
       "sha256": "06ebcbf9c56cb42d691214e15950b609ceb23738e3161a0e0e76404e89f60148"
     },
     {
-      "file": "assets/impression-officielle-DvRvvPRn.js",
-      "bytes": 5301,
-      "sha256": "4d241886bdf93e045d049000036eff0f06b04d30e770bad24b6478bc8e0c5b7d"
+      "file": "assets/impression-officielle-B7XHkkdD.js",
+      "bytes": 6323,
+      "sha256": "9ae5207b7c7ad87800388b8e9f561c134dc9810aaf31dc373173aeafbd7a8d59"
     },
     {
-      "file": "assets/impression-officielle-legacy-B_sfeowv.js",
-      "bytes": 7422,
-      "sha256": "e76baf811cc3063d268e8396840ee6f49e855cc09ebe0db355eac05f2e99c7e9"
+      "file": "assets/impression-officielle-legacy-MQq6o9e4.js",
+      "bytes": 8684,
+      "sha256": "16eae4bcd1fea0e7d0daa7efe475529459818a20bf94427d28c1d484e75a484e"
     },
     {
-      "file": "assets/index-BdquZpAp.js",
+      "file": "assets/index-B_Fc01qL.js",
       "bytes": 553287,
-      "sha256": "088ebbf284320210379176cbd78f52223ecafe6b6b5c0ecdc455c529abc45338"
+      "sha256": "4fb48b8d1a201a34ad1798a00b2ea13f44f57f4a31092caef1874c0b5499e7d6"
     },
     {
       "file": "assets/index-jBzVicr-.css",
@@ -577,9 +577,9 @@
       "sha256": "403f27cf9440aa7fc4f5a605523b54ab38d99dba5467857a2017a8380617f5f8"
     },
     {
-      "file": "assets/index-legacy-CDx7MX5A.js",
+      "file": "assets/index-legacy-BvAdu2bD.js",
       "bytes": 985160,
-      "sha256": "fa9a2fe2c137892fbc24fc062a80719e28ee5fa0cbe8fd79b6779e134afab36d"
+      "sha256": "d173aec911f82f7c9d67ce29ca81e143e1f273cb864b76ed4e4d00e2c9548808"
     },
     {
       "file": "assets/index.es-BniceH-L.js",
@@ -1134,7 +1134,7 @@
     {
       "file": "index.html",
       "bytes": 8942,
-      "sha256": "074a7e2776e1324e31b03a8767ae6679f83cac16a26c538c0a6f37995fff0bc8"
+      "sha256": "f264a745ca56eb5810286d7c788a67b2f9d4c1a6ef4c4dfbd3bcd7d0ebac3f5b"
     },
     {
       "file": "manifest.webmanifest",
@@ -1144,7 +1144,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 29388,
-      "sha256": "64134c3655aeb7ae2ad61ea5176808d0ba6c9b130cfcb89e7f3f4c65baa39146"
+      "sha256": "3e05e27b85d29f6e0f310c1cadcac36cff90e0af6a3a05d07185137a0d0234d3"
     },
     {
       "file": "reset-cache.html",
@@ -1164,7 +1164,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "227027a43b8d5bf2400a10c7b39ff3261de16fc41b9cdde98898ed4969cf642c"
+      "sha256": "f8eb4dda4b8a978f0eeb7b9c3dc74ca61d1e6601287cb6237d12d2e17f03af28"
     },
     {
       "file": "v.html",
@@ -1178,8 +1178,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 509,
-      "sha256": "d88b767d5bc09091f06799c6ce90319753181eb626ac632a5741c79e2a848219"
+      "bytes": 517,
+      "sha256": "d6a961bdccca265aaa1f00ba2b5e0a72c6d666688fba0c311b0049592804cefa"
     },
     {
       "file": "voix/phrases.json",

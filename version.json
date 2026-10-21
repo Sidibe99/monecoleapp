@@ -1,10 +1,10 @@
 {
-  "version": "v652",
+  "version": "v653",
   "date": "2026-10-21",
-  "note": "Emploi du temps : l'impression d'une classe se fait en grille, les horaires en lignes et les jours en colonnes, sur une seule feuille A4. Une récréation commune à tous les jours tient sur une seule case, et les matières en arabe s'écrivent de droite à gauche.",
-  "label": "Emploi du temps en grille",
-  "label_ar": "جدول الحصص في شبكة",
+  "note": "Emploi du temps : « Imprimer le cycle » pose toutes les classes du cycle sur une seule feuille A3, une petite grille par classe (heures × jours), avec le maître de chaque classe dans son titre. La taille du texte et le sens de la feuille s'ajustent au nombre de classes.",
+  "label": "Cycle sur une feuille A3",
+  "label_ar": "المرحلة على ورقة A3",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-21T22:00:00.000Z"
+  "updated_at": "2026-10-21T23:00:00.000Z"
 }
