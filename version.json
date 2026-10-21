@@ -1,10 +1,10 @@
 {
-  "version": "v654",
+  "version": "v655",
   "date": "2026-10-21",
-  "note": "Emploi du temps imprimé : quand les jours n'ont pas les mêmes horaires (un entretien de 08:00 à 08:15 le mercredi, par exemple), les séances se rangent dans l'ordre de la journée et chaque case porte son heure. Plus de cases vides en zigzag.",
-  "label": "Horaires décalés en ordre",
-  "label_ar": "أوقات متفاوتة بالترتيب",
+  "note": "Tableau de bord : avec plusieurs classes, « Cours du jour » montre une ligne par classe — le cours en cours ou le prochain, le suivant, les leçons non renseignées. Un clic déplie la journée de la classe, et la liste « Classe » n'en montre qu'une.",
+  "label": "Cours du jour par classe",
+  "label_ar": "حصص اليوم حسب الفصل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-21T23:30:00.000Z"
+  "updated_at": "2026-10-22T00:00:00.000Z"
 }
