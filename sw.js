@@ -1,6 +1,6 @@
-const CACHE_NAME = "monecole-vite-v651";
+const CACHE_NAME = "monecole-vite-v652";
 // Remplacé uniquement dans dist/sw.js, après génération de tous les bundles.
-const MANIFEST_SHA256 = "4f8da03bea4ed2d59f8a2a5ce6cee48c31be7cfd20dfd49d60196af5b4c5fd2f";
+const MANIFEST_SHA256 = "64134c3655aeb7ae2ad61ea5176808d0ba6c9b130cfcb89e7f3f4c65baa39146";
 const CACHE_STORAGE_NAME = `${CACHE_NAME}-${MANIFEST_SHA256.slice(0, 16)}`;
 const OFFLINE_MANIFEST_URL = "/offline-manifest.json";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);

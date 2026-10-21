@@ -1,10 +1,10 @@
 {
-  "version": "v651",
+  "version": "v652",
   "date": "2026-10-21",
-  "note": "Classes du primaire : chaque classe choisit qui enseigne — un professeur par matière, un maître pour toutes les matières, ou deux maîtres (français et arabe) dans une école bilingue. L'emploi du temps place le bon maître sur chaque séance selon la langue de la matière, et « Attribuer les maîtres » remplit les séances déjà saisies.",
-  "label": "Maîtres des classes du primaire",
-  "label_ar": "معلمو فصول الابتدائي",
-  "scope": "client+supabase",
+  "note": "Emploi du temps : l'impression d'une classe se fait en grille, les horaires en lignes et les jours en colonnes, sur une seule feuille A4. Une récréation commune à tous les jours tient sur une seule case, et les matières en arabe s'écrivent de droite à gauche.",
+  "label": "Emploi du temps en grille",
+  "label_ar": "جدول الحصص في شبكة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-21T21:00:00.000Z"
+  "updated_at": "2026-10-21T22:00:00.000Z"
 }
