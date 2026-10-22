@@ -1,10 +1,11 @@
 {
-  "version": "v661",
+  "version": "v662",
   "date": "2026-10-22",
-  "note": "Tarifs scolaires simplifiés : mensualités, tranches égales ou paiement annuel, classes regroupées par cycle et application de tarifs à plusieurs classes avec confirmation. Complétion des échéances mensuelles, récapitulatif avant enregistrement et protection des échéances déjà payées. Les tarifs non renseignés, hérités et gratuits restent distincts.",
-  "label": "Tarifs et échéances simplifiés",
-  "label_ar": "تبسيط الرسوم والاستحقاقات",
-  "scope": "client",
+  "note": "Tranches égales ou personnalisées pour chaque classe, avec contrôle du total annuel. Les paiements, reçus, retards et l’espace parent utilisent les montants de chaque tranche. Les versements mensuels et acomptes restent disponibles. Protection de la répartition après encaissement ; aucun paiement historique réécrit.",
+  "label": "Tranches personnalisées par classe",
+  "label_ar": "أقساط مخصصة لكل قسم",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-22T16:08:44.000Z"
+  "requires_database_migration": "20261022_v662_tranches_personnalisees.sql",
+  "updated_at": "2026-10-22T17:44:18.000Z"
 }
