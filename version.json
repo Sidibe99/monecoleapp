@@ -1,10 +1,10 @@
 {
-  "version": "v659",
+  "version": "v660",
   "date": "2026-10-22",
-  "note": "Espace Parent : présences et retards mieux distingués, données financières datées, reçus imprimables et PDF, choix de l'enfant conservé et protection des données sur appareil partagé.",
-  "label": "Espace Parent : suivi fiable et reçus",
-  "label_ar": "فضاء الأولياء: متابعة موثوقة وإيصالات",
-  "scope": "client+supabase",
+  "note": "Espace École : frais manquants distingués de la gratuité, états sans données clarifiés, guide de démarrage réorganisé, paiements paginés et classes repliables, analyses du tableau de bord dépliables et suivi des résultats par classe et matière. Les trop-perçus ne masquent plus les soldes des autres élèves.",
+  "label": "Espace École : finances fiables et suivi simplifié",
+  "label_ar": "فضاء المدرسة: مالية موثوقة ومتابعة مبسطة",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-22T12:18:29.000Z"
+  "updated_at": "2026-10-22T14:11:08.000Z"
 }
