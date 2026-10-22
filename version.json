@@ -1,10 +1,10 @@
 {
-  "version": "v657",
+  "version": "v658",
   "date": "2026-10-21",
-  "note": "Élèves : en tapant dans la recherche, une liste propose les élèves qui correspondent (nom, matricule, parents, tuteur, téléphone) et les classes. Un clic, ou les flèches et Entrée, ouvre la fiche de l'élève ; une classe ouvre son cycle.",
-  "label": "Suggestions de recherche",
-  "label_ar": "اقتراحات البحث",
+  "note": "Export Excel des élèves : une feuille « Résumé », puis une feuille par classe, élèves par ordre alphabétique, colonnes à la bonne largeur. L'export de la page Classes ajoute aussi une feuille par classe. Un fichier exporté ainsi se réimporte en entier.",
+  "label": "Export Excel par classe",
+  "label_ar": "تصدير Excel حسب الفصل",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-22T11:30:00.000Z"
+  "updated_at": "2026-10-22T12:30:00.000Z"
 }
