@@ -1,10 +1,10 @@
 {
-  "version": "v658",
-  "date": "2026-10-21",
-  "note": "Export Excel des élèves : une feuille « Résumé », puis une feuille par classe, élèves par ordre alphabétique, colonnes à la bonne largeur. L'export de la page Classes ajoute aussi une feuille par classe. Un fichier exporté ainsi se réimporte en entier.",
-  "label": "Export Excel par classe",
-  "label_ar": "تصدير Excel حسب الفصل",
-  "scope": "client",
+  "version": "v659",
+  "date": "2026-10-22",
+  "note": "Espace Parent : présences et retards mieux distingués, données financières datées, reçus imprimables et PDF, choix de l'enfant conservé et protection des données sur appareil partagé.",
+  "label": "Espace Parent : suivi fiable et reçus",
+  "label_ar": "فضاء الأولياء: متابعة موثوقة وإيصالات",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-10-22T12:30:00.000Z"
+  "updated_at": "2026-10-22T12:18:29.000Z"
 }
