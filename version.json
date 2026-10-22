@@ -1,10 +1,10 @@
 {
-  "version": "v655",
+  "version": "v656",
   "date": "2026-10-21",
-  "note": "Tableau de bord : avec plusieurs classes, « Cours du jour » montre une ligne par classe — le cours en cours ou le prochain, le suivant, les leçons non renseignées. Un clic déplie la journée de la classe, et la liste « Classe » n'en montre qu'une.",
-  "label": "Cours du jour par classe",
-  "label_ar": "حصص اليوم حسب الفصل",
+  "note": "Bulletin et fiche élève : une matière qui a des composantes (Grammaire, Conjugaison… dans Français) tient sur une seule ligne, avec la moyenne de ses composantes. La moyenne générale et le rang ne changent pas. La fiche élève ne montre plus que les matières de la classe de l'élève.",
+  "label": "Matière principale seule",
+  "label_ar": "المادة الرئيسية وحدها",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-10-22T00:00:00.000Z"
+  "updated_at": "2026-10-22T10:30:00.000Z"
 }
