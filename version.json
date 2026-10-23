@@ -1,11 +1,11 @@
 {
-  "version": "v662",
-  "date": "2026-10-22",
-  "note": "Tranches égales ou personnalisées pour chaque classe, avec contrôle du total annuel. Les paiements, reçus, retards et l’espace parent utilisent les montants de chaque tranche. Les versements mensuels et acomptes restent disponibles. Protection de la répartition après encaissement ; aucun paiement historique réécrit.",
-  "label": "Tranches personnalisées par classe",
-  "label_ar": "أقساط مخصصة لكل قسم",
+  "version": "v663",
+  "date": "2026-10-23",
+  "note": "Scolarité annuelle calculée depuis les tranches, total avec inscription et application des tarifs au début de chaque cycle. Correction des erreurs d’enregistrement des tranches. Documents organisés en cinq rubriques avec aperçu, page de test, choix du signataire et emblème masquable sans supprimer son image. Les versements libres et mensuels restent disponibles ; aucun paiement historique réécrit.",
+  "label": "Tarifs et documents simplifiés",
+  "label_ar": "تبسيط الرسوم والوثائق",
   "scope": "client+supabase",
   "client_visible": true,
-  "requires_database_migration": "20261022_v662_tranches_personnalisees.sql",
-  "updated_at": "2026-10-22T17:44:18.000Z"
+  "requires_database_migration": "20261023_v663_document_emblem_visibility.sql",
+  "updated_at": "2026-10-23T11:10:28.000Z"
 }
