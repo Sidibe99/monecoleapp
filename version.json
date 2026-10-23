@@ -1,11 +1,11 @@
 {
-  "version": "v664",
+  "version": "v665",
   "date": "2026-10-23",
-  "note": "Mise en forme indépendante de l’en-tête, du titre et du contenu des documents : police, taille, alignement, couleur, gras, italique et soulignement. Aperçu immédiat, retour au style du modèle et meilleure disposition des titres bilingues. Les cartes scolaires conservent leur mise en page dédiée. Aucun paiement ni tarif modifié.",
-  "label": "Mise en forme des documents",
-  "label_ar": "تنسيق نصوص الوثائق",
-  "scope": "client+supabase",
+  "note": "Documents et Mes documents : alignement pleine largeur, mise en page, interligne et styles détaillés avec aperçu avant impression. Compte : notifications regroupées, test et suivi de synchronisation, identification fiable des appareils et erreurs de double authentification mieux expliquées. Données de l’école : diagnostics contextualisés et exports Excel avec récapitulatif séparé. Aucun paiement ni tarif modifié.",
+  "label": "Documents et compte améliorés",
+  "label_ar": "تحسين الوثائق والحساب",
+  "scope": "client",
   "client_visible": true,
   "requires_database_migration": "20261023_v664_document_text_styles.sql",
-  "updated_at": "2026-10-23T12:42:32.000Z"
+  "updated_at": "2026-10-23T15:51:54.000Z"
 }
