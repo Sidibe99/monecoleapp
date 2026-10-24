@@ -1,12 +1,12 @@
 {
-  "version": "v667",
+  "version": "v668",
   "date": "2026-10-24",
-  "note": "Fiches à imprimer : pagination exacte, modèles complets, suivi des acquis, matières et enseignants liés à la classe, aperçu complet et statistiques explicites. Matières et Personnel : plusieurs enseignants avec classes propres et sous-matières héritées. Comptes : périmètres explicites et comparaison des affectations. Épreuves regroupées avec correcteurs et validation, résultats séparés des moyennes ordinaires. Planning : lecture des petits créneaux et compteurs par matière principale. Aucun paiement, tarif ou horaire existant modifié.",
-  "label": "Fiches, matières et comptes harmonisés",
-  "label_ar": "تنسيق البطاقات والمواد والحسابات",
-  "scope": "client",
+  "note": "Élèves, matières, personnel et comptes : recherches améliorées, affectations par classe, regroupements des matières et accès concordants. Paiements, présences, résultats, discipline, autorisations et rapports : filtres, compteurs et liens ciblés harmonisés. Dépenses : bilan de période stable et filtres explicites. Aide : recherche et brouillon d’assistance. IA : contexte d’origine conservé, cours recherchables, objectifs et prérequis, barème sur 10, 20 ou personnalisé avec contrôle du total et mode hors connexion expliqué. Aucun paiement, tarif, horaire ou note existant modifié automatiquement.",
+  "label": "Concordance de l’école et IA pédagogique",
+  "label_ar": "ترابط شؤون المدرسة والذكاء الاصطناعي التعليمي",
+  "scope": "client+supabase",
   "client_visible": true,
-  "requires_database_migration": "20261024_affectations_pedagogiques.sql,20261024_epreuves_regroupees.sql",
-  "requires_edge_function_update": "create-user",
-  "updated_at": "2026-10-24T14:35:07.000Z"
+  "requires_database_migration": "20261024_v668_contexte_generation_cours.sql",
+  "requires_edge_function_update": "ia-educative",
+  "updated_at": "2026-10-24T20:04:00.000Z"
 }
