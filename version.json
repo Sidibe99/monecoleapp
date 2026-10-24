@@ -1,11 +1,12 @@
 {
-  "version": "v666",
+  "version": "v667",
   "date": "2026-10-24",
-  "note": "Emploi du temps : compteurs d’enseignement distincts des pauses, consultation et édition séparées, grille horaire et liste quotidienne, filtres, détection des conflits et intervalles vides, cahier de textes dédié, copie avec aperçu et historique. Alertes et notifications : ouverture de la rubrique, de la liste et des filtres concernés. Aucun paiement ni tarif modifié.",
-  "label": "Planning et alertes ciblées",
-  "label_ar": "الجدول والتنبيهات الموجهة",
+  "note": "Fiches à imprimer : pagination exacte, modèles complets, suivi des acquis, matières et enseignants liés à la classe, aperçu complet et statistiques explicites. Matières et Personnel : plusieurs enseignants avec classes propres et sous-matières héritées. Comptes : périmètres explicites et comparaison des affectations. Épreuves regroupées avec correcteurs et validation, résultats séparés des moyennes ordinaires. Planning : lecture des petits créneaux et compteurs par matière principale. Aucun paiement, tarif ou horaire existant modifié.",
+  "label": "Fiches, matières et comptes harmonisés",
+  "label_ar": "تنسيق البطاقات والمواد والحسابات",
   "scope": "client",
   "client_visible": true,
-  "requires_database_migration": "20261024_planning_historique_copie.sql",
-  "updated_at": "2026-10-24T09:43:36.000Z"
+  "requires_database_migration": "20261024_affectations_pedagogiques.sql,20261024_epreuves_regroupees.sql",
+  "requires_edge_function_update": "create-user",
+  "updated_at": "2026-10-24T14:35:07.000Z"
 }
