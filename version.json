@@ -1,12 +1,12 @@
 {
-  "version": "v668",
+  "version": "v669",
   "date": "2026-10-24",
-  "note": "Élèves, matières, personnel et comptes : recherches améliorées, affectations par classe, regroupements des matières et accès concordants. Paiements, présences, résultats, discipline, autorisations et rapports : filtres, compteurs et liens ciblés harmonisés. Dépenses : bilan de période stable et filtres explicites. Aide : recherche et brouillon d’assistance. IA : contexte d’origine conservé, cours recherchables, objectifs et prérequis, barème sur 10, 20 ou personnalisé avec contrôle du total et mode hors connexion expliqué. Aucun paiement, tarif, horaire ou note existant modifié automatiquement.",
-  "label": "Concordance de l’école et IA pédagogique",
-  "label_ar": "ترابط شؤون المدرسة والذكاء الاصطناعي التعليمي",
-  "scope": "client+supabase",
+  "note": "Cartes scolaires et du comité : nom complet de l’école sur chaque face, aperçu recto/verso séparé, choix de police et de taille, fonds unis ou dégradés et sélection des élèves à imprimer. Impression recto-verso alignée ou cartes côte à côte à plier. Comité : recherche par nom, matricule et classe, modification des fonctions, état des mandats et sauvegarde confirmée avant la préparation des cartes. Résultats scolaires : chargement sécurisé des onglets pour éviter le blocage à l’ouverture. Aucune note, aucun paiement ni horaire existant modifié automatiquement.",
+  "label": "Cartes lisibles et résultats accessibles",
+  "label_ar": "بطاقات واضحة ونتائج متاحة",
+  "scope": "client",
   "client_visible": true,
-  "requires_database_migration": "20261024_v668_contexte_generation_cours.sql",
-  "requires_edge_function_update": "ia-educative",
-  "updated_at": "2026-10-24T20:04:00.000Z"
+  "requires_database_migration": null,
+  "requires_edge_function_update": null,
+  "updated_at": "2026-10-24T21:35:00.000Z"
 }
