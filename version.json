@@ -1,21 +1,14 @@
 {
-  "version": "v670",
+  "version": "v673",
   "date": "2026-11-03",
-  "note": "Enregistrements protégés entre plusieurs postes : quand une autre personne a modifié la même fiche entre-temps (comité, bulletins, absences du personnel, réglages et comptes, matières, leçons, emploi du temps, maîtres, évaluations, classes types, dépenses, autorisations de sortie, discipline, fiche du personnel), rien n’est écrasé, la saisie reste et l’écran le dit. Les enregistrements groupés réussissent entièrement ou ne changent rien. Pièces jointes de discipline ajoutées en même temps toutes conservées. Aucune note, aucun paiement ni horaire existant modifié automatiquement.",
-  "label": "Enregistrements protégés",
-  "label_ar": "حفظ محمي",
+  "note": "Rattrapage au choix de l’école : pour un élève qui n’a aucune note à un trimestre terminé (arrivé en cours d’année…), le trimestre ne compte pas et le bulletin le dit (« Moyenne sur les périodes suivies ») ; la direction peut au contraire prévoir un rattrapage — le bulletin reste provisoire jusqu’à la note validée — ou l’annuler avec un motif gardé au Journal. Aucune note ni paiement modifié.",
+  "label": "Rattrapage au choix de l’école",
+  "label_ar": "استدراك باختيار المدرسة",
   "scope": "client+supabase",
   "client_visible": true,
   "requires_database_migration": [
-    "20261102_comite_atomique.sql",
-    "20261102_enregistrements_groupes.sql",
-    "20261102_reglages_comptes_atomiques.sql",
-    "20261103_cases_planning_atomiques.sql",
-    "20261103_classes_types_atomiques.sql",
-    "20261103_maitres_planning_atomiques.sql",
-    "20261103_matieres_jumelles_atomiques.sql",
-    "20261103_v670_personnel_version.sql"
+    "20261103_v673_rattrapages.sql"
   ],
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-03T13:30:00.000Z"
+  "updated_at": "2026-11-03T18:00:00.000Z"
 }
