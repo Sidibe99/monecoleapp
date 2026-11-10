@@ -1,12 +1,14 @@
 {
-  "version": "v674",
-  "date": "2026-11-07",
-  "note": "Application Android : le bouton retour ferme maintenant l’application depuis l’écran de connexion (il ne faisait rien), et l’écran d’activation revient à la connexion. Sur un téléphone Android, dans le navigateur, l’écran de connexion et la page Aide proposent d’installer l’application depuis Google Play. Rien ne change dans la base.",
-  "label": "Bouton retour Android et Google Play",
-  "label_ar": "زر الرجوع في أندرويد وGoogle Play",
-  "scope": "client",
+  "version": "v675",
+  "date": "2026-11-10",
+  "note": "Sécurité de la base, après l’audit du 10 novembre (aucune fuite trouvée) : une fonction interne des fiches de notes n’est plus appelable directement, sept règles d’accès créées à la main et en double des règles officielles sont retirées, et la protection du compte fondateur est désormais écrite dans le code. Rien ne change à l’écran.",
+  "label": "Ménage de sécurité de la base",
+  "label_ar": "تنظيف أمان قاعدة البيانات",
+  "scope": "client+supabase",
   "client_visible": true,
-  "requires_database_migration": null,
+  "requires_database_migration": [
+    "20261110_v675_menage_securite.sql"
+  ],
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-07T09:00:00.000Z"
+  "updated_at": "2026-11-10T22:30:00.000Z"
 }
