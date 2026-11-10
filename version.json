@@ -1,14 +1,12 @@
 {
-  "version": "v673",
-  "date": "2026-11-03",
-  "note": "Rattrapage au choix de l’école : pour un élève qui n’a aucune note à un trimestre terminé (arrivé en cours d’année…), le trimestre ne compte pas et le bulletin le dit (« Moyenne sur les périodes suivies ») ; la direction peut au contraire prévoir un rattrapage — le bulletin reste provisoire jusqu’à la note validée — ou l’annuler avec un motif gardé au Journal. Aucune note ni paiement modifié.",
-  "label": "Rattrapage au choix de l’école",
-  "label_ar": "استدراك باختيار المدرسة",
-  "scope": "client+supabase",
+  "version": "v674",
+  "date": "2026-11-07",
+  "note": "Application Android : le bouton retour ferme maintenant l’application depuis l’écran de connexion (il ne faisait rien), et l’écran d’activation revient à la connexion. Sur un téléphone Android, dans le navigateur, l’écran de connexion et la page Aide proposent d’installer l’application depuis Google Play. Rien ne change dans la base.",
+  "label": "Bouton retour Android et Google Play",
+  "label_ar": "زر الرجوع في أندرويد وGoogle Play",
+  "scope": "client",
   "client_visible": true,
-  "requires_database_migration": [
-    "20261103_v673_rattrapages.sql"
-  ],
+  "requires_database_migration": null,
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-03T18:00:00.000Z"
+  "updated_at": "2026-11-07T09:00:00.000Z"
 }
