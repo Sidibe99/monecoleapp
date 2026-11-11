@@ -1,14 +1,14 @@
 {
-  "version": "v675",
-  "date": "2026-11-10",
-  "note": "Sécurité de la base, après l’audit du 10 novembre (aucune fuite trouvée) : une fonction interne des fiches de notes n’est plus appelable directement, sept règles d’accès créées à la main et en double des règles officielles sont retirées, et la protection du compte fondateur est désormais écrite dans le code. Rien ne change à l’écran.",
-  "label": "Ménage de sécurité de la base",
-  "label_ar": "تنظيف أمان قاعدة البيانات",
+  "version": "v676",
+  "date": "2026-11-11",
+  "note": "Journal : chaque action affiche maintenant son auteur et son rôle (une action sur deux s’affichait « Système », et l’auteur d’un incident, d’une autorisation ou d’un mot de passe changé n’apparaissait jamais), et chaque action n’y figure plus qu’une fois. Dans une école bilingue, le parent voit chaque matière dans sa langue d’enseignement. Base vérifiée en entier et remise en accord avec le code, avec des index pour rester rapide. Aucune note ni paiement modifié.",
+  "label": "Journal : l’auteur de chaque action",
+  "label_ar": "السجل: صاحب كل إجراء",
   "scope": "client+supabase",
   "client_visible": true,
   "requires_database_migration": [
-    "20261110_v675_menage_securite.sql"
+    "20261111_v676_base_conforme.sql"
   ],
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-10T22:30:00.000Z"
+  "updated_at": "2026-11-11T01:30:00.000Z"
 }
