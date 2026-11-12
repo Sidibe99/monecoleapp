@@ -1,14 +1,15 @@
 {
-  "version": "v676",
-  "date": "2026-11-11",
-  "note": "Journal : chaque action affiche maintenant son auteur et son rôle (une action sur deux s’affichait « Système », et l’auteur d’un incident, d’une autorisation ou d’un mot de passe changé n’apparaissait jamais), et chaque action n’y figure plus qu’une fois. Dans une école bilingue, le parent voit chaque matière dans sa langue d’enseignement. Base vérifiée en entier et remise en accord avec le code, avec des index pour rester rapide. Aucune note ni paiement modifié.",
-  "label": "Journal : l’auteur de chaque action",
-  "label_ar": "السجل: صاحب كل إجراء",
+  "version": "v681",
+  "date": "2026-11-12",
+  "note": "Établissement plus simple : quatre onglets au lieu de sept — École (avec la langue et le logo de l’application), Scolarité, Documents (vos réglages personnels repliés dessous) et Mon compte (thème, notifications, sécurité) ; dans École, le code MEN, le préfixe des matricules et la devise de l’école sont rangés sous « Plus de détails » ; dans Scolarité, les dates d’échéance sont repliées sous un titre qui dit combien sont renseignées ; dans Documents, la mise en forme détaillée et la position des logos sont repliées. Pour les professeurs et les autres comptes sans réglage de l’école, la page s’appelle « Mon compte ». Présences et cahier de textes : l’application ne télécharge plus toute l’année à chaque synchronisation, seulement le jour même et les absences récentes ; les totaux de l’année viennent du serveur. Une école de 1 500 élèves passe de 40 Mo (synchronisation incomplète) à moins de 6 Mo, et ce poids ne grandit plus au fil des mois. Les chiffres et courbes ne changent pas. Côté base, un registre garde la trace des migrations appliquées. Aucune note ni paiement modifié.",
+  "label": "Établissement plus simple",
+  "label_ar": "المؤسسة أبسط",
   "scope": "client+supabase",
   "client_visible": true,
   "requires_database_migration": [
-    "20261111_v676_base_conforme.sql"
+    "20261111_v677_presences_synthese.sql",
+    "20261112_v678_registre_migrations.sql"
   ],
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-11T01:30:00.000Z"
+  "updated_at": "2026-11-12T09:00:00.000Z"
 }
