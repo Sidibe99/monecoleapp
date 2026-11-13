@@ -1,12 +1,12 @@
 {
-  "version": "v682",
+  "version": "v684",
   "date": "2026-11-13",
-  "note": "Menu regroupé : 19 entrées au lieu de 23 pour la direction. Présences, Discipline et Autorisations sont réunies dans « Vie scolaire », à trois onglets ; Journal et Corbeille dans « Historique », à deux onglets. « Abonnement MonEcole » quitte le menu : on l’ouvre depuis Établissement → Abonnement de l’école (« Voir les formules et renouveler »). Les droits ne changent pas : un compte qui n’a qu’une page du groupe la garde sous son propre nom, et chaque compte ne voit que les onglets qu’il peut ouvrir. La recherche du menu trouve toujours « Discipline » ou « Corbeille ». Aucune donnée modifiée.",
-  "label": "Menu regroupé",
-  "label_ar": "قائمة مجمّعة",
+  "note": "Guide à jour : le guide d’utilisation (page Aide, PDF et Word) est refait sur l’application d’aujourd’hui, avec 43 captures neuves : menu regroupé (Vie scolaire, Historique), abonnement sous Établissement, Établissement en quatre onglets, sécurité du compte repliée, encaissement de plusieurs mois en un seul reçu, langue anglaise, hors ligne sur iPhone. Aucune donnée modifiée.",
+  "label": "Guide à jour",
+  "label_ar": "الدليل محدّث",
   "scope": "client",
   "client_visible": true,
   "requires_database_migration": null,
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-13T09:00:00.000Z"
+  "updated_at": "2026-11-13T17:30:00.000Z"
 }
