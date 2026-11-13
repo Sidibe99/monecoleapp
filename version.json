@@ -1,15 +1,12 @@
 {
-  "version": "v681",
-  "date": "2026-11-12",
-  "note": "Établissement plus simple : quatre onglets au lieu de sept — École (avec la langue et le logo de l’application), Scolarité, Documents (vos réglages personnels repliés dessous) et Mon compte (thème, notifications, sécurité) ; dans École, le code MEN, le préfixe des matricules et la devise de l’école sont rangés sous « Plus de détails » ; dans Scolarité, les dates d’échéance sont repliées sous un titre qui dit combien sont renseignées ; dans Documents, la mise en forme détaillée et la position des logos sont repliées. Pour les professeurs et les autres comptes sans réglage de l’école, la page s’appelle « Mon compte ». Présences et cahier de textes : l’application ne télécharge plus toute l’année à chaque synchronisation, seulement le jour même et les absences récentes ; les totaux de l’année viennent du serveur. Une école de 1 500 élèves passe de 40 Mo (synchronisation incomplète) à moins de 6 Mo, et ce poids ne grandit plus au fil des mois. Les chiffres et courbes ne changent pas. Côté base, un registre garde la trace des migrations appliquées. Aucune note ni paiement modifié.",
-  "label": "Établissement plus simple",
-  "label_ar": "المؤسسة أبسط",
-  "scope": "client+supabase",
+  "version": "v682",
+  "date": "2026-11-13",
+  "note": "Menu regroupé : 19 entrées au lieu de 23 pour la direction. Présences, Discipline et Autorisations sont réunies dans « Vie scolaire », à trois onglets ; Journal et Corbeille dans « Historique », à deux onglets. « Abonnement MonEcole » quitte le menu : on l’ouvre depuis Établissement → Abonnement de l’école (« Voir les formules et renouveler »). Les droits ne changent pas : un compte qui n’a qu’une page du groupe la garde sous son propre nom, et chaque compte ne voit que les onglets qu’il peut ouvrir. La recherche du menu trouve toujours « Discipline » ou « Corbeille ». Aucune donnée modifiée.",
+  "label": "Menu regroupé",
+  "label_ar": "قائمة مجمّعة",
+  "scope": "client",
   "client_visible": true,
-  "requires_database_migration": [
-    "20261111_v677_presences_synthese.sql",
-    "20261112_v678_registre_migrations.sql"
-  ],
+  "requires_database_migration": null,
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-12T09:00:00.000Z"
+  "updated_at": "2026-11-13T09:00:00.000Z"
 }
