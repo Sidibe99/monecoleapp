@@ -1,12 +1,12 @@
 {
-  "version": "v684",
+  "version": "v685",
   "date": "2026-11-13",
-  "note": "Guide à jour : le guide d’utilisation (page Aide, PDF et Word) est refait sur l’application d’aujourd’hui, avec 43 captures neuves : menu regroupé (Vie scolaire, Historique), abonnement sous Établissement, Établissement en quatre onglets, sécurité du compte repliée, encaissement de plusieurs mois en un seul reçu, langue anglaise, hors ligne sur iPhone. Aucune donnée modifiée.",
-  "label": "Guide à jour",
-  "label_ar": "الدليل محدّث",
+  "note": "Documents à jour : le guide montre les vrais tarifs de l’abonnement (80 000, 95 000 et 110 000 GNF par mois) ; la présentation et la fiche de présentation suivent l’application d’aujourd’hui (menu regroupé, application Android sur Google Play, langue anglaise, paiements déclarés par les parents). Aucune donnée modifiée.",
+  "label": "Documents à jour",
+  "label_ar": "الوثائق محدّثة",
   "scope": "client",
   "client_visible": true,
   "requires_database_migration": null,
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-13T17:30:00.000Z"
+  "updated_at": "2026-11-13T18:30:00.000Z"
 }
