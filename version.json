@@ -1,12 +1,14 @@
 {
-  "version": "v694",
+  "version": "v695",
   "date": "2026-11-16",
-  "note": "Recettes du budget calculées : dans Dépenses → Budget, un bouton calcule la scolarité et les frais d’inscription prévus d’après les frais des classes et les élèves inscrits. Les montants sont à vérifier puis à enregistrer.",
-  "label": "Recettes du budget calculées",
-  "label_ar": "مقبوضات الميزانية محسوبة",
-  "scope": "client",
+  "note": "L’appel sans Internet : un professeur sans réseau fait l’appel comme d’habitude ; le téléphone le garde avec son heure et l’envoie au retour du réseau. Il est accepté s’il a été fait pendant le cours et qu’il arrive le jour même ; la feuille d’appel l’indique.",
+  "label": "L’appel sans Internet",
+  "label_ar": "تسجيل الحضور دون إنترنت",
+  "scope": "client+supabase",
   "client_visible": true,
-  "requires_database_migration": null,
+  "requires_database_migration": [
+    "20261116_v695_appel_hors_ligne.sql"
+  ],
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-16T22:00:00.000Z"
+  "updated_at": "2026-11-16T23:00:00.000Z"
 }
