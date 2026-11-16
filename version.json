@@ -1,12 +1,12 @@
 {
-  "version": "v693",
+  "version": "v694",
   "date": "2026-11-16",
-  "note": "Guide à jour : le guide d’utilisation de la page Aide montre les écrans d’aujourd’hui, avec la trésorerie et le budget, l’appel « Tous présents » et les filtres repliés. Le budget range désormais les frais d’inscription sur la bonne ligne.",
-  "label": "Guide à jour",
-  "label_ar": "الدليل محدّث",
+  "note": "Recettes du budget calculées : dans Dépenses → Budget, un bouton calcule la scolarité et les frais d’inscription prévus d’après les frais des classes et les élèves inscrits. Les montants sont à vérifier puis à enregistrer.",
+  "label": "Recettes du budget calculées",
+  "label_ar": "مقبوضات الميزانية محسوبة",
   "scope": "client",
   "client_visible": true,
   "requires_database_migration": null,
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-16T21:00:00.000Z"
+  "updated_at": "2026-11-16T22:00:00.000Z"
 }
