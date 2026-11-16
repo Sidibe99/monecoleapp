@@ -1,14 +1,12 @@
 {
-  "version": "v692",
+  "version": "v693",
   "date": "2026-11-16",
-  "note": "Trésorerie de l’école : dans la page Dépenses, le solde réel de chaque compte (caisse, banque, Orange Money, MoMo), le comptage de la caisse, les mouvements entre comptes, le budget de l’année prévu et réalisé, et un export Excel pour le comptable. Écrans plus simples sur téléphone pour chaque rôle : l’appel en un geste « Tous présents » et les cours du jour en tête pour le professeur, un espace Parent allégé, des filtres repliés, des listes plus courtes, des dépenses en cartes. L’application télécharge moins de données (paiements de l’année, messages récents) et les frais des classes ne s’affichent qu’à qui voit les paiements.",
-  "label": "Trésorerie et écrans simplifiés",
-  "label_ar": "الخزينة وشاشات مبسّطة",
-  "scope": "client+supabase",
+  "note": "Guide à jour : le guide d’utilisation de la page Aide montre les écrans d’aujourd’hui, avec la trésorerie et le budget, l’appel « Tous présents » et les filtres repliés. Le budget range désormais les frais d’inscription sur la bonne ligne.",
+  "label": "Guide à jour",
+  "label_ar": "الدليل محدّث",
+  "scope": "client",
   "client_visible": true,
-  "requires_database_migration": [
-    "20261116_v691_tresorerie.sql"
-  ],
+  "requires_database_migration": null,
   "requires_edge_function_update": null,
-  "updated_at": "2026-11-16T20:00:00.000Z"
+  "updated_at": "2026-11-16T21:00:00.000Z"
 }
