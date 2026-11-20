@@ -107,7 +107,7 @@
   const DUREE_MAX=20;
   const jeton=(location.hash||"").slice(1);
   const $=id=>document.getElementById(id);
-  const etat={phrases:[],enregistrees:new Set(),index:0,flux:null,enregistreur:null,morceaux:[],brouillon:null,typeBrouillon:"",minuteur:0,debut:0,occupe:false};
+  const etat={phrases:[],enregistrees:new Set(),index:0,flux:null,enregistreur:null,morceaux:[],brouillon:null,typeBrouillon:"",minuteur:0,debut:0,occupe:false,demarrage:false};
 
   const afficherErreur=texte=>{const e=$("erreur");e.textContent=texte||"";e.hidden=!texte;};
   const appeler=async corps=>{
@@ -184,30 +184,57 @@
     if(etat.enregistreur&&etat.enregistreur.state==="recording")etat.enregistreur.stop();
   };
 
+  // v696 — un micro neuf pour chaque enregistrement, rendu dès l'arrêt.
+  // Garder le même flux d'un enregistrement à l'autre ne marchait qu'une fois :
+  // sur l'iPhone, la réécoute (ou le simple arrêt) coupe la piste du micro, et
+  // le deuxième enregistrement partait d'un flux mort — il fallait recharger.
+  const fermerMicro=flux=>{
+    if(!flux)return;
+    try{flux.getTracks().forEach(piste=>piste.stop());}catch(_){}
+    if(etat.flux===flux)etat.flux=null;
+  };
+
   const commencer=async()=>{
+    if(etat.demarrage||etat.occupe)return;
     afficherErreur("");
     const type=typeEnregistrement();
     if(type===null){afficherErreur("Ce navigateur ne sait pas enregistrer. Ouvrez ce lien dans Chrome (Android) ou Safari (iPhone), à jour.");return;}
+    etat.demarrage=true;
+    let flux=null;
     try{
-      if(!etat.flux)etat.flux=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
+      fermerMicro(etat.flux);
+      flux=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
     }catch(_){
+      etat.demarrage=false;
       afficherErreur("Le micro est refusé. Autorisez le micro pour ce site dans les réglages du navigateur, puis rechargez la page.");return;
     }
     oublierBrouillon();
-    etat.morceaux=[];
-    etat.enregistreur=type?new MediaRecorder(etat.flux,{mimeType:type}):new MediaRecorder(etat.flux);
-    etat.enregistreur.ondataavailable=e=>{if(e.data&&e.data.size)etat.morceaux.push(e.data);};
-    etat.enregistreur.onstop=()=>{
-      const typeFinal=(etat.enregistreur.mimeType||type||"audio/webm").split(";")[0];
-      const blob=new Blob(etat.morceaux,{type:typeFinal});
-      etat.brouillon=blob.size>800?{blob,url:URL.createObjectURL(blob),type:typeFinal}:null;
-      if(!etat.brouillon)afficherErreur("Rien n’a été entendu. Rapprochez le téléphone de votre bouche et recommencez.");
-      $("chrono").textContent=etat.brouillon?"Réécoutez, puis gardez ou recommencez.":"";
-      rendre();
-    };
-    etat.enregistreur.start();
+    // Chaque enregistrement garde ses propres morceaux : un arrêt tardif du
+    // précédent ne peut pas mélanger ses données à celles du suivant.
+    const morceaux=[];
+    let enregistreur;
+    try{
+      enregistreur=type?new MediaRecorder(flux,{mimeType:type}):new MediaRecorder(flux);
+      enregistreur.ondataavailable=e=>{if(e.data&&e.data.size)morceaux.push(e.data);};
+      enregistreur.onstop=()=>{
+        fermerMicro(flux);
+        if(etat.enregistreur!==enregistreur)return;
+        const typeFinal=(enregistreur.mimeType||type||"audio/webm").split(";")[0];
+        const blob=new Blob(morceaux,{type:typeFinal});
+        etat.brouillon=blob.size>800?{blob,url:URL.createObjectURL(blob),type:typeFinal}:null;
+        if(!etat.brouillon)afficherErreur("Rien n’a été entendu. Rapprochez le téléphone de votre bouche et recommencez.");
+        $("chrono").textContent=etat.brouillon?"Réécoutez, puis gardez ou recommencez.":"";
+        rendre();
+      };
+      enregistreur.start();
+    }catch(_){
+      fermerMicro(flux);etat.demarrage=false;
+      afficherErreur("L’enregistrement n’a pas pu démarrer. Réessayez ; si cela recommence, rechargez la page.");rendre();return;
+    }
+    etat.flux=flux;etat.morceaux=morceaux;etat.enregistreur=enregistreur;etat.demarrage=false;
     etat.debut=Date.now();
     $("chrono").textContent=`0 s / ${DUREE_MAX} s`;
+    clearInterval(etat.minuteur);
     etat.minuteur=setInterval(()=>{
       const s=Math.floor((Date.now()-etat.debut)/1000);
       $("chrono").textContent=`${s} s / ${DUREE_MAX} s`;

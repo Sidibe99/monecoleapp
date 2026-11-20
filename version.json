@@ -1,14 +1,10 @@
 {
-  "version": "v695",
-  "date": "2026-11-16",
-  "note": "L’appel sans Internet : un professeur sans réseau fait l’appel comme d’habitude ; le téléphone le garde avec son heure et l’envoie au retour du réseau. Il est accepté s’il a été fait pendant le cours et qu’il arrive le jour même ; la feuille d’appel l’indique.",
-  "label": "L’appel sans Internet",
-  "label_ar": "تسجيل الحضور دون إنترنت",
-  "scope": "client+supabase",
-  "client_visible": true,
-  "requires_database_migration": [
-    "20261116_v695_appel_hors_ligne.sql"
-  ],
-  "requires_edge_function_update": null,
-  "updated_at": "2026-11-16T23:00:00.000Z"
+  "version": "v696",
+  "date": "2026-11-20",
+  "note": "Voix des parents : sur la page d’enregistrement, on peut enregistrer, refaire et passer à la phrase suivante autant de fois qu’on veut, sans recharger la page. Le micro s’éteint après chaque phrase.",
+  "label": "Les voix enregistrées sans recharger",
+  "label_ar": "تسجيل الأصوات دون إعادة تحميل الصفحة",
+  "scope": "client",
+  "client_visible": false,
+  "updated_at": "2026-11-20T12:00:00.000Z"
 }

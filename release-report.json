@@ -1,10 +1,10 @@
 {
-  "version": "v695",
-  "package_version": "1.0.695",
-  "label": "L’appel sans Internet",
-  "created_at": "2026-11-16T20:44:41.153Z",
+  "version": "v696",
+  "package_version": "1.0.696",
+  "label": "Les voix enregistrées sans recharger",
+  "created_at": "2026-11-20T13:11:19.683Z",
   "files": 456,
-  "total_bytes": 30415808,
+  "total_bytes": 30416841,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -1584,7 +1584,7 @@
     {
       "file": "index.html",
       "bytes": 8942,
-      "sha256": "95adfa7a7cb78170fdab8ceb4dbdfe0fbced6daea9c01cf806eb93b7f908a20d"
+      "sha256": "eb8e726e337683bd6a911cc473ad7efae940dfaf6dc8be9753fb1c789615d494"
     },
     {
       "file": "manifest.webmanifest",
@@ -1594,7 +1594,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 43101,
-      "sha256": "d7b0a6bfb96e0997e5e87ad60c57b63b960e8994ee9a196a8c050c28b3013e31"
+      "sha256": "a16310fda57b1a9c1f3f67bcdf1c8d14828f2f8bb460f65a55571b61530ba001"
     },
     {
       "file": "reset-cache.html",
@@ -1614,7 +1614,7 @@
     {
       "file": "sw.js",
       "bytes": 11221,
-      "sha256": "3e56cf57bf41a28701ac9ae46f3d41c01d328ab780d5f7ed856d70e966eaee83"
+      "sha256": "aa7e428be917318237849ba94e4c4cfa043ece8ddf49096b1db63bc321b77ba4"
     },
     {
       "file": "v.html",
@@ -1628,8 +1628,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 667,
-      "sha256": "3efae33a875242e8b706bc09ad03181477a6af988b61bc0f8e8c874cedcce15c"
+      "bytes": 498,
+      "sha256": "79d52198cb83ecb4aba5cca52f871b168f9d8c129df453fa003d8ecc3dd4b1a5"
     },
     {
       "file": "voix/phrases.json",
@@ -2283,8 +2283,8 @@
     },
     {
       "file": "voix.html",
-      "bytes": 14691,
-      "sha256": "5e916311839344fc2a3b357a979c3b21248626dcecd59df151992de194c33663"
+      "bytes": 15893,
+      "sha256": "13b9f235493437dc767b2770b6b1e98edc27dfb941bfe64c963b53ae61549f56"
     }
   ]
 }
