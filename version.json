@@ -1,14 +1,10 @@
 {
-  "version": "v698",
+  "version": "v699",
   "date": "2026-11-21",
-  "note": "Trésorerie : « + Autre recette » enregistre l’argent qui ne vient pas d’un élève (subvention, don, location de salle, cantine…) ; il entre dans le compte de son moyen de paiement et dans le budget. Budget : « + Ajouter une recette » crée vos propres lignes (Cantine, Tenues, Transport…) pour les prévoir avant le premier encaissement.",
-  "label": "Les autres recettes de l’école",
-  "label_ar": "مقبوضات المدرسة الأخرى",
-  "scope": "client+supabase",
+  "note": "Budget : une ligne de recette que vous avez ajoutée se retire avec « ✕ Retirer ». Pas encore enregistrée, elle disparaît tout de suite ; enregistrée, elle disparaît avec « Enregistrer le budget ». Une ligne où de l’argent est déjà entré reste affichée.",
+  "label": "Retirer une ligne du budget",
+  "label_ar": "حذف سطر من الميزانية",
+  "scope": "client",
   "client_visible": true,
-  "requires_database_migration": [
-    "20261121_v698_recettes_diverses.sql"
-  ],
-  "requires_edge_function_update": null,
-  "updated_at": "2026-11-21T17:00:00.000Z"
+  "updated_at": "2026-11-21T18:30:00.000Z"
 }
