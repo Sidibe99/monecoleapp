@@ -1,10 +1,10 @@
 {
-  "version": "v696",
-  "date": "2026-11-20",
-  "note": "Voix des parents : sur la page d’enregistrement, on peut enregistrer, refaire et passer à la phrase suivante autant de fois qu’on veut, sans recharger la page. Le micro s’éteint après chaque phrase.",
-  "label": "Les voix enregistrées sans recharger",
-  "label_ar": "تسجيل الأصوات دون إعادة تحميل الصفحة",
+  "version": "v697",
+  "date": "2026-11-21",
+  "note": "Budget (page Dépenses) : le total et le résultat prévus suivent les montants tapés ou calculés, avant même l’enregistrement, et chaque montant s’écrit lisiblement sous sa case (292 275 000 GNF au lieu de 292275000). Le bouton « Calculer les recettes d’après les frais » est désormais à côté du total des recettes.",
+  "label": "Un budget plus lisible",
+  "label_ar": "ميزانية أوضح",
   "scope": "client",
-  "client_visible": false,
-  "updated_at": "2026-11-20T12:00:00.000Z"
+  "client_visible": true,
+  "updated_at": "2026-11-21T15:45:00.000Z"
 }
