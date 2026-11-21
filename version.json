@@ -1,10 +1,14 @@
 {
-  "version": "v697",
+  "version": "v698",
   "date": "2026-11-21",
-  "note": "Budget (page Dépenses) : le total et le résultat prévus suivent les montants tapés ou calculés, avant même l’enregistrement, et chaque montant s’écrit lisiblement sous sa case (292 275 000 GNF au lieu de 292275000). Le bouton « Calculer les recettes d’après les frais » est désormais à côté du total des recettes.",
-  "label": "Un budget plus lisible",
-  "label_ar": "ميزانية أوضح",
-  "scope": "client",
+  "note": "Trésorerie : « + Autre recette » enregistre l’argent qui ne vient pas d’un élève (subvention, don, location de salle, cantine…) ; il entre dans le compte de son moyen de paiement et dans le budget. Budget : « + Ajouter une recette » crée vos propres lignes (Cantine, Tenues, Transport…) pour les prévoir avant le premier encaissement.",
+  "label": "Les autres recettes de l’école",
+  "label_ar": "مقبوضات المدرسة الأخرى",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-11-21T15:45:00.000Z"
+  "requires_database_migration": [
+    "20261121_v698_recettes_diverses.sql"
+  ],
+  "requires_edge_function_update": null,
+  "updated_at": "2026-11-21T17:00:00.000Z"
 }
