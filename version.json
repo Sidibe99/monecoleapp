@@ -1,10 +1,10 @@
 {
-  "version": "v699",
-  "date": "2026-11-21",
-  "note": "Budget : une ligne de recette que vous avez ajoutée se retire avec « ✕ Retirer ». Pas encore enregistrée, elle disparaît tout de suite ; enregistrée, elle disparaît avec « Enregistrer le budget ». Une ligne où de l’argent est déjà entré reste affichée.",
-  "label": "Retirer une ligne du budget",
-  "label_ar": "حذف سطر من الميزانية",
+  "version": "v703",
+  "date": "2026-11-22",
+  "note": "La direction trouve plus vite : trois points d’abord dans « À suivre », Personnel avec « Gérer » et « ••• » (Modifier, Supprimer) et les salaires repliés sur téléphone, Utilisateurs en cartes compactes, « Plus d’options » dans les fenêtres Dépense, Cours et Personnel, et dans « Encaisser » l’élève se cherche par son nom.",
+  "label": "La direction trouve plus vite",
+  "label_ar": "الإدارة تجد أسرع",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-21T18:30:00.000Z"
+  "updated_at": "2026-11-22T19:00:00.000Z"
 }
