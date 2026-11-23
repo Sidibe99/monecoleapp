@@ -1,10 +1,10 @@
 {
-  "version": "v706",
+  "version": "v707",
   "date": "2026-11-23",
-  "note": "Le parent est prévenu sur son téléphone, même application fermée : une absence de son enfant, un nouveau bulletin, un paiement reçu. Sur l’accueil, « Activer les alertes » le propose une fois. L’avis ne dit jamais le nom de l’enfant ni le montant.",
-  "label": "Le parent prévenu",
-  "label_ar": "الولي على علم",
-  "scope": "client+supabase",
+  "note": "Dans l’espace Parent en arabe, les derniers mots restés en français sont traduits : paiements (total, payé, reste, statut, mois), présences (absences, retards, jours de présence), discipline et autorisations, et le bouton « Télécharger PDF » du bulletin.",
+  "label": "L’espace Parent en arabe",
+  "label_ar": "فضاء الأولياء بالعربية",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-23T12:00:00.000Z"
+  "updated_at": "2026-11-23T20:00:00.000Z"
 }
