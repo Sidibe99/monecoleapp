@@ -1,10 +1,10 @@
 {
-  "version": "v703",
-  "date": "2026-11-22",
-  "note": "La direction trouve plus vite : trois points d’abord dans « À suivre », Personnel avec « Gérer » et « ••• » (Modifier, Supprimer) et les salaires repliés sur téléphone, Utilisateurs en cartes compactes, « Plus d’options » dans les fenêtres Dépense, Cours et Personnel, et dans « Encaisser » l’élève se cherche par son nom.",
-  "label": "La direction trouve plus vite",
-  "label_ar": "الإدارة تجد أسرع",
-  "scope": "client",
+  "version": "v706",
+  "date": "2026-11-23",
+  "note": "Le parent est prévenu sur son téléphone, même application fermée : une absence de son enfant, un nouveau bulletin, un paiement reçu. Sur l’accueil, « Activer les alertes » le propose une fois. L’avis ne dit jamais le nom de l’enfant ni le montant.",
+  "label": "Le parent prévenu",
+  "label_ar": "الولي على علم",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-11-22T19:00:00.000Z"
+  "updated_at": "2026-11-23T12:00:00.000Z"
 }
