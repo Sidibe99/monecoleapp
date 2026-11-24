@@ -1,10 +1,10 @@
 {
-  "version": "v707",
-  "date": "2026-11-23",
-  "note": "Dans l’espace Parent en arabe, les derniers mots restés en français sont traduits : paiements (total, payé, reste, statut, mois), présences (absences, retards, jours de présence), discipline et autorisations, et le bouton « Télécharger PDF » du bulletin.",
-  "label": "L’espace Parent en arabe",
-  "label_ar": "فضاء الأولياء بالعربية",
+  "version": "v708",
+  "date": "2026-11-24",
+  "note": "Un professeur qui enseigne dans deux écoles, ou un parent dont les enfants sont dans des écoles différentes, ajoute ses autres comptes dans le menu (« Ajouter un compte ») puis passe de l’un à l’autre d’un toucher, sans se déconnecter ni retaper son mot de passe.",
+  "label": "Plusieurs comptes sur un appareil",
+  "label_ar": "عدة حسابات على جهاز واحد",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-23T20:00:00.000Z"
+  "updated_at": "2026-11-24T10:00:00.000Z"
 }
