@@ -1,10 +1,10 @@
 {
-  "version": "v708",
+  "version": "v709",
   "date": "2026-11-24",
-  "note": "Un professeur qui enseigne dans deux écoles, ou un parent dont les enfants sont dans des écoles différentes, ajoute ses autres comptes dans le menu (« Ajouter un compte ») puis passe de l’un à l’autre d’un toucher, sans se déconnecter ni retaper son mot de passe.",
-  "label": "Plusieurs comptes sur un appareil",
-  "label_ar": "عدة حسابات على جهاز واحد",
-  "scope": "client",
+  "note": "Un téléphone qui porte plusieurs comptes (« Mes comptes ») reçoit maintenant les alertes de chacun : l’alerte dit de quelle école elle vient, et la toucher ouvre directement le bon compte.",
+  "label": "Les alertes de tous les comptes",
+  "label_ar": "تنبيهات كل الحسابات",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-11-24T10:00:00.000Z"
+  "updated_at": "2026-11-24T14:00:00.000Z"
 }

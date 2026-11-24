@@ -1,0 +1,1 @@
+System.register(["./monecole-core-legacy-C_U37bVo.js"],function(t,e){"use strict";var n;return{setters:[function(t){n=t.c$}],execute:function(){var e=0;t("n",function(){return"write-".concat(n(),"-").concat((++e).toString(36))})}}});

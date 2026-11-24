@@ -1,6 +1,6 @@
-const CACHE_NAME = "monecole-vite-v708";
+const CACHE_NAME = "monecole-vite-v709";
 // Remplacé uniquement dans dist/sw.js, après génération de tous les bundles.
-const MANIFEST_SHA256 = "b691ce5e0bd60c4c92170f57b88343e2f8a7074a2585249e0fe79fa8007ccd4d";
+const MANIFEST_SHA256 = "3e8a6070ea8417dd244f35739b00d2fbf5f4dcc857c06360b3b5139ff25992d3";
 const CACHE_STORAGE_NAME = `${CACHE_NAME}-${MANIFEST_SHA256.slice(0, 16)}`;
 const OFFLINE_MANIFEST_URL = "/offline-manifest.json";
 const TRUSTED_RUNTIME_HOSTS = new Set(["cdnjs.cloudflare.com"]);
@@ -184,8 +184,10 @@ self.addEventListener("push", event => {
   const corps = typeof donnees.corps === "string" ? donnees.corps.slice(0, 200) : "";
   const page = PAGE_SURE.test(donnees.page || "") ? donnees.page : "";
   const tag = typeof donnees.tag === "string" && /^[a-z0-9-]{1,40}$/.test(donnees.tag) ? donnees.tag : "monecole";
+  // v709 — le compte concerné (téléphone avec plusieurs comptes) : la toucher l'ouvre.
+  const compte = typeof donnees.compte === "string" && /^[0-9]{1,12}$/.test(donnees.compte) ? donnees.compte : "";
   event.waitUntil(self.registration.showNotification(titre, {
-    body: corps, tag, renotify: true, icon: "/icon-192.png", badge: "/icon-192.png", data: { page }
+    body: corps, tag, renotify: true, icon: "/icon-192.png", badge: "/icon-192.png", data: { page, compte }
   }));
 });
 
@@ -193,14 +195,17 @@ self.addEventListener("push", event => {
 // sur le bon écran ; sinon elle s'ouvre directement dessus (« ?ouvrir= »).
 self.addEventListener("notificationclick", event => {
   event.notification.close();
-  const demandee = (event.notification.data || {}).page || "";
+  const donnees = event.notification.data || {};
+  const demandee = donnees.page || "";
   const page = PAGE_SURE.test(demandee) ? demandee : "";
+  const compte = /^[0-9]{1,12}$/.test(donnees.compte || "") ? donnees.compte : "";
   event.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(fenetres => {
     const fenetre = fenetres.find(f => new URL(f.url).origin === self.location.origin);
     if (fenetre) {
-      if (page) fenetre.postMessage({ type: "monecole-ouvrir", page });
+      if (page || compte) fenetre.postMessage(compte ? { type: "monecole-ouvrir", page, compte } : { type: "monecole-ouvrir", page });
       return fenetre.focus();
     }
-    return self.clients.openWindow(page ? `/?ouvrir=${page}` : "/");
+    const demande = [page ? `ouvrir=${page}` : "", compte ? `compte=${compte}` : ""].filter(Boolean).join("&");
+    return self.clients.openWindow(demande ? `/?${demande}` : "/");
   }));
 });
