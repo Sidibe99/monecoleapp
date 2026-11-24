@@ -1,10 +1,11 @@
 {
-  "version": "v709",
+  "version": "v711",
   "date": "2026-11-24",
-  "note": "Un téléphone qui porte plusieurs comptes (« Mes comptes ») reçoit maintenant les alertes de chacun : l’alerte dit de quelle école elle vient, et la toucher ouvre directement le bon compte.",
-  "label": "Les alertes de tous les comptes",
-  "label_ar": "تنبيهات كل الحسابات",
+  "note": "Un fondateur ou une direction qui dirige plusieurs écoles (un groupe scolaire) voit maintenant leurs chiffres côte à côte, avec leur total, et ouvre chacune d’un toucher (« Vue d’ensemble de mes écoles », formule Premium).",
+  "label": "Les groupes scolaires",
+  "label_ar": "المجموعات المدرسية",
   "scope": "client+supabase",
+  "deploiement": ["editeur-admin"],
   "client_visible": true,
-  "updated_at": "2026-11-24T14:00:00.000Z"
+  "updated_at": "2026-11-24T18:00:00.000Z"
 }
