@@ -1,11 +1,10 @@
 {
-  "version": "v711",
+  "version": "v712",
   "date": "2026-11-24",
-  "note": "Un fondateur ou une direction qui dirige plusieurs écoles (un groupe scolaire) voit maintenant leurs chiffres côte à côte, avec leur total, et ouvre chacune d’un toucher (« Vue d’ensemble de mes écoles », formule Premium).",
-  "label": "Les groupes scolaires",
-  "label_ar": "المجموعات المدرسية",
-  "scope": "client+supabase",
-  "deploiement": ["editeur-admin"],
+  "note": "Sur téléphone, la fiche élève montre le nom en entier, et la direction lit les notes d’une fiche soumise sans glisser de côté.",
+  "label": "Fiches lisibles sur téléphone",
+  "label_ar": "بطاقات مقروءة على الهاتف",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-24T18:00:00.000Z"
+  "updated_at": "2026-11-24T19:00:00.000Z"
 }
