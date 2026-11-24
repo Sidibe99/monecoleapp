@@ -1,10 +1,10 @@
 {
-  "version": "v713",
+  "version": "v714",
   "date": "2026-11-24",
-  "note": "Une salle tapée « Salle 6 » ne s’affiche plus « Salle Salle 6 » dans l’emploi du temps et l’espace Parent ; chez le parent, le bouton « Envoyer la déclaration » n’est plus caché par la barre du bas.",
-  "label": "La salle écrite une seule fois",
-  "label_ar": "القاعة مكتوبة مرة واحدة",
+  "note": "Dans la messagerie, le message envoyé quitte aussitôt la zone de saisie : on ne croit plus qu’il n’est pas parti.",
+  "label": "Le message envoyé part aussitôt",
+  "label_ar": "الرسالة المرسلة تغادر فورًا",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-24T21:00:00.000Z"
+  "updated_at": "2026-11-24T22:00:00.000Z"
 }
