@@ -1,10 +1,10 @@
 {
-  "version": "v712",
+  "version": "v713",
   "date": "2026-11-24",
-  "note": "Sur téléphone, la fiche élève montre le nom en entier, et la direction lit les notes d’une fiche soumise sans glisser de côté.",
-  "label": "Fiches lisibles sur téléphone",
-  "label_ar": "بطاقات مقروءة على الهاتف",
+  "note": "Une salle tapée « Salle 6 » ne s’affiche plus « Salle Salle 6 » dans l’emploi du temps et l’espace Parent ; chez le parent, le bouton « Envoyer la déclaration » n’est plus caché par la barre du bas.",
+  "label": "La salle écrite une seule fois",
+  "label_ar": "القاعة مكتوبة مرة واحدة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-24T19:00:00.000Z"
+  "updated_at": "2026-11-24T21:00:00.000Z"
 }
