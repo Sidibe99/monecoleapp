@@ -1,10 +1,10 @@
 {
-  "version": "v718",
+  "version": "v719",
   "date": "2026-11-25",
-  "note": "Le comptable gère maintenant le personnel : noms, salaires, versements et reçus. Et « Marquer absent » enregistre de nouveau l’absence d’un enseignant.",
-  "label": "Le comptable gère le personnel et ses salaires",
-  "label_ar": "المحاسب يدير الموظفين ورواتبهم",
-  "scope": "client+supabase",
+  "note": "Sur téléphone, dans la page Utilisateurs, les cartes des comptes sont de nouveau nettes, sans fonds colorés derrière le nom et le rôle.",
+  "label": "Les cartes des comptes, nettes sur téléphone",
+  "label_ar": "بطاقات الحسابات واضحة على الهاتف",
+  "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-25T12:00:00.000Z"
+  "updated_at": "2026-11-25T15:00:00.000Z"
 }
