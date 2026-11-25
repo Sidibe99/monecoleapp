@@ -1,10 +1,10 @@
 {
-  "version": "v716",
+  "version": "v718",
   "date": "2026-11-25",
-  "note": "Au budget, sur téléphone, la case du montant prévu montre le montant entier.",
-  "label": "Le budget lisible sur téléphone",
-  "label_ar": "الميزانية مقروءة على الهاتف",
-  "scope": "client",
+  "note": "Le comptable gère maintenant le personnel : noms, salaires, versements et reçus. Et « Marquer absent » enregistre de nouveau l’absence d’un enseignant.",
+  "label": "Le comptable gère le personnel et ses salaires",
+  "label_ar": "المحاسب يدير الموظفين ورواتبهم",
+  "scope": "client+supabase",
   "client_visible": true,
-  "updated_at": "2026-11-25T09:30:00.000Z"
+  "updated_at": "2026-11-25T12:00:00.000Z"
 }
