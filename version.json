@@ -1,10 +1,10 @@
 {
-  "version": "v719",
+  "version": "v720",
   "date": "2026-11-25",
-  "note": "Sur téléphone, dans la page Utilisateurs, les cartes des comptes sont de nouveau nettes, sans fonds colorés derrière le nom et le rôle.",
-  "label": "Les cartes des comptes, nettes sur téléphone",
-  "label_ar": "بطاقات الحسابات واضحة على الهاتف",
+  "note": "Dans la messagerie, un groupe que vous venez de créer s’ouvre aussitôt, prêt à écrire. Depuis les alertes, les pages Présences et Élèves ne disent plus à tort « aucune absence » ou « aucune classe ». Et sur téléphone, le nom d’un ancien élève ne se coupe plus au milieu d’un mot.",
+  "label": "Le groupe créé s'ouvre prêt à écrire",
+  "label_ar": "المجموعة الجديدة تُفتح جاهزة للكتابة",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-25T15:00:00.000Z"
+  "updated_at": "2026-11-25T16:10:00.000Z"
 }
