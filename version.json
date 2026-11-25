@@ -1,10 +1,10 @@
 {
-  "version": "v714",
+  "version": "v715",
   "date": "2026-11-24",
-  "note": "Dans la messagerie, le message envoyé quitte aussitôt la zone de saisie : on ne croit plus qu’il n’est pas parti.",
-  "label": "Le message envoyé part aussitôt",
-  "label_ar": "الرسالة المرسلة تغادر فورًا",
+  "note": "Quand un parent demande un nouveau mot de passe, la direction est prévenue par la cloche et la demande passe en tête du tableau de bord.",
+  "label": "Le mot de passe oublié arrive dans la cloche",
+  "label_ar": "طلب كلمة المرور المنسية يصل إلى الجرس",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-24T22:00:00.000Z"
+  "updated_at": "2026-11-24T23:30:00.000Z"
 }
