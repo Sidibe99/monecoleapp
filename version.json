@@ -1,10 +1,10 @@
 {
-  "version": "v715",
-  "date": "2026-11-24",
-  "note": "Quand un parent demande un nouveau mot de passe, la direction est prévenue par la cloche et la demande passe en tête du tableau de bord.",
-  "label": "Le mot de passe oublié arrive dans la cloche",
-  "label_ar": "طلب كلمة المرور المنسية يصل إلى الجرس",
+  "version": "v716",
+  "date": "2026-11-25",
+  "note": "Au budget, sur téléphone, la case du montant prévu montre le montant entier.",
+  "label": "Le budget lisible sur téléphone",
+  "label_ar": "الميزانية مقروءة على الهاتف",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-24T23:30:00.000Z"
+  "updated_at": "2026-11-25T09:30:00.000Z"
 }
