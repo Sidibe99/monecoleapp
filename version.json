@@ -1,10 +1,10 @@
 {
-  "version": "v736",
+  "version": "v737",
   "date": "2026-11-26",
-  "note": "Le guide de l’application est mis à jour (rattrapage, messages des parents aux professeurs). La recherche des élèves trouve aussi le numéro du parent.",
-  "label": "Le guide et la présentation à jour",
-  "label_ar": "الدليل والعرض محدَّثان",
+  "note": "Les documents de la fiche élève (attestation, convocation, certificats) écrivent « Classe » sans astérisque. Le guide de l’application est à jour.",
+  "label": "Classe sans astérisque sur les documents",
+  "label_ar": "الفصل دون نجمة في الوثائق",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-26T20:15:00.000Z"
+  "updated_at": "2026-11-26T20:45:00.000Z"
 }
