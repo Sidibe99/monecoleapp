@@ -1,10 +1,10 @@
 {
-  "version": "v735",
-  "package_version": "1.0.735",
-  "label": "Retrouver un élève par le numéro du parent",
-  "created_at": "2026-11-26T20:13:32.885Z",
+  "version": "v736",
+  "package_version": "1.0.736",
+  "label": "Le guide et la présentation à jour",
+  "created_at": "2026-11-26T20:51:45.672Z",
   "files": 489,
-  "total_bytes": 30994127,
+  "total_bytes": 31009476,
   "artifacts": [
     {
       "file": ".nojekyll",
@@ -42,14 +42,14 @@
       "sha256": "f35d513690f34c0e74025ded1e1ebf7f248a743e08532d1ce1ceeb00b39bafb0"
     },
     {
-      "file": "assets/Aide-legacy-DarI1Lcl.js",
+      "file": "assets/Aide-legacy-Bsg5qjm6.js",
       "bytes": 46230,
-      "sha256": "d15e81963a4bfd4e11df290d02ea41833affb4b5235ac24dde2a7f67428bd37d"
+      "sha256": "96fd8170248bee18018ffc45d9508abf707296b4251e1ede74c72d1820ab7594"
     },
     {
-      "file": "assets/Aide-rpf1UPBc.js",
+      "file": "assets/Aide-mgV5cWgF.js",
       "bytes": 37516,
-      "sha256": "79ecadbaeacfca12d151add16acaa274fccbab88de068b8fc117d18a08105d1a"
+      "sha256": "ae0fed7884f60ac02d8d04a3b87468e17657ff8aad734c3b655bbc6b5fdf5777"
     },
     {
       "file": "assets/AnnualClosureModal-DDNZc5vb.js",
@@ -62,14 +62,14 @@
       "sha256": "ed124083dabf792074898ce41e17f58c66bb91de78b2c3818abec9f43b7b25d8"
     },
     {
-      "file": "assets/Autorisations-D1QjyTQu.js",
+      "file": "assets/Autorisations-CikMLrtM.js",
       "bytes": 19147,
-      "sha256": "163013ac6ccff425c2686021b51a1abc375ff2fd80c986f8a2cf83cbffa929a2"
+      "sha256": "6d36fe65b6cae7731f14febcabd94e550ed0143f610aa25439586e33f6adcc23"
     },
     {
-      "file": "assets/Autorisations-legacy-8RoR6omM.js",
+      "file": "assets/Autorisations-legacy-BEA9lhMJ.js",
       "bytes": 27337,
-      "sha256": "465bd3f977a8346187de0cf526a30b9e52e6cc46557a05414a8aa206636ccda8"
+      "sha256": "3db0ca873f6432a03beb952dac93ed87ccd0b5cdd82df9defb6dac38c50544fa"
     },
     {
       "file": "assets/BarreParent-CuG_vj58.js",
@@ -202,14 +202,14 @@
       "sha256": "901d08044387248acf91c436f22e6c4ea3b61156f2b26d4fbac7752012e5142d"
     },
     {
-      "file": "assets/Discipline-BM6c1GBe.js",
+      "file": "assets/Discipline-KH53yKI-.js",
       "bytes": 25655,
-      "sha256": "9116280c186e275b7b267dab01975dc67429647b079b4cce0ff373747208e8a0"
+      "sha256": "e985c7dffceb12f156e3391e71abca64fea15a6719d56e18390435d8708a5668"
     },
     {
-      "file": "assets/Discipline-legacy-BQUoDxPE.js",
+      "file": "assets/Discipline-legacy-0IR1bniP.js",
       "bytes": 35114,
-      "sha256": "ab381c18a436bcac5b0e5c98f6abe2df0be568941730c530b3a3fe8218237dcb"
+      "sha256": "5d583f7e099b8725344f501a49d81aa7770cd65a86b12efbb4289a3c9fc0a1c1"
     },
     {
       "file": "assets/EcouteParent-IPPUY7TR.js",
@@ -252,14 +252,14 @@
       "sha256": "8e79f9fe47533103f8df79c8763d4a29c8c3ba1b4aabe7c14f9038d95b6396d3"
     },
     {
-      "file": "assets/EmploiTemps-hK8EEJXH.js",
+      "file": "assets/EmploiTemps-BY0xPy54.js",
       "bytes": 55419,
-      "sha256": "b95f470a1dc47df2d289218d38ded1519241545e677d682bf078a6c846cda0e6"
+      "sha256": "f756574878dac03d0f9aeb9fe8bb3c83ea5c5adfa95be84f3d791679ce036e0c"
     },
     {
-      "file": "assets/EmploiTemps-legacy-CBAHM1ps.js",
+      "file": "assets/EmploiTemps-legacy-BQg9fh0l.js",
       "bytes": 76711,
-      "sha256": "2c2ccbb7d9493efbcc73aeb1ce85b50a9fadab0ce6c7fe5586172ad77544a56b"
+      "sha256": "9d465499095895a6670344c6df355937f5a997e42e5b65de2c0b4b082aebf70b"
     },
     {
       "file": "assets/EpreuvesRegroupees-BDcPJDPQ.css",
@@ -362,14 +362,14 @@
       "sha256": "7fcda01daacd11ed2af74b7c026bd3b714ca5671b3931cac27243f1459a25233"
     },
     {
-      "file": "assets/ListeArrivees-TPcm-UhX.js",
+      "file": "assets/ListeArrivees-CeeM7EbW.js",
       "bytes": 5408,
-      "sha256": "124ad2300a4f18d5966987522d189296883f7402564b88df67653e50e685c675"
+      "sha256": "7847667e5c29f4058d3c48e30b95bad1528be2103275622a5161353abe71f14c"
     },
     {
-      "file": "assets/ListeArrivees-legacy-jprjC-u4.js",
+      "file": "assets/ListeArrivees-legacy-DXauWPzm.js",
       "bytes": 8135,
-      "sha256": "b2585d32afc965d47831f9aa32f94c52b19988fafa8361e66ddea577dd73e987"
+      "sha256": "27d1bc81c6677c14777841fe1abe1c808da332d247122eb73157a8106181de9d"
     },
     {
       "file": "assets/MasterGate-BY7FGJfY.js",
@@ -387,14 +387,14 @@
       "sha256": "8bce6e6d327cd3631e1ec2c43ce48b221b95bc4441eb1398bebb4a9b634d773e"
     },
     {
-      "file": "assets/MatieresPage-BRLsyFjc.js",
+      "file": "assets/MatieresPage-D9H2yvs4.js",
       "bytes": 26934,
-      "sha256": "74e7f7483c604650c73fbcb19cc54faabfaf08b654d583b0ad1dbac9f6feb60a"
+      "sha256": "2d3b9eff298ca2968ff228147f33d312c5546bcd0a482d6b12f22faf0e5bbb8d"
     },
     {
-      "file": "assets/MatieresPage-legacy-Dkk9VLEf.js",
+      "file": "assets/MatieresPage-legacy-TVb7LqeI.js",
       "bytes": 43158,
-      "sha256": "8e51027bba1703d2da74f122c87f90a544ea382cd3d0c2e63a43d5b5f584a762"
+      "sha256": "65231fce88eda13763b7895b2692f1a74e0d2879f53daad5e10481743343d3c8"
     },
     {
       "file": "assets/MesEcoles-B8lKW8zA.css",
@@ -432,14 +432,14 @@
       "sha256": "e99383fbe430fe6e2c0111ffc30e0887914d5bdf4982a5f18496b4106cfe5b98"
     },
     {
-      "file": "assets/MessageriePage-B4mqDKWi.js",
+      "file": "assets/MessageriePage-C790uit_.js",
       "bytes": 54953,
-      "sha256": "bb7d03d62b8900f45e2558463de4a05e4d2ec831c3648e7c2fdaaf53c32da598"
+      "sha256": "cf5ab2a554000273607871c4e91fad371f34246b1f571e07faff82b356a80907"
     },
     {
-      "file": "assets/MessageriePage-legacy-DKx17RN0.js",
+      "file": "assets/MessageriePage-legacy-DyMHuJeO.js",
       "bytes": 69850,
-      "sha256": "6b2c3db3a03ac2d8b9eb8074e38b5645b2cde248780490ec54cbd8eccbe86c5a"
+      "sha256": "6dabce5838ebf0b73d2b32a78e939c2f8f5243cf374c351c765688fc31406ed5"
     },
     {
       "file": "assets/NotificationCenter-CpkTBz-c.js",
@@ -477,19 +477,19 @@
       "sha256": "2faeee2075c659363bf9d1cef15b891e15a98b8b233c3a18708306d172803f09"
     },
     {
-      "file": "assets/ParentPortalViews-3xP5F2g7.js",
-      "bytes": 60270,
-      "sha256": "f363036f03db687df16bf26e818d2614113aa6aa362698541a8ec575f55e02f7"
-    },
-    {
       "file": "assets/ParentPortalViews-CLWW8oyS.css",
       "bytes": 1897,
       "sha256": "b265db267036dbc39b2f49527e9d282931caf47e35837e4caf0df554af10d7ef"
     },
     {
-      "file": "assets/ParentPortalViews-legacy-k_g_7DGu.js",
+      "file": "assets/ParentPortalViews-Ct4qtQL8.js",
+      "bytes": 60270,
+      "sha256": "15576330a5acf7765b3da06a59ce0516ae9d6975b8ffba4692c013409ba09fc5"
+    },
+    {
+      "file": "assets/ParentPortalViews-legacy-g2vWtau0.js",
       "bytes": 72752,
-      "sha256": "8bb7c4a5760f2f5b8b57959de2e30f57c33d8d93ca402b6d345a9137c3df204a"
+      "sha256": "f36d47fd5e245690b4e67c27ec184a1dfeadc96afded07e7e3ca505605863d75"
     },
     {
       "file": "assets/PaymentClassTable-CRJT25LG.js",
@@ -502,29 +502,29 @@
       "sha256": "08bc52f61cd7bdc975bfe960f388a01f3dad816f320d3da62bdbf5eaef68e357"
     },
     {
-      "file": "assets/PersonnelPage-D_e_pQqd.js",
+      "file": "assets/PersonnelPage-CV1GJOQr.js",
       "bytes": 33944,
-      "sha256": "c95493885ca4760114e93499b8e20be9649833dd790a9b374b7278a613f4c239"
+      "sha256": "85c6fbd173e002ce5b3211627729dec7fa11e01927d2e96affa2cebfa8485ae3"
     },
     {
-      "file": "assets/PersonnelPage-legacy-d5WDGv3H.js",
+      "file": "assets/PersonnelPage-legacy-BdbT-8ZX.js",
       "bytes": 43918,
-      "sha256": "fbdf5c7571d90888538d352c2ed2055df196c081cf15fc82b06807600549271b"
+      "sha256": "c9da584585a4cfa8a8f61f48026c926c232f24875841b2e9adcc3ca18e0c0117"
     },
     {
-      "file": "assets/PointageScanner-BHgg1gLy.js",
+      "file": "assets/PointageScanner-DPz19TgC.js",
       "bytes": 11565,
-      "sha256": "84445b9bd45f088aa9aedc3f16f961e30eb3e42fdea983f5c5682ade9e2425cb"
+      "sha256": "2096f74fa6cd14b547f69389bf7df6c64434abdadc59880bd76176ecfbb4837f"
     },
     {
-      "file": "assets/PointageScanner-legacy-k3BpHnev.js",
+      "file": "assets/PointageScanner-legacy-D5KJeMbR.js",
       "bytes": 18774,
-      "sha256": "c64dc54ec6150dec5e7fa3c18103d2d5e3487d13af08cacfb1fc506dbc83b5ad"
+      "sha256": "39142e1a0e7e4f433d30931b04932f231ba4924c19776848f38a80a26c4a6a9f"
     },
     {
-      "file": "assets/PresencesGestionPage-BDJfRvMZ.js",
+      "file": "assets/PresencesGestionPage-CWYSsE72.js",
       "bytes": 48189,
-      "sha256": "7da7ff50dc2686e27147816e18e87d26fcb4e35664da752d58942dfaadfeb616"
+      "sha256": "f83581d5b01f36aacd950654348a083d5774439e9b020f31f9d97af7739df529"
     },
     {
       "file": "assets/PresencesGestionPage-C_RS-wlE.css",
@@ -532,9 +532,9 @@
       "sha256": "4463464c9f5e79a0de231e9aee0a986c656bc1e3439bc4e96905293e70aa7d31"
     },
     {
-      "file": "assets/PresencesGestionPage-legacy-CaapFycI.js",
+      "file": "assets/PresencesGestionPage-legacy-DdA9kp9h.js",
       "bytes": 62017,
-      "sha256": "e5c291eb4e7cab4048d34d6721049cba4dcfe394be84beaf43388d44a79bbb63"
+      "sha256": "425e4e5474fada2384cb29b8208eea1c269e81502d93ab4adcb6c9250c29d2f0"
     },
     {
       "file": "assets/PrintFormatControls-C9Q7brkY.js",
@@ -932,9 +932,9 @@
       "sha256": "a391d892e0660d1242b4bd2c50fc957d118145f806a3ccfa8acaea894f5ad4a2"
     },
     {
-      "file": "assets/index-CI0JF6xN.js",
+      "file": "assets/index-Dq-SeQID.js",
       "bytes": 563526,
-      "sha256": "68adcddce2e9ee74c3898d88279fcd16b58a834dfd6432cb61c27369c6cddb62"
+      "sha256": "618efc90e3808f6de91f7fea07a832d473dd70082504d377a64db007f3d929df"
     },
     {
       "file": "assets/index-bGrIn4H7.css",
@@ -942,9 +942,9 @@
       "sha256": "880c7044088bda3d0dc03b974a19fbec16a4f9b52be2e7ae736d6b0f2aab193c"
     },
     {
-      "file": "assets/index-legacy-DgpC2XIe.js",
+      "file": "assets/index-legacy-geduAmcQ.js",
       "bytes": 1017865,
-      "sha256": "82d243f57f0c4e31524f0a5e97e60c1bb9b9ecf415e36c7f81f0d80e09402eda"
+      "sha256": "a7b78ba1356236bbd78de10b8c9fd8e42ca5e138e01a5c8ba981d2a2de4e2a46"
     },
     {
       "file": "assets/index.es-Capq506Z.js",
@@ -1533,8 +1533,8 @@
     },
     {
       "file": "guide/MonEcole-Guide-utilisation.pdf",
-      "bytes": 6173933,
-      "sha256": "4eb1afeb711d306ca85155b4e9664b86bfcdec13bd26ac505df9a280a3fb8e32"
+      "bytes": 6174276,
+      "sha256": "71ef478a3d5e1022e93ae6cd689f6a1c0768ba001d96157c64b10170ba318921"
     },
     {
       "file": "guide/pages/page-01.jpg",
@@ -1628,8 +1628,8 @@
     },
     {
       "file": "guide/pages/page-19.jpg",
-      "bytes": 177144,
-      "sha256": "a42963a759150b038d6d4a899a823f8b6bd76bc0fb4388366667ebddb6df6957"
+      "bytes": 191802,
+      "sha256": "e9507894d401d63b5de5531732f440d2986d13c4ada787fd3c4281a125eb2316"
     },
     {
       "file": "guide/pages/page-20.jpg",
@@ -1673,8 +1673,8 @@
     },
     {
       "file": "guide/pages/page-28.jpg",
-      "bytes": 144119,
-      "sha256": "7d7247917ab18bdbc6f8dd0a42aae2cf1475345e0e36728d72efe971c7d70a22"
+      "bytes": 144447,
+      "sha256": "4db7b41a9f434f346e999597f9844ac7dbad7f36b95a35a427d75bfe6e62aa38"
     },
     {
       "file": "guide/pages/page-29.jpg",
@@ -1749,7 +1749,7 @@
     {
       "file": "index.html",
       "bytes": 8942,
-      "sha256": "cea82942ceda9c7a09c98239b88b571621ee7a119902d5d59eab44961958513f"
+      "sha256": "af1ba6cfc8e935f628a2b5f01baa486e69c959e412c415d6ca41d02a4015ea01"
     },
     {
       "file": "manifest.webmanifest",
@@ -1759,7 +1759,7 @@
     {
       "file": "offline-manifest.json",
       "bytes": 48026,
-      "sha256": "4014bf05d3794d14c5997dbca9da28f6ef127f808b0b29f96093dd9c13d3fd4b"
+      "sha256": "b412754aa6da7ca5c34b40f7f32b0da9b50c7d0b1995777b2a84f18cd4b0f751"
     },
     {
       "file": "reset-cache.html",
@@ -1779,7 +1779,7 @@
     {
       "file": "sw.js",
       "bytes": 11719,
-      "sha256": "95ce5da17c8e5a56a7c6f6287089faffe0b383efd79f51f552ef28d01ab7cc03"
+      "sha256": "72360e863e3eca430520ac6f18e1a7e31ecdb7d90d369071964816727e1fae7d"
     },
     {
       "file": "v.html",
@@ -1793,8 +1793,8 @@
     },
     {
       "file": "version.json",
-      "bytes": 400,
-      "sha256": "30ce4a18088c8188089898e0e63e121a0f9a3f6f2ee2b227e0c3cc2aeaa61004"
+      "bytes": 420,
+      "sha256": "2a7e81810f32609572c1086c49e0de6e752f044f6e4341b82514b07af5d1af7b"
     },
     {
       "file": "voix/phrases.json",
