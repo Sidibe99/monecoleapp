@@ -1,10 +1,10 @@
 {
-  "version": "v721",
-  "date": "2026-11-25",
-  "note": "Sur la fiche d’un élève, une absence justifiée (avec son motif) s’affiche enfin « Justifiée », comme dans les Présences et chez les parents.",
-  "label": "Les absences justifiées, justifiées partout",
-  "label_ar": "الغيابات المبرَّرة مبرَّرة في كل مكان",
+  "version": "v734",
+  "date": "2026-11-26",
+  "note": "Scolarité : la mensualité et deux ou trois tranches par classe, encaissées au mois ou par tranche, lisibles sur téléphone. Le guide de l’application est mis à jour.",
+  "label": "Les tranches lisibles sur téléphone",
+  "label_ar": "الأقساط مقروءة على الهاتف",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-25T19:00:00.000Z"
+  "updated_at": "2026-11-26T18:00:00.000Z"
 }

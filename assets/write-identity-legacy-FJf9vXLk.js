@@ -1,0 +1,1 @@
+System.register(["./monecole-core-legacy-CGuVufb0.js"],function(t,e){"use strict";var n;return{setters:[function(t){n=t.d1}],execute:function(){var e=0;t("n",function(){return"write-".concat(n(),"-").concat((++e).toString(36))})}}});
