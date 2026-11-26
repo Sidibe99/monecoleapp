@@ -1,10 +1,10 @@
 {
-  "version": "v734",
+  "version": "v735",
   "date": "2026-11-26",
-  "note": "Scolarité : la mensualité et deux ou trois tranches par classe, encaissées au mois ou par tranche, lisibles sur téléphone. Le guide de l’application est mis à jour.",
-  "label": "Les tranches lisibles sur téléphone",
-  "label_ar": "الأقساط مقروءة على الهاتف",
+  "note": "La recherche des élèves trouve l’élève par le numéro de téléphone donné par le parent à l’inscription.",
+  "label": "Retrouver un élève par le numéro du parent",
+  "label_ar": "العثور على التلميذ برقم الولي",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-26T18:00:00.000Z"
+  "updated_at": "2026-11-26T19:30:00.000Z"
 }
