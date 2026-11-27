@@ -1,10 +1,10 @@
 {
-  "version": "v737",
-  "date": "2026-11-26",
-  "note": "Les documents de la fiche élève (attestation, convocation, certificats) écrivent « Classe » sans astérisque. Le guide de l’application est à jour.",
-  "label": "Classe sans astérisque sur les documents",
-  "label_ar": "الفصل دون نجمة في الوثائق",
+  "version": "v745",
+  "date": "2026-11-27",
+  "note": "Ajouter une matière en cours de trimestre (par exemple Grammaire dans Français) ne bloque plus les bulletins déjà publiés : ils restent visibles et imprimables, et Français garde son vrai coefficient. Sur téléphone, le classement d’une classe montre la moyenne et la situation de chaque élève. Un reçu retrouvé avec la loupe s’ouvre directement, prêt à réimprimer ou à envoyer. L’aperçu d’un document à imprimer montre toute la page, sans colonne ni mot coupé. En anglais, l’écran écrit « Class: », 13.21 et 100%. Le Journal est plus lisible, et un élève restauré depuis la corbeille revient avec ses paiements, ses présences et le lien avec son parent.",
+  "label": "Les bulletins publiés toujours imprimables",
+  "label_ar": "الكشوف المنشورة قابلة للطباعة دائمًا",
   "scope": "client",
   "client_visible": true,
-  "updated_at": "2026-11-26T20:45:00.000Z"
+  "updated_at": "2026-11-27T15:00:00.000Z"
 }
